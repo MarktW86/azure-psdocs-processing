@@ -4,15 +4,15 @@ description: An overview of Azure PowerShell with links to installation and conf
 author: sdwheeler
 manager: carmonm
 ms.product: azure
-ms.service: powershell
+ms.service: azure-resource-manager
 ms.devlang: powershell
-ms.topic: reference
+ms.topic: conceptual
 ms.author: sewhee
 ms.manager: carmonm
-ms.date: 03/22/2017
+ms.date: 03/30/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/docs-conceptual/overview.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/docs-conceptual/overview.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/75cee45e8c90e798416f7c5c77ffb2fdc8f79261
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/5899226cf95590b8dab1a76b8abbc7acd85325dc
 open_to_public_contributors: false
 ---
 

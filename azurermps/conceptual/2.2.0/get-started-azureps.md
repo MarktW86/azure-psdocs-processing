@@ -5,14 +5,14 @@ services: azure
 author: sdwheeler
 manager: carmonm
 ms.product: azure
-ms.service: powershell
+ms.service: azure-resource-manager
 ms.devlang: powershell
-ms.topic: reference
-ms.date: 03/22/2017
+ms.topic: get-started-article
+ms.date: 03/30/2017
 ms.author: sewhee
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/docs-conceptual/get-started-azureps.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/docs-conceptual/get-started-azureps.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/77aac5a379fd627fd8dc6bb2236e2f69d748c6e8
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/5899226cf95590b8dab1a76b8abbc7acd85325dc
 open_to_public_contributors: false
 ---
 # Getting started with Azure PowerShell
@@ -347,9 +347,7 @@ micromyresomywi032907510                              westeurope Microsoft.Stora
 ## Deleting resources
 
 To clean up your Azure account, you want to remove the resources we created in this example. You
-can remove each resource, individually with the associated `Remove-AzureRm*` cmdlet.
-
-You can use the `Remove-AzureRm*` cmdlet to delete the resources you no longer need. To remove the
+can use the `Remove-AzureRm*` cmdlets to delete the resources you no longer need. To remove the
 Windows VM we created, using the following command:
 
 ```powershell

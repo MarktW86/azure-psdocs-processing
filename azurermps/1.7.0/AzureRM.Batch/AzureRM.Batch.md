@@ -83,7 +83,7 @@ Stop-AzureBatchJobSchedule: Batch
 Stop-AzureBatchPoolResize: Batch
 Stop-AzureBatchTask: Batch
 Test-AzureBatchAutoScale: Batch
-Get-AzureRmBatchSubscriptionQuotas: Others
+Get-AzureRmBatchSubscriptionQuotas: Batch
 _isModulePage: true
 ---
 

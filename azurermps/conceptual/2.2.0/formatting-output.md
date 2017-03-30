@@ -5,14 +5,14 @@ services: azure
 author: sdwheeler
 manager: carmonm
 ms.product: azure
-ms.service: powershell
+ms.service: azure-resource-manager
 ms.devlang: powershell
-ms.topic: reference
-ms.date: 03/22/2017
+ms.topic: conceptual
+ms.date: 03/30/2017
 ms.author: sewhee
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/docs-conceptual/formatting-output.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/docs-conceptual/formatting-output.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/8e3e60d275038dfca0c605c3792ba89bc1b4defe
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/5899226cf95590b8dab1a76b8abbc7acd85325dc
 open_to_public_contributors: false
 ---
 

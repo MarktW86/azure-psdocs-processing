@@ -11,11 +11,11 @@ ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
 open_to_public_contributors: false
-Add-AzureRmIotHubEventHubConsumerGroup: IoT
+Add-AzureRmIotHubEventHubConsumerGroup: Event Hub
 Add-AzureRmIotHubKey: IoT
 Get-AzureRmIotHub: IoT
 Get-AzureRmIotHubConnectionString: IoT
-Get-AzureRmIotHubEventHubConsumerGroup: IoT
+Get-AzureRmIotHubEventHubConsumerGroup: Event Hub
 Get-AzureRmIotHubJob: IoT
 Get-AzureRmIotHubKey: IoT
 Get-AzureRmIotHubQuotaMetric: IoT
@@ -25,7 +25,7 @@ New-AzureRmIotHub: IoT
 New-AzureRmIotHubExportDevices: IoT
 New-AzureRmIotHubImportDevices: IoT
 Remove-AzureRmIotHub: IoT
-Remove-AzureRmIotHubEventHubConsumerGroup: IoT
+Remove-AzureRmIotHubEventHubConsumerGroup: Event Hub
 Remove-AzureRmIotHubKey: IoT
 Set-AzureRmIotHub: IoT
 _isModulePage: true

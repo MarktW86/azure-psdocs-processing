@@ -4,17 +4,16 @@ description: This is a history of changes made to Azure PowerShell in the latest
 services: azure
 author: sdwheeler
 manager: carmonm
-ms.assetid: e2dec06a-4179-49e3-b6b1-b0f278956d11
-ms.service:
+ms.service: azure-resource-manager
 ms.product: azure
 ms.devlang: powershell
-ms.topic: reference
-ms.workload: null
-ms.date: 03/22/2017
+ms.topic: conceptual
+ms.workload:
+ms.date: 03/30/2017
 ms.author: sewhee
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/docs-conceptual/release-notes-azureps.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/docs-conceptual/release-notes-azureps.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2c631126ead3c931b3305b9529c038af471ed0bd
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/5899226cf95590b8dab1a76b8abbc7acd85325dc
 open_to_public_contributors: false
 ---
 

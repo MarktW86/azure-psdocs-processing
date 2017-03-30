@@ -14,16 +14,16 @@ ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
 open_to_public_contributors: false
-Get-AzureRmDtlAllowedVMSizesPolicy: Virtual Machines
-Get-AzureRmDtlAutoShutdownPolicy: Policies
-Get-AzureRmDtlAutoStartPolicy: Policies
-Get-AzureRmDtlVMsPerLabPolicy: Virtual Machines
-Get-AzureRmDtlVMsPerUserPolicy: Virtual Machines
-Set-AzureRmDtlAllowedVMSizesPolicy: Virtual Machines
-Set-AzureRmDtlAutoShutdownPolicy: Policies
-Set-AzureRmDtlAutoStartPolicy: Policies
-Set-AzureRmDtlVMsPerLabPolicy: Virtual Machines
-Set-AzureRmDtlVMsPerUserPolicy: Virtual Machines
+Get-AzureRmDtlAllowedVMSizesPolicy: DevTest Labs
+Get-AzureRmDtlAutoShutdownPolicy: DevTest Labs
+Get-AzureRmDtlAutoStartPolicy: DevTest Labs
+Get-AzureRmDtlVMsPerLabPolicy: DevTest Labs
+Get-AzureRmDtlVMsPerUserPolicy: DevTest Labs
+Set-AzureRmDtlAllowedVMSizesPolicy: DevTest Labs
+Set-AzureRmDtlAutoShutdownPolicy: DevTest Labs
+Set-AzureRmDtlAutoStartPolicy: DevTest Labs
+Set-AzureRmDtlVMsPerLabPolicy: DevTest Labs
+Set-AzureRmDtlVMsPerUserPolicy: DevTest Labs
 _isModulePage: true
 ---
 

@@ -13,37 +13,37 @@ ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
 open_to_public_contributors: false
-Edit-AzureRmWebAppBackupConfiguration: App Service
+Edit-AzureRmWebAppBackupConfiguration: Backup
 Get-AzureRmAppServicePlan: App Service
 Get-AzureRmAppServicePlanMetrics: App Service
 Get-AzureRmWebApp: App Service
-Get-AzureRmWebAppBackup: App Service
-Get-AzureRmWebAppBackupConfiguration: App Service
-Get-AzureRmWebAppBackupList: App Service
+Get-AzureRmWebAppBackup: Backup
+Get-AzureRmWebAppBackupConfiguration: Backup
+Get-AzureRmWebAppBackupList: Backup
 Get-AzureRmWebAppCertificate: App Service
-Get-AzureRmWebAppMetrics: App Service
+Get-AzureRmWebAppMetrics: Monitoring
 Get-AzureRmWebAppPublishingProfile: App Service
 Get-AzureRmWebAppSlot: App Service
 Get-AzureRmWebAppSlotConfigName: App Service
-Get-AzureRmWebAppSlotMetrics: App Service
+Get-AzureRmWebAppSlotMetrics: Monitoring
 Get-AzureRmWebAppSlotPublishingProfile: App Service
 Get-AzureRmWebAppSSLBinding: App Service
 New-AzureRmAppServicePlan: App Service
 New-AzureRmWebApp: App Service
-New-AzureRmWebAppBackup: App Service
-New-AzureRmWebAppDatabaseBackupSetting: App Service
+New-AzureRmWebAppBackup: Backup
+New-AzureRmWebAppDatabaseBackupSetting: Backup
 New-AzureRmWebAppSlot: App Service
 New-AzureRmWebAppSSLBinding: App Service
 Remove-AzureRmAppServicePlan: App Service
 Remove-AzureRmWebApp: App Service
-Remove-AzureRmWebAppBackup: App Service
+Remove-AzureRmWebAppBackup: Backup
 Remove-AzureRmWebAppSlot: App Service
 Remove-AzureRmWebAppSSLBinding: App Service
 Reset-AzureRmWebAppPublishingProfile: App Service
 Reset-AzureRmWebAppSlotPublishingProfile: App Service
 Restart-AzureRmWebApp: App Service
 Restart-AzureRmWebAppSlot: App Service
-Restore-AzureRmWebAppBackup: App Service
+Restore-AzureRmWebAppBackup: Backup
 Set-AzureRmAppServicePlan: App Service
 Set-AzureRmWebApp: App Service
 Set-AzureRmWebAppSlot: App Service

@@ -13,42 +13,42 @@ ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
 open_to_public_contributors: false
-Add-AzureRmHDInsightClusterIdentity: HD Insights
-Add-AzureRmHDInsightComponentVersion: HD Insights
-Add-AzureRmHDInsightConfigValues: HD Insights
-Add-AzureRmHDInsightMetastore: HD Insights
-Add-AzureRmHDInsightScriptAction: HD Insights
-Add-AzureRmHDInsightSecurityProfile: HD Insights
-Add-AzureRmHDInsightStorage: Storage
-Get-AzureRmHDInsightCluster: HD Insights
-Get-AzureRmHDInsightJob: HD Insights
-Get-AzureRmHDInsightJobOutput: HD Insights
-Get-AzureRmHDInsightPersistedScriptAction: HD Insights
-Get-AzureRmHDInsightProperties: HD Insights
-Get-AzureRmHDInsightScriptActionHistory: HD Insights
-Grant-AzureRmHDInsightHttpServicesAccess: HD Insights
-Grant-AzureRmHDInsightRdpServicesAccess: HD Insights
-Invoke-AzureRmHDInsightHiveJob: HD Insights
-New-AzureRmHDInsightCluster: HD Insights
-New-AzureRmHDInsightClusterConfig: HD Insights
-New-AzureRmHDInsightHiveJobDefinition: HD Insights
-New-AzureRmHDInsightMapReduceJobDefinition: HD Insights
-New-AzureRmHDInsightPigJobDefinition: HD Insights
-New-AzureRmHDInsightSqoopJobDefinition: HD Insights
-New-AzureRmHDInsightStreamingMapReduceJobDefinition: HD Insights
-Remove-AzureRmHDInsightCluster: HD Insights
-Remove-AzureRmHDInsightPersistedScriptAction: HD Insights
-Revoke-AzureRmHDInsightHttpServicesAccess: HD Insights
-Revoke-AzureRmHDInsightRdpServicesAccess: HD Insights
-Set-AzureRmHDInsightClusterSize: HD Insights
-Set-AzureRmHDInsightDefaultStorage: Storage
-Set-AzureRmHDInsightPersistedScriptAction: HD Insights
-Start-AzureRmHDInsightJob: HD Insights
-Stop-AzureRmHDInsightJob: HD Insights
-Submit-AzureRmHDInsightScriptAction: HD Insights
-Use-AzureRmHDInsightCluster: HD Insights
-Wait-AzureRmHDInsightJob: HD Insights
-New-AzureHDInsightClusterIdentity: Others
+Add-AzureRmHDInsightClusterIdentity: HD Monitoring
+Add-AzureRmHDInsightComponentVersion: HD Monitoring
+Add-AzureRmHDInsightConfigValues: HD Monitoring
+Add-AzureRmHDInsightMetastore: HD Monitoring
+Add-AzureRmHDInsightScriptAction: HD Monitoring
+Add-AzureRmHDInsightSecurityProfile: HD Monitoring
+Add-AzureRmHDInsightStorage: HD Monitoring
+Get-AzureRmHDInsightCluster: HD Monitoring
+Get-AzureRmHDInsightJob: HD Monitoring
+Get-AzureRmHDInsightJobOutput: HD Monitoring
+Get-AzureRmHDInsightPersistedScriptAction: HD Monitoring
+Get-AzureRmHDInsightProperties: HD Monitoring
+Get-AzureRmHDInsightScriptActionHistory: HD Monitoring
+Grant-AzureRmHDInsightHttpServicesAccess: HD Monitoring
+Grant-AzureRmHDInsightRdpServicesAccess: HD Monitoring
+Invoke-AzureRmHDInsightHiveJob: HD Monitoring
+New-AzureRmHDInsightCluster: HD Monitoring
+New-AzureRmHDInsightClusterConfig: HD Monitoring
+New-AzureRmHDInsightHiveJobDefinition: HD Monitoring
+New-AzureRmHDInsightMapReduceJobDefinition: HD Monitoring
+New-AzureRmHDInsightPigJobDefinition: HD Monitoring
+New-AzureRmHDInsightSqoopJobDefinition: HD Monitoring
+New-AzureRmHDInsightStreamingMapReduceJobDefinition: HD Monitoring
+Remove-AzureRmHDInsightCluster: HD Monitoring
+Remove-AzureRmHDInsightPersistedScriptAction: HD Monitoring
+Revoke-AzureRmHDInsightHttpServicesAccess: HD Monitoring
+Revoke-AzureRmHDInsightRdpServicesAccess: HD Monitoring
+Set-AzureRmHDInsightClusterSize: HD Monitoring
+Set-AzureRmHDInsightDefaultStorage: HD Monitoring
+Set-AzureRmHDInsightPersistedScriptAction: HD Monitoring
+Start-AzureRmHDInsightJob: HD Monitoring
+Stop-AzureRmHDInsightJob: HD Monitoring
+Submit-AzureRmHDInsightScriptAction: HD Monitoring
+Use-AzureRmHDInsightCluster: HD Monitoring
+Wait-AzureRmHDInsightJob: HD Monitoring
+New-AzureHDInsightClusterIdentity: HD Monitoring
 _isModulePage: true
 ---
 

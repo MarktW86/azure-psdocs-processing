@@ -33,8 +33,8 @@ Add-AzureRmLoadBalancerInboundNatPoolConfig: Load Balancer
 Add-AzureRmLoadBalancerInboundNatRuleConfig: Load Balancer
 Add-AzureRmLoadBalancerProbeConfig: Load Balancer
 Add-AzureRmLoadBalancerRuleConfig: Load Balancer
-Add-AzureRmNetworkInterfaceIpConfig: Networking
-Add-AzureRmNetworkSecurityRuleConfig: Networking
+Add-AzureRmNetworkInterfaceIpConfig: Virtual Network
+Add-AzureRmNetworkSecurityRuleConfig: Virtual Network
 Add-AzureRmRouteConfig: Route
 Add-AzureRmRouteFilterRuleConfig: Route
 Add-AzureRmVirtualNetworkGatewayIpConfig: Virtual Network
@@ -59,8 +59,8 @@ Get-AzureRmApplicationGatewaySslCertificate: Application Gateway
 Get-AzureRmApplicationGatewaySslPolicy: Application Gateway
 Get-AzureRmApplicationGatewayUrlPathMapConfig: Application Gateway
 Get-AzureRmApplicationGatewayWebApplicationFirewallConfiguration: Application Gateway
-Get-AzureRmBgpServiceCommunity: Networking
-Get-AzureRmEffectiveNetworkSecurityGroup: Networking
+Get-AzureRmBgpServiceCommunity: Express Route
+Get-AzureRmEffectiveNetworkSecurityGroup: Virtual Network
 Get-AzureRmEffectiveRouteTable: Route
 Get-AzureRmExpressRouteCircuit: Express Route
 Get-AzureRmExpressRouteCircuitARPTable: Express Route
@@ -77,11 +77,11 @@ Get-AzureRmLoadBalancerInboundNatPoolConfig: Load Balancer
 Get-AzureRmLoadBalancerInboundNatRuleConfig: Load Balancer
 Get-AzureRmLoadBalancerProbeConfig: Load Balancer
 Get-AzureRmLoadBalancerRuleConfig: Load Balancer
-Get-AzureRmLocalNetworkGateway: Networking
-Get-AzureRmNetworkInterface: Networking
-Get-AzureRmNetworkInterfaceIpConfig: Networking
-Get-AzureRmNetworkSecurityGroup: Networking
-Get-AzureRmNetworkSecurityRuleConfig: Networking
+Get-AzureRmLocalNetworkGateway: Virtual Network
+Get-AzureRmNetworkInterface: Virtual Network
+Get-AzureRmNetworkInterfaceIpConfig: Virtual Network
+Get-AzureRmNetworkSecurityGroup: Virtual Network
+Get-AzureRmNetworkSecurityRuleConfig: Virtual Network
 Get-AzureRmNetworkWatcher: Network Watcher
 Get-AzureRmNetworkWatcherFlowLogStatus: Network Watcher
 Get-AzureRmNetworkWatcherNextHop: Network Watcher
@@ -89,7 +89,7 @@ Get-AzureRmNetworkWatcherPacketCapture: Network Watcher
 Get-AzureRmNetworkWatcherSecurityGroupView: Network Watcher
 Get-AzureRmNetworkWatcherTopology: Network Watcher
 Get-AzureRmNetworkWatcherTroubleshootingResult: Network Watcher
-Get-AzureRmPublicIpAddress: Networking
+Get-AzureRmPublicIpAddress: Virtual Network
 Get-AzureRmRouteConfig: Route
 Get-AzureRmRouteFilter: Route
 Get-AzureRmRouteFilterRuleConfig: Route
@@ -131,15 +131,15 @@ New-AzureRmLoadBalancerInboundNatPoolConfig: Load Balancer
 New-AzureRmLoadBalancerInboundNatRuleConfig: Load Balancer
 New-AzureRmLoadBalancerProbeConfig: Load Balancer
 New-AzureRmLoadBalancerRuleConfig: Load Balancer
-New-AzureRmLocalNetworkGateway: Networking
-New-AzureRmNetworkInterface: Networking
-New-AzureRmNetworkInterfaceIpConfig: Networking
-New-AzureRmNetworkSecurityGroup: Networking
-New-AzureRmNetworkSecurityRuleConfig: Networking
+New-AzureRmLocalNetworkGateway: Virtual Network
+New-AzureRmNetworkInterface: Virtual Network
+New-AzureRmNetworkInterfaceIpConfig: Virtual Network
+New-AzureRmNetworkSecurityGroup: Virtual Network
+New-AzureRmNetworkSecurityRuleConfig: Virtual Network
 New-AzureRmNetworkWatcher: Network Watcher
 New-AzureRmNetworkWatcherPacketCapture: Network Watcher
-New-AzureRmPacketCaptureFilterConfig: Networking
-New-AzureRmPublicIpAddress: Networking
+New-AzureRmPacketCaptureFilterConfig: Network Watcher
+New-AzureRmPublicIpAddress: Virtual Network
 New-AzureRmRouteConfig: Route
 New-AzureRmRouteFilter: Route
 New-AzureRmRouteFilterRuleConfig: Route
@@ -175,14 +175,14 @@ Remove-AzureRmLoadBalancerInboundNatPoolConfig: Load Balancer
 Remove-AzureRmLoadBalancerInboundNatRuleConfig: Load Balancer
 Remove-AzureRmLoadBalancerProbeConfig: Load Balancer
 Remove-AzureRmLoadBalancerRuleConfig: Load Balancer
-Remove-AzureRmLocalNetworkGateway: Networking
-Remove-AzureRmNetworkInterface: Networking
-Remove-AzureRmNetworkInterfaceIpConfig: Networking
-Remove-AzureRmNetworkSecurityGroup: Networking
-Remove-AzureRmNetworkSecurityRuleConfig: Networking
+Remove-AzureRmLocalNetworkGateway: Virtual Network
+Remove-AzureRmNetworkInterface: Virtual Network
+Remove-AzureRmNetworkInterfaceIpConfig: Virtual Network
+Remove-AzureRmNetworkSecurityGroup: Virtual Network
+Remove-AzureRmNetworkSecurityRuleConfig: Virtual Network
 Remove-AzureRmNetworkWatcher: Network Watcher
 Remove-AzureRmNetworkWatcherPacketCapture: Network Watcher
-Remove-AzureRmPublicIpAddress: Networking
+Remove-AzureRmPublicIpAddress: Virtual Network
 Remove-AzureRmRouteConfig: Route
 Remove-AzureRmRouteFilter: Route
 Remove-AzureRmRouteFilterRuleConfig: Route
@@ -223,14 +223,14 @@ Set-AzureRmLoadBalancerInboundNatPoolConfig: Load Balancer
 Set-AzureRmLoadBalancerInboundNatRuleConfig: Load Balancer
 Set-AzureRmLoadBalancerProbeConfig: Load Balancer
 Set-AzureRmLoadBalancerRuleConfig: Load Balancer
-Set-AzureRmLocalNetworkGateway: Networking
-Set-AzureRmNetworkInterface: Networking
-Set-AzureRmNetworkInterfaceIpConfig: Networking
-Set-AzureRmNetworkSecurityGroup: Networking
-Set-AzureRmNetworkSecurityRuleConfig: Networking
+Set-AzureRmLocalNetworkGateway: Virtual Network
+Set-AzureRmNetworkInterface: Virtual Network
+Set-AzureRmNetworkInterfaceIpConfig: Virtual Network
+Set-AzureRmNetworkSecurityGroup: Virtual Network
+Set-AzureRmNetworkSecurityRuleConfig: Virtual Network
 Set-AzureRmNetworkWatcher: Network Watcher
 Set-AzureRmNetworkWatcherConfigFlowLog: Network Watcher
-Set-AzureRmPublicIpAddress: Networking
+Set-AzureRmPublicIpAddress: Virtual Network
 Set-AzureRmRouteConfig: Route
 Set-AzureRmRouteFilter: Route
 Set-AzureRmRouteFilterRuleConfig: Route
@@ -249,7 +249,7 @@ Stop-AzureRmApplicationGateway: Application Gateway
 Stop-AzureRmNetworkWatcherPacketCapture: Network Watcher
 Test-AzureRmDnsAvailability: DNS
 Test-AzureRmNetworkWatcherIPFlow: Network Watcher
-Test-AzureRmPrivateIPAddressAvailability: Networking
+Test-AzureRmPrivateIPAddressAvailability: Virtual Network
 _isModulePage: true
 ---
 

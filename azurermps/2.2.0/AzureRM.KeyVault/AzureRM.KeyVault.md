@@ -19,7 +19,7 @@ open_to_public_contributors: false
 Add-AzureKeyVaultCertificate: Key Vault
 Add-AzureKeyVaultCertificateContact: Key Vault
 Add-AzureKeyVaultKey: Key Vault
-Backup-AzureKeyVaultKey: Key Vault
+Backup-AzureKeyVaultKey: Backup
 Get-AzureKeyVaultCertificate: Key Vault
 Get-AzureKeyVaultCertificateContact: Key Vault
 Get-AzureKeyVaultCertificateIssuer: Key Vault

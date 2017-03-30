@@ -49,7 +49,7 @@ Set-AzureRmDataLakeStoreItemPermission: Data Lake
 Set-AzureRmDataLakeStoreTrustedIdProvider: Data Lake
 Test-AzureRmDataLakeStoreAccount: Data Lake
 Test-AzureRmDataLakeStoreItem: Data Lake
-Get-AzureRmDataLakeStoreItemAcl: Others
+Get-AzureRmDataLakeStoreItemAcl: Data Lake
 _isModulePage: true
 ---
 

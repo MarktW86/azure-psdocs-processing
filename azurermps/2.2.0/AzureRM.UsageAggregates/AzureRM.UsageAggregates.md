@@ -16,7 +16,7 @@ ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
 open_to_public_contributors: false
-Get-UsageAggregates: Resources
+Get-UsageAggregates: Monitoring
 _isModulePage: true
 ---
 
