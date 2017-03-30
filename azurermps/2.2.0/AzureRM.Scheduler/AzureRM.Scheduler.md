@@ -21,16 +21,16 @@ Get-AzureRmSchedulerJobCollection: Scheduler
 Get-AzureRmSchedulerJobHistory: Scheduler
 New-AzureRmSchedulerHttpJob: Scheduler
 New-AzureRmSchedulerJobCollection: Scheduler
-New-AzureRmSchedulerServiceBusQueueJob: Service Bus
-New-AzureRmSchedulerServiceBusTopicJob: Service Bus
-New-AzureRmSchedulerStorageQueueJob: Storage
+New-AzureRmSchedulerServiceBusQueueJob: Scheduler
+New-AzureRmSchedulerServiceBusTopicJob: Scheduler
+New-AzureRmSchedulerStorageQueueJob: Scheduler
 Remove-AzureRmSchedulerJob: Scheduler
 Remove-AzureRmSchedulerJobCollection: Scheduler
 Set-AzureRmSchedulerHttpJob: Scheduler
 Set-AzureRmSchedulerJobCollection: Scheduler
-Set-AzureRmSchedulerServiceBusQueueJob: Service Bus
-Set-AzureRmSchedulerServiceBusTopicJob: Service Bus
-Set-AzureRmSchedulerStorageQueueJob: Storage
+Set-AzureRmSchedulerServiceBusQueueJob: Scheduler
+Set-AzureRmSchedulerServiceBusTopicJob: Scheduler
+Set-AzureRmSchedulerStorageQueueJob: Scheduler
 _isModulePage: true
 ---
 

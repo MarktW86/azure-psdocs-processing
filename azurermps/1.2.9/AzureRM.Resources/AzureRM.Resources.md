@@ -23,17 +23,17 @@ Get-AzureRmADGroupMember: Active Directory
 Get-AzureRmADServicePrincipal: Active Directory
 Get-AzureRmADSpCredential: Active Directory
 Get-AzureRmADUser: Active Directory
-Get-AzureRmLocation: Resources
+Get-AzureRmLocation: Resource groups
 Get-AzureRmPolicyAssignment: Policies
 Get-AzureRmPolicyDefinition: Policies
-Get-AzureRmProviderFeature: Resources
-Get-AzureRmProviderOperation: Resources
+Get-AzureRmProviderFeature: Resource providers
+Get-AzureRmProviderOperation: Resource providers
 Get-AzureRmResource: Resources
 Get-AzureRmResourceGroup: Resources
 Get-AzureRmResourceGroupDeployment: Resources
 Get-AzureRmResourceGroupDeploymentOperation: Resources
 Get-AzureRmResourceLock: Resources
-Get-AzureRmResourceProvider: Resources
+Get-AzureRmResourceProvider: Resource providers
 Get-AzureRmRoleAssignment: Roles
 Get-AzureRmRoleDefinition: Roles
 Invoke-AzureRmResourceAction: Resources
@@ -51,8 +51,8 @@ New-AzureRmResourceGroupDeployment: Resources
 New-AzureRmResourceLock: Resources
 New-AzureRmRoleAssignment: Roles
 New-AzureRmRoleDefinition: Roles
-Register-AzureRmProviderFeature: Resources
-Register-AzureRmResourceProvider: Resources
+Register-AzureRmProviderFeature: Resource providers
+Register-AzureRmResourceProvider: Resource providers
 Remove-AzureRmADAppCredential: Active Directory
 Remove-AzureRmADApplication: Active Directory
 Remove-AzureRmADServicePrincipal: Active Directory
@@ -78,7 +78,7 @@ Set-AzureRmResourceLock: Resources
 Set-AzureRmRoleDefinition: Roles
 Stop-AzureRmResourceGroupDeployment: Resources
 Test-AzureRmResourceGroupDeployment: Resources
-Unregister-AzureRmResourceProvider: Resources
+Unregister-AzureRmResourceProvider: Resource providers
 _isModulePage: true
 ---
 
