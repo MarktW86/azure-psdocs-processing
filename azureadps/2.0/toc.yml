@@ -3,7 +3,7 @@
 - name: Reference
   items:
     - name: Administrative Units
-      href: '/powershell-new/module/AzureAD#Administrative-Units'
+      href: '/powershell-new/module/AzureAD#administrative_units'
       items:
         - name: Add-AzureADAdministrativeUnitMember
           href: AzureAD/Add-AzureADAdministrativeUnitMember.md
@@ -26,7 +26,7 @@
         - name: Set-AzureADAdministrativeUnit
           href: AzureAD/Set-AzureADAdministrativeUnit.md
     - name: Applications
-      href: '/powershell-new/module/AzureAD#Applications'
+      href: '/powershell-new/module/AzureAD#applications'
       items:
         - name: Add-AzureADApplicationOwner
           href: AzureAD/Add-AzureADApplicationOwner.md
@@ -73,7 +73,7 @@
         - name: Set-AzureADApplicationLogo
           href: AzureAD/Set-AzureADApplicationLogo.md
     - name: Certificate Authorities
-      href: '/powershell-new/module/AzureAD#Certificate-Authorities'
+      href: '/powershell-new/module/AzureAD#certificate_authorities'
       items:
         - name: Get-AzureADTrustedCertificateAuthority
           href: AzureAD/Get-AzureADTrustedCertificateAuthority.md
@@ -84,14 +84,14 @@
         - name: Set-AzureADTrustedCertificateAuthority
           href: AzureAD/Set-AzureADTrustedCertificateAuthority.md
     - name: Connect to your directory
-      href: '/powershell-new/module/AzureAD#Connect-to-your-directory'
+      href: '/powershell-new/module/AzureAD#connect_to_your_directory'
       items:
         - name: Connect-AzureAD
           href: AzureAD/Connect-AzureAD.md
         - name: Disconnect-AzureAD
           href: AzureAD/Disconnect-AzureAD.md
     - name: Contacts
-      href: '/powershell-new/module/AzureAD#Contacts'
+      href: '/powershell-new/module/AzureAD#contacts'
       items:
         - name: Get-AzureADContact
           href: AzureAD/Get-AzureADContact.md
@@ -110,12 +110,12 @@
         - name: Select-AzureADGroupIdsContactIsMemberOf
           href: AzureAD/Select-AzureADGroupIdsContactIsMemberOf.md
     - name: Contracts
-      href: '/powershell-new/module/AzureAD#Contracts'
+      href: '/powershell-new/module/AzureAD#contracts'
       items:
         - name: Get-AzureADContract
           href: AzureAD/Get-AzureADContract.md
     - name: Deleted Objects
-      href: '/powershell-new/module/AzureAD#Deleted-Objects'
+      href: '/powershell-new/module/AzureAD#deleted_objects'
       items:
         - name: Get-AzureADMSDeletedDirectoryObject
           href: AzureAD/Get-AzureADMSDeletedDirectoryObject.md
@@ -128,7 +128,7 @@
         - name: Restore-AzureADMSDeletedDirectoryObject
           href: AzureAD/Restore-AzureADMSDeletedDirectoryObject.md
     - name: Devices
-      href: '/powershell-new/module/AzureAD#Devices'
+      href: '/powershell-new/module/AzureAD#devices'
       items:
         - name: Add-AzureADDeviceRegisteredOwner
           href: AzureAD/Add-AzureADDeviceRegisteredOwner.md
@@ -153,7 +153,7 @@
         - name: Set-AzureADDevice
           href: AzureAD/Set-AzureADDevice.md
     - name: Directory
-      href: '/powershell-new/module/AzureAD#Directory'
+      href: '/powershell-new/module/AzureAD#directory'
       items:
         - name: Get-AzureADSubscribedSku
           href: AzureAD/Get-AzureADSubscribedSku.md
@@ -162,12 +162,12 @@
         - name: Set-AzureADTenantDetail
           href: AzureAD/Set-AzureADTenantDetail.md
     - name: Directory Objects
-      href: '/powershell-new/module/AzureAD#Directory-Objects'
+      href: '/powershell-new/module/AzureAD#directory_objects'
       items:
         - name: Get-AzureADObjectByObjectId
           href: AzureAD/Get-AzureADObjectByObjectId.md
     - name: Directory Roles
-      href: '/powershell-new/module/AzureAD#Directory-Roles'
+      href: '/powershell-new/module/AzureAD#directory_roles'
       items:
         - name: Add-AzureADDirectoryRoleMember
           href: AzureAD/Add-AzureADDirectoryRoleMember.md
@@ -182,7 +182,7 @@
         - name: Remove-AzureADDirectoryRoleMember
           href: AzureAD/Remove-AzureADDirectoryRoleMember.md
     - name: Directory Settings
-      href: '/powershell-new/module/AzureAD#Directory-Settings'
+      href: '/powershell-new/module/AzureAD#directory_settings'
       items:
         - name: Get-AzureADDirectorySetting
           href: AzureAD/Get-AzureADDirectorySetting.md
@@ -195,7 +195,7 @@
         - name: Set-AzureADDirectorySetting
           href: AzureAD/Set-AzureADDirectorySetting.md
     - name: Domains
-      href: '/powershell-new/module/AzureAD#Domains'
+      href: '/powershell-new/module/AzureAD#domains'
       items:
         - name: Confirm-AzureADDomain
           href: AzureAD/Confirm-AzureADDomain.md
@@ -214,12 +214,12 @@
         - name: Set-AzureADDomain
           href: AzureAD/Set-AzureADDomain.md
     - name: Extentsion Properties
-      href: '/powershell-new/module/AzureAD#Extentsion-Properties'
+      href: '/powershell-new/module/AzureAD#extentsion_properties'
       items:
         - name: Get-AzureADExtensionProperty
           href: AzureAD/Get-AzureADExtensionProperty.md
     - name: Groups
-      href: '/powershell-new/module/AzureAD#Groups'
+      href: '/powershell-new/module/AzureAD#groups'
       items:
         - name: Add-AzureADGroupMember
           href: AzureAD/Add-AzureADGroupMember.md
@@ -258,14 +258,14 @@
         - name: Set-AzureADMSGroup
           href: AzureAD/Set-AzureADMSGroup.md
     - name: OAuth2
-      href: '/powershell-new/module/AzureAD#OAuth2'
+      href: '/powershell-new/module/AzureAD#oauth2'
       items:
         - name: Get-AzureADOAuth2PermissionGrant
           href: AzureAD/Get-AzureADOAuth2PermissionGrant.md
         - name: Remove-AzureADOAuth2PermissionGrant
           href: AzureAD/Remove-AzureADOAuth2PermissionGrant.md
     - name: Object Settings
-      href: '/powershell-new/module/AzureAD#Object-Settings'
+      href: '/powershell-new/module/AzureAD#object_settings'
       items:
         - name: Get-AzureADObjectSetting
           href: AzureAD/Get-AzureADObjectSetting.md
@@ -276,7 +276,7 @@
         - name: Set-AzureADObjectSetting
           href: AzureAD/Set-AzureADObjectSetting.md
     - name: Others
-      href: '/powershell-new/module/AzureAD#Others'
+      href: '/powershell-new/module/AzureAD#others'
       items:
         - name: Get-AzureADServiceConfigurationRecord
           href: AzureAD/Get-AzureADServiceConfigurationRecord.md
@@ -291,7 +291,7 @@
         - name: Set-AzureADContactManager
           href: AzureAD/Set-AzureADContactManager.md
     - name: Policies
-      href: '/powershell-new/module/AzureAD#Policies'
+      href: '/powershell-new/module/AzureAD#policies'
       items:
         - name: Get-AzureADPolicy
           href: AzureAD/Get-AzureADPolicy.md
@@ -304,7 +304,7 @@
         - name: Set-AzureADPolicy
           href: AzureAD/Set-AzureADPolicy.md
     - name: Service Principals
-      href: '/powershell-new/module/AzureAD#Service-Principals'
+      href: '/powershell-new/module/AzureAD#service_principals'
       items:
         - name: Add-AzureADServicePrincipalOwner
           href: AzureAD/Add-AzureADServicePrincipalOwner.md
@@ -353,7 +353,7 @@
         - name: Set-AzureADServicePrincipal
           href: AzureAD/Set-AzureADServicePrincipal.md
     - name: Users
-      href: '/powershell-new/module/AzureAD#Users'
+      href: '/powershell-new/module/AzureAD#users'
       items:
         - name: Get-AzureADUser
           href: AzureAD/Get-AzureADUser.md
