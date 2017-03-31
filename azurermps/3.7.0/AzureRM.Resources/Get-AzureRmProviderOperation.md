@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Resources.dll-Help.xml
 ms.assetid: 6424B740-DBFB-490C-AEAA-EDD60952B435
 online version:
 schema: 2.0.0
-updated_at: 03/29/2017 18:03 PM
-ms.date: 03/29/2017
+updated_at: 03/31/2017 19:03 PM
+ms.date: 03/31/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Get-AzureRmProviderOperation.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Get-AzureRmProviderOperation.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/1b0e8fcdd474515f4a6eeac956865e25badf43bd
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/116c392b402644ece43a44066e86de3edc4d8330
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -42,29 +42,33 @@ Use **Get-AzureRmProviderOperation** Microsoft.Compute/* to get all operations o
 
 ### Example 1: Get all actions for all providers 
 
-
 ```
 PS C:\> Get-AzureRmProviderOperation *
 ```
 
-### --------------------------  Get actions for a particular resource provider  --------------------------
+This command gets all actions from all resource providers.
 
+### Example 2: Get actions for a particular resource provider
 
 ```
 PS C:\> Get-AzureRmProviderOperation Microsoft.Insights/*
 ```
 
-### --------------------------  Get all actions that can be performed on virtual machines  --------------------------
+This command gets all actions from the resource provider named Microsoft.Insights.
 
+### Example 3: Get all actions that can be performed on virtual machines
 
 ```
 PS C:\> Get-AzureRmProviderOperation */virtualMachines/*
 ```
 
+This command gets all actions that can be performed on virtual machines.
+
+
 ## PARAMETERS
 
 ### -OperationSearchString
-The operation search string (with possible wildcard (*) characters)
+Specifies the operation search string (with possible wildcard (*) characters).
 
 ```yaml
 Type: String

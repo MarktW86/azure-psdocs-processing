@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Cmdlets.dll-Help.xm
 ms.assetid: 20CB842B-F7A9-4052-85D9-0DF9586D5FEA
 online version:
 schema: 2.0.0
-updated_at: 03/22/2017 18:03 PM
-ms.date: 03/22/2017
+updated_at: 03/31/2017 19:03 PM
+ms.date: 03/31/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Get-AzureRmResourceGroupDeployment.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Get-AzureRmResourceGroupDeployment.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/978fea11e9306c3006c774f266118967e26b616f
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/116c392b402644ece43a44066e86de3edc4d8330
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -44,10 +44,10 @@ An Azure resource is a user-managed Azure entity, such as a database server, dat
 An Azure resource group is a collection of Azure resources that are deployed as a unit.
 
 A deployment is the operation that makes the resources in the resource group available for use.
-For more information about Azure resources and Azure resource groups, see the New-AzureRmResourceGroup cmdlet.
+For more information about Azure resources and Azure resource groups, see the [New-AzureRmResourceGroup](./New-AzureRmResourceGroup.md) cmdlet.
 
 You can use this cmdlet for tracking.
-For debugging, use this cmdlet with the Get-AzureRmLog cmdlet.
+For debugging, use this cmdlet with the **Get-AzureRmLog** cmdlet.
 
 ## EXAMPLES
 
@@ -186,5 +186,3 @@ The cmdlet returns resource group deployments.
 [Stop-AzureRmResourceGroupDeployment](./Stop-AzureRmResourceGroupDeployment.md)
 
 [Test-AzureRmResourceGroupDeployment](./Test-AzureRmResourceGroupDeployment.md)
-
-

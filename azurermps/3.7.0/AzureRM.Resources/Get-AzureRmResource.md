@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Cmdlets.dll-Help.xm
 ms.assetid: C2C608E5-3351-4D01-8533-9668B2E9F1D1
 online version:
 schema: 2.0.0
-updated_at: 03/22/2017 18:03 PM
-ms.date: 03/22/2017
+updated_at: 03/31/2017 19:03 PM
+ms.date: 03/31/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Get-AzureRmResource.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Get-AzureRmResource.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/978fea11e9306c3006c774f266118967e26b616f
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/116c392b402644ece43a44066e86de3edc4d8330
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -93,6 +93,8 @@ This command gets a resource of the type microsoft.web/sites, named ContosoWebsi
 ## PARAMETERS
 
 ### -ResourceGroupName
+Specifies the name of the resource group.
+
 ```yaml
 Type: String
 Parameter Sets: Get resource by name, group and type
@@ -130,6 +132,8 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceType
+Specifies the resource type of the resource this cmdlet gets.
+
 ```yaml
 Type: String
 Parameter Sets: Get resource by name, group and type, Get a single resource at the tenant level.
@@ -167,6 +171,8 @@ Accept wildcard characters: False
 ```
 
 ### -ApiVersion
+Specifies the API version of the resource that this cmdlet gets.
+
 ```yaml
 Type: String
 Parameter Sets: (All)
@@ -193,6 +199,8 @@ Accept wildcard characters: False
 ```
 
 ### -ExtensionResourceName
+Specifies the name of the extension resource.
+
 ```yaml
 Type: String
 Parameter Sets: Get resource by name, group and type, Get resource by name and group, Get a resource by name and type., Lists the resources based on the specified scope at the tenant level., Get a single resource at the tenant level.
@@ -206,6 +214,8 @@ Accept wildcard characters: False
 ```
 
 ### -ExtensionResourceType
+Specifies the type of the extension resource.
+
 ```yaml
 Type: String
 Parameter Sets: Get resource by name, group and type, Get resource by name and group, Get a resource by name and type., Lists the resources based on the specified scope at the tenant level., Get a single resource at the tenant level.
@@ -231,6 +241,8 @@ Accept wildcard characters: False
 ```
 
 ### -IsCollection
+Indicates that the resource is a collection.
+
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Get resource by name and group, Get a resource by name and type., Lists the resources based on the specified scope at the tenant level., Get a single resource at the tenant level., Get resource collection
@@ -289,6 +301,8 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceName
+Specifies the name of the resource.
+
 ```yaml
 Type: String
 Parameter Sets: Get resource by name, group and type, Get a single resource at the tenant level.
@@ -361,5 +375,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Remove-AzureRmResource](./Remove-AzureRmResource.md)
 
 [Set-AzureRmResource](./Set-AzureRmResource.md)
-
-
