@@ -197,7 +197,7 @@ title: PowerShell Documentation
                             </a>
                         </li>
                         <li>
-                            <a href="azure/overview">
+                            <a href="/powershell-new/azure/overview">
                             <div class="cardSize">
                                 <div class="cardPadding">
                                     <div class="card">
