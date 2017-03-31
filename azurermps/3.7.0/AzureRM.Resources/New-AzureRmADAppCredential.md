@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Resources.dll-Help.xml
 ms.assetid: 98836BC0-AB4F-4F24-88BE-E7DD350B71E8
 online version:
 schema: 2.0.0
-updated_at: 03/29/2017 18:03 PM
-ms.date: 03/29/2017
+updated_at: 03/31/2017 22:03 PM
+ms.date: 03/31/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/New-AzureRmADAppCredential.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/New-AzureRmADAppCredential.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/1b0e8fcdd474515f4a6eeac956865e25badf43bd
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/88d8b935741df1b6c584f5ecf14b398b96cdae6d
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -51,22 +51,22 @@ New-AzureRmADAppCredential -ApplicationId <String> -Password <String> [-StartDat
 ```
 
 ## DESCRIPTION
-The New-AzureRmADAppCredential cmdlet can be used to add a new credential or to roll credentials for an application.
-The application is identified by supplying either the application object id or application Id.
+The **New-AzureRmADAppCredential** cmdlet can be used to add a new credential or to roll credentials for an application.
+The application is identified by supplying either the application object ID or application ID.
 
 ## EXAMPLES
 
-### Example 1:
+### Example 1: Add a new password credential to an existing application
 
 
 ```
 PS C:\> New-AzureRmADAppCredential -ObjectId 1f89cf81-0146-4f4e-beae-2007d0668416 -Password P@ssw0rd!
 ```
 
-A new password credential is added to an existing application.
-In this example, the supplied password value is added to the application using the application object id.
+This command adds a new password credential to an existing application.
+In this example, the supplied password value is added to the application using the application object ID.
 
-### Example 2:
+### Example 2: Add a new key credential to an existing application
 
 
 ```
@@ -81,20 +81,13 @@ $credValue = [System.Convert]::ToBase64String($binCert)
 PS C:\> New-AzureRmADAppCredential -ApplicationId 4589cd6b-3d79-4bb4-93b8-a0b99f3bfc58 -CertValue $credValue -StartDate $cer.GetEffectiveDateString() -EndDate $cer.GetExpirationDateString()
 ```
 
-A new key credential is added to an existing application.
-In this example, the supplied base64 encoded public X509 certificate ("myapp.cer") is added to the application using the applicationId.
-
-### --------------------------  Example 3  --------------------------
-
-
-```
-PS C:\> New-AzureRmADAppCredential -ApplicationId 4589cd6b-3d79-4bb4-93b8-a0b99f3bfc58 -CertValue $credValue
-```
+This example adds a new key credential to an existing application.
+In this example, the supplied base64 encoded public X509 certificate ("myapp.cer") is added to the application using the application ID.
 
 ## PARAMETERS
 
 ### -ObjectId
-The object id of the application to add the credentials to.
+Specifies the object ID of the application that this cmdlet adds the credentials to.
 
 ```yaml
 Type: String
@@ -109,7 +102,7 @@ Accept wildcard characters: False
 ```
 
 ### -Password
-The password to be associated with the application.
+Specifies the password to be associated with the application.
 
 ```yaml
 Type: String
@@ -124,7 +117,7 @@ Accept wildcard characters: False
 ```
 
 ### -StartDate
-The effective start date of the credential usage.
+Specifies the effective start date of the credential usage.
 The default start date value is today.
 For an "asymmetric" type credential, this must be set to on or after the date that the X509 certificate is valid from.
 
@@ -141,7 +134,7 @@ Accept wildcard characters: False
 ```
 
 ### -EndDate
-The effective end date of the credential usage.
+Specifies the effective end date of the credential usage.
 The default end date value is one year from today. 
 For an "asymmetric" type credential, this must be set to on or before the date that the X509 certificate is valid.
 
@@ -197,7 +190,8 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
 
 ```yaml
 Type: SwitchParameter
@@ -227,7 +221,7 @@ Accept wildcard characters: False
 ```
 
 ### -CertValue
-The value of the "asymmetric" credential type.
+Specifies the value of the "asymmetric" credential type.
 It represents the base 64 encoded certificate.
 
 ```yaml
@@ -243,7 +237,7 @@ Accept wildcard characters: False
 ```
 
 ### -ApplicationId
-The id of the application to add the credentials to.
+Specifies the ID of the application that this cmdlet adds the credentials to.
 
 ```yaml
 Type: String
@@ -265,9 +259,8 @@ Accept wildcard characters: False
 
 ## RELATED LINKS
 
-[Get-AzureRmADAppCredential]()
+[Get-AzureRmADAppCredential](./Get-AzureRmADAppCredential.md)
 
-[Remove-AzureRmADAppCredential]()
+[Remove-AzureRmADAppCredential](./Remove-AzureRmADAppCredential.md)
 
-[Get-AzureRmADApplication]()
-
+[Get-AzureRmADApplication](./Get-AzureRmADApplication.md)

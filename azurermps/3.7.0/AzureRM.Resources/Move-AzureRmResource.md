@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Cmdlets.dll-Help.xm
 ms.assetid: 60BED40A-EEA4-4667-93E9-8A9B35037726
 online version:
 schema: 2.0.0
-updated_at: 03/22/2017 18:03 PM
-ms.date: 03/22/2017
+updated_at: 03/31/2017 22:03 PM
+ms.date: 03/31/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Move-AzureRmResource.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Move-AzureRmResource.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/978fea11e9306c3006c774f266118967e26b616f
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/88d8b935741df1b6c584f5ecf14b398b96cdae6d
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -42,7 +42,7 @@ PS C:\> $Resource = Get-AzureRmResource -ResourceType "Microsoft.ClassicCompute/
 PS C:\> Move-AzureRmResource -ResourceId $Resource.ResourceId -DestinationResourceGroupName "ResourceGroup14"
 ```
 
-The first command gets a resource named ContosoStorageAccount by using the Get-AzureRmResource cmdlet, and then stores that resource in the $Resource variable.
+The first command gets a resource named ContosoStorageAccount by using the [Get-AzureRmResource](./Get-AzureRmResource.md) cmdlet, and then stores that resource in the $Resource variable.
 
 The second command moves that resource into the resource group named ResourceGroup14.
 The command identifies the resource to move by using the **ResourceId** property of $Resource.
@@ -65,7 +65,7 @@ Accept wildcard characters: False
 ```
 
 ### -DestinationSubscriptionId
-Specifies the ID of the subscription into which this cmdlet moves resources .
+Specifies the ID of the subscription into which this cmdlet moves resources.
 
 ```yaml
 Type: Guid
@@ -230,5 +230,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Remove-AzureRmResource](./Remove-AzureRmResource.md)
 
 [Set-AzureRmResource](./Set-AzureRmResource.md)
-
-

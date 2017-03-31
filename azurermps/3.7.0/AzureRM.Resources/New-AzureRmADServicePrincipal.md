@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Resources.dll-Help.xml
 ms.assetid: D602F910-B26F-473D-B5B6-C7BDFB0A14CB
 online version:
 schema: 2.0.0
-updated_at: 03/29/2017 18:03 PM
-ms.date: 03/29/2017
+updated_at: 03/31/2017 22:03 PM
+ms.date: 03/31/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/New-AzureRmADServicePrincipal.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/New-AzureRmADServicePrincipal.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/1b0e8fcdd474515f4a6eeac956865e25badf43bd
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/88d8b935741df1b6c584f5ecf14b398b96cdae6d
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -20,7 +20,7 @@ ms.service: azure-resource-manager
 # New-AzureRmADServicePrincipal
 
 ## SYNOPSIS
-Creates a new azure Active Directory service principal.
+Creates an Azure Active Directory service principal.
 
 ## SYNTAX
 
@@ -89,34 +89,34 @@ New-AzureRmADServicePrincipal -DisplayName <String> -CertValue <String> [-StartD
 ```
 
 ## DESCRIPTION
-Creates a new azure Active Directory service principal.
+The **New-AzureRmADServicePrincipal** cmdlet creates an Azure Active Directory service principal.
 
-Note: The cmdlet also implicitly creates an application and sets its properties (if the ApplicationId is not provided).
-In order to update the application specific parameters please use Set-AzureRmADApplication cmdlet.
+The cmdlet also implicitly creates an application and sets its properties (if the *ApplicationId* parameter is not provided).
+In order to update the application specific parameters, use the [Set-AzureRmADApplication](./Set-AzureRmADApplication.md) cmdlet.
 
 ## EXAMPLES
 
-### Example 1:
+### Example 1: Create an Azure Active Directory service principal by application ID
 
 
 ```
-New-AzureRmADServicePrincipal -ApplicationId 34a28ad2-dec4-4a41-bc3b-d22ddf90000e
+PS C:\> New-AzureRmADServicePrincipal -ApplicationId 34a28ad2-dec4-4a41-bc3b-d22ddf90000e
 ```
 
-Creates a new azure Active Directory service principal.
+This command creates an Azure Active Directory service principal.
 
 DisplayName                    Type                           ObjectId
 -----------                    ----                           --------
 DemoApp                        ServicePrincipal               f95b6f5c-fc98-4af0-bb8a-34a14ca1dca1
 
-### Example 2:
+### Example 2: Create an Azure Active Directory service principal
 
 
 ```
-New-AzureRmADServicePrincipal -DisplayName SPForNoExistingApp
+PS C:\> New-AzureRmADServicePrincipal -DisplayName "SPForNoExistingApp"
 ```
 
-Creates a new service principal.
+This command creates an Azure Active Directory service principal.
 The cmdlet also implicitly creates an application since one is not provided.
 
 DisplayName                    Type                           ObjectId
@@ -126,7 +126,7 @@ SPForNoExistingApp             ServicePrincipal               784136ca-3ae2-4fdd
 ## PARAMETERS
 
 ### -ApplicationId
-The unique application id for a service principal in a tenant.
+Specifies the unique application ID for a service principal in a tenant.
 Once created this property cannot be changed.
 If an application id is not specified, one will be generated.
 
@@ -182,7 +182,8 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
 
 ```yaml
 Type: SwitchParameter
@@ -212,7 +213,7 @@ Accept wildcard characters: False
 ```
 
 ### -Password
-The password to be associated with the service principal.
+Specifies the password to be associated with the service principal.
 
 ```yaml
 Type: String
@@ -227,7 +228,7 @@ Accept wildcard characters: False
 ```
 
 ### -StartDate
-The effective start date of the credential usage.
+Specifies the effective start date of the credential usage.
 The default start date value is today. 
 For an "asymmetric" type credential, this must be set to on or after the date that the X509 certificate is valid from.
 
@@ -244,7 +245,7 @@ Accept wildcard characters: False
 ```
 
 ### -EndDate
-The effective end date of the credential usage.
+Specifies the effective end date of the credential usage.
 The default end date value is one year from today. 
 For an "asymmetric" type credential, this must be set to on or before the date that the X509 certificate is valid.
 
@@ -261,7 +262,7 @@ Accept wildcard characters: False
 ```
 
 ### -PasswordCredentials
-The list of password credentials associated with the service principal.
+Specifies the list of password credentials associated with the service principal.
 
 ```yaml
 Type: PSADPasswordCredential[]
@@ -276,7 +277,7 @@ Accept wildcard characters: False
 ```
 
 ### -CertValue
-The value of the "asymmetric" credential type.
+Specifies the value of the "asymmetric" credential type.
 It represents the base 64 encoded certificate.
 
 ```yaml
@@ -292,7 +293,7 @@ Accept wildcard characters: False
 ```
 
 ### -KeyCredentials
-The list of certificate credentials associated with the service principal.
+Specifies the list of certificate credentials associated with the service principal.
 
 ```yaml
 Type: PSADKeyCredential[]
@@ -307,7 +308,7 @@ Accept wildcard characters: False
 ```
 
 ### -DisplayName
-The friendly name of the service principal.
+Specifies the friendly name of the service principal.
 
 ```yaml
 Type: String
@@ -330,17 +331,16 @@ Keywords: azure, azurerm, arm, resource, management, manager, resource, group, t
 
 ## RELATED LINKS
 
-[Remove-AzureRmADServicePrincipal]()
-
 [Get-AzureRmADServicePrincipal]()
 
-[New-AzureRmADApplication]()
+[Remove-AzureRmADServicePrincipal](./Remove-AzureRmADServicePrincipal.md)
 
-[Remove-AzureRmADApplication]()
+[New-AzureRmADApplication](./New-AzureRmADApplication.md)
 
-[Get-AzureRmADSpCredential]()
+[Remove-AzureRmADApplication](./Remove-AzureRmADApplication.md)
 
-[New-AzureRmADSpCredential]()
+[Get-AzureRmADSpCredential](./Get-AzureRmADSpCredential.md)
 
-[Remove-AzureRmADSpCredential]()
+[New-AzureRmADSpCredential](./New-AzureRmADSpCredential.md)
 
+[Remove-AzureRmADSpCredential](./Remove-AzureRmADSpCredential.md)
