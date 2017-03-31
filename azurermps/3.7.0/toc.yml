@@ -31,7 +31,7 @@
 - name: Reference
   items:
     - name: Active Directory
-      href: '/powershell-new/module/AzureRM.Compute#Active-Directory'
+      href: '/powershell-new/module/AzureRM.Compute#active_directory'
       items:
         - name: Get-AzureRmVMADDomainExtension
           href: AzureRM.Compute/Get-AzureRmVMADDomainExtension.md
@@ -78,7 +78,7 @@
         - name: Set-AzureRmADUser
           href: AzureRM.Resources/Set-AzureRmADUser.md
     - name: Analysis Services
-      href: '/powershell-new/module/AzureRM.AnalysisServices#Analysis-Services'
+      href: '/powershell-new/module/AzureRM.AnalysisServices#analysis_services'
       items:
         - name: Get-AzureRmAnalysisServicesServer
           href: AzureRM.AnalysisServices/Get-AzureRmAnalysisServicesServer.md
@@ -95,7 +95,7 @@
         - name: Test-AzureRmAnalysisServicesServer
           href: AzureRM.AnalysisServices/Test-AzureRmAnalysisServicesServer.md
     - name: API Management
-      href: '/powershell-new/module/AzureRM.ApiManagement#API-Management'
+      href: '/powershell-new/module/AzureRM.ApiManagement#api_management'
       items:
         - name: Add-AzureRmApiManagementApiToProduct
           href: AzureRM.ApiManagement/Add-AzureRmApiManagementApiToProduct.md
@@ -274,7 +274,7 @@
         - name: Update-AzureRmApiManagementRegion
           href: AzureRM.ApiManagement/Update-AzureRmApiManagementRegion.md
     - name: App Service
-      href: '/powershell-new/module/AzureRM.Websites#App-Service'
+      href: '/powershell-new/module/AzureRM.Websites#app_service'
       items:
         - name: Get-AzureRmAppServicePlan
           href: AzureRM.Websites/Get-AzureRmAppServicePlan.md
@@ -337,7 +337,7 @@
         - name: Switch-AzureRmWebAppSlot
           href: AzureRM.Websites/Switch-AzureRmWebAppSlot.md
     - name: Application Gateway
-      href: '/powershell-new/module/AzureRM.Network#Application-Gateway'
+      href: '/powershell-new/module/AzureRM.Network#application_gateway'
       items:
         - name: Add-AzureRmApplicationGatewayAuthenticationCertificate
           href: AzureRM.Network/Add-AzureRmApplicationGatewayAuthenticationCertificate.md
@@ -494,7 +494,7 @@
         - name: Stop-AzureRmApplicationGateway
           href: AzureRM.Network/Stop-AzureRmApplicationGateway.md
     - name: Automation
-      href: '/powershell-new/module/AzureRM.Automation#Automation'
+      href: '/powershell-new/module/AzureRM.Automation#automation'
       items:
         - name: Export-AzureRmAutomationDscConfiguration
           href: AzureRM.Automation/Export-AzureRmAutomationDscConfiguration.md
@@ -557,7 +557,7 @@
         - name: Unregister-AzureRmAutomationDscNode
           href: AzureRM.Automation/Unregister-AzureRmAutomationDscNode.md
     - name: Availability Sets
-      href: '/powershell-new/module/AzureRM.Compute#Availability-Sets'
+      href: '/powershell-new/module/AzureRM.Compute#availability_sets'
       items:
         - name: Get-AzureRmAvailabilitySet
           href: AzureRM.Compute/Get-AzureRmAvailabilitySet.md
@@ -568,7 +568,7 @@
         - name: Update-AzureRmAvailabilitySet
           href: AzureRM.Compute/Update-AzureRmAvailabilitySet.md
     - name: Backup
-      href: '/powershell-new/module/AzureRM.Backup#Backup'
+      href: '/powershell-new/module/AzureRM.Backup#backup'
       items:
         - name: Backup-AzureRmBackupItem
           href: AzureRM.Backup/Backup-AzureRmBackupItem.md
@@ -699,7 +699,7 @@
         - name: Backup-AzureKeyVaultKey
           href: AzureRM.KeyVault/Backup-AzureKeyVaultKey.md
     - name: Batch
-      href: '/powershell-new/module/AzureRM.Batch#Batch'
+      href: '/powershell-new/module/AzureRM.Batch#batch'
       items:
         - name: Disable-AzureBatchAutoScale
           href: AzureRM.Batch/Disable-AzureBatchAutoScale.md
@@ -836,7 +836,7 @@
         - name: Test-AzureBatchAutoScale
           href: AzureRM.Batch/Test-AzureBatchAutoScale.md
     - name: CDN
-      href: '/powershell-new/module/AzureRM.Cdn#CDN'
+      href: '/powershell-new/module/AzureRM.Cdn#cdn'
       items:
         - name: Get-AzureRmCdnCustomDomain
           href: AzureRM.Cdn/Get-AzureRmCdnCustomDomain.md
@@ -877,7 +877,7 @@
         - name: Unpublish-AzureRmCdnEndpointContent
           href: AzureRM.Cdn/Unpublish-AzureRmCdnEndpointContent.md
     - name: Cognitive Services
-      href: '/powershell-new/module/AzureRM.CognitiveServices#Cognitive-Services'
+      href: '/powershell-new/module/AzureRM.CognitiveServices#cognitive_services'
       items:
         - name: Get-AzureRmCognitiveServicesAccount
           href: AzureRM.CognitiveServices/Get-AzureRmCognitiveServicesAccount.md
@@ -894,7 +894,7 @@
         - name: Set-AzureRmCognitiveServicesAccount
           href: AzureRM.CognitiveServices/Set-AzureRmCognitiveServicesAccount.md
     - name: Container Service
-      href: '/powershell-new/module/AzureRM.Compute#Container-Service'
+      href: '/powershell-new/module/AzureRM.Compute#container_service'
       items:
         - name: Add-AzureRmContainerServiceAgentPoolProfile
           href: AzureRM.Compute/Add-AzureRmContainerServiceAgentPoolProfile.md
@@ -911,7 +911,7 @@
         - name: Update-AzureRmContainerService
           href: AzureRM.Compute/Update-AzureRmContainerService.md
     - name: Data Factory
-      href: '/powershell-new/module/AzureRM.DataFactories#Data-Factory'
+      href: '/powershell-new/module/AzureRM.DataFactories#data_factory'
       items:
         - name: Get-AzureRmDataFactory
           href: AzureRM.DataFactories/Get-AzureRmDataFactory.md
@@ -972,7 +972,7 @@
         - name: Suspend-AzureRmDataFactoryPipeline
           href: AzureRM.DataFactories/Suspend-AzureRmDataFactoryPipeline.md
     - name: Data Lake
-      href: '/powershell-new/module/AzureRM.DataLakeAnalytics#Data-Lake'
+      href: '/powershell-new/module/AzureRM.DataLakeAnalytics#data_lake'
       items:
         - name: Add-AzureRmDataLakeAnalyticsDataSource
           href: AzureRM.DataLakeAnalytics/Add-AzureRmDataLakeAnalyticsDataSource.md
@@ -1093,7 +1093,7 @@
         - name: Test-AzureRmDataLakeStoreItem
           href: AzureRM.DataLakeStore/Test-AzureRmDataLakeStoreItem.md
     - name: DevTest Labs
-      href: '/powershell-new/module/AzureRM.DevTestLabs#DevTest-Labs'
+      href: '/powershell-new/module/AzureRM.DevTestLabs#devtest_labs'
       items:
         - name: Get-AzureRmDtlAllowedVMSizesPolicy
           href: AzureRM.DevTestLabs/Get-AzureRmDtlAllowedVMSizesPolicy.md
@@ -1116,7 +1116,7 @@
         - name: Set-AzureRmDtlVMsPerUserPolicy
           href: AzureRM.DevTestLabs/Set-AzureRmDtlVMsPerUserPolicy.md
     - name: DNS
-      href: '/powershell-new/module/AzureRM.Dns#DNS'
+      href: '/powershell-new/module/AzureRM.Dns#dns'
       items:
         - name: Add-AzureRmDnsRecordConfig
           href: AzureRM.Dns/Add-AzureRmDnsRecordConfig.md
@@ -1143,7 +1143,7 @@
         - name: Test-AzureRmDnsAvailability
           href: AzureRM.Network/Test-AzureRmDnsAvailability.md
     - name: Event Hub
-      href: '/powershell-new/module/AzureRM.EventHub#Event-Hub'
+      href: '/powershell-new/module/AzureRM.EventHub#event_hub'
       items:
         - name: Get-AzureRmEventHub
           href: AzureRM.EventHub/Get-AzureRmEventHub.md
@@ -1200,7 +1200,7 @@
         - name: Remove-AzureRmIotHubEventHubConsumerGroup
           href: AzureRM.IoTHub/Remove-AzureRmIotHubEventHubConsumerGroup.md
     - name: Express Route
-      href: '/powershell-new/module/AzureRM.Network#Express-Route'
+      href: '/powershell-new/module/AzureRM.Network#express_route'
       items:
         - name: Add-AzureRmExpressRouteCircuitAuthorization
           href: AzureRM.Network/Add-AzureRmExpressRouteCircuitAuthorization.md
@@ -1243,7 +1243,7 @@
         - name: Set-AzureRmExpressRouteCircuitPeeringConfig
           href: AzureRM.Network/Set-AzureRmExpressRouteCircuitPeeringConfig.md
     - name: HD Monitoring
-      href: '/powershell-new/module/AzureRM.HDInsight#HD-Monitoring'
+      href: '/powershell-new/module/AzureRM.HDInsight#hd_monitoring'
       items:
         - name: Add-AzureRmHDInsightClusterIdentity
           href: AzureRM.HDInsight/Add-AzureRmHDInsightClusterIdentity.md
@@ -1316,7 +1316,7 @@
         - name: Wait-AzureRmHDInsightJob
           href: AzureRM.HDInsight/Wait-AzureRmHDInsightJob.md
     - name: Integration Accounts
-      href: '/powershell-new/module/AzureRM.LogicApp#Integration-Accounts'
+      href: '/powershell-new/module/AzureRM.LogicApp#integration_accounts'
       items:
         - name: Get-AzureRmIntegrationAccount
           href: AzureRM.LogicApp/Get-AzureRmIntegrationAccount.md
@@ -1379,7 +1379,7 @@
         - name: Set-AzureRmIntegrationAccountSchema
           href: AzureRM.LogicApp/Set-AzureRmIntegrationAccountSchema.md
     - name: IoT
-      href: '/powershell-new/module/AzureRM.IoTHub#IoT'
+      href: '/powershell-new/module/AzureRM.IoTHub#iot'
       items:
         - name: Add-AzureRmIotHubKey
           href: AzureRM.IoTHub/Add-AzureRmIotHubKey.md
@@ -1410,7 +1410,7 @@
         - name: Set-AzureRmIotHub
           href: AzureRM.IoTHub/Set-AzureRmIotHub.md
     - name: Key Vault
-      href: '/powershell-new/module/AzureRM.Compute#Key-Vault'
+      href: '/powershell-new/module/AzureRM.Compute#key_vault'
       items:
         - name: New-AzureVMSqlServerKeyVaultCredentialConfig
           href: AzureRM.Compute/New-AzureVMSqlServerKeyVaultCredentialConfig.md
@@ -1487,7 +1487,7 @@
         - name: Stop-AzureKeyVaultCertificateOperation
           href: AzureRM.KeyVault/Stop-AzureKeyVaultCertificateOperation.md
     - name: Load Balancer
-      href: '/powershell-new/module/AzureRM.Network#Load-Balancer'
+      href: '/powershell-new/module/AzureRM.Network#load_balancer'
       items:
         - name: Add-AzureRmLoadBalancerBackendAddressPoolConfig
           href: AzureRM.Network/Add-AzureRmLoadBalancerBackendAddressPoolConfig.md
@@ -1556,7 +1556,7 @@
         - name: Set-AzureRmLoadBalancerRuleConfig
           href: AzureRM.Network/Set-AzureRmLoadBalancerRuleConfig.md
     - name: Media Services
-      href: '/powershell-new/module/AzureRM.Media#Media-Services'
+      href: '/powershell-new/module/AzureRM.Media#media_services'
       items:
         - name: Get-AzureRmMediaService
           href: AzureRM.Media/Get-AzureRmMediaService.md
@@ -1577,7 +1577,7 @@
         - name: Sync-AzureRmMediaServiceStorageKeys
           href: AzureRM.Media/Sync-AzureRmMediaServiceStorageKeys.md
     - name: Monitoring
-      href: '/powershell-new/module/AzureRM.RedisCache#Monitoring'
+      href: '/powershell-new/module/AzureRM.RedisCache#monitoring'
       items:
         - name: Remove-AzureRmRedisCacheDiagnostics
           href: AzureRM.RedisCache/Remove-AzureRmRedisCacheDiagnostics.md
@@ -1762,7 +1762,7 @@
         - name: Set-AzureStorageServiceMetricsProperty
           href: Azure.Storage/Set-AzureStorageServiceMetricsProperty.md
     - name: Network Watcher
-      href: '/powershell-new/module/AzureRM.Network#Network-Watcher'
+      href: '/powershell-new/module/AzureRM.Network#network_watcher'
       items:
         - name: Get-AzureRmNetworkWatcher
           href: AzureRM.Network/Get-AzureRmNetworkWatcher.md
@@ -1799,7 +1799,7 @@
         - name: Test-AzureRmNetworkWatcherIPFlow
           href: AzureRM.Network/Test-AzureRmNetworkWatcherIPFlow.md
     - name: Notification Hub
-      href: '/powershell-new/module/AzureRM.NotificationHubs#Notification-Hub'
+      href: '/powershell-new/module/AzureRM.NotificationHubs#notification_hub'
       items:
         - name: Get-AzureRmNotificationHub
           href: AzureRM.NotificationHubs/Get-AzureRmNotificationHub.md
@@ -1844,7 +1844,7 @@
         - name: Set-AzureRmNotificationHubsNamespaceAuthorizationRules
           href: AzureRM.NotificationHubs/Set-AzureRmNotificationHubsNamespaceAuthorizationRules.md
     - name: Others
-      href: '/powershell-new/module/AzureRM.Compute#Others'
+      href: '/powershell-new/module/AzureRM.Compute#others'
       items:
         - name: Add-AzureRMVhd
           href: AzureRM.Compute/Add-AzureRMVhd.md
@@ -1947,7 +1947,7 @@
         - name: Unregister-AzureRMAutomationScheduledRunbook
           href: AzureRM.Automation/Unregister-AzureRMAutomationScheduledRunbook.md
     - name: Policies
-      href: '/powershell-new/module/AzureRM.Sql#Policies'
+      href: '/powershell-new/module/AzureRM.Sql#policies'
       items:
         - name: Get-AzureRmSqlDatabaseAuditingPolicy
           href: AzureRM.Sql/Get-AzureRmSqlDatabaseAuditingPolicy.md
@@ -2038,7 +2038,7 @@
         - name: Update-AzureRmSiteRecoveryPolicy
           href: AzureRM.SiteRecovery/Update-AzureRmSiteRecoveryPolicy.md
     - name: Power BI
-      href: '/powershell-new/module/AzureRM.PowerBIEmbedded#Power-BI'
+      href: '/powershell-new/module/AzureRM.PowerBIEmbedded#power_bi'
       items:
         - name: Get-AzureRmPowerBIWorkspace
           href: AzureRM.PowerBIEmbedded/Get-AzureRmPowerBIWorkspace.md
@@ -2053,7 +2053,7 @@
         - name: Reset-AzureRmPowerBIWorkspaceCollectionAccessKeys
           href: AzureRM.PowerBIEmbedded/Reset-AzureRmPowerBIWorkspaceCollectionAccessKeys.md
     - name: Recovery
-      href: '/powershell-new/module/AzureRM.RecoveryServices#Recovery'
+      href: '/powershell-new/module/AzureRM.RecoveryServices#recovery'
       items:
         - name: Get-AzureRmRecoveryServicesVault
           href: AzureRM.RecoveryServices/Get-AzureRmRecoveryServicesVault.md
@@ -2188,7 +2188,7 @@
         - name: Update-AzureRmSiteRecoveryServicesProvider
           href: AzureRM.SiteRecovery/Update-AzureRmSiteRecoveryServicesProvider.md
     - name: Redis Cache
-      href: '/powershell-new/module/AzureRM.RedisCache#Redis-Cache'
+      href: '/powershell-new/module/AzureRM.RedisCache#redis_cache'
       items:
         - name: Export-AzureRmRedisCache
           href: AzureRM.RedisCache/Export-AzureRmRedisCache.md
@@ -2217,12 +2217,12 @@
         - name: Set-AzureRmRedisCache
           href: AzureRM.RedisCache/Set-AzureRmRedisCache.md
     - name: Resource groups
-      href: '/powershell-new/module/AzureRM.Resources#Resource-groups'
+      href: '/powershell-new/module/AzureRM.Resources#resource_groups'
       items:
         - name: Get-AzureRmLocation
           href: AzureRM.Resources/Get-AzureRmLocation.md
     - name: Resource providers
-      href: '/powershell-new/module/AzureRM.Resources#Resource-providers'
+      href: '/powershell-new/module/AzureRM.Resources#resource_providers'
       items:
         - name: Get-AzureRmProviderFeature
           href: AzureRM.Resources/Get-AzureRmProviderFeature.md
@@ -2237,7 +2237,7 @@
         - name: Unregister-AzureRmResourceProvider
           href: AzureRM.Resources/Unregister-AzureRmResourceProvider.md
     - name: Resource tags
-      href: '/powershell-new/module/AzureRM.Tags#Resource-tags'
+      href: '/powershell-new/module/AzureRM.Tags#resource_tags'
       items:
         - name: Get-AzureRmTag
           href: AzureRM.Tags/Get-AzureRmTag.md
@@ -2246,7 +2246,7 @@
         - name: Remove-AzureRmTag
           href: AzureRM.Tags/Remove-AzureRmTag.md
     - name: Resources
-      href: '/powershell-new/module/AzureRM.Resources#Resources'
+      href: '/powershell-new/module/AzureRM.Resources#resources'
       items:
         - name: Export-AzureRmResourceGroup
           href: AzureRM.Resources/Export-AzureRmResourceGroup.md
@@ -2297,7 +2297,7 @@
         - name: Test-AzureRmResourceGroupDeployment
           href: AzureRM.Resources/Test-AzureRmResourceGroupDeployment.md
     - name: Roles
-      href: '/powershell-new/module/AzureRM.Resources#Roles'
+      href: '/powershell-new/module/AzureRM.Resources#roles'
       items:
         - name: Get-AzureRmRoleAssignment
           href: AzureRM.Resources/Get-AzureRmRoleAssignment.md
@@ -2314,7 +2314,7 @@
         - name: Set-AzureRmRoleDefinition
           href: AzureRM.Resources/Set-AzureRmRoleDefinition.md
     - name: Route
-      href: '/powershell-new/module/AzureRM.Network#Route'
+      href: '/powershell-new/module/AzureRM.Network#route'
       items:
         - name: Add-AzureRmRouteConfig
           href: AzureRM.Network/Add-AzureRmRouteConfig.md
@@ -2355,7 +2355,7 @@
         - name: Set-AzureRmRouteTable
           href: AzureRM.Network/Set-AzureRmRouteTable.md
     - name: Server Management
-      href: '/powershell-new/module/AzureRM.ServerManagement#Server-Management'
+      href: '/powershell-new/module/AzureRM.ServerManagement#server_management'
       items:
         - name: Get-AzureRmServerManagementGateway
           href: AzureRM.ServerManagement/Get-AzureRmServerManagementGateway.md
@@ -2384,7 +2384,7 @@
         - name: Save-AzureRmServerManagementGatewayProfile
           href: AzureRM.ServerManagement/Save-AzureRmServerManagementGatewayProfile.md
     - name: Service Bus
-      href: '/powershell-new/module/AzureRM.ServiceBus#Service-Bus'
+      href: '/powershell-new/module/AzureRM.ServiceBus#service_bus'
       items:
         - name: Get-AzureRmServiceBusNamespace
           href: AzureRM.ServiceBus/Get-AzureRmServiceBusNamespace.md
@@ -2455,7 +2455,7 @@
         - name: Set-AzureRmServiceBusTopicAuthorizationRule
           href: AzureRM.ServiceBus/Set-AzureRmServiceBusTopicAuthorizationRule.md
     - name: SQL
-      href: '/powershell-new/module/AzureRM.Compute#SQL'
+      href: '/powershell-new/module/AzureRM.Compute#sql'
       items:
         - name: New-AzureVMSqlServerAutoPatchingConfig
           href: AzureRM.Compute/New-AzureVMSqlServerAutoPatchingConfig.md
@@ -2618,7 +2618,7 @@
         - name: Switch-AzureRmSqlDatabaseFailoverGroup
           href: AzureRM.Sql/Switch-AzureRmSqlDatabaseFailoverGroup.md
     - name: Storage
-      href: '/powershell-new/module/AzureRM.Compute#Storage'
+      href: '/powershell-new/module/AzureRM.Compute#storage'
       items:
         - name: Set-AzureRmVmssStorageProfile
           href: AzureRM.Compute/Set-AzureRmVmssStorageProfile.md
@@ -2727,7 +2727,7 @@
         - name: Stop-AzureStorageFileCopy
           href: Azure.Storage/Stop-AzureStorageFileCopy.md
     - name: Stream Analytics
-      href: '/powershell-new/module/AzureRM.StreamAnalytics#Stream-Analytics'
+      href: '/powershell-new/module/AzureRM.StreamAnalytics#stream_analytics'
       items:
         - name: Get-AzureRmStreamAnalyticsDefaultFunctionDefinition
           href: AzureRM.StreamAnalytics/Get-AzureRmStreamAnalyticsDefaultFunctionDefinition.md
@@ -2772,7 +2772,7 @@
         - name: Test-AzureRmStreamAnalyticsOutput
           href: AzureRM.StreamAnalytics/Test-AzureRmStreamAnalyticsOutput.md
     - name: Subscriptions
-      href: '/powershell-new/module/AzureRM.Profile#Subscriptions'
+      href: '/powershell-new/module/AzureRM.Profile#subscriptions'
       items:
         - name: Add-AzureRmAccount
           href: AzureRM.Profile/Add-AzureRmAccount.md
@@ -2797,7 +2797,7 @@
         - name: Set-AzureRmEnvironment
           href: AzureRM.Profile/Set-AzureRmEnvironment.md
     - name: Traffic Manager
-      href: '/powershell-new/module/AzureRM.TrafficManager#Traffic-Manager'
+      href: '/powershell-new/module/AzureRM.TrafficManager#traffic_manager'
       items:
         - name: Add-AzureRmTrafficManagerEndpointConfig
           href: AzureRM.TrafficManager/Add-AzureRmTrafficManagerEndpointConfig.md
@@ -2828,7 +2828,7 @@
         - name: Set-AzureRmTrafficManagerProfile
           href: AzureRM.TrafficManager/Set-AzureRmTrafficManagerProfile.md
     - name: Virtual Machines
-      href: '/powershell-new/module/AzureRM.Compute#Virtual-Machines'
+      href: '/powershell-new/module/AzureRM.Compute#virtual_machines'
       items:
         - name: Add-AzureRmVMAdditionalUnattendContent
           href: AzureRM.Compute/Add-AzureRmVMAdditionalUnattendContent.md
@@ -2915,7 +2915,7 @@
         - name: Update-AzureRmVM
           href: AzureRM.Compute/Update-AzureRmVM.md
     - name: Virtual Network
-      href: '/powershell-new/module/AzureRM.Network#Virtual-Network'
+      href: '/powershell-new/module/AzureRM.Network#virtual_network'
       items:
         - name: Add-AzureRmNetworkInterfaceIpConfig
           href: AzureRM.Network/Add-AzureRmNetworkInterfaceIpConfig.md
@@ -3046,7 +3046,7 @@
         - name: Remove-AzureRmVmssNetworkInterfaceConfiguration
           href: AzureRM.Compute/Remove-AzureRmVmssNetworkInterfaceConfiguration.md
     - name: VM Disks
-      href: '/powershell-new/module/AzureRM.Compute#VM-Disks'
+      href: '/powershell-new/module/AzureRM.Compute#vm_disks'
       items:
         - name: Add-AzureRmImageDataDisk
           href: AzureRM.Compute/Add-AzureRmImageDataDisk.md
@@ -3107,7 +3107,7 @@
         - name: Update-AzureRmDisk
           href: AzureRM.Compute/Update-AzureRmDisk.md
     - name: VM Images
-      href: '/powershell-new/module/AzureRM.Compute#VM-Images'
+      href: '/powershell-new/module/AzureRM.Compute#vm_images'
       items:
         - name: Get-AzureRmImage
           href: AzureRM.Compute/Get-AzureRmImage.md
@@ -3140,7 +3140,7 @@
         - name: Update-AzureRmImage
           href: AzureRM.Compute/Update-AzureRmImage.md
     - name: VM Scale Sets
-      href: '/powershell-new/module/AzureRM.Compute#VM-Scale-Sets'
+      href: '/powershell-new/module/AzureRM.Compute#vm_scale_sets'
       items:
         - name: Add-AzureRmVmssAdditionalUnattendContent
           href: AzureRM.Compute/Add-AzureRmVmssAdditionalUnattendContent.md
@@ -3183,7 +3183,7 @@
         - name: Update-AzureRmVmssInstance
           href: AzureRM.Compute/Update-AzureRmVmssInstance.md
     - name: VM Snapshots
-      href: '/powershell-new/module/AzureRM.Compute#VM-Snapshots'
+      href: '/powershell-new/module/AzureRM.Compute#vm_snapshots'
       items:
         - name: Get-AzureRmSnapshot
           href: AzureRM.Compute/Get-AzureRmSnapshot.md
@@ -3206,12 +3206,12 @@
         - name: Update-AzureRmSnapshot
           href: AzureRM.Compute/Update-AzureRmSnapshot.md
     - name: VM VHDs
-      href: '/powershell-new/module/AzureRM.Compute#VM-VHDs'
+      href: '/powershell-new/module/AzureRM.Compute#vm_vhds'
       items:
         - name: Save-AzureRmVhd
           href: AzureRM.Compute/Save-AzureRmVhd.md
     - name: VPN
-      href: '/powershell-new/module/AzureRM.Network#VPN'
+      href: '/powershell-new/module/AzureRM.Network#vpn'
       items:
         - name: Add-AzureRmVpnClientRevokedCertificate
           href: AzureRM.Network/Add-AzureRmVpnClientRevokedCertificate.md
