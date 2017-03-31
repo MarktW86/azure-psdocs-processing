@@ -3,7 +3,7 @@
 - name: Reference
   items:
     - name: AADRM
-      href: '/powershell-new/module/AADRM#AADRM'
+      href: '/powershell-new/module/AADRM#aadrm'
       items:
         - name: Add-AadrmKey
           href: AADRM/Add-AadrmKey.md
@@ -116,7 +116,7 @@
         - name: Use-AadrmKeyVaultKey
           href: AADRM/Use-AadrmKeyVaultKey.md
     - name: AzureInformationProtection
-      href: '/powershell-new/module/AzureInformationProtection#AzureInformationProtection'
+      href: '/powershell-new/module/AzureInformationProtection#azureinformationprotection'
       items:
         - name: Clear-RMSAuthentication
           href: AzureInformationProtection/Clear-RMSAuthentication.md
@@ -141,7 +141,7 @@
         - name: Unprotect-RMSFile
           href: AzureInformationProtection/Unprotect-RMSFile.md
     - name: RMSProtection
-      href: '/powershell-new/module/RMSProtection#RMSProtection'
+      href: '/powershell-new/module/RMSProtection#rmsprotection'
       items:
         - name: Clear-RMSAuthentication
           href: RMSProtection/Clear-RMSAuthentication.md
