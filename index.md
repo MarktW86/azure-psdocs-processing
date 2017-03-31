@@ -224,7 +224,7 @@ title: PowerShell Documentation
                     <a href="#community">Community</a>
                     <ul id="community" class="cardsF">
                         <li>
-                            <a href="">
+                            <a href="https://blogs.msdn.microsoft.com/powershell/">
                             <div class="cardSize">
                                 <div class="cardPadding">
                                     <div class="card">
@@ -281,7 +281,7 @@ title: PowerShell Documentation
                             </a>
                         </li>
                         <li>
-                            <a href="https://blogs.msdn.microsoft.com/powershell/">
+                            <a href="https://windowsserver.uservoice.com/forums/295047-general-feedback">
                             <div class="cardSize">
                                 <div class="cardPadding">
                                     <div class="card">
