@@ -8,7 +8,7 @@
 - name: Reference
   items:
     - name: MSOnline
-      href: '/powershell-new/module/MSOnline#msonline'
+      href: 'MSOnline/index.md#msonline'
       items:
         - name: Add-MsolAdministrativeUnitMember
           href: MSOnline/Add-MsolAdministrativeUnitMember.md
