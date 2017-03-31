@@ -3,7 +3,7 @@
 - name: Reference
   items:
     - name: ElasticDatabaseJobs
-      href: '/powershell-new/module/ElasticDatabaseJobs#elasticdatabasejobs'
+      href: 'ElasticDatabaseJobs/index.md#elasticdatabasejobs'
       items:
         - name: Add-AzureSqlJobChildTarget
           href: ElasticDatabaseJobs/Add-AzureSqlJobChildTarget.md
