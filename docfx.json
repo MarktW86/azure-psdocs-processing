@@ -324,7 +324,27 @@
       {
         "files": [
           "*.md",
-          "*.yml"
+          "*.yml",
+          "AADRM/**/*.md",
+          "AADRM/**/*.yml",
+          "AzureInformationProtection/**/*.md",
+          "AzureInformationProtection/**/*.yml",
+          "RMSProtection/**/*.md",
+          "RMSProtection/**/*.yml",
+          "AzureAD/**/*.md",
+          "AzureAD/**/*.yml",
+          "ElasticDatabaseJobs/**/*.md",
+          "ElasticDatabaseJobs/**/*.yml",
+          "MSOnline/**/*.md",
+          "MSOnline/**/*.yml",
+          "ResourceManager/**/*.md",
+          "ResourceManager/**/*.yml",
+          "ServiceManagement/**/*.md",
+          "ServiceManagement/**/*.yml",
+          "ServiceFabric/**/*.md",
+          "ServiceFabric/**/*.yml",
+          "Storage/**/*.md",
+          "Storage/**/*.yml"
         ]
       }
     ],
