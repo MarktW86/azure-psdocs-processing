@@ -12,7 +12,7 @@ ms.date: 03/30/2017
 ms.author: sewhee
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/docs-conceptual/authenticate-azureps.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/docs-conceptual/authenticate-azureps.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/538c30ca93f595f021fb665eedd873027e224d2a
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0a0ba1029655d278955b9f12495a4a0f6ca0c504
 open_to_public_contributors: false
 ---
 
@@ -66,10 +66,10 @@ For more information about authentication and subscription management in Azure, 
 
 Azure PowerShell cmdlets for role management
 
-* [Get-AzureRmRoleAssignment](/module/AzureRM.Resources/Get-AzureRmRoleAssignment)
-* [Get-AzureRmRoleDefinition](/module/AzureRM.Resources/Get-AzureRmRoleDefinition)
-* [New-AzureRmRoleAssignment](/module/AzureRM.Resources/New-AzureRmRoleAssignment)
-* [New-AzureRmRoleDefinition](/module/AzureRM.Resources/New-AzureRmRoleDefinition)
-* [Remove-AzureRmRoleAssignment](/module/AzureRM.Resources/Remove-AzureRmRoleAssignment)
-* [Remove-AzureRmRoleDefinition](/module/AzureRM.Resources/Remove-AzureRmRoleDefinition)
-* [Set-AzureRmRoleDefinition](/module/AzureRM.Resources/Set-AzureRmRoleDefinition)
+* [Get-AzureRmRoleAssignment](/powershell/module/AzureRM.Resources/Get-AzureRmRoleAssignment)
+* [Get-AzureRmRoleDefinition](/powershell/AzureRM.Resources/Get-AzureRmRoleDefinition)
+* [New-AzureRmRoleAssignment](/powershell/module/AzureRM.Resources/New-AzureRmRoleAssignment)
+* [New-AzureRmRoleDefinition](/powershell/AzureRM.Resources/New-AzureRmRoleDefinition)
+* [Remove-AzureRmRoleAssignment](/powershell//AzureRM.Resources/Remove-AzureRmRoleAssignment)
+* [Remove-AzureRmRoleDefinition](/powershell//AzureRM.Resources/Remove-AzureRmRoleDefinition)
+* [Set-AzureRmRoleDefinition](/powershell/AzureRM.Resources/Set-AzureRmRoleDefinition)
