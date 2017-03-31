@@ -11,7 +11,7 @@ ms.author: sewhee
 ms.manager: carmonm
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/docs-conceptual/overview.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/docs-conceptual/overview.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/ef6e96dacc8556911a097aec10c4de725a5be2fd
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/538c30ca93f595f021fb665eedd873027e224d2a
 open_to_public_contributors: false
 ---
 
@@ -21,4 +21,4 @@ Azure Service Management is the classic deployment model. This module allows you
 classic Azure deployments that have not been converted to Azure Resource Manager. Any new
 deployments should use the Azure Resource Manager methods. To use the cmdlets, you need to install
 and configure Azure PowerShell to connect it to your account. For more information, see
-[Install and configure Azure PowerShell](install-azureps.md).
+[Install and configure Azure PowerShell](install-azure-ps.md).
