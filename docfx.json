@@ -347,6 +347,17 @@
           "Storage/**/*.yml"
         ]
       }
+	],
+    "resource": [
+      {
+        "files": [
+          "bread/toc.json"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**"
+        ]
+      }
     ],
     "versions": {
       "azurermps-1.2.9": {
@@ -383,7 +394,8 @@
     "globalMetadata": {
       "showPowerShellPicker": "true",
       "brand": "azure",
-      "searchScope": ["Azure"]      
+      "searchScope": ["Azure"],
+      "breadcrumb_path": "/powershell-new/bread/toc.json"
     },
     "dest": "testMultipleVersion"
   }
