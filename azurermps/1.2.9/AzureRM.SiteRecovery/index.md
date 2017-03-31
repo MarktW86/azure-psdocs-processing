@@ -71,7 +71,7 @@ Start-AzureRmSiteRecoveryPolicyDissociationJob: Policies
 Start-AzureRmSiteRecoveryTestFailoverJob: Recovery
 Start-AzureRmSiteRecoveryUnplannedFailoverJob: Recovery
 Stop-AzureRmSiteRecoveryJob: Recovery
-Update-AzureRmSiteRecoveryPolicy: Policies
+Update-AzureRmSiteRecoveryPolicy: Recovery
 Update-AzureRmSiteRecoveryProtectionDirection: Recovery
 Update-AzureRmSiteRecoveryRecoveryPlan: Recovery
 Update-AzureRmSiteRecoveryServer: Recovery

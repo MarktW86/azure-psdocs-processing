@@ -62,8 +62,8 @@ Get-AzureRmApplicationGatewaySslCertificate: Application Gateway
 Get-AzureRmApplicationGatewaySslPolicy: Application Gateway
 Get-AzureRmApplicationGatewayUrlPathMapConfig: Application Gateway
 Get-AzureRmApplicationGatewayWebApplicationFirewallConfiguration: Application Gateway
-Get-AzureRmBgpServiceCommunity: Express Route
-Get-AzureRmEffectiveNetworkSecurityGroup: Virtual Network
+Get-AzureRmBgpServiceCommunity: Networking
+Get-AzureRmEffectiveNetworkSecurityGroup: Networking
 Get-AzureRmEffectiveRouteTable: Route
 Get-AzureRmExpressRouteCircuit: Express Route
 Get-AzureRmExpressRouteCircuitARPTable: Express Route
@@ -141,7 +141,7 @@ New-AzureRmNetworkSecurityGroup: Virtual Network
 New-AzureRmNetworkSecurityRuleConfig: Virtual Network
 New-AzureRmNetworkWatcher: Network Watcher
 New-AzureRmNetworkWatcherPacketCapture: Network Watcher
-New-AzureRmPacketCaptureFilterConfig: Network Watcher
+New-AzureRmPacketCaptureFilterConfig: Networking
 New-AzureRmPublicIpAddress: Virtual Network
 New-AzureRmRouteConfig: Route
 New-AzureRmRouteFilter: Route
@@ -252,7 +252,7 @@ Stop-AzureRmApplicationGateway: Application Gateway
 Stop-AzureRmNetworkWatcherPacketCapture: Network Watcher
 Test-AzureRmDnsAvailability: DNS
 Test-AzureRmNetworkWatcherIPFlow: Network Watcher
-Test-AzureRmPrivateIPAddressAvailability: Virtual Network
+Test-AzureRmPrivateIPAddressAvailability: Networking
 _isModulePage: true
 ---
 

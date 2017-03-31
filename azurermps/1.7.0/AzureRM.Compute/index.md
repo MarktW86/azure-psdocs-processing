@@ -18,15 +18,15 @@ manager: erickson-doug
 open_to_public_contributors: false
 ms.service: big-compute
 Add-AzureRmContainerServiceAgentPoolProfile: Container Service
-Add-AzureRmImageDataDisk: VM Disks
+Add-AzureRmImageDataDisk: VM Images
 Add-AzureRMVhd: Others
 Add-AzureRmVMAdditionalUnattendContent: Virtual Machines
 Add-AzureRmVMDataDisk: VM Disks
 Add-AzureRmVMNetworkInterface: Virtual Network
 Add-AzureRmVMSecret: Virtual Machines
 Add-AzureRmVmssAdditionalUnattendContent: VM Scale Sets
-Add-AzureRmVmssDataDisk: VM Disks
-Add-AzureRmVmssDiagnosticsExtension: Monitoring
+Add-AzureRmVmssDataDisk: VM Scale Sets
+Add-AzureRmVmssDiagnosticsExtension: VM Scale Sets
 Add-AzureRmVmssExtension: VM Scale Sets
 Add-AzureRmVMSshPublicKey: Virtual Machines
 Add-AzureRmVmssNetworkInterfaceConfiguration: Virtual Network
@@ -93,7 +93,7 @@ Remove-AzureRmContainerService: Container Service
 Remove-AzureRmContainerServiceAgentPoolProfile: Container Service
 Remove-AzureRmDisk: VM Disks
 Remove-AzureRmImage: VM Images
-Remove-AzureRmImageDataDisk: VM Disks
+Remove-AzureRmImageDataDisk: VM Images
 Remove-AzureRmSnapshot: VM Snapshots
 Remove-AzureRmVM: Virtual Machines
 Remove-AzureRmVMAccessExtension: Virtual Machines
@@ -110,8 +110,8 @@ Remove-AzureRmVMNetworkInterface: Virtual Network
 Remove-AzureRmVMSecret: Virtual Machines
 Remove-AzureRMVMSqlServerExtension: Others
 Remove-AzureRmVmss: VM Scale Sets
-Remove-AzureRmVmssDataDisk: VM Disks
-Remove-AzureRmVmssDiagnosticsExtension: Monitoring
+Remove-AzureRmVmssDataDisk: VM Scale Sets
+Remove-AzureRmVmssDiagnosticsExtension: VM Scale Sets
 Remove-AzureRmVmssExtension: VM Scale Sets
 Remove-AzureRmVmssNetworkInterfaceConfiguration: Virtual Network
 Restart-AzureRmVM: Virtual Machines
@@ -121,17 +121,17 @@ Revoke-AzureRmSnapshotAccess: VM Snapshots
 Save-AzureRmVhd: VM VHDs
 Save-AzureRmVMImage: VM Images
 Set-AzureRmDiskDiskEncryptionKey: VM Disks
-Set-AzureRmDiskImageReference: VM Disks
+Set-AzureRmDiskImageReference: VM Images
 Set-AzureRmDiskKeyEncryptionKey: VM Disks
 Set-AzureRmDiskUpdateDiskEncryptionKey: VM Disks
-Set-AzureRmDiskUpdateImageReference: VM Disks
+Set-AzureRmDiskUpdateImageReference: VM Images
 Set-AzureRmDiskUpdateKeyEncryptionKey: VM Disks
-Set-AzureRmImageOsDisk: VM Disks
-Set-AzureRmSnapshotDiskEncryptionKey: VM Disks
-Set-AzureRmSnapshotImageReference: VM Images
+Set-AzureRmImageOsDisk: VM Images
+Set-AzureRmSnapshotDiskEncryptionKey: VM Snapshots
+Set-AzureRmSnapshotImageReference: VM Snapshots
 Set-AzureRmSnapshotKeyEncryptionKey: VM Snapshots
-Set-AzureRmSnapshotUpdateDiskEncryptionKey: VM Disks
-Set-AzureRmSnapshotUpdateImageReference: VM Images
+Set-AzureRmSnapshotUpdateDiskEncryptionKey: VM Snapshots
+Set-AzureRmSnapshotUpdateImageReference: VM Snapshots
 Set-AzureRmSnapshotUpdateKeyEncryptionKey: VM Snapshots
 Set-AzureRmVM: Virtual Machines
 Set-AzureRmVMAccessExtension: Virtual Machines
@@ -161,7 +161,7 @@ Start-AzureRmVmss: VM Scale Sets
 Stop-AzureRmVM: Virtual Machines
 Stop-AzureRmVmss: VM Scale Sets
 Test-AzureRmVMAEMExtension: Virtual Machines
-Update-AzureRmAvailabilitySet: Availability Sets
+Update-AzureRmAvailabilitySet: Virtual Machines
 Update-AzureRmContainerService: Container Service
 Update-AzureRmDisk: VM Disks
 Update-AzureRmImage: VM Images

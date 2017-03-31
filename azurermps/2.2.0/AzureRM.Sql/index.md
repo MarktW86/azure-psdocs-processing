@@ -16,7 +16,7 @@ manager: erickson-doug
 open_to_public_contributors: false
 ms.service: sql-database
 Add-AzureRmSqlDatabaseToFailoverGroup: SQL
-Add-AzureRmSqlServerKeyVaultKey: Key Vault
+Add-AzureRmSqlServerKeyVaultKey: SQL
 Get-AzureRmSqlCapability: SQL
 Get-AzureRmSqlDatabase: SQL
 Get-AzureRmSqlDatabaseActivity: SQL
@@ -55,7 +55,7 @@ Get-AzureRmSqlServerCommunicationLink: SQL
 Get-AzureRmSqlServerDisasterRecoveryConfiguration: Recovery
 Get-AzureRmSqlServerDisasterRecoveryConfigurationActivity: Recovery
 Get-AzureRmSqlServerFirewallRule: SQL
-Get-AzureRmSqlServerKeyVaultKey: Key Vault
+Get-AzureRmSqlServerKeyVaultKey: SQL
 Get-AzureRmSqlServerRecommendedAction: SQL
 Get-AzureRmSqlServerServiceObjective: SQL
 Get-AzureRmSqlServerThreatDetectionPolicy: Policies
@@ -88,8 +88,8 @@ Remove-AzureRmSqlServerAuditing: SQL
 Remove-AzureRmSqlServerCommunicationLink: SQL
 Remove-AzureRmSqlServerDisasterRecoveryConfiguration: Recovery
 Remove-AzureRmSqlServerFirewallRule: SQL
-Remove-AzureRmSqlServerKeyVaultKey: Key Vault
-Remove-AzureRmSqlServerThreatDetectionPolicy: Policies
+Remove-AzureRmSqlServerKeyVaultKey: SQL
+Remove-AzureRmSqlServerThreatDetectionPolicy: SQL
 Restore-AzureRmSqlDatabase: SQL
 Resume-AzureRmSqlDatabase: SQL
 Set-AzureRmSqlDatabase: SQL
