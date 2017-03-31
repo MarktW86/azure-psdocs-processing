@@ -12,7 +12,7 @@ ms.date: 03/30/2017
 ms.author: sewhee
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/docs-conceptual/queries-azureps.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/docs-conceptual/queries-azureps.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/eb66617b00516c0adcf4ffed0352c8e028a90f8d
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/698a07827f93941be2cd5c673a9a322a88696ab5
 open_to_public_contributors: false
 ---
 
@@ -94,7 +94,7 @@ RGDEMO001          KBDemo020
 With the next example, the results will return the VMs that have the vmSize 'Standard_DS1_V2'.
 
 ```powershell
-Get-AzureRmVM | Where-Object vmSize -eq "'Standard_DS1_V2'" | Select-Object ResourceGroupName,Name
+Get-AzureRmVM | Where-Object vmSize -eq 'Standard_DS1_V2'
 ```
 
 ```
