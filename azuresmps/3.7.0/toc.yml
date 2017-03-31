@@ -6,7 +6,7 @@
 - name: Reference
   items:
     - name: Automation
-      href: '/powershell-new/module/Azure#automation'
+      href: 'Azure/index.md#automation'
       items:
         - name: Get-AzureAutomationAccount
           href: Azure/Get-AzureAutomationAccount.md
@@ -91,7 +91,7 @@
         - name: Unregister-AzureAutomationScheduledRunbook
           href: Azure/Unregister-AzureAutomationScheduledRunbook.md
     - name: Compute
-      href: '/powershell-new/module/Azure#compute'
+      href: 'Azure/index.md#compute'
       items:
         - name: Add-AzureAccount
           href: Azure/Add-AzureAccount.md
@@ -344,7 +344,7 @@
         - name: Update-AzureWebsiteRepository
           href: Azure/Update-AzureWebsiteRepository.md
     - name: HDInsight
-      href: '/powershell-new/module/Azure#hdinsight'
+      href: 'Azure/index.md#hdinsight'
       items:
         - name: Add-AzureHDInsightConfigValues
           href: Azure/Add-AzureHDInsightConfigValues.md
@@ -389,7 +389,7 @@
         - name: Wait-AzureHDInsightJob
           href: Azure/Wait-AzureHDInsightJob.md
     - name: Networking
-      href: '/powershell-new/module/Azure#networking'
+      href: 'Azure/index.md#networking'
       items:
         - name: Add-AzureApplicationGatewaySslCertificate
           href: Azure/Add-AzureApplicationGatewaySslCertificate.md
@@ -490,7 +490,7 @@
         - name: Update-AzureApplicationGateway
           href: Azure/Update-AzureApplicationGateway.md
     - name: Others
-      href: '/powershell-new/module/Azure.Storage#others'
+      href: 'Azure.Storage/index.md#others'
       items:
         - name: Get-AzureStorageBlob
           href: Azure.Storage/Get-AzureStorageBlob.md
@@ -1097,7 +1097,7 @@
         - name: Set-AzureRmEnvironment
           href: AzureRM.Profile/Set-AzureRmEnvironment.md
     - name: RecoveryServices
-      href: '/powershell-new/module/Azure#recoveryservices'
+      href: 'Azure/index.md#recoveryservices'
       items:
         - name: Get-AzureSiteRecoveryJob
           href: Azure/Get-AzureSiteRecoveryJob.md
@@ -1176,7 +1176,7 @@
         - name: Update-AzureSiteRecoveryRecoveryPlan
           href: Azure/Update-AzureSiteRecoveryRecoveryPlan.md
     - name: RemoteApp
-      href: '/powershell-new/module/Azure#remoteapp'
+      href: 'Azure/index.md#remoteapp'
       items:
         - name: Add-AzureRemoteAppUser
           href: Azure/Add-AzureRemoteAppUser.md
@@ -1255,7 +1255,7 @@
         - name: Update-AzureRemoteAppCollection
           href: Azure/Update-AzureRemoteAppCollection.md
     - name: Services
-      href: '/powershell-new/module/Azure#services'
+      href: 'Azure/index.md#services'
       items:
         - name: Clear-AzureProfile
           href: Azure/Clear-AzureProfile.md
@@ -1264,7 +1264,7 @@
         - name: Select-AzureProfile
           href: Azure/Select-AzureProfile.md
     - name: Sql
-      href: '/powershell-new/module/Azure#sql'
+      href: 'Azure/index.md#sql'
       items:
         - name: Get-AzureSqlDatabase
           href: Azure/Get-AzureSqlDatabase.md
@@ -1317,7 +1317,7 @@
         - name: Stop-AzureSqlDatabaseCopy
           href: Azure/Stop-AzureSqlDatabaseCopy.md
     - name: StorSimple
-      href: '/powershell-new/module/Azure#storsimple'
+      href: 'Azure/index.md#storsimple'
       items:
         - name: Confirm-AzureStorSimpleLegacyVolumeContainerStatus
           href: Azure/Confirm-AzureStorSimpleLegacyVolumeContainerStatus.md
@@ -1416,7 +1416,7 @@
         - name: Stop-AzureStorSimpleJob
           href: Azure/Stop-AzureStorSimpleJob.md
     - name: TrafficManager
-      href: '/powershell-new/module/Azure#trafficmanager'
+      href: 'Azure/index.md#trafficmanager'
       items:
         - name: Add-AzureTrafficManagerEndpoint
           href: Azure/Add-AzureTrafficManagerEndpoint.md
