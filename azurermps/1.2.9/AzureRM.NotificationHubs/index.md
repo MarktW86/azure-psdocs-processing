@@ -13,6 +13,7 @@ ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
 open_to_public_contributors: false
+ms.service: notification-hubs
 Get-AzureRmNotificationHub: Notification Hub
 Get-AzureRmNotificationHubAuthorizationRules: Notification Hub
 Get-AzureRmNotificationHubListKeys: Notification Hub

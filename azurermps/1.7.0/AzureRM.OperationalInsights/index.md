@@ -16,6 +16,7 @@ ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
 open_to_public_contributors: false
+ms.service: operational-insights
 Disable-AzureRmOperationalInsightsIISLogCollection: Monitoring
 Disable-AzureRmOperationalInsightsLinuxCustomLogCollection: Monitoring
 Disable-AzureRmOperationalInsightsLinuxPerformanceCollection: Monitoring

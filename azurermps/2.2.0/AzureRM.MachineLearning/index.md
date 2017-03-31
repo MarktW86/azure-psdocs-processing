@@ -14,6 +14,7 @@ ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
 open_to_public_contributors: false
+ms.service: machine-learning
 Export-AzureRmMlWebService: Machine Learning
 Get-AzureRmMlWebService: Machine Learning
 Get-AzureRmMlWebServiceKeys: Machine Learning

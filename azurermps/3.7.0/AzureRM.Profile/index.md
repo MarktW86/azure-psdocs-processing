@@ -13,6 +13,7 @@ ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
 open_to_public_contributors: false
+ms.service: subscription
 Add-AzureRmAccount: Subscriptions
 Add-AzureRmEnvironment: Subscriptions
 Disable-AzureRmDataCollection: Monitoring

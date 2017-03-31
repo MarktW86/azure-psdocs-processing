@@ -14,6 +14,7 @@ ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
 open_to_public_contributors: false
+ms.service: cognitiveServices
 Get-AzureRmCognitiveServicesAccount: Cognitive Services
 Get-AzureRmCognitiveServicesAccountKey: Cognitive Services
 Get-AzureRmCognitiveServicesAccountSkus: Cognitive Services

@@ -16,6 +16,7 @@ ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
 open_to_public_contributors: false
+ms.service: api-Management
 Add-AzureRmApiManagementApiToProduct: API Management
 Add-AzureRmApiManagementProductToGroup: API Management
 Add-AzureRmApiManagementRegion: API Management

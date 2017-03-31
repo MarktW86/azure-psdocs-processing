@@ -14,6 +14,7 @@ ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
 open_to_public_contributors: false
+ms.service: media-services
 Get-AzureRmMediaService: Media Services
 Get-AzureRmMediaServiceKeys: Media Services
 Get-AzureRmMediaServiceNameAvailability: Media Services

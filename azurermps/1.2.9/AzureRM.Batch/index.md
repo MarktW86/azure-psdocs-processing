@@ -13,6 +13,7 @@ ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
 open_to_public_contributors: false
+ms.service: batch
 Disable-AzureBatchAutoScale: Batch
 Disable-AzureBatchComputeNodeScheduling: Batch
 Disable-AzureBatchJob: Batch

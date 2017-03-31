@@ -16,6 +16,7 @@ ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
 open_to_public_contributors: false
+ms.service: key-vault
 Add-AzureKeyVaultCertificate: Key Vault
 Add-AzureKeyVaultCertificateContact: Key Vault
 Add-AzureKeyVaultKey: Key Vault

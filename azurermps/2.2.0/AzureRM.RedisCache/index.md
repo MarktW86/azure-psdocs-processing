@@ -14,6 +14,7 @@ ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
 open_to_public_contributors: false
+ms.service: redis-cache
 Export-AzureRmRedisCache: Redis Cache
 Get-AzureRmRedisCache: Redis Cache
 Get-AzureRmRedisCacheKey: Redis Cache

@@ -14,6 +14,7 @@ ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
 open_to_public_contributors: false
+ms.service: devtest-lab
 Get-AzureRmDtlAllowedVMSizesPolicy: DevTest Labs
 Get-AzureRmDtlAutoShutdownPolicy: DevTest Labs
 Get-AzureRmDtlAutoStartPolicy: DevTest Labs

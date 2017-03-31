@@ -15,6 +15,7 @@ ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
 open_to_public_contributors: false
+ms.service: data-lake-store
 Add-AzureRmDataLakeStoreFirewallRule: Data Lake
 Add-AzureRmDataLakeStoreItemContent: Data Lake
 Add-AzureRmDataLakeStoreTrustedIdProvider: Data Lake

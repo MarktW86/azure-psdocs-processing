@@ -16,6 +16,7 @@ ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
 open_to_public_contributors: false
+ms.service: stream-analytics
 Get-AzureRmStreamAnalyticsDefaultFunctionDefinition: Stream Analytics
 Get-AzureRmStreamAnalyticsFunction: Stream Analytics
 Get-AzureRmStreamAnalyticsInput: Stream Analytics

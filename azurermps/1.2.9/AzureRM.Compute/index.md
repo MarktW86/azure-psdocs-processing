@@ -13,6 +13,7 @@ ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
 open_to_public_contributors: false
+ms.service: big-compute
 Add-AzureRmContainerServiceAgentPoolProfile: Container Service
 Add-AzureRmImageDataDisk: VM Disks
 Add-AzureRMVhd: Others
