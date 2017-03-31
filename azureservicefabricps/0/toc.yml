@@ -3,7 +3,7 @@
 - name: Reference
   items:
     - name: ServiceFabric
-      href: '/powershell-new/module/ServiceFabric#servicefabric'
+      href: 'ServiceFabric/index.md#servicefabric'
       items:
         - name: Add-ServiceFabricNode
           href: ServiceFabric/Add-ServiceFabricNode.md
