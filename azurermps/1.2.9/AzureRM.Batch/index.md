@@ -22,27 +22,19 @@ Enable-AzureBatchAutoScale: Batch
 Enable-AzureBatchComputeNodeScheduling: Batch
 Enable-AzureBatchJob: Batch
 Enable-AzureBatchJobSchedule: Batch
-Enable-AzureBatchTask: Batch
 Get-AzureBatchCertificate: Batch
 Get-AzureBatchComputeNode: Batch
 Get-AzureBatchJob: Batch
 Get-AzureBatchJobSchedule: Batch
-Get-AzureBatchJobStatistics: Batch
-Get-AzureBatchNodeAgentSku: Batch
 Get-AzureBatchNodeFile: Batch
 Get-AzureBatchNodeFileContent: Batch
 Get-AzureBatchPool: Batch
-Get-AzureBatchPoolStatistics: Batch
-Get-AzureBatchPoolUsageMetrics: Batch
 Get-AzureBatchRemoteDesktopProtocolFile: Batch
-Get-AzureBatchRemoteLoginSettings: Batch
 Get-AzureBatchSubtask: Batch
 Get-AzureBatchTask: Batch
 Get-AzureRmBatchAccount: Batch
 Get-AzureRmBatchAccountKeys: Batch
-Get-AzureRmBatchApplication: Batch
-Get-AzureRmBatchApplicationPackage: Batch
-Get-AzureRmBatchLocationQuotas: Batch
+Get-AzureRmBatchSubscriptionQuotas: Batch
 New-AzureBatchCertificate: Batch
 New-AzureBatchComputeNodeUser: Batch
 New-AzureBatchJob: Batch
@@ -51,8 +43,6 @@ New-AzureBatchPool: Batch
 New-AzureBatchTask: Batch
 New-AzureRmBatchAccount: Batch
 New-AzureRmBatchAccountKey: Batch
-New-AzureRmBatchApplication: Batch
-New-AzureRmBatchApplicationPackage: Batch
 Remove-AzureBatchCertificate: Batch
 Remove-AzureBatchComputeNode: Batch
 Remove-AzureBatchComputeNodeUser: Batch
@@ -62,8 +52,6 @@ Remove-AzureBatchNodeFile: Batch
 Remove-AzureBatchPool: Batch
 Remove-AzureBatchTask: Batch
 Remove-AzureRmBatchAccount: Batch
-Remove-AzureRmBatchApplication: Batch
-Remove-AzureRmBatchApplicationPackage: Batch
 Reset-AzureBatchComputeNode: Batch
 Restart-AzureBatchComputeNode: Batch
 Set-AzureBatchComputeNodeUser: Batch
@@ -73,7 +61,6 @@ Set-AzureBatchPool: Batch
 Set-AzureBatchPoolOSVersion: Batch
 Set-AzureBatchTask: Batch
 Set-AzureRmBatchAccount: Batch
-Set-AzureRmBatchApplication: Batch
 Start-AzureBatchPoolResize: Batch
 Stop-AzureBatchCertificateDeletion: Batch
 Stop-AzureBatchJob: Batch
@@ -81,7 +68,6 @@ Stop-AzureBatchJobSchedule: Batch
 Stop-AzureBatchPoolResize: Batch
 Stop-AzureBatchTask: Batch
 Test-AzureBatchAutoScale: Batch
-Get-AzureRmBatchSubscriptionQuotas: Batch
 _isModulePage: true
 ---
 

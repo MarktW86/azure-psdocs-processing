@@ -16,11 +16,9 @@ manager: erickson-doug
 open_to_public_contributors: false
 ms.service: hdinsight
 Add-AzureRmHDInsightClusterIdentity: HD Monitoring
-Add-AzureRmHDInsightComponentVersion: HD Insights
 Add-AzureRmHDInsightConfigValues: HD Monitoring
 Add-AzureRmHDInsightMetastore: HD Monitoring
 Add-AzureRmHDInsightScriptAction: HD Monitoring
-Add-AzureRmHDInsightSecurityProfile: HD Insights
 Add-AzureRmHDInsightStorage: HD Monitoring
 Get-AzureRmHDInsightCluster: HD Monitoring
 Get-AzureRmHDInsightJob: HD Monitoring
@@ -50,7 +48,6 @@ Stop-AzureRmHDInsightJob: HD Monitoring
 Submit-AzureRmHDInsightScriptAction: HD Monitoring
 Use-AzureRmHDInsightCluster: HD Monitoring
 Wait-AzureRmHDInsightJob: HD Monitoring
-New-AzureHDInsightClusterIdentity: HD Monitoring
 _isModulePage: true
 ---
 

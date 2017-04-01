@@ -18,25 +18,18 @@ manager: erickson-doug
 open_to_public_contributors: false
 ms.service: data-lake-analytics
 Add-AzureRmDataLakeAnalyticsDataSource: Data Lake
-Add-AzureRmDataLakeAnalyticsFirewallRule: Data Lake
 Get-AzureRmDataLakeAnalyticsAccount: Data Lake
 Get-AzureRmDataLakeAnalyticsCatalogItem: Data Lake
 Get-AzureRmDataLakeAnalyticsDataSource: Data Lake
-Get-AzureRmDataLakeAnalyticsFirewallRule: Data Lake
 Get-AzureRmDataLakeAnalyticsJob: Data Lake
 New-AzureRmDataLakeAnalyticsAccount: Data Lake
-New-AzureRmDataLakeAnalyticsCatalogCredential: Data Lake
 New-AzureRmDataLakeAnalyticsCatalogSecret: Data Lake
 Remove-AzureRmDataLakeAnalyticsAccount: Data Lake
-Remove-AzureRmDataLakeAnalyticsCatalogCredential: Data Lake
 Remove-AzureRmDataLakeAnalyticsCatalogSecret: Data Lake
 Remove-AzureRmDataLakeAnalyticsDataSource: Data Lake
-Remove-AzureRmDataLakeAnalyticsFirewallRule: Data Lake
 Set-AzureRmDataLakeAnalyticsAccount: Data Lake
-Set-AzureRmDataLakeAnalyticsCatalogCredential: Data Lake
 Set-AzureRmDataLakeAnalyticsCatalogSecret: Data Lake
 Set-AzureRmDataLakeAnalyticsDataSource: Data Lake
-Set-AzureRmDataLakeAnalyticsFirewallRule: Data Lake
 Stop-AzureRmDataLakeAnalyticsJob: Data Lake
 Submit-AzureRmDataLakeAnalyticsJob: Data Lake
 Test-AzureRmDataLakeAnalyticsAccount: Data Lake

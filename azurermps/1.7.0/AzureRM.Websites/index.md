@@ -53,18 +53,6 @@ Start-AzureRmWebApp: App Service
 Start-AzureRmWebAppSlot: App Service
 Stop-AzureRmWebApp: App Service
 Stop-AzureRmWebAppSlot: App Service
-Switch-AzureRmWebAppSlot: App Service
-Get-AzureRMWebAppMetrics: Others
-Get-AzureRMWebAppSlot: Others
-Get-AzureRMWebAppSlotMetrics: Others
-Get-AzureRMWebAppSlotPublishingProfile: Others
-New-AzureRMWebAppSlot: Others
-Remove-AzureRMWebAppSlot: Others
-Restart-AzureRMWebAppSlot: Others
-Set-AzureRMWebApp: Others
-Set-AzureRMWebAppSlot: Others
-Start-AzureRMWebAppSlot: Others
-Stop-AzureRMWebAppSlot: Others
 Swap-AzureRmWebAppSlot: App Service
 _isModulePage: true
 ---

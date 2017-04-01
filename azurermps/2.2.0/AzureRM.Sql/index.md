@@ -15,8 +15,6 @@ keywords: powershell, cmdlet
 manager: erickson-doug
 open_to_public_contributors: false
 ms.service: sql-database
-Add-AzureRmSqlDatabaseToFailoverGroup: SQL
-Add-AzureRmSqlServerKeyVaultKey: SQL
 Get-AzureRmSqlCapability: SQL
 Get-AzureRmSqlDatabase: SQL
 Get-AzureRmSqlDatabaseActivity: SQL
@@ -26,7 +24,6 @@ Get-AzureRmSqlDatabaseBackupLongTermRetentionPolicy: Backup
 Get-AzureRmSqlDatabaseDataMaskingPolicy: Policies
 Get-AzureRmSqlDatabaseDataMaskingRule: SQL
 Get-AzureRmSqlDatabaseExpanded: SQL
-Get-AzureRmSqlDatabaseFailoverGroup: SQL
 Get-AzureRMSqlDatabaseGeoBackup: Others
 Get-AzureRmSqlDatabaseGeoBackupPolicy: Backup
 Get-AzureRmSqlDatabaseImportExportStatus: SQL
@@ -55,18 +52,15 @@ Get-AzureRmSqlServerCommunicationLink: SQL
 Get-AzureRmSqlServerDisasterRecoveryConfiguration: Recovery
 Get-AzureRmSqlServerDisasterRecoveryConfigurationActivity: Recovery
 Get-AzureRmSqlServerFirewallRule: SQL
-Get-AzureRmSqlServerKeyVaultKey: SQL
 Get-AzureRmSqlServerRecommendedAction: SQL
 Get-AzureRmSqlServerServiceObjective: SQL
 Get-AzureRmSqlServerThreatDetectionPolicy: Policies
-Get-AzureRmSqlServerTransparentDataEncryptionProtector: SQL
 Get-AzureRmSqlServerUpgrade: SQL
 Get-AzureRmSqlServerUpgradeHint: SQL
 New-AzureRmSqlDatabase: SQL
 New-AzureRmSqlDatabaseCopy: SQL
 New-AzureRmSqlDatabaseDataMaskingRule: SQL
 New-AzureRmSqlDatabaseExport: SQL
-New-AzureRmSqlDatabaseFailoverGroup: SQL
 New-AzureRmSqlDatabaseImport: SQL
 New-AzureRmSqlDatabaseSecondary: SQL
 New-AzureRmSqlElasticPool: SQL
@@ -77,8 +71,6 @@ New-AzureRmSqlServerFirewallRule: SQL
 Remove-AzureRmSqlDatabase: SQL
 Remove-AzureRmSqlDatabaseAuditing: SQL
 Remove-AzureRmSqlDatabaseDataMaskingRule: SQL
-Remove-AzureRmSqlDatabaseFailoverGroup: SQL
-Remove-AzureRmSqlDatabaseFromFailoverGroup: SQL
 Remove-AzureRmSqlDatabaseSecondary: SQL
 Remove-AzureRmSqlDatabaseThreatDetectionPolicy: Policies
 Remove-AzureRmSqlElasticPool: SQL
@@ -88,8 +80,6 @@ Remove-AzureRmSqlServerAuditing: SQL
 Remove-AzureRmSqlServerCommunicationLink: SQL
 Remove-AzureRmSqlServerDisasterRecoveryConfiguration: Recovery
 Remove-AzureRmSqlServerFirewallRule: SQL
-Remove-AzureRmSqlServerKeyVaultKey: SQL
-Remove-AzureRmSqlServerThreatDetectionPolicy: SQL
 Restore-AzureRmSqlDatabase: SQL
 Resume-AzureRmSqlDatabase: SQL
 Set-AzureRmSqlDatabase: SQL
@@ -98,7 +88,6 @@ Set-AzureRmSqlDatabaseAuditingPolicy: Policies
 Set-AzureRmSqlDatabaseBackupLongTermRetentionPolicy: Backup
 Set-AzureRmSqlDatabaseDataMaskingPolicy: Policies
 Set-AzureRmSqlDatabaseDataMaskingRule: SQL
-Set-AzureRmSqlDatabaseFailoverGroup: SQL
 Set-AzureRmSqlDatabaseGeoBackupPolicy: Backup
 Set-AzureRmSqlDatabaseRecommendedActionState: SQL
 Set-AzureRmSqlDatabaseSecondary: SQL
@@ -116,15 +105,12 @@ Set-AzureRmSqlServerDisasterRecoveryConfiguration: Recovery
 Set-AzureRmSqlServerFirewallRule: SQL
 Set-AzureRmSqlServerRecommendedActionState: SQL
 Set-AzureRmSqlServerThreatDetectionPolicy: Policies
-Set-AzureRmSqlServerTransparentDataEncryptionProtector: SQL
 Start-AzureRmSqlDatabaseExecuteIndexRecommendation: SQL
 Start-AzureRmSqlServerUpgrade: SQL
 Stop-AzureRmSqlDatabaseExecuteIndexRecommendation: SQL
 Stop-AzureRmSqlServerUpgrade: SQL
 Suspend-AzureRmSqlDatabase: SQL
-Switch-AzureRmSqlDatabaseFailoverGroup: SQL
 Use-AzureRmSqlServerAuditingPolicy: Policies
-Set-AzureRmSqlServerCommunicationLink: SQL
 _isModulePage: true
 ---
 

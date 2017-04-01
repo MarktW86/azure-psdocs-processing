@@ -15,7 +15,6 @@ manager: erickson-doug
 open_to_public_contributors: false
 ms.service: Data-Factory
 Get-AzureRmDataFactory: Data Factory
-Get-AzureRmDataFactoryActivityWindow: Data Factory
 Get-AzureRmDataFactoryDataset: Data Factory
 Get-AzureRmDataFactoryGateway: Data Factory
 Get-AzureRmDataFactoryHub: Data Factory

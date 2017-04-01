@@ -19,10 +19,8 @@ Get-AzureRmIntegrationAccount: Integration Accounts
 Get-AzureRmIntegrationAccountAgreement: Integration Accounts
 Get-AzureRmIntegrationAccountCallbackUrl: Integration Accounts
 Get-AzureRmIntegrationAccountCertificate: Integration Accounts
-Get-AzureRmIntegrationAccountGeneratedIcn: Logic Apps
 Get-AzureRmIntegrationAccountMap: Integration Accounts
 Get-AzureRmIntegrationAccountPartner: Integration Accounts
-Get-AzureRmIntegrationAccountReceivedIcn: Logic Apps
 Get-AzureRmIntegrationAccountSchema: Integration Accounts
 Get-AzureRmLogicApp: Monitoring
 Get-AzureRmLogicAppRunAction: Monitoring
@@ -43,16 +41,13 @@ Remove-AzureRmIntegrationAccountAgreement: Integration Accounts
 Remove-AzureRmIntegrationAccountCertificate: Integration Accounts
 Remove-AzureRmIntegrationAccountMap: Integration Accounts
 Remove-AzureRmIntegrationAccountPartner: Integration Accounts
-Remove-AzureRmIntegrationAccountReceivedIcn: Logic Apps
 Remove-AzureRmIntegrationAccountSchema: Integration Accounts
 Remove-AzureRmLogicApp: Monitoring
 Set-AzureRmIntegrationAccount: Integration Accounts
 Set-AzureRmIntegrationAccountAgreement: Integration Accounts
 Set-AzureRmIntegrationAccountCertificate: Integration Accounts
-Set-AzureRmIntegrationAccountGeneratedIcn: Logic Apps
 Set-AzureRmIntegrationAccountMap: Integration Accounts
 Set-AzureRmIntegrationAccountPartner: Integration Accounts
-Set-AzureRmIntegrationAccountReceivedIcn: Logic Apps
 Set-AzureRmIntegrationAccountSchema: Integration Accounts
 Set-AzureRmLogicApp: Monitoring
 Start-AzureRmLogicApp: Monitoring

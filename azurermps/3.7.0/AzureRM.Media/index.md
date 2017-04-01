@@ -15,15 +15,15 @@ keywords: powershell, cmdlet
 manager: erickson-doug
 open_to_public_contributors: false
 ms.service: media-services
-Get-AzureRmMediaService: Media Services
-Get-AzureRmMediaServiceKeys: Media Services
-Get-AzureRmMediaServiceNameAvailability: Media Services
-New-AzureRmMediaService: Media Services
-New-AzureRmMediaServiceStorageConfig: Media Services
-Remove-AzureRmMediaService: Media Services
-Set-AzureRmMediaService: Media Services
-Set-AzureRmMediaServiceKey: Media Services
-Sync-AzureRmMediaServiceStorageKeys: Media Services
+Get-AzureRmMediaService: Resources
+Get-AzureRmMediaServiceKeys: Resources
+Get-AzureRmMediaServiceNameAvailability: Resources
+New-AzureRmMediaService: Resources
+New-AzureRmMediaServiceStorageConfig: Resources
+Remove-AzureRmMediaService: Resources
+Set-AzureRmMediaService: Resources
+Set-AzureRmMediaServiceKey: Resources
+Sync-AzureRmMediaServiceStorageKeys: Resources
 _isModulePage: true
 ---
 

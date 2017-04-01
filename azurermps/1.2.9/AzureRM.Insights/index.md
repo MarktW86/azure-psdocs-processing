@@ -14,31 +14,6 @@ keywords: powershell, cmdlet
 manager: erickson-doug
 open_to_public_contributors: false
 ms.service: monitoring-alerts
-Add-AzureRmAutoscaleSetting: Monitoring
-Add-AzureRmLogAlertRule: Monitoring
-Add-AzureRmLogProfile: Monitoring
-Add-AzureRmMetricAlertRule: Monitoring
-Add-AzureRmWebtestAlertRule: Monitoring
-Get-AzureRmAlertHistory: Monitoring
-Get-AzureRmAlertRule: Monitoring
-Get-AzureRmAutoscaleHistory: Monitoring
-Get-AzureRmAutoscaleSetting: Monitoring
-Get-AzureRmDiagnosticSetting: Monitoring
-Get-AzureRmLog: Monitoring
-Get-AzureRmLogProfile: Monitoring
-Get-AzureRmMetric: Monitoring
-Get-AzureRmMetricDefinition: Monitoring
-Get-AzureRmUsage: Monitoring
-New-AzureRmAlertRuleEmail: Monitoring
-New-AzureRmAlertRuleWebhook: Monitoring
-New-AzureRmAutoscaleNotification: Monitoring
-New-AzureRmAutoscaleProfile: Monitoring
-New-AzureRmAutoscaleRule: Monitoring
-New-AzureRmAutoscaleWebhook: Monitoring
-Remove-AzureRmAlertRule: Monitoring
-Remove-AzureRmAutoscaleSetting: Monitoring
-Remove-AzureRmLogProfile: Monitoring
-Set-AzureRmDiagnosticSetting: Monitoring
 Add-AlertRule: Monitoring
 Add-AutoscaleSetting: Monitoring
 Format-MetricsAsTable: Monitoring
@@ -46,6 +21,8 @@ Get-AlertHistory: Monitoring
 Get-AlertRule: Monitoring
 Get-AutoscaleHistory: Monitoring
 Get-AutoscaleSetting: Monitoring
+Get-AzureRmDiagnosticSetting: Monitoring
+Get-AzureRmLog: Monitoring
 Get-MetricDefinitions: Monitoring
 Get-Metrics: Monitoring
 Get-UsageMetrics: Monitoring
@@ -53,6 +30,7 @@ New-AutoscaleProfile: Monitoring
 New-AutoscaleRule: Monitoring
 Remove-AlertRule: Monitoring
 Remove-AutoscaleSetting: Monitoring
+Set-AzureRmDiagnosticSetting: Monitoring
 _isModulePage: true
 ---
 

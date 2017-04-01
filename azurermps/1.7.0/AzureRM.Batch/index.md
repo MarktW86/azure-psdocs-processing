@@ -25,7 +25,6 @@ Enable-AzureBatchAutoScale: Batch
 Enable-AzureBatchComputeNodeScheduling: Batch
 Enable-AzureBatchJob: Batch
 Enable-AzureBatchJobSchedule: Batch
-Enable-AzureBatchTask: Batch
 Get-AzureBatchCertificate: Batch
 Get-AzureBatchComputeNode: Batch
 Get-AzureBatchJob: Batch
@@ -45,7 +44,7 @@ Get-AzureRmBatchAccount: Batch
 Get-AzureRmBatchAccountKeys: Batch
 Get-AzureRmBatchApplication: Batch
 Get-AzureRmBatchApplicationPackage: Batch
-Get-AzureRmBatchLocationQuotas: Batch
+Get-AzureRmBatchSubscriptionQuotas: Batch
 New-AzureBatchCertificate: Batch
 New-AzureBatchComputeNodeUser: Batch
 New-AzureBatchJob: Batch
@@ -84,7 +83,6 @@ Stop-AzureBatchJobSchedule: Batch
 Stop-AzureBatchPoolResize: Batch
 Stop-AzureBatchTask: Batch
 Test-AzureBatchAutoScale: Batch
-Get-AzureRmBatchSubscriptionQuotas: Batch
 _isModulePage: true
 ---
 

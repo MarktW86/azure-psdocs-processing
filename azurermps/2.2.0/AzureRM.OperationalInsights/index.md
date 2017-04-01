@@ -35,7 +35,7 @@ Get-AzureRmOperationalInsightsWorkspace: Monitoring
 Get-AzureRmOperationalInsightsWorkspaceManagementGroups: Monitoring
 Get-AzureRmOperationalInsightsWorkspaceSharedKeys: Monitoring
 Get-AzureRmOperationalInsightsWorkspaceUsage: Monitoring
-New-AzureRmOperationalInsightsAzureActivityLogDataSource: Operational Insights
+New-AzureRmOperationalInsightsAzureAuditDataSource: Monitoring
 New-AzureRmOperationalInsightsComputerGroup: Monitoring
 New-AzureRmOperationalInsightsCustomLogDataSource: Monitoring
 New-AzureRmOperationalInsightsLinuxPerformanceObjectDataSource: Monitoring
@@ -54,7 +54,6 @@ Set-AzureRmOperationalInsightsIntelligencePack: Monitoring
 Set-AzureRmOperationalInsightsSavedSearch: Monitoring
 Set-AzureRmOperationalInsightsStorageInsight: Monitoring
 Set-AzureRmOperationalInsightsWorkspace: Monitoring
-New-AzureRmOperationalInsightsAzureAuditDataSource: Monitoring
 _isModulePage: true
 ---
 

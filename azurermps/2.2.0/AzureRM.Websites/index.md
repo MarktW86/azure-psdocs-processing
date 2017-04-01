@@ -25,48 +25,36 @@ Get-AzureRmWebAppBackup: Backup
 Get-AzureRmWebAppBackupConfiguration: Backup
 Get-AzureRmWebAppBackupList: Backup
 Get-AzureRmWebAppCertificate: App Service
-Get-AzureRmWebAppMetrics: Monitoring
+Get-AzureRMWebAppMetrics: Others
 Get-AzureRmWebAppPublishingProfile: App Service
-Get-AzureRmWebAppSlot: App Service
+Get-AzureRMWebAppSlot: Others
 Get-AzureRmWebAppSlotConfigName: App Service
-Get-AzureRmWebAppSlotMetrics: Monitoring
-Get-AzureRmWebAppSlotPublishingProfile: App Service
+Get-AzureRMWebAppSlotMetrics: Others
+Get-AzureRMWebAppSlotPublishingProfile: Others
 Get-AzureRmWebAppSSLBinding: App Service
 New-AzureRmAppServicePlan: App Service
 New-AzureRmWebApp: App Service
 New-AzureRmWebAppBackup: Backup
 New-AzureRmWebAppDatabaseBackupSetting: Backup
-New-AzureRmWebAppSlot: App Service
+New-AzureRMWebAppSlot: Others
 New-AzureRmWebAppSSLBinding: App Service
 Remove-AzureRmAppServicePlan: App Service
 Remove-AzureRmWebApp: App Service
 Remove-AzureRmWebAppBackup: Backup
-Remove-AzureRmWebAppSlot: App Service
+Remove-AzureRMWebAppSlot: Others
 Remove-AzureRmWebAppSSLBinding: App Service
 Reset-AzureRmWebAppPublishingProfile: App Service
 Reset-AzureRmWebAppSlotPublishingProfile: App Service
 Restart-AzureRmWebApp: App Service
-Restart-AzureRmWebAppSlot: App Service
+Restart-AzureRMWebAppSlot: Others
 Restore-AzureRmWebAppBackup: Backup
 Set-AzureRmAppServicePlan: App Service
-Set-AzureRmWebApp: App Service
-Set-AzureRmWebAppSlot: App Service
-Set-AzureRmWebAppSlotConfigName: App Service
-Start-AzureRmWebApp: App Service
-Start-AzureRmWebAppSlot: App Service
-Stop-AzureRmWebApp: App Service
-Stop-AzureRmWebAppSlot: App Service
-Switch-AzureRmWebAppSlot: App Service
-Get-AzureRMWebAppMetrics: Others
-Get-AzureRMWebAppSlot: Others
-Get-AzureRMWebAppSlotMetrics: Others
-Get-AzureRMWebAppSlotPublishingProfile: Others
-New-AzureRMWebAppSlot: Others
-Remove-AzureRMWebAppSlot: Others
-Restart-AzureRMWebAppSlot: Others
 Set-AzureRMWebApp: Others
 Set-AzureRMWebAppSlot: Others
+Set-AzureRmWebAppSlotConfigName: App Service
+Start-AzureRmWebApp: App Service
 Start-AzureRMWebAppSlot: Others
+Stop-AzureRmWebApp: App Service
 Stop-AzureRMWebAppSlot: Others
 Swap-AzureRmWebAppSlot: App Service
 _isModulePage: true

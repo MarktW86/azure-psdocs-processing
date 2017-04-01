@@ -17,7 +17,6 @@ keywords: powershell, cmdlet
 manager: erickson-doug
 open_to_public_contributors: false
 ms.service: virtual-network
-Add-AzureRmApplicationGatewayAuthenticationCertificate: Application Gateway
 Add-AzureRmApplicationGatewayBackendAddressPool: Application Gateway
 Add-AzureRmApplicationGatewayBackendHttpSettings: Application Gateway
 Add-AzureRmApplicationGatewayFrontendIPConfig: Application Gateway
@@ -39,18 +38,13 @@ Add-AzureRmLoadBalancerRuleConfig: Load Balancer
 Add-AzureRmNetworkInterfaceIpConfig: Virtual Network
 Add-AzureRmNetworkSecurityRuleConfig: Virtual Network
 Add-AzureRmRouteConfig: Route
-Add-AzureRmRouteFilterRuleConfig: Route
-Add-AzureRmVirtualNetworkGatewayIpConfig: Virtual Network
 Add-AzureRmVirtualNetworkPeering: Virtual Network
 Add-AzureRmVirtualNetworkSubnetConfig: Virtual Network
 Add-AzureRmVpnClientRevokedCertificate: VPN
 Add-AzureRmVpnClientRootCertificate: VPN
 Get-AzureRmApplicationGateway: Application Gateway
-Get-AzureRmApplicationGatewayAuthenticationCertificate: Application Gateway
 Get-AzureRmApplicationGatewayBackendAddressPool: Application Gateway
-Get-AzureRmApplicationGatewayBackendHealth: Application Gateway
 Get-AzureRmApplicationGatewayBackendHttpSettings: Application Gateway
-Get-AzureRmApplicationGatewayConnectionDraining: Application Gateway
 Get-AzureRmApplicationGatewayFrontendIPConfig: Application Gateway
 Get-AzureRmApplicationGatewayFrontendPort: Application Gateway
 Get-AzureRmApplicationGatewayHttpListener: Application Gateway
@@ -59,12 +53,7 @@ Get-AzureRmApplicationGatewayProbeConfig: Application Gateway
 Get-AzureRmApplicationGatewayRequestRoutingRule: Application Gateway
 Get-AzureRmApplicationGatewaySku: Application Gateway
 Get-AzureRmApplicationGatewaySslCertificate: Application Gateway
-Get-AzureRmApplicationGatewaySslPolicy: Application Gateway
 Get-AzureRmApplicationGatewayUrlPathMapConfig: Application Gateway
-Get-AzureRmApplicationGatewayWebApplicationFirewallConfiguration: Application Gateway
-Get-AzureRmBgpServiceCommunity: Networking
-Get-AzureRmEffectiveNetworkSecurityGroup: Networking
-Get-AzureRmEffectiveRouteTable: Route
 Get-AzureRmExpressRouteCircuit: Express Route
 Get-AzureRmExpressRouteCircuitARPTable: Express Route
 Get-AzureRmExpressRouteCircuitAuthorization: Express Route
@@ -85,17 +74,8 @@ Get-AzureRmNetworkInterface: Virtual Network
 Get-AzureRmNetworkInterfaceIpConfig: Virtual Network
 Get-AzureRmNetworkSecurityGroup: Virtual Network
 Get-AzureRmNetworkSecurityRuleConfig: Virtual Network
-Get-AzureRmNetworkWatcher: Network Watcher
-Get-AzureRmNetworkWatcherFlowLogStatus: Network Watcher
-Get-AzureRmNetworkWatcherNextHop: Network Watcher
-Get-AzureRmNetworkWatcherPacketCapture: Network Watcher
-Get-AzureRmNetworkWatcherSecurityGroupView: Network Watcher
-Get-AzureRmNetworkWatcherTopology: Network Watcher
-Get-AzureRmNetworkWatcherTroubleshootingResult: Network Watcher
 Get-AzureRmPublicIpAddress: Virtual Network
 Get-AzureRmRouteConfig: Route
-Get-AzureRmRouteFilter: Route
-Get-AzureRmRouteFilterRuleConfig: Route
 Get-AzureRmRouteTable: Route
 Get-AzureRmVirtualNetwork: Virtual Network
 Get-AzureRmVirtualNetworkGateway: Virtual Network
@@ -108,10 +88,8 @@ Get-AzureRmVpnClientRevokedCertificate: VPN
 Get-AzureRmVpnClientRootCertificate: VPN
 Move-AzureRmExpressRouteCircuit: Express Route
 New-AzureRmApplicationGateway: Application Gateway
-New-AzureRmApplicationGatewayAuthenticationCertificate: Application Gateway
 New-AzureRmApplicationGatewayBackendAddressPool: Application Gateway
 New-AzureRmApplicationGatewayBackendHttpSettings: Application Gateway
-New-AzureRmApplicationGatewayConnectionDraining: Application Gateway
 New-AzureRmApplicationGatewayFrontendIPConfig: Application Gateway
 New-AzureRmApplicationGatewayFrontendPort: Application Gateway
 New-AzureRmApplicationGatewayHttpListener: Application Gateway
@@ -121,9 +99,7 @@ New-AzureRmApplicationGatewayProbeConfig: Application Gateway
 New-AzureRmApplicationGatewayRequestRoutingRule: Application Gateway
 New-AzureRmApplicationGatewaySku: Application Gateway
 New-AzureRmApplicationGatewaySslCertificate: Application Gateway
-New-AzureRmApplicationGatewaySslPolicy: Application Gateway
 New-AzureRmApplicationGatewayUrlPathMapConfig: Application Gateway
-New-AzureRmApplicationGatewayWebApplicationFirewallConfiguration: Application Gateway
 New-AzureRmExpressRouteCircuit: Express Route
 New-AzureRmExpressRouteCircuitAuthorization: Express Route
 New-AzureRmExpressRouteCircuitPeeringConfig: Express Route
@@ -139,13 +115,8 @@ New-AzureRmNetworkInterface: Virtual Network
 New-AzureRmNetworkInterfaceIpConfig: Virtual Network
 New-AzureRmNetworkSecurityGroup: Virtual Network
 New-AzureRmNetworkSecurityRuleConfig: Virtual Network
-New-AzureRmNetworkWatcher: Network Watcher
-New-AzureRmNetworkWatcherPacketCapture: Network Watcher
-New-AzureRmPacketCaptureFilterConfig: Networking
 New-AzureRmPublicIpAddress: Virtual Network
 New-AzureRmRouteConfig: Route
-New-AzureRmRouteFilter: Route
-New-AzureRmRouteFilterRuleConfig: Route
 New-AzureRmRouteTable: Route
 New-AzureRmVirtualNetwork: Virtual Network
 New-AzureRmVirtualNetworkGateway: Virtual Network
@@ -155,10 +126,8 @@ New-AzureRmVirtualNetworkSubnetConfig: Virtual Network
 New-AzureRmVpnClientRevokedCertificate: VPN
 New-AzureRmVpnClientRootCertificate: VPN
 Remove-AzureRmApplicationGateway: Application Gateway
-Remove-AzureRmApplicationGatewayAuthenticationCertificate: Application Gateway
 Remove-AzureRmApplicationGatewayBackendAddressPool: Application Gateway
 Remove-AzureRmApplicationGatewayBackendHttpSettings: Application Gateway
-Remove-AzureRmApplicationGatewayConnectionDraining: Application Gateway
 Remove-AzureRmApplicationGatewayFrontendIPConfig: Application Gateway
 Remove-AzureRmApplicationGatewayFrontendPort: Application Gateway
 Remove-AzureRmApplicationGatewayHttpListener: Application Gateway
@@ -166,7 +135,6 @@ Remove-AzureRmApplicationGatewayIPConfiguration: Application Gateway
 Remove-AzureRmApplicationGatewayProbeConfig: Application Gateway
 Remove-AzureRmApplicationGatewayRequestRoutingRule: Application Gateway
 Remove-AzureRmApplicationGatewaySslCertificate: Application Gateway
-Remove-AzureRmApplicationGatewaySslPolicy: Application Gateway
 Remove-AzureRmApplicationGatewayUrlPathMapConfig: Application Gateway
 Remove-AzureRmExpressRouteCircuit: Express Route
 Remove-AzureRmExpressRouteCircuitAuthorization: Express Route
@@ -183,18 +151,13 @@ Remove-AzureRmNetworkInterface: Virtual Network
 Remove-AzureRmNetworkInterfaceIpConfig: Virtual Network
 Remove-AzureRmNetworkSecurityGroup: Virtual Network
 Remove-AzureRmNetworkSecurityRuleConfig: Virtual Network
-Remove-AzureRmNetworkWatcher: Network Watcher
-Remove-AzureRmNetworkWatcherPacketCapture: Network Watcher
 Remove-AzureRmPublicIpAddress: Virtual Network
 Remove-AzureRmRouteConfig: Route
-Remove-AzureRmRouteFilter: Route
-Remove-AzureRmRouteFilterRuleConfig: Route
 Remove-AzureRmRouteTable: Route
 Remove-AzureRmVirtualNetwork: Virtual Network
 Remove-AzureRmVirtualNetworkGateway: Virtual Network
 Remove-AzureRmVirtualNetworkGatewayConnection: Virtual Network
 Remove-AzureRmVirtualNetworkGatewayDefaultSite: Virtual Network
-Remove-AzureRmVirtualNetworkGatewayIpConfig: Virtual Network
 Remove-AzureRmVirtualNetworkPeering: Virtual Network
 Remove-AzureRmVirtualNetworkSubnetConfig: Virtual Network
 Remove-AzureRmVpnClientRevokedCertificate: VPN
@@ -203,10 +166,8 @@ Reset-AzureRmVirtualNetworkGateway: Virtual Network
 Reset-AzureRmVirtualNetworkGatewayConnectionSharedKey: Virtual Network
 Resize-AzureRmVirtualNetworkGateway: Virtual Network
 Set-AzureRmApplicationGateway: Application Gateway
-Set-AzureRmApplicationGatewayAuthenticationCertificate: Application Gateway
 Set-AzureRmApplicationGatewayBackendAddressPool: Application Gateway
 Set-AzureRmApplicationGatewayBackendHttpSettings: Application Gateway
-Set-AzureRmApplicationGatewayConnectionDraining: Application Gateway
 Set-AzureRmApplicationGatewayFrontendIPConfig: Application Gateway
 Set-AzureRmApplicationGatewayFrontendPort: Application Gateway
 Set-AzureRmApplicationGatewayHttpListener: Application Gateway
@@ -215,9 +176,7 @@ Set-AzureRmApplicationGatewayProbeConfig: Application Gateway
 Set-AzureRmApplicationGatewayRequestRoutingRule: Application Gateway
 Set-AzureRmApplicationGatewaySku: Application Gateway
 Set-AzureRmApplicationGatewaySslCertificate: Application Gateway
-Set-AzureRmApplicationGatewaySslPolicy: Application Gateway
 Set-AzureRmApplicationGatewayUrlPathMapConfig: Application Gateway
-Set-AzureRmApplicationGatewayWebApplicationFirewallConfiguration: Application Gateway
 Set-AzureRmExpressRouteCircuit: Express Route
 Set-AzureRmExpressRouteCircuitPeeringConfig: Express Route
 Set-AzureRmLoadBalancer: Load Balancer
@@ -231,12 +190,8 @@ Set-AzureRmNetworkInterface: Virtual Network
 Set-AzureRmNetworkInterfaceIpConfig: Virtual Network
 Set-AzureRmNetworkSecurityGroup: Virtual Network
 Set-AzureRmNetworkSecurityRuleConfig: Virtual Network
-Set-AzureRmNetworkWatcher: Network Watcher
-Set-AzureRmNetworkWatcherConfigFlowLog: Network Watcher
 Set-AzureRmPublicIpAddress: Virtual Network
 Set-AzureRmRouteConfig: Route
-Set-AzureRmRouteFilter: Route
-Set-AzureRmRouteFilterRuleConfig: Route
 Set-AzureRmRouteTable: Route
 Set-AzureRmVirtualNetwork: Virtual Network
 Set-AzureRmVirtualNetworkGateway: Virtual Network
@@ -247,12 +202,8 @@ Set-AzureRmVirtualNetworkGatewayVpnClientConfig: Virtual Network
 Set-AzureRmVirtualNetworkPeering: Virtual Network
 Set-AzureRmVirtualNetworkSubnetConfig: Virtual Network
 Start-AzureRmApplicationGateway: Application Gateway
-Start-AzureRmNetworkWatcherResourceTroubleshooting: Network Watcher
 Stop-AzureRmApplicationGateway: Application Gateway
-Stop-AzureRmNetworkWatcherPacketCapture: Network Watcher
 Test-AzureRmDnsAvailability: DNS
-Test-AzureRmNetworkWatcherIPFlow: Network Watcher
-Test-AzureRmPrivateIPAddressAvailability: Networking
 _isModulePage: true
 ---
 

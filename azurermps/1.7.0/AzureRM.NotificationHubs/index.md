@@ -24,10 +24,8 @@ Get-AzureRmNotificationHubsNamespaceAuthorizationRules: Notification Hub
 Get-AzureRmNotificationHubsNamespaceListKeys: Notification Hub
 New-AzureRmNotificationHub: Notification Hub
 New-AzureRmNotificationHubAuthorizationRules: Notification Hub
-New-AzureRmNotificationHubKey: Notification Hub
 New-AzureRmNotificationHubsNamespace: Notification Hub
 New-AzureRmNotificationHubsNamespaceAuthorizationRules: Notification Hub
-New-AzureRmNotificationHubsNamespaceKey: Notification Hub
 Remove-AzureRmNotificationHub: Notification Hub
 Remove-AzureRmNotificationHubAuthorizationRules: Notification Hub
 Remove-AzureRmNotificationHubsNamespace: Notification Hub

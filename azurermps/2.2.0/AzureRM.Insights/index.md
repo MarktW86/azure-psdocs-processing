@@ -40,20 +40,6 @@ Remove-AzureRmAlertRule: Monitoring
 Remove-AzureRmAutoscaleSetting: Monitoring
 Remove-AzureRmLogProfile: Monitoring
 Set-AzureRmDiagnosticSetting: Monitoring
-Add-AlertRule: Monitoring
-Add-AutoscaleSetting: Monitoring
-Format-MetricsAsTable: Monitoring
-Get-AlertHistory: Monitoring
-Get-AlertRule: Monitoring
-Get-AutoscaleHistory: Monitoring
-Get-AutoscaleSetting: Monitoring
-Get-MetricDefinitions: Monitoring
-Get-Metrics: Monitoring
-Get-UsageMetrics: Monitoring
-New-AutoscaleProfile: Monitoring
-New-AutoscaleRule: Monitoring
-Remove-AlertRule: Monitoring
-Remove-AutoscaleSetting: Monitoring
 _isModulePage: true
 ---
 

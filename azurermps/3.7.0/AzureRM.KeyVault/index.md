@@ -20,7 +20,7 @@ ms.service: key-vault
 Add-AzureKeyVaultCertificate: Key Vault
 Add-AzureKeyVaultCertificateContact: Key Vault
 Add-AzureKeyVaultKey: Key Vault
-Backup-AzureKeyVaultKey: Backup
+Backup-AzureKeyVaultKey: Key Vault
 Get-AzureKeyVaultCertificate: Key Vault
 Get-AzureKeyVaultCertificateContact: Key Vault
 Get-AzureKeyVaultCertificateIssuer: Key Vault

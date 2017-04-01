@@ -31,7 +31,6 @@ Get-AzureStorageShare: Storage
 Get-AzureStorageShareStoredAccessPolicy: Policies
 Get-AzureStorageTable: Storage
 Get-AzureStorageTableStoredAccessPolicy: Policies
-New-AzureStorageAccountSASToken: Storage
 New-AzureStorageBlobSASToken: Storage
 New-AzureStorageContainer: Storage
 New-AzureStorageContainerSASToken: Storage

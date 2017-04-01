@@ -14,41 +14,29 @@ keywords: powershell, cmdlet
 manager: erickson-doug
 open_to_public_contributors: false
 ms.service: data-lake-store
-Add-AzureRmDataLakeStoreFirewallRule: Data Lake
 Add-AzureRmDataLakeStoreItemContent: Data Lake
-Add-AzureRmDataLakeStoreTrustedIdProvider: Data Lake
 Export-AzureRmDataLakeStoreItem: Data Lake
 Get-AzureRmDataLakeStoreAccount: Data Lake
 Get-AzureRmDataLakeStoreChildItem: Data Lake
-Get-AzureRmDataLakeStoreFirewallRule: Data Lake
 Get-AzureRmDataLakeStoreItem: Data Lake
-Get-AzureRmDataLakeStoreItemAclEntry: Data Lake
+Get-AzureRmDataLakeStoreItemAcl: Data Lake
 Get-AzureRmDataLakeStoreItemContent: Data Lake
 Get-AzureRmDataLakeStoreItemOwner: Data Lake
-Get-AzureRmDataLakeStoreItemPermission: Data Lake
-Get-AzureRmDataLakeStoreTrustedIdProvider: Data Lake
 Import-AzureRmDataLakeStoreItem: Data Lake
 Join-AzureRmDataLakeStoreItem: Data Lake
 Move-AzureRmDataLakeStoreItem: Data Lake
 New-AzureRmDataLakeStoreAccount: Data Lake
 New-AzureRmDataLakeStoreItem: Data Lake
 Remove-AzureRmDataLakeStoreAccount: Data Lake
-Remove-AzureRmDataLakeStoreFirewallRule: Data Lake
 Remove-AzureRmDataLakeStoreItem: Data Lake
 Remove-AzureRmDataLakeStoreItemAcl: Data Lake
 Remove-AzureRmDataLakeStoreItemAclEntry: Data Lake
-Remove-AzureRmDataLakeStoreTrustedIdProvider: Data Lake
 Set-AzureRmDataLakeStoreAccount: Data Lake
-Set-AzureRmDataLakeStoreFirewallRule: Data Lake
 Set-AzureRmDataLakeStoreItemAcl: Data Lake
 Set-AzureRmDataLakeStoreItemAclEntry: Data Lake
-Set-AzureRmDataLakeStoreItemExpiry: Data Lake
 Set-AzureRmDataLakeStoreItemOwner: Data Lake
-Set-AzureRmDataLakeStoreItemPermission: Data Lake
-Set-AzureRmDataLakeStoreTrustedIdProvider: Data Lake
 Test-AzureRmDataLakeStoreAccount: Data Lake
 Test-AzureRmDataLakeStoreItem: Data Lake
-Get-AzureRmDataLakeStoreItemAcl: Data Lake
 _isModulePage: true
 ---
 

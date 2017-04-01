@@ -16,7 +16,6 @@ open_to_public_contributors: false
 Add-AzureRmDnsRecordConfig: DNS
 Get-AzureRmDnsRecordSet: DNS
 Get-AzureRmDnsZone: DNS
-New-AzureRmDnsRecordConfig: DNS
 New-AzureRmDnsRecordSet: DNS
 New-AzureRmDnsZone: DNS
 Remove-AzureRmDnsRecordConfig: DNS

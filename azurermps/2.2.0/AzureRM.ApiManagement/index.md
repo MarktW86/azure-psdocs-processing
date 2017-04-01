@@ -26,10 +26,8 @@ Export-AzureRmApiManagementApi: API Management
 Get-AzureRmApiManagement: API Management
 Get-AzureRmApiManagementApi: API Management
 Get-AzureRmApiManagementAuthorizationServer: API Management
-Get-AzureRmApiManagementBackend: API Management
 Get-AzureRmApiManagementCertificate: API Management
 Get-AzureRmApiManagementGroup: API Management
-Get-AzureRmApiManagementIdentityProvider: API Management
 Get-AzureRmApiManagementLogger: API Management
 Get-AzureRmApiManagementOpenIdConnectProvider: API Management
 Get-AzureRmApiManagementOperation: API Management
@@ -48,20 +46,15 @@ Import-AzureRmApiManagementHostnameCertificate: API Management
 New-AzureRmApiManagement: API Management
 New-AzureRmApiManagementApi: API Management
 New-AzureRmApiManagementAuthorizationServer: API Management
-New-AzureRmApiManagementBackend: API Management
-New-AzureRmApiManagementBackendCredential: API Management
-New-AzureRmApiManagementBackendProxy: API Management
 New-AzureRmApiManagementCertificate: API Management
 New-AzureRmApiManagementContext: API Management
 New-AzureRmApiManagementGroup: API Management
 New-AzureRmApiManagementHostnameConfiguration: API Management
-New-AzureRmApiManagementIdentityProvider: API Management
 New-AzureRmApiManagementLogger: API Management
 New-AzureRmApiManagementOpenIdConnectProvider: API Management
 New-AzureRmApiManagementOperation: API Management
 New-AzureRmApiManagementProduct: API Management
 New-AzureRmApiManagementProperty: API Management
-New-AzureRmApiManagementRegion: API Management
 New-AzureRmApiManagementSubscription: API Management
 New-AzureRmApiManagementUser: API Management
 New-AzureRmApiManagementVirtualNetwork: API Management
@@ -70,10 +63,8 @@ Remove-AzureRmApiManagement: API Management
 Remove-AzureRmApiManagementApi: API Management
 Remove-AzureRmApiManagementApiFromProduct: API Management
 Remove-AzureRmApiManagementAuthorizationServer: API Management
-Remove-AzureRmApiManagementBackend: API Management
 Remove-AzureRmApiManagementCertificate: API Management
 Remove-AzureRmApiManagementGroup: API Management
-Remove-AzureRmApiManagementIdentityProvider: API Management
 Remove-AzureRmApiManagementLogger: API Management
 Remove-AzureRmApiManagementOpenIdConnectProvider: API Management
 Remove-AzureRmApiManagementOperation: API Management
@@ -89,11 +80,9 @@ Restore-AzureRmApiManagement: API Management
 Save-AzureRmApiManagementTenantGitConfiguration: API Management
 Set-AzureRmApiManagementApi: API Management
 Set-AzureRmApiManagementAuthorizationServer: API Management
-Set-AzureRmApiManagementBackend: API Management
 Set-AzureRmApiManagementCertificate: API Management
 Set-AzureRmApiManagementGroup: API Management
 Set-AzureRmApiManagementHostnames: API Management
-Set-AzureRmApiManagementIdentityProvider: API Management
 Set-AzureRmApiManagementLogger: API Management
 Set-AzureRmApiManagementOpenIdConnectProvider: API Management
 Set-AzureRmApiManagementOperation: API Management
@@ -103,9 +92,9 @@ Set-AzureRmApiManagementProperty: API Management
 Set-AzureRmApiManagementSubscription: API Management
 Set-AzureRmApiManagementTenantAccess: API Management
 Set-AzureRmApiManagementUser: API Management
+Set-AzureRmApiManagementVirtualNetworks: API Management
 Update-AzureRmApiManagementDeployment: API Management
 Update-AzureRmApiManagementRegion: API Management
-Set-AzureRmApiManagementVirtualNetworks: API Management
 _isModulePage: true
 ---
 

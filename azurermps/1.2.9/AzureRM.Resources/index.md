@@ -14,17 +14,13 @@ keywords: powershell, cmdlet
 manager: erickson-doug
 open_to_public_contributors: false
 ms.service: azure-resource-manager
-Export-AzureRmResourceGroup: Resources
 Find-AzureRmResource: Resources
 Find-AzureRmResourceGroup: Resources
-Get-AzureRmADAppCredential: Resources
 Get-AzureRmADApplication: Active Directory
 Get-AzureRmADGroup: Active Directory
 Get-AzureRmADGroupMember: Active Directory
 Get-AzureRmADServicePrincipal: Active Directory
-Get-AzureRmADSpCredential: Resources
 Get-AzureRmADUser: Active Directory
-Get-AzureRmLocation: Resource groups
 Get-AzureRmPolicyAssignment: Policies
 Get-AzureRmPolicyDefinition: Policies
 Get-AzureRmProviderFeature: Resource providers
@@ -39,11 +35,8 @@ Get-AzureRmRoleAssignment: Roles
 Get-AzureRmRoleDefinition: Roles
 Invoke-AzureRmResourceAction: Resources
 Move-AzureRmResource: Resources
-New-AzureRmADAppCredential: Resources
 New-AzureRmADApplication: Active Directory
 New-AzureRmADServicePrincipal: Active Directory
-New-AzureRmADSpCredential: Resources
-New-AzureRmADUser: Resources
 New-AzureRmPolicyAssignment: Policies
 New-AzureRmPolicyDefinition: Policies
 New-AzureRmResource: Resources
@@ -54,11 +47,8 @@ New-AzureRmRoleAssignment: Roles
 New-AzureRmRoleDefinition: Roles
 Register-AzureRmProviderFeature: Resource providers
 Register-AzureRmResourceProvider: Resource providers
-Remove-AzureRmADAppCredential: Resources
 Remove-AzureRmADApplication: Active Directory
 Remove-AzureRmADServicePrincipal: Active Directory
-Remove-AzureRmADSpCredential: Resources
-Remove-AzureRmADUser: Resources
 Remove-AzureRmPolicyAssignment: Policies
 Remove-AzureRmPolicyDefinition: Policies
 Remove-AzureRmResource: Resources
@@ -67,10 +57,6 @@ Remove-AzureRmResourceGroupDeployment: Resources
 Remove-AzureRmResourceLock: Resources
 Remove-AzureRmRoleAssignment: Roles
 Remove-AzureRmRoleDefinition: Roles
-Save-AzureRmResourceGroupDeploymentTemplate: Resources
-Set-AzureRmADApplication: Resources
-Set-AzureRmADServicePrincipal: Resources
-Set-AzureRmADUser: Resources
 Set-AzureRmPolicyAssignment: Policies
 Set-AzureRmPolicyDefinition: Policies
 Set-AzureRmResource: Resources
