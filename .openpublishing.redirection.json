@@ -2112,7 +2112,7 @@
     },
     {
       "source_path": "ResourceManager/ApiManagement.ServiceManagement/v1.1.4/Microsoft.Azure.Commands.ApiManagement.ServiceManagement.md",
-      "redirect_url": "/powershell-new/module/Microsoft.Azure.Commands.ApiManagement.ServiceManagement",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -7042,7 +7042,7 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/AzureRM.AzureStackAdmin.md",
-      "redirect_url": "/powershell-new/module/AzureRM.AzureStackAdmin",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -7192,7 +7192,7 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.10.0/AzureRM.AzureStackStorage.md",
-      "redirect_url": "/powershell-new/module/AzureRM.AzureStackStorage",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -7397,7 +7397,7 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/AzureRM.AzureStackStorage.md",
-      "redirect_url": "/powershell-new/module/AzureRM.AzureStackStorage",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -44722,7 +44722,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.Antimalware/v0.9.8/Azure.Antimalware.md",
-      "redirect_url": "/powershell-new/module/Azure.Antimalware",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -44757,7 +44757,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.Antimalware/v1.6.1/Azure.Antimalware.md",
-      "redirect_url": "/powershell-new/module/Azure.Antimalware",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -44792,7 +44792,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.Antimalware/v3.1.0/Azure.Antimalware.md",
-      "redirect_url": "/powershell-new/module/Azure.Antimalware",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -44817,7 +44817,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.Antimalware/v3.3.0/Azure.Antimalware.md",
-      "redirect_url": "/powershell-new/module/Azure.Antimalware",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -44847,7 +44847,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.Antimalware/v3.4.0/Azure.Antimalware.md",
-      "redirect_url": "/powershell-new/module/Azure.Antimalware",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -44877,7 +44877,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.Automation/v0.9.8/Azure.Automation.md",
-      "redirect_url": "/powershell-new/module/Azure.Automation",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -45097,7 +45097,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.Automation/v1.6.1/Azure.Automation.md",
-      "redirect_url": "/powershell-new/module/Azure.Automation",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -45317,7 +45317,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.Automation/v2.1.0/Azure.Automation.md",
-      "redirect_url": "/powershell-new/module/Azure.Automation",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -45542,7 +45542,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.Automation/v3.0.0/Azure.Automation.md",
-      "redirect_url": "/powershell-new/module/Azure.Automation",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -45767,7 +45767,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.Automation/v3.1.0/Azure.Automation.md",
-      "redirect_url": "/powershell-new/module/Azure.Automation",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -45992,7 +45992,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.Automation/v3.3.0/Azure.Automation.md",
-      "redirect_url": "/powershell-new/module/Azure.Automation",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -46217,7 +46217,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.Automation/v3.4.0/Azure.Automation.md",
-      "redirect_url": "/powershell-new/module/Azure.Automation",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -46472,7 +46472,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.Compute/v1.6.1/Azure.Compute.md",
-      "redirect_url": "/powershell-new/module/Azure.Compute",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -47042,7 +47042,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.Compute/v2.1.0/Azure.Compute.md",
-      "redirect_url": "/powershell-new/module/Azure.Compute",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -47607,7 +47607,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.Compute/v3.0.0/Azure.Compute.md",
-      "redirect_url": "/powershell-new/module/Azure.Compute",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -48162,7 +48162,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.Compute/v3.1.0/Azure.Compute.md",
-      "redirect_url": "/powershell-new/module/Azure.Compute",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -48717,7 +48717,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.Compute/v3.3.0/Azure.Compute.md",
-      "redirect_url": "/powershell-new/module/Azure.Compute",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -49272,7 +49272,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.Compute/v3.4.0/Azure.Compute.md",
-      "redirect_url": "/powershell-new/module/Azure.Compute",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -49797,7 +49797,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.ExpressRoute/v1.6.1/Azure.ExpressRoute.md",
-      "redirect_url": "/powershell-new/module/Azure.ExpressRoute",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -49822,7 +49822,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.HDInsight/v0.9.8/Azure.HDInsight.md",
-      "redirect_url": "/powershell-new/module/Azure.HDInsight",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -49962,7 +49962,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.HDInsight/v1.6.1/Azure.HDInsight.md",
-      "redirect_url": "/powershell-new/module/Azure.HDInsight",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -50102,7 +50102,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.HDInsight/v2.1.0/Azure.HDInsight.md",
-      "redirect_url": "/powershell-new/module/Azure.HDInsight",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -50242,7 +50242,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.HDInsight/v3.0.0/Azure.HDInsight.md",
-      "redirect_url": "/powershell-new/module/Azure.HDInsight",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -50382,7 +50382,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.HDInsight/v3.1.0/Azure.HDInsight.md",
-      "redirect_url": "/powershell-new/module/Azure.HDInsight",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -50522,7 +50522,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.HDInsight/v3.3.0/Azure.HDInsight.md",
-      "redirect_url": "/powershell-new/module/Azure.HDInsight",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -50662,7 +50662,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.HDInsight/v3.4.0/Azure.HDInsight.md",
-      "redirect_url": "/powershell-new/module/Azure.HDInsight",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -50782,7 +50782,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.ManagedCache/v0.9.8/Azure.ManagedCache.md",
-      "redirect_url": "/powershell-new/module/Azure.ManagedCache",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -50842,7 +50842,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.ManagedCache/v1.6.1/Azure.ManagedCache.md",
-      "redirect_url": "/powershell-new/module/Azure.ManagedCache",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -50902,7 +50902,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.ManagedCache/v2.1.0/Azure.ManagedCache.md",
-      "redirect_url": "/powershell-new/module/Azure.ManagedCache",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -50962,7 +50962,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.ManagedCache/v3.0.0/Azure.ManagedCache.md",
-      "redirect_url": "/powershell-new/module/Azure.ManagedCache",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -51022,7 +51022,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.ManagedCache/v3.1.0/Azure.ManagedCache.md",
-      "redirect_url": "/powershell-new/module/Azure.ManagedCache",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -51082,7 +51082,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.ManagedCache/v3.3.0/Azure.ManagedCache.md",
-      "redirect_url": "/powershell-new/module/Azure.ManagedCache",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -51142,7 +51142,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.ManagedCache/v3.4.0/Azure.ManagedCache.md",
-      "redirect_url": "/powershell-new/module/Azure.ManagedCache",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -51207,7 +51207,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.Networking/v0.9.8/Azure.Networking.md",
-      "redirect_url": "/powershell-new/module/Azure.Networking",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -51567,7 +51567,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.Networking/v1.6.1/Azure.Networking.md",
-      "redirect_url": "/powershell-new/module/Azure.Networking",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -51927,7 +51927,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.Networking/v2.1.0/Azure.Networking.md",
-      "redirect_url": "/powershell-new/module/Azure.Networking",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -52287,7 +52287,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.Networking/v3.0.0/Azure.Networking.md",
-      "redirect_url": "/powershell-new/module/Azure.Networking",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -52647,7 +52647,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.Networking/v3.1.0/Azure.Networking.md",
-      "redirect_url": "/powershell-new/module/Azure.Networking",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -53007,7 +53007,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.Networking/v3.3.0/Azure.Networking.md",
-      "redirect_url": "/powershell-new/module/Azure.Networking",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -53367,7 +53367,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.Networking/v3.4.0/Azure.Networking.md",
-      "redirect_url": "/powershell-new/module/Azure.Networking",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -53732,7 +53732,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.Profile/v0.9.8/Azure.Profile.md",
-      "redirect_url": "/powershell-new/module/Azure.Profile",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -53832,7 +53832,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.Profile/v1.6.1/Azure.Profile.md",
-      "redirect_url": "/powershell-new/module/Azure.Profile",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -53927,7 +53927,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.Profile/v2.1.0/Azure.Profile.md",
-      "redirect_url": "/powershell-new/module/Azure.Profile",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -54022,7 +54022,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.Profile/v3.0.0/Azure.Profile.md",
-      "redirect_url": "/powershell-new/module/Azure.Profile",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -54117,7 +54117,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.Profile/v3.1.0/Azure.Profile.md",
-      "redirect_url": "/powershell-new/module/Azure.Profile",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -54212,7 +54212,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.Profile/v3.3.0/Azure.Profile.md",
-      "redirect_url": "/powershell-new/module/Azure.Profile",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -54307,7 +54307,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.Profile/v3.4.0/Azure.Profile.md",
-      "redirect_url": "/powershell-new/module/Azure.Profile",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -54397,7 +54397,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.RemoteApp/v0.9.8/Azure.RemoteApp.md",
-      "redirect_url": "/powershell-new/module/Azure.RemoteApp",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -54572,7 +54572,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.RemoteApp/v1.6.1/Azure.RemoteApp.md",
-      "redirect_url": "/powershell-new/module/Azure.RemoteApp",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -54777,7 +54777,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.RemoteApp/v2.1.0/Azure.RemoteApp.md",
-      "redirect_url": "/powershell-new/module/Azure.RemoteApp",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -54982,7 +54982,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.RemoteApp/v3.0.0/Azure.RemoteApp.md",
-      "redirect_url": "/powershell-new/module/Azure.RemoteApp",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -55197,7 +55197,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.RemoteApp/v3.1.0/Azure.RemoteApp.md",
-      "redirect_url": "/powershell-new/module/Azure.RemoteApp",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -55412,7 +55412,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.RemoteApp/v3.3.0/Azure.RemoteApp.md",
-      "redirect_url": "/powershell-new/module/Azure.RemoteApp",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -55627,7 +55627,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.RemoteApp/v3.4.0/Azure.RemoteApp.md",
-      "redirect_url": "/powershell-new/module/Azure.RemoteApp",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -55892,7 +55892,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.Service/v0.9.8/Azure.Service.md",
-      "redirect_url": "/powershell-new/module/Azure.Service",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -56752,7 +56752,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.Service/v1.6.1/Azure.Service.md",
-      "redirect_url": "/powershell-new/module/Azure.Service",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -57612,7 +57612,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.Service/v2.1.0/Azure.Service.md",
-      "redirect_url": "/powershell-new/module/Azure.Service",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -58512,7 +58512,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.Service/v3.0.0/Azure.Service.md",
-      "redirect_url": "/powershell-new/module/Azure.Service",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -59412,7 +59412,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.Service/v3.1.0/Azure.Service.md",
-      "redirect_url": "/powershell-new/module/Azure.Service",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -60312,7 +60312,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.Service/v3.3.0/Azure.Service.md",
-      "redirect_url": "/powershell-new/module/Azure.Service",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -61212,7 +61212,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.Service/v3.4.0/Azure.Service.md",
-      "redirect_url": "/powershell-new/module/Azure.Service",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -62057,7 +62057,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.SiteRecovery/v0.9.8/Azure.SiteRecovery.md",
-      "redirect_url": "/powershell-new/module/Azure.SiteRecovery",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -62257,7 +62257,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.SiteRecovery/v1.6.1/Azure.SiteRecovery.md",
-      "redirect_url": "/powershell-new/module/Azure.SiteRecovery",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -62457,7 +62457,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.SiteRecovery/v2.1.0/Azure.SiteRecovery.md",
-      "redirect_url": "/powershell-new/module/Azure.SiteRecovery",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -62657,7 +62657,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.SiteRecovery/v3.0.0/Azure.SiteRecovery.md",
-      "redirect_url": "/powershell-new/module/Azure.SiteRecovery",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -62857,7 +62857,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.SiteRecovery/v3.1.0/Azure.SiteRecovery.md",
-      "redirect_url": "/powershell-new/module/Azure.SiteRecovery",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -63057,7 +63057,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.SiteRecovery/v3.3.0/Azure.SiteRecovery.md",
-      "redirect_url": "/powershell-new/module/Azure.SiteRecovery",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -63257,7 +63257,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.SiteRecovery/v3.4.0/Azure.SiteRecovery.md",
-      "redirect_url": "/powershell-new/module/Azure.SiteRecovery",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -63457,7 +63457,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.SiteRecoveryServices/v3.0.0/Azure.SiteRecoveryServices.md",
-      "redirect_url": "/powershell-new/module/Azure.SiteRecoveryServices",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -63657,7 +63657,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.SiteRecoveryServices/v3.1.0/Azure.SiteRecoveryServices.md",
-      "redirect_url": "/powershell-new/module/Azure.SiteRecoveryServices",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -63857,7 +63857,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.SiteRecoveryServices/v3.3.0/Azure.SiteRecoveryServices.md",
-      "redirect_url": "/powershell-new/module/Azure.SiteRecoveryServices",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -64057,7 +64057,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.SiteRecoveryServices/v3.4.0/Azure.SiteRecoveryServices.md",
-      "redirect_url": "/powershell-new/module/Azure.SiteRecoveryServices",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -64257,7 +64257,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.SQLDatabase/v0.9.8/Azure.SQLDatabase.md",
-      "redirect_url": "/powershell-new/module/Azure.SQLDatabase",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -64387,7 +64387,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.SQLDatabase/v1.6.1/Azure.SQLDatabase.md",
-      "redirect_url": "/powershell-new/module/Azure.SQLDatabase",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -64522,7 +64522,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.SQLDatabase/v2.1.0/Azure.SQLDatabase.md",
-      "redirect_url": "/powershell-new/module/Azure.SQLDatabase",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -64657,7 +64657,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.SQLDatabase/v3.0.0/Azure.SQLDatabase.md",
-      "redirect_url": "/powershell-new/module/Azure.SQLDatabase",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -64792,7 +64792,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.SQLDatabase/v3.1.0/Azure.SQLDatabase.md",
-      "redirect_url": "/powershell-new/module/Azure.SQLDatabase",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -64927,7 +64927,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.SQLDatabase/v3.3.0/Azure.SQLDatabase.md",
-      "redirect_url": "/powershell-new/module/Azure.SQLDatabase",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -65062,7 +65062,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.SQLDatabase/v3.4.0/Azure.SQLDatabase.md",
-      "redirect_url": "/powershell-new/module/Azure.SQLDatabase",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -65197,7 +65197,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.StorSimple/v0.9.8/Azure.StorSimple.md",
-      "redirect_url": "/powershell-new/module/Azure.StorSimple",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -65442,7 +65442,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.StorSimple/v1.6.1/Azure.StorSimple.md",
-      "redirect_url": "/powershell-new/module/Azure.StorSimple",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -65687,7 +65687,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.StorSimple/v2.1.0/Azure.StorSimple.md",
-      "redirect_url": "/powershell-new/module/Azure.StorSimple",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -65932,7 +65932,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.StorSimple/v3.0.0/Azure.StorSimple.md",
-      "redirect_url": "/powershell-new/module/Azure.StorSimple",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -66177,7 +66177,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.StorSimple/v3.1.0/Azure.StorSimple.md",
-      "redirect_url": "/powershell-new/module/Azure.StorSimple",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -66422,7 +66422,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.StorSimple/v3.3.0/Azure.StorSimple.md",
-      "redirect_url": "/powershell-new/module/Azure.StorSimple",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -66667,7 +66667,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.StorSimple/v3.4.0/Azure.StorSimple.md",
-      "redirect_url": "/powershell-new/module/Azure.StorSimple",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -66917,7 +66917,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.TrafficManager/v0.9.8/Azure.TrafficManager.md",
-      "redirect_url": "/powershell-new/module/Azure.TrafficManager",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -66972,7 +66972,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.TrafficManager/v1.6.1/Azure.TrafficManager.md",
-      "redirect_url": "/powershell-new/module/Azure.TrafficManager",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -67027,7 +67027,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.TrafficManager/v2.1.0/Azure.TrafficManager.md",
-      "redirect_url": "/powershell-new/module/Azure.TrafficManager",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -67082,7 +67082,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.TrafficManager/v3.0.0/Azure.TrafficManager.md",
-      "redirect_url": "/powershell-new/module/Azure.TrafficManager",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -67137,7 +67137,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.TrafficManager/v3.1.0/Azure.TrafficManager.md",
-      "redirect_url": "/powershell-new/module/Azure.TrafficManager",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -67192,7 +67192,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.TrafficManager/v3.3.0/Azure.TrafficManager.md",
-      "redirect_url": "/powershell-new/module/Azure.TrafficManager",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
@@ -67247,7 +67247,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.TrafficManager/v3.4.0/Azure.TrafficManager.md",
-      "redirect_url": "/powershell-new/module/Azure.TrafficManager",
+      "redirect_url": "/powershell-new/",
       "redirect_document_id": false
     },
     {
