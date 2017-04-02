@@ -396,7 +396,7 @@
       "brand": "azure",
       "searchScope": ["Azure"],
       "breadcrumb_path": "/powershell-new/bread/toc.json",
-      "dev_langs": ["powershell"]
+      "ms.devlang": "powershell"
     },
     "dest": "testMultipleVersion"
   }
