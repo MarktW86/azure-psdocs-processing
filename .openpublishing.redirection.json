@@ -1572,12 +1572,12 @@
     },
     {
       "source_path": "MSOnline/v1/Get-MsolAllSettings.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/msonline/",
       "redirect_document_id": false
     },
     {
       "source_path": "MSOnline/v1/Get-MsolAllSettingTemplate.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/msonline/",
       "redirect_document_id": false
     },
     {
@@ -1697,12 +1697,12 @@
     },
     {
       "source_path": "MSOnline/v1/Get-MsolSettings.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/msonline/",
       "redirect_document_id": false
     },
     {
       "source_path": "MSOnline/v1/Get-MsolSettingTemplate.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/msonline/",
       "redirect_document_id": false
     },
     {
@@ -1767,7 +1767,7 @@
     },
     {
       "source_path": "MSOnline/v1/New-MsolSettings.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/msonline/",
       "redirect_document_id": false
     },
     {
@@ -1867,7 +1867,7 @@
     },
     {
       "source_path": "MSOnline/v1/Remove-MsolSettings.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/msonline/",
       "redirect_document_id": false
     },
     {
@@ -1977,7 +1977,7 @@
     },
     {
       "source_path": "MSOnline/v1/Set-MsolSettings.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/msonline/",
       "redirect_document_id": false
     },
     {
@@ -2407,7 +2407,7 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.ApiManagement/v0.9.8/Add-AzureApiManagementRegion.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.apimanagement/",
       "redirect_document_id": false
     },
     {
@@ -2417,72 +2417,72 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.ApiManagement/v0.9.8/Backup-AzureApiManagement.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.apimanagement/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.ApiManagement/v0.9.8/Get-AzureApiManagement.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.apimanagement/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.ApiManagement/v0.9.8/Get-AzureApiManagementSsoToken.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.apimanagement/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.ApiManagement/v0.9.8/Import-AzureApiManagementHostnameCertificate.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.apimanagement/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.ApiManagement/v0.9.8/New-AzureApiManagement.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.apimanagement/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.ApiManagement/v0.9.8/New-AzureApiManagementHostnameConfiguration.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.apimanagement/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.ApiManagement/v0.9.8/New-AzureApiManagementVirtualNetwork.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.apimanagement/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.ApiManagement/v0.9.8/Remove-AzureApiManagement.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.apimanagement/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.ApiManagement/v0.9.8/Remove-AzureApiManagementRegion.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.apimanagement/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.ApiManagement/v0.9.8/Restore-AzureApiManagement.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.apimanagement/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.ApiManagement/v0.9.8/Set-AzureApiManagementHostnames.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.apimanagement/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.ApiManagement/v0.9.8/Set-AzureApiManagementVirtualNetworks.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.apimanagement/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.ApiManagement/v0.9.8/Update-AzureApiManagementDeployment.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.apimanagement/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.ApiManagement/v0.9.8/Update-AzureApiManagementRegion.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.apimanagement/",
       "redirect_document_id": false
     },
     {
@@ -4577,17 +4577,17 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.Automation/v0.9.8/Export-AzureAutomationDscConfiguration.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.automation/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Automation/v0.9.8/Export-AzureAutomationDscNodeReportContent.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.automation/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Automation/v0.9.8/Export-AzureAutomationRunbook.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.automation/",
       "redirect_document_id": false
     },
     {
@@ -4612,37 +4612,37 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.Automation/v0.9.8/Get-AzureAutomationDscCompilationJob.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.automation/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Automation/v0.9.8/Get-AzureAutomationDscCompilationJobOutput.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.automation/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Automation/v0.9.8/Get-AzureAutomationDscConfiguration.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.automation/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Automation/v0.9.8/Get-AzureAutomationDscNode.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.automation/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Automation/v0.9.8/Get-AzureAutomationDscNodeConfiguration.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.automation/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Automation/v0.9.8/Get-AzureAutomationDscNodeReport.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.automation/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Automation/v0.9.8/Get-AzureAutomationDscOnboardingMetaconfig.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.automation/",
       "redirect_document_id": false
     },
     {
@@ -4662,7 +4662,7 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.Automation/v0.9.8/Get-AzureAutomationRegistrationInfo.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.automation/",
       "redirect_document_id": false
     },
     {
@@ -4687,17 +4687,17 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.Automation/v0.9.8/Get-AzureAutomationWebhook.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.automation/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Automation/v0.9.8/Import-AzureAutomationDscConfiguration.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.automation/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Automation/v0.9.8/Import-AzureAutomationRunbook.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.automation/",
       "redirect_document_id": false
     },
     {
@@ -4722,7 +4722,7 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.Automation/v0.9.8/New-AzureAutomationKey.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.automation/",
       "redirect_document_id": false
     },
     {
@@ -4747,7 +4747,7 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.Automation/v0.9.8/New-AzureAutomationWebhook.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.automation/",
       "redirect_document_id": false
     },
     {
@@ -4757,7 +4757,7 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.Automation/v0.9.8/Register-AzureAutomationDscNode.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.automation/",
       "redirect_document_id": false
     },
     {
@@ -4807,7 +4807,7 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.Automation/v0.9.8/Remove-AzureAutomationWebhook.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.automation/",
       "redirect_document_id": false
     },
     {
@@ -4817,7 +4817,7 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.Automation/v0.9.8/Set-AzureAutomationAccount.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.automation/",
       "redirect_document_id": false
     },
     {
@@ -4837,7 +4837,7 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.Automation/v0.9.8/Set-AzureAutomationDscNode.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.automation/",
       "redirect_document_id": false
     },
     {
@@ -4862,12 +4862,12 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.Automation/v0.9.8/Set-AzureAutomationWebhook.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.automation/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Automation/v0.9.8/Start-AzureAutomationDscCompilationJob.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.automation/",
       "redirect_document_id": false
     },
     {
@@ -4887,7 +4887,7 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.Automation/v0.9.8/Unregister-AzureAutomationDscNode.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.automation/",
       "redirect_document_id": false
     },
     {
@@ -7027,17 +7027,17 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/Add-AzureRMGalleryItem.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackadmin/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/Add-AzureRMResourceProviderRegistration.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackadmin/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/Add-AzureRMUsageConnection.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackadmin/",
       "redirect_document_id": false
     },
     {
@@ -7047,147 +7047,147 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/Get-AzureRMGalleryItem.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackadmin/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/Get-AzureRMManagedLocation.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackadmin/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/Get-AzureRMManagedSubscription.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackadmin/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/Get-AzureRMOffer.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackadmin/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/Get-AzureRMPlan.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackadmin/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/Get-AzureRMResourceProviderRegistration.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackadmin/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/Get-AzureRMTenantSubscription.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackadmin/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/Get-AzureRMUsageConnection.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackadmin/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/Get-AzureStackToken.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackadmin/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/New-AzureRMManagedLocation.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackadmin/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/New-AzureRMManagedSubscription.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackadmin/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/New-AzureRMOffer.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackadmin/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/New-AzureRMPlan.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackadmin/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/New-AzureRMTenantSubscription.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackadmin/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/Remove-AzureRMGalleryItem.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackadmin/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/Remove-AzureRMManagedLocation.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackadmin/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/Remove-AzureRMManagedSubscription.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackadmin/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/Remove-AzureRMOffer.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackadmin/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/Remove-AzureRMPlan.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackadmin/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/Remove-AzureRMResourceProviderRegistration.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackadmin/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/Remove-AzureRMTenantSubscription.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackadmin/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/Remove-AzureRMUsageConnection.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackadmin/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/Set-AzureRMManagedLocation.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackadmin/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/Set-AzureRMManagedSubscription.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackadmin/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/Set-AzureRMOffer.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackadmin/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/Set-AzureRMPlan.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackadmin/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/Set-AzureRMResourceProviderRegistration.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackadmin/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/Set-AzureRMTenantSubscription.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackadmin/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Add-ACSFarm.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackstorage/",
       "redirect_document_id": false
     },
     {
@@ -7197,202 +7197,202 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Disable-ACSNode.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackstorage/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Enable-ACSNode.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackstorage/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Export-ACSLog.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackstorage/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Get-ACSBlobService.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackstorage/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Get-ACSBlobServiceMetric.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackstorage/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Get-ACSBlobServiceMetricDefinition.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackstorage/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Get-ACSEvent.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackstorage/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Get-ACSEventQuery.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackstorage/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Get-ACSFarm.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackstorage/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Get-ACSFarmMetric.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackstorage/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Get-ACSFarmMetricDefinition.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackstorage/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Get-ACSFault.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackstorage/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Get-ACSManagementService.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackstorage/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Get-ACSManagementServiceMetric.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackstorage/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Get-ACSManagementServiceMetricDefinition.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackstorage/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Get-ACSNode.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackstorage/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Get-ACSNodeMetric.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackstorage/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Get-ACSNodeMetricDefinition.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackstorage/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Get-ACSRoleInstance.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackstorage/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Get-ACSRoleInstanceMetric.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackstorage/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Get-ACSRoleInstanceMetricDefinition.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackstorage/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Get-ACSShare.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackstorage/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Get-ACSShareMetric.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackstorage/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Get-ACSShareMetricDefinition.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackstorage/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Get-ACSStorageAccount.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackstorage/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Get-ACSTableService.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackstorage/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Get-ACSTableServiceMetric.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackstorage/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Get-ACSTableServiceMetricDefinition.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackstorage/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Resolve-ACSFault.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackstorage/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Restart-ACSRoleInstance.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackstorage/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Set-ACSBlobService.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackstorage/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Set-ACSFarm.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackstorage/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Set-ACSManagementService.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackstorage/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Set-ACSTableService.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackstorage/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Start-ACSBlobServerRoleInstance.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackstorage/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Stop-ACSBlobServerRoleInstance.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackstorage/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Sync-ACSStorageAccount.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackstorage/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Undo-ACSStorageAccountDeletion.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackstorage/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Update-ACSRoleInstance.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackstorage/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/Add-ACSFarm.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackstorage/",
       "redirect_document_id": false
     },
     {
@@ -7402,197 +7402,197 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/Disable-ACSNode.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackstorage/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/Enable-ACSNode.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackstorage/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/Export-ACSLog.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackstorage/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/Get-ACSBlobService.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackstorage/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/Get-ACSBlobServiceMetric.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackstorage/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/Get-ACSBlobServiceMetricDefinition.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackstorage/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/Get-ACSEvent.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackstorage/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/Get-ACSEventQuery.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackstorage/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/Get-ACSFarm.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackstorage/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/Get-ACSFarmMetric.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackstorage/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/Get-ACSFarmMetricDefinition.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackstorage/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/Get-ACSFault.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackstorage/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/Get-ACSManagementService.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackstorage/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/Get-ACSManagementServiceMetric.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackstorage/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/Get-ACSManagementServiceMetricDefinition.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackstorage/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/Get-ACSNode.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackstorage/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/Get-ACSNodeMetric.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackstorage/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/Get-ACSNodeMetricDefinition.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackstorage/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/Get-ACSRoleInstance.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackstorage/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/Get-ACSRoleInstanceMetric.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackstorage/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/Get-ACSRoleInstanceMetricDefinition.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackstorage/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/Get-ACSShare.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackstorage/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/Get-ACSShareMetric.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackstorage/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/Get-ACSShareMetricDefinition.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackstorage/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/Get-ACSStorageAccount.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackstorage/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/Get-ACSTableService.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackstorage/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/Get-ACSTableServiceMetric.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackstorage/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/Get-ACSTableServiceMetricDefinition.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackstorage/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/Resolve-ACSFault.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackstorage/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/Restart-ACSRoleInstance.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackstorage/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/Set-ACSBlobService.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackstorage/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/Set-ACSFarm.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackstorage/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/Set-ACSManagementService.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackstorage/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/Set-ACSTableService.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackstorage/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/Start-ACSBlobServerRoleInstance.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackstorage/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/Stop-ACSBlobServerRoleInstance.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackstorage/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/Sync-ACSStorageAccount.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackstorage/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/Undo-ACSStorageAccountDeletion.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackstorage/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/Update-ACSRoleInstance.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.azurestackstorage/",
       "redirect_document_id": false
     },
     {
@@ -8352,12 +8352,12 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.Batch/v0.9.8/Get-AzureBatchAccount.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.batch/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Batch/v0.9.8/Get-AzureBatchAccountKeys.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.batch/",
       "redirect_document_id": false
     },
     {
@@ -8402,12 +8402,12 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.Batch/v0.9.8/New-AzureBatchAccount.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.batch/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Batch/v0.9.8/New-AzureBatchAccountKey.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.batch/",
       "redirect_document_id": false
     },
     {
@@ -8437,7 +8437,7 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.Batch/v0.9.8/Remove-AzureBatchAccount.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.batch/",
       "redirect_document_id": false
     },
     {
@@ -8467,7 +8467,7 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.Batch/v0.9.8/Set-AzureBatchAccount.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.batch/",
       "redirect_document_id": false
     },
     {
@@ -11047,7 +11047,7 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.Cdn/v2.5.0/Get-AzureRmCdnEdgeNodes.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.cdn/",
       "redirect_document_id": false
     },
     {
@@ -11062,7 +11062,7 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.Cdn/v2.5.0/Get-AzureRmCdnEndpointResourceUsage.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.cdn/",
       "redirect_document_id": false
     },
     {
@@ -11077,7 +11077,7 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.Cdn/v2.5.0/Get-AzureRmCdnProfileResourceUsage.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.cdn/",
       "redirect_document_id": false
     },
     {
@@ -11087,7 +11087,7 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.Cdn/v2.5.0/Get-AzureRmCdnSubscriptionResourceUsage.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.cdn/",
       "redirect_document_id": false
     },
     {
@@ -11402,27 +11402,27 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.Compute/v0.9.8/Add-AzureVMAdditionalUnattendContent.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.compute/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Compute/v0.9.8/Add-AzureVMDataDisk.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.compute/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Compute/v0.9.8/Add-AzureVMNetworkInterface.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.compute/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Compute/v0.9.8/Add-AzureVMSecret.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.compute/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Compute/v0.9.8/Add-AzureVMSshPublicKey.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.compute/",
       "redirect_document_id": false
     },
     {
@@ -11432,7 +11432,7 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.Compute/v0.9.8/Get-AzureAvailabilitySet.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.compute/",
       "redirect_document_id": false
     },
     {
@@ -11462,12 +11462,12 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.Compute/v0.9.8/Get-AzureVMExtensionImage.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.compute/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Compute/v0.9.8/Get-AzureVMExtensionImageType.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.compute/",
       "redirect_document_id": false
     },
     {
@@ -11477,32 +11477,32 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.Compute/v0.9.8/Get-AzureVMImageOffer.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.compute/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Compute/v0.9.8/Get-AzureVMImagePublisher.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.compute/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Compute/v0.9.8/Get-AzureVMImageSku.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.compute/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Compute/v0.9.8/Get-AzureVMSize.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.compute/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Compute/v0.9.8/Get-AzureVMUsage.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.compute/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Compute/v0.9.8/New-AzureAvailabilitySet.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.compute/",
       "redirect_document_id": false
     },
     {
@@ -11537,7 +11537,7 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.Compute/v0.9.8/Remove-AzureVMDataDisk.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.compute/",
       "redirect_document_id": false
     },
     {
@@ -11547,7 +11547,7 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.Compute/v0.9.8/Remove-AzureVMNetworkInterface.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.compute/",
       "redirect_document_id": false
     },
     {
@@ -11562,7 +11562,7 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.Compute/v0.9.8/Set-AzureVM.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.compute/",
       "redirect_document_id": false
     },
     {
@@ -11582,17 +11582,17 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.Compute/v0.9.8/Set-AzureVMOperatingSystem.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.compute/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Compute/v0.9.8/Set-AzureVMOSDisk.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.compute/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Compute/v0.9.8/Set-AzureVMSourceImage.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.compute/",
       "redirect_document_id": false
     },
     {
@@ -14952,142 +14952,142 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.DataFactories/v0.9.8/Get-AzureDataFactory.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.datafactories/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.DataFactories/v0.9.8/Get-AzureDataFactoryDataset.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.datafactories/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.DataFactories/v0.9.8/Get-AzureDataFactoryGateway.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.datafactories/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.DataFactories/v0.9.8/Get-AzureDataFactoryHub.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.datafactories/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.DataFactories/v0.9.8/Get-AzureDataFactoryLinkedService.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.datafactories/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.DataFactories/v0.9.8/Get-AzureDataFactoryPipeline.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.datafactories/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.DataFactories/v0.9.8/Get-AzureDataFactoryRun.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.datafactories/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.DataFactories/v0.9.8/Get-AzureDataFactorySlice.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.datafactories/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.DataFactories/v0.9.8/New-AzureDataFactory.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.datafactories/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.DataFactories/v0.9.8/New-AzureDataFactoryDataset.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.datafactories/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.DataFactories/v0.9.8/New-AzureDataFactoryEncryptValue.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.datafactories/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.DataFactories/v0.9.8/New-AzureDataFactoryGateway.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.datafactories/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.DataFactories/v0.9.8/New-AzureDataFactoryGatewayKey.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.datafactories/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.DataFactories/v0.9.8/New-AzureDataFactoryHub.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.datafactories/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.DataFactories/v0.9.8/New-AzureDataFactoryLinkedService.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.datafactories/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.DataFactories/v0.9.8/New-AzureDataFactoryPipeline.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.datafactories/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.DataFactories/v0.9.8/Remove-AzureDataFactory.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.datafactories/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.DataFactories/v0.9.8/Remove-AzureDataFactoryDataset.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.datafactories/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.DataFactories/v0.9.8/Remove-AzureDataFactoryGateway.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.datafactories/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.DataFactories/v0.9.8/Remove-AzureDataFactoryHub.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.datafactories/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.DataFactories/v0.9.8/Remove-AzureDataFactoryLinkedService.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.datafactories/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.DataFactories/v0.9.8/Remove-AzureDataFactoryPipeline.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.datafactories/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.DataFactories/v0.9.8/Resume-AzureDataFactoryPipeline.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.datafactories/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.DataFactories/v0.9.8/Save-AzureDataFactoryLog.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.datafactories/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.DataFactories/v0.9.8/Set-AzureDataFactoryGateway.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.datafactories/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.DataFactories/v0.9.8/Set-AzureDataFactoryPipelineActivePeriod.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.datafactories/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.DataFactories/v0.9.8/Set-AzureDataFactorySliceStatus.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.datafactories/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.DataFactories/v0.9.8/Suspend-AzureDataFactoryPipeline.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.datafactories/",
       "redirect_document_id": false
     },
     {
@@ -17812,7 +17812,7 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.DNS/v0.9.8/Add-AzureDnsRecordConfig.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.dns/",
       "redirect_document_id": false
     },
     {
@@ -17822,47 +17822,47 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.DNS/v0.9.8/Get-AzureDnsRecordSet.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.dns/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.DNS/v0.9.8/Get-AzureDnsZone.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.dns/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.DNS/v0.9.8/New-AzureDnsRecordSet.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.dns/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.DNS/v0.9.8/New-AzureDnsZone.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.dns/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.DNS/v0.9.8/Remove-AzureDnsRecordConfig.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.dns/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.DNS/v0.9.8/Remove-AzureDnsRecordSet.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.dns/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.DNS/v0.9.8/Remove-AzureDnsZone.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.dns/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.DNS/v0.9.8/Set-AzureDnsRecordSet.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.dns/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.DNS/v0.9.8/Set-AzureDnsZone.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.dns/",
       "redirect_document_id": false
     },
     {
@@ -18402,7 +18402,7 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.HDInsight/v0.9.8/Grant-AzureHDInsightRdpServicesAccess.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.hdinsight/",
       "redirect_document_id": false
     },
     {
@@ -18452,7 +18452,7 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.HDInsight/v0.9.8/Revoke-AzureHDInsightRdpServicesAccess.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.hdinsight/",
       "redirect_document_id": false
     },
     {
@@ -19567,27 +19567,27 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.Insights/v0.9.8/Get-AzureCorrelationIdLog.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.insights/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Insights/v0.9.8/Get-AzureResourceGroupLog.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.insights/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Insights/v0.9.8/Get-AzureResourceLog.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.insights/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Insights/v0.9.8/Get-AzureResourceProviderLog.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.insights/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Insights/v0.9.8/Get-AzureSubscriptionIdLog.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.insights/",
       "redirect_document_id": false
     },
     {
@@ -20602,7 +20602,7 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.KeyVault/v0.9.8/Get-AzureKeyVault.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.keyvault/",
       "redirect_document_id": false
     },
     {
@@ -20617,17 +20617,17 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.KeyVault/v0.9.8/New-AzureKeyVault.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.keyvault/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.KeyVault/v0.9.8/Remove-AzureKeyVault.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.keyvault/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.KeyVault/v0.9.8/Remove-AzureKeyVaultAccessPolicy.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.keyvault/",
       "redirect_document_id": false
     },
     {
@@ -20647,7 +20647,7 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.KeyVault/v0.9.8/Set-AzureKeyVaultAccessPolicy.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.keyvault/",
       "redirect_document_id": false
     },
     {
@@ -22867,17 +22867,17 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.MachineLearning/v0.11.1/Get-AzureRmMlCommitmentAssociation.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.machinelearning/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.MachineLearning/v0.11.1/Get-AzureRmMlCommitmentPlan.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.machinelearning/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.MachineLearning/v0.11.1/Get-AzureRmMlCommitmentPlanUsageHistory.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.machinelearning/",
       "redirect_document_id": false
     },
     {
@@ -22897,12 +22897,12 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.MachineLearning/v0.11.1/Move-AzureRmMlCommitmentAssociation.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.machinelearning/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.MachineLearning/v0.11.1/New-AzureRmMlCommitmentPlan.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.machinelearning/",
       "redirect_document_id": false
     },
     {
@@ -22912,7 +22912,7 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.MachineLearning/v0.11.1/Remove-AzureRmMlCommitmentPlan.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.machinelearning/",
       "redirect_document_id": false
     },
     {
@@ -22922,7 +22922,7 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.MachineLearning/v0.11.1/Update-AzureRmMlCommitmentPlan.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.machinelearning/",
       "redirect_document_id": false
     },
     {
@@ -22942,17 +22942,17 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.MachineLearning/v0.11.2/Get-AzureRmMlCommitmentAssociation.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.machinelearning/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.MachineLearning/v0.11.2/Get-AzureRmMlCommitmentPlan.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.machinelearning/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.MachineLearning/v0.11.2/Get-AzureRmMlCommitmentPlanUsageHistory.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.machinelearning/",
       "redirect_document_id": false
     },
     {
@@ -22972,12 +22972,12 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.MachineLearning/v0.11.2/Move-AzureRmMlCommitmentAssociation.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.machinelearning/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.MachineLearning/v0.11.2/New-AzureRmMlCommitmentPlan.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.machinelearning/",
       "redirect_document_id": false
     },
     {
@@ -22987,7 +22987,7 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.MachineLearning/v0.11.2/Remove-AzureRmMlCommitmentPlan.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.machinelearning/",
       "redirect_document_id": false
     },
     {
@@ -22997,7 +22997,7 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.MachineLearning/v0.11.2/Update-AzureRmMlCommitmentPlan.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.machinelearning/",
       "redirect_document_id": false
     },
     {
@@ -23017,17 +23017,17 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.MachineLearning/v0.11.3/Get-AzureRmMlCommitmentAssociation.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.machinelearning/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.MachineLearning/v0.11.3/Get-AzureRmMlCommitmentPlan.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.machinelearning/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.MachineLearning/v0.11.3/Get-AzureRmMlCommitmentPlanUsageHistory.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.machinelearning/",
       "redirect_document_id": false
     },
     {
@@ -23047,12 +23047,12 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.MachineLearning/v0.11.3/Move-AzureRmMlCommitmentAssociation.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.machinelearning/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.MachineLearning/v0.11.3/New-AzureRmMlCommitmentPlan.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.machinelearning/",
       "redirect_document_id": false
     },
     {
@@ -23062,7 +23062,7 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.MachineLearning/v0.11.3/Remove-AzureRmMlCommitmentPlan.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.machinelearning/",
       "redirect_document_id": false
     },
     {
@@ -23072,7 +23072,7 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.MachineLearning/v0.11.3/Update-AzureRmMlCommitmentPlan.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.machinelearning/",
       "redirect_document_id": false
     },
     {
@@ -23372,37 +23372,37 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/Add-AzureApplicationGatewayBackendAddressPool.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/Add-AzureApplicationGatewayBackendHttpSettings.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/Add-AzureApplicationGatewayFrontendIPConfig.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/Add-AzureApplicationGatewayFrontendPort.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/Add-AzureApplicationGatewayHttpListener.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/Add-AzureApplicationGatewayIPConfiguration.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/Add-AzureApplicationGatewayRequestRoutingRule.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
@@ -23412,42 +23412,42 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/Add-AzureLoadBalancerBackendAddressPoolConfig.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/Add-AzureLoadBalancerFrontendIpConfig.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/Add-AzureLoadBalancerInboundNatRuleConfig.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/Add-AzureLoadBalancerProbeConfig.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/Add-AzureLoadBalancerRuleConfig.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/Add-AzureNetworkSecurityRuleConfig.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/Add-AzureRouteConfig.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/Add-AzureVirtualNetworkSubnetConfig.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
@@ -23462,42 +23462,42 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/Get-AzureApplicationGatewayBackendAddressPool.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/Get-AzureApplicationGatewayBackendHttpSettings.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/Get-AzureApplicationGatewayFrontendIPConfig.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/Get-AzureApplicationGatewayFrontendPort.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/Get-AzureApplicationGatewayHttpListener.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/Get-AzureApplicationGatewayIPConfiguration.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/Get-AzureApplicationGatewayRequestRoutingRule.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/Get-AzureApplicationGatewaySku.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
@@ -23507,32 +23507,32 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/Get-AzureLoadBalancer.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/Get-AzureLoadBalancerBackendAddressPoolConfig.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/Get-AzureLoadBalancerFrontendIpConfig.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/Get-AzureLoadBalancerInboundNatRuleConfig.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/Get-AzureLoadBalancerProbeConfig.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/Get-AzureLoadBalancerRuleConfig.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
@@ -23542,7 +23542,7 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/Get-AzureNetworkInterface.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
@@ -23552,17 +23552,17 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/Get-AzureNetworkSecurityRuleConfig.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/Get-AzurePublicIpAddress.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/Get-AzureRouteConfig.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
@@ -23572,7 +23572,7 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/Get-AzureVirtualNetwork.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
@@ -23587,12 +23587,12 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/Get-AzureVirtualNetworkGatewayConnectionSharedKey.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/Get-AzureVirtualNetworkSubnetConfig.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
@@ -23602,77 +23602,77 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/New-AzureApplicationGatewayBackendAddressPool.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/New-AzureApplicationGatewayBackendHttpSettings.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/New-AzureApplicationGatewayFrontendIPConfig.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/New-AzureApplicationGatewayFrontendPort.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/New-AzureApplicationGatewayHttpListener.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/New-AzureApplicationGatewayIPConfiguration.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/New-AzureApplicationGatewayRequestRoutingRule.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/New-AzureApplicationGatewaySku.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/New-AzureApplicationGatewaySslCertificate.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/New-AzureLoadBalancer.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/New-AzureLoadBalancerBackendAddressPoolConfig.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/New-AzureLoadBalancerFrontendIpConfig.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/New-AzureLoadBalancerInboundNatRuleConfig.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/New-AzureLoadBalancerProbeConfig.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/New-AzureLoadBalancerRuleConfig.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
@@ -23682,7 +23682,7 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/New-AzureNetworkInterface.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
@@ -23692,17 +23692,17 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/New-AzureNetworkSecurityRuleConfig.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/New-AzurePublicIpAddress.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/New-AzureRouteConfig.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
@@ -23712,7 +23712,7 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/New-AzureVirtualNetwork.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
@@ -23727,12 +23727,12 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/New-AzureVirtualNetworkGatewayIpConfig.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/New-AzureVirtualNetworkSubnetConfig.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
@@ -23742,37 +23742,37 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/Remove-AzureApplicationGatewayBackendAddressPool.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/Remove-AzureApplicationGatewayBackendHttpSettings.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/Remove-AzureApplicationGatewayFrontendIPConfig.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/Remove-AzureApplicationGatewayFrontendPort.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/Remove-AzureApplicationGatewayHttpListener.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/Remove-AzureApplicationGatewayIPConfiguration.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/Remove-AzureApplicationGatewayRequestRoutingRule.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
@@ -23782,32 +23782,32 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/Remove-AzureLoadBalancer.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/Remove-AzureLoadBalancerBackendAddressPoolConfig.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/Remove-AzureLoadBalancerFrontendIpConfig.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/Remove-AzureLoadBalancerInboundNatRuleConfig.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/Remove-AzureLoadBalancerProbeConfig.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/Remove-AzureLoadBalancerRuleConfig.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
@@ -23817,7 +23817,7 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/Remove-AzureNetworkInterface.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
@@ -23827,17 +23827,17 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/Remove-AzureNetworkSecurityRuleConfig.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/Remove-AzurePublicIpAddress.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/Remove-AzureRouteConfig.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
@@ -23847,7 +23847,7 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/Remove-AzureVirtualNetwork.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
@@ -23862,7 +23862,7 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/Remove-AzureVirtualNetworkSubnetConfig.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
@@ -23872,137 +23872,137 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/Reset-AzureVirtualNetworkGatewayConnectionSharedKey.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/Set-AzureApplicationGateway.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/Set-AzureApplicationGatewayBackendAddressPool.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/Set-AzureApplicationGatewayBackendHttpSettings.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/Set-AzureApplicationGatewayFrontendIPConfig.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/Set-AzureApplicationGatewayFrontendPort.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/Set-AzureApplicationGatewayHttpListener.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/Set-AzureApplicationGatewayIPConfiguration.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/Set-AzureApplicationGatewayRequestRoutingRule.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/Set-AzureApplicationGatewaySku.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/Set-AzureApplicationGatewaySslCertificate.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/Set-AzureLoadBalancer.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/Set-AzureLoadBalancerFrontendIpConfig.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/Set-AzureLoadBalancerInboundNatRuleConfig.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/Set-AzureLoadBalancerProbeConfig.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/Set-AzureLoadBalancerRuleConfig.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/Set-AzureLocalNetworkGateway.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/Set-AzureNetworkInterface.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/Set-AzureNetworkSecurityGroup.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/Set-AzureNetworkSecurityRuleConfig.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/Set-AzurePublicIpAddress.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/Set-AzureRouteConfig.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/Set-AzureRouteTable.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/Set-AzureVirtualNetwork.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/Set-AzureVirtualNetworkGatewayConnection.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/Set-AzureVirtualNetworkGatewayConnectionSharedKey.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/Set-AzureVirtualNetworkSubnetConfig.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
@@ -24017,7 +24017,7 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v0.9.8/Test-AzureDnsAvailability.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
@@ -28117,7 +28117,7 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.Network/v3.3.0/Add-AzureRmNetworkSecurityRuleConfig.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.network/",
       "redirect_document_id": false
     },
     {
@@ -30712,62 +30712,62 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.OperationalInsights/v0.9.8/Get-AzureOperationalInsightsLinkTargets.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.operationalinsights/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.OperationalInsights/v0.9.8/Get-AzureOperationalInsightsStorageInsight.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.operationalinsights/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.OperationalInsights/v0.9.8/Get-AzureOperationalInsightsWorkspace.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.operationalinsights/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.OperationalInsights/v0.9.8/Get-AzureOperationalInsightsWorkspaceManagementGroups.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.operationalinsights/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.OperationalInsights/v0.9.8/Get-AzureOperationalInsightsWorkspaceSharedKeys.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.operationalinsights/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.OperationalInsights/v0.9.8/Get-AzureOperationalInsightsWorkspaceUsage.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.operationalinsights/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.OperationalInsights/v0.9.8/New-AzureOperationalInsightsStorageInsight.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.operationalinsights/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.OperationalInsights/v0.9.8/New-AzureOperationalInsightsWorkspace.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.operationalinsights/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.OperationalInsights/v0.9.8/Remove-AzureOperationalInsightsStorageInsight.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.operationalinsights/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.OperationalInsights/v0.9.8/Remove-AzureOperationalInsightsWorkspace.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.operationalinsights/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.OperationalInsights/v0.9.8/Set-AzureOperationalInsightsStorageInsight.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.operationalinsights/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.OperationalInsights/v0.9.8/Set-AzureOperationalInsightsWorkspace.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.operationalinsights/",
       "redirect_document_id": false
     },
     {
@@ -38207,7 +38207,7 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.Sql/v0.9.8/Get-AzureSqlCapability.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.sql/",
       "redirect_document_id": false
     },
     {
@@ -38217,112 +38217,112 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.Sql/v0.9.8/Get-AzureSqlDatabaseActivity.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.sql/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Sql/v0.9.8/Get-AzureSqlDatabaseAuditingPolicy.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.sql/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Sql/v0.9.8/Get-AzureSqlDatabaseDataMaskingPolicy.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.sql/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Sql/v0.9.8/Get-AzureSqlDatabaseDataMaskingRule.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.sql/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Sql/v0.9.8/Get-AzureSqlDatabaseExpanded.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.sql/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Sql/v0.9.8/Get-AzureSqlDatabaseIndexRecommendations.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.sql/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Sql/v0.9.8/Get-AzureSqlDatabaseRestorePoints.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.sql/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Sql/v0.9.8/Get-AzureSqlDatabaseSecureConnectionPolicy.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.sql/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Sql/v0.9.8/Get-AzureSqlDatabaseTransparentDataEncryption.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.sql/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Sql/v0.9.8/Get-AzureSqlDatabaseTransparentDataEncryptionActivity.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.sql/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Sql/v0.9.8/Get-AzureSqlDatabaseUpgradeHint.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.sql/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Sql/v0.9.8/Get-AzureSqlElasticPool.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.sql/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Sql/v0.9.8/Get-AzureSqlElasticPoolActivity.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.sql/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Sql/v0.9.8/Get-AzureSqlElasticPoolDatabase.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.sql/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Sql/v0.9.8/Get-AzureSqlElasticPoolRecommendation.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.sql/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Sql/v0.9.8/Get-AzureSqlServer.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.sql/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Sql/v0.9.8/Get-AzureSqlServerActiveDirectoryAdministrator.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.sql/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Sql/v0.9.8/Get-AzureSqlServerAuditingPolicy.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.sql/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Sql/v0.9.8/Get-AzureSqlServerFirewallRule.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.sql/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Sql/v0.9.8/Get-AzureSqlServerServiceObjective.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.sql/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Sql/v0.9.8/Get-AzureSqlServerUpgrade.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.sql/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Sql/v0.9.8/Get-AzureSqlServerUpgradeHint.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.sql/",
       "redirect_document_id": false
     },
     {
@@ -38332,22 +38332,22 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.Sql/v0.9.8/New-AzureSqlDatabaseDataMaskingRule.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.sql/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Sql/v0.9.8/New-AzureSqlElasticPool.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.sql/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Sql/v0.9.8/New-AzureSqlServer.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.sql/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Sql/v0.9.8/New-AzureSqlServerFirewallRule.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.sql/",
       "redirect_document_id": false
     },
     {
@@ -38357,42 +38357,42 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.Sql/v0.9.8/Remove-AzureSqlDatabaseAuditing.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.sql/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Sql/v0.9.8/Remove-AzureSqlDatabaseDataMaskingRule.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.sql/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Sql/v0.9.8/Remove-AzureSqlElasticPool.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.sql/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Sql/v0.9.8/Remove-AzureSqlServer.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.sql/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Sql/v0.9.8/Remove-AzureSqlServerActiveDirectoryAdministrator.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.sql/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Sql/v0.9.8/Remove-AzureSqlServerAuditing.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.sql/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Sql/v0.9.8/Remove-AzureSqlServerFirewallRule.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.sql/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Sql/v0.9.8/Resume-AzureSqlDatabase.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.sql/",
       "redirect_document_id": false
     },
     {
@@ -38402,77 +38402,77 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.Sql/v0.9.8/Set-AzureSqlDatabaseAuditingPolicy.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.sql/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Sql/v0.9.8/Set-AzureSqlDatabaseDataMaskingPolicy.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.sql/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Sql/v0.9.8/Set-AzureSqlDatabaseDataMaskingRule.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.sql/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Sql/v0.9.8/Set-AzureSqlDatabaseTransparentDataEncryption.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.sql/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Sql/v0.9.8/Set-AzureSqlElasticPool.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.sql/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Sql/v0.9.8/Set-AzureSqlServer.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.sql/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Sql/v0.9.8/Set-AzureSqlServerActiveDirectoryAdministrator.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.sql/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Sql/v0.9.8/Set-AzureSqlServerAuditingPolicy.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.sql/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Sql/v0.9.8/Set-AzureSqlServerFirewallRule.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.sql/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Sql/v0.9.8/Start-AzureSqlDatabaseExecuteIndexRecommendation.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.sql/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Sql/v0.9.8/Start-AzureSqlServerUpgrade.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.sql/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Sql/v0.9.8/Stop-AzureSqlDatabaseExecuteIndexRecommendation.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.sql/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Sql/v0.9.8/Stop-AzureSqlServerUpgrade.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.sql/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Sql/v0.9.8/Suspend-AzureSqlDatabase.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.sql/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.Sql/v0.9.8/Use-AzureSqlServerAuditingPolicy.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.sql/",
       "redirect_document_id": false
     },
     {
@@ -41627,82 +41627,82 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.StreamAnalytics/v0.9.8/Get-AzureStreamAnalyticsInput.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.streamanalytics/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.StreamAnalytics/v0.9.8/Get-AzureStreamAnalyticsJob.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.streamanalytics/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.StreamAnalytics/v0.9.8/Get-AzureStreamAnalyticsOutput.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.streamanalytics/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.StreamAnalytics/v0.9.8/Get-AzureStreamAnalyticsQuota.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.streamanalytics/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.StreamAnalytics/v0.9.8/Get-AzureStreamAnalyticsTransformation.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.streamanalytics/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.StreamAnalytics/v0.9.8/New-AzureStreamAnalyticsInput.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.streamanalytics/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.StreamAnalytics/v0.9.8/New-AzureStreamAnalyticsJob.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.streamanalytics/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.StreamAnalytics/v0.9.8/New-AzureStreamAnalyticsOutput.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.streamanalytics/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.StreamAnalytics/v0.9.8/New-AzureStreamAnalyticsTransformation.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.streamanalytics/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.StreamAnalytics/v0.9.8/Remove-AzureStreamAnalyticsInput.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.streamanalytics/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.StreamAnalytics/v0.9.8/Remove-AzureStreamAnalyticsJob.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.streamanalytics/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.StreamAnalytics/v0.9.8/Remove-AzureStreamAnalyticsOutput.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.streamanalytics/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.StreamAnalytics/v0.9.8/Start-AzureStreamAnalyticsJob.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.streamanalytics/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.StreamAnalytics/v0.9.8/Stop-AzureStreamAnalyticsJob.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.streamanalytics/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.StreamAnalytics/v0.9.8/Test-AzureStreamAnalyticsInput.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.streamanalytics/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.StreamAnalytics/v0.9.8/Test-AzureStreamAnalyticsOutput.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.streamanalytics/",
       "redirect_document_id": false
     },
     {
@@ -43942,12 +43942,12 @@
     },
     {
       "source_path": "RMSProtection/vlatest/about_RMSProtection_ADRMS.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/rmsprotection/",
       "redirect_document_id": false
     },
     {
       "source_path": "RMSProtection/vlatest/about_RMSProtection_AzureRMS.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/rmsprotection/",
       "redirect_document_id": false
     },
     {
@@ -44367,7 +44367,7 @@
     },
     {
       "source_path": "ServiceFabric/vlatest/New-ServiceFabricCluster.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/servicefabric/",
       "redirect_document_id": false
     },
     {
@@ -49852,7 +49852,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.HDInsight/v0.9.8/Grant-AzureHdinsightRdpAccess.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.hdinsight/",
       "redirect_document_id": false
     },
     {
@@ -49907,7 +49907,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.HDInsight/v0.9.8/Revoke-AzureHdinsightRdpAccess.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.hdinsight/",
       "redirect_document_id": false
     },
     {
@@ -53817,7 +53817,7 @@
     },
     {
       "source_path": "ServiceManagement/Azure.Profile/v0.9.8/Switch-AzureMode.md",
-      "redirect_url": "/powershell-new/",
+      "redirect_url": "/powershell-new/module/azurerm.profile/",
       "redirect_document_id": false
     },
     {
