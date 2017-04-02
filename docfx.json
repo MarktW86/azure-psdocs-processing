@@ -395,7 +395,8 @@
       "showPowerShellPicker": "true",
       "brand": "azure",
       "searchScope": ["Azure"],
-      "breadcrumb_path": "/powershell-new/bread/toc.json"
+      "breadcrumb_path": "/powershell-new/bread/toc.json",
+      "dev_langs": ["powershell"]
     },
     "dest": "testMultipleVersion"
   }
