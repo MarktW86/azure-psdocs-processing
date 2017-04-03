@@ -12,7 +12,7 @@ ms.date: 03/30/2017
 ms.author: sewhee
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/docs-conceptual/manage-subscriptions-azureps.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/docs-conceptual/manage-subscriptions-azureps.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/5899226cf95590b8dab1a76b8abbc7acd85325dc
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f2cc09ee4fadeed9f5e5f3e0506a8c742128a262
 open_to_public_contributors: false
 ---
 
@@ -54,7 +54,7 @@ PowerShell to execute commands against a particular subscription.
 2. Set the default.
 
     ```powershell
-    Get-AzureRmSubscription -SubscriptionName "My Demos" | Select-AzureRmSubscription
+    Select-AzureRmSubscription -SubscriptionName "My Demos"
     ```
 
 3. Verify the change by running the `Get-AzureRmContext` cmdlet.

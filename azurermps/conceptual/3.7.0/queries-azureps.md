@@ -12,13 +12,13 @@ ms.date: 03/30/2017
 ms.author: sewhee
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/docs-conceptual/queries-azureps.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/docs-conceptual/queries-azureps.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/698a07827f93941be2cd5c673a9a322a88696ab5
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f2cc09ee4fadeed9f5e5f3e0506a8c742128a262
 open_to_public_contributors: false
 ---
 
 # Querying for Azure resources
 
-There is no special query language required to query resources using Azure PowerShell. In
+Querying in PowerShell can be completed by using built-in cmdlets. In
 PowerShell, cmdlet names take the form of **_Verb-Noun_**. The cmdlets using the verb **_Get_** are
 the query cmdlets. The cmdlet nouns are the types of Azure resources that are acted upon by the
 cmdlet verbs.
@@ -65,7 +65,7 @@ path to that nested property. The following example shows how to select the VM N
 from the `Get-AzureRmVM` cmdlet.
 
 ```powershell
-Get-AzureRmVM | Select-Object name,@{n='OSType';e={$_.StorageProfile.OSDisk.OSType}}
+Get-AzureRmVM | Select-Object name,@{Name='OSType'; Expression={$_.StorageProfile.OSDisk.OSType}}
 ```
 
 ```

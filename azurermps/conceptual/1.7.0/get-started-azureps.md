@@ -12,7 +12,7 @@ ms.date: 03/30/2017
 ms.author: sewhee
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/docs-conceptual/get-started-azureps.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/docs-conceptual/get-started-azureps.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/5899226cf95590b8dab1a76b8abbc7acd85325dc
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f2cc09ee4fadeed9f5e5f3e0506a8c742128a262
 open_to_public_contributors: false
 ---
 # Getting started with Azure PowerShell
@@ -31,7 +31,7 @@ The first step is to make sure you have the latest version of the Azure PowerShe
    command line.
 
 You should see the version number of the AzureRM module installed and loaded in your PowerShell
-session.
+session.  The latest version is can be found in the [release notes](release-notes-azureps.md).
 
 ## Log in to Azure
 
@@ -95,9 +95,9 @@ $vnet = New-AzureRmVirtualNetwork -ResourceGroupName $resourceGroup -Location $l
   -Name MYvNET1 -AddressPrefix 192.168.0.0/16 -Subnet $subnetConfig
 
 # Create a public IP address and specify a DNS name
-$pip = New-AzureRmPublicIpAddress -ResourceGroupName $resourceGroup -Location $location `
+$publicIp = New-AzureRmPublicIpAddress -ResourceGroupName $resourceGroup -Location $location `
   -Name "mypublicdns$(Get-Random)" -AllocationMethod Static -IdleTimeoutInMinutes 4
-$pip | Select-Object Name,IpAddress
+$publicIp | Select-Object Name,IpAddress
 
 # Create an inbound network security group rule for port 3389
 $nsgRuleRDP = New-AzureRmNetworkSecurityRuleConfig -Name myNetworkSecurityGroupRuleRDP  -Protocol Tcp `
@@ -110,7 +110,7 @@ $nsg = New-AzureRmNetworkSecurityGroup -ResourceGroupName $resourceGroup -Locati
 
 # Create a virtual network card and associate with public IP address and NSG
 $nic = New-AzureRmNetworkInterface -Name myNic1 -ResourceGroupName $resourceGroup -Location $location `
-  -SubnetId $vnet.Subnets[0].Id -PublicIpAddressId $pip.Id -NetworkSecurityGroupId $nsg.Id
+  -SubnetId $vnet.Subnets[0].Id -PublicIpAddressId $publicIp.Id -NetworkSecurityGroupId $nsg.Id
 ```
 
 ### Create the virtual machine
@@ -148,7 +148,7 @@ Now log on to your newly created Windows Server VM using Remote Desktop and the 
 of the VM. The following command displays the public IP address created in the previous script.
 
 ```powershell
-$pip | Select-Object Name,IpAddress
+$publicIp | Select-Object Name,IpAddress
 ```
 
 ```
@@ -199,9 +199,9 @@ $vnet = New-AzureRmVirtualNetwork -ResourceGroupName $resourceGroup -Location $l
   -Name MYvNET2 -AddressPrefix 192.168.0.0/16 -Subnet $subnetConfig
 
 # Create a public IP address and specify a DNS name
-$pip = New-AzureRmPublicIpAddress -ResourceGroupName $resourceGroup -Location $location `
+$publicIp = New-AzureRmPublicIpAddress -ResourceGroupName $resourceGroup -Location $location `
   -Name "mypublicdns$(Get-Random)" -AllocationMethod Static -IdleTimeoutInMinutes 4
-$pip | Select-Object Name,IpAddress
+$publicIp | Select-Object Name,IpAddress
 
 # Create an inbound network security group rule for port 22
 $nsgRuleSSH = New-AzureRmNetworkSecurityRuleConfig -Name myNetworkSecurityGroupRuleSSH  -Protocol Tcp `
@@ -214,7 +214,7 @@ $nsg = New-AzureRmNetworkSecurityGroup -ResourceGroupName $resourceGroup -Locati
 
 # Create a virtual network card and associate with public IP address and NSG
 $nic = New-AzureRmNetworkInterface -Name myNic2 -ResourceGroupName $resourceGroup -Location $location `
-  -SubnetId $vnet.Subnets[0].Id -PublicIpAddressId $pip.Id -NetworkSecurityGroupId $nsg.Id
+  -SubnetId $vnet.Subnets[0].Id -PublicIpAddressId $publicIp.Id -NetworkSecurityGroupId $nsg.Id
 ```
 
 ### Create the virtual machine
