@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Resources.dll-Help.xml
 ms.assetid: 063BAA79-484D-48CF-9170-3808813752BD
 online version:
 schema: 2.0.0
-updated_at: 03/31/2017 22:03 PM
-ms.date: 03/31/2017
+updated_at: 04/03/2017 14:04 PM
+ms.date: 04/03/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/New-AzureRmADSpCredential.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/New-AzureRmADSpCredential.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/88d8b935741df1b6c584f5ecf14b398b96cdae6d
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/234f3a31ede46045e7977cdbbd673be5cd2e864f
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -88,7 +88,7 @@ In this example, the supplied base64 encoded public X509 certificate ("myapp.cer
 ## PARAMETERS
 
 ### -ObjectId
-The object id of the service principal to add the credentials to.
+Specifies The object ID of the service principal to add the credentials to.
 
 ```yaml
 Type: String
@@ -103,7 +103,7 @@ Accept wildcard characters: False
 ```
 
 ### -Password
-The password to be associated with the application.
+Specifies the password to be associated with the application.
 
 ```yaml
 Type: String
@@ -118,7 +118,7 @@ Accept wildcard characters: False
 ```
 
 ### -StartDate
-The effective start date of the credential usage.
+Specifies the effective start date of the credential usage.
 The default start date value is today. 
 For an "asymmetric" type credential, this must be set to on or after the date that the X509 certificate is valid from.
 
@@ -135,7 +135,7 @@ Accept wildcard characters: False
 ```
 
 ### -EndDate
-The effective end date of the credential usage.
+Specifies the effective end date of the credential usage.
 The default end date value is one year from today. 
 For an "asymmetric" type credential, this must be set to on or before the date that the X509 certificate is valid.
 
@@ -191,7 +191,8 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
 
 ```yaml
 Type: SwitchParameter
@@ -221,7 +222,7 @@ Accept wildcard characters: False
 ```
 
 ### -CertValue
-The value of the "asymmetric" credential type.
+Specifies the value of the "asymmetric" credential type.
 It represents the base 64 encoded certificate.
 
 ```yaml
@@ -237,7 +238,7 @@ Accept wildcard characters: False
 ```
 
 ### -ServicePrincipalName
-The name (SPN) of the service principal to add the credentials to.
+Specifies the name (SPN) of the service principal to add the credentials to.
 
 ```yaml
 Type: String
@@ -259,8 +260,8 @@ Accept wildcard characters: False
 
 ## RELATED LINKS
 
-[Get-AzureRmADSpCredential]()
+[Get-AzureRmADSpCredential](./Get-AzureRmADSpCredential.md)
 
-[Remove-AzureRmADSpCredential]()
+[Remove-AzureRmADSpCredential](./Remove-AzureRmADSpCredential.md)
 
-[Get-AzureRmADServicePrincipal]()
+[Get-AzureRmADServicePrincipal](./Get-AzureRmADServicePrincipal.md)
