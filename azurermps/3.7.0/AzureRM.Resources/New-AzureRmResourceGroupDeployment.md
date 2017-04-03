@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Cmdlets.dll-Help.xm
 ms.assetid: 6E2F0D5E-E683-46F3-B48B-55C4864F3308
 online version:
 schema: 2.0.0
-updated_at: 03/22/2017 18:03 PM
-ms.date: 03/22/2017
+updated_at: 04/03/2017 14:04 PM
+ms.date: 04/03/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/New-AzureRmResourceGroupDeployment.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/New-AzureRmResourceGroupDeployment.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/978fea11e9306c3006c774f266118967e26b616f
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/071df880516b676bc8caeca111ba0f07b81e3416
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -87,7 +87,7 @@ This includes the resources that the deployment requires.
 An Azure resource is a user-managed Azure entity, such as a database server, database, website, virtual machine, or Storage account.
 An Azure resource group is a collection of Azure resources that are deployed as a unit, such as the website, database server, and databases that are required for a financial website.
 A resource group deployment uses a template to add resources to a resource group and publishes them so that they are available in Azure.
-To add resources to a resource group without using a template, use the New-AzureRmResource cmdlet.
+To add resources to a resource group without using a template, use the [New-AzureRmResource](./New-AzureRmResource.md) cmdlet.
 
 To add a resource group deployment, specify the name of an existing resource group and a resource group template.
 A resource group template is a JSON string that represents a resource group for a complex cloud-based service, such as a web portal.
@@ -372,5 +372,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Stop-AzureRmResourceGroupDeployment](./Stop-AzureRmResourceGroupDeployment.md)
 
 [Test-AzureRmResourceGroupDeployment](./Test-AzureRmResourceGroupDeployment.md)
-
-

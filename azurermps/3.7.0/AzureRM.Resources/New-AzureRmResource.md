@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Cmdlets.dll-Help.xm
 ms.assetid: D6FF6BDD-4515-438D-B39D-C0BFC3342F4E
 online version:
 schema: 2.0.0
-updated_at: 03/22/2017 18:03 PM
-ms.date: 03/22/2017
+updated_at: 04/03/2017 14:04 PM
+ms.date: 04/03/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/New-AzureRmResource.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/New-AzureRmResource.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/978fea11e9306c3006c774f266118967e26b616f
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/071df880516b676bc8caeca111ba0f07b81e3416
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -67,7 +67,7 @@ Specify data center location, such as Central US or Southeast Asia.
 
 You can place a resource in any location that supports resources of that type.
 Resource groups can contain resources from different locations.
-To determine which locations support each resource type, use the Get-AzureLocation cmdlet.
+To determine which locations support each resource type, use the **Get-AzureLocation** cmdlet.
 
 ```yaml
 Type: String
@@ -258,7 +258,7 @@ Accept wildcard characters: False
 ```
 
 ### -Plan
-A hash table that represents resource plan properties.
+Specifies a hash table that represents resource plan properties.
 
 ```yaml
 Type: Hashtable
@@ -339,7 +339,7 @@ Accept wildcard characters: False
 ```
 
 ### -Sku
-A hash table that represents sku properties.
+Specifies a hash table that represents SKU properties.
 
 ```yaml
 Type: Hashtable
@@ -404,5 +404,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Remove-AzureRmResource](./Remove-AzureRmResource.md)
 
 [Set-AzureRmResource](./Set-AzureRmResource.md)
-
-

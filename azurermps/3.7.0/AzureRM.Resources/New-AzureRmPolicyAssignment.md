@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Cmdlets.dll-Help.xm
 ms.assetid: BA40BD11-8167-48D7-AC71-72B2FD9924F2
 online version:
 schema: 2.0.0
-updated_at: 03/22/2017 18:03 PM
-ms.date: 03/22/2017
+updated_at: 04/03/2017 14:04 PM
+ms.date: 04/03/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/New-AzureRmPolicyAssignment.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/New-AzureRmPolicyAssignment.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/978fea11e9306c3006c774f266118967e26b616f
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/071df880516b676bc8caeca111ba0f07b81e3416
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -47,7 +47,7 @@ New-AzureRmPolicyAssignment -Name <String> -Scope <String> [-DisplayName <String
 
 ## DESCRIPTION
 The **New-AzureRmPolicyAssignment** cmdlet creates a policy assignment.
-Specify a policy and scope.
+This cmdlet specifies a policy and scope.
 
 ## EXAMPLES
 
@@ -58,10 +58,10 @@ PS C:\> $Policy = Get-AzureRmPolicyDefinition -Name "VirtualMachinePolicy"
 PS C:\> New-AzureRmPolicyAssignment -Name "VirtualMachinePolicyAssignment" -PolicyDefinition $Policy -Scope $ResourceGroup.ResourceId
 ```
 
-The first command gets a resource group named ResourceGroup11 by using the Get-AzureRMResourceGroup cmdlet.
+The first command gets a resource group named ResourceGroup11 by using the [Get-AzureRMResourceGroup](,/Get-AzureRmResourceGroup.md) cmdlet.
 The command stores that object in the $ResourceGroup variable.
 
-The second command gets the policy definition named VirtualMachinePolicy by using the Get-AzureRmPolicyDefinition cmdlet.
+The second command gets the policy definition named VirtualMachinePolicy by using the [Get-AzureRmPolicyDefinition](./Get-AzureRmRoleDefinition.md) cmdlet.
 The command stores that object in the $Policy variable.
 
 The final command assigns the policy in $Policy at the level of a resource group.
@@ -250,5 +250,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Remove-AzureRmPolicyAssignment](./Remove-AzureRmPolicyAssignment.md)
 
 [Set-AzureRmPolicyAssignment](./Set-AzureRmPolicyAssignment.md)
-
-

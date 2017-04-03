@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Cmdlets.dll-Help.xm
 ms.assetid: 0632DAD6-F331-454F-9E7E-2164AB413E77
 online version:
 schema: 2.0.0
-updated_at: 03/22/2017 18:03 PM
-ms.date: 03/22/2017
+updated_at: 04/03/2017 14:04 PM
+ms.date: 04/03/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/New-AzureRmResourceGroup.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/New-AzureRmResourceGroup.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/978fea11e9306c3006c774f266118967e26b616f
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/071df880516b676bc8caeca111ba0f07b81e3416
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -32,7 +32,7 @@ New-AzureRmResourceGroup -Name <String> -Location <String> [-Tag <Hashtable>] [-
 ## DESCRIPTION
 The **New-AzureRmResourceGroup** cmdlet creates an Azure resource group.
 
-You can create a resource group by using just a name and location, and then use the New-AzureRmResource cmdlet to create resources to add to the resource group.
+You can create a resource group by using just a name and location, and then use the [New-AzureRmResource](./New-AzureRmResource.md) cmdlet to create resources to add to the resource group.
 
 To add a deployment to an existing resource group, use the New-AzureRmResourceGroupDeployment cmdlet.
 To add a resource to an existing resource group, use the **New-AzureRmResource** cmdlet.
@@ -85,7 +85,7 @@ Specify an Azure data center location, such as West US or Southeast Asia.
 You can place a resource group in any location.
 The resource group does not have to be in the same location your Azure subscription or in the same location as its resources.
 
-To determine which location supports each resource type, use the Get-AzureRmResourceProvider cmdlet with the *ProviderNamespace* parameter.
+To determine which location supports each resource type, use the [Get-AzureRmResourceProvider](./Get-AzureRmResourceProvider.md) cmdlet with the *ProviderNamespace* parameter.
 
 ```yaml
 Type: String
@@ -104,7 +104,7 @@ Specifies a hash table of tags.
 To add or change a tag, you must replace the collection of tags for the resource group.
 
 A tag is a name-value pair that you can create and apply to resources and resource groups.
-After you assign tags to resources and groups, you can use the *Tag* parameter of Get-AzureRmResource and Get-AzureRmResourceGroup to search for resources and groups by tag name or by name and value.
+After you assign tags to resources and groups, you can use the *Tag* parameter of **Get-AzureRmResource** and **Get-AzureRmResourceGroup** to search for resources and groups by tag name or by name and value.
 You can use tags to categorize your resources, such as by department or cost center, or to track notes or comments about the resources.
 
 Each tag must have a Name key.
@@ -229,5 +229,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Remove-AzureRmResourceGroup](./Remove-AzureRmResourceGroup.md)
 
 [Set-AzureRmResourceGroup](./Set-AzureRmResourceGroup.md)
-
-
