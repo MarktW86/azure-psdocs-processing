@@ -14,29 +14,29 @@ keywords: powershell, cmdlet
 manager: erickson-doug
 open_to_public_contributors: false
 ms.service: big-compute
-Add-AzureRmVhd: VM VHDs
+Add-AzureRmVhd: Others
 Add-AzureRmVMAdditionalUnattendContent: Virtual Machines
 Add-AzureRmVMDataDisk: VM Disks
-Add-AzureRmVMNetworkInterface: Virtual Network
+Add-AzureRmVMNetworkInterface: Virtual Machines
 Add-AzureRmVMSecret: Virtual Machines
 Add-AzureRmVmssAdditionalUnattendContent: VM Scale Sets
 Add-AzureRmVmssExtension: VM Scale Sets
 Add-AzureRmVMSshPublicKey: Virtual Machines
-Add-AzureRmVmssNetworkInterfaceConfiguration: Virtual Network
+Add-AzureRmVmssNetworkInterfaceConfiguration: VM Scale Sets
 Add-AzureRmVmssSecret: VM Scale Sets
 Add-AzureRmVmssSshPublicKey: VM Scale Sets
 Add-AzureRmVmssWinRMListener: VM Scale Sets
-Get-AzureRmAvailabilitySet: Availability Sets
+Get-AzureRmAvailabilitySet: Virtual Machines
 Get-AzureRmRemoteDesktopFile: Virtual Machines
 Get-AzureRmVM: Virtual Machines
-Get-AzureRmVMAccessExtension: Virtual Machines
-Get-AzureRmVMBootDiagnosticsData: Monitoring
-Get-AzureRmVMCustomScriptExtension: Virtual Machines
-Get-AzureRmVMDiagnosticsExtension: Monitoring
+Get-AzureRmVMAccessExtension: VM Extensions
+Get-AzureRmVMBootDiagnosticsData: Virtual Machines
+Get-AzureRmVMCustomScriptExtension: VM Extensions
+Get-AzureRmVMDiagnosticsExtension: Others
 Get-AzureRmVMDiskEncryptionStatus: VM Disks
-Get-AzureRmVMDscExtension: Virtual Machines
-Get-AzureRmVMDscExtensionStatus: Virtual Machines
-Get-AzureRmVMExtension: Virtual Machines
+Get-AzureRmVMDscExtension: VM Extensions
+Get-AzureRmVMDscExtensionStatus: VM Extensions
+Get-AzureRmVMExtension: VM Extensions
 Get-AzureRmVMExtensionImage: VM Images
 Get-AzureRmVMExtensionImageType: VM Images
 Get-AzureRmVMImage: VM Images
@@ -44,60 +44,60 @@ Get-AzureRmVMImageOffer: VM Images
 Get-AzureRmVMImagePublisher: VM Images
 Get-AzureRmVMImageSku: VM Images
 Get-AzureRmVMSize: Virtual Machines
-Get-AzureRmVMSqlServerExtension: SQL
+Get-AzureRmVMSqlServerExtension: Others
 Get-AzureRmVmss: VM Scale Sets
 Get-AzureRmVmssSku: VM Scale Sets
-Get-AzureRmVmssVM: Virtual Machines
+Get-AzureRmVmssVM: VM Scale Sets
 Get-AzureRmVMUsage: Virtual Machines
-New-AzureRmAvailabilitySet: Availability Sets
+New-AzureRmAvailabilitySet: Virtual Machines
 New-AzureRmVM: Virtual Machines
 New-AzureRmVMConfig: Virtual Machines
 New-AzureRmVmss: VM Scale Sets
 New-AzureRmVmssConfig: VM Scale Sets
 New-AzureRmVmssIpConfig: VM Scale Sets
 New-AzureRmVmssVaultCertificateConfig: VM Scale Sets
-New-AzureVMSqlServerAutoBackupConfig: Backup
-New-AzureVMSqlServerAutoPatchingConfig: SQL
+New-AzureVMSqlServerAutoBackupConfig: Virtual Machines
+New-AzureVMSqlServerAutoPatchingConfig: Virtual Machines
 Publish-AzureRmVMDscConfiguration: Virtual Machines
-Remove-AzureRmAvailabilitySet: Availability Sets
+Remove-AzureRmAvailabilitySet: Virtual Machines
 Remove-AzureRmVM: Virtual Machines
-Remove-AzureRmVMAccessExtension: Virtual Machines
-Remove-AzureRmVMBackup: Backup
-Remove-AzureRmVMCustomScriptExtension: Virtual Machines
+Remove-AzureRmVMAccessExtension: VM Extensions
+Remove-AzureRmVMBackup: Virtual Machines
+Remove-AzureRmVMCustomScriptExtension: VM Extensions
 Remove-AzureRmVMDataDisk: VM Disks
-Remove-AzureRmVMDiagnosticsExtension: Monitoring
+Remove-AzureRmVMDiagnosticsExtension: VM Extensions
 Remove-AzureRmVMDiskEncryptionExtension: VM Disks
-Remove-AzureRmVMDscExtension: Virtual Machines
-Remove-AzureRmVMExtension: Virtual Machines
-Remove-AzureRmVMNetworkInterface: Virtual Network
-Remove-AzureRmVMSqlServerExtension: SQL
+Remove-AzureRmVMDscExtension: VM Extensions
+Remove-AzureRmVMExtension: VM Extensions
+Remove-AzureRmVMNetworkInterface: Virtual Machines
+Remove-AzureRmVMSqlServerExtension: Others
 Remove-AzureRmVmss: VM Scale Sets
 Remove-AzureRmVmssExtension: VM Scale Sets
-Remove-AzureRmVmssNetworkInterfaceConfiguration: Virtual Network
+Remove-AzureRmVmssNetworkInterfaceConfiguration: VM Scale Sets
 Restart-AzureRmVM: Virtual Machines
 Restart-AzureRmVmss: VM Scale Sets
 Save-AzureRmVhd: VM VHDs
 Save-AzureRmVMImage: VM Images
 Set-AzureRmVM: Virtual Machines
-Set-AzureRmVMAccessExtension: Virtual Machines
-Set-AzureRmVMBackupExtension: Backup
-Set-AzureRmVMBginfoExtension: Virtual Machines
-Set-AzureRmVMBootDiagnostics: Monitoring
-Set-AzureRmVMCustomScriptExtension: Virtual Machines
-Set-AzureRmVMDataDisk: VM Disks
-Set-AzureRmVMDiagnosticsExtension: Monitoring
+Set-AzureRmVMAccessExtension: VM Extensions
+Set-AzureRmVMBackupExtension: VM Extensions
+Set-AzureRmVMBginfoExtension: VM Extensions
+Set-AzureRmVMBootDiagnostics: Virtual Machines
+Set-AzureRmVMCustomScriptExtension: VM Extensions
+Set-AzureRmVMDataDisk: Others
+Set-AzureRmVMDiagnosticsExtension: Others
 Set-AzureRmVMDiskEncryptionExtension: VM Disks
-Set-AzureRmVMDscExtension: Virtual Machines
-Set-AzureRmVMExtension: Virtual Machines
+Set-AzureRmVMDscExtension: VM Extensions
+Set-AzureRmVMExtension: VM Extensions
 Set-AzureRmVMOperatingSystem: Virtual Machines
 Set-AzureRmVMOSDisk: VM Disks
 Set-AzureRmVMPlan: Virtual Machines
 Set-AzureRmVMSourceImage: VM Images
-Set-AzureRmVMSqlServerExtension: SQL
+Set-AzureRmVMSqlServerExtension: Others
 Set-AzureRmVmss: VM Scale Sets
 Set-AzureRmVmssOsProfile: VM Scale Sets
-Set-AzureRmVmssStorageProfile: Storage
-Set-AzureRmVmssVM: Virtual Machines
+Set-AzureRmVmssStorageProfile: VM Scale Sets
+Set-AzureRmVmssVM: VM Scale Sets
 Start-AzureRmVM: Virtual Machines
 Start-AzureRmVmss: VM Scale Sets
 Stop-AzureRmVM: Virtual Machines

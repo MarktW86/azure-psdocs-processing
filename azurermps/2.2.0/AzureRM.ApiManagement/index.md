@@ -92,7 +92,7 @@ Set-AzureRmApiManagementProperty: API Management
 Set-AzureRmApiManagementSubscription: API Management
 Set-AzureRmApiManagementTenantAccess: API Management
 Set-AzureRmApiManagementUser: API Management
-Set-AzureRmApiManagementVirtualNetworks: API Management
+Set-AzureRmApiManagementVirtualNetworks: Others
 Update-AzureRmApiManagementDeployment: API Management
 Update-AzureRmApiManagementRegion: API Management
 _isModulePage: true

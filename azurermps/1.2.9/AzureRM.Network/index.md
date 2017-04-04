@@ -32,7 +32,7 @@ Add-AzureRmLoadBalancerInboundNatPoolConfig: Load Balancer
 Add-AzureRmLoadBalancerInboundNatRuleConfig: Load Balancer
 Add-AzureRmLoadBalancerProbeConfig: Load Balancer
 Add-AzureRmLoadBalancerRuleConfig: Load Balancer
-Add-AzureRmNetworkSecurityRuleConfig: Virtual Network
+Add-AzureRmNetworkSecurityRuleConfig: Networking
 Add-AzureRmRouteConfig: Route
 Add-AzureRmVirtualNetworkSubnetConfig: Virtual Network
 Add-AzureRmVpnClientRevokedCertificate: VPN
@@ -60,11 +60,11 @@ Get-AzureRmLoadBalancerInboundNatPoolConfig: Load Balancer
 Get-AzureRmLoadBalancerInboundNatRuleConfig: Load Balancer
 Get-AzureRmLoadBalancerProbeConfig: Load Balancer
 Get-AzureRmLoadBalancerRuleConfig: Load Balancer
-Get-AzureRmLocalNetworkGateway: Virtual Network
-Get-AzureRmNetworkInterface: Virtual Network
-Get-AzureRmNetworkSecurityGroup: Virtual Network
-Get-AzureRmNetworkSecurityRuleConfig: Virtual Network
-Get-AzureRmPublicIpAddress: Virtual Network
+Get-AzureRmLocalNetworkGateway: Networking
+Get-AzureRmNetworkInterface: Networking
+Get-AzureRmNetworkSecurityGroup: Networking
+Get-AzureRmNetworkSecurityRuleConfig: Networking
+Get-AzureRmPublicIpAddress: Networking
 Get-AzureRmRouteConfig: Route
 Get-AzureRmRouteTable: Route
 Get-AzureRmVirtualNetwork: Virtual Network
@@ -98,11 +98,11 @@ New-AzureRmLoadBalancerInboundNatPoolConfig: Load Balancer
 New-AzureRmLoadBalancerInboundNatRuleConfig: Load Balancer
 New-AzureRmLoadBalancerProbeConfig: Load Balancer
 New-AzureRmLoadBalancerRuleConfig: Load Balancer
-New-AzureRmLocalNetworkGateway: Virtual Network
-New-AzureRmNetworkInterface: Virtual Network
-New-AzureRmNetworkSecurityGroup: Virtual Network
-New-AzureRmNetworkSecurityRuleConfig: Virtual Network
-New-AzureRmPublicIpAddress: Virtual Network
+New-AzureRmLocalNetworkGateway: Networking
+New-AzureRmNetworkInterface: Networking
+New-AzureRmNetworkSecurityGroup: Networking
+New-AzureRmNetworkSecurityRuleConfig: Networking
+New-AzureRmPublicIpAddress: Networking
 New-AzureRmRouteConfig: Route
 New-AzureRmRouteTable: Route
 New-AzureRmVirtualNetwork: Virtual Network
@@ -133,11 +133,11 @@ Remove-AzureRmLoadBalancerInboundNatPoolConfig: Load Balancer
 Remove-AzureRmLoadBalancerInboundNatRuleConfig: Load Balancer
 Remove-AzureRmLoadBalancerProbeConfig: Load Balancer
 Remove-AzureRmLoadBalancerRuleConfig: Load Balancer
-Remove-AzureRmLocalNetworkGateway: Virtual Network
-Remove-AzureRmNetworkInterface: Virtual Network
-Remove-AzureRmNetworkSecurityGroup: Virtual Network
-Remove-AzureRmNetworkSecurityRuleConfig: Virtual Network
-Remove-AzureRmPublicIpAddress: Virtual Network
+Remove-AzureRmLocalNetworkGateway: Networking
+Remove-AzureRmNetworkInterface: Networking
+Remove-AzureRmNetworkSecurityGroup: Networking
+Remove-AzureRmNetworkSecurityRuleConfig: Networking
+Remove-AzureRmPublicIpAddress: Networking
 Remove-AzureRmRouteConfig: Route
 Remove-AzureRmRouteTable: Route
 Remove-AzureRmVirtualNetwork: Virtual Network
@@ -170,11 +170,11 @@ Set-AzureRmLoadBalancerInboundNatPoolConfig: Load Balancer
 Set-AzureRmLoadBalancerInboundNatRuleConfig: Load Balancer
 Set-AzureRmLoadBalancerProbeConfig: Load Balancer
 Set-AzureRmLoadBalancerRuleConfig: Load Balancer
-Set-AzureRmLocalNetworkGateway: Virtual Network
-Set-AzureRmNetworkInterface: Virtual Network
-Set-AzureRmNetworkSecurityGroup: Virtual Network
-Set-AzureRmNetworkSecurityRuleConfig: Virtual Network
-Set-AzureRmPublicIpAddress: Virtual Network
+Set-AzureRmLocalNetworkGateway: Networking
+Set-AzureRmNetworkInterface: Networking
+Set-AzureRmNetworkSecurityGroup: Networking
+Set-AzureRmNetworkSecurityRuleConfig: Networking
+Set-AzureRmPublicIpAddress: Networking
 Set-AzureRmRouteConfig: Route
 Set-AzureRmRouteTable: Route
 Set-AzureRmVirtualNetwork: Virtual Network

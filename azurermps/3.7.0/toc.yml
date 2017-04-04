@@ -917,8 +917,8 @@
           href: AzureRM.Compute/Remove-AzureRmContainerServiceAgentPoolProfile.md
         - name: Update-AzureRmContainerService
           href: AzureRM.Compute/Update-AzureRmContainerService.md
-    - name: Data Factory
-      href: 'AzureRM.DataFactories/index.md#data_factory'
+    - name: Data Factories
+      href: 'AzureRM.DataFactories/index.md#data_factories'
       items:
         - name: Get-AzureRmDataFactory
           href: AzureRM.DataFactories/Get-AzureRmDataFactory.md
@@ -1099,6 +1099,29 @@
           href: AzureRM.DataLakeStore/Test-AzureRmDataLakeStoreAccount.md
         - name: Test-AzureRmDataLakeStoreItem
           href: AzureRM.DataLakeStore/Test-AzureRmDataLakeStoreItem.md
+    - name: DevTest Labs
+      href: 'AzureRM.DevTestLabs/index.md#devtest_labs'
+      items:
+        - name: Get-AzureRmDtlAllowedVMSizesPolicy
+          href: AzureRM.DevTestLabs/Get-AzureRmDtlAllowedVMSizesPolicy.md
+        - name: Get-AzureRmDtlAutoShutdownPolicy
+          href: AzureRM.DevTestLabs/Get-AzureRmDtlAutoShutdownPolicy.md
+        - name: Get-AzureRmDtlAutoStartPolicy
+          href: AzureRM.DevTestLabs/Get-AzureRmDtlAutoStartPolicy.md
+        - name: Get-AzureRmDtlVMsPerLabPolicy
+          href: AzureRM.DevTestLabs/Get-AzureRmDtlVMsPerLabPolicy.md
+        - name: Get-AzureRmDtlVMsPerUserPolicy
+          href: AzureRM.DevTestLabs/Get-AzureRmDtlVMsPerUserPolicy.md
+        - name: Set-AzureRmDtlAllowedVMSizesPolicy
+          href: AzureRM.DevTestLabs/Set-AzureRmDtlAllowedVMSizesPolicy.md
+        - name: Set-AzureRmDtlAutoShutdownPolicy
+          href: AzureRM.DevTestLabs/Set-AzureRmDtlAutoShutdownPolicy.md
+        - name: Set-AzureRmDtlAutoStartPolicy
+          href: AzureRM.DevTestLabs/Set-AzureRmDtlAutoStartPolicy.md
+        - name: Set-AzureRmDtlVMsPerLabPolicy
+          href: AzureRM.DevTestLabs/Set-AzureRmDtlVMsPerLabPolicy.md
+        - name: Set-AzureRmDtlVMsPerUserPolicy
+          href: AzureRM.DevTestLabs/Set-AzureRmDtlVMsPerUserPolicy.md
     - name: DNS
       href: 'AzureRM.Dns/index.md#dns'
       items:
@@ -1621,12 +1644,16 @@
           href: AzureRM.Media/Get-AzureRmMediaServiceNameAvailability.md
         - name: New-AzureRmMediaService
           href: AzureRM.Media/New-AzureRmMediaService.md
+        - name: New-AzureRmMediaServiceStorageConfig
+          href: AzureRM.Media/New-AzureRmMediaServiceStorageConfig.md
         - name: Remove-AzureRmMediaService
           href: AzureRM.Media/Remove-AzureRmMediaService.md
         - name: Set-AzureRmMediaService
           href: AzureRM.Media/Set-AzureRmMediaService.md
         - name: Set-AzureRmMediaServiceKey
           href: AzureRM.Media/Set-AzureRmMediaServiceKey.md
+        - name: Sync-AzureRmMediaServiceStorageKeys
+          href: AzureRM.Media/Sync-AzureRmMediaServiceStorageKeys.md
     - name: Network Watcher
       href: 'AzureRM.Network/index.md#network_watcher'
       items:
@@ -1851,6 +1878,25 @@
           href: AzureRM.OperationalInsights/Set-AzureRmOperationalInsightsStorageInsight.md
         - name: Set-AzureRmOperationalInsightsWorkspace
           href: AzureRM.OperationalInsights/Set-AzureRmOperationalInsightsWorkspace.md
+    - name: Policies
+      href: 'AzureRM.Resources/index.md#policies'
+      items:
+        - name: Get-AzureRmPolicyAssignment
+          href: AzureRM.Resources/Get-AzureRmPolicyAssignment.md
+        - name: Get-AzureRmPolicyDefinition
+          href: AzureRM.Resources/Get-AzureRmPolicyDefinition.md
+        - name: New-AzureRmPolicyAssignment
+          href: AzureRM.Resources/New-AzureRmPolicyAssignment.md
+        - name: New-AzureRmPolicyDefinition
+          href: AzureRM.Resources/New-AzureRmPolicyDefinition.md
+        - name: Remove-AzureRmPolicyAssignment
+          href: AzureRM.Resources/Remove-AzureRmPolicyAssignment.md
+        - name: Remove-AzureRmPolicyDefinition
+          href: AzureRM.Resources/Remove-AzureRmPolicyDefinition.md
+        - name: Set-AzureRmPolicyAssignment
+          href: AzureRM.Resources/Set-AzureRmPolicyAssignment.md
+        - name: Set-AzureRmPolicyDefinition
+          href: AzureRM.Resources/Set-AzureRmPolicyDefinition.md
     - name: Power BI
       href: 'AzureRM.PowerBIEmbedded/index.md#power_bi'
       items:
@@ -1866,6 +1912,35 @@
           href: AzureRM.PowerBIEmbedded/Remove-AzureRmPowerBIWorkspaceCollection.md
         - name: Reset-AzureRmPowerBIWorkspaceCollectionAccessKeys
           href: AzureRM.PowerBIEmbedded/Reset-AzureRmPowerBIWorkspaceCollectionAccessKeys.md
+    - name: Profile
+      href: 'AzureRM.Profile/index.md#profile'
+      items:
+        - name: Add-AzureRmAccount
+          href: AzureRM.Profile/Add-AzureRmAccount.md
+        - name: Add-AzureRmEnvironment
+          href: AzureRM.Profile/Add-AzureRmEnvironment.md
+        - name: Disable-AzureRmDataCollection
+          href: AzureRM.Profile/Disable-AzureRmDataCollection.md
+        - name: Enable-AzureRmDataCollection
+          href: AzureRM.Profile/Enable-AzureRmDataCollection.md
+        - name: Get-AzureRmContext
+          href: AzureRM.Profile/Get-AzureRmContext.md
+        - name: Get-AzureRmEnvironment
+          href: AzureRM.Profile/Get-AzureRmEnvironment.md
+        - name: Get-AzureRmSubscription
+          href: AzureRM.Profile/Get-AzureRmSubscription.md
+        - name: Get-AzureRmTenant
+          href: AzureRM.Profile/Get-AzureRmTenant.md
+        - name: Remove-AzureRmEnvironment
+          href: AzureRM.Profile/Remove-AzureRmEnvironment.md
+        - name: Save-AzureRmProfile
+          href: AzureRM.Profile/Save-AzureRmProfile.md
+        - name: Select-AzureRmProfile
+          href: AzureRM.Profile/Select-AzureRmProfile.md
+        - name: Set-AzureRmContext
+          href: AzureRM.Profile/Set-AzureRmContext.md
+        - name: Set-AzureRmEnvironment
+          href: AzureRM.Profile/Set-AzureRmEnvironment.md
     - name: Recovery
       href: 'AzureRM.RecoveryServices.Backup/index.md#recovery'
       items:
@@ -2081,62 +2156,8 @@
         - name: Set-AzureRmRedisCacheDiagnostics
           href: AzureRM.RedisCache/Set-AzureRmRedisCacheDiagnostics.md
     - name: Resources
-      href: 'AzureRM.Tags/index.md#resources'
+      href: 'AzureRM.Resources/index.md#resources'
       items:
-        - name: Get-AzureRmTag
-          href: AzureRM.Tags/Get-AzureRmTag.md
-        - name: New-AzureRmTag
-          href: AzureRM.Tags/New-AzureRmTag.md
-        - name: Remove-AzureRmTag
-          href: AzureRM.Tags/Remove-AzureRmTag.md
-        - name: Add-AzureRmAccount
-          href: AzureRM.Profile/Add-AzureRmAccount.md
-        - name: Add-AzureRmEnvironment
-          href: AzureRM.Profile/Add-AzureRmEnvironment.md
-        - name: Disable-AzureRmDataCollection
-          href: AzureRM.Profile/Disable-AzureRmDataCollection.md
-        - name: Enable-AzureRmDataCollection
-          href: AzureRM.Profile/Enable-AzureRmDataCollection.md
-        - name: Get-AzureRmContext
-          href: AzureRM.Profile/Get-AzureRmContext.md
-        - name: Get-AzureRmEnvironment
-          href: AzureRM.Profile/Get-AzureRmEnvironment.md
-        - name: Get-AzureRmSubscription
-          href: AzureRM.Profile/Get-AzureRmSubscription.md
-        - name: Get-AzureRmTenant
-          href: AzureRM.Profile/Get-AzureRmTenant.md
-        - name: Remove-AzureRmEnvironment
-          href: AzureRM.Profile/Remove-AzureRmEnvironment.md
-        - name: Save-AzureRmProfile
-          href: AzureRM.Profile/Save-AzureRmProfile.md
-        - name: Select-AzureRmProfile
-          href: AzureRM.Profile/Select-AzureRmProfile.md
-        - name: Set-AzureRmContext
-          href: AzureRM.Profile/Set-AzureRmContext.md
-        - name: Set-AzureRmEnvironment
-          href: AzureRM.Profile/Set-AzureRmEnvironment.md
-        - name: Get-UsageAggregates
-          href: AzureRM.UsageAggregates/Get-UsageAggregates.md
-        - name: Get-AzureRmDtlAllowedVMSizesPolicy
-          href: AzureRM.DevTestLabs/Get-AzureRmDtlAllowedVMSizesPolicy.md
-        - name: Get-AzureRmDtlAutoShutdownPolicy
-          href: AzureRM.DevTestLabs/Get-AzureRmDtlAutoShutdownPolicy.md
-        - name: Get-AzureRmDtlAutoStartPolicy
-          href: AzureRM.DevTestLabs/Get-AzureRmDtlAutoStartPolicy.md
-        - name: Get-AzureRmDtlVMsPerLabPolicy
-          href: AzureRM.DevTestLabs/Get-AzureRmDtlVMsPerLabPolicy.md
-        - name: Get-AzureRmDtlVMsPerUserPolicy
-          href: AzureRM.DevTestLabs/Get-AzureRmDtlVMsPerUserPolicy.md
-        - name: Set-AzureRmDtlAllowedVMSizesPolicy
-          href: AzureRM.DevTestLabs/Set-AzureRmDtlAllowedVMSizesPolicy.md
-        - name: Set-AzureRmDtlAutoShutdownPolicy
-          href: AzureRM.DevTestLabs/Set-AzureRmDtlAutoShutdownPolicy.md
-        - name: Set-AzureRmDtlAutoStartPolicy
-          href: AzureRM.DevTestLabs/Set-AzureRmDtlAutoStartPolicy.md
-        - name: Set-AzureRmDtlVMsPerLabPolicy
-          href: AzureRM.DevTestLabs/Set-AzureRmDtlVMsPerLabPolicy.md
-        - name: Set-AzureRmDtlVMsPerUserPolicy
-          href: AzureRM.DevTestLabs/Set-AzureRmDtlVMsPerUserPolicy.md
         - name: Export-AzureRmResourceGroup
           href: AzureRM.Resources/Export-AzureRmResourceGroup.md
         - name: Find-AzureRmResource
@@ -2145,10 +2166,6 @@
           href: AzureRM.Resources/Find-AzureRmResourceGroup.md
         - name: Get-AzureRmLocation
           href: AzureRM.Resources/Get-AzureRmLocation.md
-        - name: Get-AzureRmPolicyAssignment
-          href: AzureRM.Resources/Get-AzureRmPolicyAssignment.md
-        - name: Get-AzureRmPolicyDefinition
-          href: AzureRM.Resources/Get-AzureRmPolicyDefinition.md
         - name: Get-AzureRmProviderFeature
           href: AzureRM.Resources/Get-AzureRmProviderFeature.md
         - name: Get-AzureRmProviderOperation
@@ -2173,10 +2190,6 @@
           href: AzureRM.Resources/Invoke-AzureRmResourceAction.md
         - name: Move-AzureRmResource
           href: AzureRM.Resources/Move-AzureRmResource.md
-        - name: New-AzureRmPolicyAssignment
-          href: AzureRM.Resources/New-AzureRmPolicyAssignment.md
-        - name: New-AzureRmPolicyDefinition
-          href: AzureRM.Resources/New-AzureRmPolicyDefinition.md
         - name: New-AzureRmResource
           href: AzureRM.Resources/New-AzureRmResource.md
         - name: New-AzureRmResourceGroup
@@ -2193,10 +2206,6 @@
           href: AzureRM.Resources/Register-AzureRmProviderFeature.md
         - name: Register-AzureRmResourceProvider
           href: AzureRM.Resources/Register-AzureRmResourceProvider.md
-        - name: Remove-AzureRmPolicyAssignment
-          href: AzureRM.Resources/Remove-AzureRmPolicyAssignment.md
-        - name: Remove-AzureRmPolicyDefinition
-          href: AzureRM.Resources/Remove-AzureRmPolicyDefinition.md
         - name: Remove-AzureRmResource
           href: AzureRM.Resources/Remove-AzureRmResource.md
         - name: Remove-AzureRmResourceGroup
@@ -2211,10 +2220,6 @@
           href: AzureRM.Resources/Remove-AzureRmRoleDefinition.md
         - name: Save-AzureRmResourceGroupDeploymentTemplate
           href: AzureRM.Resources/Save-AzureRmResourceGroupDeploymentTemplate.md
-        - name: Set-AzureRmPolicyAssignment
-          href: AzureRM.Resources/Set-AzureRmPolicyAssignment.md
-        - name: Set-AzureRmPolicyDefinition
-          href: AzureRM.Resources/Set-AzureRmPolicyDefinition.md
         - name: Set-AzureRmResource
           href: AzureRM.Resources/Set-AzureRmResource.md
         - name: Set-AzureRmResourceGroup
@@ -2229,10 +2234,6 @@
           href: AzureRM.Resources/Test-AzureRmResourceGroupDeployment.md
         - name: Unregister-AzureRmResourceProvider
           href: AzureRM.Resources/Unregister-AzureRmResourceProvider.md
-        - name: New-AzureRmMediaServiceStorageConfig
-          href: AzureRM.Media/New-AzureRmMediaServiceStorageConfig.md
-        - name: Sync-AzureRmMediaServiceStorageKeys
-          href: AzureRM.Media/Sync-AzureRmMediaServiceStorageKeys.md
     - name: Route
       href: 'AzureRM.Network/index.md#route'
       items:
@@ -2783,6 +2784,15 @@
           href: AzureRM.StreamAnalytics/Test-AzureRmStreamAnalyticsInput.md
         - name: Test-AzureRmStreamAnalyticsOutput
           href: AzureRM.StreamAnalytics/Test-AzureRmStreamAnalyticsOutput.md
+    - name: Tags
+      href: 'AzureRM.Tags/index.md#tags'
+      items:
+        - name: Get-AzureRmTag
+          href: AzureRM.Tags/Get-AzureRmTag.md
+        - name: New-AzureRmTag
+          href: AzureRM.Tags/New-AzureRmTag.md
+        - name: Remove-AzureRmTag
+          href: AzureRM.Tags/Remove-AzureRmTag.md
     - name: Traffic Manager
       href: 'AzureRM.TrafficManager/index.md#traffic_manager'
       items:
@@ -2814,6 +2824,11 @@
           href: AzureRM.TrafficManager/Set-AzureRmTrafficManagerEndpoint.md
         - name: Set-AzureRmTrafficManagerProfile
           href: AzureRM.TrafficManager/Set-AzureRmTrafficManagerProfile.md
+    - name: Usage Aggregates
+      href: 'AzureRM.UsageAggregates/index.md#usage_aggregates'
+      items:
+        - name: Get-UsageAggregates
+          href: AzureRM.UsageAggregates/Get-UsageAggregates.md
     - name: Virtual Machines
       href: 'AzureRM.Compute/index.md#virtual_machines'
       items:

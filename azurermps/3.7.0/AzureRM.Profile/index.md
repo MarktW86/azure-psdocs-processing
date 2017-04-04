@@ -14,19 +14,19 @@ keywords: powershell, cmdlet
 manager: erickson-doug
 open_to_public_contributors: false
 ms.service: subscription
-Add-AzureRmAccount: Resources
-Add-AzureRmEnvironment: Resources
-Disable-AzureRmDataCollection: Resources
-Enable-AzureRmDataCollection: Resources
-Get-AzureRmContext: Resources
-Get-AzureRmEnvironment: Resources
-Get-AzureRmSubscription: Resources
-Get-AzureRmTenant: Resources
-Remove-AzureRmEnvironment: Resources
-Save-AzureRmProfile: Resources
-Select-AzureRmProfile: Resources
-Set-AzureRmContext: Resources
-Set-AzureRmEnvironment: Resources
+Add-AzureRmAccount: Profile
+Add-AzureRmEnvironment: Profile
+Disable-AzureRmDataCollection: Profile
+Enable-AzureRmDataCollection: Profile
+Get-AzureRmContext: Profile
+Get-AzureRmEnvironment: Profile
+Get-AzureRmSubscription: Profile
+Get-AzureRmTenant: Profile
+Remove-AzureRmEnvironment: Profile
+Save-AzureRmProfile: Profile
+Select-AzureRmProfile: Profile
+Set-AzureRmContext: Profile
+Set-AzureRmEnvironment: Profile
 _isModulePage: true
 ---
 

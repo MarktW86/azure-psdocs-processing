@@ -17,7 +17,7 @@ keywords: powershell, cmdlet
 manager: erickson-doug
 open_to_public_contributors: false
 ms.service: subscription
-Get-UsageAggregates: Resources
+Get-UsageAggregates: Usage Aggregates
 _isModulePage: true
 ---
 

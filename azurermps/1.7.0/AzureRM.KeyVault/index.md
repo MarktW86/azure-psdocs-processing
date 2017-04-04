@@ -18,7 +18,7 @@ manager: erickson-doug
 open_to_public_contributors: false
 ms.service: key-vault
 Add-AzureKeyVaultKey: Key Vault
-Backup-AzureKeyVaultKey: Backup
+Backup-AzureKeyVaultKey: Key Vault
 Get-AzureKeyVaultKey: Key Vault
 Get-AzureKeyVaultSecret: Key Vault
 Get-AzureRmKeyVault: Key Vault

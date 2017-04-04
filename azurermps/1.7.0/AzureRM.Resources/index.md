@@ -18,16 +18,16 @@ ms.service: azure-resource-manager
 Export-AzureRmResourceGroup: Resources
 Find-AzureRmResource: Resources
 Find-AzureRmResourceGroup: Resources
-Get-AzureRmLocation: Resource groups
+Get-AzureRmLocation: Resources
 Get-AzureRmPolicyAssignment: Policies
 Get-AzureRmPolicyDefinition: Policies
-Get-AzureRmProviderFeature: Resource providers
+Get-AzureRmProviderFeature: Resources
 Get-AzureRmResource: Resources
 Get-AzureRmResourceGroup: Resources
 Get-AzureRmResourceGroupDeployment: Resources
 Get-AzureRmResourceGroupDeploymentOperation: Resources
 Get-AzureRmResourceLock: Resources
-Get-AzureRmResourceProvider: Resource providers
+Get-AzureRmResourceProvider: Resources
 Invoke-AzureRmResourceAction: Resources
 Move-AzureRmResource: Resources
 New-AzureRmPolicyAssignment: Policies
@@ -36,8 +36,8 @@ New-AzureRmResource: Resources
 New-AzureRmResourceGroup: Resources
 New-AzureRmResourceGroupDeployment: Resources
 New-AzureRmResourceLock: Resources
-Register-AzureRmProviderFeature: Resource providers
-Register-AzureRmResourceProvider: Resource providers
+Register-AzureRmProviderFeature: Resources
+Register-AzureRmResourceProvider: Resources
 Remove-AzureRmPolicyAssignment: Policies
 Remove-AzureRmPolicyDefinition: Policies
 Remove-AzureRmResource: Resources
@@ -52,7 +52,7 @@ Set-AzureRmResourceGroup: Resources
 Set-AzureRmResourceLock: Resources
 Stop-AzureRmResourceGroupDeployment: Resources
 Test-AzureRmResourceGroupDeployment: Resources
-Unregister-AzureRmResourceProvider: Resource providers
+Unregister-AzureRmResourceProvider: Resources
 _isModulePage: true
 ---
 

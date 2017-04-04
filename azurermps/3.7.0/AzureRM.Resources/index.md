@@ -26,8 +26,8 @@ Get-AzureRmADServicePrincipal: Active Directory
 Get-AzureRmADSpCredential: Active Directory
 Get-AzureRmADUser: Active Directory
 Get-AzureRmLocation: Resources
-Get-AzureRmPolicyAssignment: Resources
-Get-AzureRmPolicyDefinition: Resources
+Get-AzureRmPolicyAssignment: Policies
+Get-AzureRmPolicyDefinition: Policies
 Get-AzureRmProviderFeature: Resources
 Get-AzureRmProviderOperation: Resources
 Get-AzureRmResource: Resources
@@ -45,8 +45,8 @@ New-AzureRmADApplication: Active Directory
 New-AzureRmADServicePrincipal: Active Directory
 New-AzureRmADSpCredential: Active Directory
 New-AzureRmADUser: Active Directory
-New-AzureRmPolicyAssignment: Resources
-New-AzureRmPolicyDefinition: Resources
+New-AzureRmPolicyAssignment: Policies
+New-AzureRmPolicyDefinition: Policies
 New-AzureRmResource: Resources
 New-AzureRmResourceGroup: Resources
 New-AzureRmResourceGroupDeployment: Resources
@@ -60,8 +60,8 @@ Remove-AzureRmADApplication: Active Directory
 Remove-AzureRmADServicePrincipal: Active Directory
 Remove-AzureRmADSpCredential: Active Directory
 Remove-AzureRmADUser: Active Directory
-Remove-AzureRmPolicyAssignment: Resources
-Remove-AzureRmPolicyDefinition: Resources
+Remove-AzureRmPolicyAssignment: Policies
+Remove-AzureRmPolicyDefinition: Policies
 Remove-AzureRmResource: Resources
 Remove-AzureRmResourceGroup: Resources
 Remove-AzureRmResourceGroupDeployment: Resources
@@ -72,8 +72,8 @@ Save-AzureRmResourceGroupDeploymentTemplate: Resources
 Set-AzureRmADApplication: Active Directory
 Set-AzureRmADServicePrincipal: Active Directory
 Set-AzureRmADUser: Active Directory
-Set-AzureRmPolicyAssignment: Resources
-Set-AzureRmPolicyDefinition: Resources
+Set-AzureRmPolicyAssignment: Policies
+Set-AzureRmPolicyDefinition: Policies
 Set-AzureRmResource: Resources
 Set-AzureRmResourceGroup: Resources
 Set-AzureRmResourceLock: Resources

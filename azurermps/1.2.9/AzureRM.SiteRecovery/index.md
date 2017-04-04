@@ -17,7 +17,7 @@ ms.service: site-recovery
 Get-AzureRmSiteRecoveryJob: Recovery
 Get-AzureRmSiteRecoveryNetwork: Recovery
 Get-AzureRmSiteRecoveryNetworkMapping: Recovery
-Get-AzureRmSiteRecoveryPolicy: Policies
+Get-AzureRmSiteRecoveryPolicy: Recovery
 Get-AzureRmSiteRecoveryProtectionContainer: Recovery
 Get-AzureRmSiteRecoveryProtectionEntity: Recovery
 Get-AzureRmSiteRecoveryServer: Recovery
@@ -28,11 +28,11 @@ Get-AzureRmSiteRecoveryVaultSettingsFile: Recovery
 Get-AzureRmSiteRecoveryVM: Recovery
 Import-AzureRmSiteRecoveryVaultSettingsFile: Recovery
 New-AzureRmSiteRecoveryNetworkMapping: Recovery
-New-AzureRmSiteRecoveryPolicy: Policies
+New-AzureRmSiteRecoveryPolicy: Recovery
 New-AzureRmSiteRecoverySite: Recovery
 New-AzureRmSiteRecoveryVault: Recovery
 Remove-AzureRmSiteRecoveryNetworkMapping: Recovery
-Remove-AzureRmSiteRecoveryPolicy: Policies
+Remove-AzureRmSiteRecoveryPolicy: Recovery
 Remove-AzureRmSiteRecoveryServer: Recovery
 Remove-AzureRmSiteRecoverySite: Recovery
 Remove-AzureRmSiteRecoveryVault: Recovery
@@ -43,8 +43,8 @@ Set-AzureRmSiteRecoveryVaultSettings: Recovery
 Set-AzureRmSiteRecoveryVM: Recovery
 Start-AzureRmSiteRecoveryCommitFailoverJob: Recovery
 Start-AzureRmSiteRecoveryPlannedFailoverJob: Recovery
-Start-AzureRmSiteRecoveryPolicyAssociationJob: Policies
-Start-AzureRmSiteRecoveryPolicyDissociationJob: Policies
+Start-AzureRmSiteRecoveryPolicyAssociationJob: Recovery
+Start-AzureRmSiteRecoveryPolicyDissociationJob: Recovery
 Start-AzureRmSiteRecoveryTestFailoverJob: Recovery
 Start-AzureRmSiteRecoveryUnplannedFailoverJob: Recovery
 Stop-AzureRmSiteRecoveryJob: Recovery
