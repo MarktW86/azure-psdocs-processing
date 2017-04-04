@@ -344,7 +344,10 @@
           "ServiceFabric/**/*.md",
           "ServiceFabric/**/*.yml",
           "Storage/**/*.md",
-          "Storage/**/*.yml"
+          "Storage/**/*.yml",
+          "azureps-cmdlets-docs/**/*.md",
+          "azure ad cmdlets/**/*.md"
+
         ]
       }
 	],
@@ -390,6 +393,35 @@
       "azureelasticdbjobsps-0.8.33": {
         "dest": "azureelasticdbjobsps-0.8.33"
       }
+    },
+    "filemetadata":{
+      "ms.author":
+        {
+          "azurermps/**/*.md":"PowerShellhelpub",
+          "azuresmps/**/*.md":"PowerShellhelpub",
+          "azureadps/**/*.md":"rodejo",
+          "azureipps/**/*.md":"cabailey",
+          "azureservicefabricps/**/*.md":"oanapl",
+          "azurelasticdbjobsps/**/*.md":"PowerShellhelpub"
+        },
+      "author":
+        {
+          "azurermps/**/*.md":"PowerShellhelpub",
+          "azuresmps/**/*.md":"PowerShellhelpub",
+          "azureadps/**/*.md":"RobdeJong",
+          "azureipps/**/*.md":"cabailey",
+          "azureservicefabricps/**/*.md":"PowerShellhelpub",
+          "azurelasticdbjobsps/**/*.md":"PowerShellhelpub"
+        },
+        "ms.manager":
+        {
+          "azurermps/**/*.md":"carmonm",
+          "azuresmps/**/*.md":"carmonm",
+          "azureadps/**/*.md":"kbrint",
+          "azureipps/**/*.md":"mbaldwin",
+          "azureservicefabricps/**/*.md":"vipulm",
+          "azurelasticdbjobsps/**/*.md":"carmonm"
+        }
     },
     "globalMetadata": {
       "showPowerShellPicker": "true",
