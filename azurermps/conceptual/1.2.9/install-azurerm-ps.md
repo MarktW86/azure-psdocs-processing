@@ -12,7 +12,7 @@ ms.topic: conceptual
 ms.date: 03/30/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/docs-conceptual/install-azurerm-ps.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/docs-conceptual/install-azurerm-ps.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/5964ae90059456198dbc0538a9015c98c431be7e
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/b033c15ac1061f75314bb94d2b6deea59520a0ed
 open_to_public_contributors: false
 ---
 
@@ -88,6 +88,10 @@ For more information about using Azure PowerShell, see the following articles:
 ### Checking the version of Azure PowerShell
 
 Although we encourage you to upgrade to the latest version as early as possible, several versions of Azure PowerShell are support.  To determine the version of Azure PowerShell you have installed, run `Get-Module AzureRM` from your command line.  
+
+```powershell
+Get-Module AzureRM
+```
 
 
 ### Updating to a new version of Azure PowerShell
