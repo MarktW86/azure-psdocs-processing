@@ -15,7 +15,7 @@ keywords: powershell, cmdlet
 manager: erickson-doug
 open_to_public_contributors: false
 ms.service: big-compute
-Add-AzureRmContainerServiceAgentPoolProfile: Virtual Machines
+Add-AzureRmContainerServiceAgentPoolProfile: Container Service
 Add-AzureRmImageDataDisk: VM Images
 Add-AzureRMVhd: VM VHDs
 Add-AzureRmVMAdditionalUnattendContent: Virtual Machines
@@ -34,7 +34,7 @@ Add-AzureRmVmssWinRMListener: VM Scale Sets
 ConvertTo-AzureRmVMManagedDisk: VM Disks
 Disable-AzureRmVMDiskEncryption: VM Disks
 Get-AzureRmAvailabilitySet: Virtual Machines
-Get-AzureRmContainerService: Virtual Machines
+Get-AzureRmContainerService: Container Service
 Get-AzureRmDisk: VM Disks
 Get-AzureRmImage: VM Images
 Get-AzureRmRemoteDesktopFile: Virtual Machines
@@ -66,8 +66,8 @@ Get-AzureRmVMUsage: Virtual Machines
 Grant-AzureRmDiskAccess: VM Disks
 Grant-AzureRmSnapshotAccess: VM Snapshots
 New-AzureRmAvailabilitySet: Virtual Machines
-New-AzureRmContainerService: Virtual Machines
-New-AzureRmContainerServiceConfig: Virtual Machines
+New-AzureRmContainerService: Container Service
+New-AzureRmContainerServiceConfig: Container Service
 New-AzureRmDisk: VM Disks
 New-AzureRmDiskConfig: VM Disks
 New-AzureRmDiskUpdateConfig: VM Disks
@@ -87,8 +87,8 @@ New-AzureVMSqlServerAutoPatchingConfig: Virtual Machines
 New-AzureVMSqlServerKeyVaultCredentialConfig: Virtual Machines
 Publish-AzureRmVMDscConfiguration: Virtual Machines
 Remove-AzureRmAvailabilitySet: Virtual Machines
-Remove-AzureRmContainerService: Virtual Machines
-Remove-AzureRmContainerServiceAgentPoolProfile: Virtual Machines
+Remove-AzureRmContainerService: Container Service
+Remove-AzureRmContainerServiceAgentPoolProfile: Container Service
 Remove-AzureRmDisk: VM Disks
 Remove-AzureRmImage: VM Images
 Remove-AzureRmImageDataDisk: VM Images
@@ -160,7 +160,7 @@ Stop-AzureRmVM: Virtual Machines
 Stop-AzureRmVmss: VM Scale Sets
 Test-AzureRmVMAEMExtension: VM Extensions
 Update-AzureRmAvailabilitySet: Virtual Machines
-Update-AzureRmContainerService: Virtual Machines
+Update-AzureRmContainerService: Container Service
 Update-AzureRmDisk: VM Disks
 Update-AzureRmImage: VM Images
 Update-AzureRmSnapshot: VM Snapshots

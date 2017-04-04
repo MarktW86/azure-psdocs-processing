@@ -18,13 +18,13 @@ ms.service: azure-resource-manager
 Export-AzureRmResourceGroup: Resources
 Find-AzureRmResource: Resources
 Find-AzureRmResourceGroup: Resources
-Get-AzureRmADAppCredential: Resources
-Get-AzureRmADApplication: Resources
-Get-AzureRmADGroup: Resources
-Get-AzureRmADGroupMember: Resources
-Get-AzureRmADServicePrincipal: Resources
-Get-AzureRmADSpCredential: Resources
-Get-AzureRmADUser: Resources
+Get-AzureRmADAppCredential: Active Directory
+Get-AzureRmADApplication: Active Directory
+Get-AzureRmADGroup: Active Directory
+Get-AzureRmADGroupMember: Active Directory
+Get-AzureRmADServicePrincipal: Active Directory
+Get-AzureRmADSpCredential: Active Directory
+Get-AzureRmADUser: Active Directory
 Get-AzureRmLocation: Resources
 Get-AzureRmPolicyAssignment: Resources
 Get-AzureRmPolicyDefinition: Resources
@@ -40,11 +40,11 @@ Get-AzureRmRoleAssignment: Resources
 Get-AzureRmRoleDefinition: Resources
 Invoke-AzureRmResourceAction: Resources
 Move-AzureRmResource: Resources
-New-AzureRmADAppCredential: Resources
-New-AzureRmADApplication: Resources
-New-AzureRmADServicePrincipal: Resources
-New-AzureRmADSpCredential: Resources
-New-AzureRmADUser: Resources
+New-AzureRmADAppCredential: Active Directory
+New-AzureRmADApplication: Active Directory
+New-AzureRmADServicePrincipal: Active Directory
+New-AzureRmADSpCredential: Active Directory
+New-AzureRmADUser: Active Directory
 New-AzureRmPolicyAssignment: Resources
 New-AzureRmPolicyDefinition: Resources
 New-AzureRmResource: Resources
@@ -55,11 +55,11 @@ New-AzureRmRoleAssignment: Resources
 New-AzureRmRoleDefinition: Resources
 Register-AzureRmProviderFeature: Resources
 Register-AzureRmResourceProvider: Resources
-Remove-AzureRmADAppCredential: Resources
-Remove-AzureRmADApplication: Resources
-Remove-AzureRmADServicePrincipal: Resources
-Remove-AzureRmADSpCredential: Resources
-Remove-AzureRmADUser: Resources
+Remove-AzureRmADAppCredential: Active Directory
+Remove-AzureRmADApplication: Active Directory
+Remove-AzureRmADServicePrincipal: Active Directory
+Remove-AzureRmADSpCredential: Active Directory
+Remove-AzureRmADUser: Active Directory
 Remove-AzureRmPolicyAssignment: Resources
 Remove-AzureRmPolicyDefinition: Resources
 Remove-AzureRmResource: Resources
@@ -69,9 +69,9 @@ Remove-AzureRmResourceLock: Resources
 Remove-AzureRmRoleAssignment: Resources
 Remove-AzureRmRoleDefinition: Resources
 Save-AzureRmResourceGroupDeploymentTemplate: Resources
-Set-AzureRmADApplication: Resources
-Set-AzureRmADServicePrincipal: Resources
-Set-AzureRmADUser: Resources
+Set-AzureRmADApplication: Active Directory
+Set-AzureRmADServicePrincipal: Active Directory
+Set-AzureRmADUser: Active Directory
 Set-AzureRmPolicyAssignment: Resources
 Set-AzureRmPolicyDefinition: Resources
 Set-AzureRmResource: Resources

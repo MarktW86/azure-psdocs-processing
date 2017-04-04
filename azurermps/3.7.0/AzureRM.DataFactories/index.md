@@ -15,35 +15,35 @@ keywords: powershell, cmdlet
 manager: erickson-doug
 open_to_public_contributors: false
 ms.service: Data-Factory
-Get-AzureRmDataFactory: Resources
-Get-AzureRmDataFactoryActivityWindow: Resources
-Get-AzureRmDataFactoryDataset: Resources
-Get-AzureRmDataFactoryGateway: Resources
-Get-AzureRmDataFactoryHub: Resources
-Get-AzureRmDataFactoryLinkedService: Resources
-Get-AzureRmDataFactoryPipeline: Resources
-Get-AzureRmDataFactoryRun: Resources
-Get-AzureRmDataFactorySlice: Resources
-New-AzureRmDataFactory: Resources
-New-AzureRmDataFactoryDataset: Resources
-New-AzureRmDataFactoryEncryptValue: Resources
-New-AzureRmDataFactoryGateway: Resources
-New-AzureRmDataFactoryGatewayKey: Resources
-New-AzureRmDataFactoryHub: Resources
-New-AzureRmDataFactoryLinkedService: Resources
-New-AzureRmDataFactoryPipeline: Resources
-Remove-AzureRmDataFactory: Resources
-Remove-AzureRmDataFactoryDataset: Resources
-Remove-AzureRmDataFactoryGateway: Resources
-Remove-AzureRmDataFactoryHub: Resources
-Remove-AzureRmDataFactoryLinkedService: Resources
-Remove-AzureRmDataFactoryPipeline: Resources
-Resume-AzureRmDataFactoryPipeline: Resources
-Save-AzureRmDataFactoryLog: Resources
-Set-AzureRmDataFactoryGateway: Resources
-Set-AzureRmDataFactoryPipelineActivePeriod: Resources
-Set-AzureRmDataFactorySliceStatus: Resources
-Suspend-AzureRmDataFactoryPipeline: Resources
+Get-AzureRmDataFactory: Data Factory
+Get-AzureRmDataFactoryActivityWindow: Data Factory
+Get-AzureRmDataFactoryDataset: Data Factory
+Get-AzureRmDataFactoryGateway: Data Factory
+Get-AzureRmDataFactoryHub: Data Factory
+Get-AzureRmDataFactoryLinkedService: Data Factory
+Get-AzureRmDataFactoryPipeline: Data Factory
+Get-AzureRmDataFactoryRun: Data Factory
+Get-AzureRmDataFactorySlice: Data Factory
+New-AzureRmDataFactory: Data Factory
+New-AzureRmDataFactoryDataset: Data Factory
+New-AzureRmDataFactoryEncryptValue: Data Factory
+New-AzureRmDataFactoryGateway: Data Factory
+New-AzureRmDataFactoryGatewayKey: Data Factory
+New-AzureRmDataFactoryHub: Data Factory
+New-AzureRmDataFactoryLinkedService: Data Factory
+New-AzureRmDataFactoryPipeline: Data Factory
+Remove-AzureRmDataFactory: Data Factory
+Remove-AzureRmDataFactoryDataset: Data Factory
+Remove-AzureRmDataFactoryGateway: Data Factory
+Remove-AzureRmDataFactoryHub: Data Factory
+Remove-AzureRmDataFactoryLinkedService: Data Factory
+Remove-AzureRmDataFactoryPipeline: Data Factory
+Resume-AzureRmDataFactoryPipeline: Data Factory
+Save-AzureRmDataFactoryLog: Data Factory
+Set-AzureRmDataFactoryGateway: Data Factory
+Set-AzureRmDataFactoryPipelineActivePeriod: Data Factory
+Set-AzureRmDataFactorySliceStatus: Data Factory
+Suspend-AzureRmDataFactoryPipeline: Data Factory
 _isModulePage: true
 ---
 

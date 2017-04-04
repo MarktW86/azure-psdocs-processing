@@ -30,6 +30,49 @@
       href: 'https://docs.microsoft.com/azure/sql-database/sql-database-powershell-samples'
 - name: Reference
   items:
+    - name: Active Directory
+      href: 'AzureRM.Resources/index.md#active_directory'
+      items:
+        - name: Get-AzureRmADAppCredential
+          href: AzureRM.Resources/Get-AzureRmADAppCredential.md
+        - name: Get-AzureRmADApplication
+          href: AzureRM.Resources/Get-AzureRmADApplication.md
+        - name: Get-AzureRmADGroup
+          href: AzureRM.Resources/Get-AzureRmADGroup.md
+        - name: Get-AzureRmADGroupMember
+          href: AzureRM.Resources/Get-AzureRmADGroupMember.md
+        - name: Get-AzureRmADServicePrincipal
+          href: AzureRM.Resources/Get-AzureRmADServicePrincipal.md
+        - name: Get-AzureRmADSpCredential
+          href: AzureRM.Resources/Get-AzureRmADSpCredential.md
+        - name: Get-AzureRmADUser
+          href: AzureRM.Resources/Get-AzureRmADUser.md
+        - name: New-AzureRmADAppCredential
+          href: AzureRM.Resources/New-AzureRmADAppCredential.md
+        - name: New-AzureRmADApplication
+          href: AzureRM.Resources/New-AzureRmADApplication.md
+        - name: New-AzureRmADServicePrincipal
+          href: AzureRM.Resources/New-AzureRmADServicePrincipal.md
+        - name: New-AzureRmADSpCredential
+          href: AzureRM.Resources/New-AzureRmADSpCredential.md
+        - name: New-AzureRmADUser
+          href: AzureRM.Resources/New-AzureRmADUser.md
+        - name: Remove-AzureRmADAppCredential
+          href: AzureRM.Resources/Remove-AzureRmADAppCredential.md
+        - name: Remove-AzureRmADApplication
+          href: AzureRM.Resources/Remove-AzureRmADApplication.md
+        - name: Remove-AzureRmADServicePrincipal
+          href: AzureRM.Resources/Remove-AzureRmADServicePrincipal.md
+        - name: Remove-AzureRmADSpCredential
+          href: AzureRM.Resources/Remove-AzureRmADSpCredential.md
+        - name: Remove-AzureRmADUser
+          href: AzureRM.Resources/Remove-AzureRmADUser.md
+        - name: Set-AzureRmADApplication
+          href: AzureRM.Resources/Set-AzureRmADApplication.md
+        - name: Set-AzureRmADServicePrincipal
+          href: AzureRM.Resources/Set-AzureRmADServicePrincipal.md
+        - name: Set-AzureRmADUser
+          href: AzureRM.Resources/Set-AzureRmADUser.md
     - name: Analysis Services
       href: 'AzureRM.AnalysisServices/index.md#analysis_services'
       items:
@@ -857,6 +900,84 @@
           href: AzureRM.CognitiveServices/Remove-AzureRmCognitiveServicesAccount.md
         - name: Set-AzureRmCognitiveServicesAccount
           href: AzureRM.CognitiveServices/Set-AzureRmCognitiveServicesAccount.md
+    - name: Container Service
+      href: 'AzureRM.Compute/index.md#container_service'
+      items:
+        - name: Add-AzureRmContainerServiceAgentPoolProfile
+          href: AzureRM.Compute/Add-AzureRmContainerServiceAgentPoolProfile.md
+        - name: Get-AzureRmContainerService
+          href: AzureRM.Compute/Get-AzureRmContainerService.md
+        - name: New-AzureRmContainerService
+          href: AzureRM.Compute/New-AzureRmContainerService.md
+        - name: New-AzureRmContainerServiceConfig
+          href: AzureRM.Compute/New-AzureRmContainerServiceConfig.md
+        - name: Remove-AzureRmContainerService
+          href: AzureRM.Compute/Remove-AzureRmContainerService.md
+        - name: Remove-AzureRmContainerServiceAgentPoolProfile
+          href: AzureRM.Compute/Remove-AzureRmContainerServiceAgentPoolProfile.md
+        - name: Update-AzureRmContainerService
+          href: AzureRM.Compute/Update-AzureRmContainerService.md
+    - name: Data Factory
+      href: 'AzureRM.DataFactories/index.md#data_factory'
+      items:
+        - name: Get-AzureRmDataFactory
+          href: AzureRM.DataFactories/Get-AzureRmDataFactory.md
+        - name: Get-AzureRmDataFactoryActivityWindow
+          href: AzureRM.DataFactories/Get-AzureRmDataFactoryActivityWindow.md
+        - name: Get-AzureRmDataFactoryDataset
+          href: AzureRM.DataFactories/Get-AzureRmDataFactoryDataset.md
+        - name: Get-AzureRmDataFactoryGateway
+          href: AzureRM.DataFactories/Get-AzureRmDataFactoryGateway.md
+        - name: Get-AzureRmDataFactoryHub
+          href: AzureRM.DataFactories/Get-AzureRmDataFactoryHub.md
+        - name: Get-AzureRmDataFactoryLinkedService
+          href: AzureRM.DataFactories/Get-AzureRmDataFactoryLinkedService.md
+        - name: Get-AzureRmDataFactoryPipeline
+          href: AzureRM.DataFactories/Get-AzureRmDataFactoryPipeline.md
+        - name: Get-AzureRmDataFactoryRun
+          href: AzureRM.DataFactories/Get-AzureRmDataFactoryRun.md
+        - name: Get-AzureRmDataFactorySlice
+          href: AzureRM.DataFactories/Get-AzureRmDataFactorySlice.md
+        - name: New-AzureRmDataFactory
+          href: AzureRM.DataFactories/New-AzureRmDataFactory.md
+        - name: New-AzureRmDataFactoryDataset
+          href: AzureRM.DataFactories/New-AzureRmDataFactoryDataset.md
+        - name: New-AzureRmDataFactoryEncryptValue
+          href: AzureRM.DataFactories/New-AzureRmDataFactoryEncryptValue.md
+        - name: New-AzureRmDataFactoryGateway
+          href: AzureRM.DataFactories/New-AzureRmDataFactoryGateway.md
+        - name: New-AzureRmDataFactoryGatewayKey
+          href: AzureRM.DataFactories/New-AzureRmDataFactoryGatewayKey.md
+        - name: New-AzureRmDataFactoryHub
+          href: AzureRM.DataFactories/New-AzureRmDataFactoryHub.md
+        - name: New-AzureRmDataFactoryLinkedService
+          href: AzureRM.DataFactories/New-AzureRmDataFactoryLinkedService.md
+        - name: New-AzureRmDataFactoryPipeline
+          href: AzureRM.DataFactories/New-AzureRmDataFactoryPipeline.md
+        - name: Remove-AzureRmDataFactory
+          href: AzureRM.DataFactories/Remove-AzureRmDataFactory.md
+        - name: Remove-AzureRmDataFactoryDataset
+          href: AzureRM.DataFactories/Remove-AzureRmDataFactoryDataset.md
+        - name: Remove-AzureRmDataFactoryGateway
+          href: AzureRM.DataFactories/Remove-AzureRmDataFactoryGateway.md
+        - name: Remove-AzureRmDataFactoryHub
+          href: AzureRM.DataFactories/Remove-AzureRmDataFactoryHub.md
+        - name: Remove-AzureRmDataFactoryLinkedService
+          href: AzureRM.DataFactories/Remove-AzureRmDataFactoryLinkedService.md
+        - name: Remove-AzureRmDataFactoryPipeline
+          href: AzureRM.DataFactories/Remove-AzureRmDataFactoryPipeline.md
+        - name: Resume-AzureRmDataFactoryPipeline
+          href: AzureRM.DataFactories/Resume-AzureRmDataFactoryPipeline.md
+        - name: Save-AzureRmDataFactoryLog
+          href: AzureRM.DataFactories/Save-AzureRmDataFactoryLog.md
+        - name: Set-AzureRmDataFactoryGateway
+          href: AzureRM.DataFactories/Set-AzureRmDataFactoryGateway.md
+        - name: Set-AzureRmDataFactoryPipelineActivePeriod
+          href: AzureRM.DataFactories/Set-AzureRmDataFactoryPipelineActivePeriod.md
+        - name: Set-AzureRmDataFactorySliceStatus
+          href: AzureRM.DataFactories/Set-AzureRmDataFactorySliceStatus.md
+        - name: Suspend-AzureRmDataFactoryPipeline
+          href: AzureRM.DataFactories/Suspend-AzureRmDataFactoryPipeline.md
     - name: Data Lake
       href: 'AzureRM.DataLakeAnalytics/index.md#data_lake'
       items:
@@ -1489,6 +1610,23 @@
           href: AzureRM.LogicApp/Stop-AzureRmLogicAppRun.md
         - name: Test-AzureRmLogicApp
           href: AzureRM.LogicApp/Test-AzureRmLogicApp.md
+    - name: Media Services
+      href: 'AzureRM.Media/index.md#media_services'
+      items:
+        - name: Get-AzureRmMediaService
+          href: AzureRM.Media/Get-AzureRmMediaService.md
+        - name: Get-AzureRmMediaServiceKeys
+          href: AzureRM.Media/Get-AzureRmMediaServiceKeys.md
+        - name: Get-AzureRmMediaServiceNameAvailability
+          href: AzureRM.Media/Get-AzureRmMediaServiceNameAvailability.md
+        - name: New-AzureRmMediaService
+          href: AzureRM.Media/New-AzureRmMediaService.md
+        - name: Remove-AzureRmMediaService
+          href: AzureRM.Media/Remove-AzureRmMediaService.md
+        - name: Set-AzureRmMediaService
+          href: AzureRM.Media/Set-AzureRmMediaService.md
+        - name: Set-AzureRmMediaServiceKey
+          href: AzureRM.Media/Set-AzureRmMediaServiceKey.md
     - name: Network Watcher
       href: 'AzureRM.Network/index.md#network_watcher'
       items:
@@ -1587,8 +1725,8 @@
           href: AzureRM.Network/Set-AzureRmPublicIpAddress.md
         - name: Test-AzureRmPrivateIPAddressAvailability
           href: AzureRM.Network/Test-AzureRmPrivateIPAddressAvailability.md
-    - name: Notification Hub
-      href: 'AzureRM.NotificationHubs/index.md#notification_hub'
+    - name: Notification Hubs
+      href: 'AzureRM.NotificationHubs/index.md#notification_hubs'
       items:
         - name: Get-AzureRmNotificationHub
           href: AzureRM.NotificationHubs/Get-AzureRmNotificationHub.md
@@ -1999,84 +2137,12 @@
           href: AzureRM.DevTestLabs/Set-AzureRmDtlVMsPerLabPolicy.md
         - name: Set-AzureRmDtlVMsPerUserPolicy
           href: AzureRM.DevTestLabs/Set-AzureRmDtlVMsPerUserPolicy.md
-        - name: Get-AzureRmDataFactory
-          href: AzureRM.DataFactories/Get-AzureRmDataFactory.md
-        - name: Get-AzureRmDataFactoryActivityWindow
-          href: AzureRM.DataFactories/Get-AzureRmDataFactoryActivityWindow.md
-        - name: Get-AzureRmDataFactoryDataset
-          href: AzureRM.DataFactories/Get-AzureRmDataFactoryDataset.md
-        - name: Get-AzureRmDataFactoryGateway
-          href: AzureRM.DataFactories/Get-AzureRmDataFactoryGateway.md
-        - name: Get-AzureRmDataFactoryHub
-          href: AzureRM.DataFactories/Get-AzureRmDataFactoryHub.md
-        - name: Get-AzureRmDataFactoryLinkedService
-          href: AzureRM.DataFactories/Get-AzureRmDataFactoryLinkedService.md
-        - name: Get-AzureRmDataFactoryPipeline
-          href: AzureRM.DataFactories/Get-AzureRmDataFactoryPipeline.md
-        - name: Get-AzureRmDataFactoryRun
-          href: AzureRM.DataFactories/Get-AzureRmDataFactoryRun.md
-        - name: Get-AzureRmDataFactorySlice
-          href: AzureRM.DataFactories/Get-AzureRmDataFactorySlice.md
-        - name: New-AzureRmDataFactory
-          href: AzureRM.DataFactories/New-AzureRmDataFactory.md
-        - name: New-AzureRmDataFactoryDataset
-          href: AzureRM.DataFactories/New-AzureRmDataFactoryDataset.md
-        - name: New-AzureRmDataFactoryEncryptValue
-          href: AzureRM.DataFactories/New-AzureRmDataFactoryEncryptValue.md
-        - name: New-AzureRmDataFactoryGateway
-          href: AzureRM.DataFactories/New-AzureRmDataFactoryGateway.md
-        - name: New-AzureRmDataFactoryGatewayKey
-          href: AzureRM.DataFactories/New-AzureRmDataFactoryGatewayKey.md
-        - name: New-AzureRmDataFactoryHub
-          href: AzureRM.DataFactories/New-AzureRmDataFactoryHub.md
-        - name: New-AzureRmDataFactoryLinkedService
-          href: AzureRM.DataFactories/New-AzureRmDataFactoryLinkedService.md
-        - name: New-AzureRmDataFactoryPipeline
-          href: AzureRM.DataFactories/New-AzureRmDataFactoryPipeline.md
-        - name: Remove-AzureRmDataFactory
-          href: AzureRM.DataFactories/Remove-AzureRmDataFactory.md
-        - name: Remove-AzureRmDataFactoryDataset
-          href: AzureRM.DataFactories/Remove-AzureRmDataFactoryDataset.md
-        - name: Remove-AzureRmDataFactoryGateway
-          href: AzureRM.DataFactories/Remove-AzureRmDataFactoryGateway.md
-        - name: Remove-AzureRmDataFactoryHub
-          href: AzureRM.DataFactories/Remove-AzureRmDataFactoryHub.md
-        - name: Remove-AzureRmDataFactoryLinkedService
-          href: AzureRM.DataFactories/Remove-AzureRmDataFactoryLinkedService.md
-        - name: Remove-AzureRmDataFactoryPipeline
-          href: AzureRM.DataFactories/Remove-AzureRmDataFactoryPipeline.md
-        - name: Resume-AzureRmDataFactoryPipeline
-          href: AzureRM.DataFactories/Resume-AzureRmDataFactoryPipeline.md
-        - name: Save-AzureRmDataFactoryLog
-          href: AzureRM.DataFactories/Save-AzureRmDataFactoryLog.md
-        - name: Set-AzureRmDataFactoryGateway
-          href: AzureRM.DataFactories/Set-AzureRmDataFactoryGateway.md
-        - name: Set-AzureRmDataFactoryPipelineActivePeriod
-          href: AzureRM.DataFactories/Set-AzureRmDataFactoryPipelineActivePeriod.md
-        - name: Set-AzureRmDataFactorySliceStatus
-          href: AzureRM.DataFactories/Set-AzureRmDataFactorySliceStatus.md
-        - name: Suspend-AzureRmDataFactoryPipeline
-          href: AzureRM.DataFactories/Suspend-AzureRmDataFactoryPipeline.md
         - name: Export-AzureRmResourceGroup
           href: AzureRM.Resources/Export-AzureRmResourceGroup.md
         - name: Find-AzureRmResource
           href: AzureRM.Resources/Find-AzureRmResource.md
         - name: Find-AzureRmResourceGroup
           href: AzureRM.Resources/Find-AzureRmResourceGroup.md
-        - name: Get-AzureRmADAppCredential
-          href: AzureRM.Resources/Get-AzureRmADAppCredential.md
-        - name: Get-AzureRmADApplication
-          href: AzureRM.Resources/Get-AzureRmADApplication.md
-        - name: Get-AzureRmADGroup
-          href: AzureRM.Resources/Get-AzureRmADGroup.md
-        - name: Get-AzureRmADGroupMember
-          href: AzureRM.Resources/Get-AzureRmADGroupMember.md
-        - name: Get-AzureRmADServicePrincipal
-          href: AzureRM.Resources/Get-AzureRmADServicePrincipal.md
-        - name: Get-AzureRmADSpCredential
-          href: AzureRM.Resources/Get-AzureRmADSpCredential.md
-        - name: Get-AzureRmADUser
-          href: AzureRM.Resources/Get-AzureRmADUser.md
         - name: Get-AzureRmLocation
           href: AzureRM.Resources/Get-AzureRmLocation.md
         - name: Get-AzureRmPolicyAssignment
@@ -2107,16 +2173,6 @@
           href: AzureRM.Resources/Invoke-AzureRmResourceAction.md
         - name: Move-AzureRmResource
           href: AzureRM.Resources/Move-AzureRmResource.md
-        - name: New-AzureRmADAppCredential
-          href: AzureRM.Resources/New-AzureRmADAppCredential.md
-        - name: New-AzureRmADApplication
-          href: AzureRM.Resources/New-AzureRmADApplication.md
-        - name: New-AzureRmADServicePrincipal
-          href: AzureRM.Resources/New-AzureRmADServicePrincipal.md
-        - name: New-AzureRmADSpCredential
-          href: AzureRM.Resources/New-AzureRmADSpCredential.md
-        - name: New-AzureRmADUser
-          href: AzureRM.Resources/New-AzureRmADUser.md
         - name: New-AzureRmPolicyAssignment
           href: AzureRM.Resources/New-AzureRmPolicyAssignment.md
         - name: New-AzureRmPolicyDefinition
@@ -2137,16 +2193,6 @@
           href: AzureRM.Resources/Register-AzureRmProviderFeature.md
         - name: Register-AzureRmResourceProvider
           href: AzureRM.Resources/Register-AzureRmResourceProvider.md
-        - name: Remove-AzureRmADAppCredential
-          href: AzureRM.Resources/Remove-AzureRmADAppCredential.md
-        - name: Remove-AzureRmADApplication
-          href: AzureRM.Resources/Remove-AzureRmADApplication.md
-        - name: Remove-AzureRmADServicePrincipal
-          href: AzureRM.Resources/Remove-AzureRmADServicePrincipal.md
-        - name: Remove-AzureRmADSpCredential
-          href: AzureRM.Resources/Remove-AzureRmADSpCredential.md
-        - name: Remove-AzureRmADUser
-          href: AzureRM.Resources/Remove-AzureRmADUser.md
         - name: Remove-AzureRmPolicyAssignment
           href: AzureRM.Resources/Remove-AzureRmPolicyAssignment.md
         - name: Remove-AzureRmPolicyDefinition
@@ -2165,12 +2211,6 @@
           href: AzureRM.Resources/Remove-AzureRmRoleDefinition.md
         - name: Save-AzureRmResourceGroupDeploymentTemplate
           href: AzureRM.Resources/Save-AzureRmResourceGroupDeploymentTemplate.md
-        - name: Set-AzureRmADApplication
-          href: AzureRM.Resources/Set-AzureRmADApplication.md
-        - name: Set-AzureRmADServicePrincipal
-          href: AzureRM.Resources/Set-AzureRmADServicePrincipal.md
-        - name: Set-AzureRmADUser
-          href: AzureRM.Resources/Set-AzureRmADUser.md
         - name: Set-AzureRmPolicyAssignment
           href: AzureRM.Resources/Set-AzureRmPolicyAssignment.md
         - name: Set-AzureRmPolicyDefinition
@@ -2189,22 +2229,8 @@
           href: AzureRM.Resources/Test-AzureRmResourceGroupDeployment.md
         - name: Unregister-AzureRmResourceProvider
           href: AzureRM.Resources/Unregister-AzureRmResourceProvider.md
-        - name: Get-AzureRmMediaService
-          href: AzureRM.Media/Get-AzureRmMediaService.md
-        - name: Get-AzureRmMediaServiceKeys
-          href: AzureRM.Media/Get-AzureRmMediaServiceKeys.md
-        - name: Get-AzureRmMediaServiceNameAvailability
-          href: AzureRM.Media/Get-AzureRmMediaServiceNameAvailability.md
-        - name: New-AzureRmMediaService
-          href: AzureRM.Media/New-AzureRmMediaService.md
         - name: New-AzureRmMediaServiceStorageConfig
           href: AzureRM.Media/New-AzureRmMediaServiceStorageConfig.md
-        - name: Remove-AzureRmMediaService
-          href: AzureRM.Media/Remove-AzureRmMediaService.md
-        - name: Set-AzureRmMediaService
-          href: AzureRM.Media/Set-AzureRmMediaService.md
-        - name: Set-AzureRmMediaServiceKey
-          href: AzureRM.Media/Set-AzureRmMediaServiceKey.md
         - name: Sync-AzureRmMediaServiceStorageKeys
           href: AzureRM.Media/Sync-AzureRmMediaServiceStorageKeys.md
     - name: Route
@@ -2791,8 +2817,6 @@
     - name: Virtual Machines
       href: 'AzureRM.Compute/index.md#virtual_machines'
       items:
-        - name: Add-AzureRmContainerServiceAgentPoolProfile
-          href: AzureRM.Compute/Add-AzureRmContainerServiceAgentPoolProfile.md
         - name: Add-AzureRmVMAdditionalUnattendContent
           href: AzureRM.Compute/Add-AzureRmVMAdditionalUnattendContent.md
         - name: Add-AzureRmVMNetworkInterface
@@ -2803,8 +2827,6 @@
           href: AzureRM.Compute/Add-AzureRmVMSshPublicKey.md
         - name: Get-AzureRmAvailabilitySet
           href: AzureRM.Compute/Get-AzureRmAvailabilitySet.md
-        - name: Get-AzureRmContainerService
-          href: AzureRM.Compute/Get-AzureRmContainerService.md
         - name: Get-AzureRmRemoteDesktopFile
           href: AzureRM.Compute/Get-AzureRmRemoteDesktopFile.md
         - name: Get-AzureRmVM
@@ -2817,10 +2839,6 @@
           href: AzureRM.Compute/Get-AzureRmVMUsage.md
         - name: New-AzureRmAvailabilitySet
           href: AzureRM.Compute/New-AzureRmAvailabilitySet.md
-        - name: New-AzureRmContainerService
-          href: AzureRM.Compute/New-AzureRmContainerService.md
-        - name: New-AzureRmContainerServiceConfig
-          href: AzureRM.Compute/New-AzureRmContainerServiceConfig.md
         - name: New-AzureRmVM
           href: AzureRM.Compute/New-AzureRmVM.md
         - name: New-AzureRmVMConfig
@@ -2835,10 +2853,6 @@
           href: AzureRM.Compute/Publish-AzureRmVMDscConfiguration.md
         - name: Remove-AzureRmAvailabilitySet
           href: AzureRM.Compute/Remove-AzureRmAvailabilitySet.md
-        - name: Remove-AzureRmContainerService
-          href: AzureRM.Compute/Remove-AzureRmContainerService.md
-        - name: Remove-AzureRmContainerServiceAgentPoolProfile
-          href: AzureRM.Compute/Remove-AzureRmContainerServiceAgentPoolProfile.md
         - name: Remove-AzureRmVM
           href: AzureRM.Compute/Remove-AzureRmVM.md
         - name: Remove-AzureRmVMBackup
@@ -2863,8 +2877,6 @@
           href: AzureRM.Compute/Stop-AzureRmVM.md
         - name: Update-AzureRmAvailabilitySet
           href: AzureRM.Compute/Update-AzureRmAvailabilitySet.md
-        - name: Update-AzureRmContainerService
-          href: AzureRM.Compute/Update-AzureRmContainerService.md
         - name: Update-AzureRmVM
           href: AzureRM.Compute/Update-AzureRmVM.md
     - name: Virtual Network
