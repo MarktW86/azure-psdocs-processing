@@ -12,7 +12,7 @@ ms.topic: conceptual
 ms.date: 03/30/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/docs-conceptual/install-azurerm-ps.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/docs-conceptual/install-azurerm-ps.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/866fb36ab725fff878133ae0f6e1f1061bbf7d6c
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/5964ae90059456198dbc0538a9015c98c431be7e
 open_to_public_contributors: false
 ---
 
@@ -83,6 +83,12 @@ For more information about using Azure PowerShell, see the following articles:
 |I have Windows 10 or Windows Server 2016|Built into Windows Management Framework (WMF) 5.0 included in the OS|
 |I want to upgrade to PowerShell 5|[Install the latest version of WMF](http://go.microsoft.com/fwlink/?LinkId=398175)|
 |I am running on a version of Windows with PowerShell 3 or PowerShell 4|[Get the PackageManagement modules](http://go.microsoft.com/fwlink/?LinkID=746217)|
+
+<a id="helpmechoose"></a>
+### Checking the version of Azure PowerShell
+
+Although we encourage you to upgrade to the latest version as early as possible, several versions of Azure PowerShell are support.  To determine the version of Azure PowerShell you have installed, run `Get-Module AzureRM` from your command line.  
+
 
 ### Updating to a new version of Azure PowerShell
 
