@@ -25,7 +25,6 @@ Get-RMSServerAuthentication: AzureInformationProtection
 Get-RMSTemplate: AzureInformationProtection
 New-RMSProtectionLicense: AzureInformationProtection
 Protect-RMSFile: AzureInformationProtection
-Set-AIPFileClassification: AzureInformationProtection
 Set-AIPFileLabel: AzureInformationProtection
 Set-RMSServerAuthentication: AzureInformationProtection
 Unprotect-RMSFile: AzureInformationProtection

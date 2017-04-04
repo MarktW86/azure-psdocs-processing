@@ -134,8 +134,6 @@
           href: AzureInformationProtection/New-RMSProtectionLicense.md
         - name: Protect-RMSFile
           href: AzureInformationProtection/Protect-RMSFile.md
-        - name: Set-AIPFileClassification
-          href: AzureInformationProtection/Set-AIPFileClassification.md
         - name: Set-AIPFileLabel
           href: AzureInformationProtection/Set-AIPFileLabel.md
         - name: Set-RMSServerAuthentication
