@@ -1,5 +1,41 @@
 {
-    "redirections": [{
+    "redirections": [
+    {
+      "source_path": "azureps-cmdlets-docs/index.md", 
+      "redirect_url": "/powershell-new/azure/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "resourcemanager/index.md", 
+      "redirect_url": "/powershell-new/azure/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "servicemanagement/index.md", 
+      "redirect_url": "/powershell-new/azure/overview?view=azuresmps-3.7.0",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "storage/index.md", 
+      "redirect_url": "/powershell-new/module/azure.storage",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "azure ad cmdlets/index.md", 
+      "redirect_url": "/powershell-new/azure/overview?view=azureadps-2.0",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "azuread/index.md", 
+      "redirect_url": "/powershell-new/azure/install-adv2?view=azureadps-2.0",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "msonline/index.md", 
+      "redirect_url": "/powershell-new/azure/install-msonlinev1?view=azureadps-2.0",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "azureadps/conceptual/1.0/index.md",
       "redirect_url": "/powershell-new/azure/overview",
       "redirect_document_id": false
@@ -446,7 +482,7 @@
     },
     {
       "source_path": "AzureAD/v2/AzureActiveDirectory.md",
-      "redirect_url": "/powershell-new/module/Azure",
+      "redirect_url": "/powershell-new/module/Azuread",
       "redirect_document_id": false
     },
     {
