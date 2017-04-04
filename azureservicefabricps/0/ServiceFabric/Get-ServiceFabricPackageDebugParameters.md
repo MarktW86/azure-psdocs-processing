@@ -13,6 +13,7 @@ ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: vipulm
 open_to_public_contributors: false
+ms.service: service-fabric
 ---
 
 # Get-ServiceFabricPackageDebugParameters
