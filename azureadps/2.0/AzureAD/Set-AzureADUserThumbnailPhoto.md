@@ -12,6 +12,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: carolz
+ms.service: active-directory
 ---
 
 # Set-AzureADUserThumbnailPhoto

@@ -13,6 +13,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: carolz
+ms.service: active-directory
 Add-AzureADAdministrativeUnitMember: Administrative Units
 Add-AzureADApplicationOwner: Applications
 Add-AzureADApplicationPolicy: Applications
