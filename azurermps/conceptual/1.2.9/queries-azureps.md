@@ -3,16 +3,16 @@ title: Querying for Azure resources and formatting results | Microsoft Docs
 description: How to query for resources in Azure and format the results.
 services: azure
 author: sdwheeler
+ms.author: sewhee
 manager: carmonm
 ms.product: azure
 ms.service: azure-resource-manager
 ms.devlang: powershell
 ms.topic: conceptual
 ms.date: 03/30/2017
-ms.author: sewhee
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/docs-conceptual/queries-azureps.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/docs-conceptual/queries-azureps.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f2cc09ee4fadeed9f5e5f3e0506a8c742128a262
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/379641e1d19b18dec54244dce5910aa3f4d6d991
 open_to_public_contributors: false
 ---
 

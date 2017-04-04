@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Cmdlets.dll-Help.xm
 ms.assetid: D5067FD8-2FB1-413C-9F59-84E83A74343E
 online version:
 schema: 2.0.0
-updated_at: 03/11/2017 02:03 AM
-ms.date: 03/11/2017
+updated_at: 04/03/2017 20:04 PM
+ms.date: 04/03/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Register-AzureRmResourceProvider.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Register-AzureRmResourceProvider.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04f63f6e685743ace2c57eb157574e34e8610b1c
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/78950608fd9885d813ecbee07ad3867d9e213e5e
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -34,11 +34,6 @@ The **Register-AzureRmResourceProvider** cmdlet registers an Azure resource prov
 
 ## EXAMPLES
 
-### 1:
-```
-
-```
-
 ## PARAMETERS
 
 ### -ProviderNamespace
@@ -57,7 +52,7 @@ Accept wildcard characters: False
 ```
 
 ### -ApiVersion
-Specifies the API version that is supported by the resource Provider.
+Specifies the API version that is supported by the resource provider.
 You can specify a different version than the default version.
 
 ```yaml
@@ -132,5 +127,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Get-AzureRmResourceProvider](./Get-AzureRmResourceProvider.md)
 
 [Unregister-AzureRmResourceProvider](./Unregister-AzureRmResourceProvider.md)
-
-

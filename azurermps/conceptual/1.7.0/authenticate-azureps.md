@@ -3,16 +3,16 @@ title: Log in with Azure PowerShell
 description: Log in with Azure PowerShell
 services: azure
 author: sdwheeler
+ms.author: sewhee
 manager: carmonm
 ms.product: azure
 ms.service: powershell
 ms.devlang: powershell
 ms.topic: conceptual
 ms.date: 03/30/2017
-ms.author: sewhee
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/docs-conceptual/authenticate-azureps.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/docs-conceptual/authenticate-azureps.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0a0ba1029655d278955b9f12495a4a0f6ca0c504
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/ce461e7550b4f1842748fd012764654e218c363b
 open_to_public_contributors: false
 ---
 
@@ -62,7 +62,7 @@ secure.
 ## Learn more about managing Azure role-based access
 
 For more information about authentication and subscription management in Azure, see
-[Manage Accounts, Subscriptions, and Administrative Roles](/azure/active-directory/role-based-access-control-configure.md).
+[Manage Accounts, Subscriptions, and Administrative Roles](/azure/active-directory/role-based-access-control-configure).
 
 Azure PowerShell cmdlets for role management
 

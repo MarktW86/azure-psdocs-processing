@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Resources.dll-Help.xml
 ms.assetid: 115A7612-4856-47AE-AEE4-918350CD7009
 online version:
 schema: 2.0.0
-updated_at: 03/29/2017 18:03 PM
-ms.date: 03/29/2017
+updated_at: 04/03/2017 20:04 PM
+ms.date: 04/03/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Set-AzureRmRoleDefinition.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Set-AzureRmRoleDefinition.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/1b0e8fcdd474515f4a6eeac956865e25badf43bd
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/78950608fd9885d813ecbee07ad3867d9e213e5e
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -67,12 +67,12 @@ Following is a sample updated role definition json for Set-AzureRmRoleDefinition
 
 
 ```
-PS C:\> $roleDef = Get-AzureRmRoleDefinition "Contoso On-Call"
-          PS C:\> $roleDef.Actions.Add("Microsoft.ClassicCompute/virtualmachines/start/action")
-          PS C:\> $roleDef.Description = "Can monitor all resources and start and restart virtual machines"
-          PS C:\> $roleDef.AssignableScopes = @("/subscriptions/eb910d4f-edbf-429b-94F6-d76bae7ff401", "/subscriptions/a846d197-5eac-45c7-b885-a6227fe6d388")
+PS C:\> $RoleDef = Get-AzureRmRoleDefinition "Contoso On-Call"
+          PS C:\> $RoleDef.Actions.Add("Microsoft.ClassicCompute/virtualmachines/start/action")
+          PS C:\> $RoleDef.Description = "Can monitor all resources and start and restart virtual machines"
+          PS C:\> $RoleDef.AssignableScopes = @("/subscriptions/eb910d4f-edbf-429b-94F6-d76bae7ff401", "/subscriptions/a846d197-5eac-45c7-b885-a6227fe6d388")
 
-          PS C:\> New-AzureRmRoleDefinition -Role $roleDef
+          PS C:\> New-AzureRmRoleDefinition -Role $RoleDef
 ```
 
 ### --------------------------  Create using JSON file  --------------------------

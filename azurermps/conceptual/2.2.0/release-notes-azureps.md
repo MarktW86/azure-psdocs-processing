@@ -3,6 +3,7 @@ title: Azure PowerShell Change Log | Microsoft Docs
 description: This is a history of changes made to Azure PowerShell in the latest release.
 services: azure
 author: sdwheeler
+ms.author: sewhee
 manager: carmonm
 ms.service: azure-resource-manager
 ms.product: azure
@@ -10,10 +11,9 @@ ms.devlang: powershell
 ms.topic: conceptual
 ms.workload:
 ms.date: 03/30/2017
-ms.author: sewhee
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/docs-conceptual/release-notes-azureps.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/docs-conceptual/release-notes-azureps.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/538c30ca93f595f021fb665eedd873027e224d2a
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/379641e1d19b18dec54244dce5910aa3f4d6d991
 open_to_public_contributors: false
 ---
 
@@ -151,7 +151,7 @@ This is a list of changes made to Azure PowerShell in the latest releases.
     - Set-AzureRmSqlElasticPoolRecommendedActionState
     - Set-AzureRmSqlServerRecommendedActionState
 
-## Version 1.6.0
+## Version 1.7.0
 * **Behavioral change for -Force, –Confirm and $ConfirmPreference parameters for all cmdlets. We are changing this implementation to be in line with PowerShell guidelines. For most cmdlets, this means removing the Force parameter and to skip the ShouldProcess prompt, users will need to include the parameter: ‘-Confirm:$false’ in their PowerShell scripts.** This changes are addressing following issues:
   * Correct implementation of –WhatIf functionality, allowing a user to determine the effects of a cmdlet or script without making any actual changes
   * Control over prompting using a session-wide $ConfirmPreference, so that the user is prompted based on the impact of a prospective change (as reported in the ConfirmImpact setting in the cmdlet)

@@ -3,6 +3,7 @@ title: Install and configure Azure PowerShell | Microsoft Docs
 description: How to install and configure Azure PowerShell for first time use.
 services: azure
 author: sdwheeler
+ms.author: sewhee
 manager: carmonm
 ms.product: azure
 ms.service: azure-resource-manager
@@ -11,7 +12,7 @@ ms.topic: conceptual
 ms.date: 03/30/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/docs-conceptual/install-azurerm-ps.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/docs-conceptual/install-azurerm-ps.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/5899226cf95590b8dab1a76b8abbc7acd85325dc
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/866fb36ab725fff878133ae0f6e1f1061bbf7d6c
 open_to_public_contributors: false
 ---
 

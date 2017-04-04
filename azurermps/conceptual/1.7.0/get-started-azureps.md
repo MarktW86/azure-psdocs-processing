@@ -3,16 +3,16 @@ title: Get started with Azure PowerShell | Microsoft Docs
 description:
 services: azure
 author: sdwheeler
+ms.author: sewhee
 manager: carmonm
 ms.product: azure
 ms.service: azure-resource-manager
 ms.devlang: powershell
 ms.topic: get-started-article
 ms.date: 03/30/2017
-ms.author: sewhee
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/docs-conceptual/get-started-azureps.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/docs-conceptual/get-started-azureps.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f2cc09ee4fadeed9f5e5f3e0506a8c742128a262
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/379641e1d19b18dec54244dce5910aa3f4d6d991
 open_to_public_contributors: false
 ---
 # Getting started with Azure PowerShell
@@ -23,15 +23,13 @@ helps get you started using it, and teaches you the core concepts behind it.
 
 
 ## Install Azure PowerShell
-The first step is to make sure you have the latest version of the Azure PowerShell installed:
+The first step is to make sure you have the latest version of the Azure PowerShell installed.  The latest version is 3.7.0.
 
 1. [Install Azure PowerShell](install-azurerm-ps.md).
 
 2. To verify the installation was successful, run `Get-Module AzureRM` from your
    command line.
 
-You should see the version number of the AzureRM module installed and loaded in your PowerShell
-session.  The latest version is can be found in the [release notes](release-notes-azureps.md).
 
 ## Log in to Azure
 

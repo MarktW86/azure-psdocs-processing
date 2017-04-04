@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Cmdlets.dll-Help.xm
 ms.assetid: 83EE33E5-18EF-4A7A-AEF2-E93D7A3CA541
 online version:
 schema: 2.0.0
-updated_at: 03/11/2017 02:03 AM
-ms.date: 03/11/2017
+updated_at: 04/03/2017 20:04 PM
+ms.date: 04/03/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Register-AzureRmProviderFeature.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Register-AzureRmProviderFeature.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04f63f6e685743ace2c57eb157574e34e8610b1c
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/78950608fd9885d813ecbee07ad3867d9e213e5e
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -33,11 +33,6 @@ Register-AzureRmProviderFeature -FeatureName <String> -ProviderNamespace <String
 The **Register-AzureRmProviderFeature** cmdlet registers an Azure provider feature in your account.
 
 ## EXAMPLES
-
-### 1:
-```
-
-```
 
 ## PARAMETERS
 
@@ -114,5 +109,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## RELATED LINKS
 
 [Get-AzureRmProviderFeature](./Get-AzureRmProviderFeature.md)
-
-
