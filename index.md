@@ -150,7 +150,7 @@ title: PowerShell Documentation
                                             </div>
                                         </div>
                                         <div class="cardText">
-                                            <h3>Desired State configuration</h3>
+                                            <h3>Desired State Configuration</h3>
                                             <p>Use PowerShell to manage system and enforce configurations.</p>
                                         </div>
                                     </div>
