@@ -227,7 +227,7 @@ title: PowerShell Documentation
                                         </div>
                                         <div class="cardText">
                                             <h3>Modules</h3>
-                                            <p>See the reference library for numerous PowerShell modules.</p>
+                                            <p>See the reference documentation for numerous PowerShell modules.</p>
                                         </div>
                                     </div>
                                 </div>
