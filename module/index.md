@@ -17,7 +17,7 @@ layout: ContentPage
 
 List of PowerShell modules on docs.microsoft.com:
 
-* [AzureRM PowerShell](/powershell/azure/overview?view=azurermps)
+* [Azure PowerShell](/powershell/azure/overview?view=azurermps)
 * [Azure Active Directory PowerShell](/powershell/azure/overview?view=azureadps-2.0)
 * [Azure Information Protection PowerShell](/powershell/azure/overview?view=azureipps)
 * [Azure Service Fabric PowerShell](/powershell/azure/overview?view=azureservicefabricps)
