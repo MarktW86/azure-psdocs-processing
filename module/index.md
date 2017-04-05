@@ -10,6 +10,7 @@ ms.devlang: powershell
 ms.topic: conceptual
 ms.manager: carmonm
 ms.date: 03/30/2017
+toc_rel: fake.json
 ---
 
 # PowerShell Modules
