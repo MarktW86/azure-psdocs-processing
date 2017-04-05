@@ -13,7 +13,7 @@ ms.date: 03/30/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/docs-conceptual/install-azurerm-ps.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/docs-conceptual/install-azurerm-ps.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/b033c15ac1061f75314bb94d2b6deea59520a0ed
-open_to_public_contributors: false
+open_to_public_contributors: true
 ---
 
 # Install and configure Azure PowerShell

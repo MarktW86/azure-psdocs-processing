@@ -14,7 +14,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-open_to_public_contributors: false
+open_to_public_contributors: true
 ms.service: data-lake-analytics
 Add-AzureRmDataLakeAnalyticsDataSource: Data Lake
 Add-AzureRmDataLakeAnalyticsFirewallRule: Data Lake

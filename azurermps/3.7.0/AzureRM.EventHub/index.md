@@ -14,7 +14,7 @@ author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
-open_to_public_contributors: false
+open_to_public_contributors: true
 Get-AzureRmEventHub: Event Hub
 Get-AzureRmEventHubAuthorizationRule: Event Hub
 Get-AzureRmEventHubConsumerGroup: Event Hub
