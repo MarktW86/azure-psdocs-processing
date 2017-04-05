@@ -215,6 +215,25 @@ title: PowerShell Documentation
                             </div>
                             </a>
                         </li>
+                        <li>
+                            <a href="/powershell/module">
+                            <div class="cardSize">
+                                <div class="cardPadding">
+                                    <div class="card">
+                                        <div class="cardImageOuter">
+                                            <div class="cardImage bgdAccent1">
+                                                <img src="/media/hubs/powershell/powershell-features-modules.svg" alt="" />
+                                            </div>
+                                        </div>
+                                        <div class="cardText">
+                                            <h3>Modules</h3>
+                                            <p>See the reference library for numerous PowerShell modules.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </a>
+                        </li>
                     </ul>
                 </li>
                 <li>
