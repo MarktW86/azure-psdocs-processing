@@ -6,14 +6,14 @@
     "children": [
     {
         "toc_title": "Azure PowerShell",
-        "href": "/powershell-new/azure/",
-        "homepage": "/powershell-new/azure/overview",
+        "href": "/powershell/azure/",
+        "homepage": "/powershell/azure/overview",
         "level": 2
     },
     {
         "toc_title": "Azure PowerShell",
-        "href": "/powershell-new/module/",
-        "homepage": "/powershell-new/azure/overview",
+        "href": "/powershell/module/",
+        "homepage": "/powershell/azure/overview",
         "level": 2
     }]
 }]
