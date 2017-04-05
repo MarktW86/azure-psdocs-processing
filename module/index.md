@@ -1,5 +1,5 @@
 ---
-title: PowerShell Modules | Microsoft Docs
+title: PowerShell Modules
 description: List of all Microsoft PowerShell modules 
 author: sdwheeler
 ms.author: sewhee
@@ -10,16 +10,16 @@ ms.devlang: powershell
 ms.topic: conceptual
 ms.manager: carmonm
 ms.date: 03/30/2017
-toc_rel: fake.json
+layout: ContentPage
 ---
 
 # PowerShell Modules
 
-List of PowerShell modules on Docs.microsoft.com:
+List of PowerShell modules on docs.microsoft.com:
 
-* [AzureRM PowerShell](overview?view=azurermps)
-* [Azure Active Directory PowerShell](overview?view=azureadps-2.0)
-* [Azure Information Protection PowerShell](overview?view=azureipps)
-* [Azure Service Fabric PowerShell](overview?view=azureservicefabricps)
-* [Azure ElasticDB PowerShell](overview?view=azureelasticdbjobsps-0.8.33)
-* [Azure Service Management PowerShell](overview?view=azuresmps) 
+* [AzureRM PowerShell](/powershell/azure/overview?view=azurermps)
+* [Azure Active Directory PowerShell](/powershell/azure/overview?view=azureadps-2.0)
+* [Azure Information Protection PowerShell](/powershell/azure/overview?view=azureipps)
+* [Azure Service Fabric PowerShell](/powershell/azure/overview?view=azureservicefabricps)
+* [Azure ElasticDB PowerShell](/powershell/azure/overview?view=azureelasticdbjobsps-0.8.33)
+* [Azure Service Management PowerShell](/powershell/azure/overview?view=azuresmps) 
