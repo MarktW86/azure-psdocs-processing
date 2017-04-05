@@ -13,7 +13,7 @@ ms.date: 03/30/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/docs-conceptual/authenticate-azureps.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/docs-conceptual/authenticate-azureps.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/ce461e7550b4f1842748fd012764654e218c363b
-open_to_public_contributors: false
+open_to_public_contributors: true
 ---
 
 # Log in with Azure PowerShell
