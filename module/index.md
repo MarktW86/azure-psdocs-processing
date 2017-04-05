@@ -1,5 +1,5 @@
 ---
-title: PowerShell Modules | Microsoft Docs
+title: PowerShell Modules
 description: List of all Microsoft PowerShell modules 
 author: sdwheeler
 ms.author: sewhee
@@ -10,12 +10,12 @@ ms.devlang: powershell
 ms.topic: conceptual
 ms.manager: carmonm
 ms.date: 03/30/2017
-toc_rel: fake.json
+layout: ContentPage
 ---
 
 # PowerShell Modules
 
-List of PowerShell modules on Docs.microsoft.com:
+List of PowerShell modules on docs.microsoft.com:
 
 * [AzureRM PowerShell](overview?view=azurermps)
 * [Azure Active Directory PowerShell](overview?view=azureadps-2.0)
