@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Resources.dll-Help.xml
 ms.assetid: C61FA834-BEBE-4DBF-888F-C6CB8CC95390
 online version:
 schema: 2.0.0
-updated_at: 03/29/2017 18:03 PM
-ms.date: 03/29/2017
+updated_at: 04/05/2017 20:04 PM
+ms.date: 04/05/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Remove-AzureRmADAppCredential.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Remove-AzureRmADAppCredential.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/1b0e8fcdd474515f4a6eeac956865e25badf43bd
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/bb011806abb24e53f6ce1c29560e8f305bb76ba5
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -49,9 +49,9 @@ Remove-AzureRmADAppCredential -ApplicationId <String> -KeyId <Guid> [-Force]
 ```
 
 ## DESCRIPTION
-The Remove-AzureRmADAppCredential cmdlet can be used to remove a credential key from an application in the case of a compromise or as part of credential key rollover expiration.
+The **Remove-AzureRmADAppCredential** cmdlet can be used to remove a credential key from an application in the case of a compromise or as part of credential key rollover expiration.
 The application is identified by supplying either the object ID or AppId.
-The credential to be removed is identified by its key ID if an individual credential is to be removed or with an 'All' switch to delete all credentials associated with the application.
+The credential to be removed is identified by its key ID if an individual credential is to be removed or with an All switch parameter to delete all credentials associated with the application.
 
 ## EXAMPLES
 
@@ -94,7 +94,7 @@ Accept wildcard characters: False
 
 ### -KeyId
 Specifies the credential key to be removed.
-The key Ids for the application can be obtained using the Get-AzureRmADAppCredential cmdlet.
+The key Ids for the application can be obtained using the [Get-AzureRmADAppCredential](./Get-AzureRmADAppCredential.md) cmdlet.
 
 ```yaml
 Type: Guid
@@ -109,7 +109,7 @@ Accept wildcard characters: False
 ```
 
 ### -Force
-Switch to delete credential without a confirmation.
+Forces the command to run without asking for user confirmation.
 
 ```yaml
 Type: SwitchParameter
