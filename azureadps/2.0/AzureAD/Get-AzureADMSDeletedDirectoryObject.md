@@ -2,11 +2,11 @@
 external help file: Microsoft.Open.MS.GraphBeta.PowerShell.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 03/18/2017 00:03 AM
-ms.date: 03/18/2017
+updated_at: 04/06/2017 04:04 AM
+ms.date: 04/06/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADMSDeletedDirectoryObject.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADMSDeletedDirectoryObject.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/1263ae8ffe474c57d7a10e2353316c0deac8aa18
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/359a4f3d43dfef366813a5a4ebfefc9ce5445875
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -18,7 +18,7 @@ ms.service: active-directory
 # Get-AzureADMSDeletedDirectoryObject
 
 ## SYNOPSIS
-This cmdlet is used to retrieve a deleted directory object from the directory
+This cmdlet is used to retrieve a soft deleted directory object from the directory
 
 ## SYNTAX
 
@@ -27,7 +27,7 @@ Get-AzureADMSDeletedDirectoryObject -Id <String>
 ```
 
 ## DESCRIPTION
-This cmdlet is used to retrieve a deleted directory object from the directory
+This cmdlet is used to retrieve a soft deleted directory object from the directory. Note that soft delete for groups is currently only implemented for Unified Groups (a.k.a. Office 365 Groups).
 
 ## EXAMPLES
 

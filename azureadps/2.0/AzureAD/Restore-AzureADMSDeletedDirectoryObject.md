@@ -2,11 +2,11 @@
 external help file: Microsoft.Open.MS.GraphBeta.PowerShell.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 03/18/2017 00:03 AM
-ms.date: 03/18/2017
+updated_at: 04/06/2017 04:04 AM
+ms.date: 04/06/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Restore-AzureADMSDeletedDirectoryObject.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Restore-AzureADMSDeletedDirectoryObject.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/1263ae8ffe474c57d7a10e2353316c0deac8aa18
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/423d1441b932e126c6d22544233c258b9b4c80b1
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -28,7 +28,7 @@ Restore-AzureADMSDeletedDirectoryObject -Id <String>
 
 ## DESCRIPTION
 This cmdlet is used to restore a previously deleted object. Currently, only restoring Group and Application objects is supported. 
-When a group or an application is deleted it is initially soft deleted and can be recovered during the first 30 days after deletion. After 30 days the deleted object is permanently deleted and can no longer be recovered. 
+When a group or an application is deleted it is initially soft deleted and can be recovered during the first 30 days after deletion. After 30 days the deleted object is permanently deleted and can no longer be recovered. Note that only Unified Groups (a.k.a. Office 365 Groups) can be restored. Security groups cannot be restored.
 
 ## EXAMPLES
 
