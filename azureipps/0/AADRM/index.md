@@ -15,7 +15,6 @@ keywords: powershell, cmdlet
 manager: cabailey
 open_to_public_contributors: false
 ms.service: rights-management
-Add-AadrmKey: AADRM
 Add-AadrmRoleBasedAdministrator: AADRM
 Add-AadrmSuperUser: AADRM
 Add-AadrmTemplate: AADRM
@@ -63,6 +62,7 @@ New-AadrmRightsDefinition: AADRM
 Remove-AadrmRoleBasedAdministrator: AADRM
 Remove-AadrmSuperUser: AADRM
 Remove-AadrmTemplate: AADRM
+Set-AadrmKeyProperties: AADRM
 Set-AadrmMaxUseLicenseValidityTime: AADRM
 Set-AadrmMigrationUrl: AADRM
 Set-AadrmOnboardingControlPolicy: AADRM

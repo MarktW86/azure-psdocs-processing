@@ -3,11 +3,11 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: https://go.microsoft.com/fwlink/?LinkId=799849
 schema: 2.0.0
 ms.assetid: 2EC79F48-DC64-42D0-B317-89397A72243D
-updated_at: 02/13/2017 21:02 PM
-ms.date: 02/13/2017
+updated_at: 04/06/2017 15:04 PM
+ms.date: 04/06/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Use-AadrmKeyVaultKey.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Use-AadrmKeyVaultKey.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/22a102658f1b1c573e607b7c05590c1e292e41e2
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/fbc1a3d9686f92dd99c067bc62e16525f9e7b40f
 ms.topic: reference
 author: cabailey
 ms.author: PowerShellHelpPub
@@ -25,7 +25,7 @@ Tells Rights Management to use a customer-managed tenant key in Azure Key Vault.
 ## SYNTAX
 
 ```
-Use-AadrmKeyVaultKey -KeyVaultKeyUrl <String> [-Force] [-WhatIf] [-Confirm] [<CommonParameters>]
+Use-AadrmKeyVaultKey -KeyVaultKeyUrl <String> [-FriendlyName <String>] [-Force] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -88,6 +88,23 @@ Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
 ```
 
+### -FriendlyName
+Specifies the friendly name of the TDP and the key. If you have Office 2016 and Office 2013 in your environment, then you should set the FriendlyName correctly. This field is available under the *Server Certificate* properties of your on-premises ADRMS setup. 
+
+This parameter is optional. If friendly name is not supplied, the key identifier will be used as the name instead.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases:
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName, ByValue)
+Accept wildcard characters: False
+```
+
 ### -Confirm
 Prompts you for confirmation before running the cmdlet.
 
@@ -132,6 +149,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## RELATED LINKS
 
 [Get-AadrmKeys](./Get-AadrmKeys.md)
+
+[Set-AadrmKeyProperties](./Set-AadrmKeyProperties.md)
 
 [Planning and implementing your Azure Rights Management tenant key](https://docs.microsoft.com/en-us/rights-management/plan-design/plan-implement-tenant-key)
 
