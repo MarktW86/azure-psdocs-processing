@@ -3,11 +3,11 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 ms.assetid: A5DDAF58-A04C-4B8F-8AFE-A491387ABCB0
 online version:
 schema: 2.0.0
-updated_at: 04/06/2017 12:04 PM
+updated_at: 04/06/2017 20:04 PM
 ms.date: 04/06/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADUser.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADUser.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/58584cec9856cf0cafabf012a86796765daf88ad
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/d072e51a30a52a0f4f6322b718f19ac778904f1a
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -49,13 +49,12 @@ $PasswordProfile = New-Object -TypeName Microsoft.Open.AzureAD.Model.PasswordPro
 $PasswordProfile.Password = "Password"
 ```
 
-```powershell
-New-AzureADUser -DisplayName "New User" -PasswordProfile $PasswordProfile -UserPrincipalName "NewUser@contoso.com" -AccountEnabled $true -MailNickName "Newuser"
+`New-AzureADUser -DisplayName "New User" -PasswordProfile $PasswordProfile -UserPrincipalName "NewUser@contoso.com" -AccountEnabled $true -MailNickName "Newuser"`
 
-ObjectId                             DisplayName UserPrincipalName               UserType
---------                             ----------- -----------------               --------
-5e8b0f4d-2cd4-4e17-9467-b0f6a5c0c4d0 New user    NewUser@contoso.com             Member
-```
+`ObjectId                             DisplayName UserPrincipalName               UserType`
+`--------                             ----------- -----------------               --------`
+`5e8b0f4d-2cd4-4e17-9467-b0f6a5c0c4d0 New user    NewUser@contoso.com             Member`
+
 
 This command creates a new user.
 
