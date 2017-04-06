@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Compute.dll-Help.xml
 ms.assetid: 6250EC11-79CF-428B-A72F-9BD72C1751F0
 online version:
 schema: 2.0.0
-updated_at: 03/11/2017 02:03 AM
-ms.date: 03/11/2017
+updated_at: 04/06/2017 00:04 AM
+ms.date: 04/06/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.8.0/Get-AzureRmVM.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.8.0/Get-AzureRmVM.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04f63f6e685743ace2c57eb157574e34e8610b1c
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d93dee3bd30fe88be023d0fe4395649d71bb51d9
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -20,7 +20,6 @@ ms.service: big-compute
 # Get-AzureRmVM
 
 ## SYNOPSIS
-Gets the properties of a virtual machine.
 
 ## SYNTAX
 
