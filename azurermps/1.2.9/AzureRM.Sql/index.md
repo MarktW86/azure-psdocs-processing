@@ -25,7 +25,7 @@ Get-AzureRmSqlDatabaseIndexRecommendations: SQL
 Get-AzureRmSqlDatabaseReplicationLink: SQL
 Get-AzureRmSqlDatabaseRestorePoints: SQL
 Get-AzureRmSqlDatabaseSecureConnectionPolicy: SQL
-Get-AzureRmSqlDatabaseThreatDetectionPolicy: SQL
+Get-AzureRmSqlDatabaseThreatDetectionPolicy: Others
 Get-AzureRmSqlDatabaseTransparentDataEncryption: SQL
 Get-AzureRmSqlDatabaseTransparentDataEncryptionActivity: SQL
 Get-AzureRmSqlDatabaseUpgradeHint: SQL
@@ -53,7 +53,7 @@ Remove-AzureRmSqlDatabase: SQL
 Remove-AzureRmSqlDatabaseAuditing: SQL
 Remove-AzureRmSqlDatabaseDataMaskingRule: SQL
 Remove-AzureRmSqlDatabaseSecondary: SQL
-Remove-AzureRmSqlDatabaseThreatDetectionPolicy: SQL
+Remove-AzureRmSqlDatabaseThreatDetectionPolicy: Others
 Remove-AzureRmSqlElasticPool: SQL
 Remove-AzureRmSqlServer: SQL
 Remove-AzureRmSqlServerActiveDirectoryAdministrator: SQL
@@ -66,7 +66,7 @@ Set-AzureRmSqlDatabaseAuditingPolicy: SQL
 Set-AzureRmSqlDatabaseDataMaskingPolicy: SQL
 Set-AzureRmSqlDatabaseDataMaskingRule: SQL
 Set-AzureRmSqlDatabaseSecondary: SQL
-Set-AzureRmSqlDatabaseThreatDetectionPolicy: SQL
+Set-AzureRmSqlDatabaseThreatDetectionPolicy: Others
 Set-AzureRmSqlDatabaseTransparentDataEncryption: SQL
 Set-AzureRmSqlElasticPool: SQL
 Set-AzureRmSqlServer: SQL

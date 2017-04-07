@@ -16,7 +16,7 @@ open_to_public_contributors: true
 ms.service: azure-resource-manager
 Find-AzureRmResource: Resources
 Find-AzureRmResourceGroup: Resources
-Get-AzureRmADApplication: Active Directory
+Get-AzureRmADApplication: Others
 Get-AzureRmADGroup: Active Directory
 Get-AzureRmADGroupMember: Active Directory
 Get-AzureRmADServicePrincipal: Active Directory
@@ -31,9 +31,9 @@ Get-AzureRmResourceGroupDeployment: Resources
 Get-AzureRmResourceGroupDeploymentOperation: Resources
 Get-AzureRmResourceLock: Resources
 Get-AzureRmResourceProvider: Resources
-Get-AzureRmRoleAssignment: Resources
-Get-AzureRmRoleDefinition: Resources
-Invoke-AzureRmResourceAction: Resources
+Get-AzureRmRoleAssignment: Roles
+Get-AzureRmRoleDefinition: Roles
+Invoke-AzureRmResourceAction: Others
 Move-AzureRmResource: Resources
 New-AzureRmADApplication: Active Directory
 New-AzureRmADServicePrincipal: Active Directory
@@ -43,8 +43,8 @@ New-AzureRmResource: Resources
 New-AzureRmResourceGroup: Resources
 New-AzureRmResourceGroupDeployment: Resources
 New-AzureRmResourceLock: Resources
-New-AzureRmRoleAssignment: Resources
-New-AzureRmRoleDefinition: Resources
+New-AzureRmRoleAssignment: Roles
+New-AzureRmRoleDefinition: Roles
 Register-AzureRmProviderFeature: Resources
 Register-AzureRmResourceProvider: Resources
 Remove-AzureRmADApplication: Active Directory
@@ -53,18 +53,18 @@ Remove-AzureRmPolicyAssignment: Policies
 Remove-AzureRmPolicyDefinition: Policies
 Remove-AzureRmResource: Resources
 Remove-AzureRmResourceGroup: Resources
-Remove-AzureRmResourceGroupDeployment: Resources
+Remove-AzureRmResourceGroupDeployment: Others
 Remove-AzureRmResourceLock: Resources
-Remove-AzureRmRoleAssignment: Resources
-Remove-AzureRmRoleDefinition: Resources
+Remove-AzureRmRoleAssignment: Roles
+Remove-AzureRmRoleDefinition: Roles
 Set-AzureRmPolicyAssignment: Policies
 Set-AzureRmPolicyDefinition: Policies
 Set-AzureRmResource: Resources
 Set-AzureRmResourceGroup: Resources
 Set-AzureRmResourceLock: Resources
-Set-AzureRmRoleDefinition: Resources
+Set-AzureRmRoleDefinition: Roles
 Stop-AzureRmResourceGroupDeployment: Resources
-Test-AzureRmResourceGroupDeployment: Resources
+Test-AzureRmResourceGroupDeployment: Others
 Unregister-AzureRmResourceProvider: Resources
 _isModulePage: true
 ---

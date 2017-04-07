@@ -21,7 +21,7 @@ Add-AzureRmApiManagementApiToProduct: API Management
 Add-AzureRmApiManagementProductToGroup: API Management
 Add-AzureRmApiManagementRegion: API Management
 Add-AzureRmApiManagementUserToGroup: API Management
-Backup-AzureRmApiManagement: API Management
+Backup-AzureRmApiManagement: Backup
 Export-AzureRmApiManagementApi: API Management
 Get-AzureRmApiManagement: API Management
 Get-AzureRmApiManagementApi: API Management
@@ -31,11 +31,11 @@ Get-AzureRmApiManagementGroup: API Management
 Get-AzureRmApiManagementLogger: API Management
 Get-AzureRmApiManagementOpenIdConnectProvider: API Management
 Get-AzureRmApiManagementOperation: API Management
-Get-AzureRmApiManagementPolicy: API Management
+Get-AzureRmApiManagementPolicy: Policies
 Get-AzureRmApiManagementProduct: API Management
 Get-AzureRmApiManagementProperty: API Management
 Get-AzureRmApiManagementSsoToken: API Management
-Get-AzureRmApiManagementSubscription: API Management
+Get-AzureRmApiManagementSubscription: Subscriptions
 Get-AzureRmApiManagementTenantAccess: API Management
 Get-AzureRmApiManagementTenantGitAccess: API Management
 Get-AzureRmApiManagementTenantSyncState: API Management
@@ -55,9 +55,9 @@ New-AzureRmApiManagementOpenIdConnectProvider: API Management
 New-AzureRmApiManagementOperation: API Management
 New-AzureRmApiManagementProduct: API Management
 New-AzureRmApiManagementProperty: API Management
-New-AzureRmApiManagementSubscription: API Management
+New-AzureRmApiManagementSubscription: Subscriptions
 New-AzureRmApiManagementUser: API Management
-New-AzureRmApiManagementVirtualNetwork: API Management
+New-AzureRmApiManagementVirtualNetwork: Networking
 Publish-AzureRmApiManagementTenantGitConfiguration: API Management
 Remove-AzureRmApiManagement: API Management
 Remove-AzureRmApiManagementApi: API Management
@@ -68,12 +68,12 @@ Remove-AzureRmApiManagementGroup: API Management
 Remove-AzureRmApiManagementLogger: API Management
 Remove-AzureRmApiManagementOpenIdConnectProvider: API Management
 Remove-AzureRmApiManagementOperation: API Management
-Remove-AzureRmApiManagementPolicy: API Management
+Remove-AzureRmApiManagementPolicy: Policies
 Remove-AzureRmApiManagementProduct: API Management
 Remove-AzureRmApiManagementProductFromGroup: API Management
 Remove-AzureRmApiManagementProperty: API Management
 Remove-AzureRmApiManagementRegion: API Management
-Remove-AzureRmApiManagementSubscription: API Management
+Remove-AzureRmApiManagementSubscription: Subscriptions
 Remove-AzureRmApiManagementUser: API Management
 Remove-AzureRmApiManagementUserFromGroup: API Management
 Restore-AzureRmApiManagement: API Management
@@ -86,13 +86,13 @@ Set-AzureRmApiManagementHostnames: API Management
 Set-AzureRmApiManagementLogger: API Management
 Set-AzureRmApiManagementOpenIdConnectProvider: API Management
 Set-AzureRmApiManagementOperation: API Management
-Set-AzureRmApiManagementPolicy: API Management
+Set-AzureRmApiManagementPolicy: Policies
 Set-AzureRmApiManagementProduct: API Management
 Set-AzureRmApiManagementProperty: API Management
-Set-AzureRmApiManagementSubscription: API Management
+Set-AzureRmApiManagementSubscription: Subscriptions
 Set-AzureRmApiManagementTenantAccess: API Management
 Set-AzureRmApiManagementUser: API Management
-Set-AzureRmApiManagementVirtualNetworks: Others
+Set-AzureRmApiManagementVirtualNetworks: Networking
 Update-AzureRmApiManagementDeployment: API Management
 Update-AzureRmApiManagementRegion: API Management
 _isModulePage: true

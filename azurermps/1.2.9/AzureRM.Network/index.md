@@ -20,12 +20,12 @@ Add-AzureRmApplicationGatewayFrontendIPConfig: Application Gateway
 Add-AzureRmApplicationGatewayFrontendPort: Application Gateway
 Add-AzureRmApplicationGatewayHttpListener: Application Gateway
 Add-AzureRmApplicationGatewayIPConfiguration: Application Gateway
-Add-AzureRmApplicationGatewayProbeConfig: Application Gateway
+Add-AzureRmApplicationGatewayProbeConfig: Others
 Add-AzureRmApplicationGatewayRequestRoutingRule: Application Gateway
 Add-AzureRmApplicationGatewaySslCertificate: Application Gateway
-Add-AzureRmApplicationGatewayUrlPathMapConfig: Application Gateway
-Add-AzureRmExpressRouteCircuitAuthorization: Express Route
-Add-AzureRmExpressRouteCircuitPeeringConfig: Express Route
+Add-AzureRmApplicationGatewayUrlPathMapConfig: Others
+Add-AzureRmExpressRouteCircuitAuthorization: Others
+Add-AzureRmExpressRouteCircuitPeeringConfig: Route
 Add-AzureRmLoadBalancerBackendAddressPoolConfig: Load Balancer
 Add-AzureRmLoadBalancerFrontendIpConfig: Load Balancer
 Add-AzureRmLoadBalancerInboundNatPoolConfig: Load Balancer
@@ -34,9 +34,9 @@ Add-AzureRmLoadBalancerProbeConfig: Load Balancer
 Add-AzureRmLoadBalancerRuleConfig: Load Balancer
 Add-AzureRmNetworkSecurityRuleConfig: Networking
 Add-AzureRmRouteConfig: Route
-Add-AzureRmVirtualNetworkSubnetConfig: Virtual Network
-Add-AzureRmVpnClientRevokedCertificate: VPN
-Add-AzureRmVpnClientRootCertificate: VPN
+Add-AzureRmVirtualNetworkSubnetConfig: Networking
+Add-AzureRmVpnClientRevokedCertificate: Others
+Add-AzureRmVpnClientRootCertificate: Others
 Get-AzureRmApplicationGateway: Application Gateway
 Get-AzureRmApplicationGatewayBackendAddressPool: Application Gateway
 Get-AzureRmApplicationGatewayBackendHttpSettings: Application Gateway
@@ -44,15 +44,15 @@ Get-AzureRmApplicationGatewayFrontendIPConfig: Application Gateway
 Get-AzureRmApplicationGatewayFrontendPort: Application Gateway
 Get-AzureRmApplicationGatewayHttpListener: Application Gateway
 Get-AzureRmApplicationGatewayIPConfiguration: Application Gateway
-Get-AzureRmApplicationGatewayProbeConfig: Application Gateway
+Get-AzureRmApplicationGatewayProbeConfig: Others
 Get-AzureRmApplicationGatewayRequestRoutingRule: Application Gateway
 Get-AzureRmApplicationGatewaySku: Application Gateway
 Get-AzureRmApplicationGatewaySslCertificate: Application Gateway
-Get-AzureRmApplicationGatewayUrlPathMapConfig: Application Gateway
-Get-AzureRmExpressRouteCircuit: Express Route
-Get-AzureRmExpressRouteCircuitAuthorization: Express Route
-Get-AzureRmExpressRouteCircuitPeeringConfig: Express Route
-Get-AzureRmExpressRouteServiceProvider: Express Route
+Get-AzureRmApplicationGatewayUrlPathMapConfig: Others
+Get-AzureRmExpressRouteCircuit: Route
+Get-AzureRmExpressRouteCircuitAuthorization: Others
+Get-AzureRmExpressRouteCircuitPeeringConfig: Route
+Get-AzureRmExpressRouteServiceProvider: Route
 Get-AzureRmLoadBalancer: Load Balancer
 Get-AzureRmLoadBalancerBackendAddressPoolConfig: Load Balancer
 Get-AzureRmLoadBalancerFrontendIpConfig: Load Balancer
@@ -67,14 +67,14 @@ Get-AzureRmNetworkSecurityRuleConfig: Networking
 Get-AzureRmPublicIpAddress: Networking
 Get-AzureRmRouteConfig: Route
 Get-AzureRmRouteTable: Route
-Get-AzureRmVirtualNetwork: Virtual Network
-Get-AzureRmVirtualNetworkGateway: Virtual Network
-Get-AzureRmVirtualNetworkGatewayConnection: Virtual Network
-Get-AzureRmVirtualNetworkGatewayConnectionSharedKey: Virtual Network
-Get-AzureRmVirtualNetworkSubnetConfig: Virtual Network
-Get-AzureRmVpnClientPackage: VPN
-Get-AzureRmVpnClientRevokedCertificate: VPN
-Get-AzureRmVpnClientRootCertificate: VPN
+Get-AzureRmVirtualNetwork: Networking
+Get-AzureRmVirtualNetworkGateway: Networking
+Get-AzureRmVirtualNetworkGatewayConnection: Networking
+Get-AzureRmVirtualNetworkGatewayConnectionSharedKey: Networking
+Get-AzureRmVirtualNetworkSubnetConfig: Networking
+Get-AzureRmVpnClientPackage: Others
+Get-AzureRmVpnClientRevokedCertificate: Others
+Get-AzureRmVpnClientRootCertificate: Others
 New-AzureRmApplicationGateway: Application Gateway
 New-AzureRmApplicationGatewayBackendAddressPool: Application Gateway
 New-AzureRmApplicationGatewayBackendHttpSettings: Application Gateway
@@ -82,15 +82,15 @@ New-AzureRmApplicationGatewayFrontendIPConfig: Application Gateway
 New-AzureRmApplicationGatewayFrontendPort: Application Gateway
 New-AzureRmApplicationGatewayHttpListener: Application Gateway
 New-AzureRmApplicationGatewayIPConfiguration: Application Gateway
-New-AzureRmApplicationGatewayPathRuleConfig: Application Gateway
-New-AzureRmApplicationGatewayProbeConfig: Application Gateway
+New-AzureRmApplicationGatewayPathRuleConfig: Others
+New-AzureRmApplicationGatewayProbeConfig: Others
 New-AzureRmApplicationGatewayRequestRoutingRule: Application Gateway
 New-AzureRmApplicationGatewaySku: Application Gateway
 New-AzureRmApplicationGatewaySslCertificate: Application Gateway
-New-AzureRmApplicationGatewayUrlPathMapConfig: Application Gateway
-New-AzureRmExpressRouteCircuit: Express Route
-New-AzureRmExpressRouteCircuitAuthorization: Express Route
-New-AzureRmExpressRouteCircuitPeeringConfig: Express Route
+New-AzureRmApplicationGatewayUrlPathMapConfig: Others
+New-AzureRmExpressRouteCircuit: Route
+New-AzureRmExpressRouteCircuitAuthorization: Others
+New-AzureRmExpressRouteCircuitPeeringConfig: Route
 New-AzureRmLoadBalancer: Load Balancer
 New-AzureRmLoadBalancerBackendAddressPoolConfig: Load Balancer
 New-AzureRmLoadBalancerFrontendIpConfig: Load Balancer
@@ -105,13 +105,13 @@ New-AzureRmNetworkSecurityRuleConfig: Networking
 New-AzureRmPublicIpAddress: Networking
 New-AzureRmRouteConfig: Route
 New-AzureRmRouteTable: Route
-New-AzureRmVirtualNetwork: Virtual Network
-New-AzureRmVirtualNetworkGateway: Virtual Network
-New-AzureRmVirtualNetworkGatewayConnection: Virtual Network
-New-AzureRmVirtualNetworkGatewayIpConfig: Virtual Network
-New-AzureRmVirtualNetworkSubnetConfig: Virtual Network
-New-AzureRmVpnClientRevokedCertificate: VPN
-New-AzureRmVpnClientRootCertificate: VPN
+New-AzureRmVirtualNetwork: Networking
+New-AzureRmVirtualNetworkGateway: Networking
+New-AzureRmVirtualNetworkGatewayConnection: Networking
+New-AzureRmVirtualNetworkGatewayIpConfig: Networking
+New-AzureRmVirtualNetworkSubnetConfig: Networking
+New-AzureRmVpnClientRevokedCertificate: Others
+New-AzureRmVpnClientRootCertificate: Others
 Remove-AzureRmApplicationGateway: Application Gateway
 Remove-AzureRmApplicationGatewayBackendAddressPool: Application Gateway
 Remove-AzureRmApplicationGatewayBackendHttpSettings: Application Gateway
@@ -119,13 +119,13 @@ Remove-AzureRmApplicationGatewayFrontendIPConfig: Application Gateway
 Remove-AzureRmApplicationGatewayFrontendPort: Application Gateway
 Remove-AzureRmApplicationGatewayHttpListener: Application Gateway
 Remove-AzureRmApplicationGatewayIPConfiguration: Application Gateway
-Remove-AzureRmApplicationGatewayProbeConfig: Application Gateway
+Remove-AzureRmApplicationGatewayProbeConfig: Others
 Remove-AzureRmApplicationGatewayRequestRoutingRule: Application Gateway
 Remove-AzureRmApplicationGatewaySslCertificate: Application Gateway
-Remove-AzureRmApplicationGatewayUrlPathMapConfig: Application Gateway
-Remove-AzureRmExpressRouteCircuit: Express Route
-Remove-AzureRmExpressRouteCircuitAuthorization: Express Route
-Remove-AzureRmExpressRouteCircuitPeeringConfig: Express Route
+Remove-AzureRmApplicationGatewayUrlPathMapConfig: Others
+Remove-AzureRmExpressRouteCircuit: Route
+Remove-AzureRmExpressRouteCircuitAuthorization: Others
+Remove-AzureRmExpressRouteCircuitPeeringConfig: Route
 Remove-AzureRmLoadBalancer: Load Balancer
 Remove-AzureRmLoadBalancerBackendAddressPoolConfig: Load Balancer
 Remove-AzureRmLoadBalancerFrontendIpConfig: Load Balancer
@@ -140,16 +140,16 @@ Remove-AzureRmNetworkSecurityRuleConfig: Networking
 Remove-AzureRmPublicIpAddress: Networking
 Remove-AzureRmRouteConfig: Route
 Remove-AzureRmRouteTable: Route
-Remove-AzureRmVirtualNetwork: Virtual Network
-Remove-AzureRmVirtualNetworkGateway: Virtual Network
-Remove-AzureRmVirtualNetworkGatewayConnection: Virtual Network
-Remove-AzureRmVirtualNetworkGatewayDefaultSite: Virtual Network
-Remove-AzureRmVirtualNetworkSubnetConfig: Virtual Network
-Remove-AzureRmVpnClientRevokedCertificate: VPN
-Remove-AzureRmVpnClientRootCertificate: VPN
-Reset-AzureRmVirtualNetworkGateway: Virtual Network
-Reset-AzureRmVirtualNetworkGatewayConnectionSharedKey: Virtual Network
-Resize-AzureRmVirtualNetworkGateway: Virtual Network
+Remove-AzureRmVirtualNetwork: Networking
+Remove-AzureRmVirtualNetworkGateway: Networking
+Remove-AzureRmVirtualNetworkGatewayConnection: Networking
+Remove-AzureRmVirtualNetworkGatewayDefaultSite: Others
+Remove-AzureRmVirtualNetworkSubnetConfig: Networking
+Remove-AzureRmVpnClientRevokedCertificate: Others
+Remove-AzureRmVpnClientRootCertificate: Others
+Reset-AzureRmVirtualNetworkGateway: Networking
+Reset-AzureRmVirtualNetworkGatewayConnectionSharedKey: Networking
+Resize-AzureRmVirtualNetworkGateway: Others
 Set-AzureRmApplicationGateway: Application Gateway
 Set-AzureRmApplicationGatewayBackendAddressPool: Application Gateway
 Set-AzureRmApplicationGatewayBackendHttpSettings: Application Gateway
@@ -157,13 +157,13 @@ Set-AzureRmApplicationGatewayFrontendIPConfig: Application Gateway
 Set-AzureRmApplicationGatewayFrontendPort: Application Gateway
 Set-AzureRmApplicationGatewayHttpListener: Application Gateway
 Set-AzureRmApplicationGatewayIPConfiguration: Application Gateway
-Set-AzureRmApplicationGatewayProbeConfig: Application Gateway
+Set-AzureRmApplicationGatewayProbeConfig: Others
 Set-AzureRmApplicationGatewayRequestRoutingRule: Application Gateway
 Set-AzureRmApplicationGatewaySku: Application Gateway
 Set-AzureRmApplicationGatewaySslCertificate: Application Gateway
-Set-AzureRmApplicationGatewayUrlPathMapConfig: Application Gateway
-Set-AzureRmExpressRouteCircuit: Express Route
-Set-AzureRmExpressRouteCircuitPeeringConfig: Express Route
+Set-AzureRmApplicationGatewayUrlPathMapConfig: Others
+Set-AzureRmExpressRouteCircuit: Route
+Set-AzureRmExpressRouteCircuitPeeringConfig: Route
 Set-AzureRmLoadBalancer: Load Balancer
 Set-AzureRmLoadBalancerFrontendIpConfig: Load Balancer
 Set-AzureRmLoadBalancerInboundNatPoolConfig: Load Balancer
@@ -177,12 +177,12 @@ Set-AzureRmNetworkSecurityRuleConfig: Networking
 Set-AzureRmPublicIpAddress: Networking
 Set-AzureRmRouteConfig: Route
 Set-AzureRmRouteTable: Route
-Set-AzureRmVirtualNetwork: Virtual Network
-Set-AzureRmVirtualNetworkGatewayConnection: Virtual Network
-Set-AzureRmVirtualNetworkGatewayConnectionSharedKey: Virtual Network
-Set-AzureRmVirtualNetworkGatewayDefaultSite: Virtual Network
-Set-AzureRmVirtualNetworkGatewayVpnClientConfig: Virtual Network
-Set-AzureRmVirtualNetworkSubnetConfig: Virtual Network
+Set-AzureRmVirtualNetwork: Networking
+Set-AzureRmVirtualNetworkGatewayConnection: Networking
+Set-AzureRmVirtualNetworkGatewayConnectionSharedKey: Networking
+Set-AzureRmVirtualNetworkGatewayDefaultSite: Others
+Set-AzureRmVirtualNetworkGatewayVpnClientConfig: Others
+Set-AzureRmVirtualNetworkSubnetConfig: Networking
 Start-AzureRmApplicationGateway: Application Gateway
 Stop-AzureRmApplicationGateway: Application Gateway
 Test-AzureRmDnsAvailability: DNS

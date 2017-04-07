@@ -44,7 +44,7 @@ Get-AzureRmBatchAccount: Batch
 Get-AzureRmBatchAccountKeys: Batch
 Get-AzureRmBatchApplication: Batch
 Get-AzureRmBatchApplicationPackage: Batch
-Get-AzureRmBatchSubscriptionQuotas: Others
+Get-AzureRmBatchSubscriptionQuotas: Subscriptions
 New-AzureBatchCertificate: Batch
 New-AzureBatchComputeNodeUser: Batch
 New-AzureBatchJob: Batch

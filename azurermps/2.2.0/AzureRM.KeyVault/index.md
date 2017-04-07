@@ -25,14 +25,14 @@ Get-AzureKeyVaultCertificate: Key Vault
 Get-AzureKeyVaultCertificateContact: Key Vault
 Get-AzureKeyVaultCertificateIssuer: Key Vault
 Get-AzureKeyVaultCertificateOperation: Key Vault
-Get-AzureKeyVaultCertificatePolicy: Key Vault
+Get-AzureKeyVaultCertificatePolicy: Policies
 Get-AzureKeyVaultKey: Key Vault
 Get-AzureKeyVaultSecret: Key Vault
 Get-AzureRmKeyVault: Key Vault
 Import-AzureKeyVaultCertificate: Key Vault
 New-AzureKeyVaultCertificateAdministratorDetails: Key Vault
 New-AzureKeyVaultCertificateOrganizationDetails: Key Vault
-New-AzureKeyVaultCertificatePolicy: Key Vault
+New-AzureKeyVaultCertificatePolicy: Policies
 New-AzureRmKeyVault: Key Vault
 Remove-AzureKeyVaultCertificate: Key Vault
 Remove-AzureKeyVaultCertificateContact: Key Vault
@@ -41,15 +41,15 @@ Remove-AzureKeyVaultCertificateOperation: Key Vault
 Remove-AzureKeyVaultKey: Key Vault
 Remove-AzureKeyVaultSecret: Key Vault
 Remove-AzureRmKeyVault: Key Vault
-Remove-AzureRmKeyVaultAccessPolicy: Key Vault
+Remove-AzureRmKeyVaultAccessPolicy: Policies
 Restore-AzureKeyVaultKey: Key Vault
 Set-AzureKeyVaultCertificateAttribute: Key Vault
 Set-AzureKeyVaultCertificateIssuer: Key Vault
-Set-AzureKeyVaultCertificatePolicy: Key Vault
+Set-AzureKeyVaultCertificatePolicy: Policies
 Set-AzureKeyVaultKeyAttribute: Key Vault
 Set-AzureKeyVaultSecret: Key Vault
 Set-AzureKeyVaultSecretAttribute: Key Vault
-Set-AzureRmKeyVaultAccessPolicy: Key Vault
+Set-AzureRmKeyVaultAccessPolicy: Policies
 Stop-AzureKeyVaultCertificateOperation: Key Vault
 _isModulePage: true
 ---

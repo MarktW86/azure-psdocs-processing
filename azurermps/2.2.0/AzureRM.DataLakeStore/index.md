@@ -20,7 +20,7 @@ Export-AzureRmDataLakeStoreItem: Data Lake
 Get-AzureRmDataLakeStoreAccount: Data Lake
 Get-AzureRmDataLakeStoreChildItem: Data Lake
 Get-AzureRmDataLakeStoreItem: Data Lake
-Get-AzureRmDataLakeStoreItemAcl: Others
+Get-AzureRmDataLakeStoreItemAcl: Data Lake
 Get-AzureRmDataLakeStoreItemContent: Data Lake
 Get-AzureRmDataLakeStoreItemOwner: Data Lake
 Import-AzureRmDataLakeStoreItem: Data Lake
