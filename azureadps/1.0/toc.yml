@@ -1,10 +1,40 @@
 - name: Overview
   href: ../conceptual/1.0/overview.md
   items:
-    - name: Install AzureAD v2
+    - name: Install the Azure AD PowerShell V2 module
       href: ../conceptual/1.0/install-adv2.md
-    - name: Install AzureAD v1(MSonline)
+    - name: Install the MSonline module
       href: ../conceptual/1.0/install-msonlinev1.md
+- name: Sample scripts
+  items:
+    - name: PowerShell scenario examples
+      items:
+        - name: Managing groups in Azure AD
+          href: 'https://docs.microsoft.com/en-us/azure/active-directory/active-directory-accessmanagement-groups-settings-cmdlets'
+        - name: Managing Unified Groups settings using Powershell
+          href: 'https://docs.microsoft.com/en-us/azure/active-directory/active-directory-accessmanagement-groups-settings-v2-cmdlets'
+        - name: Managing Role Based Access Control (RBAC)
+          href: 'https://docs.microsoft.com/en-us/azure/active-directory/role-based-access-control-manage-access-powershell'
+    - name: Powershell script snippets
+      items:
+        - name: Inviting guests in B2B
+          href: 'https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-code-samples#powershell-example'
+    - name: Videos
+      items:
+        - name: Manage dynamic groups with PowerShell
+          href: 'https://channel9.msdn.com/Series/Azure-Active-Directory-Videos-Demos/Managing-dynamic-groups-with-Azure-AD-PowerShell'
+- name: Read more
+  items:
+    - name: Getting started with PowerShell
+      href: 'https://msdn.microsoft.com/powershell/scripting/getting-started/getting-started-with-windows-powershell'
+    - name: PowerShell fundamental concepts
+      href: 'https://msdn.microsoft.com/en-us/powershell/scripting/getting-started/fundamental-concepts'
+    - name: PowerShell setup and installation
+      href: 'https://msdn.microsoft.com/en-us/powershell/scripting/setup/setup-reference'
+    - name: Working with files and folders
+      href: 'https://msdn.microsoft.com/en-us/powershell/scripting/getting-started/cookbooks/working-with-files-and-folders'
+    - name: PowerShellGet module
+      href: 'https://msdn.microsoft.com/powershell/reference/5.1/PowerShellGet/PowerShellGet'
 - name: Reference
   items:
     - name: MSOnline
