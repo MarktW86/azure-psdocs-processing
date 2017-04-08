@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Resources.dll-Help.xml
 ms.assetid: 0C8C07CA-6720-452F-A952-48C76EBF3BBD
 online version:
 schema: 2.0.0
-updated_at: 03/29/2017 18:03 PM
-ms.date: 03/29/2017
+updated_at: 04/07/2017 23:04 PM
+ms.date: 04/07/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Remove-AzureRmADServicePrincipal.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Remove-AzureRmADServicePrincipal.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/1b0e8fcdd474515f4a6eeac956865e25badf43bd
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f3caa0c2a1097fba0625ea37bed92f799e64577a
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -20,7 +20,7 @@ ms.service: azure-resource-manager
 # Remove-AzureRmADServicePrincipal
 
 ## SYNOPSIS
-Deletes the azure Active Directory service principal.
+Removes the Azure Active Directory service principal.
 
 ## SYNTAX
 
@@ -30,23 +30,23 @@ Remove-AzureRmADServicePrincipal -ObjectId <Guid> [-PassThru] [-Force] [-Informa
 ```
 
 ## DESCRIPTION
-Deletes the azure Active Directory service principal.
+The **Remove-AzureRmADServicePrincipal** cmdlet removes the Azure Active Directory service principal.
 
 ## EXAMPLES
 
-### --------------------------  Delete AAD service principal.  --------------------------
+### Example 1: Delete an Azure Active Directory service principal
 
 
 ```
 PS C:\> Remove-AzureRmADServicePrincipal -ObjectId 61b5d8ea-fdc6-40a2-8d5b-ad447c678d45
 ```
 
-Deletes the given azure Active Directory service principal.
+This command removes the given Azure Active Directory service principal.
 
 ## PARAMETERS
 
 ### -ObjectId
-The object id of the service principal to delete.
+Specifies the object ID of the service principal that this cmdlet removes.
 
 ```yaml
 Type: Guid
@@ -115,7 +115,8 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
 
 ```yaml
 Type: SwitchParameter
@@ -145,7 +146,7 @@ Accept wildcard characters: False
 ```
 
 ### -Force
-{{Fill Force Description}}
+Forces the command to run without asking for user confirmation.
 
 ```yaml
 Type: SwitchParameter
@@ -168,12 +169,12 @@ Keywords: azure, azurerm, arm, resource, management, manager, resource, group, t
 
 ## RELATED LINKS
 
-[New-AzureRmADServicePrincipal]()
+[New-AzureRmADServicePrincipal](./New-AzureRmADServicePrincipal.md)
 
-[Get-AzureRmADServicePrincipal]()
+[Get-AzureRmADServicePrincipal](./Get-AzureRmADServicePrincipal.md)
 
-[Set-AzureRmADServicePrincipal]()
+[Set-AzureRmADServicePrincipal](./Set-AzureRmADServicePrincipal.md)
 
-[Remove-AzureRmADApplication]()
+[Remove-AzureRmADApplication](./Remove-AzureRmADApplication.md)
 
-[Remove-AzureRmADAppCredential]()
+[Remove-AzureRmADAppCredential](./Remove-AzureRmADAppCredential.md)

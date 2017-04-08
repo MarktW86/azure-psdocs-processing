@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Resources.dll-Help.xml
 ms.assetid: C61FA834-BEBE-4DBF-888F-C6CB8CC95390
 online version:
 schema: 2.0.0
-updated_at: 04/05/2017 20:04 PM
-ms.date: 04/05/2017
+updated_at: 04/07/2017 23:04 PM
+ms.date: 04/07/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Remove-AzureRmADAppCredential.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Remove-AzureRmADAppCredential.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/bb011806abb24e53f6ce1c29560e8f305bb76ba5
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f3caa0c2a1097fba0625ea37bed92f799e64577a
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -163,7 +163,8 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
 
 ```yaml
 Type: SwitchParameter
@@ -193,7 +194,7 @@ Accept wildcard characters: False
 ```
 
 ### -All
-Switch to remove all the credentials associated with the application.
+Indicates that the cmdlet removes all the credentials associated with the application.
 
 ```yaml
 Type: SwitchParameter
@@ -208,7 +209,7 @@ Accept wildcard characters: False
 ```
 
 ### -ApplicationId
-The id of the application to remove the credentials from.
+Specifies the ID of the application that this cmdlet removes the credentials from.
 
 ```yaml
 Type: String
@@ -230,8 +231,8 @@ Accept wildcard characters: False
 
 ## RELATED LINKS
 
-[Get-AzureRmADAppCredential]()
+[Get-AzureRmADAppCredential](./Get-AzureRmADAppCredential.md)
 
-[New-AzureRmADAppCredential]()
+[New-AzureRmADAppCredential](./New-AzureRmADAppCredential.md)
 
-[Get-AzureRmADApplication]()
+[Get-AzureRmADApplication](./Get-AzureRmADApplication.md)
