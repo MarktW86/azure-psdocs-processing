@@ -1,13 +1,15 @@
 ---
 Module Name: AADRM
 Module Guid: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
+Download Help Link: N/A
+Help Version: 2.9.0.0
 Locale: en-US
 ms.assetid: 0B91D740-D2BD-4D57-9E21-C582C9BE2CCA
-updated_at: 02/13/2017 04:02 AM
-ms.date: 02/13/2017
+updated_at: 04/07/2017 22:04 PM
+ms.date: 04/07/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/RightsManagement.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/RightsManagement.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/6ca3a334d2d345bf1565d13869b0587b50bde3b6
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/3a859d4d1b0769babb945130bf9446cf3d3ff713
 ms.topic: conceptual
 author: cabailey
 ms.author: PowerShellHelpPub
@@ -75,21 +77,21 @@ _isModulePage: true
 
 # AADRM Module
 ## Description
-This topic displays help topics for the cmdlets that administer the Azure Rights Management (Azure RMS) service.
+This topic displays help topics for the cmdlets that administer the Azure Rights Management (Azure RMS) service for Azure Information Protection.
 
-These PowerShell cmdlets for Azure RMS let you administer the Azure Rights Management service from the command line. Although this enables automation, it also supports reliable and repeated processes to help reduce administrative overheads. In addition,  advanced configurations and some operations require PowerShell.
+These PowerShell cmdlets for Azure RMS let you administer the Azure Rights Management service from the command line. Although this enables automation, it also supports reliable and repeated processes to help reduce administrative overheads. In addition, advanced configurations and some operations require PowerShell.
 
-For more information about when you must use these PowerShell cmdlets and to see groupings of cmdlets by administration tasks, see [Administering Azure Rights Management by Using Windows PowerShell](https://technet.microsoft.com/library/jj585027.aspx).
+For more information about when you must use these PowerShell cmdlets and to see groupings of cmdlets by administration tasks, see [Administering the Azure Rights Management service by Using Windows PowerShell](/information-protection/deploy-use/administer-powershell).
 
 >**Tip**
 >
->If you do not see the cmdlet or options that are documented, make sure that you have [downloaded the latest version of the module](https://technet.microsoft.com/library/jj585012.aspx).
+>If you do not see the cmdlet or options that are documented, make sure that you have [downloaded the latest version of the module](/information-protection/deploy-use/install-powershell).
 >
->The current version is **2.7.0.0**. To check the version you have installed, run: (Get-Module aadrm -ListAvailable).Version
+>The current version is **2.9.0.0**. To check the version you have installed, run: (Get-Module aadrm -ListAvailable).Version
 
 The .dll file for this module is *Microsoft.RightsManagementServices.Online.Admin.PowerShell.dll*.
 
-## Azure Rights Management Cmdlets
+## Azure Rights Management cmdlets
 ### [Add-AadrmKey](./Add-AadrmKey.md)
 Adds a legacy customer-managed tenant key for Rights Management, and makes it the active key.
 
@@ -280,6 +282,10 @@ Removes a super user from Rights Management.
 
 ### [Remove-AadrmTemplate](./Remove-AadrmTemplate.md)
 Deletes a Rights Management rights policy template.
+
+
+### [Set-​Aadrm​Key​Properties](./Set-Aadrm​Key​Properties.md)
+Updates the properties of a tenant key object for Rights Management.
 
 
 ### [Set-AadrmMaxUseLicenseValidityTime](./Set-AadrmMaxUseLicenseValidityTime.md)
