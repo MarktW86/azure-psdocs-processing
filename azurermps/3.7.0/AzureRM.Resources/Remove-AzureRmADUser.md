@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Resources.dll-Help.xml
 ms.assetid: 9F9B2691-BB3F-4644-BD95-6D74777D1E99
 online version:
 schema: 2.0.0
-updated_at: 03/28/2017 19:03 PM
-ms.date: 03/28/2017
+updated_at: 04/09/2017 23:04 PM
+ms.date: 04/09/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Remove-AzureRmADUser.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Remove-AzureRmADUser.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/26f9c2e427e255459b9a3cbc5605a773bb3666e1
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7c9d4e19541cebeff216033013f52beaa31c8327
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -20,7 +20,7 @@ ms.service: azure-resource-manager
 # Remove-AzureRmADUser
 
 ## SYNOPSIS
-Deletes an Active Directory user.
+Removes an Active Directory user.
 
 ## SYNTAX
 
@@ -30,16 +30,11 @@ Remove-AzureRmADUser -UPNOrObjectId <String> [-Force] [-InformationAction <Actio
 ```
 
 ## DESCRIPTION
-Deletes an Active Directory user (work/school account also popularly known as org-id).
+The **Remove-AzureRmADUser** cmdlet removes an Active Directory user (work/school account also popularly known as org-id).
 
 ## EXAMPLES
 
 ### Example 1
-```
-PS C:\> {{ Add example code here }}
-```
-
-{{ Add example description here }}
 
 ## PARAMETERS
 
@@ -59,7 +54,7 @@ Accept wildcard characters: False
 ```
 
 ### -Force
-If specified, doesn't ask for confirmation for deleting user.
+Forces the command to run without asking for user confirmation.
 
 ```yaml
 Type: SwitchParameter
@@ -113,7 +108,8 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
 
 ```yaml
 Type: SwitchParameter
@@ -150,9 +146,8 @@ Accept wildcard characters: False
 
 ## RELATED LINKS
 
-[New-AzureRmADUser]()
+[Get-AzureRmADUser](./Get-AzureRmADUser.md)
 
-[Get-AzureRmADUser]()
+[New-AzureRmADUser](./New-AzureRmADUser.md)
 
-[Set-AzureRmADUser]()
-
+[Set-AzureRmADUser](.Set-AzureRmADUser.md)

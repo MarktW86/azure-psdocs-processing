@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Cmdlets.dll-Help.xm
 ms.assetid: 36399302-3EA5-45A3-A042-536CC7EC2E6D
 online version:
 schema: 2.0.0
-updated_at: 03/22/2017 18:03 PM
-ms.date: 03/22/2017
+updated_at: 04/09/2017 23:04 PM
+ms.date: 04/09/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Remove-AzureRmPolicyAssignment.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Remove-AzureRmPolicyAssignment.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/978fea11e9306c3006c774f266118967e26b616f
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7c9d4e19541cebeff216033013f52beaa31c8327
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -49,7 +49,7 @@ PS C:\> $ResourceGroup = Get-AzureRmResourceGroup -Name "ResourceGroup11"
 PS C:\> Remove-AzureRmPolicyAssignment -Name "PolicyAssignment07" -Scope $ResourceGroup.ResourceId -Force
 ```
 
-The first command gets a resource group named ResourceGroup11 by using the Get-AzureRMResourceGroup cmdlet.
+The first command gets a resource group named ResourceGroup11 by using the [Get-AzureRMResourceGroup](./Get-AzureRMResourceGroup.md) cmdlet.
 The command stores that object in the $ResourceGroup variable.
 
 The second command removes the policy assignment named PolicyAssignment07 that was assigned at a resource group level.
@@ -233,5 +233,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-AzureRmPolicyAssignment](./New-AzureRmPolicyAssignment.md)
 
 [Set-AzureRmPolicyAssignment](./Set-AzureRmPolicyAssignment.md)
-
-

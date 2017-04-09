@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Cmdlets.dll-Help.xm
 ms.assetid: DEC01722-EB1A-45CE-BD30-9DB861718573
 online version:
 schema: 2.0.0
-updated_at: 03/22/2017 18:03 PM
-ms.date: 03/22/2017
+updated_at: 04/09/2017 23:04 PM
+ms.date: 04/09/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Remove-AzureRmPolicyDefinition.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Remove-AzureRmPolicyDefinition.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/978fea11e9306c3006c774f266118967e26b616f
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7c9d4e19541cebeff216033013f52beaa31c8327
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -56,7 +56,7 @@ PS C:\> $PolicyDefinition = Get-AzureRmPolicyDefinition -Name "VMPolicyDefinitio
 PS C:\> Remove-AzureRmPolicyDefinition -Id $PolicyDefinition.ResourceId -Force
 ```
 
-The first command gets a policy definition named VMPolicyDefinition by using the Get-AzureRmPolicyDefinition cmdlet.
+The first command gets a policy definition named VMPolicyDefinition by using the [Get-AzureRmPolicyDefinition](./Get-AzureRmPolicyDefinition.md) cmdlet.
 The command stores it in the $PolicyDefinition variable.
 
 The second command removes the policy definition identified by the **ResourceId** property of $PolicyDefinition.
@@ -225,5 +225,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [New-AzureRmPolicyDefinition](./New-AzureRmPolicyDefinition.md)
 
 [Set-AzureRmPolicyDefinition](./Set-AzureRmPolicyDefinition.md)
-
-
