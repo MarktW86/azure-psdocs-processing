@@ -1200,8 +1200,8 @@
           href: AzureRM.EventHub/Set-AzureRmEventHubNamespace.md
         - name: Set-AzureRmEventHubNamespaceAuthorizationRule
           href: AzureRM.EventHub/Set-AzureRmEventHubNamespaceAuthorizationRule.md
-    - name: Express Route
-      href: 'AzureRM.Network/index.md#express_route'
+    - name: ExpressRoute
+      href: 'AzureRM.Network/index.md#expressroute'
       items:
         - name: Add-AzureRmExpressRouteCircuitAuthorization
           href: AzureRM.Network/Add-AzureRmExpressRouteCircuitAuthorization.md
