@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Resources.dll-Help.xml
 ms.assetid: 9F9B2691-BB3F-4644-BD95-6D74777D1E99
 online version:
 schema: 2.0.0
-updated_at: 04/09/2017 23:04 PM
-ms.date: 04/09/2017
+updated_at: 04/10/2017 20:04 PM
+ms.date: 04/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Remove-AzureRmADUser.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Remove-AzureRmADUser.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7c9d4e19541cebeff216033013f52beaa31c8327
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e668a416cbf384e95e38cd702d8ade05f16dd7a3
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -34,7 +34,6 @@ The **Remove-AzureRmADUser** cmdlet removes an Active Directory user (work/schoo
 
 ## EXAMPLES
 
-### Example 1
 
 ## PARAMETERS
 
