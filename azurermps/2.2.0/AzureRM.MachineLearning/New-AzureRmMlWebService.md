@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.MachineLearning.dll-Help.xml
 online version:
 schema: 2.0.0
 ms.assetid: 88A324F0-6B2F-49DF-BB56-CF941A6291F8
-updated_at: 11/22/2016 20:11 PM
-ms.date: 11/22/2016
+updated_at: 04/10/2017 23:04 PM
+ms.date: 04/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.MachineLearning/v0.10.0/New-AzureRmMlWebService.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.MachineLearning/v0.10.0/New-AzureRmMlWebService.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0cedc8f73bc96cf5ac4c69144e17b3de601fd3cc
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d18f518159d52c69698a2fd41a05b68025d1fbbe
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -135,7 +135,7 @@ Accept wildcard characters: False
 
 ### -DefinitionFile
 Specifies the path to a file on disk containing the definition of the web service resource, in JSON format.
-You can find the latest specification for the web service definition in the swagger specification file under https://github.com/Azure/azure-rest-api-specs/tree/master/arm-machinelearninghttps://github.com/Azure/azure-rest-api-specs/tree/master/arm-machinelearning(https://github.com/Azure/azure-rest-api-specs/tree/master/arm-machinelearning).
+You can find the latest specification for the web service definition in the swagger specification file under https://github.com/Azure/azure-rest-api-specs/tree/master/arm-machinelearning.
 
 ```yaml
 Type: String
