@@ -1,11 +1,9 @@
 ---
-external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.dll-Help.xml
-online version: http://go.microsoft.com/fwlink/?LinkId=400592
-schema: 2.0.0
+title: Add-AadrmKey-retired| Microsoft Docs
 ms.assetid: A1C99424-D986-4A5A-B2E1-6D18EEF11B21
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/docs-conceptual/Add-AadrmKey.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/docs-conceptual/Add-AadrmKey.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/fb68e01d57639d9d5844de3c8d2f07b455d61246
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/5e7b111d0f17da08e015af25bbaa4459696becf3
 open_to_public_contributors: false
 ---
 
