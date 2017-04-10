@@ -7,7 +7,7 @@ updated_at: 04/10/2017 23:04 PM
 ms.date: 04/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.MachineLearning/v0.10.0/New-AzureRmMlWebService.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.MachineLearning/v0.10.0/New-AzureRmMlWebService.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d18f518159d52c69698a2fd41a05b68025d1fbbe
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/8242b3403d4465ffd7d433212981103562b5d3e0
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -152,7 +152,7 @@ Accept wildcard characters: False
 ### -NewWebServiceDefinition
 Specifies the definition of the web service resource, that contains all the properties that make up the service.
 This parameter is required and represents an instance of the **Microsoft.Azure.Management.MachineLearning.WebServices.Models.WebService** class.
-You can find the latest specification for the web service definition in the swagger specification under https://github.com/Azure/azure-rest-api-specs/blob/master/arm-machinelearning/2016-05-01-preview/swagger/webservices.json.https://github.com/Azure/azure-rest-api-specs/blob/master/arm-machinelearning/2016-05-01-preview/swagger/webservices.json (https://github.com/Azure/azure-rest-api-specs/blob/master/arm-machinelearning/2016-05-01-preview/swagger/webservices.json).
+You can find the latest specification for the web service definition in the swagger specification under https://github.com/Azure/azure-rest-api-specs/blob/master/arm-machinelearning/2016-05-01-preview/swagger/webservices.
 This parameter can come from a pipeline.
 
 ```yaml
