@@ -134,6 +134,38 @@
           "**/*.yml",
           "**/*.md"
         ],
+        "src": "azurermps/3.8.0",
+        "version": "azurermps-3.8.0",
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE"
+        ],
+        "dest": "module"
+      },
+      {
+        "files": [
+          "**/*.yml",
+          "**/*.md"
+        ],
+        "src": "azurermps/conceptual/3.8.0",
+        "version": "azurermps-3.8.0",
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE"
+        ],
+        "dest": "azure"
+      },
+      {
+        "files": [
+          "**/*.yml",
+          "**/*.md"
+        ],
         "src": "azuresmps/3.7.0",
         "version": "azuresmps-3.7.0",
         "exclude": [
@@ -374,6 +406,9 @@
         "dest": "azurermps-2.2.0"
       },
       "azurermps-3.7.0": {
+        "dest": "azurermps-3.7.0"
+      },
+      "azurermps-3.8.0": {
         "dest": "azurermps-3.7.0"
       },
       "azuresmps-3.7.0": {
