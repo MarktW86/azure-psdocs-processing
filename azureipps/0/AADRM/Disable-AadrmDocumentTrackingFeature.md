@@ -3,11 +3,11 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkId=623032
 schema: 2.0.0
 ms.assetid: 5C8ED12E-4A84-446E-962F-5E886CB40DF9
-updated_at: 02/16/2017 16:02 PM
-ms.date: 02/16/2017
+updated_at: 04/10/2017 16:04 PM
+ms.date: 04/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Disable-AadrmDocumentTrackingFeature.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Disable-AadrmDocumentTrackingFeature.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/572fba461b5027bfccd8712f78d52c7a02e88f01
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/fb68e01d57639d9d5844de3c8d2f07b455d61246
 ms.topic: reference
 author: cabailey
 ms.author: PowerShellHelpPub
@@ -115,4 +115,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 [Get-AadrmDocumentTrackingFeature](./Get-AadrmDocumentTrackingFeature.md)
 
-[RMS sharing application](https://docs.microsoft.com/rights-management/rms-client/sharing-app-track-revoke)

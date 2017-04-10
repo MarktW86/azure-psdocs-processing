@@ -3,11 +3,11 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: https://go.microsoft.com/fwlink/?LinkId=846352
 schema: 2.0.0
 ms.assetid: 7b1adf8c-d7a6-42f6-9010-4cc45308691c
-updated_at: 04/07/2017 19:04 PM
-ms.date: 04/07/2017
+updated_at: 04/08/2017 17:04 PM
+ms.date: 04/08/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Set-AadrmKeyProperties.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Set-AadrmKeyProperties.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/f6be353bf4ac2c459e7552671068c5368200c35c
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/a36d9eb46c5104638c0b5d48f6f8f019333c0bcd
 ms.topic: reference
 author: cabailey
 ms.author: PowerShellHelpPub
@@ -20,7 +20,7 @@ ms.service: rights-management
 # Set-AadrmKeyProperties
 
 ## SYNOPSIS
-Edit the properties of a tenant key object for Rights Management.
+Updates the properties of a tenant key object for Rights Management.
 
 ## SYNTAX
 
