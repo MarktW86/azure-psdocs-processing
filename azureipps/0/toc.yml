@@ -5,8 +5,6 @@
     - name: AADRM
       href: 'AADRM/index.md#aadrm'
       items:
-        - name: Add-AadrmKey
-          href: AADRM/Add-AadrmKey.md
         - name: Add-AadrmRoleBasedAdministrator
           href: AADRM/Add-AadrmRoleBasedAdministrator.md
         - name: Add-AadrmSuperUser
@@ -101,6 +99,8 @@
           href: AADRM/Remove-AadrmSuperUser.md
         - name: Remove-AadrmTemplate
           href: AADRM/Remove-AadrmTemplate.md
+        - name: Set-AadrmKeyProperties
+          href: AADRM/Set-AadrmKeyProperties.md
         - name: Set-AadrmMaxUseLicenseValidityTime
           href: AADRM/Set-AadrmMaxUseLicenseValidityTime.md
         - name: Set-AadrmMigrationUrl

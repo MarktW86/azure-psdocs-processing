@@ -15,31 +15,31 @@ keywords: powershell, cmdlet
 manager: erickson-doug
 open_to_public_contributors: true
 ms.service: monitoring-alerts
-Add-AzureRmAutoscaleSetting: Insights
-Add-AzureRmLogAlertRule: Insights
-Add-AzureRmLogProfile: Insights
-Add-AzureRmMetricAlertRule: Insights
-Add-AzureRmWebtestAlertRule: Insights
-Get-AzureRmAlertHistory: Insights
-Get-AzureRmAlertRule: Insights
-Get-AzureRmAutoscaleHistory: Insights
-Get-AzureRmAutoscaleSetting: Insights
-Get-AzureRmDiagnosticSetting: Insights
-Get-AzureRmLog: Insights
-Get-AzureRmLogProfile: Insights
-Get-AzureRmMetric: Insights
-Get-AzureRmMetricDefinition: Insights
-Get-AzureRmUsage: Insights
-New-AzureRmAlertRuleEmail: Insights
-New-AzureRmAlertRuleWebhook: Insights
-New-AzureRmAutoscaleNotification: Insights
-New-AzureRmAutoscaleProfile: Insights
-New-AzureRmAutoscaleRule: Insights
-New-AzureRmAutoscaleWebhook: Insights
-Remove-AzureRmAlertRule: Insights
-Remove-AzureRmAutoscaleSetting: Insights
-Remove-AzureRmLogProfile: Insights
-Set-AzureRmDiagnosticSetting: Insights
+Add-AzureRmAutoscaleSetting: HD Insights
+Add-AzureRmLogAlertRule: HD Insights
+Add-AzureRmLogProfile: HD Insights
+Add-AzureRmMetricAlertRule: HD Insights
+Add-AzureRmWebtestAlertRule: HD Insights
+Get-AzureRmAlertHistory: HD Insights
+Get-AzureRmAlertRule: HD Insights
+Get-AzureRmAutoscaleHistory: HD Insights
+Get-AzureRmAutoscaleSetting: HD Insights
+Get-AzureRmDiagnosticSetting: HD Insights
+Get-AzureRmLog: HD Insights
+Get-AzureRmLogProfile: HD Insights
+Get-AzureRmMetric: HD Insights
+Get-AzureRmMetricDefinition: HD Insights
+Get-AzureRmUsage: HD Insights
+New-AzureRmAlertRuleEmail: HD Insights
+New-AzureRmAlertRuleWebhook: HD Insights
+New-AzureRmAutoscaleNotification: HD Insights
+New-AzureRmAutoscaleProfile: HD Insights
+New-AzureRmAutoscaleRule: HD Insights
+New-AzureRmAutoscaleWebhook: HD Insights
+Remove-AzureRmAlertRule: HD Insights
+Remove-AzureRmAutoscaleSetting: HD Insights
+Remove-AzureRmLogProfile: HD Insights
+Set-AzureRmDiagnosticSetting: HD Insights
 _isModulePage: true
 ---
 

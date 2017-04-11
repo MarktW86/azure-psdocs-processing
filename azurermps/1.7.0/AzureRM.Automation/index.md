@@ -34,7 +34,7 @@ Get-AzureRmAutomationDscOnboardingMetaconfig: Automation
 Get-AzureRMAutomationHybridWorkerGroup: Automation
 Get-AzureRMAutomationJob: Automation
 Get-AzureRMAutomationJobOutput: Automation
-Get-AzureRmAutomationJobOutputRecord: Automation
+Get-AzureRmAutomationJobOutputRecord: Others
 Get-AzureRmAutomationModule: Automation
 Get-AzureRmAutomationRegistrationInfo: Automation
 Get-AzureRMAutomationRunbook: Automation
@@ -63,8 +63,8 @@ Remove-AzureRMAutomationCertificate: Automation
 Remove-AzureRMAutomationConnection: Automation
 Remove-AzureRmAutomationConnectionType: Automation
 Remove-AzureRMAutomationCredential: Automation
-Remove-AzureRmAutomationDscConfiguration: Automation
-Remove-AzureRmAutomationDscNodeConfiguration: Automation
+Remove-AzureRmAutomationDscConfiguration: Others
+Remove-AzureRmAutomationDscNodeConfiguration: Others
 Remove-AzureRmAutomationModule: Automation
 Remove-AzureRMAutomationRunbook: Automation
 Remove-AzureRMAutomationSchedule: Automation

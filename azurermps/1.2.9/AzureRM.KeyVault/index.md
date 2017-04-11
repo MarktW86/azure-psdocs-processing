@@ -23,12 +23,12 @@ New-AzureRmKeyVault: Key Vault
 Remove-AzureKeyVaultKey: Key Vault
 Remove-AzureKeyVaultSecret: Key Vault
 Remove-AzureRmKeyVault: Key Vault
-Remove-AzureRmKeyVaultAccessPolicy: Key Vault
+Remove-AzureRmKeyVaultAccessPolicy: Policies
 Restore-AzureKeyVaultKey: Key Vault
 Set-AzureKeyVaultKeyAttribute: Key Vault
 Set-AzureKeyVaultSecret: Key Vault
 Set-AzureKeyVaultSecretAttribute: Key Vault
-Set-AzureRmKeyVaultAccessPolicy: Key Vault
+Set-AzureRmKeyVaultAccessPolicy: Policies
 _isModulePage: true
 ---
 

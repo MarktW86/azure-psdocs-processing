@@ -3,11 +3,11 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: https://go.microsoft.com/fwlink/?LinkId=521420
 schema: 2.0.0
 ms.assetid: CA482DE6-8575-4161-AD19-97F8A6C87605
-updated_at: 02/12/2017 21:02 PM
-ms.date: 02/12/2017
+updated_at: 04/07/2017 22:04 PM
+ms.date: 04/07/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Import-AadrmTpd.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Import-AadrmTpd.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/e4c765ba645ee6c466dd1ff7182695aa9e59fb44
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/02cdbe2d004a2fd2b0a3b16e23caa37400c532a4
 ms.topic: reference
 author: cabailey
 ms.author: PowerShellHelpPub
@@ -26,34 +26,28 @@ Imports a TPD from AD RMS for Rights Management.
 
 ```
 Import-AadrmTpd [-Force] -TpdFile <String> -ProtectionPassword <SecureString> [-HsmKeyFile <String>]
- -Active <Boolean> [-KeyVaultKeyUrl <String>] [-WhatIf] [-Confirm] [<CommonParameters>]
+ [-FriendlyName <String>] [-KeyVaultKeyUrl <String>] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-The **Import-AadrmTpd** cmdlet imports an Active Directory Rights Management Services (AD RMS) trusted publishing domain (TPD) over the Internet into your tenant for Azure Rights Management so that you can migrate Rights Management from on-premises to the cloud.
+The **Import-AadrmTpd** cmdlet imports an Active Directory Rights Management Services (AD RMS) trusted publishing domain (TPD) over the Internet into your tenant for the Azure Rights Management service so that you can migrate Rights Management from on-premises to the cloud. The TPD contains your private key and RMS templates.
 
 You must use PowerShell to configure your tenant key; you cannot do this configuration by using a management portal.
 
-This cmdlet sets the TPD to an active or archived state. The TPD contains your private key and RMS templates.
+This cmdlet always sets the key from the imported TPD to an archived state. After you run this command, the key in the imported TPD becomes available to Azure Rights Management to consume content that AD RMS protected by using this key. Use the [Set-AadrmKeyProperties](./Set-AadrmKeyProperties.md) cmdlet to change the state of the imported TPD to Active.
 
-Active means that Rights Management uses the TPD key to protect all new content. The TPD key is now the Azure RMS tenant key.After import is successful, the previously active TPD becomes archived.
-
-Warning: Do not run this cmdlet unless you have read and understood the requirements, restrictions, instructions, and implications of migrating from AD RMS to Azure Rights Management. For more information, see [Migrating from AD RMS to Azure RMS](https://docs.microsoft.com/rights-management/plan-design/migrate-from-ad-rms-to-azure-rms) (https://docs.microsoft.com/rights-management/plan-design/migrate-from-ad-rms-to-azure-rms) on the Microsoft documentation site.
-
-After you run this command, the key in the imported TPD becomes available to Azure Rights Management to consume content that AD RMS protected by using this key.
-
-If the TPD is active, users in your organization begin to use the new Azure RMS tenant TPD to protect documents. Existing users do not start to use the new keys until they are reactivated.
+Warning: Do not run this cmdlet unless you have read and understood the requirements, restrictions, instructions, and implications of migrating from AD RMS. For more information, see [Migrating from AD RMS to Azure Information Protection](/information-protection/plan-design/migrate-from-ad-rms-to-azure-rms).
 
 If you migrate templates from your AD RMS as active, you can edit these templates in the Azure classic portal. You can publish these templates so that users can select them from applications. If the migrated templates are not activated, they can only be used to open documents that they previously protected.
 
-You must use the AD RMS management console to export the TPD. If you use a hardware security module (HSM) for your keys, you must first repackage the TPD keys by using the Azure Key Vault BYOK tools. You can download these tools from the [Microsoft Download Site](http://www.microsoft.com/download/details.aspx?id=45345) (http://www.microsoft.com/download/details.aspx?id=45345) For more information, see [How to generate and transfer HSM-protected keys for Azure Key Vault](https://azure.microsoft.com/documentation/articles/key-vault-hsm-protected-keys/) (https://azure.microsoft.com/documentation/articles/key-vault-hsm-protected-keys/).
+You must use the AD RMS management console to export the TPD. If you use a hardware security module (HSM) for your keys, you must first repackage the TPD keys by using the Azure Key Vault BYOK tools. You can download these tools from the [Microsoft Download Site](http://www.microsoft.com/download/details.aspx?id=45345). For more information, see [How to generate and transfer HSM-protected keys for Azure Key Vault](/azure/key-vault/key-vault-hsm-protected-keys).
 
 ## EXAMPLES
 
 ### Example 1: Import TPD with a software key
 ```
 PS C:\>$Password = Read-Host -AsSecureString -Prompt "Password: "
-PS C:\> Import-AadrmTpd -TpdFile "C:\rms_tpd.xml" -ProtectionPassword $Password -Active $True -Verbose
+PS C:\> Import-AadrmTpd -TpdFile "C:\rms_tpd.xml" -ProtectionPassword $Password -Verbose
 ```
 
 The first command creates a password as a secure string by using the **Read-Host** cmdlet, and then stores the secure string in the $Password variable. For more information, type `Get-Help Read-Host`.
@@ -63,35 +57,16 @@ The second command imports a TPD with a software key.
 ### Example 2: Import TPD with an HSM key
 ```
 PS C:\>$Password = Read-Host -AsSecureString -Prompt "Password: "
-PS C:\> Import-AadrmTpd -TpdFile "C:\no_key_tpd.xml" -ProtectionPassword $Password -KeyVaultKeyUrl "https://contoso-byok-kv.vault.azure.net/keys/contosorms-byok/aaaabbbbcccc111122223333"-Active $True -Verbose
+PS C:\> Import-AadrmTpd -TpdFile "C:\no_key_tpd.xml" -ProtectionPassword $Password -KeyVaultKeyUrl "https://contoso-byok-kv.vault.azure.net/keys/contosorms-byok/aaaabbbbcccc111122223333" -FriendlyName "Contoso BYOK key" -Verbose
 ```
 
 The first command creates a password as a secure string, and then stores the secure string in the $Password variable.
 
-The second command imports a TPD to be used with a key that is stored in Azure Key Vault.
+The second command imports a TPD to be used with a key that is stored in Azure Key Vault. Additionaly command changes friendly name of the key to Contoso BYOK key.
 
 Our example uses the key vault name of contoso-byok-kv, the key name of contosorms-byok, and the version number of aaaabbbbcccc111122223333.
 
 ## PARAMETERS
-
-### -Active
-Specifies whether to upload migrated TPD as active or archived.
-
-Specify a value of $True to set the TPD to be active. Users in your organization begin to use the new TPD to help protect documents. Existing users do not start to use the new keys until they are reactivated.
-
-If you migrate templates from your AD RMS as active, then you can edit these templates in the Azure classic portal and activate them for use. Otherwise you can use these templates only to open documents that they previously protected.
-
-```yaml
-Type: Boolean
-Parameter Sets: (All)
-Aliases:
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName, ByValue)
-Accept wildcard characters: False
-```
 
 ### -Force
 Forces the command to run without asking for user confirmation.
@@ -108,10 +83,27 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -HsmKeyFile
-Specifies the packaged legacy HSM file that was prepared by using the Azure RMS BYOK tools to upload to your tenant key over the Internet
+### -FriendlyName
+Specifies the friendly name of a trusted publishing domain (TPD) and the SLC key that you imported from AD RMS. If users run Office 2016 or Office 2013, specify the same **Friendly name** value that is set for the AD RMS cluster properties on the **Server Certificate** tab.
 
-This parameter is deprecated now that Azure RMS BYOK supports Azure Key Vault, and this parameter is replaced with *KeyVaultKeyUrl*.
+This parameter is optional. If you don't use it, the key identifier is used instead.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases:
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName, ByValue)
+Accept wildcard characters: False
+```
+
+### -HsmKeyFile
+Specifies the packaged legacy HSM file that was prepared by using the Azure RMS BYOK tools to upload to your tenant key over the Internet.
+
+This parameter is deprecated now that the Azure Rights Management service supports Azure Key Vault, and this parameter is replaced with *KeyVaultKeyUrl*.
 
 If this parameter and the *KeyVaultKeyUrl* parameter are both supplied, this parameter is ignored.
 
@@ -128,7 +120,7 @@ Accept wildcard characters: False
 ```
 
 ### -KeyVaultKeyUrl
-Specifies the URL of the key in Azure Key Vault that you want to use for the Azure RMS tenant key. This key will be used in Azure RMS as the root key for all cryptographic operations for your Azure RMS tenant.
+Specifies the URL of the key in Azure Key Vault that you want to use for your tenant key. This key will be used by the Azure Rights Management service as the root key for all cryptographic operations for your tenant.
 
 ```yaml
 Type: String
@@ -168,7 +160,7 @@ Accept wildcard characters: False
 ```
 
 ### -TpdFile
-Specifies the TPD file exported from your AD RMS server to import to your Azure Rights Management tenant over the Internet.
+Specifies the TPD file exported from your AD RMS server to import to your tenant to use for the Azure Rights Management service.
 
 ```yaml
 Type: String
@@ -223,6 +215,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Migrating from AD RMS to Azure RMS](https://docs.microsoft.com/rights-management/plan-design/migrate-from-ad-rms-to-azure-rms)
+[Set-AadrmKeyProperties](./Set-AadrmKeyProperties.md)
 
-[How to generate and transfer HSM-protected keys for Azure Key Vault](https://azure.microsoft.com/documentation/articles/key-vault-hsm-protected-keys/)
+[Migrating from AD RMS to Azure Information Protection](/information-protection/plan-design/migrate-from-ad-rms-to-azure-rms)
+
+[How to generate and transfer HSM-protected keys for Azure Key Vault](/azure/key-vault/key-vault-hsm-protected-keys)

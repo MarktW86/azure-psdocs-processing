@@ -17,27 +17,27 @@ ms.service: hdinsight
 Add-AzureRmHDInsightConfigValues: HD Insights
 Add-AzureRmHDInsightMetastore: HD Insights
 Add-AzureRmHDInsightScriptAction: HD Insights
-Add-AzureRmHDInsightStorage: HD Insights
+Add-AzureRmHDInsightStorage: Storage
 Get-AzureRmHDInsightCluster: HD Insights
 Get-AzureRmHDInsightJob: HD Insights
 Get-AzureRmHDInsightJobOutput: HD Insights
 Get-AzureRmHDInsightProperties: HD Insights
 Grant-AzureRmHDInsightHttpServicesAccess: HD Insights
 Grant-AzureRmHDInsightRdpServicesAccess: HD Insights
-Invoke-AzureRmHDInsightHiveJob: HD Insights
+Invoke-AzureRmHDInsightHiveJob: Others
 New-AzureHDInsightClusterIdentity: Others
 New-AzureRmHDInsightCluster: HD Insights
 New-AzureRmHDInsightClusterConfig: HD Insights
 New-AzureRmHDInsightHiveJobDefinition: HD Insights
 New-AzureRmHDInsightMapReduceJobDefinition: HD Insights
 New-AzureRmHDInsightPigJobDefinition: HD Insights
-New-AzureRmHDInsightSqoopJobDefinition: HD Insights
+New-AzureRmHDInsightSqoopJobDefinition: Others
 New-AzureRmHDInsightStreamingMapReduceJobDefinition: HD Insights
 Remove-AzureRmHDInsightCluster: HD Insights
 Revoke-AzureRmHDInsightHttpServicesAccess: HD Insights
 Revoke-AzureRmHDInsightRdpServicesAccess: HD Insights
 Set-AzureRmHDInsightClusterSize: HD Insights
-Set-AzureRmHDInsightDefaultStorage: HD Insights
+Set-AzureRmHDInsightDefaultStorage: Storage
 Start-AzureRmHDInsightJob: HD Insights
 Stop-AzureRmHDInsightJob: HD Insights
 Use-AzureRmHDInsightCluster: HD Insights

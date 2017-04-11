@@ -19,7 +19,7 @@ Add-AzureRmHDInsightClusterIdentity: HD Insights
 Add-AzureRmHDInsightConfigValues: HD Insights
 Add-AzureRmHDInsightMetastore: HD Insights
 Add-AzureRmHDInsightScriptAction: HD Insights
-Add-AzureRmHDInsightStorage: HD Insights
+Add-AzureRmHDInsightStorage: Storage
 Get-AzureRmHDInsightCluster: HD Insights
 Get-AzureRmHDInsightJob: HD Insights
 Get-AzureRmHDInsightJobOutput: HD Insights
@@ -40,7 +40,7 @@ Remove-AzureRmHDInsightPersistedScriptAction: HD Insights
 Revoke-AzureRmHDInsightHttpServicesAccess: HD Insights
 Revoke-AzureRmHDInsightRdpServicesAccess: HD Insights
 Set-AzureRmHDInsightClusterSize: HD Insights
-Set-AzureRmHDInsightDefaultStorage: HD Insights
+Set-AzureRmHDInsightDefaultStorage: Storage
 Set-AzureRmHDInsightPersistedScriptAction: HD Insights
 Start-AzureRmHDInsightJob: HD Insights
 Stop-AzureRmHDInsightJob: HD Insights

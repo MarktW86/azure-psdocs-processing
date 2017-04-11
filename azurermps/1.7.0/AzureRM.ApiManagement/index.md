@@ -18,13 +18,13 @@ manager: erickson-doug
 open_to_public_contributors: true
 ms.service: api-Management
 Add-AzureRmApiManagementRegion: API Management
-Backup-AzureRmApiManagement: API Management
+Backup-AzureRmApiManagement: Backup
 Get-AzureRmApiManagement: API Management
 Get-AzureRmApiManagementSsoToken: API Management
 Import-AzureRmApiManagementHostnameCertificate: API Management
 New-AzureRmApiManagement: API Management
 New-AzureRmApiManagementHostnameConfiguration: API Management
-New-AzureRmApiManagementVirtualNetwork: API Management
+New-AzureRmApiManagementVirtualNetwork: Networking
 Remove-AzureRmApiManagement: API Management
 Remove-AzureRmApiManagementRegion: API Management
 Restore-AzureRmApiManagement: API Management

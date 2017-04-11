@@ -14,35 +14,35 @@ keywords: powershell, cmdlet
 manager: erickson-doug
 open_to_public_contributors: true
 ms.service: Websites
-Get-AzureRmAppServicePlan: App Service
-Get-AzureRmAppServicePlanMetrics: App Service
-Get-AzureRmWebApp: App Service
-Get-AzureRmWebAppCertificate: App Service
-Get-AzureRmWebAppMetrics: App Service
-Get-AzureRmWebAppPublishingProfile: App Service
-Get-AzureRmWebAppSlot: App Service
-Get-AzureRmWebAppSlotMetrics: App Service
-Get-AzureRmWebAppSlotPublishingProfile: App Service
-Get-AzureRmWebAppSSLBinding: App Service
-New-AzureRmAppServicePlan: App Service
-New-AzureRmWebApp: App Service
-New-AzureRmWebAppSlot: App Service
-New-AzureRmWebAppSSLBinding: App Service
-Remove-AzureRmAppServicePlan: App Service
-Remove-AzureRmWebApp: App Service
-Remove-AzureRmWebAppSlot: App Service
-Remove-AzureRmWebAppSSLBinding: App Service
-Reset-AzureRmWebAppPublishingProfile: App Service
-Reset-AzureRmWebAppSlotPublishingProfile: App Service
-Restart-AzureRmWebApp: App Service
-Restart-AzureRmWebAppSlot: App Service
-Set-AzureRmAppServicePlan: App Service
-Set-AzureRmWebApp: App Service
-Set-AzureRmWebAppSlot: App Service
-Start-AzureRmWebApp: App Service
-Start-AzureRmWebAppSlot: App Service
-Stop-AzureRmWebApp: App Service
-Stop-AzureRmWebAppSlot: App Service
+Get-AzureRmAppServicePlan: Others
+Get-AzureRmAppServicePlanMetrics: Others
+Get-AzureRmWebApp: Others
+Get-AzureRmWebAppCertificate: Others
+Get-AzureRmWebAppMetrics: Others
+Get-AzureRmWebAppPublishingProfile: Others
+Get-AzureRmWebAppSlot: Others
+Get-AzureRmWebAppSlotMetrics: Others
+Get-AzureRmWebAppSlotPublishingProfile: Others
+Get-AzureRmWebAppSSLBinding: Others
+New-AzureRmAppServicePlan: Others
+New-AzureRmWebApp: Others
+New-AzureRmWebAppSlot: Others
+New-AzureRmWebAppSSLBinding: Others
+Remove-AzureRmAppServicePlan: Others
+Remove-AzureRmWebApp: Others
+Remove-AzureRmWebAppSlot: Others
+Remove-AzureRmWebAppSSLBinding: Others
+Reset-AzureRmWebAppPublishingProfile: Others
+Reset-AzureRmWebAppSlotPublishingProfile: Others
+Restart-AzureRmWebApp: Others
+Restart-AzureRmWebAppSlot: Others
+Set-AzureRmAppServicePlan: Others
+Set-AzureRmWebApp: Others
+Set-AzureRmWebAppSlot: Others
+Start-AzureRmWebApp: Others
+Start-AzureRmWebAppSlot: Others
+Stop-AzureRmWebApp: Others
+Stop-AzureRmWebAppSlot: Others
 _isModulePage: true
 ---
 

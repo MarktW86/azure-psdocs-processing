@@ -3,11 +3,11 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkId=400607
 schema: 2.0.0
 ms.assetid: D7136388-0197-4074-AC15-BA4DA07223C7
-updated_at: 02/12/2017 21:02 PM
-ms.date: 02/12/2017
+updated_at: 04/11/2017 05:04 AM
+ms.date: 04/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmAdminLog.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmAdminLog.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/e4c765ba645ee6c466dd1ff7182695aa9e59fb44
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/2047afa5f7c701b3cf7c3a822ab28ef22a7a6869
 ms.topic: reference
 author: cabailey
 ms.author: PowerShellHelpPub
@@ -41,7 +41,7 @@ You must use PowerShell to get these admin logs; you cannot do this action by us
 PS C:\>Get-AadrmAdminLog -Path "C:\Temp\AdminLog.log"
 ```
 
-This command generates a log that contains all the Rights Management administrative commands that have been run for your Azure Rights Management tenant.
+This command generates a log that contains all the Rights Management administrative commands that have been run for your organization's Azure Rights Management service.
 
 ### Example 2: Generate a log of commands for a specified time period
 ```

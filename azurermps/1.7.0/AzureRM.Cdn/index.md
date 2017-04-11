@@ -19,7 +19,7 @@ Get-AzureRmCdnCustomDomain: CDN
 Get-AzureRmCdnEndpoint: CDN
 Get-AzureRmCdnEndpointNameAvailability: CDN
 Get-AzureRmCdnOrigin: CDN
-Get-AzureRMCdnProfile: CDN
+Get-AzureRMCdnProfile: Others
 Get-AzureRmCdnProfileSsoUrl: CDN
 New-AzureRmCdnCustomDomain: CDN
 New-AzureRmCdnEndpoint: CDN
