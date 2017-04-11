@@ -3,11 +3,11 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkId=400604
 schema: 2.0.0
 ms.assetid: 34D77711-B96A-43E8-B5FD-8CF5013EB7E3
-updated_at: 02/13/2017 04:02 AM
-ms.date: 02/13/2017
+updated_at: 04/11/2017 00:04 AM
+ms.date: 04/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Enable-AadrmSuperUserFeature.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Enable-AadrmSuperUserFeature.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/6ca3a334d2d345bf1565d13869b0587b50bde3b6
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/f5f5beb6909618ca9d702cbac2e7b1453da63c7a
 ms.topic: reference
 author: cabailey
 ms.author: PowerShellHelpPub
@@ -29,21 +29,17 @@ Enable-AadrmSuperUserFeature [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-The **Enable-AadrmSuperUserFeature** cmdlet enables the super user feature. With this feature enabled, you can add or remove super users for Azure Rights Management. 
+The **Enable-AadrmSuperUserFeature** cmdlet enables the super user feature for your organization's Azure Rights Management service. When this feature is enabled, any users that are defined as super users for your organization (individually or by the super user group) can decrypt content that your organization protected, and can remove protection from this content, even if an expiration date has been set and expired. Typically, this level of access is required for legal eDiscovery and by auditing teams. 
 
 You must use PowerShell to configure super users; you cannot do this configuration by using a management portal.
 
-By default, the super users feature is not enabled, and no users are assigned to this feature.
+By default, the super user feature is not enabled, and no users are assigned to this feature. To assign users, you must use [Add-AadrmSuperUserFeature](./Add-AadrmSuperUserFeature.md) or [Set-AadrmSuperUserGroup](./Set-AadrmSuperUserGroup.md).
 
-Super users have full control over all rights-protected content managed by Azure Rights Management. These users are granted full owner rights for all use licenses that are issued by the subscriber organization. 
-
-Super users can decrypt any rights-protected content file and remove rights-protection from it for content previously protected within that organization, even if an expiration date has been set and expired. Typically, this level of access is required for legal eDiscovery and by auditing teams.
-
-Caution: We recommend that you enable the super user feature on an as-needed basis. During standard operations, we recommend that you disable the super user feature, unless you use it to provide a trusted application with the ability to decrypt rights-protected content, such as to enable this application to scan the contents of a file for malware.
+Caution: We recommend that you enable the super user feature on an as-needed basis. During standard operations, we recommend that you disable the super user feature, unless you use it to provide a trusted application with the ability to decrypt rights-protected content. For example, this exception might be needed for an application to scan the contents of a file for malware.
 
 ## EXAMPLES
 
-### Example 1: Enable super user feature
+### Example 1: Enable the super user feature
 ```
 PS C:\>Enable-AadrmSuperUserFeature
 ```
