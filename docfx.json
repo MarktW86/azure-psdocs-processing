@@ -409,10 +409,10 @@
         "dest": "azurermps-3.7.0"
       },
       "azurermps-3.8.0": {
-        "dest": "azurermps-3.7.0"
+        "dest": "azurermps-3.8.0"
       },
       "azuresmps-3.7.0": {
-        "dest": "azuresmps-3.7.0"
+        "dest": "azuresmps-3.8.0"
       },
       "azureipps": {
         "dest": "azureipps"
