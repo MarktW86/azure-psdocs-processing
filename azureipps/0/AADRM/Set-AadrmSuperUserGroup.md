@@ -3,11 +3,11 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkId=722838
 schema: 2.0.0
 ms.assetid: 23E946A0-E6FC-4F8C-8F3B-352AD48CE426
-updated_at: 02/13/2017 21:02 PM
-ms.date: 02/13/2017
+updated_at: 04/11/2017 21:04 PM
+ms.date: 04/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Set-AadrmSuperUserGroup.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Set-AadrmSuperUserGroup.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/22a102658f1b1c573e607b7c05590c1e292e41e2
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/5c9a32d3338744ea1dfb2e9f3a06cf42d59847a0
 ms.topic: reference
 author: cabailey
 ms.author: PowerShellHelpPub
@@ -37,7 +37,7 @@ An organization can have only one super user group in addition to multiple users
 
 You must use PowerShell to configure super users; you cannot do this configuration by using a management portal.
 
-For more information about super users, see [Configuring super users for Azure Rights Management and discovery services or data recovery](https://docs.microsoft.com/rights-management/deploy-use/configure-super-users) on the Microsoft documentation site.
+For more information about super users, see [Configuring super users for Azure Rights Management and discovery services or data recovery](https://docs.microsoft.com/information-protection/deploy-use/configure-super-users).
 
 ## EXAMPLES
 

@@ -3,11 +3,11 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkID=400630
 schema: 2.0.0
 ms.assetid: EAC26502-ECB3-43A0-B468-D166C1E4A9C4
-updated_at: 02/13/2017 21:02 PM
-ms.date: 02/13/2017
+updated_at: 04/11/2017 21:04 PM
+ms.date: 04/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Remove-AadrmTemplate.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Remove-AadrmTemplate.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/22a102658f1b1c573e607b7c05590c1e292e41e2
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/5c9a32d3338744ea1dfb2e9f3a06cf42d59847a0
 ms.topic: reference
 author: cabailey
 ms.author: PowerShellHelpPub
@@ -35,17 +35,21 @@ You can delete only custom templates. You can set default templates to an archiv
 
 You can also do this action in the Azure classic portal.
 
-After a template is deleted, content protected with that template might become inaccessible. Users who are super users can continue to access content that was previously protected with a template that is now deleted. For more information about super users, see [Configuring super users for Azure Rights Management and discovery services or data recovery](https://docs.microsoft.com/rights-management/deploy-use/configure-super-users) on the Microsoft documentation site.
+After a template is deleted, content protected with that template might become inaccessible. Users who are super users can continue to access content that was previously protected with a template that is now deleted. For more information about super users, see [Configuring super users for Azure Rights Management and discovery services or data recovery](https://docs.microsoft.com/information-protection/deploy-use/configure-super-users).
 
 This cmdlet requires the template ID, which you can get with the [Get-AadrmTemplate](./Get-AadrmTemplate.md) cmdlet.
 
 This cmdlet performs the following operations:
+
 - Displays the template properties.
+
 - Warns that all content protected with this template may become inaccessible.
+
 - Asks to confirm whether to proceed.
+
 - Calls the service to remove the template with the specified GUID.
 
-For more information about custom templates, including how to configure them in the Azure classic portal, see "Configuring custom templates for Azure Rights Management" (https://docs.microsoft.com/rights-management/deploy-use/configure-custom-templates) on the Microsoft documentation site.
+For more information about custom templates, including how to configure them in the Azure classic portal, see [Configuring custom templates for the Azure Rights Management service](https://docs.microsoft.com/information-protection/deploy-use/configure-custom-templates).
 
 ## EXAMPLES
 
@@ -92,6 +96,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 [Import-AadrmTemplate](./Import-AadrmTemplate.md)
 
-[Configuring super users for Azure Rights Management and discovery services or data recovery](https://docs.microsoft.com/rights-management/deploy-use/configure-super-users)
+[Configuring super users for Azure Rights Management and discovery services or data recovery](https://docs.microsoft.com/information-protection/deploy-use/configure-super-users)
 
-[Configuring custom templates for Azure Rights Management](https://docs.microsoft.com/rights-management/deploy-use/configure-custom-templates)
+[Configuring custom templates for the Azure Rights Management service](https://docs.microsoft.com/information-protection/deploy-use/configure-custom-templates)

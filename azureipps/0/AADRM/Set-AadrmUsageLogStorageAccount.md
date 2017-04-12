@@ -3,11 +3,11 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkId=400623
 schema: 2.0.0
 ms.assetid: D4615C3C-F6B3-42EF-BE69-C4CD4B6BD5A2
-updated_at: 02/13/2017 21:02 PM
-ms.date: 02/13/2017
+updated_at: 04/11/2017 21:04 PM
+ms.date: 04/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Set-AadrmUsageLogStorageAccount.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Set-AadrmUsageLogStorageAccount.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/22a102658f1b1c573e607b7c05590c1e292e41e2
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/5c9a32d3338744ea1dfb2e9f3a06cf42d59847a0
 ms.topic: reference
 author: cabailey
 ms.author: PowerShellHelpPub
@@ -35,7 +35,7 @@ You must use PowerShell to set this information; you cannot do this action by us
 
 This cmdlet should be used only if you have usage logs prior to the usage logging change in February 2016. After this date, the only Windows PowerShell cmdlet that you need for Azure RMS usage logging is Get-AadrmUserLog.
 
-For more information about usage logging, see [Logging and analyzing Azure Rights Management usage](https://docs.microsoft.com/rights-management/deploy-use/log-analyze-usage) on the Microsoft documentation site.
+For more information about usage logging, see [Logging and analyzing usage of the Azure Rights Management service](https://docs.microsoft.com/information-protection/deploy-use/log-analyze-usage).
 
 ## EXAMPLES
 
@@ -55,7 +55,7 @@ The second command specifies the location for your usage logs.
 ### -AccessKey
 Specifies your access key as a secure string.
 
-To view your access key, connect to the Azure Management Portal.
+To view your access key, connect to the Azure portal.
 
 ```yaml
 Type: SecureString
@@ -72,7 +72,7 @@ Accept wildcard characters: False
 ### -StorageAccount
 Specifies a storage account.
 
-To obtain the name of this account, use the Management Portal.
+To obtain the name of this account, use the Azure portal.
 
 ```yaml
 Type: String
@@ -101,4 +101,4 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 [ConvertTo-SecureString](http://go.microsoft.com/fwlink/?LinkID=113291)
 
-[Logging and analyzing Azure Rights Management usage](https://docs.microsoft.com/rights-management/deploy-use/log-analyze-usage)
+[Logging and analyzing usage of the Azure Rights Management service](https://docs.microsoft.com/information-protection/deploy-use/log-analyze-usage)
