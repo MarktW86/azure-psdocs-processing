@@ -374,7 +374,7 @@
           "**/*.yml",
           "**/*.md"
         ],
-        "src": "azurestackps/conceptual/0.8.33",
+        "src": "azurestackps/conceptual/1.2.9",
         "version": "azurestackps-1.2.9",
         "exclude": [
           "**/obj/**",
