@@ -15,8 +15,6 @@
           href: 'https://docs.microsoft.com/en-us/azure/active-directory/active-directory-accessmanagement-groups-settings-cmdlets'
         - name: Managing Role Based Access Control (RBAC)
           href: 'https://docs.microsoft.com/en-us/azure/active-directory/role-based-access-control-manage-access-powershell'
-        - name: Signing in with a Service Principal
-          href: ../conceptual/1.0/signing-in-service-principal.md
         - name: Using extension attributes
           href: ../conceptual/1.0/using-extension-attributes-sample.md
     - name: Powershell script snippets
@@ -26,7 +24,7 @@
         - name: Creating a new user and setting the password
           href: ../conceptual/1.0/new-user-sample.md
         - name: Connecting an Azure AD Powershell session with Service Principal credentials
-          href: ../conceptual/1.0/connect-using-service-principal-sample.md
+          href: ../conceptual/1.0/signing-in-service-principal.md
 - name: Videos
   items:
     - name: Manage dynamic groups with PowerShell
