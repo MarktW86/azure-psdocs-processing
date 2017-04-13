@@ -17,6 +17,8 @@
           href: 'https://docs.microsoft.com/en-us/azure/active-directory/role-based-access-control-manage-access-powershell'
         - name: Using extension attributes
           href: ../conceptual/1.0/using-extension-attributes-sample.md
+        - name: Working with Administrative Units
+          href: ../conceptual/1.0/Working-with-Administrative-Units.md
     - name: Powershell script snippets
       items:
         - name: Inviting guests in B2B
