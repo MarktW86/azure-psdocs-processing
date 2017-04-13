@@ -3,11 +3,11 @@ external help file: Microsoft.Online.Administration.Automation.PSModule.dll-Help
 online version:
 schema: 2.0.0
 ms.assetid: 692698D2-D070-449D-B112-1CEB30743A38
-updated_at: 11/07/2016 20:11 PM
-ms.date: 11/07/2016
+updated_at: 04/13/2017 22:04 PM
+ms.date: 04/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Set-MsolServicePrincipal.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Set-MsolServicePrincipal.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/e45b51fd816f025d32fa17a27b0e7eafee1289da
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/c0bdb3a258f28907c126b94b7a1fd3aa8ee3e803
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -49,13 +49,13 @@ This will overwrite any previous settings.
 ```
 PS C:\> $a = @()
 PS C:\> $a = $a + (Get-MsolServicePrincipal -ServicePrincipalName "MyApp").Addresses
-PS C:\> $a = $a + (New-MsolServicePrincipalAddress -Value "myApp1.com")
-PS C:\> $a = $a + (New-MsolServicePrincipalAddress -Value "myApp2.com")
+PS C:\> $a = $a + (New-MsolServicePrincipalAddresses -Value "myApp1.com")
+PS C:\> $a = $a + (New-MsolServicePrincipalAddresses -Value "myApp2.com")
 PS C:\> Set-MsolServicePrincipal -AppPrincipalId $AppId -Addresses $a
 ```
 
 This command updates the addresses of a service principal.
-In this example, existing Addresses that were previously created ("myApp1.com", "myApp2.com") using the [New-MsolServicePrincipalAddress](./New-MsolServicePrincipalAddress.md) cmdlet, are associated with the service principal.
+In this example, existing Addresses that were previously created ("myApp1.com", "myApp2.com") using the [New-MsolServicePrincipalAddresses](./New-MsolServicePrincipalAddresses.md) cmdlet, are associated with the service principal.
 
 ## PARAMETERS
 
@@ -78,7 +78,7 @@ Accept wildcard characters: False
 Specifies the addresses list with which to update and overwrite the existing list.
 If you do not specify this parameter, the existing property is not updated.
 If you specify an empty list, the existing addresses are cleared.
-Use the [New-MsolServicePrincipalAddress](./New-MsolServicePrincipalAddress.md) cmdlet to help create the Addresses list object.
+Use the [New-MsolServicePrincipalAddress](./New-MsolServicePrincipalAddresses.md) cmdlet to help create the Addresses list object.
 
 ```yaml
 Type: RedirectUri[]
@@ -191,6 +191,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 [New-MsolServicePrincipal](./New-MsolServicePrincipal.md)
 
-[New-MsolServicePrincipalAddress](./New-MsolServicePrincipalAddress.md)
+[New-MsolServicePrincipalAddresses](./New-MsolServicePrincipalAddresses.md)
 
 [Remove-MsolServicePrincipal](./Remove-MsolServicePrincipal.md)
