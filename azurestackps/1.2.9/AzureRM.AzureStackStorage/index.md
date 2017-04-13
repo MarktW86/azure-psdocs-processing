@@ -2,11 +2,11 @@
 Module Name: AzureRM.AzureStackstorage
 Module Guid: da5816b5-97a6-4301-9aa0-72cc68c79f20
 Locale: en-US
-updated_at: 04/11/2017 21:04 PM
-ms.date: 04/11/2017
+updated_at: 04/12/2017 23:04 PM
+ms.date: 04/12/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/AzureRM.AzureStackstorage.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/AzureRM.AzureStackstorage.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/da0fd350a2a76c2d3edbf597f3826de129c926e5
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/5e633c61e46f8185ebf79434734d1a086daf7515
 ms.topic: conceptual
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -50,7 +50,7 @@ _isModulePage: true
 
 # AzureRM.AzureStackstorage Module
 ## Description
-{{Manually Enter Description Here}}
+This topic displays help topics for the storage cmdlets operated by the Azure Stack administrator.
 
 ## AzureRM.AzureStackstorage Cmdlets
 ### [Add-ACSFarm](Add-ACSFarm.md)
