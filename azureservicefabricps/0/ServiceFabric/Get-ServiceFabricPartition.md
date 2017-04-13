@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 88E000A6-8A42-4E87-B9E4-7179AC38FB5D
 online version:
 schema: 2.0.0
-updated_at: 03/06/2017 23:03 PM
-ms.date: 03/06/2017
+updated_at: 04/13/2017 18:04 PM
+ms.date: 04/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricPartition.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricPartition.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/5935d047dbc6cd41c353caf46ff85f77d23c43fc
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/e4666c66ecad8bb641483d243bfac15b26f72282
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -44,14 +44,14 @@ Before you perform any operation on a Service Fabric cluster, establish a connec
 
 ### Example 1: Get partitions for a service
 ```
-PS C:\>Get-ServiceFabricPartition -ServiceName fabric:/myapp/persistenttodolist/svc1
+PS C:\> Get-ServiceFabricPartition -ServiceName fabric:/myapp/persistenttodolist/svc1
 ```
 
 This command gets the information for all the partitions of the `fabric:/myapp/persistenttodolist/svc1` service.
 
 ### Example 2: Get a specific partition
 ```
-PS C:\>Get-ServiceFabricPartition -PartitionId $ToDoPartition01.PartitionId
+PS C:\> Get-ServiceFabricPartition -PartitionId $ToDoPartition01.PartitionId
 ```
 
 This command gets the information for the partition stored in the stored in `$ToDoPartition01` object.

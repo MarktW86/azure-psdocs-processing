@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 3579C67E-CD38-4ECF-B03A-D1CC8E0A6CC7
 online version:
 schema: 2.0.0
-updated_at: 03/06/2017 18:03 PM
-ms.date: 03/06/2017
+updated_at: 04/13/2017 18:04 PM
+ms.date: 04/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricReplicaLoadInformation.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricReplicaLoadInformation.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/ffcf8444837861c6001f2d5cae123000f4dd6044
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/e4666c66ecad8bb641483d243bfac15b26f72282
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -41,7 +41,7 @@ Before you perform any operation on a Service Fabric cluster, establish a connec
 
 ### Example 1: Get the load of a replica
 ```
-PS C:\>Get-ServiceFabricReplicaLoadInformation -Partition 109428cf-aacd-4459-b28c-00faa0059616 -ReplicaOrInstanceId 130530315812558427
+PS C:\> Get-ServiceFabricReplicaLoadInformation -Partition 109428cf-aacd-4459-b28c-00faa0059616 -ReplicaOrInstanceId 130530315812558427
 ```
 
 This command gets the load of the specified replica (130530315812558427) in the specified partition (109428cf-aacd-4459-b28c-00faa0059616).

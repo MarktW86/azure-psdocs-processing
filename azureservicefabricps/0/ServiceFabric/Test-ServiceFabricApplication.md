@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 1E932261-A36C-46A2-A1C7-D656A10E8F66
 online version:
 schema: 2.0.0
-updated_at: 03/13/2017 18:03 PM
-ms.date: 03/13/2017
+updated_at: 04/13/2017 18:04 PM
+ms.date: 04/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Test-ServiceFabricApplication.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Test-ServiceFabricApplication.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/0ecc51b2b631d3697a80bb81fcb6ca2e4ceb95d5
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/e4666c66ecad8bb641483d243bfac15b26f72282
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -41,7 +41,7 @@ Before using this cmdlet, connect to the Service Fabric cluster.
 
 ### Example 1: Validate an application
 ```
-PS C:\>Test-ServiceFabricApplication -ApplicationName fabric:/AppName -MaxStabilizationTimeoutSec 240
+PS C:\> Test-ServiceFabricApplication -ApplicationName fabric:/AppName -MaxStabilizationTimeoutSec 240
 ```
 
 This command tests all of the services in the specified application to make sure that they are stable within 240 seconds.

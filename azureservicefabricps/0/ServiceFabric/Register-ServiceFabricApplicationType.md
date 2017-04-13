@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 9145CA7E-1FF1-44C0-BB40-452161DCB15A
 online version:
 schema: 2.0.0
-updated_at: 03/06/2017 22:03 PM
-ms.date: 03/06/2017
+updated_at: 04/13/2017 18:04 PM
+ms.date: 04/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Register-ServiceFabricApplicationType.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Register-ServiceFabricApplicationType.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a7170c9b9bfb81f2a28aafcbfe9ee4f464e3baa9
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/e4666c66ecad8bb641483d243bfac15b26f72282
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -43,8 +43,8 @@ Before you perform any operation on a Service Fabric cluster, establish a connec
 
 ### Example 1: Register an application type
 ```
-PS C:\>Copy-ServiceFabricApplicationPackage -ApplicationPackagePath "c:\work\PersistentToDoListService" -ImageStoreConnectionString "file:C:\SfDevCluster\Data\ImageStoreShare" -ApplicationPackagePathInImageStore "PersistentToDoListService"
-PS C:\>Register-ServiceFabricApplicationType -ApplicationPathInImageStore "PersistentToDoListService"
+PS C:\> Copy-ServiceFabricApplicationPackage -ApplicationPackagePath "c:\work\PersistentToDoListService" -ImageStoreConnectionString "file:C:\SfDevCluster\Data\ImageStoreShare" -ApplicationPackagePathInImageStore "PersistentToDoListService"
+PS C:\> Register-ServiceFabricApplicationType -ApplicationPathInImageStore "PersistentToDoListService"
 ```
 
 [Copy-ServiceFabricApplicationPackage](./Copy-ServiceFabricApplicationPackage.md) copies the application package found in the "c:\work\PersistentToDoListService" folder to the image store. The package is copied at the relative path "PersistentToDoListService" in image store.
@@ -53,9 +53,9 @@ PS C:\>Register-ServiceFabricApplicationType -ApplicationPathInImageStore "Persi
 
 ### Example 2: Register an application type async
 ```
-PS C:\>Copy-ServiceFabricApplicationPackage -ApplicationPackagePath "c:\work\PersistentToDoListService" -ImageStoreConnectionString "fabric:ImageStore" -ApplicationPackagePathInImageStore "PersistentToDoListService" -CompressPackage
-PS C:\>Register-ServiceFabricApplicationType -ApplicationPathInImageStore "PersistentToDoListService" -Async
-PS C:\>Get-ServiceFabricApplicationType
+PS C:\> Copy-ServiceFabricApplicationPackage -ApplicationPackagePath "c:\work\PersistentToDoListService" -ImageStoreConnectionString "fabric:ImageStore" -ApplicationPackagePathInImageStore "PersistentToDoListService" -CompressPackage
+PS C:\> Register-ServiceFabricApplicationType -ApplicationPathInImageStore "PersistentToDoListService" -Async
+PS C:\> Get-ServiceFabricApplicationType
 ```
 
 [Copy-ServiceFabricApplicationPackage](./Copy-ServiceFabricApplicationPackage.md) copies the application package found in the "c:\work\PersistentToDoListService" folder to the image store. The application package is copied at the relative path "PersistentToDoListService" in image store. The cmdlet uses compression to reduce the package size.
@@ -66,8 +66,8 @@ PS C:\>Get-ServiceFabricApplicationType
 
 ### Example 3: Register an application type for a large application package
 ```
-PS C:\>Copy-ServiceFabricApplicationPackage -ApplicationPackagePath "c:\work\PersistentToDoListService" -ImageStoreConnectionString "fabric:ImageStore" -ApplicationPackagePathInImageStore "PersistentToDoListService" -CompressPackage -TimeoutSec 2700
-PS C:\>Register-ServiceFabricApplicationType -ApplicationPathInImageStore "PersistentToDoListService" -TimeoutSec 2700
+PS C:\> Copy-ServiceFabricApplicationPackage -ApplicationPackagePath "c:\work\PersistentToDoListService" -ImageStoreConnectionString "fabric:ImageStore" -ApplicationPackagePathInImageStore "PersistentToDoListService" -CompressPackage -TimeoutSec 2700
+PS C:\> Register-ServiceFabricApplicationType -ApplicationPathInImageStore "PersistentToDoListService" -TimeoutSec 2700
 ```
 
 [Copy-ServiceFabricApplicationPackage](./Copy-ServiceFabricApplicationPackage.md) copies the application package found in the "c:\work\PersistentToDoListService" folder to the image store, at the "PersistentToDoListService" image store relative location. Since the initial package is very large, the command compress it and includes a higher timeout to allow enough time for copy.

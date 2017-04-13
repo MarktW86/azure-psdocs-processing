@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 9C765157-6B48-4AC8-A4D5-C26C098CFC17
 online version:
 schema: 2.0.0
-updated_at: 03/10/2017 15:03 PM
-ms.date: 03/10/2017
+updated_at: 04/13/2017 18:04 PM
+ms.date: 04/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricApplicationUpgrade.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricApplicationUpgrade.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/98a47dff88cd177ec36c12e65a4c6ea20487a997
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/e4666c66ecad8bb641483d243bfac15b26f72282
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -68,7 +68,7 @@ Before you perform any operation on a Service Fabric cluster, establish a connec
 
 ### Example 1: Upgrade an application
 ```
-PS C:\>Copy-ServiceFabricApplicationPackage -ApplicationPackagePath "C:\PersistentToDoListServiceV2" -ImageStoreConnectionString "file:C:\ProgramData\ServiceFabric\ImageStore"
+PS C:\> Copy-ServiceFabricApplicationPackage -ApplicationPackagePath "C:\PersistentToDoListServiceV2" -ImageStoreConnectionString "file:C:\ProgramData\ServiceFabric\ImageStore"
 PS C:\> Register-ServiceFabricApplicationType -ApplicationPathInImageStore "PersistentToDoListServiceV2"
 PS C:\> Start-ServiceFabricApplicationUpgrade -ApplicationName fabric:/myapp/persistenttodolist -ApplicationTypeVersion "2.0" -RestartProcess -UnMonitoredManual
 ```

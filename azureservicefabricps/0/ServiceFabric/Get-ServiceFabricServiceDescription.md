@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: A7669F75-A5B3-4574-8444-CD15A04DF0EE
 online version:
 schema: 2.0.0
-updated_at: 03/06/2017 23:03 PM
-ms.date: 03/06/2017
+updated_at: 04/13/2017 18:04 PM
+ms.date: 04/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricServiceDescription.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricServiceDescription.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/50a9c0fba147d91dd2b89665e86e957df994ea7b
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/e4666c66ecad8bb641483d243bfac15b26f72282
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -37,7 +37,7 @@ Before you perform any operation on a Service Fabric cluster, establish a connec
 
 ### Example 1: Get a service description
 ```
-PS C:\>Get-ServiceFabricServiceDescription -ServiceName fabric:/CalcApp/CalcService
+PS C:\> Get-ServiceFabricServiceDescription -ServiceName fabric:/CalcApp/CalcService
 ```
 
 This command gets the service description for service with the name `fabric:/CalcApp/CalcService`.

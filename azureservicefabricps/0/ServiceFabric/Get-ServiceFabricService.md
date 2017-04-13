@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 4275CC75-BDDD-4782-99C8-D3E775F07E61
 online version:
 schema: 2.0.0
-updated_at: 03/23/2017 20:03 PM
-ms.date: 03/23/2017
+updated_at: 04/13/2017 18:04 PM
+ms.date: 04/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricService.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricService.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/fac2031a80184883cdb99fa4a8c6e1971ab6aaf2
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/e4666c66ecad8bb641483d243bfac15b26f72282
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -44,14 +44,14 @@ Before you perform any operation on a Service Fabric cluster, establish a connec
 
 ### Example 1: Get the services created from an application
 ```
-PS C:\>Get-ServiceFabricService -ApplicationName fabric:/myapp/persistenttodolist
+PS C:\> Get-ServiceFabricService -ApplicationName fabric:/myapp/persistenttodolist
 ```
 
 This command gets the Service Fabric services from the specified application.
 
 ### Example 2: Get the system services running in a cluster
 ```
-PS C:\>Get-ServiceFabricService -ApplicationName fabric:/System
+PS C:\> Get-ServiceFabricService -ApplicationName fabric:/System
 ```
 
 This command gets the Service Fabric system services running in a cluster.

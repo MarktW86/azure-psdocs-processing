@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 4290C7C9-446B-4A8F-BD52-5E2508700FFC
 online version:
 schema: 2.0.0
-updated_at: 03/14/2017 18:03 PM
-ms.date: 03/14/2017
+updated_at: 04/13/2017 18:04 PM
+ms.date: 04/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/New-ServiceFabricNodeConfiguration.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/New-ServiceFabricNodeConfiguration.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/67ce1470f306240ae725e98236ca119d37dda2dc
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/e4666c66ecad8bb641483d243bfac15b26f72282
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -44,7 +44,7 @@ This command will have different usages of parameters depending on the type of c
 
 ### Example 1: Configure a five-node development cluster
 ```
-PS C:\>New-ServiceFabricNodeConfiguration -ClusterManifestPath "<samples>\\ConfigStore\Management\Deployment\ClusterManifest\Server\DevEnv-FiveNodes.xml"
+PS C:\> New-ServiceFabricNodeConfiguration -ClusterManifestPath "<samples>\\ConfigStore\Management\Deployment\ClusterManifest\Server\DevEnv-FiveNodes.xml"
 ```
 
 This command configures a development cluster by using the DevEnv-FiveNodes.xml manifest from the Service Fabric samples.

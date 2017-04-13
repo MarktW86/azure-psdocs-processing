@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 9D63C467-E643-4DCD-B8AD-70C741D39377
 online version:
 schema: 2.0.0
-updated_at: 03/06/2017 18:03 PM
-ms.date: 03/06/2017
+updated_at: 04/13/2017 18:04 PM
+ms.date: 04/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricApplicationHealth.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricApplicationHealth.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/ffcf8444837861c6001f2d5cae123000f4dd6044
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/e4666c66ecad8bb641483d243bfac15b26f72282
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -52,14 +52,14 @@ Before you perform any operation on a Service Fabric cluster, establish a connec
 
 ### Example 1: Get the health of an application
 ```
-PS C:\>Get-ServiceFabricApplicationHealth -ApplicationName fabric:/myapp/persistenttodolist
+PS C:\> Get-ServiceFabricApplicationHealth -ApplicationName fabric:/myapp/persistenttodolist
 ```
 
 This command queries the health of the named application.
 
 ### Example 2: Get the health of an application using custom health policy and return filters
 ```
-PS C:\>Get-ServiceFabricApplicationHealth -ApplicationName fabric:/myapp/persistenttodolist -ConsiderWarningAsError $True -EventsFilter Error -ServicesFilter 'Error,Warning' -DeployedApplicationsFilter 'Warning,Error'
+PS C:\> Get-ServiceFabricApplicationHealth -ApplicationName fabric:/myapp/persistenttodolist -ConsiderWarningAsError $True -EventsFilter Error -ServicesFilter 'Error,Warning' -DeployedApplicationsFilter 'Warning,Error'
 ```
 
 This command queries the health of the named application.

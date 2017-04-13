@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 6DB6444E-9271-42D4-8EC9-73CA6A799369
 online version:
 schema: 2.0.0
-updated_at: 03/20/2017 17:03 PM
-ms.date: 03/20/2017
+updated_at: 04/13/2017 18:04 PM
+ms.date: 04/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Copy-ServiceFabricClusterPackage.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Copy-ServiceFabricClusterPackage.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/4b282fbbada4e5b501710c20544af645ad024b6b
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/e4666c66ecad8bb641483d243bfac15b26f72282
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -55,21 +55,21 @@ Before you perform any operation on a Service Fabric cluster, establish a connec
 
 ### Example 1: Copy code and manifest to the image store
 ```
-PS C:\>Copy-ServiceFabricClusterPackage -ClusterManifestPath "\\configStore\ClusterManifests\CH1\ClusterManifest_123.xml" -CodePackagePath "\\codeStore\MsiFiles\ServiceFabric.2.0.59.0.msi" -ImageStoreConnectionString "fabric:ImageStore"
+PS C:\> Copy-ServiceFabricClusterPackage -ClusterManifestPath "\\configStore\ClusterManifests\CH1\ClusterManifest_123.xml" -CodePackagePath "\\codeStore\MsiFiles\ServiceFabric.2.0.59.0.msi" -ImageStoreConnectionString "fabric:ImageStore"
 ```
 
 This command copies the specified MSI and cluster manifest file to the image store. When **CodePackagePathInImageStore** or **ClusterManifestPathInImageStore** are not provided, the file name will be used by default.
 
 ### Example 2: Copy only cluster manifest to the image store
 ```
-PS C:\>Copy-ServiceFabricClusterPackage -Config -ClusterManifestPath "\\configStore\ClusterManifests\CH1\ClusterManifest_123.xml" -ClusterManifestPathInImageStore ClusterManifest.xml -ImageStoreConnectionString "fabric:ImageStore"
+PS C:\> Copy-ServiceFabricClusterPackage -Config -ClusterManifestPath "\\configStore\ClusterManifests\CH1\ClusterManifest_123.xml" -ClusterManifestPathInImageStore ClusterManifest.xml -ImageStoreConnectionString "fabric:ImageStore"
 ```
 
 This command copies the specified cluster manifest to ClusterManifest.xml in the image store.
 
 ### Example 3: Copy only runtime installation file to the image store
 ```
-PS C:\>Copy-ServiceFabricClusterPackage -Code -CodePackagePath "\\codeStore\MsiFiles\ServiceFabric.2.0.59.0.msi" -CodePackagePathInImageStore ServiceFabric.msi -ImageStoreConnectionString "fabric:ImageStore"
+PS C:\> Copy-ServiceFabricClusterPackage -Code -CodePackagePath "\\codeStore\MsiFiles\ServiceFabric.2.0.59.0.msi" -CodePackagePathInImageStore ServiceFabric.msi -ImageStoreConnectionString "fabric:ImageStore"
 ```
 
 This command copies just the specified MSI file to ServiceFabric.msi in the image store.

@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: D3EBED16-23D5-4F21-8917-21E36A6ADD78
 online version:
 schema: 2.0.0
-updated_at: 03/07/2017 18:03 PM
-ms.date: 03/07/2017
+updated_at: 04/13/2017 18:04 PM
+ms.date: 04/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricClusterManifest.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricClusterManifest.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/31ce2cbc2767e8e9f0a1f1271dda52160ffdb112
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/e4666c66ecad8bb641483d243bfac15b26f72282
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -38,7 +38,7 @@ Before you perform any operation on a Service Fabric cluster, establish a connec
 
 ### Example 1: Get the cluster manifest
 ```
-PS C:\>Get-ServiceFabricClusterManifest
+PS C:\> Get-ServiceFabricClusterManifest
 ```
 
 This command gets the cluster manifest for the current Service Fabric connection.

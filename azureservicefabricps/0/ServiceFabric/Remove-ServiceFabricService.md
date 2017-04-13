@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: D081C4DD-6311-46E4-9162-C32BDD48FF32
 online version:
 schema: 2.0.0
-updated_at: 03/06/2017 23:03 PM
-ms.date: 03/06/2017
+updated_at: 04/13/2017 18:04 PM
+ms.date: 04/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Remove-ServiceFabricService.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Remove-ServiceFabricService.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/4af4d81745b666dfb100804129d1c34d9cb5e298
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/e4666c66ecad8bb641483d243bfac15b26f72282
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -39,7 +39,7 @@ Before you perform any operation on a Service Fabric cluster, establish a connec
 
 ### Example 1: Remove a service fabric
 ```
-PS C:\>Remove-ServiceFabricService -ServiceName fabric:/myapp/persistenttodolist/svc1 -Force
+PS C:\> Remove-ServiceFabricService -ServiceName fabric:/myapp/persistenttodolist/svc1 -Force
 ```
 
 This command removes the specified Service Fabric service.
@@ -47,7 +47,7 @@ Because the command includes the *Force* parameter, the cmdlet does not prompt y
 
 ### Example 2: ForceRemove a service fabric service with Confirmation
 ```
-PS C:\>Remove-ServiceFabricService -ServiceName fabric:/myapp/persistenttodolist/svc1 -Confirm -ForceRemove
+PS C:\> Remove-ServiceFabricService -ServiceName fabric:/myapp/persistenttodolist/svc1 -Confirm -ForceRemove
 ```
 
 This command force removes the specified Service Fabric service.
@@ -55,7 +55,7 @@ Because the command includes the *Confirm* parameter, the cmdlet will prompt you
 
 ### Example 3: ForceRemove a service fabric service with Timeout
 ```
-PS C:\>Remove-ServiceFabricService -ServiceName fabric:/myapp/persistenttodolist/svc1 -TimeoutSec 10 -ForceRemove
+PS C:\> Remove-ServiceFabricService -ServiceName fabric:/myapp/persistenttodolist/svc1 -TimeoutSec 10 -ForceRemove
 ```
 
 This command force remove the specified Service Fabric service.

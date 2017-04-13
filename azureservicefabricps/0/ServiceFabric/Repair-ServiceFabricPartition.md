@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: E64F672A-23EB-408C-82E8-8BD8B2C5A7A2
 online version:
 schema: 2.0.0
-updated_at: 03/06/2017 18:03 PM
-ms.date: 03/06/2017
+updated_at: 04/13/2017 18:04 PM
+ms.date: 04/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Repair-ServiceFabricPartition.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Repair-ServiceFabricPartition.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/ffcf8444837861c6001f2d5cae123000f4dd6044
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/e4666c66ecad8bb641483d243bfac15b26f72282
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -61,28 +61,28 @@ Before you perform any operation on a Service Fabric cluster, establish a connec
 
 ### Example 1: Repair all partitions
 ```
-PS C:\>Repair-ServiceFabricPartition -All
+PS C:\> Repair-ServiceFabricPartition -All
 ```
 
 This command repairs all the partitions that are in the quorum loss state.
 
 ### Example 2: Repair a partition
 ```
-PS C:\>Repair-ServiceFabricPartition -PartitionId 861907d2-1c38-4cf8-8bb4-49f4fec4a2e5
+PS C:\> Repair-ServiceFabricPartition -PartitionId 861907d2-1c38-4cf8-8bb4-49f4fec4a2e5
 ```
 
 This command repairs the partition with the specified partition ID.
 
 ### Example 3: Repair all the partitions of a service
 ```
-PS C:\>Repair-ServiceFabricPartition -Service -ServiceName fabric:/MyApp/MyPersistedService
+PS C:\> Repair-ServiceFabricPartition -Service -ServiceName fabric:/MyApp/MyPersistedService
 ```
 
 This command repairs all the partitions of the service fabric:/MyApp/MyPersistedService.
 
 ### Example 4: Repair the partitions of the system services
 ```
-PS C:\>Repair-ServiceFabricPartition -System
+PS C:\> Repair-ServiceFabricPartition -System
 ```
 
 This command repairs all the partitions of all the system services.

@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 0F403FD1-EA91-4040-BD9E-D289B59F0E01
 online version:
 schema: 2.0.0
-updated_at: 03/13/2017 18:03 PM
-ms.date: 03/13/2017
+updated_at: 04/13/2017 18:04 PM
+ms.date: 04/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Test-ServiceFabricService.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Test-ServiceFabricService.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/153e6542b0214a79c84e355c2e8dec6fd11c5847
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/e4666c66ecad8bb641483d243bfac15b26f72282
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -41,7 +41,7 @@ Before you perform any operation on a Service Fabric cluster, establish a connec
 
 ### Example 1: Test a service
 ```
-PS C:\>Test-ServiceFabricService -ServiceName fabric:/SvcName -MaxStabilizationTimeoutSec 240
+PS C:\> Test-ServiceFabricService -ServiceName fabric:/SvcName -MaxStabilizationTimeoutSec 240
 ```
 
 This command tests the specified service to make sure that it is stable within 240 seconds.

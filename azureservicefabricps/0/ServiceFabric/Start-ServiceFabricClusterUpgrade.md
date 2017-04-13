@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 32BC7760-F639-4236-8F42-6C68ADE81F25
 online version:
 schema: 2.0.0
-updated_at: 03/23/2017 20:03 PM
-ms.date: 03/23/2017
+updated_at: 04/13/2017 18:04 PM
+ms.date: 04/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricClusterUpgrade.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricClusterUpgrade.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/fac2031a80184883cdb99fa4a8c6e1971ab6aaf2
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/e4666c66ecad8bb641483d243bfac15b26f72282
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -120,14 +120,14 @@ Before you perform any operation on a Service Fabric cluster, establish a connec
 
 ### Example 1: Start unmonitored manual upgrade
 ```
-PS C:\>Start-ServiceFabricClusterUpgrade -CodePackageVersion "2.0.59.0" -ClusterManifestVersion "v2" -UnmonitoredManual
+PS C:\> Start-ServiceFabricClusterUpgrade -CodePackageVersion "2.0.59.0" -ClusterManifestVersion "v2" -UnmonitoredManual
 ```
 
 This command starts the unmonitored manual upgrade for the specified code package and configuration.
 
 ### Example 2: Start upgrade for code only
 ```
-PS C:\>Start-ServiceFabricClusterUpgrade -Code -CodePackageVersion "2.0.59.0" -UnmonitoredAuto
+PS C:\> Start-ServiceFabricClusterUpgrade -Code -CodePackageVersion "2.0.59.0" -UnmonitoredAuto
 ```
 
 This command starts the unmonitored automatic upgrade for the specified code package.
@@ -142,7 +142,7 @@ This command starts the monitored config only upgrade for the specified cluster 
 
 ### Example 4: Start upgrade with a custom health policy
 ```
-PS C:\>$AppTypeHealthPolicyMap = New-Object -TypeName "System.Fabric.Health.ApplicationTypeHealthPolicyMap"
+PS C:\> $AppTypeHealthPolicyMap = New-Object -TypeName "System.Fabric.Health.ApplicationTypeHealthPolicyMap"
 PS C:\> $AppTypeHealthPolicyMap.Add("CriticalAppType", 0)
 
 PS C:\> $svcType = New-Object -TypeName System.Fabric.Health.ServiceTypeHealthPolicy

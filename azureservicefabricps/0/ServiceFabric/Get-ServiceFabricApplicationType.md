@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 377D093A-8D81-4CDA-842B-EF8A9FF2585C
 online version:
 schema: 2.0.0
-updated_at: 03/06/2017 23:03 PM
-ms.date: 03/06/2017
+updated_at: 04/13/2017 18:04 PM
+ms.date: 04/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricApplicationType.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricApplicationType.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/8edb37da7f57a0f756588b48267ba97e13b21d02
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/e4666c66ecad8bb641483d243bfac15b26f72282
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -37,14 +37,14 @@ Before you perform any operation on a Service Fabric cluster, establish a connec
 
 ### Example 1: Get all registered application types
 ```
-PS C:\>Get-ServiceFabricApplicationType
+PS C:\> Get-ServiceFabricApplicationType
 ```
 
 This command gets all registered application types.
 
 ### Example 2: Get registered application type with specified type names
 ```
-PS C:\>Get-ServiceFabricApplicationType -ApplicationTypeName "TestApp"
+PS C:\> Get-ServiceFabricApplicationType -ApplicationTypeName "TestApp"
 ```
 
 This command gets the application types registered with the application type name "TestApp".

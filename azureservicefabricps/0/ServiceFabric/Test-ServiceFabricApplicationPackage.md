@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 81C3B5F4-6B48-47CB-AC09-3193F3F86E25
 online version:
 schema: 2.0.0
-updated_at: 03/06/2017 23:03 PM
-ms.date: 03/06/2017
+updated_at: 04/13/2017 18:04 PM
+ms.date: 04/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Test-ServiceFabricApplicationPackage.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Test-ServiceFabricApplicationPackage.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/332aa469323cc891bd7a5321bb3197615f899d06
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/e4666c66ecad8bb641483d243bfac15b26f72282
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -42,7 +42,7 @@ Before you perform any operation on a Service Fabric cluster, establish a connec
 
 ### Example 1: Validate an application package locally, without access to the image store
 ```
-PS C:\>Test-ServiceFabricApplicationPackage -ApplicationPackagePath "C:\CalculatorApp" -ApplicationParameter @{ "StatelessServiceInstanceCount"="-1"}
+PS C:\> Test-ServiceFabricApplicationPackage -ApplicationPackagePath "C:\CalculatorApp" -ApplicationParameter @{ "StatelessServiceInstanceCount"="-1"}
 ```
 
 This command validates the application package found in the specified path. It includes the application parameters to be verified. 
@@ -50,7 +50,7 @@ The cmdlet does not specify the image store connection string because the applic
 
 ### Example 2: Validate an application package, locally and against any previous versions in the image store
 ```
-PS C:\>Test-ServiceFabricApplicationPackage -ApplicationPackagePath "C:\CalculatorApp" -ImageStoreConnectionString "file:C:\SfDevCluster\Data\ImageStoreShare"
+PS C:\> Test-ServiceFabricApplicationPackage -ApplicationPackagePath "C:\CalculatorApp" -ImageStoreConnectionString "file:C:\SfDevCluster\Data\ImageStoreShare"
 ```
 
 This command validates the application package found in the specified path. It provides the image store connection string for more validation against application versions already in the image store.

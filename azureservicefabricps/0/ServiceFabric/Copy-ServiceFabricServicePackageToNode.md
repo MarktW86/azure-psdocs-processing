@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 156B7382-5026-423F-8570-969F11C4BD5F
 online version:
 schema: 2.0.0
-updated_at: 03/28/2017 20:03 PM
-ms.date: 03/28/2017
+updated_at: 04/13/2017 18:04 PM
+ms.date: 04/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Copy-ServiceFabricServicePackageToNode.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Copy-ServiceFabricServicePackageToNode.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/16a577fb6a51f5ca50120cc3307348c9086eb9f5
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/e4666c66ecad8bb641483d243bfac15b26f72282
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -42,14 +42,14 @@ Before you perform any operation on a Service Fabric cluster, establish a connec
 
 ### 1:
 ```
-PS C:\>$sharingPolicy = new-ServiceFabricPackageSharingPolicy -PackageName CalcService5 -SharingScopeAll
+PS C:\> $sharingPolicy = new-ServiceFabricPackageSharingPolicy -PackageName CalcService5 -SharingScopeAll
 ```
 
 This command generates a package share policy by using [New-ServiceFabricPackageSharingPolicy](.\New-ServiceFabricPackageSharingPolicy.md) cmdlet and assign it to the variable $sharingPolicy
 
 ### 2:
 ```
-PS C:\>Copy-ServiceFabricServicePackageToNode -ServiceManifestName CalcService5 -ApplicationTypeName CalcServiceApp -ApplicationTypeVersion 5.0 -NodeName Node4 -PackageSharingPolicies $sharingPolicy -TimeoutSec 600 -Verbose
+PS C:\> Copy-ServiceFabricServicePackageToNode -ServiceManifestName CalcService5 -ApplicationTypeName CalcServiceApp -ApplicationTypeVersion 5.0 -NodeName Node4 -PackageSharingPolicies $sharingPolicy -TimeoutSec 600 -Verbose
 ```
 
 The command copies the service package belong to application type "CalcServiceApp", application version "5.0" and service manifest "CalcService5" to Node4 with previously generated share policy object $sharePolicy.

@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 4E889F33-E989-492D-884A-A59A3A89FE08
 online version:
 schema: 2.0.0
-updated_at: 03/20/2017 17:03 PM
-ms.date: 03/20/2017
+updated_at: 04/13/2017 18:04 PM
+ms.date: 04/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Register-ServiceFabricClusterPackage.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Register-ServiceFabricClusterPackage.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/4b282fbbada4e5b501710c20544af645ad024b6b
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/e4666c66ecad8bb641483d243bfac15b26f72282
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -50,21 +50,21 @@ Before you perform any operation on a Service Fabric cluster, establish a connec
 
 ### Example 1: Register a package that contains both code and configuration
 ```
-PS C:\>Register-ServiceFabricClusterPackage -ClusterManifestPath "ClusterManifest.xml" -CodePackagePath "ServiceFabric.msi"
+PS C:\> Register-ServiceFabricClusterPackage -ClusterManifestPath "ClusterManifest.xml" -CodePackagePath "ServiceFabric.msi"
 ```
 
 This command registers both the cluster manifest and MSI file with the cluster.
 
 ### Example 2: Register only the cluster manifest
 ```
-PS C:\>Register-ServiceFabricClusterPackage -Config -ClusterManifestPath "ClusterManifest.xml"
+PS C:\> Register-ServiceFabricClusterPackage -Config -ClusterManifestPath "ClusterManifest.xml"
 ```
 
 This command registers just the cluster manifest with the cluster.
 
 ### Example 3: Register only the runtime installation file
 ```
-PS C:\>Register-ServiceFabricClusterPackage -Code -CodePackagePath "ServiceFabric.msi"
+PS C:\> Register-ServiceFabricClusterPackage -Code -CodePackagePath "ServiceFabric.msi"
 ```
 
 This command registers just the runtime installation file with the cluster.

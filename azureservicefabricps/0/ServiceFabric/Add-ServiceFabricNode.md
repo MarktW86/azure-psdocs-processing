@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 57A27B58-D6EC-464F-97FA-63F5D0391954
 online version:
 schema: 2.0.0
-updated_at: 03/16/2017 19:03 PM
-ms.date: 03/16/2017
+updated_at: 04/13/2017 18:04 PM
+ms.date: 04/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Add-ServiceFabricNode.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Add-ServiceFabricNode.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/4ab6b83a61c6cfaed04a705db9396d192fe28588
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/e4666c66ecad8bb641483d243bfac15b26f72282
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -37,10 +37,10 @@ Before you perform this operation, establish a connection to the cluster by usin
 
 ### Example 1: Add a node to a cluster
 ```
-PS C:\>Add-ServiceFabricNode -NodeName "N011" -NodeType "NodeType0" -IpAddressOrFQDN "10.10.100.100" -UpgradeDomain "ud5" -FaultDomain "fd:/dc5/r0" -FabricRuntimePackagePath "D:\deployanywhere\MicrosoftAzureServiceFabric.cab"
+PS C:\> Add-ServiceFabricNode -NodeName "N011" -NodeType "NodeType0" -IpAddressOrFQDN "10.10.100.100" -UpgradeDomain "ud5" -FaultDomain "fd:/dc5/r0" -FabricRuntimePackagePath "D:\deployanywhere\MicrosoftAzureServiceFabric.cab"
 ```
 
-This command adds the specified node to a cluster with the given NodeName, NodeType, IpAddressOrFQDN, UpgradeDomain and FaultDomain. The NodeType should already exist in the deployed JSON config. FabricRuntimePackagePath points to the current runtime package on which the cluster is deployed.
+This command adds the specified node to a cluster with the given *NodeName*, *NodeType*, *IpAddressOrFQDN*, *UpgradeDomain*, and *FaultDomain*. The *NodeType* parameter should already exist in the deployed JSON config. FabricRuntimePackagePath points to the current runtime package on which the cluster is deployed.
 
 ## PARAMETERS
 

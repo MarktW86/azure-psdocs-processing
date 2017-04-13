@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 38C23E3E-4A54-4C9A-B349-A338006A12DE
 online version:
 schema: 2.0.0
-updated_at: 03/10/2017 19:03 PM
-ms.date: 03/10/2017
+updated_at: 04/13/2017 18:04 PM
+ms.date: 04/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Update-ServiceFabricApplication.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Update-ServiceFabricApplication.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/deeef17c4bb2eafe924fdbe3ccf8feb1219d5797
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/e4666c66ecad8bb641483d243bfac15b26f72282
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -38,7 +38,7 @@ Application capacity defines the maximum/minimum nodes for an application, as we
 
 ### Example 1: Update MaximumNodes and Metrics
 ```
-PS C:\>Update-ServiceFabricApplication fabric:/MyApp -MaximumNodes 6 -Metrics @("CPU,2,12,16")
+PS C:\> Update-ServiceFabricApplication fabric:/MyApp -MaximumNodes 6 -Metrics @("CPU,2,12,16")
 ```
 
 This command updates the application fabric:/MyApp to use a maximum of six nodes.
@@ -48,7 +48,7 @@ The value for *MinimumNodes* remains unchanged.
 
 ### Example 2: Update MaximumNodes and reset metrics
 ```
-PS C:\>Update-ServiceFabricApplication fabric:/MyApp -MaximumNodes 6 -Metrics @()
+PS C:\> Update-ServiceFabricApplication fabric:/MyApp -MaximumNodes 6 -Metrics @()
 ```
 
 This command updates the application fabric:/MyApp to use a maximum of six nodes, and removes capacities for all metrics.
@@ -57,7 +57,7 @@ The value for *MinimumNodes* is unchanged.
 
 ### Example 3: Update all application capacity parameters
 ```
-PS C:\>Update-ServiceFabricApplication fabric:/MyApp -MinumumNodes 2 -MaximumNodes 6 -Metrics @("CPU,2,12,16")
+PS C:\> Update-ServiceFabricApplication fabric:/MyApp -MinumumNodes 2 -MaximumNodes 6 -Metrics @("CPU,2,12,16")
 ```
 
 This command updates the application fabric:/MyApp to use a maximum of six nodes.
@@ -67,7 +67,7 @@ The value for minimum nodes is updated to 2, so that Service Fabric reserves a t
 
 ### Example 4: Remove all application capacity parameters
 ```
-PS C:\>Update-ServiceFabricApplication fabric:/MyApp -RemoveApplicationCapacity
+PS C:\> Update-ServiceFabricApplication fabric:/MyApp -RemoveApplicationCapacity
 ```
 
 This command updates the application fabric:/MyApp so that it does not have any application capacity parameters defined.

@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: DBE2A1B4-438C-4E66-9D50-2DBC6333338C
 online version:
 schema: 2.0.0
-updated_at: 03/06/2017 18:03 PM
-ms.date: 03/06/2017
+updated_at: 04/13/2017 18:04 PM
+ms.date: 04/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Move-ServiceFabricSecondaryReplica.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Move-ServiceFabricSecondaryReplica.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/ffcf8444837861c6001f2d5cae123000f4dd6044
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/e4666c66ecad8bb641483d243bfac15b26f72282
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -74,14 +74,14 @@ Before using this cmdlet, connect to the Service Fabric cluster.
 
 ### Example 1: Move the secondary replica of a stateful service by node name
 ```
-PS C:\>Move-ServiceFabricSecondaryReplica -CurrentSecondaryNodeName "N0020" -NewSecondaryNodeName "N0010" -PartitionId 93838f53-f1d9-4b99-8492-b802ee807d03 -ServiceName fabric:/SampleApp/SampleService
+PS C:\> Move-ServiceFabricSecondaryReplica -CurrentSecondaryNodeName "N0020" -NewSecondaryNodeName "N0010" -PartitionId 93838f53-f1d9-4b99-8492-b802ee807d03 -ServiceName fabric:/SampleApp/SampleService
 ```
 
 This command moves the specified secondary replica from node N0020 to node N0010 for the specified partition that belongs to the service named fabric:/SampleApp/SampleService.
 
 ### Example 2: Move a random secondary replica of a stateful service by service name to a new node
 ```
-PS C:\>Move-ServiceFabricSecondaryReplica -ServiceName fabric:/myApp/MyPersistedService
+PS C:\> Move-ServiceFabricSecondaryReplica -ServiceName fabric:/myApp/MyPersistedService
 ```
 
 This command moves a random secondary replica to a new node.

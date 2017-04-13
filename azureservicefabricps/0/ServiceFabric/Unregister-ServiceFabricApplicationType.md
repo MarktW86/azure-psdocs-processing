@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 42986C68-14EA-4ADA-9381-3B7A9DF11971
 online version:
 schema: 2.0.0
-updated_at: 03/06/2017 22:03 PM
-ms.date: 03/06/2017
+updated_at: 04/13/2017 18:04 PM
+ms.date: 04/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Unregister-ServiceFabricApplicationType.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Unregister-ServiceFabricApplicationType.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/fbbf5329c05c6bf5882249fcb36572d86a84ae29
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/e4666c66ecad8bb641483d243bfac15b26f72282
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -42,7 +42,7 @@ Before you perform any operation on a Service Fabric cluster, establish a connec
 
 ### Example 1: Unregister an application type
 ```
-PS C:\>Unregister-ServiceFabricApplicationType -ApplicationTypeName "CalcServiceApp" -ApplicationTypeVersion "1.0" -Force
+PS C:\> Unregister-ServiceFabricApplicationType -ApplicationTypeName "CalcServiceApp" -ApplicationTypeVersion "1.0" -Force
 ```
 
 This command unregisters the application type CalcServiceApp with version 1.0.

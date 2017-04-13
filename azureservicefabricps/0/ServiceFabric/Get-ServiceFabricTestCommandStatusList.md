@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 26459CBC-9296-4B65-A298-E6B31EF65865
 online version:
 schema: 2.0.0
-updated_at: 03/24/2017 15:03 PM
-ms.date: 03/24/2017
+updated_at: 04/13/2017 18:04 PM
+ms.date: 04/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricTestCommandStatusList.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricTestCommandStatusList.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/bc0ec5bc26f85fe1bd8f50fdd7441df1ae0fcddb
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/e4666c66ecad8bb641483d243bfac15b26f72282
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -44,7 +44,7 @@ The Operation ID returned can be used to get additional details about the fault 
 
 ### Example 1: Get status of cancelled test commands
 ```
-PS C:\>Get-ServiceFabricTestCommandStatusList -StateFilter Cancelled
+PS C:\> Get-ServiceFabricTestCommandStatusList -StateFilter Cancelled
 OperationId                              State     TestCommandType
 -----------                              -----     ---------------
 a268cc73-2e30-462b-b3df-3a0d30e5b330 Cancelled PartitionQuorumLoss
@@ -55,7 +55,7 @@ In this example, the result has one fault operation.
 
 ### Example 2: Get status of all test commands
 ```
-PS C:\>Get-ServiceFabricTestCommandStatusList
+PS C:\> Get-ServiceFabricTestCommandStatusList
 OperationId                              State     TestCommandType
 -----------                              -----     ---------------
 aeaceca9-320d-4f7b-84e8-3cc13c29a974 Completed PartitionQuorumLoss

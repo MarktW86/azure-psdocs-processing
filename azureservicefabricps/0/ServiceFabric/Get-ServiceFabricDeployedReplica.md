@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: DFC277E2-C2C5-451D-9029-0D9054A53E82
 online version:
 schema: 2.0.0
-updated_at: 03/09/2017 17:03 PM
-ms.date: 03/09/2017
+updated_at: 04/13/2017 18:04 PM
+ms.date: 04/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricDeployedReplica.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricDeployedReplica.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/693945a72fd0a71cabe7aa5cb9e51c0b8d12af11
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/e4666c66ecad8bb641483d243bfac15b26f72282
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -47,7 +47,7 @@ Before you perform any operation on a Service Fabric cluster, establish a connec
 
 ### Example 1: Get all deployed replicas
 ```
-PS C:\>Get-ServiceFabricDeployedReplica -NodeName "Node01" -ApplicationName fabric:/MyApplication
+PS C:\> Get-ServiceFabricDeployedReplica -NodeName "Node01" -ApplicationName fabric:/MyApplication
 ```
 
 This command gets all deployed replicas for application fabric:/MyApplication on node Node01.

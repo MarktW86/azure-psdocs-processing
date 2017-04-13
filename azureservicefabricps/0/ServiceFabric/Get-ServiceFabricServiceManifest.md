@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: AC37BE9E-4243-4A85-BC4F-19A56B4FE00B
 online version:
 schema: 2.0.0
-updated_at: 03/15/2017 21:03 PM
-ms.date: 03/15/2017
+updated_at: 04/13/2017 18:04 PM
+ms.date: 04/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricServiceManifest.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricServiceManifest.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/27190831243acb47c212e34d29c2632057743ea2
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/e4666c66ecad8bb641483d243bfac15b26f72282
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -40,7 +40,7 @@ To understand the Service Fabric application model, see [Model an application in
 
 ### Example 1: Get the service manifest
 ```
-PS C:\>Get-ServiceFabricServiceManifest -ApplicationTypeName "WordCount" -ApplicationTypeVersion "1.0.0" -ServiceManifestName "WordCountServicePkg"
+PS C:\> Get-ServiceFabricServiceManifest -ApplicationTypeName "WordCount" -ApplicationTypeVersion "1.0.0" -ServiceManifestName "WordCountServicePkg"
 ```
 
 The command gets the service manifest for the service "WordCountServicePkg" of application type "1.0.0" and application version "WordCount".

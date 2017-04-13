@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 1965D6CA-5FF5-4374-BB7A-23585A2D2228
 online version:
 schema: 2.0.0
-updated_at: 03/06/2017 18:03 PM
-ms.date: 03/06/2017
+updated_at: 04/13/2017 18:04 PM
+ms.date: 04/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricClusterConfigurationUpgrade.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricClusterConfigurationUpgrade.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/ffcf8444837861c6001f2d5cae123000f4dd6044
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/e4666c66ecad8bb641483d243bfac15b26f72282
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -40,7 +40,7 @@ The **Start-ServiceFabricClusterConfigurationUpgrade** cmdlet upgrades a cluster
 
 ### Example 1: Upgrade cluster configuration
 ```
-PS C:\>Start-ServiceFabricClusterConfigurationUpgrade -ClusterConfigPath "configurationV2.json"
+PS C:\> Start-ServiceFabricClusterConfigurationUpgrade -ClusterConfigPath "configurationV2.json"
 ```
 
 This cmdlet upgrades cluster configuration based on the cluster configuration file.
