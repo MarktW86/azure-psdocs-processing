@@ -5,24 +5,32 @@
       href: ../conceptual/2.0/install-adv2.md
     - name: Install the MSonline module
       href: ../conceptual/2.0/install-msonlinev1.md
-- name: Sample scripts
+- name: Using Azure AD PowerShell
   items:
     - name: PowerShell scenario examples
       items:
         - name: Managing groups in Azure AD
-          href: 'https://docs.microsoft.com/en-us/azure/active-directory/active-directory-accessmanagement-groups-settings-cmdlets'
-        - name: Managing Unified Groups settings using Powershell
           href: 'https://docs.microsoft.com/en-us/azure/active-directory/active-directory-accessmanagement-groups-settings-v2-cmdlets'
+        - name: Managing Unified Groups settings using Powershell
+          href: 'https://docs.microsoft.com/en-us/azure/active-directory/active-directory-accessmanagement-groups-settings-cmdlets'
         - name: Managing Role Based Access Control (RBAC)
           href: 'https://docs.microsoft.com/en-us/azure/active-directory/role-based-access-control-manage-access-powershell'
+        - name: Signing in with a Service Principal
+          href: ../conceptual/2.0/signing-in-service-principal.md
+        - name: Using extension attributes
+          href: ../conceptual/2.0/using-extension-attributes-sample.md
     - name: Powershell script snippets
       items:
         - name: Inviting guests in B2B
           href: 'https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-code-samples#powershell-example'
-    - name: Videos
-      items:
-        - name: Manage dynamic groups with PowerShell
-          href: 'https://channel9.msdn.com/Series/Azure-Active-Directory-Videos-Demos/Managing-dynamic-groups-with-Azure-AD-PowerShell'
+        - name: Creating a new user and setting the password
+          href: ../conceptual/2.0/new-user-sample.md
+        - name: Connecting an Azure AD Powershell session with Service Principal credentials
+          href: ../conceptual/2.0/connect-using-service-principal-sample.md
+- name: Videos
+  items:
+    - name: Manage dynamic groups with PowerShell
+      href: 'https://channel9.msdn.com/Series/Azure-Active-Directory-Videos-Demos/Managing-dynamic-groups-with-Azure-AD-PowerShell'
 - name: Read more
   items:
     - name: Getting started with PowerShell

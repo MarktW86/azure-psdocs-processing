@@ -1,0 +1,141 @@
+- name: Azure Stack PowerShell
+  href: ../conceptual/1.2.9/overview.md
+  items:
+    - name: Install
+      href: 'https://docs.microsoft.com/en-us/azure/azure-stack/azure-stack-powershell-install'
+    - name: Configure
+      href: 'https://docs.microsoft.com/en-us/azure/azure-stack/azure-stack-powershell-configure'
+- name: Reference
+  items:
+    - name: AzureRM.AzureStackAdmin
+      href: 'AzureRM.AzureStackAdmin/index.md#azurerm.azurestackadmin'
+      items:
+        - name: Add-AzureRMGalleryItem
+          href: AzureRM.AzureStackAdmin/Add-AzureRMGalleryItem.md
+        - name: Add-AzureRMResourceProviderRegistration
+          href: AzureRM.AzureStackAdmin/Add-AzureRMResourceProviderRegistration.md
+        - name: Add-AzureRMUsageConnection
+          href: AzureRM.AzureStackAdmin/Add-AzureRMUsageConnection.md
+        - name: Get-AzureRMGalleryItem
+          href: AzureRM.AzureStackAdmin/Get-AzureRMGalleryItem.md
+        - name: Get-AzureRMManagedLocation
+          href: AzureRM.AzureStackAdmin/Get-AzureRMManagedLocation.md
+        - name: Get-AzureRMManagedSubscription
+          href: AzureRM.AzureStackAdmin/Get-AzureRMManagedSubscription.md
+        - name: Get-AzureRMOffer
+          href: AzureRM.AzureStackAdmin/Get-AzureRMOffer.md
+        - name: Get-AzureRMPlan
+          href: AzureRM.AzureStackAdmin/Get-AzureRMPlan.md
+        - name: Get-AzureRMResourceProviderRegistration
+          href: AzureRM.AzureStackAdmin/Get-AzureRMResourceProviderRegistration.md
+        - name: Get-AzureRMTenantSubscription
+          href: AzureRM.AzureStackAdmin/Get-AzureRMTenantSubscription.md
+        - name: Get-AzureRMUsageConnection
+          href: AzureRM.AzureStackAdmin/Get-AzureRMUsageConnection.md
+        - name: Get-AzureStackToken
+          href: AzureRM.AzureStackAdmin/Get-AzureStackToken.md
+        - name: New-AzureRMManagedLocation
+          href: AzureRM.AzureStackAdmin/New-AzureRMManagedLocation.md
+        - name: New-AzureRMManagedSubscription
+          href: AzureRM.AzureStackAdmin/New-AzureRMManagedSubscription.md
+        - name: New-AzureRMOffer
+          href: AzureRM.AzureStackAdmin/New-AzureRMOffer.md
+        - name: New-AzureRMPlan
+          href: AzureRM.AzureStackAdmin/New-AzureRMPlan.md
+        - name: New-AzureRMTenantSubscription
+          href: AzureRM.AzureStackAdmin/New-AzureRMTenantSubscription.md
+        - name: Remove-AzureRMGalleryItem
+          href: AzureRM.AzureStackAdmin/Remove-AzureRMGalleryItem.md
+        - name: Remove-AzureRMManagedLocation
+          href: AzureRM.AzureStackAdmin/Remove-AzureRMManagedLocation.md
+        - name: Remove-AzureRMManagedSubscription
+          href: AzureRM.AzureStackAdmin/Remove-AzureRMManagedSubscription.md
+        - name: Remove-AzureRMOffer
+          href: AzureRM.AzureStackAdmin/Remove-AzureRMOffer.md
+        - name: Remove-AzureRMPlan
+          href: AzureRM.AzureStackAdmin/Remove-AzureRMPlan.md
+        - name: Remove-AzureRMResourceProviderRegistration
+          href: AzureRM.AzureStackAdmin/Remove-AzureRMResourceProviderRegistration.md
+        - name: Remove-AzureRMTenantSubscription
+          href: AzureRM.AzureStackAdmin/Remove-AzureRMTenantSubscription.md
+        - name: Remove-AzureRMUsageConnection
+          href: AzureRM.AzureStackAdmin/Remove-AzureRMUsageConnection.md
+        - name: Set-AzureRMManagedLocation
+          href: AzureRM.AzureStackAdmin/Set-AzureRMManagedLocation.md
+        - name: Set-AzureRMManagedSubscription
+          href: AzureRM.AzureStackAdmin/Set-AzureRMManagedSubscription.md
+        - name: Set-AzureRMOffer
+          href: AzureRM.AzureStackAdmin/Set-AzureRMOffer.md
+        - name: Set-AzureRMPlan
+          href: AzureRM.AzureStackAdmin/Set-AzureRMPlan.md
+        - name: Set-AzureRMResourceProviderRegistration
+          href: AzureRM.AzureStackAdmin/Set-AzureRMResourceProviderRegistration.md
+        - name: Set-AzureRMTenantSubscription
+          href: AzureRM.AzureStackAdmin/Set-AzureRMTenantSubscription.md
+    - name: AzureRM.AzureStackStorage
+      href: 'AzureRM.AzureStackStorage/index.md#azurerm.azurestackstorage'
+      items:
+        - name: Add-ACSFarm
+          href: AzureRM.AzureStackStorage/Add-ACSFarm.md
+        - name: Clear-ACSStorageAccount
+          href: AzureRM.AzureStackStorage/Clear-ACSStorageAccount.md
+        - name: Get-ACSAcquisition
+          href: AzureRM.AzureStackStorage/Get-ACSAcquisition.md
+        - name: Get-ACSBlobService
+          href: AzureRM.AzureStackStorage/Get-ACSBlobService.md
+        - name: Get-ACSBlobServiceMetric
+          href: AzureRM.AzureStackStorage/Get-ACSBlobServiceMetric.md
+        - name: Get-ACSBlobServiceMetricDefinition
+          href: AzureRM.AzureStackStorage/Get-ACSBlobServiceMetricDefinition.md
+        - name: Get-ACSContainer
+          href: AzureRM.AzureStackStorage/Get-ACSContainer.md
+        - name: Get-ACSContainerMigrationStatus
+          href: AzureRM.AzureStackStorage/Get-ACSContainerMigrationStatus.md
+        - name: Get-ACSFarm
+          href: AzureRM.AzureStackStorage/Get-ACSFarm.md
+        - name: Get-ACSFarmMetric
+          href: AzureRM.AzureStackStorage/Get-ACSFarmMetric.md
+        - name: Get-ACSFarmMetricDefinition
+          href: AzureRM.AzureStackStorage/Get-ACSFarmMetricDefinition.md
+        - name: Get-ACSQueueService
+          href: AzureRM.AzureStackStorage/Get-ACSQueueService.md
+        - name: Get-ACSQueueServiceMetric
+          href: AzureRM.AzureStackStorage/Get-ACSQueueServiceMetric.md
+        - name: Get-ACSQueueServiceMetricDefinition
+          href: AzureRM.AzureStackStorage/Get-ACSQueueServiceMetricDefinition.md
+        - name: Get-ACSQuota
+          href: AzureRM.AzureStackStorage/Get-ACSQuota.md
+        - name: Get-ACSShare
+          href: AzureRM.AzureStackStorage/Get-ACSShare.md
+        - name: Get-ACSShareMetric
+          href: AzureRM.AzureStackStorage/Get-ACSShareMetric.md
+        - name: Get-ACSShareMetricDefinition
+          href: AzureRM.AzureStackStorage/Get-ACSShareMetricDefinition.md
+        - name: Get-ACSSharesForMigration
+          href: AzureRM.AzureStackStorage/Get-ACSSharesForMigration.md
+        - name: Get-ACSStorageAccount
+          href: AzureRM.AzureStackStorage/Get-ACSStorageAccount.md
+        - name: Get-ACSTableService
+          href: AzureRM.AzureStackStorage/Get-ACSTableService.md
+        - name: Get-ACSTableServiceMetric
+          href: AzureRM.AzureStackStorage/Get-ACSTableServiceMetric.md
+        - name: Get-ACSTableServiceMetricDefinition
+          href: AzureRM.AzureStackStorage/Get-ACSTableServiceMetricDefinition.md
+        - name: New-ACSQuota
+          href: AzureRM.AzureStackStorage/New-ACSQuota.md
+        - name: Remove-ACSAcquisition
+          href: AzureRM.AzureStackStorage/Remove-ACSAcquisition.md
+        - name: Remove-ACSQuota
+          href: AzureRM.AzureStackStorage/Remove-ACSQuota.md
+        - name: Set-ACSFarm
+          href: AzureRM.AzureStackStorage/Set-ACSFarm.md
+        - name: Set-ACSQuota
+          href: AzureRM.AzureStackStorage/Set-ACSQuota.md
+        - name: Start-ACSContainerMigration
+          href: AzureRM.AzureStackStorage/Start-ACSContainerMigration.md
+        - name: Stop-ACSContainerMigration
+          href: AzureRM.AzureStackStorage/Stop-ACSContainerMigration.md
+        - name: Sync-ACSStorageAccount
+          href: AzureRM.AzureStackStorage/Sync-ACSStorageAccount.md
+        - name: Undo-ACSStorageAccountDeletion
+          href: AzureRM.AzureStackStorage/Undo-ACSStorageAccountDeletion.md

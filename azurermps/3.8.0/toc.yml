@@ -21,9 +21,9 @@
 - name: Sample Scripts
   items:
     - name: Linux Virtual Machines
-      href: 'https://docs.microsoft.com/azure/virtual-machines/virtual-machines-linux-powershell-samples?toc=%2fpowershell%2fmodule%2ftoc.json'
+      href: 'https://docs.microsoft.com/en-us/azure/virtual-machines/linux/powershell-samples?toc=%2fpowershell%2fmodule%2ftoc.json'
     - name: Windows Virtual Machines
-      href: 'https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-powershell-samples?toc=%2fpowershell%2fmodule%2ftoc.json'
+      href: 'https://docs.microsoft.com/en-us/azure/virtual-machines/windows/powershell-samples?toc=%2fpowershell%2fmodule%2ftoc.json'
     - name: Web Apps
       href: 'https://docs.microsoft.com/azure/app-service-web/app-service-powershell-samples?toc=%2fpowershell%2fmodule%2ftoc.json'
     - name: SQL Databases

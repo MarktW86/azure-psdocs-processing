@@ -355,6 +355,38 @@
       },
       {
         "files": [
+          "**/*.yml",
+          "**/*.md"
+        ],
+        "src": "azurestackps/1.2.9",
+        "version": "azurestackps-1.2.9",
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE"
+        ],
+        "dest": "module"
+      },
+      {
+        "files": [
+          "**/*.yml",
+          "**/*.md"
+        ],
+        "src": "azurestackps/conceptual/1.2.9",
+        "version": "azurestackps-1.2.9",
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE"
+        ],
+        "dest": "azure"
+      },
+      {
+        "files": [
           "*.md",
           "*.yml",
           "AADRM/**/*.md",
@@ -373,6 +405,8 @@
           "ResourceManager/**/*.yml",
           "ServiceManagement/**/*.md",
           "ServiceManagement/**/*.yml",
+          "AzureStack/**/*.md",
+          "AzureStack/**/*.yml",
           "ServiceFabric/**/*.md",
           "ServiceFabric/**/*.yml",
           "Storage/**/*.md",
@@ -428,6 +462,9 @@
       },
       "azureelasticdbjobsps-0.8.33": {
         "dest": "azureelasticdbjobsps-0.8.33"
+      },
+      "azurestack-1.2.9": {
+        "dest": "azurestackps-1.2.9"
       }
     },
     "filemetadata":{
@@ -438,7 +475,8 @@
           "azureadps/**/*.md":"rodejo",
           "azureipps/**/*.md":"cabailey",
           "azureservicefabricps/**/*.md":"oanapl",
-          "azurelasticdbjobsps/**/*.md":"PowerShellhelpub"
+          "azurelasticdbjobsps/**/*.md":"PowerShellhelpub",
+          "azurestackps/**/*.md":"sngun" 
         },
       "author":
         {
@@ -447,7 +485,8 @@
           "azureadps/**/*.md":"RobdeJong",
           "azureipps/**/*.md":"cabailey",
           "azureservicefabricps/**/*.md":"PowerShellhelpub",
-          "azurelasticdbjobsps/**/*.md":"PowerShellhelpub"
+          "azurelasticdbjobsps/**/*.md":"PowerShellhelpub",
+          "azurestackps/**/*.md":"SnehaGunda" 
         },
         "ms.manager":
         {
@@ -456,7 +495,8 @@
           "azureadps/**/*.md":"kbrint",
           "azureipps/**/*.md":"mbaldwin",
           "azureservicefabricps/**/*.md":"vipulm",
-          "azurelasticdbjobsps/**/*.md":"carmonm"
+          "azurelasticdbjobsps/**/*.md":"carmonm",
+          "azurestackps/**/*.md":"byronr" 
         }
     },
     "globalMetadata": {
