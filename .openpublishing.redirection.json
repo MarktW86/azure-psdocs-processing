@@ -91,7 +91,7 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "/powershell/module/aadrm/add-aadrmkey",
+      "source_path": "/module/aadrm/add-aadrmkey",
       "redirect_url": "/powershell/azure/add-aadrmkey",
       "redirect_document_id": false
     },
