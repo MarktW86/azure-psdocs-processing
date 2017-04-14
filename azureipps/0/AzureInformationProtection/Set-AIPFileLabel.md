@@ -3,11 +3,11 @@ external help file: AIP.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=838766
 schema: 2.0.0
 ms.assetid: 566E595C-D574-4DED-AE38-CBCD75694B45
-updated_at: 03/20/2017 16:03 PM
-ms.date: 03/20/2017
+updated_at: 04/13/2017 16:04 PM
+ms.date: 04/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AzureInformationProtection/vlatest/Set-AIPFileLabel.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AzureInformationProtection/vlatest/Set-AIPFileLabel.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/e56d400b7731e681299acc4ab6717eba1e8ef451
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/04982db0e589eaad83c857df455917c085a673c1
 ms.topic: reference
 author: cabailey
 ms.author: PowerShellHelpPub
@@ -128,7 +128,7 @@ Accept wildcard characters: False
 ### -LabelId
 Specifies the identity (ID) of the label to apply. When a label has sub-labels, always specify the ID of just a sub-label and not the parent label. 
 
-The label ID value is displayed in the Azure portal, on the Label blade, when you view or configure the Azure Information Protection policy. For files that have labels applied, you can also run the [Get-AIPFileLabel](./Get-AIPFileLabel.md) cmdlet to identify the label ID (MainLabelId or SubLabelId).
+The label ID value is displayed in the Azure portal, on the Label blade, when you view or configure the Azure Information Protection policy. For files that have labels applied, you can also run the [Get-AIPFileStatus](./Get-AIPFileStatus.md) cmdlet to identify the label ID (MainLabelId or SubLabelId).
 
 
 ```yaml
@@ -146,7 +146,7 @@ Accept wildcard characters: False
 ### -Path
 Specifies a local or network path to the file or files to which you want to apply labels. Wildcards are not supported.
 
-Examples include C:\Folder\, C:\Folder\Filename, \\Server\Folder.
+Examples include C:\Folder\, C:\Folder\Filename, \\\Server\Folder.
 
 ```yaml
 Type: String[]
