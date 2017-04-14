@@ -91,7 +91,7 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "/module/aadrm/add-aadrmkey",
+      "source_path": "azureipps/0/aadrm/add-aadrmkey.md",
       "redirect_url": "/powershell/azure/add-aadrmkey",
       "redirect_document_id": false
     },
