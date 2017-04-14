@@ -87,12 +87,12 @@
     },
     {
       "source_path": "AADRM/vlatest/Add-AadrmKey.md",
-      "redirect_url": "/powershell/azure/add-aadrmkey?view=azureipps",
+      "redirect_url": "/powershell/azure/add-aadrmkey",
       "redirect_document_id": false
     },
     {
-      "source_path": "module/aadrm/add-aadrmkey.md?view=azureipps",
-      "redirect_url": "/powershell/azure/add-aadrmkey?view=azureipps",
+      "source_path": "/powershell/module/aadrm/add-aadrmkey",
+      "redirect_url": "/powershell/azure/add-aadrmkey",
       "redirect_document_id": false
     },
     {
