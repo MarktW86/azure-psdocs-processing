@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: D1A0F338-F89D-40F0-8C1A-AF5453E61092
 online version:
 schema: 2.0.0
-updated_at: 03/07/2017 00:03 AM
-ms.date: 03/07/2017
+updated_at: 04/13/2017 18:04 PM
+ms.date: 04/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricRegisteredClusterCodeVersion.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricRegisteredClusterCodeVersion.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/bcbc202904350fd056f72db4725d09ae3fc3352c
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/e4666c66ecad8bb641483d243bfac15b26f72282
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -39,7 +39,7 @@ Before you perform any operation on a Service Fabric cluster, establish a connec
 
 ### Example 1:
 ```
-PS C:\>Get-ServiceFabricRegisteredClusterCodeVersion
+PS C:\> Get-ServiceFabricRegisteredClusterCodeVersion
 ```
 
 ## PARAMETERS

@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: ED7EBEFF-3AB3-4385-AA3A-AB03870E28EE
 online version:
 schema: 2.0.0
-updated_at: 03/06/2017 23:03 PM
-ms.date: 03/06/2017
+updated_at: 04/13/2017 18:04 PM
+ms.date: 04/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricServiceType.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricServiceType.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/40a6d833fd1d0271eee2f9091ff587d62694e2ce
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/e4666c66ecad8bb641483d243bfac15b26f72282
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -38,7 +38,7 @@ Before you perform any operation on a Service Fabric cluster, establish a connec
 
 ### Example 1: Get the service type information
 ```
-PS C:\>Get-ServiceFabricServiceType -ApplicationTypeName "CalcServiceApp" -ApplicationTypeVersion "1.0"
+PS C:\> Get-ServiceFabricServiceType -ApplicationTypeName "CalcServiceApp" -ApplicationTypeVersion "1.0"
 ```
 
 This command gets the information for the service types of version 1.0 of the CalcServiceApp application.

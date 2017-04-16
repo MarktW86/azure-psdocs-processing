@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: FD4821A9-3C2A-4AFB-9611-D46FF1D4772C
 online version:
 schema: 2.0.0
-updated_at: 03/20/2017 17:03 PM
-ms.date: 03/20/2017
+updated_at: 04/13/2017 18:04 PM
+ms.date: 04/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Test-ServiceFabricClusterManifest.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Test-ServiceFabricClusterManifest.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/4b282fbbada4e5b501710c20544af645ad024b6b
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/e4666c66ecad8bb641483d243bfac15b26f72282
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -38,14 +38,14 @@ This cmdlet does not discover issues with configuration values.
 
 ### Example 1: Validate a cluster manifest
 ```
-PS C:\>Test-ServiceFabricClusterManifest -ClusterManifestPath \\configStore\ClusterManifests\CH1\ClusterManifest_123.xml
+PS C:\> Test-ServiceFabricClusterManifest -ClusterManifestPath \\configStore\ClusterManifests\CH1\ClusterManifest_123.xml
 ```
 
 This command validates the specified Service Fabric cluster manifest.
 
 ### Example 2: Validate an updated cluster manifest
 ```
-PS C:\>Test-ServiceFabricClusterManifest -ClusterManifestPath \\configStore\ClusterManifests\CH1\ClusterManifest_123.v2.xml -OldClusterManifestPath \\configStore\ClusterManifests\CH1\ClusterManifest_123.v1.xml
+PS C:\> Test-ServiceFabricClusterManifest -ClusterManifestPath \\configStore\ClusterManifests\CH1\ClusterManifest_123.v2.xml -OldClusterManifestPath \\configStore\ClusterManifests\CH1\ClusterManifest_123.v1.xml
 ```
 
 This command validates the specified cluster manifest against an existing cluster manifest file. This is helpful for validating the changes between the two cluster manifests and catching potential errors before starting a cluster upgrade.

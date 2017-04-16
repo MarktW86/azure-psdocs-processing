@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 3C647305-B5A8-4CB7-8655-CC7695736CE0
 online version:
 schema: 2.0.0
-updated_at: 03/07/2017 18:03 PM
-ms.date: 03/07/2017
+updated_at: 04/13/2017 18:04 PM
+ms.date: 04/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/New-ServiceFabricService.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/New-ServiceFabricService.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/ace0e2599abee284b7a0075e447ce158416aba1c
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/e4666c66ecad8bb641483d243bfac15b26f72282
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -146,14 +146,14 @@ To get the services created under an application, use [Get-ServiceFabricService]
 
 ### Example 1: Create a stateless service by using a singleton partitioning scheme.
 ```
-PS C:\>New-ServiceFabricService -ApplicationName fabric:/HelloWorld -ServiceName fabric:/HelloWorld/svc1 -ServiceTypeName HelloWorldStateless -Stateless -PartitionSchemeSingleton -InstanceCount -1
+PS C:\> New-ServiceFabricService -ApplicationName fabric:/HelloWorld -ServiceName fabric:/HelloWorld/svc1 -ServiceTypeName HelloWorldStateless -Stateless -PartitionSchemeSingleton -InstanceCount -1
 ```
 
 This command creates a Service Fabric stateless service from the specified application instance by using a singleton partitioning scheme.
 
 ### Example 2: Create a stateful service by using a singleton partitioning scheme.
 ```
-PS C:\>New-ServiceFabricService -ApplicationName fabric:/HelloWorld -ServiceName fabric:/HelloWorld/svc1 -ServiceTypeName HelloWorldStateful -Stateful -PartitionSchemeSingleton -TargetReplicaSetSize 3 -MinReplicaSetSize 2
+PS C:\> New-ServiceFabricService -ApplicationName fabric:/HelloWorld -ServiceName fabric:/HelloWorld/svc1 -ServiceTypeName HelloWorldStateful -Stateful -PartitionSchemeSingleton -TargetReplicaSetSize 3 -MinReplicaSetSize 2
 ```
 
 This command creates a Service Fabric stateful service from the specified application instance by using a singleton partitioning scheme.

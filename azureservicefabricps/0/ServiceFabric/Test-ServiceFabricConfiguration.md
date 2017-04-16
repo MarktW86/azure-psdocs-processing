@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 1D699B1C-8047-4106-ABFF-8CDF9FEF142C
 online version:
 schema: 2.0.0
-updated_at: 03/06/2017 18:03 PM
-ms.date: 03/06/2017
+updated_at: 04/13/2017 18:04 PM
+ms.date: 04/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Test-ServiceFabricConfiguration.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Test-ServiceFabricConfiguration.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/ffcf8444837861c6001f2d5cae123000f4dd6044
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/e4666c66ecad8bb641483d243bfac15b26f72282
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -37,14 +37,14 @@ Specify the configuration file in JavaScript Object Notation (JSON) format.
 
 ### Example 1: Validate deployment
 ```
-PS C:\>Test-ServiceFabricConfiguration -ClusterConfigurationFilePath "D:\standalone\ClusterConfig.Unsecure.DevCluster.json"
+PS C:\> Test-ServiceFabricConfiguration -ClusterConfigurationFilePath "D:\standalone\ClusterConfig.Unsecure.DevCluster.json"
 ```
 
 This command validates that the cluster deploys from the current computer by using the specified configuration.
 
 ### Example 2: Validate deployment and runtime CAB file
 ```
-PS C:\>Test-ServiceFabricConfiguration -ClusterConfigurationFilePath "D:\standalone\ClusterConfig.Unsecure.DevCluster.json" -FabricRuntimePackagePath "D:\deployanywhere\MicrosoftAzureServiceFabric.cab"
+PS C:\> Test-ServiceFabricConfiguration -ClusterConfigurationFilePath "D:\standalone\ClusterConfig.Unsecure.DevCluster.json" -FabricRuntimePackagePath "D:\deployanywhere\MicrosoftAzureServiceFabric.cab"
 ```
 
 This command validates that the cluster deploys from the current computer by using this configuration.

@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 004C9EF9-80DE-4B23-AD63-652B7F4FF1A4
 online version:
 schema: 2.0.0
-updated_at: 03/23/2017 20:03 PM
-ms.date: 03/23/2017
+updated_at: 04/13/2017 18:04 PM
+ms.date: 04/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricPartitionDataLossProgress.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricPartitionDataLossProgress.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/fac2031a80184883cdb99fa4a8c6e1971ab6aaf2
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/e4666c66ecad8bb641483d243bfac15b26f72282
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -36,7 +36,7 @@ Initiate a data loss fault operation using the [Start-ServiceFabricPartitionData
 
 ### Example 1: Check progress of data loss fault operation
 ```
-PS C:\>Get-ServiceFabricPartitionDataLossProgress -OperationId d3f12b09-6a90-4745-a4fc-3f92149a7419
+PS C:\> Get-ServiceFabricPartitionDataLossProgress -OperationId d3f12b09-6a90-4745-a4fc-3f92149a7419
     State ProgressResult
     ----- --------------
 Completed SelectedPartition: Service Name: fabric:/ContosoApp/PersistServ, Partition Id: 67e2c139-ccf0-4562-9f2b-bf35e4c2...

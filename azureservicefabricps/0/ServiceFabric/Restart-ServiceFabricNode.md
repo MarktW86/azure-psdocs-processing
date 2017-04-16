@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 31BD0C1D-F4E0-40B2-B902-06B660D633D9
 online version:
 schema: 2.0.0
-updated_at: 03/14/2017 18:03 PM
-ms.date: 03/14/2017
+updated_at: 04/13/2017 18:04 PM
+ms.date: 04/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Restart-ServiceFabricNode.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Restart-ServiceFabricNode.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/aa37911b6912314e01b2176f141ccf5c97c897a4
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/e4666c66ecad8bb641483d243bfac15b26f72282
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -180,7 +180,7 @@ Before you perform any operation on a Service Fabric cluster, establish a connec
 
 ### Example 1: Restart a node that hosts a primary replica
 ```
-PS C:\>Restart-ServiceFabricNode -ReplicaKindPrimary -PartitionKindNamed -PartitionKey "Partition3" -CommandCompletionMode Verify
+PS C:\> Restart-ServiceFabricNode -ReplicaKindPrimary -PartitionKindNamed -PartitionKey "Partition3" -CommandCompletionMode Verify
 ```
 
 This command restarts the node that hosts the primary replica of the partition named Partition3.
@@ -188,7 +188,7 @@ Because the *CommandCompletionMode* parameter is specified with a value of Verif
 
 ### Example 2: Restart a specified node
 ```
-PS C:\>Restart-ServiceFabricNode -NodeName "Node01" -CommandCompletionMode DoNotVerify
+PS C:\> Restart-ServiceFabricNode -NodeName "Node01" -CommandCompletionMode DoNotVerify
 ```
 
 This command restarts the node named Node01.

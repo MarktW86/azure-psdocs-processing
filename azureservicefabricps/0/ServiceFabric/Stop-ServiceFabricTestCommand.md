@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 97D767C4-EAD7-4D19-A085-2BD1F992C099
 online version:
 schema: 2.0.0
-updated_at: 03/07/2017 01:03 AM
-ms.date: 03/07/2017
+updated_at: 04/13/2017 18:04 PM
+ms.date: 04/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Stop-ServiceFabricTestCommand.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Stop-ServiceFabricTestCommand.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/2457e34e99da0b4a34cf8e93116b75ea559b1dea
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/e4666c66ecad8bb641483d243bfac15b26f72282
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -44,7 +44,7 @@ Once the cleanup of the fault completes the final state of the command is Cancel
 
 ### Example 1: Cancel an operation
 ```
-PS C:\>Stop-ServiceFabricTestCommand -OperationId a268cc73-2e30-462b-b3df-3a0d30e5b330
+PS C:\> Stop-ServiceFabricTestCommand -OperationId a268cc73-2e30-462b-b3df-3a0d30e5b330
 ```
 
 This command cancels an operation that has the *OperationId* a268cc73-2e30-462b-b3df-3a0d30e5b330.

@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 83AFB00A-7A9E-4DCB-9000-720D3FCDB31C
 online version:
 schema: 2.0.0
-updated_at: 03/06/2017 18:03 PM
-ms.date: 03/06/2017
+updated_at: 04/13/2017 18:04 PM
+ms.date: 04/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Send-ServiceFabricDeployedApplicationHealthReport.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Send-ServiceFabricDeployedApplicationHealthReport.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/ffcf8444837861c6001f2d5cae123000f4dd6044
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/e4666c66ecad8bb641483d243bfac15b26f72282
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -53,7 +53,7 @@ Before you perform any operation on a Service Fabric cluster, establish a connec
 
 ### Example 1: Report Error health report with infinite TTL
 ```
-PS C:\>Send-ServiceFabricDeployedApplicationHealthReport -ApplicationName fabric:/MyApplication -NodeName "Node01" -HealthProperty "Availability" -HealthState Error -SourceId "MyWatchdog"
+PS C:\> Send-ServiceFabricDeployedApplicationHealthReport -ApplicationName fabric:/MyApplication -NodeName "Node01" -HealthProperty "Availability" -HealthState Error -SourceId "MyWatchdog"
 ```
 
 This command sends a health report for the application named fabric:/MyApplication on the node named Node01 from the source MyWatchdog.
@@ -61,7 +61,7 @@ The health report contains information about the health property **Availability*
 
 ### Example 2: Report Warning valid for specified TTL
 ```
-PS C:\>Send-ServiceFabricDeployedApplicationHealthReport -ApplicationName fabric:/MyApplication -NodeName "Node01"-HealthProperty "Availability" -HealthState Warning -SourceId "MyWatchdog" -RemoveWhenExpired -TimeToLiveSec 10
+PS C:\> Send-ServiceFabricDeployedApplicationHealthReport -ApplicationName fabric:/MyApplication -NodeName "Node01"-HealthProperty "Availability" -HealthState Warning -SourceId "MyWatchdog" -RemoveWhenExpired -TimeToLiveSec 10
 ```
 
 This command sends a health report for the application named fabric:/MyApplication on the node named Node01 from the source MyWatchdog.

@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: DD60B18E-5ED7-41B6-B9D4-38BD726DCFF2
 online version:
 schema: 2.0.0
-updated_at: 03/28/2017 20:03 PM
-ms.date: 03/28/2017
+updated_at: 04/13/2017 18:04 PM
+ms.date: 04/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricImageStoreContent.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricImageStoreContent.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/16a577fb6a51f5ca50120cc3307348c9086eb9f5
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/e4666c66ecad8bb641483d243bfac15b26f72282
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -44,14 +44,14 @@ The Get-ServiceFabricImageStoreContent cmdlet gets information about image store
 
 ### Example 1: Get image store content by application type/version
 ```
-PS C:\>Get-ServiceFabricImageStoreContent -Application -ApplicationTypeName "CalcServiceApp" -ApplicationTypeVersion "2.0" -ImageStoreConnectionString "fabric:ImageStore"
+PS C:\> Get-ServiceFabricImageStoreContent -Application -ApplicationTypeName "CalcServiceApp" -ApplicationTypeVersion "2.0" -ImageStoreConnectionString "fabric:ImageStore"
 ```
 
 This command gets information about image store content belongs to the application CalcServiceApp, type version 2.0.
 
 ### Example 2: Get image store content by relative path
 ```
-PS C:\>Get-ServiceFabricImageStoreContent -Path -RemoteRelativePath "Store\CalcServiceApp\apps" -ImageStoreConnectionString "fabric:ImageStore"
+PS C:\> Get-ServiceFabricImageStoreContent -Path -RemoteRelativePath "Store\CalcServiceApp\apps" -ImageStoreConnectionString "fabric:ImageStore"
 ```
 
 This command gets information about image store content within the specified image store relative path "Store\CalcServiceApp\apps".

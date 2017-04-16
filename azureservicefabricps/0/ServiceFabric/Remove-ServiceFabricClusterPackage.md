@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: CF0A03A9-D1E2-446A-BCA2-80B1D620D586
 online version:
 schema: 2.0.0
-updated_at: 03/07/2017 00:03 AM
-ms.date: 03/07/2017
+updated_at: 04/13/2017 18:04 PM
+ms.date: 04/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Remove-ServiceFabricClusterPackage.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Remove-ServiceFabricClusterPackage.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/bcbc202904350fd056f72db4725d09ae3fc3352c
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/e4666c66ecad8bb641483d243bfac15b26f72282
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -57,17 +57,17 @@ Before you perform any operation on a Service Fabric cluster, first run the [Con
 
 ### Example 1: Remove a cluster package using both Code and Config option.
 ```
-PS C:\>Remove-ServiceFabricClusterPackage -ImageStoreConnectionString "xstore:DefaultEndpointsProtocol=https;AccountName=[StorageAccountName];AccountKey=[StorageAccountKey];Container=[ContainerName]" -ClusterManifestPathInImageStore "ClusterManifest_123.xml" -CodePackagePathInImageStore "ServiceFabric.2.0.59.0.msi"
+PS C:\> Remove-ServiceFabricClusterPackage -ImageStoreConnectionString "xstore:DefaultEndpointsProtocol=https;AccountName=[StorageAccountName];AccountKey=[StorageAccountKey];Container=[ContainerName]" -ClusterManifestPathInImageStore "ClusterManifest_123.xml" -CodePackagePathInImageStore "ServiceFabric.2.0.59.0.msi"
 ```
 
 ### Example 2: Remove a cluster package using the Config option.
 ```
-PS C:\>Remove-ServiceFabricClusterPackage -Config -ImageStoreConnectionString "xstore:DefaultEndpointsProtocol=https;AccountName=[StorageAccountName];AccountKey=[StorageAccountKey];Container=[ContainerName]" -ClusterManifestPathInImageStore "ClusterManifest_123.xml" -Confirm
+PS C:\> Remove-ServiceFabricClusterPackage -Config -ImageStoreConnectionString "xstore:DefaultEndpointsProtocol=https;AccountName=[StorageAccountName];AccountKey=[StorageAccountKey];Container=[ContainerName]" -ClusterManifestPathInImageStore "ClusterManifest_123.xml" -Confirm
 ```
 
 ### Example 3: Remove a cluster package using the Code option.
 ```
-PS C:\>Remove-ServiceFabricClusterPackage -Code -ImageStoreConnectionString "xstore:DefaultEndpointsProtocol=https;AccountName=[StorageAccountName];AccountKey=[StorageAccountKey];Container=[ContainerName]" -CodePackagePathInImageStore "ServiceFabric.2.0.59.0.msi" -Confirm
+PS C:\> Remove-ServiceFabricClusterPackage -Code -ImageStoreConnectionString "xstore:DefaultEndpointsProtocol=https;AccountName=[StorageAccountName];AccountKey=[StorageAccountKey];Container=[ContainerName]" -CodePackagePathInImageStore "ServiceFabric.2.0.59.0.msi" -Confirm
 ```
 
 This command removes the cluster package that has the specified image store path.

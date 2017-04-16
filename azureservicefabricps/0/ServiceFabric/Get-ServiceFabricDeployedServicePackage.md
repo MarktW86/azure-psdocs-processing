@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 623857D1-E8E9-43D9-A4BD-20F97F4C9B37
 online version:
 schema: 2.0.0
-updated_at: 03/06/2017 18:03 PM
-ms.date: 03/06/2017
+updated_at: 04/13/2017 18:04 PM
+ms.date: 04/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricDeployedServicePackage.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricDeployedServicePackage.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/ffcf8444837861c6001f2d5cae123000f4dd6044
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/e4666c66ecad8bb641483d243bfac15b26f72282
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -38,14 +38,14 @@ Before you perform any operation on a Service Fabric cluster, establish a connec
 
 ### Example 1: Get all deployed service packages
 ```
-PS C:\>Get-ServiceFabricDeployedServicePackage -NodeName "Node01" -ApplicationName fabric:/MyApplication
+PS C:\> Get-ServiceFabricDeployedServicePackage -NodeName "Node01" -ApplicationName fabric:/MyApplication
 ```
 
 This command gets all deployed service packages for application fabric:/MyApplication on node Node01.
 
 ### Example 2: Get deployed service package for service manifest
 ```
-PS C:\>Get-ServiceFabric DeployedServicePackage -NodeName "Node01" -ApplicationName fabric:/MyApplication -ServiceManifestName "CalcServicePackage"
+PS C:\> Get-ServiceFabric DeployedServicePackage -NodeName "Node01" -ApplicationName fabric:/MyApplication -ServiceManifestName "CalcServicePackage"
 ```
 
 This command gets deployed service package for application fabric:/MyApplication on node Node01 for service manifest CalcServicePackage.

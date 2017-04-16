@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 21624C97-BE06-43D1-944E-C9ECFD1F63E7
 online version:
 schema: 2.0.0
-updated_at: 03/06/2017 18:03 PM
-ms.date: 03/06/2017
+updated_at: 04/13/2017 18:04 PM
+ms.date: 04/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricPartitionRestartProgress.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricPartitionRestartProgress.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/ffcf8444837861c6001f2d5cae123000f4dd6044
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/e4666c66ecad8bb641483d243bfac15b26f72282
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -36,7 +36,7 @@ Initiate a restart by using the [Start-ServiceFabricPartitionRestart](./Start-Se
 
 ### Example 1: Check progress of partition restart operation
 ```
-PS C:\>Get-ServiceFabricPartitionRestartProgress -OperationId ebd322c2-b1d3-46a7-b254-3cc42e6ca2d1
+PS C:\> Get-ServiceFabricPartitionRestartProgress -OperationId ebd322c2-b1d3-46a7-b254-3cc42e6ca2d1
     State ProgressResult
     ----- --------------
 Completed SelectedPartition: Service Name: fabric:/ContosoApp/ContosoService, Partition Id: 20a726d0-3112-4c5a-a22c-2e4b8ee8...

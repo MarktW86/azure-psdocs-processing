@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 22D597E5-47A6-483C-88C6-DDAC072424DE
 online version:
 schema: 2.0.0
-updated_at: 03/06/2017 18:03 PM
-ms.date: 03/06/2017
+updated_at: 04/13/2017 18:04 PM
+ms.date: 04/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Move-ServiceFabricPrimaryReplica.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Move-ServiceFabricPrimaryReplica.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/ffcf8444837861c6001f2d5cae123000f4dd6044
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/e4666c66ecad8bb641483d243bfac15b26f72282
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -70,21 +70,21 @@ Before using this cmdlet, connect to the Service Fabric cluster.
 
 ### Example 1: Move the primary replica of a stateful service partition to a specified node
 ```
-PS C:\>Move-ServiceFabricPrimaryReplica -PartitionId 93838f53-f1d9-4b99-8492-b802ee807d03 -NodeName "N0050" -ServiceName fabric:/SampleApp/SampleService
+PS C:\> Move-ServiceFabricPrimaryReplica -PartitionId 93838f53-f1d9-4b99-8492-b802ee807d03 -NodeName "N0050" -ServiceName fabric:/SampleApp/SampleService
 ```
 
 This command moves the primary replica of the specified stateful service partition to the node named N0050.
 
 ### Example 2: Move the primary replica of a stateful service partition to a random node
 ```
-PS C:\>Move-ServiceFabricPrimaryReplica -ServiceName fabric:/SampleApp/SampleService -PartitionId 93838f53-f1d9-4b99-8492-b802ee807d03
+PS C:\> Move-ServiceFabricPrimaryReplica -ServiceName fabric:/SampleApp/SampleService -PartitionId 93838f53-f1d9-4b99-8492-b802ee807d03
 ```
 
 This command moves the primary replica of the specified stateful service partition to a random node because the *NodeName* parameter is not specified.
 
 ### Example 3: Move the primary replica of a stateful service partition to a random node
 ```
-PS C:\>Move-ServiceFabricPrimaryReplica -ServiceName fabric:/SampleApp1/PersistServ
+PS C:\> Move-ServiceFabricPrimaryReplica -ServiceName fabric:/SampleApp1/PersistServ
 ```
 
 This command moves the primary replica of the specified stateful service partition to a random node because the *NodeName* parameter is not specified.

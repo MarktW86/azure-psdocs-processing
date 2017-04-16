@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: F39A8721-65AC-449E-A0F6-4C9AA22E9029
 online version:
 schema: 2.0.0
-updated_at: 03/07/2017 00:03 AM
-ms.date: 03/07/2017
+updated_at: 04/13/2017 18:04 PM
+ms.date: 04/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricClusterConfigurationUpgradeStatus.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricClusterConfigurationUpgradeStatus.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/fbd7fea4df46a905ce4ea5634be8643d92640daa
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/e4666c66ecad8bb641483d243bfac15b26f72282
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -35,7 +35,7 @@ The **Get-ServiceFabricClusterConfigurationUpgradeStatus** cmdlet gets the curre
 
 ### Example 1: Get update status
 ```
-PS C:\>Get-ServiceFabricClusterConfiguratoinUpgradeStatus
+PS C:\> Get-ServiceFabricClusterConfiguratoinUpgradeStatus
 ```
 
 This cmdlet gets current configuration update status.

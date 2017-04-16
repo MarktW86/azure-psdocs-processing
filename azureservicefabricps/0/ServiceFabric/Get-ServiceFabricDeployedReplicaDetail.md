@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: C8EDDC0C-C129-4D69-A269-A27B9FB5EB90
 online version:
 schema: 2.0.0
-updated_at: 03/15/2017 01:03 AM
-ms.date: 03/15/2017
+updated_at: 04/13/2017 18:04 PM
+ms.date: 04/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricDeployedReplicaDetail.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricDeployedReplicaDetail.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/fe48559053688f3d6df883def1f6facac8ec0057
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/e4666c66ecad8bb641483d243bfac15b26f72282
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -38,14 +38,14 @@ Before you perform any operation on a Service Fabric cluster, establish a connec
 
 ### Example 1: Get Replica Detail for a replica running on a node
 ```
-PS C:\>Get-ServiceFabricDeployedReplicaDetail -NodeName "DB.41" -PartitionId 7B7D6D73-3D41-42A9-B7DF-B9D93A386BFF -ReplicaOrInstanceId 130705747836122602
+PS C:\> Get-ServiceFabricDeployedReplicaDetail -NodeName "DB.41" -PartitionId 7B7D6D73-3D41-42A9-B7DF-B9D93A386BFF -ReplicaOrInstanceId 130705747836122602
 ```
 
 This command gets details about a replica running on a node from the service host process. 
 
 ### Example 2: Get Replica Detail for a replica running on a node including the replicator detail
 ```
-PS C:\>Get-ServiceFabricDeployedReplicaDetail -NodeName "DB.41" -PartitionId 7B7D6D73-3D41-42A9-B7DF-B9D93A386BFF -ReplicaOrInstanceId 130705747836122602 -ReplicatorDetail
+PS C:\> Get-ServiceFabricDeployedReplicaDetail -NodeName "DB.41" -PartitionId 7B7D6D73-3D41-42A9-B7DF-B9D93A386BFF -ReplicaOrInstanceId 130705747836122602 -ReplicatorDetail
 ```
 
 This command gets details about the replica and replicator running on a node from the service host process. It also returns additional information from the Service Fabric replicator about the progress of the replica. See [here](https://docs.microsoft.com/dotnet/api/system.fabric.query.replicatorstatus) for more information.

@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 2E71980D-7493-4C14-BA4A-1AB48398594A
 online version:
 schema: 2.0.0
-updated_at: 03/06/2017 18:03 PM
-ms.date: 03/06/2017
+updated_at: 04/13/2017 18:04 PM
+ms.date: 04/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricPartitionRestart.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricPartitionRestart.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/ffcf8444837861c6001f2d5cae123000f4dd6044
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/e4666c66ecad8bb641483d243bfac15b26f72282
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -68,7 +68,7 @@ You can check the progress of the operation by using the [Get-ServiceFabricParti
 
 ### Example 1: Restart all replicas of a service by partition ID
 ```
-PS C:\>Start-ServiceFabricPartitionRestart -OperationId 53ba886b-79be-46ee-bf7e-d79db64eb003 -RestartPartitionMode AllReplicasOrInstances -PartitionId 20a726d0-3112-4c5a-a22c-2e4b8ee85280 -ServiceName "fabric:/ContosoApp/ContosoService"
+PS C:\> Start-ServiceFabricPartitionRestart -OperationId 53ba886b-79be-46ee-bf7e-d79db64eb003 -RestartPartitionMode AllReplicasOrInstances -PartitionId 20a726d0-3112-4c5a-a22c-2e4b8ee85280 -ServiceName "fabric:/ContosoApp/ContosoService"
 ```
 
 This command restarts all replicas of the service named fabric:/ContosoApp/ContosoService in the partition that has the ID 20a726d0-3112-4c5a-a22c-2e4b8ee85280.
@@ -77,7 +77,7 @@ You can use this ID to check the progress of the restart operation.
 
 ### Example 2: Restart all replicas of a service by partition key
 ```
-PS C:\>Start-ServiceFabricPartitionRestart -OperationId ebd322c2-b1d3-46a7-b254-3cc42e6ca2d1 -RestartPartitionMode AllReplicasOrInstances -ServiceName "fabric:/ContosoApp/ContosoService" -PartitionKindUniformInt64 -PartitionKey 2000
+PS C:\> Start-ServiceFabricPartitionRestart -OperationId ebd322c2-b1d3-46a7-b254-3cc42e6ca2d1 -RestartPartitionMode AllReplicasOrInstances -ServiceName "fabric:/ContosoApp/ContosoService" -PartitionKindUniformInt64 -PartitionKey 2000
 ```
 
 This command restarts all replicas of the service named fabric:/ContosoApp/ContosoService in the partition that has the partition key 2000.

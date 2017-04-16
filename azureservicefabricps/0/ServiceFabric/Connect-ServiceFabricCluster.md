@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 7370AD41-FB09-4948-9BB7-8FD67B5E99E4
 online version:
 schema: 2.0.0
-updated_at: 03/06/2017 18:03 PM
-ms.date: 03/06/2017
+updated_at: 04/13/2017 18:04 PM
+ms.date: 04/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Connect-ServiceFabricCluster.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Connect-ServiceFabricCluster.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/ffcf8444837861c6001f2d5cae123000f4dd6044
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/e4666c66ecad8bb641483d243bfac15b26f72282
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -88,14 +88,14 @@ To manage Service Fabric clusters, start Windows PowerShell by using the **Run a
 
 ### Example 1: Connect to a cluster
 ```
-PS C:\>Connect-ServiceFabricCluster -ConnectionEndpoint "ServiceFabric01.ContosoCloudApp.net:19000"
+PS C:\> Connect-ServiceFabricCluster -ConnectionEndpoint "ServiceFabric01.ContosoCloudApp.net:19000"
 ```
 
 This command creates a connection to the specified cluster.
 
 ### Example 2: Connect to a cluster using an X.509 certificate
 ```
-PS C:\>$ConnectArgs = @{  ConnectionEndpoint = 'mycluster.cloudapp.net:19000';  X509Credential = $True;  StoreLocation = 'CurrentUser';  StoreName = "MY";  ServerCommonName = "mycluster.cloudapp.net";  FindType = 'FindByThumbprint';  FindValue = "AA11BB22CC33DD44EE55FF66AA77BB88CC99DD00"   }
+PS C:\> $ConnectArgs = @{  ConnectionEndpoint = 'mycluster.cloudapp.net:19000';  X509Credential = $True;  StoreLocation = 'CurrentUser';  StoreName = "MY";  ServerCommonName = "mycluster.cloudapp.net";  FindType = 'FindByThumbprint';  FindValue = "AA11BB22CC33DD44EE55FF66AA77BB88CC99DD00"   }
 PS C:\> Connect-ServiceFabricCluster $ConnectArgs
 ```
 
@@ -104,7 +104,7 @@ This command uses the splatting feature of Windows PowerShell to create a hash t
 
 ### Example 3: Connect to a cluster using Azure Active Directory
 ```
-PS C:\>$ConnectArgs = @{  ConnectionEndpoint = 'mycluster.cloudapp.net:19000';  AzureActiveDirectory = $True; ServerCertThumbprint = "AA11BB22CC33DD44EE55FF66AA77BB88CC99DD00"   }
+PS C:\> $ConnectArgs = @{  ConnectionEndpoint = 'mycluster.cloudapp.net:19000';  AzureActiveDirectory = $True; ServerCertThumbprint = "AA11BB22CC33DD44EE55FF66AA77BB88CC99DD00"   }
 PS C:\> Connect-ServiceFabricCluster $ConnectArgs
 ```
 
@@ -113,7 +113,7 @@ This command uses the splatting feature of Windows PowerShell to create a hash t
 
 ### Example 4: Connect to a cluster secured with a group-managed service account
 ```
-PS C:\>$ConnectArgs = @{  ConnectionEndpoint = 'mycluster.cloudapp.net:19000';  WindowsCredential = $True; ClusterSpn = 'ServiceFabric/MyCluster.MyDomain.MyOrg'  }
+PS C:\> $ConnectArgs = @{  ConnectionEndpoint = 'mycluster.cloudapp.net:19000';  WindowsCredential = $True; ClusterSpn = 'ServiceFabric/MyCluster.MyDomain.MyOrg'  }
 PS C:\> Connect-ServiceFabricCluster @connectArgs
 ```
 
@@ -121,7 +121,7 @@ This command uses the splatting feature of Windows PowerShell to create a hash t
 
 ### Example 5: Connect to a cluster secured with machine accounts
 ```
-PS C:\>$connectArgs = @{  ConnectionEndpoint = 'mycluster.cloudapp.net:19000';  WindowsCredential = $True;  }
+PS C:\> $connectArgs = @{  ConnectionEndpoint = 'mycluster.cloudapp.net:19000';  WindowsCredential = $True;  }
 PS C:\> Connect-ServiceFabricCluster @connectArgs
 ```
 
@@ -129,7 +129,7 @@ This command connects to a cluster secured with machine accounts.
 
 ### Example 6: Connect to a cluster without the primary checks
 ```
-PS C:\>Connect-ServiceFabricCluster -ConnectionEndpoint -SkipChecks $True "ServiceFabric01.ContosoCloudApp.net:19000"
+PS C:\> Connect-ServiceFabricCluster -ConnectionEndpoint -SkipChecks $True "ServiceFabric01.ContosoCloudApp.net:19000"
 ```
 
 This command creates a connection to the specified cluster.

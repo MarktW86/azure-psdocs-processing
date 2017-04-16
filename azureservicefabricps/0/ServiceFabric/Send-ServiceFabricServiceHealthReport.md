@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 01ECC69A-8162-4CAE-8F97-25CF1CBDEE15
 online version:
 schema: 2.0.0
-updated_at: 03/06/2017 18:03 PM
-ms.date: 03/06/2017
+updated_at: 04/13/2017 18:04 PM
+ms.date: 04/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Send-ServiceFabricServiceHealthReport.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Send-ServiceFabricServiceHealthReport.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/ffcf8444837861c6001f2d5cae123000f4dd6044
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/e4666c66ecad8bb641483d243bfac15b26f72282
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -49,7 +49,7 @@ Before you perform any operation on a Service Fabric cluster, establish a connec
 
 ### Example 1: Report Error health report with infinite TTL
 ```
-PS C:\>Send-ServiceFabricServiceHealthReport -ServiceName fabric:/MyApplication/MyService -SourceId "MyWatchdog" -HealthProperty "Availability" -HealthState Error -Description "The service is not available."
+PS C:\> Send-ServiceFabricServiceHealthReport -ServiceName fabric:/MyApplication/MyService -SourceId "MyWatchdog" -HealthProperty "Availability" -HealthState Error -Description "The service is not available."
 ```
 
 This command sends a health report for the service named fabric:/MyApplication/MyService from the source MyWatchDog.
@@ -58,7 +58,7 @@ This command also gives a description for the error.
 
 ### Example 2: Report Warning valid for specified TTL
 ```
-PS C:\>Send-ServiceFabricServiceHealthReport -ServiceName fabric:/MyApplication/MyService -SourceId "MyWatchdog" -HealthProperty "PrivateData" -HealthState Warning -TimeToLiveSec 10 -RemoveWhenExpired -Description "Accessing private data in database MyServicePrivateData is slow."
+PS C:\> Send-ServiceFabricServiceHealthReport -ServiceName fabric:/MyApplication/MyService -SourceId "MyWatchdog" -HealthProperty "PrivateData" -HealthState Warning -TimeToLiveSec 10 -RemoveWhenExpired -Description "Accessing private data in database MyServicePrivateData is slow."
 ```
 
 This command sends a health report on the service named fabric:/MyApplication/MyService from the source MyWatchdog.

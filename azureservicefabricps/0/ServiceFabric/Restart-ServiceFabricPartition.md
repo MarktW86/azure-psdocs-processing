@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: C6C8C091-9A47-4AB1-B10B-27D0D6D2F7AE
 online version:
 schema: 2.0.0
-updated_at: 03/06/2017 18:03 PM
-ms.date: 03/06/2017
+updated_at: 04/13/2017 18:04 PM
+ms.date: 04/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Restart-ServiceFabricPartition.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Restart-ServiceFabricPartition.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/ffcf8444837861c6001f2d5cae123000f4dd6044
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/e4666c66ecad8bb641483d243bfac15b26f72282
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -69,14 +69,14 @@ If this cmdlet is aborted while running, [Remove-ServiceFabricTestState](./Remov
 
 ### Example 1: Restart a partition
 ```
-PS C:\>Restart-ServiceFabricPartition -ServiceName fabric:/TestSvc -PartitionKindSingleton -RestartPartitionMode OnlyActiveSecondaries
+PS C:\> Restart-ServiceFabricPartition -ServiceName fabric:/TestSvc -PartitionKindSingleton -RestartPartitionMode OnlyActiveSecondaries
 ```
 
 This command restarts the specified partition.
 
 ### Example 2: Restart a partition for a specified partition key and partition kind
 ```
-PS C:\>Restart-ServiceFabricPartition -ServiceName fabric:/TestSvc -PartitionKindUniformInt64 -PartitionKey "23" -RestartPartitionMode AllReplicasOrInstances
+PS C:\> Restart-ServiceFabricPartition -ServiceName fabric:/TestSvc -PartitionKindUniformInt64 -PartitionKey "23" -RestartPartitionMode AllReplicasOrInstances
 ```
 
 This command restarts the partition with partition key 23.

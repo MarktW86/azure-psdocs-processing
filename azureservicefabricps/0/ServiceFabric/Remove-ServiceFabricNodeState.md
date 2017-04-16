@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: B9E95A72-E760-4407-8DF1-94BF0E35A28F
 online version:
 schema: 2.0.0
-updated_at: 03/07/2017 20:03 PM
-ms.date: 03/07/2017
+updated_at: 04/13/2017 18:04 PM
+ms.date: 04/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Remove-ServiceFabricNodeState.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Remove-ServiceFabricNodeState.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/1192febb630916b6e3840bff328f0cb2d618a074
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/e4666c66ecad8bb641483d243bfac15b26f72282
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -45,14 +45,14 @@ Before you perform any operation on a Service Fabric cluster, establish a connec
 
 ### Example 1: Inform Service Fabric about node state removal
 ```
-PS C:\>Remove-ServiceFabricNodeState -NodeName "DB.41"
+PS C:\> Remove-ServiceFabricNodeState -NodeName "DB.41"
 ```
 
 This command informs Service Fabric that node state for DB.41 has been removed.
 
 ### Example 2: Inform Service Fabric about node state removal with options
 ```
-PS C:\>Remove-ServiceFabricNodeState -NodeName "DB.41" -Confirm
+PS C:\> Remove-ServiceFabricNodeState -NodeName "DB.41" -Confirm
 ```
 
 This command ensures that a confirmation window specific to this operation pops up when run.

@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 239A882B-8E31-4404-AB35-2A39D8ABC600
 online version:
 schema: 2.0.0
-updated_at: 03/06/2017 18:03 PM
-ms.date: 03/06/2017
+updated_at: 04/13/2017 18:04 PM
+ms.date: 04/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricRepairTask.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricRepairTask.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/ffcf8444837861c6001f2d5cae123000f4dd6044
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/e4666c66ecad8bb641483d243bfac15b26f72282
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -67,7 +67,7 @@ Before you perform any operation on a Service Fabric cluster, establish a connec
 
 ### Example 1: Create a manual repair task
 ```
-PS C:\>Start-ServiceFabricRepairTask -NodeNames "MyNode.0","MyNode.4" -NodeImpact RemoveData
+PS C:\> Start-ServiceFabricRepairTask -NodeNames "MyNode.0","MyNode.4" -NodeImpact RemoveData
 ```
 
 This command creates a manual repair task for two nodes whose data will be removed.

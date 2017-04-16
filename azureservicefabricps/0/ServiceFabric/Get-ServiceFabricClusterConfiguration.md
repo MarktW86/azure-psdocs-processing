@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 13C206CD-D1A4-4BAE-8014-4D7AB68D147D
 online version:
 schema: 2.0.0
-updated_at: 03/28/2017 20:03 PM
-ms.date: 03/28/2017
+updated_at: 04/13/2017 18:04 PM
+ms.date: 04/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricClusterConfiguration.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricClusterConfiguration.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/16a577fb6a51f5ca50120cc3307348c9086eb9f5
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/e4666c66ecad8bb641483d243bfac15b26f72282
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -39,8 +39,8 @@ Note: At this time this cmdlet only applicable to on-premise Standalone deployme
 
 ### Example 1: Get cluster configuration
 ```
-PS C:\>Connect-ServiceFabricCluster -ConnectionEndpoint "ServiceFabric01.ContosoCloudApp.net:19000"
-PS C:\>Get-ServiceFabricClusterConfiguration
+PS C:\> Connect-ServiceFabricCluster -ConnectionEndpoint "ServiceFabric01.ContosoCloudApp.net:19000"
+PS C:\> Get-ServiceFabricClusterConfiguration
 ```
 
 The first command creates a connection to the specified cluster.

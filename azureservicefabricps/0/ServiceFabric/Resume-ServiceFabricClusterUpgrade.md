@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 25F1C2E1-5AB4-42AF-AD53-4AAA1EBE8B4B
 online version:
 schema: 2.0.0
-updated_at: 03/06/2017 18:03 PM
-ms.date: 03/06/2017
+updated_at: 04/13/2017 18:04 PM
+ms.date: 04/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Resume-ServiceFabricClusterUpgrade.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Resume-ServiceFabricClusterUpgrade.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/ffcf8444837861c6001f2d5cae123000f4dd6044
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/e4666c66ecad8bb641483d243bfac15b26f72282
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -39,7 +39,7 @@ Before you perform any operation on a Service Fabric cluster, establish a connec
 
 ### Example 1: Resume an upgrade
 ```
-PS C:\>Resume-ServiceFabricClusterUpgrade -UpgradeDomainName "MYUD02"
+PS C:\> Resume-ServiceFabricClusterUpgrade -UpgradeDomainName "MYUD02"
 ```
 
 This command resumes the upgrade process after it finishes an upgrade domain.

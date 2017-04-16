@@ -87,7 +87,12 @@
     },
     {
       "source_path": "AADRM/vlatest/Add-AadrmKey.md",
-      "redirect_url": "/powershell/module/aadrm/add-aadrmkey?view=azureipps",
+      "redirect_url": "/powershell/azure/add-aadrmkey",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "azureipps/0/aadrm/add-aadrmkey.md",
+      "redirect_url": "/powershell/azure/add-aadrmkey",
       "redirect_document_id": false
     },
     {
@@ -7062,7 +7067,7 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/Add-AzureRMGalleryItem.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackAdmin/Add-AzureRMGalleryItem",
       "redirect_document_id": false
     },
     {

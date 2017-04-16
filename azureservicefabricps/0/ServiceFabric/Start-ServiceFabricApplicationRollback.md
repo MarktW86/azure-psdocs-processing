@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 169F0E6F-8E42-41DD-B406-0A232E380A8D
 online version:
 schema: 2.0.0
-updated_at: 03/23/2017 20:03 PM
-ms.date: 03/23/2017
+updated_at: 04/13/2017 18:04 PM
+ms.date: 04/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricApplicationRollback.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricApplicationRollback.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/fac2031a80184883cdb99fa4a8c6e1971ab6aaf2
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/e4666c66ecad8bb641483d243bfac15b26f72282
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -39,7 +39,7 @@ Before you perform any operation on a Service Fabric cluster, establish a connec
 
 ### Example 1: Roll back an existing application upgrade
 ```
-PS C:\>Start-ServiceFabricApplicationRollback -ApplicationName fabric:/MyApp
+PS C:\> Start-ServiceFabricApplicationRollback -ApplicationName fabric:/MyApp
 ```
 
 This command starts rolling back any existing application upgrade for fabric:/MyApp.

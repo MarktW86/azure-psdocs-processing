@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 298F2C12-F1BE-4341-B5A0-4C45CF45EB52
 online version:
 schema: 2.0.0
-updated_at: 03/20/2017 17:03 PM
-ms.date: 03/20/2017
+updated_at: 04/13/2017 18:04 PM
+ms.date: 04/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Unregister-ServiceFabricClusterPackage.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Unregister-ServiceFabricClusterPackage.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/4b282fbbada4e5b501710c20544af645ad024b6b
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/e4666c66ecad8bb641483d243bfac15b26f72282
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -56,21 +56,21 @@ Before you perform any operation on a Service Fabric cluster, establish a connec
 
 ### Example 1: Unregister both cluster manifest and runtime installation version from cluster
 ```
-PS C:\>Unregister-ServiceFabricClusterPackage -ClusterManifestVersion "V2" -CodePackageVersion "2.0.59.0"
+PS C:\> Unregister-ServiceFabricClusterPackage -ClusterManifestVersion "V2" -CodePackageVersion "2.0.59.0"
 ```
 
 This command unregisters cluster manifest version "V2" and runtime installation version "2.0.59.0" from the cluster.
 
 ### Example 1: Unregister just the cluster manifest version from cluster
 ```
-PS C:\>Unregister-ServiceFabricClusterPackage -Config -ClusterManifestVersion "V2"
+PS C:\> Unregister-ServiceFabricClusterPackage -Config -ClusterManifestVersion "V2"
 ```
 
 This command unregisters cluster manifest version "V2" from the cluster.
 
 ### Example 1: Unregister just the runtime installation version from cluster
 ```
-PS C:\>Unregister-ServiceFabricClusterPackage -Code -CodePackageVersion "2.0.59.0"
+PS C:\> Unregister-ServiceFabricClusterPackage -Code -CodePackageVersion "2.0.59.0"
 ```
 
 This command unregisters runtime installation version "2.0.59.0" from the cluster.

@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 5CF5310E-E6BC-4F08-858A-DC9CF5FC0493
 online version:
 schema: 2.0.0
-updated_at: 03/10/2017 19:03 PM
-ms.date: 03/10/2017
+updated_at: 04/13/2017 18:04 PM
+ms.date: 04/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/New-ServiceFabricApplication.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/New-ServiceFabricApplication.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/deeef17c4bb2eafe924fdbe3ccf8feb1219d5797
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/e4666c66ecad8bb641483d243bfac15b26f72282
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -40,14 +40,14 @@ Before you perform any operation on a Service Fabric cluster, establish a connec
 
 ### Example 1: Create an application
 ```
-PS C:\>New-ServiceFabricApplication -ApplicationName fabric:/myapp/persistenttodolist -ApplicationTypeName "PersistentToDoListApp" -ApplicationTypeVersion "1.0"
+PS C:\> New-ServiceFabricApplication -ApplicationName fabric:/myapp/persistenttodolist -ApplicationTypeName "PersistentToDoListApp" -ApplicationTypeVersion "1.0"
 ```
 
 This command creates an application of the type PersistentToDoListApp. The application is version 1.0. Application type and version come from application manifest in the application package which was used when registering the application using [Register-ServiceFabricApplicationType](.\Register-ServiceFabricApplicationType.md) cmdlet.
 
 ### Example 2: Create an application by overriding default parameter values in the application manifest
 ```
-PS C:\>New-ServiceFabricApplication -ApplicationName fabric:/myapp/persistenttodolist -ApplicationTypeName "PersistentToDoListApp" -ApplicationTypeVersion "1.0" -ApplicationParameter @{CustomParameter1='MyValue'; CustomParameter2='MyValue'}
+PS C:\> New-ServiceFabricApplication -ApplicationName fabric:/myapp/persistenttodolist -ApplicationTypeName "PersistentToDoListApp" -ApplicationTypeVersion "1.0" -ApplicationParameter @{CustomParameter1='MyValue'; CustomParameter2='MyValue'}
 ```
 
 This command creates an application of the type PersistentToDoListApp and version 1.0 with overridden values for parameters CustomParameter1 and CustomParameter2. These parameter names must exist in the application manifest of the application package that was used when registering the application using [Register-ServiceFabricApplicationType](.\Register-ServiceFabricApplicationType.md) cmdlet.

@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: DDD8A281-FDC8-49B1-9546-7E58FA7ADFB7
 online version:
 schema: 2.0.0
-updated_at: 03/15/2017 20:03 PM
-ms.date: 03/15/2017
+updated_at: 04/13/2017 18:04 PM
+ms.date: 04/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Update-ServiceFabricService.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Update-ServiceFabricService.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/72473175f918a032f027b99a9031ef7ccaa6475b
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/e4666c66ecad8bb641483d243bfac15b26f72282
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -55,28 +55,28 @@ Before you perform any operation on a Service Fabric cluster, establish a connec
 
 ### Example 1: Update a stateful service
 ```
-PS C:\>Update-ServiceFabricService -Stateful fabric:/myapp/test -MinReplicaSetSize 3 -TargetReplicaSetSize 5
+PS C:\> Update-ServiceFabricService -Stateful fabric:/myapp/test -MinReplicaSetSize 3 -TargetReplicaSetSize 5
 ```
 
 This command updates the **MinReplicaSetSize** and **TargetReplicaSetSize** of a running Fabric Service to three (3) and five (5).
 
 ### Example 2: Update a stateless service
 ```
-PS C:\>Update-ServiceFabricService -Stateless fabric:/myapp/test -InstanceCount -1
+PS C:\> Update-ServiceFabricService -Stateless fabric:/myapp/test -InstanceCount -1
 ```
 
 This command updates the instance count of a running Fabric Service to a value of -1.
 
 ### Example 3: Update placement constraints
 ```
-PS C:\>Update-ServiceabricService -Stateless -ServiceName fabric:/myapp/test -PlacementConstraints "NodeName!=NodeBar"
+PS C:\> Update-ServiceabricService -Stateless -ServiceName fabric:/myapp/test -PlacementConstraints "NodeName!=NodeBar"
 ```
 
 This command updates the placement constraints.
 
 ### Example 4: Update default load metrics
 ```
-PS C:\>Update-ServiceFabricService -Stateless -ServiceName fabric:/myapp/test -Metric @("CPU,High,10")
+PS C:\> Update-ServiceFabricService -Stateless -ServiceName fabric:/myapp/test -Metric @("CPU,High,10")
 PS C:\> Update-ServiceFabricService -Stateful -ServiceName fabric:/myapp/test -Metric @("CPU,High,10,1")
 ```
 
@@ -86,14 +86,14 @@ The second command updates the default load metrics for a stateful service.
 
 ### Example 5: Update placement policy
 ```
-PS C:\>Update-ServiceFabricService -Stateful -ServiceName fabric:/myapp/test -PlacementPolicy @("InvalidDomain,fd:/dc2/rack2")
+PS C:\> Update-ServiceFabricService -Stateful -ServiceName fabric:/myapp/test -PlacementPolicy @("InvalidDomain,fd:/dc2/rack2")
 ```
 
 This command updates the placement policy.
 
 ### Example 6: Update service correlation
 ```
-PS C:\>Update-ServiceFabricService -Stateful -ServiceName fabric:/myapp/test -Correlation @("fabric:/app/test2,AlignedAffinity")
+PS C:\> Update-ServiceFabricService -Stateful -ServiceName fabric:/myapp/test -Correlation @("fabric:/app/test2,AlignedAffinity")
 ```
 
 This command updates the service correlation.

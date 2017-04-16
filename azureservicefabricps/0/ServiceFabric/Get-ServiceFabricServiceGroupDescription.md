@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 9226A922-F033-4916-9588-D6BE73ED6F67
 online version:
 schema: 2.0.0
-updated_at: 03/06/2017 22:03 PM
-ms.date: 03/06/2017
+updated_at: 04/13/2017 18:04 PM
+ms.date: 04/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricServiceGroupDescription.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricServiceGroupDescription.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/bfbb28bf28a21e5cb46d82a27a9ea48e6a552a25
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/e4666c66ecad8bb641483d243bfac15b26f72282
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -41,7 +41,7 @@ Before you perform any operation on a Service Fabric cluster, establish a connec
 
 ### Example 1: Get a service group description
 ```
-PS C:\>Get-ServiceFabricServiceGroupDescription -ServiceName fabric:/CalcApp/CalcService
+PS C:\> Get-ServiceFabricServiceGroupDescription -ServiceName fabric:/CalcApp/CalcService
 ```
 
 This command gets the Service Fabric service group description for the service named fabric:/CalcApp/CalcService.
@@ -49,11 +49,11 @@ This command gets the Service Fabric service group description for the service n
 
 ### Example 2: Create, Update and Remove service fabric service groups.
 ```
-PS C:\>New-ServiceFabricServiceGroup -ApplicationName fabric:/myapp/calculator -ServiceName fabric:/myapp/calculator/svc1 -ServiceTypeName StatelessCalculatorService -Stateless -PartitionSchemeSingleton -InstanceCount 3 -ServiceGroupMemberDescription @(@{"ServiceName"="fabric:/myapp/calculator/svc1#a";"ServiceTypeName"="StatelessCalculatorService1"},@{"ServiceName"="fabric:/myapp/calculator/svc1#b";"ServiceTypeName"="StatelessCalculatorService2"})
-PS C:\>New-ServiceFabricServiceGroup -ApplicationName fabric:/myapp/calculator -ServiceName fabric:/myapp/calculator/svc1 -ServiceTypeName StatefulCalculatorService -Stateful -TargetReplicaSetSize 5 -MinReplicaSetSize 3 -ReplicaRestartWaitDuration 10 -PlacementConstraint TestPlacementConstraints -ServiceGroupMemberDescription @(@{"ServiceName"="fabric:/myapp/calculator/svc1#a";"ServiceTypeName"="StatelessCalculatorService"})
-PS C:\>Get-ServiceFabricServiceGroupDescription -ServiceName fabric:/CalcApp/CalcService
-PS C:\>Update-ServiceFabricServiceGroup -ServiceName fabric:/myapp/calculator/svc1 -Stateless -PartitionSchemeSingleton -InstanceCount 3 -ServiceGroupMemberDescription @("fabric:/myapp/calculator/svc1#a,StatelessCalculatorService,")
-PS C:\>Remove-ServiceFabricServiceGroup -ServiceName fabric:/myapp/calculator/svc1
+PS C:\> New-ServiceFabricServiceGroup -ApplicationName fabric:/myapp/calculator -ServiceName fabric:/myapp/calculator/svc1 -ServiceTypeName StatelessCalculatorService -Stateless -PartitionSchemeSingleton -InstanceCount 3 -ServiceGroupMemberDescription @(@{"ServiceName"="fabric:/myapp/calculator/svc1#a";"ServiceTypeName"="StatelessCalculatorService1"},@{"ServiceName"="fabric:/myapp/calculator/svc1#b";"ServiceTypeName"="StatelessCalculatorService2"})
+PS C:\> New-ServiceFabricServiceGroup -ApplicationName fabric:/myapp/calculator -ServiceName fabric:/myapp/calculator/svc1 -ServiceTypeName StatefulCalculatorService -Stateful -TargetReplicaSetSize 5 -MinReplicaSetSize 3 -ReplicaRestartWaitDuration 10 -PlacementConstraint TestPlacementConstraints -ServiceGroupMemberDescription @(@{"ServiceName"="fabric:/myapp/calculator/svc1#a";"ServiceTypeName"="StatelessCalculatorService"})
+PS C:\> Get-ServiceFabricServiceGroupDescription -ServiceName fabric:/CalcApp/CalcService
+PS C:\> Update-ServiceFabricServiceGroup -ServiceName fabric:/myapp/calculator/svc1 -Stateless -PartitionSchemeSingleton -InstanceCount 3 -ServiceGroupMemberDescription @("fabric:/myapp/calculator/svc1#a,StatelessCalculatorService,")
+PS C:\> Remove-ServiceFabricServiceGroup -ServiceName fabric:/myapp/calculator/svc1
 ```
 
 ## PARAMETERS

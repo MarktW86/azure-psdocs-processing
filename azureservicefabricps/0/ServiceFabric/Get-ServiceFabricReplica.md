@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 0A01F959-D065-4EEC-BA1C-28B623F49416
 online version:
 schema: 2.0.0
-updated_at: 03/07/2017 18:03 PM
-ms.date: 03/07/2017
+updated_at: 04/13/2017 18:04 PM
+ms.date: 04/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricReplica.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricReplica.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/31ce2cbc2767e8e9f0a1f1271dda52160ffdb112
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/e4666c66ecad8bb641483d243bfac15b26f72282
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -41,7 +41,7 @@ Before you perform any operation on a Service Fabric cluster, establish a connec
 
 ### Example 1: Get the replica for a partition
 ```
-PS C:\>$CalculatorPartition01 = Get-ServiceFabricPartition -ServiceName fabric:/myapp/calculator/svc1
+PS C:\> $CalculatorPartition01 = Get-ServiceFabricPartition -ServiceName fabric:/myapp/calculator/svc1
 PS C:\> Get-ServiceFabricReplica -PartitionId $CalculatorPartition01.PartitionId
 ```
 
@@ -51,7 +51,7 @@ The second command gets the Service Fabric replica by using the **PartitionId** 
 
 ### Example 2: Get the partitioned replicas for a system service
 ```
-PS C:\>Get-ServiceFabricPartition -ServiceName fabric:/System/FailoverManagerService | Get-ServiceFabricReplica
+PS C:\> Get-ServiceFabricPartition -ServiceName fabric:/System/FailoverManagerService | Get-ServiceFabricReplica
 ```
 
 This command gets the list of replicas for the Failover Manager system service.

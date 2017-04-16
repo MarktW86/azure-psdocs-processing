@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 199F858A-4F1C-44C4-9723-D651FE5FAF44
 online version:
 schema: 2.0.0
-updated_at: 03/28/2017 20:03 PM
-ms.date: 03/28/2017
+updated_at: 04/13/2017 18:04 PM
+ms.date: 04/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricPartitionQuorumLoss.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricPartitionQuorumLoss.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/16a577fb6a51f5ca50120cc3307348c9086eb9f5
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/e4666c66ecad8bb641483d243bfac15b26f72282
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -74,7 +74,7 @@ You can check the progress of the fault operation by using the [Get-ServiceFabri
 
 ### Example 1: Start a quorum loss fault operation for a service by partition ID
 ```
-PS C:\>Start-ServiceFabricPartitionQuorumLoss -OperationId aeaceca9-320d-4f7b-84e8-3cc13c29a974 -QuorumLossMode QuorumReplicas -QuorumLossDurationInSeconds 10 -PartitionId 20a726d0-3112-4c5a-a22c-2e4b8ee85280 -ServiceName "fabric:/ContosoApp/ContosoService"
+PS C:\> Start-ServiceFabricPartitionQuorumLoss -OperationId aeaceca9-320d-4f7b-84e8-3cc13c29a974 -QuorumLossMode QuorumReplicas -QuorumLossDurationInSeconds 10 -PartitionId 20a726d0-3112-4c5a-a22c-2e4b8ee85280 -ServiceName "fabric:/ContosoApp/ContosoService"
 ```
 
 This command starts a partition quorum loss fault operation on the service named fabric:/ContosoApp/ContosoService in the partition that has the ID 20a726d0-3112-4c5a-a22c-2e4b8ee85280.

@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: A315ECB3-FC8C-451B-85B0-C3C4887B78C9
 online version:
 schema: 2.0.0
-updated_at: 03/06/2017 22:03 PM
-ms.date: 03/06/2017
+updated_at: 04/13/2017 18:04 PM
+ms.date: 04/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Resolve-ServiceFabricService.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Resolve-ServiceFabricService.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/38e5a09d10e1a6bec117167d3674a5f57717120f
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/e4666c66ecad8bb641483d243bfac15b26f72282
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -71,7 +71,7 @@ Before you perform any operation on a Service Fabric cluster, establish a connec
 
 ### Example 1: Resolve addresses
 ```
-PS C:\>Resolve-ServiceFabricService -PartitionKindUniformInt64 -ServiceName fabric:/myApp/myService -PartitionKey "0"
+PS C:\> Resolve-ServiceFabricService -PartitionKindUniformInt64 -ServiceName fabric:/myApp/myService -PartitionKey "0"
 ```
 
 This command retrieves the addresses of a uniform Int64 partition mapped to by partition key 0 in a service named fabric:/myApp/myService.

@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: F83D7B99-CFDC-4A95-A2C7-3CD33925FBAA
 online version:
 schema: 2.0.0
-updated_at: 03/24/2017 15:03 PM
-ms.date: 03/24/2017
+updated_at: 04/13/2017 18:04 PM
+ms.date: 04/13/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricPartitionDataLoss.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricPartitionDataLoss.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/bc0ec5bc26f85fe1bd8f50fdd7441df1ae0fcddb
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/e4666c66ecad8bb641483d243bfac15b26f72282
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -69,7 +69,7 @@ After you invoke **Start-ServiceFabricPartitionDataLoss**, you cannot reverse it
 
 ### Example 1: Start a data loss test for a service by partition ID
 ```
-PS C:\>Start-ServiceFabricPartitionDataLoss -OperationId d3f12b09-6a90-4745-a4fc-3f92149a7419 -DataLossMode FullDataLoss -PartitionId 67e2c139-ccf0-4562-9f2b-bf35e4c2abd4 -ServiceName "fabric:/ContosoApp/ContosoService"
+PS C:\> Start-ServiceFabricPartitionDataLoss -OperationId d3f12b09-6a90-4745-a4fc-3f92149a7419 -DataLossMode FullDataLoss -PartitionId 67e2c139-ccf0-4562-9f2b-bf35e4c2abd4 -ServiceName "fabric:/ContosoApp/ContosoService"
 ```
 
 This command starts a data loss fault operation for all replicas of the service named fabric:/ContosoApp/ContosoService in the partition that has the ID 67e2c139-ccf0-4562-9f2b-bf35e4c2abd4.
