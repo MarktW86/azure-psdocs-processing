@@ -3,11 +3,11 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: https://go.microsoft.com/fwlink/?LinkId=799849
 schema: 2.0.0
 ms.assetid: 2EC79F48-DC64-42D0-B317-89397A72243D
-updated_at: 04/07/2017 22:04 PM
-ms.date: 04/07/2017
+updated_at: 04/17/2017 16:04 PM
+ms.date: 04/17/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Use-AadrmKeyVaultKey.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Use-AadrmKeyVaultKey.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/02cdbe2d004a2fd2b0a3b16e23caa37400c532a4
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/5af92e98a02d763b2ab8dd55a422ee6800025892
 ms.topic: reference
 author: cabailey
 ms.author: PowerShellHelpPub
@@ -37,9 +37,9 @@ You can run this cmdlet before or after the Azure Rights Management service is a
 
 After you run this cmdlet, the Azure Rights Management service uses Azure Key Vault to centrally manage and monitor use of your tenant key. All calls to your tenant key will be made to and from a key vault that your organization owns. You can confirm which key you are using in Key Vault by using the [Get-AadrmKeys](./Get-AadrmKeys.md) cmdlet.
 
-For more information about the types of tenant keys that the Azure Rights Management service supports, see [Planning and implementing your Azure Information Protection tenant key](/information-protection/plan-design/plan-implement-tenant-key).
+For more information about the types of tenant keys that the Azure Rights Management service supports, see [Planning and implementing your Azure Information Protection tenant key](https://docs.microsoft.com/information-protection/plan-design/plan-implement-tenant-key).
 
-For more information about Azure Key Vault, see [What is Azure Key Vault](/azure/key-vault/key-vault-whatis).
+For more information about Azure Key Vault, see [What is Azure Key Vault](https://docs.microsoft.com/azure/key-vault/key-vault-whatis).
 
 For security reasons, this cmdlet does not let you set or change the access control for your tenant key in Key Vault. Instead, this must be done by your organization's administrator for Azure Key Vault. After that access is granted, run this cmdlet to tell the Azure Rights Management service to use the key and version that you specify with the *KeyVaultKeyUrl* parameter.
 
@@ -150,6 +150,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 [Set-AadrmKeyProperties](./Set-AadrmKeyProperties.md)
 
-[Planning and implementing your Azure Rights Management tenant key](/information-protection/plan-design/plan-implement-tenant-key)
+[Planning and implementing your Azure Rights Management tenant key](https://docs.microsoft.com/information-protection/plan-design/plan-implement-tenant-key)
 
-[What is Azure Key Vault](/azure/key-vault/key-vault-whatis)
+[What is Azure Key Vault](https://docs.microsoft.com/azure/key-vault/key-vault-whatis)

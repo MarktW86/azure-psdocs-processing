@@ -2,9 +2,9 @@
   href: ../conceptual/1.2.9/overview.md
   items:
     - name: Install
-      href: 'https://docs.microsoft.com/en-us/azure/azure-stack/azure-stack-powershell-install'
+      href: 'https://docs.microsoft.com/en-us/azure/azure-stack/azure-stack-powershell-install?view=azurestackps-1.2.9&toc=%2fpowershell%2fmodule%2ftoc.json%3fview%3dazurestackps-1.2.9'
     - name: Configure
-      href: 'https://docs.microsoft.com/en-us/azure/azure-stack/azure-stack-powershell-configure'
+      href: 'https://docs.microsoft.com/en-us/azure/azure-stack/azure-stack-powershell-configure?view=azurestackps-1.2.9&toc=%2fpowershell%2fmodule%2ftoc.json%3fview%3dazurestackps-1.2.9'
 - name: Reference
   items:
     - name: AzureRM.AzureStackAdmin

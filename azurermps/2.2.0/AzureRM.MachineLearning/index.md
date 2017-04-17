@@ -3,11 +3,11 @@ Module Name: AzureRM.MachineLearning
 Module Guid: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
 Locale: en-US
 ms.assetid: B91038DD-5BA4-4249-AE2C-1F69BE9E35F3
-updated_at: 11/11/2016 23:11 PM
-ms.date: 11/11/2016
+updated_at: 04/17/2017 03:04 AM
+ms.date: 04/17/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.MachineLearning/v0.10.0/AzureRM.MachineLearning.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.MachineLearning/v0.10.0/AzureRM.MachineLearning.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4020413561282c9a9e970fce2fc8414bf4bb1265
 ms.topic: conceptual
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -27,7 +27,7 @@ _isModulePage: true
 
 # AzureRM.MachineLearning Module
 ## Description
-This topic displays help topics for the Machine Learning web service feature in Azure App Service cmdlets. 
+This topic displays help topics for the Machine Learning web service feature in Azure Machine Learning cmdlets. 
 
 ## AzureRM.MachineLearning Cmdlets
 ### [Export-AzureRmMlWebService](./Export-AzureRmMlWebService.md)
