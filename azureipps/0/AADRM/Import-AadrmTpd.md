@@ -3,11 +3,11 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: https://go.microsoft.com/fwlink/?LinkId=521420
 schema: 2.0.0
 ms.assetid: CA482DE6-8575-4161-AD19-97F8A6C87605
-updated_at: 04/07/2017 22:04 PM
-ms.date: 04/07/2017
+updated_at: 04/17/2017 16:04 PM
+ms.date: 04/17/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Import-AadrmTpd.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Import-AadrmTpd.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/02cdbe2d004a2fd2b0a3b16e23caa37400c532a4
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/5af92e98a02d763b2ab8dd55a422ee6800025892
 ms.topic: reference
 author: cabailey
 ms.author: PowerShellHelpPub
@@ -36,11 +36,11 @@ You must use PowerShell to configure your tenant key; you cannot do this configu
 
 This cmdlet always sets the key from the imported TPD to an archived state. After you run this command, the key in the imported TPD becomes available to Azure Rights Management to consume content that AD RMS protected by using this key. Use the [Set-AadrmKeyProperties](./Set-AadrmKeyProperties.md) cmdlet to change the state of the imported TPD to Active.
 
-Warning: Do not run this cmdlet unless you have read and understood the requirements, restrictions, instructions, and implications of migrating from AD RMS. For more information, see [Migrating from AD RMS to Azure Information Protection](/information-protection/plan-design/migrate-from-ad-rms-to-azure-rms).
+Warning: Do not run this cmdlet unless you have read and understood the requirements, restrictions, instructions, and implications of migrating from AD RMS. For more information, see [Migrating from AD RMS to Azure Information Protection](https://docs.microsoft.com/information-protection/plan-design/migrate-from-ad-rms-to-azure-rms).
 
 If you migrate templates from your AD RMS as active, you can edit these templates in the Azure classic portal. You can publish these templates so that users can select them from applications. If the migrated templates are not activated, they can only be used to open documents that they previously protected.
 
-You must use the AD RMS management console to export the TPD. If you use a hardware security module (HSM) for your keys, you must first repackage the TPD keys by using the Azure Key Vault BYOK tools. You can download these tools from the [Microsoft Download Site](http://www.microsoft.com/download/details.aspx?id=45345). For more information, see [How to generate and transfer HSM-protected keys for Azure Key Vault](/azure/key-vault/key-vault-hsm-protected-keys).
+You must use the AD RMS management console to export the TPD. If you use a hardware security module (HSM) for your keys, you must first repackage the TPD keys by using the Azure Key Vault BYOK tools. You can download these tools from the [Microsoft Download Site](http://www.microsoft.com/download/details.aspx?id=45345). For more information, see [How to generate and transfer HSM-protected keys for Azure Key Vault](https://docs.microsoft.com/azure/key-vault/key-vault-hsm-protected-keys).
 
 ## EXAMPLES
 
@@ -217,6 +217,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 [Set-AadrmKeyProperties](./Set-AadrmKeyProperties.md)
 
-[Migrating from AD RMS to Azure Information Protection](/information-protection/plan-design/migrate-from-ad-rms-to-azure-rms)
+[Migrating from AD RMS to Azure Information Protection](https://docs.microsoft.com/information-protection/plan-design/migrate-from-ad-rms-to-azure-rms)
 
-[How to generate and transfer HSM-protected keys for Azure Key Vault](/azure/key-vault/key-vault-hsm-protected-keys)
+[How to generate and transfer HSM-protected keys for Azure Key Vault](https://docs.microsoft.com/azure/key-vault/key-vault-hsm-protected-keys)

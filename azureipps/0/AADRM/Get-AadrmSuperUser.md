@@ -3,11 +3,11 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkId=400614
 schema: 2.0.0
 ms.assetid: 508FBF5B-A405-4FCB-9EB3-39183F46F60A
-updated_at: 02/13/2017 21:02 PM
-ms.date: 02/13/2017
+updated_at: 04/17/2017 16:04 PM
+ms.date: 04/17/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmSuperUser.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmSuperUser.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/22a102658f1b1c573e607b7c05590c1e292e41e2
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/5af92e98a02d763b2ab8dd55a422ee6800025892
 ms.topic: reference
 author: cabailey
 ms.author: PowerShellHelpPub
@@ -33,7 +33,7 @@ The **Get-AadrmSuperUser** cmdlet gets the super users for Azure Rights Manageme
 
 You must use PowerShell to configure super users; you cannot do this configuration by using a management portal.
 
-For more information about super users, see [Configuring super users for Azure Rights Management and discovery services or data recovery](https://docs.microsoft.com/rights-management/deploy-use/configure-super-users) on the Microsoft documentation site.
+For more information about super users, see [Configuring super users for Azure Rights Management and discovery services or data recovery](https://docs.microsoft.com/information-protection/deploy-use/configure-super-users).
 
 ## EXAMPLES
 
@@ -63,4 +63,4 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 [Enable-AadrmSuperUserFeature](./Enable-AadrmSuperUserFeature.md)
 
-[Configuring super users for Azure Rights Management and discovery services or data recovery](https://docs.microsoft.com/rights-management/deploy-use/configure-super-users)
+[Configuring super users for Azure Rights Management and discovery services or data recovery](https://docs.microsoft.com/information-protection/deploy-use/configure-super-users)

@@ -3,11 +3,11 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkId=400602
 schema: 2.0.0
 ms.assetid: 60B3F42C-4FEF-435B-AE28-771932FA6251
-updated_at: 04/11/2017 05:04 AM
-ms.date: 04/11/2017
+updated_at: 04/17/2017 16:04 PM
+ms.date: 04/17/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Enable-Aadrm.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Enable-Aadrm.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/2047afa5f7c701b3cf7c3a822ab28ef22a7a6869
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/5af92e98a02d763b2ab8dd55a422ee6800025892
 ms.topic: reference
 author: cabailey
 ms.author: PowerShellHelpPub
@@ -31,7 +31,7 @@ Enable-Aadrm [<CommonParameters>]
 ## DESCRIPTION
 The **Enable-Aadrm** cmdlet enables your organization to use Azure Rights Management when you have a subscription that includes this service. 
 
-You can also do this action in a management portal. For more information, see [Activating Azure Rights Management](https://docs.microsoft.com/information-protection/deploy-use/decommission-deactivate) on the Microsoft documentation site). 
+You can also do this action in a management portal. For more information, see [Activating Azure Rights Management](https://docs.microsoft.com/information-protection/deploy-use/decommission-deactivate). 
 
 The Azure Rights Management service must be activated before you can begin to use information rights management (IRM) features in Office applications and before you can protect documents and emails by using other applications that use Azure Rights Management.
 
