@@ -13,7 +13,7 @@ ms.workload:
 ms.date: 04/10/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/docs-conceptual/release-notes-azureps.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/docs-conceptual/release-notes-azureps.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4a10b876107a2c4f91e5333a70a1eff5f551b820
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/38bbd987ccde66552aa4dff0555818c9de31d826
 open_to_public_contributors: true
 ---
 
@@ -59,8 +59,8 @@ This is a list of changes made to Azure PowerShell in the latest releases.
         - New parameter 'GeoMapping' for the New-AzureRmTrafficManagerEndpoint and Add-AzureRmTrafficManagerEndpointConfig
         - Fix piping for Get-AzureRmTrafficManagerProfile when it returns a collection of profiles
 * ServiceManagement
-    * Add initiate maintenance PowerShell cmdlet.
-    * Add Maintenance Status field to Get-AzureVM response.
+    * Restart-AzureVM: Added InitiateMaintenance parameter for performing maintenance during VM restart.
+    * Get-AzureVM: Added Maintenance Status field.
     * Added new cmdlets to support Recovery Services vault upgrade
         - Test-AzureRecoveryServicesVaultUpgrade
         - Invoke-AzureRecoveryServicesVaultUpgrade
