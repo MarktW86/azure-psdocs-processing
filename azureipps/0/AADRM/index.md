@@ -5,11 +5,11 @@ Download Help Link: N/A
 Help Version: 2.9.0.0
 Locale: en-US
 ms.assetid: 0B91D740-D2BD-4D57-9E21-C582C9BE2CCA
-updated_at: 04/07/2017 22:04 PM
-ms.date: 04/07/2017
+updated_at: 04/18/2017 07:04 AM
+ms.date: 04/18/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/RightsManagement.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/RightsManagement.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/3a859d4d1b0769babb945130bf9446cf3d3ff713
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/44ac79dee7ff15cb57355b7e721f76b18818ab76
 ms.topic: conceptual
 author: cabailey
 ms.author: PowerShellHelpPub
@@ -284,7 +284,7 @@ Removes a super user from Rights Management.
 Deletes a Rights Management rights policy template.
 
 
-### [Set-​Aadrm​Key​Properties](./Set-Aadrm​Key​Properties.md)
+### [Set-AadrmKeyProperties](./Set-AadrmKeyProperties.md)
 Updates the properties of a tenant key object for Rights Management.
 
 
