@@ -15,7 +15,7 @@ manager: erickson-doug
 open_to_public_contributors: true
 ms.service: key-vault
 Add-AzureKeyVaultKey: Key Vault
-Backup-AzureKeyVaultKey: Key Vault
+Backup-AzureKeyVaultKey: Backup
 Get-AzureKeyVaultKey: Key Vault
 Get-AzureKeyVaultSecret: Key Vault
 Get-AzureRmKeyVault: Key Vault
@@ -23,12 +23,12 @@ New-AzureRmKeyVault: Key Vault
 Remove-AzureKeyVaultKey: Key Vault
 Remove-AzureKeyVaultSecret: Key Vault
 Remove-AzureRmKeyVault: Key Vault
-Remove-AzureRmKeyVaultAccessPolicy: Policies
+Remove-AzureRmKeyVaultAccessPolicy: Key Vault
 Restore-AzureKeyVaultKey: Key Vault
 Set-AzureKeyVaultKeyAttribute: Key Vault
 Set-AzureKeyVaultSecret: Key Vault
 Set-AzureKeyVaultSecretAttribute: Key Vault
-Set-AzureRmKeyVaultAccessPolicy: Policies
+Set-AzureRmKeyVaultAccessPolicy: Key Vault
 _isModulePage: true
 ---
 

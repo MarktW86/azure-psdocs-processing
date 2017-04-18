@@ -15,28 +15,28 @@ keywords: powershell, cmdlet
 manager: erickson-doug
 open_to_public_contributors: true
 ms.service: data-lake-store
-Add-AzureRmDataLakeStoreItemContent: Data Lake
-Export-AzureRmDataLakeStoreItem: Data Lake
-Get-AzureRmDataLakeStoreAccount: Data Lake
-Get-AzureRmDataLakeStoreChildItem: Data Lake
-Get-AzureRmDataLakeStoreItem: Data Lake
-Get-AzureRmDataLakeStoreItemAcl: Data Lake
-Get-AzureRmDataLakeStoreItemContent: Data Lake
-Get-AzureRmDataLakeStoreItemOwner: Data Lake
-Import-AzureRmDataLakeStoreItem: Data Lake
-Join-AzureRmDataLakeStoreItem: Data Lake
-Move-AzureRmDataLakeStoreItem: Data Lake
-New-AzureRmDataLakeStoreAccount: Data Lake
-New-AzureRmDataLakeStoreItem: Data Lake
-Remove-AzureRmDataLakeStoreAccount: Data Lake
-Remove-AzureRmDataLakeStoreItem: Data Lake
-Remove-AzureRmDataLakeStoreItemAclEntry: Data Lake
-Set-AzureRmDataLakeStoreAccount: Data Lake
-Set-AzureRmDataLakeStoreItemAcl: Data Lake
-Set-AzureRmDataLakeStoreItemAclEntry: Data Lake
-Set-AzureRmDataLakeStoreItemOwner: Data Lake
-Test-AzureRmDataLakeStoreAccount: Data Lake
-Test-AzureRmDataLakeStoreItem: Data Lake
+Add-AzureRmDataLakeStoreItemContent: Others
+Export-AzureRmDataLakeStoreItem: Others
+Get-AzureRmDataLakeStoreAccount: Others
+Get-AzureRmDataLakeStoreChildItem: Others
+Get-AzureRmDataLakeStoreItem: Others
+Get-AzureRmDataLakeStoreItemAcl: Others
+Get-AzureRmDataLakeStoreItemContent: Others
+Get-AzureRmDataLakeStoreItemOwner: Others
+Import-AzureRmDataLakeStoreItem: Others
+Join-AzureRmDataLakeStoreItem: Others
+Move-AzureRmDataLakeStoreItem: Others
+New-AzureRmDataLakeStoreAccount: Others
+New-AzureRmDataLakeStoreItem: Others
+Remove-AzureRmDataLakeStoreAccount: Others
+Remove-AzureRmDataLakeStoreItem: Others
+Remove-AzureRmDataLakeStoreItemAclEntry: Others
+Set-AzureRmDataLakeStoreAccount: Others
+Set-AzureRmDataLakeStoreItemAcl: Others
+Set-AzureRmDataLakeStoreItemAclEntry: Others
+Set-AzureRmDataLakeStoreItemOwner: Others
+Test-AzureRmDataLakeStoreAccount: Others
+Test-AzureRmDataLakeStoreItem: Others
 _isModulePage: true
 ---
 

@@ -21,7 +21,7 @@ Get-AzureRmStorageUsage: Storage
 New-AzureRmStorageAccount: Storage
 New-AzureRmStorageAccountKey: Storage
 Remove-AzureRmStorageAccount: Storage
-Set-AzureRmCurrentStorageAccount: Others
+Set-AzureRmCurrentStorageAccount: Storage
 Set-AzureRmStorageAccount: Storage
 _isModulePage: true
 ---

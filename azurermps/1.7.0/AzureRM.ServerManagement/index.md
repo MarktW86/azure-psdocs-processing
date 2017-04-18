@@ -15,19 +15,19 @@ keywords: powershell, cmdlet
 manager: erickson-doug
 open_to_public_contributors: true
 ms.service: server-management
-Get-AzureRmServerManagementGateway: Server Management
-Get-AzureRmServerManagementNode: Server Management
-Get-AzureRmServerManagementSession: Server Management
-Install-AzureRmServerManagementGatewayProfile: Server Management
-Invoke-AzureRmServerManagementPowerShellCommand: Server Management
-New-AzureRmServerManagementGateway: Server Management
-New-AzureRmServerManagementNode: Server Management
-New-AzureRmServerManagementSession: Server Management
-Remove-AzureRmServerManagementGateway: Server Management
-Remove-AzureRmServerManagementNode: Server Management
-Remove-AzureRmServerManagementSession: Server Management
-Reset-AzureRmServerManagementGatewayProfile: Server Management
-Save-AzureRmServerManagementGatewayProfile: Server Management
+Get-AzureRmServerManagementGateway: Others
+Get-AzureRmServerManagementNode: Others
+Get-AzureRmServerManagementSession: Others
+Install-AzureRmServerManagementGatewayProfile: Others
+Invoke-AzureRmServerManagementPowerShellCommand: Others
+New-AzureRmServerManagementGateway: Others
+New-AzureRmServerManagementNode: Others
+New-AzureRmServerManagementSession: Others
+Remove-AzureRmServerManagementGateway: Others
+Remove-AzureRmServerManagementNode: Others
+Remove-AzureRmServerManagementSession: Others
+Reset-AzureRmServerManagementGatewayProfile: Others
+Save-AzureRmServerManagementGatewayProfile: Others
 _isModulePage: true
 ---
 

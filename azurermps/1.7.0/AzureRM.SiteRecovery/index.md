@@ -15,51 +15,51 @@ keywords: powershell, cmdlet
 manager: erickson-doug
 open_to_public_contributors: true
 ms.service: site-recovery
-Edit-AzureRmSiteRecoveryRecoveryPlan: Site Recovery
-Get-AzureRmSiteRecoveryJob: Site Recovery
-Get-AzureRmSiteRecoveryNetwork: Site Recovery
-Get-AzureRmSiteRecoveryNetworkMapping: Site Recovery
-Get-AzureRmSiteRecoveryPolicy: Site Recovery
-Get-AzureRmSiteRecoveryProtectionContainer: Site Recovery
-Get-AzureRmSiteRecoveryProtectionEntity: Site Recovery
-Get-AzureRmSiteRecoveryRecoveryPlan: Site Recovery
-Get-AzureRmSiteRecoveryServer: Site Recovery
-Get-AzureRmSiteRecoverySite: Site Recovery
-Get-AzureRmSiteRecoveryStorageClassification: Storage
-Get-AzureRmSiteRecoveryStorageClassificationMapping: Storage
-Get-AzureRmSiteRecoveryVault: Site Recovery
-Get-AzureRmSiteRecoveryVaultSettings: Site Recovery
-Get-AzureRmSiteRecoveryVaultSettingsFile: Site Recovery
-Get-AzureRmSiteRecoveryVM: Virtual Machines
-Import-AzureRmSiteRecoveryVaultSettingsFile: Site Recovery
-New-AzureRmSiteRecoveryNetworkMapping: Site Recovery
-New-AzureRmSiteRecoveryPolicy: Site Recovery
-New-AzureRmSiteRecoveryRecoveryPlan: Site Recovery
-New-AzureRmSiteRecoverySite: Site Recovery
-New-AzureRmSiteRecoveryStorageClassificationMapping: Storage
-New-AzureRmSiteRecoveryVault: Site Recovery
-Remove-AzureRmSiteRecoveryNetworkMapping: Site Recovery
-Remove-AzureRmSiteRecoveryPolicy: Site Recovery
-Remove-AzureRmSiteRecoveryRecoveryPlan: Site Recovery
-Remove-AzureRmSiteRecoveryServer: Site Recovery
-Remove-AzureRmSiteRecoverySite: Site Recovery
-Remove-AzureRmSiteRecoveryStorageClassificationMapping: Storage
-Remove-AzureRmSiteRecoveryVault: Site Recovery
-Restart-AzureRmSiteRecoveryJob: Site Recovery
-Resume-AzureRmSiteRecoveryJob: Site Recovery
-Set-AzureRmSiteRecoveryProtectionEntity: Site Recovery
-Set-AzureRmSiteRecoveryVaultSettings: Site Recovery
-Set-AzureRmSiteRecoveryVM: Virtual Machines
-Start-AzureRmSiteRecoveryCommitFailoverJob: Site Recovery
-Start-AzureRmSiteRecoveryPlannedFailoverJob: Site Recovery
-Start-AzureRmSiteRecoveryPolicyAssociationJob: Site Recovery
-Start-AzureRmSiteRecoveryPolicyDissociationJob: Site Recovery
-Start-AzureRmSiteRecoveryTestFailoverJob: Site Recovery
-Start-AzureRmSiteRecoveryUnplannedFailoverJob: Site Recovery
-Stop-AzureRmSiteRecoveryJob: Site Recovery
-Update-AzureRmSiteRecoveryProtectionDirection: Site Recovery
-Update-AzureRmSiteRecoveryRecoveryPlan: Site Recovery
-Update-AzureRmSiteRecoveryServer: Site Recovery
+Edit-AzureRmSiteRecoveryRecoveryPlan: Others
+Get-AzureRmSiteRecoveryJob: Others
+Get-AzureRmSiteRecoveryNetwork: Others
+Get-AzureRmSiteRecoveryNetworkMapping: Others
+Get-AzureRmSiteRecoveryPolicy: Others
+Get-AzureRmSiteRecoveryProtectionContainer: Others
+Get-AzureRmSiteRecoveryProtectionEntity: Others
+Get-AzureRmSiteRecoveryRecoveryPlan: Others
+Get-AzureRmSiteRecoveryServer: Others
+Get-AzureRmSiteRecoverySite: Others
+Get-AzureRmSiteRecoveryStorageClassification: Others
+Get-AzureRmSiteRecoveryStorageClassificationMapping: Others
+Get-AzureRmSiteRecoveryVault: Others
+Get-AzureRmSiteRecoveryVaultSettings: Others
+Get-AzureRmSiteRecoveryVaultSettingsFile: Others
+Get-AzureRmSiteRecoveryVM: Others
+Import-AzureRmSiteRecoveryVaultSettingsFile: Others
+New-AzureRmSiteRecoveryNetworkMapping: Others
+New-AzureRmSiteRecoveryPolicy: Others
+New-AzureRmSiteRecoveryRecoveryPlan: Others
+New-AzureRmSiteRecoverySite: Others
+New-AzureRmSiteRecoveryStorageClassificationMapping: Others
+New-AzureRmSiteRecoveryVault: Others
+Remove-AzureRmSiteRecoveryNetworkMapping: Others
+Remove-AzureRmSiteRecoveryPolicy: Others
+Remove-AzureRmSiteRecoveryRecoveryPlan: Others
+Remove-AzureRmSiteRecoveryServer: Others
+Remove-AzureRmSiteRecoverySite: Others
+Remove-AzureRmSiteRecoveryStorageClassificationMapping: Others
+Remove-AzureRmSiteRecoveryVault: Others
+Restart-AzureRmSiteRecoveryJob: Others
+Resume-AzureRmSiteRecoveryJob: Others
+Set-AzureRmSiteRecoveryProtectionEntity: Others
+Set-AzureRmSiteRecoveryVaultSettings: Others
+Set-AzureRmSiteRecoveryVM: Others
+Start-AzureRmSiteRecoveryCommitFailoverJob: Others
+Start-AzureRmSiteRecoveryPlannedFailoverJob: Others
+Start-AzureRmSiteRecoveryPolicyAssociationJob: Others
+Start-AzureRmSiteRecoveryPolicyDissociationJob: Others
+Start-AzureRmSiteRecoveryTestFailoverJob: Others
+Start-AzureRmSiteRecoveryUnplannedFailoverJob: Others
+Stop-AzureRmSiteRecoveryJob: Others
+Update-AzureRmSiteRecoveryProtectionDirection: Others
+Update-AzureRmSiteRecoveryRecoveryPlan: Others
+Update-AzureRmSiteRecoveryServer: Others
 _isModulePage: true
 ---
 

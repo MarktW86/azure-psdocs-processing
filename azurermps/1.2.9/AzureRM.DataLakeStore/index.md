@@ -14,7 +14,7 @@ keywords: powershell, cmdlet
 manager: erickson-doug
 open_to_public_contributors: true
 ms.service: data-lake-store
-Add-AzureRmDataLakeStoreItemContent: Others
+Add-AzureRmDataLakeStoreItemContent: Data Lake
 Export-AzureRmDataLakeStoreItem: Data Lake
 Get-AzureRmDataLakeStoreAccount: Data Lake
 Get-AzureRmDataLakeStoreChildItem: Data Lake

@@ -16,24 +16,24 @@ open_to_public_contributors: true
 ms.service: azure-resource-manager
 Find-AzureRmResource: Resources
 Find-AzureRmResourceGroup: Resources
-Get-AzureRmADApplication: Others
+Get-AzureRmADApplication: Active Directory
 Get-AzureRmADGroup: Active Directory
 Get-AzureRmADGroupMember: Active Directory
 Get-AzureRmADServicePrincipal: Active Directory
 Get-AzureRmADUser: Active Directory
 Get-AzureRmPolicyAssignment: Policies
 Get-AzureRmPolicyDefinition: Policies
-Get-AzureRmProviderFeature: Resources
-Get-AzureRmProviderOperation: Resources
+Get-AzureRmProviderFeature: Resource providers
+Get-AzureRmProviderOperation: Resource providers
 Get-AzureRmResource: Resources
 Get-AzureRmResourceGroup: Resources
 Get-AzureRmResourceGroupDeployment: Resources
 Get-AzureRmResourceGroupDeploymentOperation: Resources
 Get-AzureRmResourceLock: Resources
-Get-AzureRmResourceProvider: Resources
+Get-AzureRmResourceProvider: Resource providers
 Get-AzureRmRoleAssignment: Roles
 Get-AzureRmRoleDefinition: Roles
-Invoke-AzureRmResourceAction: Others
+Invoke-AzureRmResourceAction: Resources
 Move-AzureRmResource: Resources
 New-AzureRmADApplication: Active Directory
 New-AzureRmADServicePrincipal: Active Directory
@@ -45,15 +45,15 @@ New-AzureRmResourceGroupDeployment: Resources
 New-AzureRmResourceLock: Resources
 New-AzureRmRoleAssignment: Roles
 New-AzureRmRoleDefinition: Roles
-Register-AzureRmProviderFeature: Resources
-Register-AzureRmResourceProvider: Resources
+Register-AzureRmProviderFeature: Resource providers
+Register-AzureRmResourceProvider: Resource providers
 Remove-AzureRmADApplication: Active Directory
 Remove-AzureRmADServicePrincipal: Active Directory
 Remove-AzureRmPolicyAssignment: Policies
 Remove-AzureRmPolicyDefinition: Policies
 Remove-AzureRmResource: Resources
 Remove-AzureRmResourceGroup: Resources
-Remove-AzureRmResourceGroupDeployment: Others
+Remove-AzureRmResourceGroupDeployment: Resources
 Remove-AzureRmResourceLock: Resources
 Remove-AzureRmRoleAssignment: Roles
 Remove-AzureRmRoleDefinition: Roles
@@ -64,8 +64,8 @@ Set-AzureRmResourceGroup: Resources
 Set-AzureRmResourceLock: Resources
 Set-AzureRmRoleDefinition: Roles
 Stop-AzureRmResourceGroupDeployment: Resources
-Test-AzureRmResourceGroupDeployment: Others
-Unregister-AzureRmResourceProvider: Resources
+Test-AzureRmResourceGroupDeployment: Resources
+Unregister-AzureRmResourceProvider: Resource providers
 _isModulePage: true
 ---
 

@@ -17,13 +17,13 @@ keywords: powershell, cmdlet
 manager: erickson-doug
 open_to_public_contributors: true
 ms.service: Websites
-Edit-AzureRmWebAppBackupConfiguration: App Service
+Edit-AzureRmWebAppBackupConfiguration: Backup
 Get-AzureRmAppServicePlan: App Service
 Get-AzureRmAppServicePlanMetrics: App Service
 Get-AzureRmWebApp: App Service
-Get-AzureRmWebAppBackup: App Service
-Get-AzureRmWebAppBackupConfiguration: App Service
-Get-AzureRmWebAppBackupList: App Service
+Get-AzureRmWebAppBackup: Backup
+Get-AzureRmWebAppBackupConfiguration: Backup
+Get-AzureRmWebAppBackupList: Backup
 Get-AzureRmWebAppCertificate: App Service
 Get-AzureRMWebAppMetrics: Others
 Get-AzureRmWebAppPublishingProfile: App Service
@@ -34,20 +34,20 @@ Get-AzureRMWebAppSlotPublishingProfile: Others
 Get-AzureRmWebAppSSLBinding: App Service
 New-AzureRmAppServicePlan: App Service
 New-AzureRmWebApp: App Service
-New-AzureRmWebAppBackup: App Service
-New-AzureRmWebAppDatabaseBackupSetting: App Service
+New-AzureRmWebAppBackup: Backup
+New-AzureRmWebAppDatabaseBackupSetting: Backup
 New-AzureRMWebAppSlot: Others
 New-AzureRmWebAppSSLBinding: App Service
 Remove-AzureRmAppServicePlan: App Service
 Remove-AzureRmWebApp: App Service
-Remove-AzureRmWebAppBackup: App Service
+Remove-AzureRmWebAppBackup: Backup
 Remove-AzureRMWebAppSlot: Others
 Remove-AzureRmWebAppSSLBinding: App Service
 Reset-AzureRmWebAppPublishingProfile: App Service
 Reset-AzureRmWebAppSlotPublishingProfile: App Service
 Restart-AzureRmWebApp: App Service
 Restart-AzureRMWebAppSlot: Others
-Restore-AzureRmWebAppBackup: App Service
+Restore-AzureRmWebAppBackup: Backup
 Set-AzureRmAppServicePlan: App Service
 Set-AzureRMWebApp: Others
 Set-AzureRMWebAppSlot: Others

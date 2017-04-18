@@ -15,18 +15,18 @@ manager: erickson-doug
 open_to_public_contributors: true
 ms.service: tyraffic-manager
 Add-AzureRmTrafficManagerEndpointConfig: Traffic Manager
-Disable-AzureRmTrafficManagerEndpoint: Others
-Disable-AzureRmTrafficManagerProfile: Others
-Enable-AzureRmTrafficManagerEndpoint: Others
-Enable-AzureRmTrafficManagerProfile: Others
-Get-AzureRmTrafficManagerEndpoint: Others
+Disable-AzureRmTrafficManagerEndpoint: Traffic Manager
+Disable-AzureRmTrafficManagerProfile: Traffic Manager
+Enable-AzureRmTrafficManagerEndpoint: Traffic Manager
+Enable-AzureRmTrafficManagerProfile: Traffic Manager
+Get-AzureRmTrafficManagerEndpoint: Traffic Manager
 Get-AzureRmTrafficManagerProfile: Traffic Manager
-New-AzureRmTrafficManagerEndpoint: Others
+New-AzureRmTrafficManagerEndpoint: Traffic Manager
 New-AzureRmTrafficManagerProfile: Traffic Manager
-Remove-AzureRmTrafficManagerEndpoint: Others
+Remove-AzureRmTrafficManagerEndpoint: Traffic Manager
 Remove-AzureRmTrafficManagerEndpointConfig: Traffic Manager
 Remove-AzureRmTrafficManagerProfile: Traffic Manager
-Set-AzureRmTrafficManagerEndpoint: Others
+Set-AzureRmTrafficManagerEndpoint: Traffic Manager
 Set-AzureRmTrafficManagerProfile: Traffic Manager
 _isModulePage: true
 ---

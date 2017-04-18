@@ -17,24 +17,24 @@ keywords: powershell, cmdlet
 manager: erickson-doug
 open_to_public_contributors: true
 ms.service: data-lake-analytics
-Add-AzureRmDataLakeAnalyticsDataSource: Data Lake
-Get-AzureRmDataLakeAnalyticsAccount: Data Lake
-Get-AzureRmDataLakeAnalyticsCatalogItem: Data Lake
-Get-AzureRmDataLakeAnalyticsDataSource: Data Lake
-Get-AzureRmDataLakeAnalyticsJob: Data Lake
-New-AzureRmDataLakeAnalyticsAccount: Data Lake
-New-AzureRmDataLakeAnalyticsCatalogSecret: Data Lake
-Remove-AzureRmDataLakeAnalyticsAccount: Data Lake
-Remove-AzureRmDataLakeAnalyticsCatalogSecret: Data Lake
-Remove-AzureRmDataLakeAnalyticsDataSource: Data Lake
-Set-AzureRmDataLakeAnalyticsAccount: Data Lake
-Set-AzureRmDataLakeAnalyticsCatalogSecret: Data Lake
-Set-AzureRmDataLakeAnalyticsDataSource: Data Lake
-Stop-AzureRmDataLakeAnalyticsJob: Data Lake
-Submit-AzureRmDataLakeAnalyticsJob: Data Lake
-Test-AzureRmDataLakeAnalyticsAccount: Data Lake
-Test-AzureRmDataLakeAnalyticsCatalogItem: Data Lake
-Wait-AzureRmDataLakeAnalyticsJob: Data Lake
+Add-AzureRmDataLakeAnalyticsDataSource: Others
+Get-AzureRmDataLakeAnalyticsAccount: Others
+Get-AzureRmDataLakeAnalyticsCatalogItem: Others
+Get-AzureRmDataLakeAnalyticsDataSource: Others
+Get-AzureRmDataLakeAnalyticsJob: Others
+New-AzureRmDataLakeAnalyticsAccount: Others
+New-AzureRmDataLakeAnalyticsCatalogSecret: Others
+Remove-AzureRmDataLakeAnalyticsAccount: Others
+Remove-AzureRmDataLakeAnalyticsCatalogSecret: Others
+Remove-AzureRmDataLakeAnalyticsDataSource: Others
+Set-AzureRmDataLakeAnalyticsAccount: Others
+Set-AzureRmDataLakeAnalyticsCatalogSecret: Others
+Set-AzureRmDataLakeAnalyticsDataSource: Others
+Stop-AzureRmDataLakeAnalyticsJob: Others
+Submit-AzureRmDataLakeAnalyticsJob: Others
+Test-AzureRmDataLakeAnalyticsAccount: Others
+Test-AzureRmDataLakeAnalyticsCatalogItem: Others
+Wait-AzureRmDataLakeAnalyticsJob: Others
 _isModulePage: true
 ---
 

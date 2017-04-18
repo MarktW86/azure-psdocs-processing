@@ -14,15 +14,15 @@ keywords: powershell, cmdlet
 manager: erickson-doug
 open_to_public_contributors: true
 ms.service: storage
-Get-AzureRmStorageAccount: Storage
-Get-AzureRmStorageAccountKey: Storage
-Get-AzureRmStorageAccountNameAvailability: Storage
-Get-AzureRmStorageUsage: Storage
-New-AzureRmStorageAccount: Storage
-New-AzureRmStorageAccountKey: Storage
-Remove-AzureRmStorageAccount: Storage
-Set-AzureRmCurrentStorageAccount: Storage
-Set-AzureRmStorageAccount: Storage
+Get-AzureRmStorageAccount: Others
+Get-AzureRmStorageAccountKey: Others
+Get-AzureRmStorageAccountNameAvailability: Others
+Get-AzureRmStorageUsage: Others
+New-AzureRmStorageAccount: Others
+New-AzureRmStorageAccountKey: Others
+Remove-AzureRmStorageAccount: Others
+Set-AzureRmCurrentStorageAccount: Others
+Set-AzureRmStorageAccount: Others
 _isModulePage: true
 ---
 

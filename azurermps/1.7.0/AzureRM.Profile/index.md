@@ -17,19 +17,19 @@ keywords: powershell, cmdlet
 manager: erickson-doug
 open_to_public_contributors: true
 ms.service: subscription
-Add-AzureRmAccount: Power BI
-Add-AzureRmEnvironment: Power BI
-Disable-AzureRmDataCollection: Power BI
-Enable-AzureRmDataCollection: Power BI
-Get-AzureRmContext: Power BI
-Get-AzureRmEnvironment: Power BI
+Add-AzureRmAccount: Profile
+Add-AzureRmEnvironment: Profile
+Disable-AzureRmDataCollection: Profile
+Enable-AzureRmDataCollection: Profile
+Get-AzureRmContext: Profile
+Get-AzureRmEnvironment: Profile
 Get-AzureRmSubscription: Subscriptions
-Get-AzureRmTenant: Subscriptions
-Remove-AzureRmEnvironment: Subscriptions
-Save-AzureRmProfile: Others
-Select-AzureRmProfile: Others
-Set-AzureRmContext: Others
-Set-AzureRmEnvironment: Subscriptions
+Get-AzureRmTenant: Profile
+Remove-AzureRmEnvironment: Profile
+Save-AzureRmProfile: Profile
+Select-AzureRmProfile: Profile
+Set-AzureRmContext: Profile
+Set-AzureRmEnvironment: Profile
 _isModulePage: true
 ---
 

@@ -17,28 +17,28 @@ keywords: powershell, cmdlet
 manager: erickson-doug
 open_to_public_contributors: true
 ms.service: operational-insights
-Get-AzureRmOperationalInsightsIntelligencePacks: Operational Insights
-Get-AzureRmOperationalInsightsLinkTargets: Operational Insights
-Get-AzureRmOperationalInsightsSavedSearch: Operational Insights
-Get-AzureRmOperationalInsightsSavedSearchResults: Operational Insights
-Get-AzureRmOperationalInsightsSchema: Operational Insights
-Get-AzureRmOperationalInsightsSearchResults: Operational Insights
-Get-AzureRmOperationalInsightsStorageInsight: Storage
-Get-AzureRmOperationalInsightsWorkspace: Operational Insights
-Get-AzureRmOperationalInsightsWorkspaceManagementGroups: Operational Insights
-Get-AzureRmOperationalInsightsWorkspaceSharedKeys: Operational Insights
-Get-AzureRmOperationalInsightsWorkspaceUsage: Operational Insights
-New-AzureRmOperationalInsightsComputerGroup: Operational Insights
-New-AzureRmOperationalInsightsSavedSearch: Operational Insights
-New-AzureRmOperationalInsightsStorageInsight: Storage
-New-AzureRmOperationalInsightsWorkspace: Operational Insights
-Remove-AzureRmOperationalInsightsSavedSearch: Operational Insights
-Remove-AzureRmOperationalInsightsStorageInsight: Storage
-Remove-AzureRmOperationalInsightsWorkspace: Operational Insights
-Set-AzureRmOperationalInsightsIntelligencePack: Operational Insights
-Set-AzureRmOperationalInsightsSavedSearch: Operational Insights
-Set-AzureRmOperationalInsightsStorageInsight: Storage
-Set-AzureRmOperationalInsightsWorkspace: Operational Insights
+Get-AzureRmOperationalInsightsIntelligencePacks: Others
+Get-AzureRmOperationalInsightsLinkTargets: Others
+Get-AzureRmOperationalInsightsSavedSearch: Others
+Get-AzureRmOperationalInsightsSavedSearchResults: Others
+Get-AzureRmOperationalInsightsSchema: Others
+Get-AzureRmOperationalInsightsSearchResults: Others
+Get-AzureRmOperationalInsightsStorageInsight: Others
+Get-AzureRmOperationalInsightsWorkspace: Others
+Get-AzureRmOperationalInsightsWorkspaceManagementGroups: Others
+Get-AzureRmOperationalInsightsWorkspaceSharedKeys: Others
+Get-AzureRmOperationalInsightsWorkspaceUsage: Others
+New-AzureRmOperationalInsightsComputerGroup: Others
+New-AzureRmOperationalInsightsSavedSearch: Others
+New-AzureRmOperationalInsightsStorageInsight: Others
+New-AzureRmOperationalInsightsWorkspace: Others
+Remove-AzureRmOperationalInsightsSavedSearch: Others
+Remove-AzureRmOperationalInsightsStorageInsight: Others
+Remove-AzureRmOperationalInsightsWorkspace: Others
+Set-AzureRmOperationalInsightsIntelligencePack: Others
+Set-AzureRmOperationalInsightsSavedSearch: Others
+Set-AzureRmOperationalInsightsStorageInsight: Others
+Set-AzureRmOperationalInsightsWorkspace: Others
 _isModulePage: true
 ---
 

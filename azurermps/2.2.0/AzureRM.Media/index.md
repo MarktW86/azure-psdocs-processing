@@ -19,11 +19,11 @@ Get-AzureRmMediaService: Media Services
 Get-AzureRmMediaServiceKeys: Media Services
 Get-AzureRmMediaServiceNameAvailability: Media Services
 New-AzureRmMediaService: Media Services
-New-AzureRmMediaServiceStorageConfig: Storage
+New-AzureRmMediaServiceStorageConfig: Media Services
 Remove-AzureRmMediaService: Media Services
 Set-AzureRmMediaService: Media Services
 Set-AzureRmMediaServiceKey: Media Services
-Sync-AzureRmMediaServiceStorageKeys: Storage
+Sync-AzureRmMediaServiceStorageKeys: Media Services
 _isModulePage: true
 ---
 

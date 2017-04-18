@@ -14,46 +14,46 @@ keywords: powershell, cmdlet
 manager: erickson-doug
 open_to_public_contributors: true
 ms.service: Websites
-Edit-AzureRmWebAppBackupConfiguration: App Service
-Get-AzureRmAppServicePlan: App Service
-Get-AzureRmAppServicePlanMetrics: App Service
-Get-AzureRmWebApp: App Service
-Get-AzureRmWebAppBackup: App Service
-Get-AzureRmWebAppBackupConfiguration: App Service
-Get-AzureRmWebAppBackupList: App Service
-Get-AzureRmWebAppCertificate: App Service
-Get-AzureRmWebAppMetrics: App Service
-Get-AzureRmWebAppPublishingProfile: App Service
-Get-AzureRmWebAppSlot: App Service
-Get-AzureRmWebAppSlotConfigName: App Service
-Get-AzureRmWebAppSlotMetrics: App Service
-Get-AzureRmWebAppSlotPublishingProfile: App Service
-Get-AzureRmWebAppSSLBinding: App Service
-New-AzureRmAppServicePlan: App Service
-New-AzureRmWebApp: App Service
-New-AzureRmWebAppBackup: App Service
-New-AzureRmWebAppDatabaseBackupSetting: App Service
-New-AzureRmWebAppSlot: App Service
-New-AzureRmWebAppSSLBinding: App Service
-Remove-AzureRmAppServicePlan: App Service
-Remove-AzureRmWebApp: App Service
-Remove-AzureRmWebAppBackup: App Service
-Remove-AzureRmWebAppSlot: App Service
-Remove-AzureRmWebAppSSLBinding: App Service
-Reset-AzureRmWebAppPublishingProfile: App Service
-Reset-AzureRmWebAppSlotPublishingProfile: App Service
-Restart-AzureRmWebApp: App Service
-Restart-AzureRmWebAppSlot: App Service
-Restore-AzureRmWebAppBackup: App Service
-Set-AzureRmAppServicePlan: App Service
-Set-AzureRmWebApp: App Service
-Set-AzureRmWebAppSlot: App Service
-Set-AzureRmWebAppSlotConfigName: App Service
-Start-AzureRmWebApp: App Service
-Start-AzureRmWebAppSlot: App Service
-Stop-AzureRmWebApp: App Service
-Stop-AzureRmWebAppSlot: App Service
-Swap-AzureRmWebAppSlot: App Service
+Edit-AzureRmWebAppBackupConfiguration: Others
+Get-AzureRmAppServicePlan: Others
+Get-AzureRmAppServicePlanMetrics: Others
+Get-AzureRmWebApp: Others
+Get-AzureRmWebAppBackup: Others
+Get-AzureRmWebAppBackupConfiguration: Others
+Get-AzureRmWebAppBackupList: Others
+Get-AzureRmWebAppCertificate: Others
+Get-AzureRmWebAppMetrics: Others
+Get-AzureRmWebAppPublishingProfile: Others
+Get-AzureRmWebAppSlot: Others
+Get-AzureRmWebAppSlotConfigName: Others
+Get-AzureRmWebAppSlotMetrics: Others
+Get-AzureRmWebAppSlotPublishingProfile: Others
+Get-AzureRmWebAppSSLBinding: Others
+New-AzureRmAppServicePlan: Others
+New-AzureRmWebApp: Others
+New-AzureRmWebAppBackup: Others
+New-AzureRmWebAppDatabaseBackupSetting: Others
+New-AzureRmWebAppSlot: Others
+New-AzureRmWebAppSSLBinding: Others
+Remove-AzureRmAppServicePlan: Others
+Remove-AzureRmWebApp: Others
+Remove-AzureRmWebAppBackup: Others
+Remove-AzureRmWebAppSlot: Others
+Remove-AzureRmWebAppSSLBinding: Others
+Reset-AzureRmWebAppPublishingProfile: Others
+Reset-AzureRmWebAppSlotPublishingProfile: Others
+Restart-AzureRmWebApp: Others
+Restart-AzureRmWebAppSlot: Others
+Restore-AzureRmWebAppBackup: Others
+Set-AzureRmAppServicePlan: Others
+Set-AzureRmWebApp: Others
+Set-AzureRmWebAppSlot: Others
+Set-AzureRmWebAppSlotConfigName: Others
+Start-AzureRmWebApp: Others
+Start-AzureRmWebAppSlot: Others
+Stop-AzureRmWebApp: Others
+Stop-AzureRmWebAppSlot: Others
+Swap-AzureRmWebAppSlot: Others
 _isModulePage: true
 ---
 

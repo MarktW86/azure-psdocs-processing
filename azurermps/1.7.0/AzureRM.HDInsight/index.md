@@ -15,38 +15,38 @@ keywords: powershell, cmdlet
 manager: erickson-doug
 open_to_public_contributors: true
 ms.service: hdinsight
-Add-AzureRmHDInsightClusterIdentity: HD Insights
-Add-AzureRmHDInsightConfigValues: HD Insights
-Add-AzureRmHDInsightMetastore: HD Insights
-Add-AzureRmHDInsightScriptAction: HD Insights
-Add-AzureRmHDInsightStorage: Storage
-Get-AzureRmHDInsightCluster: HD Insights
-Get-AzureRmHDInsightJob: HD Insights
-Get-AzureRmHDInsightJobOutput: HD Insights
-Get-AzureRmHDInsightPersistedScriptAction: HD Insights
-Get-AzureRmHDInsightProperties: HD Insights
-Get-AzureRmHDInsightScriptActionHistory: HD Insights
-Grant-AzureRmHDInsightHttpServicesAccess: HD Insights
-Grant-AzureRmHDInsightRdpServicesAccess: HD Insights
-Invoke-AzureRmHDInsightHiveJob: HD Insights
-New-AzureRmHDInsightClusterConfig: HD Insights
-New-AzureRmHDInsightHiveJobDefinition: HD Insights
-New-AzureRmHDInsightMapReduceJobDefinition: HD Insights
-New-AzureRmHDInsightPigJobDefinition: HD Insights
-New-AzureRmHDInsightSqoopJobDefinition: HD Insights
-New-AzureRmHDInsightStreamingMapReduceJobDefinition: HD Insights
-Remove-AzureRmHDInsightCluster: HD Insights
-Remove-AzureRmHDInsightPersistedScriptAction: HD Insights
-Revoke-AzureRmHDInsightHttpServicesAccess: HD Insights
-Revoke-AzureRmHDInsightRdpServicesAccess: HD Insights
-Set-AzureRmHDInsightClusterSize: HD Insights
-Set-AzureRmHDInsightDefaultStorage: Storage
-Set-AzureRmHDInsightPersistedScriptAction: HD Insights
-Start-AzureRmHDInsightJob: HD Insights
-Stop-AzureRmHDInsightJob: HD Insights
-Submit-AzureRmHDInsightScriptAction: HD Insights
-Use-AzureRmHDInsightCluster: HD Insights
-Wait-AzureRmHDInsightJob: HD Insights
+Add-AzureRmHDInsightClusterIdentity: Others
+Add-AzureRmHDInsightConfigValues: Others
+Add-AzureRmHDInsightMetastore: Others
+Add-AzureRmHDInsightScriptAction: Others
+Add-AzureRmHDInsightStorage: Others
+Get-AzureRmHDInsightCluster: Others
+Get-AzureRmHDInsightJob: Others
+Get-AzureRmHDInsightJobOutput: Others
+Get-AzureRmHDInsightPersistedScriptAction: Others
+Get-AzureRmHDInsightProperties: Others
+Get-AzureRmHDInsightScriptActionHistory: Others
+Grant-AzureRmHDInsightHttpServicesAccess: Others
+Grant-AzureRmHDInsightRdpServicesAccess: Others
+Invoke-AzureRmHDInsightHiveJob: Others
+New-AzureRmHDInsightClusterConfig: Others
+New-AzureRmHDInsightHiveJobDefinition: Others
+New-AzureRmHDInsightMapReduceJobDefinition: Others
+New-AzureRmHDInsightPigJobDefinition: Others
+New-AzureRmHDInsightSqoopJobDefinition: Others
+New-AzureRmHDInsightStreamingMapReduceJobDefinition: Others
+Remove-AzureRmHDInsightCluster: Others
+Remove-AzureRmHDInsightPersistedScriptAction: Others
+Revoke-AzureRmHDInsightHttpServicesAccess: Others
+Revoke-AzureRmHDInsightRdpServicesAccess: Others
+Set-AzureRmHDInsightClusterSize: Others
+Set-AzureRmHDInsightDefaultStorage: Others
+Set-AzureRmHDInsightPersistedScriptAction: Others
+Start-AzureRmHDInsightJob: Others
+Stop-AzureRmHDInsightJob: Others
+Submit-AzureRmHDInsightScriptAction: Others
+Use-AzureRmHDInsightCluster: Others
+Wait-AzureRmHDInsightJob: Others
 _isModulePage: true
 ---
 
