@@ -5,11 +5,11 @@ Download Help Link: N/A
 Help Version: 2.9.0.0
 Locale: en-US
 ms.assetid: 0B91D740-D2BD-4D57-9E21-C582C9BE2CCA
-updated_at: 04/18/2017 07:04 AM
+updated_at: 04/18/2017 21:04 PM
 ms.date: 04/18/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/RightsManagement.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/RightsManagement.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/44ac79dee7ff15cb57355b7e721f76b18818ab76
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/64e4bfd0d000b17aa778b4c46124c22951d02017
 ms.topic: conceptual
 author: cabailey
 ms.author: PowerShellHelpPub
@@ -92,9 +92,6 @@ For more information about when you must use these PowerShell cmdlets and to see
 The .dll file for this module is *Microsoft.RightsManagementServices.Online.Admin.PowerShell.dll*.
 
 ## Azure Rights Management cmdlets
-### [Add-AadrmKey](./Add-AadrmKey.md)
-Adds a legacy customer-managed tenant key for Rights Management, and makes it the active key.
-
 
 ### [Add-AadrmRoleBasedAdministrator](./Add-AadrmRoleBasedAdministrator.md)
 Grants administrative rights to Rights Management.
