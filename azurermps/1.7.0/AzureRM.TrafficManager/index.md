@@ -14,20 +14,20 @@ keywords: powershell, cmdlet
 manager: erickson-doug
 open_to_public_contributors: true
 ms.service: tyraffic-manager
-Add-AzureRmTrafficManagerEndpointConfig: Others
-Disable-AzureRmTrafficManagerEndpoint: Others
-Disable-AzureRmTrafficManagerProfile: Others
-Enable-AzureRmTrafficManagerEndpoint: Others
-Enable-AzureRmTrafficManagerProfile: Others
-Get-AzureRmTrafficManagerEndpoint: Others
-Get-AzureRmTrafficManagerProfile: Others
-New-AzureRmTrafficManagerEndpoint: Others
-New-AzureRmTrafficManagerProfile: Others
-Remove-AzureRmTrafficManagerEndpoint: Others
-Remove-AzureRmTrafficManagerEndpointConfig: Others
-Remove-AzureRmTrafficManagerProfile: Others
-Set-AzureRmTrafficManagerEndpoint: Others
-Set-AzureRmTrafficManagerProfile: Others
+Add-AzureRmTrafficManagerEndpointConfig: Traffic Manager
+Disable-AzureRmTrafficManagerEndpoint: Traffic Manager
+Disable-AzureRmTrafficManagerProfile: Traffic Manager
+Enable-AzureRmTrafficManagerEndpoint: Traffic Manager
+Enable-AzureRmTrafficManagerProfile: Traffic Manager
+Get-AzureRmTrafficManagerEndpoint: Traffic Manager
+Get-AzureRmTrafficManagerProfile: Traffic Manager
+New-AzureRmTrafficManagerEndpoint: Traffic Manager
+New-AzureRmTrafficManagerProfile: Traffic Manager
+Remove-AzureRmTrafficManagerEndpoint: Traffic Manager
+Remove-AzureRmTrafficManagerEndpointConfig: Traffic Manager
+Remove-AzureRmTrafficManagerProfile: Traffic Manager
+Set-AzureRmTrafficManagerEndpoint: Traffic Manager
+Set-AzureRmTrafficManagerProfile: Traffic Manager
 _isModulePage: true
 ---
 

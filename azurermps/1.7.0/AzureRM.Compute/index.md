@@ -17,112 +17,112 @@ keywords: powershell, cmdlet
 manager: erickson-doug
 open_to_public_contributors: true
 ms.service: big-compute
-Add-AzureRmContainerServiceAgentPoolProfile: Others
+Add-AzureRmContainerServiceAgentPoolProfile: Container Service
 Add-AzureRMVhd: Others
-Add-AzureRmVMAdditionalUnattendContent: Others
-Add-AzureRmVMDataDisk: Others
-Add-AzureRmVMNetworkInterface: Others
-Add-AzureRmVMSecret: Others
-Add-AzureRmVmssAdditionalUnattendContent: Others
-Add-AzureRmVmssExtension: Others
-Add-AzureRmVMSshPublicKey: Others
-Add-AzureRmVmssNetworkInterfaceConfiguration: Others
-Add-AzureRmVmssSecret: Others
-Add-AzureRmVmssSshPublicKey: Others
-Add-AzureRmVmssWinRMListener: Others
-Disable-AzureRmVMDiskEncryption: Others
-Get-AzureRmAvailabilitySet: Others
-Get-AzureRmContainerService: Others
-Get-AzureRmRemoteDesktopFile: Others
-Get-AzureRmVM: Others
-Get-AzureRmVMAccessExtension: Others
-Get-AzureRmVMADDomainExtension: Others
-Get-AzureRmVMAEMExtension: Others
-Get-AzureRmVMBootDiagnosticsData: Others
-Get-AzureRmVMCustomScriptExtension: Others
+Add-AzureRmVMAdditionalUnattendContent: Virtual Machines
+Add-AzureRmVMDataDisk: VM Disks
+Add-AzureRmVMNetworkInterface: Virtual Network
+Add-AzureRmVMSecret: Virtual Machines
+Add-AzureRmVmssAdditionalUnattendContent: VM Scale Sets
+Add-AzureRmVmssExtension: VM Scale Sets
+Add-AzureRmVMSshPublicKey: Virtual Machines
+Add-AzureRmVmssNetworkInterfaceConfiguration: Virtual Network
+Add-AzureRmVmssSecret: VM Scale Sets
+Add-AzureRmVmssSshPublicKey: VM Scale Sets
+Add-AzureRmVmssWinRMListener: VM Scale Sets
+Disable-AzureRmVMDiskEncryption: VM Disks
+Get-AzureRmAvailabilitySet: Availability Sets
+Get-AzureRmContainerService: Container Service
+Get-AzureRmRemoteDesktopFile: Virtual Machines
+Get-AzureRmVM: Virtual Machines
+Get-AzureRmVMAccessExtension: Virtual Machines
+Get-AzureRmVMADDomainExtension: Active Directory
+Get-AzureRmVMAEMExtension: Virtual Machines
+Get-AzureRmVMBootDiagnosticsData: Monitoring
+Get-AzureRmVMCustomScriptExtension: Virtual Machines
 Get-AzureRMVMDiagnosticsExtension: Others
-Get-AzureRmVMDiskEncryptionStatus: Others
-Get-AzureRmVMDscExtension: Others
-Get-AzureRmVMDscExtensionStatus: Others
-Get-AzureRmVMExtension: Others
-Get-AzureRmVMExtensionImage: Others
-Get-AzureRmVMExtensionImageType: Others
-Get-AzureRmVMImage: Others
-Get-AzureRmVMImageOffer: Others
-Get-AzureRmVMImagePublisher: Others
-Get-AzureRmVMImageSku: Others
-Get-AzureRmVMSize: Others
+Get-AzureRmVMDiskEncryptionStatus: VM Disks
+Get-AzureRmVMDscExtension: Virtual Machines
+Get-AzureRmVMDscExtensionStatus: Virtual Machines
+Get-AzureRmVMExtension: Virtual Machines
+Get-AzureRmVMExtensionImage: VM Images
+Get-AzureRmVMExtensionImageType: VM Images
+Get-AzureRmVMImage: VM Images
+Get-AzureRmVMImageOffer: VM Images
+Get-AzureRmVMImagePublisher: VM Images
+Get-AzureRmVMImageSku: VM Images
+Get-AzureRmVMSize: Virtual Machines
 Get-AzureRMVMSqlServerExtension: Others
-Get-AzureRmVmss: Others
-Get-AzureRmVmssSku: Others
-Get-AzureRmVmssVM: Others
-Get-AzureRmVMUsage: Others
-New-AzureRmAvailabilitySet: Others
-New-AzureRmContainerService: Others
-New-AzureRmContainerServiceConfig: Others
-New-AzureRmVM: Others
-New-AzureRmVMConfig: Others
-New-AzureRmVmss: Others
-New-AzureRmVmssConfig: Others
-New-AzureRmVmssIpConfig: Others
-New-AzureRmVmssVaultCertificateConfig: Others
+Get-AzureRmVmss: VM Scale Sets
+Get-AzureRmVmssSku: VM Scale Sets
+Get-AzureRmVmssVM: Virtual Machines
+Get-AzureRmVMUsage: Virtual Machines
+New-AzureRmAvailabilitySet: Availability Sets
+New-AzureRmContainerService: Container Service
+New-AzureRmContainerServiceConfig: Container Service
+New-AzureRmVM: Virtual Machines
+New-AzureRmVMConfig: Virtual Machines
+New-AzureRmVmss: VM Scale Sets
+New-AzureRmVmssConfig: VM Scale Sets
+New-AzureRmVmssIpConfig: VM Scale Sets
+New-AzureRmVmssVaultCertificateConfig: VM Scale Sets
 New-AzureVMSqlServerAutoBackupConfig: Backup
 New-AzureVMSqlServerAutoPatchingConfig: SQL
 New-AzureVMSqlServerKeyVaultCredentialConfig: Key Vault
-Publish-AzureRmVMDscConfiguration: Others
-Remove-AzureRmAvailabilitySet: Others
-Remove-AzureRmContainerService: Others
-Remove-AzureRmContainerServiceAgentPoolProfile: Others
-Remove-AzureRmVM: Others
-Remove-AzureRmVMAccessExtension: Others
-Remove-AzureRmVMAEMExtension: Others
-Remove-AzureRmVMBackup: Others
-Remove-AzureRmVMCustomScriptExtension: Others
-Remove-AzureRmVMDataDisk: Others
-Remove-AzureRmVMDiagnosticsExtension: Others
-Remove-AzureRmVMDiskEncryptionExtension: Others
-Remove-AzureRmVMDscExtension: Others
-Remove-AzureRmVMExtension: Others
-Remove-AzureRmVMNetworkInterface: Others
+Publish-AzureRmVMDscConfiguration: Virtual Machines
+Remove-AzureRmAvailabilitySet: Availability Sets
+Remove-AzureRmContainerService: Container Service
+Remove-AzureRmContainerServiceAgentPoolProfile: Container Service
+Remove-AzureRmVM: Virtual Machines
+Remove-AzureRmVMAccessExtension: Virtual Machines
+Remove-AzureRmVMAEMExtension: Virtual Machines
+Remove-AzureRmVMBackup: Backup
+Remove-AzureRmVMCustomScriptExtension: Virtual Machines
+Remove-AzureRmVMDataDisk: VM Disks
+Remove-AzureRmVMDiagnosticsExtension: Monitoring
+Remove-AzureRmVMDiskEncryptionExtension: VM Disks
+Remove-AzureRmVMDscExtension: Virtual Machines
+Remove-AzureRmVMExtension: Virtual Machines
+Remove-AzureRmVMNetworkInterface: Virtual Network
 Remove-AzureRMVMSqlServerExtension: Others
-Remove-AzureRmVmss: Others
-Remove-AzureRmVmssExtension: Others
-Remove-AzureRmVmssNetworkInterfaceConfiguration: Others
-Restart-AzureRmVM: Others
-Restart-AzureRmVmss: Others
-Save-AzureRmVhd: Others
-Save-AzureRmVMImage: Others
-Set-AzureRmVM: Others
-Set-AzureRmVMAccessExtension: Others
-Set-AzureRmVMADDomainExtension: Others
-Set-AzureRmVMAEMExtension: Others
-Set-AzureRmVMBackupExtension: Others
-Set-AzureRmVMBginfoExtension: Others
-Set-AzureRmVMBootDiagnostics: Others
-Set-AzureRmVMCustomScriptExtension: Others
+Remove-AzureRmVmss: VM Scale Sets
+Remove-AzureRmVmssExtension: VM Scale Sets
+Remove-AzureRmVmssNetworkInterfaceConfiguration: Virtual Network
+Restart-AzureRmVM: Virtual Machines
+Restart-AzureRmVmss: VM Scale Sets
+Save-AzureRmVhd: VM VHDs
+Save-AzureRmVMImage: VM Images
+Set-AzureRmVM: Virtual Machines
+Set-AzureRmVMAccessExtension: Virtual Machines
+Set-AzureRmVMADDomainExtension: Active Directory
+Set-AzureRmVMAEMExtension: Virtual Machines
+Set-AzureRmVMBackupExtension: Backup
+Set-AzureRmVMBginfoExtension: Virtual Machines
+Set-AzureRmVMBootDiagnostics: Monitoring
+Set-AzureRmVMCustomScriptExtension: Virtual Machines
 Set-AzureRMVMDataDisk: Others
 Set-AzureRMVMDiagnosticsExtension: Others
-Set-AzureRmVMDiskEncryptionExtension: Others
-Set-AzureRmVMDscExtension: Others
-Set-AzureRmVMExtension: Others
-Set-AzureRmVMOperatingSystem: Others
-Set-AzureRmVMOSDisk: Others
-Set-AzureRmVMPlan: Others
-Set-AzureRmVMSourceImage: Others
+Set-AzureRmVMDiskEncryptionExtension: VM Disks
+Set-AzureRmVMDscExtension: Virtual Machines
+Set-AzureRmVMExtension: Virtual Machines
+Set-AzureRmVMOperatingSystem: Virtual Machines
+Set-AzureRmVMOSDisk: VM Disks
+Set-AzureRmVMPlan: Virtual Machines
+Set-AzureRmVMSourceImage: VM Images
 Set-AzureRMVMSqlServerExtension: Others
-Set-AzureRmVmss: Others
-Set-AzureRmVmssOsProfile: Others
-Set-AzureRmVmssStorageProfile: Others
-Set-AzureRmVmssVM: Others
-Start-AzureRmVM: Others
-Start-AzureRmVmss: Others
-Stop-AzureRmVM: Others
-Stop-AzureRmVmss: Others
-Test-AzureRmVMAEMExtension: Others
-Update-AzureRmContainerService: Others
-Update-AzureRmVM: Others
-Update-AzureRmVmss: Others
-Update-AzureRmVmssInstance: Others
+Set-AzureRmVmss: VM Scale Sets
+Set-AzureRmVmssOsProfile: VM Scale Sets
+Set-AzureRmVmssStorageProfile: Storage
+Set-AzureRmVmssVM: Virtual Machines
+Start-AzureRmVM: Virtual Machines
+Start-AzureRmVmss: VM Scale Sets
+Stop-AzureRmVM: Virtual Machines
+Stop-AzureRmVmss: VM Scale Sets
+Test-AzureRmVMAEMExtension: Virtual Machines
+Update-AzureRmContainerService: Container Service
+Update-AzureRmVM: Virtual Machines
+Update-AzureRmVmss: VM Scale Sets
+Update-AzureRmVmssInstance: VM Scale Sets
 _isModulePage: true
 ---
 

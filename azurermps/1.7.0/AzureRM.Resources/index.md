@@ -15,44 +15,44 @@ keywords: powershell, cmdlet
 manager: erickson-doug
 open_to_public_contributors: true
 ms.service: azure-resource-manager
-Export-AzureRmResourceGroup: Others
-Find-AzureRmResource: Others
-Find-AzureRmResourceGroup: Others
-Get-AzureRmLocation: Others
-Get-AzureRmPolicyAssignment: Others
-Get-AzureRmPolicyDefinition: Others
-Get-AzureRmProviderFeature: Others
-Get-AzureRmResource: Others
-Get-AzureRmResourceGroup: Others
-Get-AzureRmResourceGroupDeployment: Others
-Get-AzureRmResourceGroupDeploymentOperation: Others
-Get-AzureRmResourceLock: Others
-Get-AzureRmResourceProvider: Others
-Invoke-AzureRmResourceAction: Others
-Move-AzureRmResource: Others
-New-AzureRmPolicyAssignment: Others
-New-AzureRmPolicyDefinition: Others
-New-AzureRmResource: Others
-New-AzureRmResourceGroup: Others
-New-AzureRmResourceGroupDeployment: Others
-New-AzureRmResourceLock: Others
-Register-AzureRmProviderFeature: Others
-Register-AzureRmResourceProvider: Others
-Remove-AzureRmPolicyAssignment: Others
-Remove-AzureRmPolicyDefinition: Others
-Remove-AzureRmResource: Others
-Remove-AzureRmResourceGroup: Others
-Remove-AzureRmResourceGroupDeployment: Others
-Remove-AzureRmResourceLock: Others
-Save-AzureRmResourceGroupDeploymentTemplate: Others
-Set-AzureRmPolicyAssignment: Others
-Set-AzureRmPolicyDefinition: Others
-Set-AzureRmResource: Others
-Set-AzureRmResourceGroup: Others
-Set-AzureRmResourceLock: Others
-Stop-AzureRmResourceGroupDeployment: Others
-Test-AzureRmResourceGroupDeployment: Others
-Unregister-AzureRmResourceProvider: Others
+Export-AzureRmResourceGroup: Resources
+Find-AzureRmResource: Resources
+Find-AzureRmResourceGroup: Resources
+Get-AzureRmLocation: Resource groups
+Get-AzureRmPolicyAssignment: Policies
+Get-AzureRmPolicyDefinition: Policies
+Get-AzureRmProviderFeature: Resource providers
+Get-AzureRmResource: Resources
+Get-AzureRmResourceGroup: Resources
+Get-AzureRmResourceGroupDeployment: Resources
+Get-AzureRmResourceGroupDeploymentOperation: Resources
+Get-AzureRmResourceLock: Resources
+Get-AzureRmResourceProvider: Resource providers
+Invoke-AzureRmResourceAction: Resources
+Move-AzureRmResource: Resources
+New-AzureRmPolicyAssignment: Policies
+New-AzureRmPolicyDefinition: Policies
+New-AzureRmResource: Resources
+New-AzureRmResourceGroup: Resources
+New-AzureRmResourceGroupDeployment: Resources
+New-AzureRmResourceLock: Resources
+Register-AzureRmProviderFeature: Resource providers
+Register-AzureRmResourceProvider: Resource providers
+Remove-AzureRmPolicyAssignment: Policies
+Remove-AzureRmPolicyDefinition: Policies
+Remove-AzureRmResource: Resources
+Remove-AzureRmResourceGroup: Resources
+Remove-AzureRmResourceGroupDeployment: Resources
+Remove-AzureRmResourceLock: Resources
+Save-AzureRmResourceGroupDeploymentTemplate: Resources
+Set-AzureRmPolicyAssignment: Policies
+Set-AzureRmPolicyDefinition: Policies
+Set-AzureRmResource: Resources
+Set-AzureRmResourceGroup: Resources
+Set-AzureRmResourceLock: Resources
+Stop-AzureRmResourceGroupDeployment: Resources
+Test-AzureRmResourceGroupDeployment: Resources
+Unregister-AzureRmResourceProvider: Resource providers
 _isModulePage: true
 ---
 

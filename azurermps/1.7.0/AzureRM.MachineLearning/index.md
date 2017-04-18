@@ -15,13 +15,13 @@ keywords: powershell, cmdlet
 manager: erickson-doug
 open_to_public_contributors: true
 ms.service: machine-learning
-Export-AzureRmMlWebService: Others
-Get-AzureRmMlWebService: Others
-Get-AzureRmMlWebServiceKeys: Others
-Import-AzureRmMlWebService: Others
-New-AzureRmMlWebService: Others
-Remove-AzureRmMlWebService: Others
-Update-AzureRmMlWebService: Others
+Export-AzureRmMlWebService: Machine Learning
+Get-AzureRmMlWebService: Machine Learning
+Get-AzureRmMlWebServiceKeys: Machine Learning
+Import-AzureRmMlWebService: Machine Learning
+New-AzureRmMlWebService: Machine Learning
+Remove-AzureRmMlWebService: Machine Learning
+Update-AzureRmMlWebService: Machine Learning
 _isModulePage: true
 ---
 

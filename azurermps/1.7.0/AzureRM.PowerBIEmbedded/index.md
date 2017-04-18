@@ -15,12 +15,12 @@ keywords: powershell, cmdlet
 manager: erickson-doug
 open_to_public_contributors: true
 ms.service: power-bi-embedded
-Get-AzureRmPowerBIWorkspace: Others
-Get-AzureRmPowerBIWorkspaceCollection: Others
-Get-AzureRmPowerBIWorkspaceCollectionAccessKeys: Others
-New-AzureRmPowerBIWorkspaceCollection: Others
-Remove-AzureRmPowerBIWorkspaceCollection: Others
-Reset-AzureRmPowerBIWorkspaceCollectionAccessKeys: Others
+Get-AzureRmPowerBIWorkspace: Power BI
+Get-AzureRmPowerBIWorkspaceCollection: Power BI
+Get-AzureRmPowerBIWorkspaceCollectionAccessKeys: Power BI
+New-AzureRmPowerBIWorkspaceCollection: Power BI
+Remove-AzureRmPowerBIWorkspaceCollection: Power BI
+Reset-AzureRmPowerBIWorkspaceCollectionAccessKeys: Power BI
 _isModulePage: true
 ---
 

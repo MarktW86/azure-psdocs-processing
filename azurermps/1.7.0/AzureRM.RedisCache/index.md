@@ -15,17 +15,17 @@ keywords: powershell, cmdlet
 manager: erickson-doug
 open_to_public_contributors: true
 ms.service: redis-cache
-Export-AzureRmRedisCache: Others
-Get-AzureRmRedisCache: Others
-Get-AzureRmRedisCacheKey: Others
-Import-AzureRmRedisCache: Others
-New-AzureRmRedisCache: Others
-New-AzureRmRedisCacheKey: Others
-Remove-AzureRmRedisCache: Others
-Remove-AzureRmRedisCacheDiagnostics: Others
-Reset-AzureRmRedisCache: Others
-Set-AzureRmRedisCache: Others
-Set-AzureRmRedisCacheDiagnostics: Others
+Export-AzureRmRedisCache: Redis Cache
+Get-AzureRmRedisCache: Redis Cache
+Get-AzureRmRedisCacheKey: Redis Cache
+Import-AzureRmRedisCache: Redis Cache
+New-AzureRmRedisCache: Redis Cache
+New-AzureRmRedisCacheKey: Redis Cache
+Remove-AzureRmRedisCache: Redis Cache
+Remove-AzureRmRedisCacheDiagnostics: Monitoring
+Reset-AzureRmRedisCache: Redis Cache
+Set-AzureRmRedisCache: Redis Cache
+Set-AzureRmRedisCacheDiagnostics: Monitoring
 _isModulePage: true
 ---
 

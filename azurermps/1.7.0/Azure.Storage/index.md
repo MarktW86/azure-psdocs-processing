@@ -29,7 +29,7 @@ Get-AzureStorageFileCopyState: Storage
 Get-AzureStorageQueue: Storage
 Get-AzureStorageQueueStoredAccessPolicy: Policies
 Get-AzureStorageServiceLoggingProperty: Storage
-Get-AzureStorageServiceMetricsProperty: Storage
+Get-AzureStorageServiceMetricsProperty: Monitoring
 Get-AzureStorageShare: Storage
 Get-AzureStorageShareStoredAccessPolicy: Policies
 Get-AzureStorageTable: Storage
@@ -70,7 +70,7 @@ Set-AzureStorageCORSRule: Storage
 Set-AzureStorageFileContent: Storage
 Set-AzureStorageQueueStoredAccessPolicy: Policies
 Set-AzureStorageServiceLoggingProperty: Storage
-Set-AzureStorageServiceMetricsProperty: Storage
+Set-AzureStorageServiceMetricsProperty: Monitoring
 Set-AzureStorageShareQuota: Storage
 Set-AzureStorageShareStoredAccessPolicy: Policies
 Set-AzureStorageTableStoredAccessPolicy: Policies

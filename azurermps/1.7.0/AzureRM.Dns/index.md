@@ -16,17 +16,17 @@ ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
 open_to_public_contributors: true
-Add-AzureRmDnsRecordConfig: Others
-Get-AzureRmDnsRecordSet: Others
-Get-AzureRmDnsZone: Others
-New-AzureRmDnsRecordConfig: Others
-New-AzureRmDnsRecordSet: Others
-New-AzureRmDnsZone: Others
-Remove-AzureRmDnsRecordConfig: Others
-Remove-AzureRmDnsRecordSet: Others
-Remove-AzureRmDnsZone: Others
-Set-AzureRmDnsRecordSet: Others
-Set-AzureRmDnsZone: Others
+Add-AzureRmDnsRecordConfig: DNS
+Get-AzureRmDnsRecordSet: DNS
+Get-AzureRmDnsZone: DNS
+New-AzureRmDnsRecordConfig: DNS
+New-AzureRmDnsRecordSet: DNS
+New-AzureRmDnsZone: DNS
+Remove-AzureRmDnsRecordConfig: DNS
+Remove-AzureRmDnsRecordSet: DNS
+Remove-AzureRmDnsZone: DNS
+Set-AzureRmDnsRecordSet: DNS
+Set-AzureRmDnsZone: DNS
 _isModulePage: true
 ---
 

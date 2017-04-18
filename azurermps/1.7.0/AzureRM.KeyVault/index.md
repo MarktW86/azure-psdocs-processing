@@ -17,21 +17,21 @@ keywords: powershell, cmdlet
 manager: erickson-doug
 open_to_public_contributors: true
 ms.service: key-vault
-Add-AzureKeyVaultKey: Others
-Backup-AzureKeyVaultKey: Others
-Get-AzureKeyVaultKey: Others
-Get-AzureKeyVaultSecret: Others
-Get-AzureRmKeyVault: Others
-New-AzureRmKeyVault: Others
-Remove-AzureKeyVaultKey: Others
-Remove-AzureKeyVaultSecret: Others
-Remove-AzureRmKeyVault: Others
-Remove-AzureRmKeyVaultAccessPolicy: Others
-Restore-AzureKeyVaultKey: Others
-Set-AzureKeyVaultKeyAttribute: Others
-Set-AzureKeyVaultSecret: Others
-Set-AzureKeyVaultSecretAttribute: Others
-Set-AzureRmKeyVaultAccessPolicy: Others
+Add-AzureKeyVaultKey: Key Vault
+Backup-AzureKeyVaultKey: Backup
+Get-AzureKeyVaultKey: Key Vault
+Get-AzureKeyVaultSecret: Key Vault
+Get-AzureRmKeyVault: Key Vault
+New-AzureRmKeyVault: Key Vault
+Remove-AzureKeyVaultKey: Key Vault
+Remove-AzureKeyVaultSecret: Key Vault
+Remove-AzureRmKeyVault: Key Vault
+Remove-AzureRmKeyVaultAccessPolicy: Key Vault
+Restore-AzureKeyVaultKey: Key Vault
+Set-AzureKeyVaultKeyAttribute: Key Vault
+Set-AzureKeyVaultSecret: Key Vault
+Set-AzureKeyVaultSecretAttribute: Key Vault
+Set-AzureRmKeyVaultAccessPolicy: Key Vault
 _isModulePage: true
 ---
 

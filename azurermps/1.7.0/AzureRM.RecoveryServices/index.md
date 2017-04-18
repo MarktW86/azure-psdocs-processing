@@ -15,13 +15,13 @@ keywords: powershell, cmdlet
 manager: erickson-doug
 open_to_public_contributors: true
 ms.service: backup
-Get-AzureRmRecoveryServicesBackupProperties: Others
-Get-AzureRmRecoveryServicesVault: Others
-Get-AzureRmRecoveryServicesVaultSettingsFile: Others
-New-AzureRmRecoveryServicesVault: Others
-Remove-AzureRmRecoveryServicesVault: Others
-Set-AzureRmRecoveryServicesBackupProperties: Others
-Set-AzureRmRecoveryServicesVaultContext: Others
+Get-AzureRmRecoveryServicesBackupProperties: Backup
+Get-AzureRmRecoveryServicesVault: Recovery
+Get-AzureRmRecoveryServicesVaultSettingsFile: Recovery
+New-AzureRmRecoveryServicesVault: Recovery
+Remove-AzureRmRecoveryServicesVault: Recovery
+Set-AzureRmRecoveryServicesBackupProperties: Backup
+Set-AzureRmRecoveryServicesVaultContext: Recovery
 _isModulePage: true
 ---
 

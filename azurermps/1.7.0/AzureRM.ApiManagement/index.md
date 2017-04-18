@@ -17,20 +17,20 @@ keywords: powershell, cmdlet
 manager: erickson-doug
 open_to_public_contributors: true
 ms.service: api-Management
-Add-AzureRmApiManagementRegion: Others
-Backup-AzureRmApiManagement: Others
-Get-AzureRmApiManagement: Others
-Get-AzureRmApiManagementSsoToken: Others
-Import-AzureRmApiManagementHostnameCertificate: Others
-New-AzureRmApiManagement: Others
-New-AzureRmApiManagementHostnameConfiguration: Others
-New-AzureRmApiManagementVirtualNetwork: Others
-Remove-AzureRmApiManagement: Others
-Remove-AzureRmApiManagementRegion: Others
-Restore-AzureRmApiManagement: Others
-Set-AzureRmApiManagementHostnames: Others
-Update-AzureRmApiManagementDeployment: Others
-Update-AzureRmApiManagementRegion: Others
+Add-AzureRmApiManagementRegion: API Management
+Backup-AzureRmApiManagement: API Management
+Get-AzureRmApiManagement: API Management
+Get-AzureRmApiManagementSsoToken: API Management
+Import-AzureRmApiManagementHostnameCertificate: API Management
+New-AzureRmApiManagement: API Management
+New-AzureRmApiManagementHostnameConfiguration: API Management
+New-AzureRmApiManagementVirtualNetwork: API Management
+Remove-AzureRmApiManagement: API Management
+Remove-AzureRmApiManagementRegion: API Management
+Restore-AzureRmApiManagement: API Management
+Set-AzureRmApiManagementHostnames: API Management
+Update-AzureRmApiManagementDeployment: API Management
+Update-AzureRmApiManagementRegion: API Management
 _isModulePage: true
 ---
 

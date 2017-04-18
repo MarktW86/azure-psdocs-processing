@@ -17,27 +17,27 @@ keywords: powershell, cmdlet
 manager: erickson-doug
 open_to_public_contributors: true
 ms.service: stream-analytics
-Get-AzureRmStreamAnalyticsDefaultFunctionDefinition: Others
-Get-AzureRmStreamAnalyticsFunction: Others
-Get-AzureRmStreamAnalyticsInput: Others
-Get-AzureRmStreamAnalyticsJob: Others
-Get-AzureRmStreamAnalyticsOutput: Others
-Get-AzureRmStreamAnalyticsQuota: Others
-Get-AzureRmStreamAnalyticsTransformation: Others
-New-AzureRmStreamAnalyticsFunction: Others
-New-AzureRmStreamAnalyticsInput: Others
-New-AzureRmStreamAnalyticsJob: Others
-New-AzureRmStreamAnalyticsOutput: Others
-New-AzureRmStreamAnalyticsTransformation: Others
-Remove-AzureRmStreamAnalyticsFunction: Others
-Remove-AzureRmStreamAnalyticsInput: Others
-Remove-AzureRmStreamAnalyticsJob: Others
-Remove-AzureRmStreamAnalyticsOutput: Others
-Start-AzureRmStreamAnalyticsJob: Others
-Stop-AzureRmStreamAnalyticsJob: Others
-Test-AzureRmStreamAnalyticsFunction: Others
-Test-AzureRmStreamAnalyticsInput: Others
-Test-AzureRmStreamAnalyticsOutput: Others
+Get-AzureRmStreamAnalyticsDefaultFunctionDefinition: Stream Analytics
+Get-AzureRmStreamAnalyticsFunction: Stream Analytics
+Get-AzureRmStreamAnalyticsInput: Stream Analytics
+Get-AzureRmStreamAnalyticsJob: Stream Analytics
+Get-AzureRmStreamAnalyticsOutput: Stream Analytics
+Get-AzureRmStreamAnalyticsQuota: Stream Analytics
+Get-AzureRmStreamAnalyticsTransformation: Stream Analytics
+New-AzureRmStreamAnalyticsFunction: Stream Analytics
+New-AzureRmStreamAnalyticsInput: Stream Analytics
+New-AzureRmStreamAnalyticsJob: Stream Analytics
+New-AzureRmStreamAnalyticsOutput: Stream Analytics
+New-AzureRmStreamAnalyticsTransformation: Stream Analytics
+Remove-AzureRmStreamAnalyticsFunction: Stream Analytics
+Remove-AzureRmStreamAnalyticsInput: Stream Analytics
+Remove-AzureRmStreamAnalyticsJob: Stream Analytics
+Remove-AzureRmStreamAnalyticsOutput: Stream Analytics
+Start-AzureRmStreamAnalyticsJob: Stream Analytics
+Stop-AzureRmStreamAnalyticsJob: Stream Analytics
+Test-AzureRmStreamAnalyticsFunction: Stream Analytics
+Test-AzureRmStreamAnalyticsInput: Stream Analytics
+Test-AzureRmStreamAnalyticsOutput: Stream Analytics
 _isModulePage: true
 ---
 

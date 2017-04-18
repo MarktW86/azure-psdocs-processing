@@ -17,193 +17,193 @@ keywords: powershell, cmdlet
 manager: erickson-doug
 open_to_public_contributors: true
 ms.service: virtual-network
-Add-AzureRmApplicationGatewayBackendAddressPool: Others
-Add-AzureRmApplicationGatewayBackendHttpSettings: Others
-Add-AzureRmApplicationGatewayFrontendIPConfig: Others
-Add-AzureRmApplicationGatewayFrontendPort: Others
-Add-AzureRmApplicationGatewayHttpListener: Others
-Add-AzureRmApplicationGatewayIPConfiguration: Others
-Add-AzureRmApplicationGatewayProbeConfig: Others
-Add-AzureRmApplicationGatewayRequestRoutingRule: Others
-Add-AzureRmApplicationGatewaySslCertificate: Others
-Add-AzureRmApplicationGatewayUrlPathMapConfig: Others
-Add-AzureRmExpressRouteCircuitAuthorization: Others
-Add-AzureRmExpressRouteCircuitPeeringConfig: Others
-Add-AzureRmLoadBalancerBackendAddressPoolConfig: Others
-Add-AzureRmLoadBalancerFrontendIpConfig: Others
-Add-AzureRmLoadBalancerInboundNatPoolConfig: Others
-Add-AzureRmLoadBalancerInboundNatRuleConfig: Others
-Add-AzureRmLoadBalancerProbeConfig: Others
-Add-AzureRmLoadBalancerRuleConfig: Others
-Add-AzureRmNetworkInterfaceIpConfig: Others
-Add-AzureRmNetworkSecurityRuleConfig: Others
-Add-AzureRmRouteConfig: Others
-Add-AzureRmVirtualNetworkPeering: Others
-Add-AzureRmVirtualNetworkSubnetConfig: Others
-Add-AzureRmVpnClientRevokedCertificate: Others
-Add-AzureRmVpnClientRootCertificate: Others
-Get-AzureRmApplicationGateway: Others
-Get-AzureRmApplicationGatewayBackendAddressPool: Others
-Get-AzureRmApplicationGatewayBackendHttpSettings: Others
-Get-AzureRmApplicationGatewayFrontendIPConfig: Others
-Get-AzureRmApplicationGatewayFrontendPort: Others
-Get-AzureRmApplicationGatewayHttpListener: Others
-Get-AzureRmApplicationGatewayIPConfiguration: Others
-Get-AzureRmApplicationGatewayProbeConfig: Others
-Get-AzureRmApplicationGatewayRequestRoutingRule: Others
-Get-AzureRmApplicationGatewaySku: Others
-Get-AzureRmApplicationGatewaySslCertificate: Others
-Get-AzureRmApplicationGatewayUrlPathMapConfig: Others
-Get-AzureRmExpressRouteCircuit: Others
-Get-AzureRmExpressRouteCircuitARPTable: Others
-Get-AzureRmExpressRouteCircuitAuthorization: Others
-Get-AzureRmExpressRouteCircuitPeeringConfig: Others
-Get-AzureRmExpressRouteCircuitRouteTable: Others
-Get-AzureRmExpressRouteCircuitRouteTableSummary: Others
-Get-AzureRmExpressRouteCircuitStats: Others
-Get-AzureRmExpressRouteServiceProvider: Others
-Get-AzureRmLoadBalancer: Others
-Get-AzureRmLoadBalancerBackendAddressPoolConfig: Others
-Get-AzureRmLoadBalancerFrontendIpConfig: Others
-Get-AzureRmLoadBalancerInboundNatPoolConfig: Others
-Get-AzureRmLoadBalancerInboundNatRuleConfig: Others
-Get-AzureRmLoadBalancerProbeConfig: Others
-Get-AzureRmLoadBalancerRuleConfig: Others
-Get-AzureRmLocalNetworkGateway: Others
-Get-AzureRmNetworkInterface: Others
-Get-AzureRmNetworkInterfaceIpConfig: Others
-Get-AzureRmNetworkSecurityGroup: Others
-Get-AzureRmNetworkSecurityRuleConfig: Others
-Get-AzureRmPublicIpAddress: Others
-Get-AzureRmRouteConfig: Others
-Get-AzureRmRouteTable: Others
-Get-AzureRmVirtualNetwork: Others
-Get-AzureRmVirtualNetworkGateway: Others
-Get-AzureRmVirtualNetworkGatewayConnection: Others
-Get-AzureRmVirtualNetworkGatewayConnectionSharedKey: Others
-Get-AzureRmVirtualNetworkPeering: Others
-Get-AzureRmVirtualNetworkSubnetConfig: Others
-Get-AzureRmVpnClientPackage: Others
-Get-AzureRmVpnClientRevokedCertificate: Others
-Get-AzureRmVpnClientRootCertificate: Others
-Move-AzureRmExpressRouteCircuit: Others
-New-AzureRmApplicationGateway: Others
-New-AzureRmApplicationGatewayBackendAddressPool: Others
-New-AzureRmApplicationGatewayBackendHttpSettings: Others
-New-AzureRmApplicationGatewayFrontendIPConfig: Others
-New-AzureRmApplicationGatewayFrontendPort: Others
-New-AzureRmApplicationGatewayHttpListener: Others
-New-AzureRmApplicationGatewayIPConfiguration: Others
-New-AzureRmApplicationGatewayPathRuleConfig: Others
-New-AzureRmApplicationGatewayProbeConfig: Others
-New-AzureRmApplicationGatewayRequestRoutingRule: Others
-New-AzureRmApplicationGatewaySku: Others
-New-AzureRmApplicationGatewaySslCertificate: Others
-New-AzureRmApplicationGatewayUrlPathMapConfig: Others
-New-AzureRmExpressRouteCircuit: Others
-New-AzureRmExpressRouteCircuitAuthorization: Others
-New-AzureRmExpressRouteCircuitPeeringConfig: Others
-New-AzureRmLoadBalancer: Others
-New-AzureRmLoadBalancerBackendAddressPoolConfig: Others
-New-AzureRmLoadBalancerFrontendIpConfig: Others
-New-AzureRmLoadBalancerInboundNatPoolConfig: Others
-New-AzureRmLoadBalancerInboundNatRuleConfig: Others
-New-AzureRmLoadBalancerProbeConfig: Others
-New-AzureRmLoadBalancerRuleConfig: Others
-New-AzureRmLocalNetworkGateway: Others
-New-AzureRmNetworkInterface: Others
-New-AzureRmNetworkInterfaceIpConfig: Others
-New-AzureRmNetworkSecurityGroup: Others
-New-AzureRmNetworkSecurityRuleConfig: Others
-New-AzureRmPublicIpAddress: Others
-New-AzureRmRouteConfig: Others
-New-AzureRmRouteTable: Others
-New-AzureRmVirtualNetwork: Others
-New-AzureRmVirtualNetworkGateway: Others
-New-AzureRmVirtualNetworkGatewayConnection: Others
-New-AzureRmVirtualNetworkGatewayIpConfig: Others
-New-AzureRmVirtualNetworkSubnetConfig: Others
-New-AzureRmVpnClientRevokedCertificate: Others
-New-AzureRmVpnClientRootCertificate: Others
-Remove-AzureRmApplicationGateway: Others
-Remove-AzureRmApplicationGatewayBackendAddressPool: Others
-Remove-AzureRmApplicationGatewayBackendHttpSettings: Others
-Remove-AzureRmApplicationGatewayFrontendIPConfig: Others
-Remove-AzureRmApplicationGatewayFrontendPort: Others
-Remove-AzureRmApplicationGatewayHttpListener: Others
-Remove-AzureRmApplicationGatewayIPConfiguration: Others
-Remove-AzureRmApplicationGatewayProbeConfig: Others
-Remove-AzureRmApplicationGatewayRequestRoutingRule: Others
-Remove-AzureRmApplicationGatewaySslCertificate: Others
-Remove-AzureRmApplicationGatewayUrlPathMapConfig: Others
-Remove-AzureRmExpressRouteCircuit: Others
-Remove-AzureRmExpressRouteCircuitAuthorization: Others
-Remove-AzureRmExpressRouteCircuitPeeringConfig: Others
-Remove-AzureRmLoadBalancer: Others
-Remove-AzureRmLoadBalancerBackendAddressPoolConfig: Others
-Remove-AzureRmLoadBalancerFrontendIpConfig: Others
-Remove-AzureRmLoadBalancerInboundNatPoolConfig: Others
-Remove-AzureRmLoadBalancerInboundNatRuleConfig: Others
-Remove-AzureRmLoadBalancerProbeConfig: Others
-Remove-AzureRmLoadBalancerRuleConfig: Others
-Remove-AzureRmLocalNetworkGateway: Others
-Remove-AzureRmNetworkInterface: Others
-Remove-AzureRmNetworkInterfaceIpConfig: Others
-Remove-AzureRmNetworkSecurityGroup: Others
-Remove-AzureRmNetworkSecurityRuleConfig: Others
-Remove-AzureRmPublicIpAddress: Others
-Remove-AzureRmRouteConfig: Others
-Remove-AzureRmRouteTable: Others
-Remove-AzureRmVirtualNetwork: Others
-Remove-AzureRmVirtualNetworkGateway: Others
-Remove-AzureRmVirtualNetworkGatewayConnection: Others
-Remove-AzureRmVirtualNetworkGatewayDefaultSite: Others
-Remove-AzureRmVirtualNetworkPeering: Others
-Remove-AzureRmVirtualNetworkSubnetConfig: Others
-Remove-AzureRmVpnClientRevokedCertificate: Others
-Remove-AzureRmVpnClientRootCertificate: Others
-Reset-AzureRmVirtualNetworkGateway: Others
-Reset-AzureRmVirtualNetworkGatewayConnectionSharedKey: Others
-Resize-AzureRmVirtualNetworkGateway: Others
-Set-AzureRmApplicationGateway: Others
-Set-AzureRmApplicationGatewayBackendAddressPool: Others
-Set-AzureRmApplicationGatewayBackendHttpSettings: Others
-Set-AzureRmApplicationGatewayFrontendIPConfig: Others
-Set-AzureRmApplicationGatewayFrontendPort: Others
-Set-AzureRmApplicationGatewayHttpListener: Others
-Set-AzureRmApplicationGatewayIPConfiguration: Others
-Set-AzureRmApplicationGatewayProbeConfig: Others
-Set-AzureRmApplicationGatewayRequestRoutingRule: Others
-Set-AzureRmApplicationGatewaySku: Others
-Set-AzureRmApplicationGatewaySslCertificate: Others
-Set-AzureRmApplicationGatewayUrlPathMapConfig: Others
-Set-AzureRmExpressRouteCircuit: Others
-Set-AzureRmExpressRouteCircuitPeeringConfig: Others
-Set-AzureRmLoadBalancer: Others
-Set-AzureRmLoadBalancerFrontendIpConfig: Others
-Set-AzureRmLoadBalancerInboundNatPoolConfig: Others
-Set-AzureRmLoadBalancerInboundNatRuleConfig: Others
-Set-AzureRmLoadBalancerProbeConfig: Others
-Set-AzureRmLoadBalancerRuleConfig: Others
-Set-AzureRmLocalNetworkGateway: Others
-Set-AzureRmNetworkInterface: Others
-Set-AzureRmNetworkInterfaceIpConfig: Others
-Set-AzureRmNetworkSecurityGroup: Others
-Set-AzureRmNetworkSecurityRuleConfig: Others
-Set-AzureRmPublicIpAddress: Others
-Set-AzureRmRouteConfig: Others
-Set-AzureRmRouteTable: Others
-Set-AzureRmVirtualNetwork: Others
-Set-AzureRmVirtualNetworkGateway: Others
-Set-AzureRmVirtualNetworkGatewayConnection: Others
-Set-AzureRmVirtualNetworkGatewayConnectionSharedKey: Others
-Set-AzureRmVirtualNetworkGatewayDefaultSite: Others
-Set-AzureRmVirtualNetworkGatewayVpnClientConfig: Others
-Set-AzureRmVirtualNetworkPeering: Others
-Set-AzureRmVirtualNetworkSubnetConfig: Others
-Start-AzureRmApplicationGateway: Others
-Stop-AzureRmApplicationGateway: Others
-Test-AzureRmDnsAvailability: Others
+Add-AzureRmApplicationGatewayBackendAddressPool: Application Gateway
+Add-AzureRmApplicationGatewayBackendHttpSettings: Application Gateway
+Add-AzureRmApplicationGatewayFrontendIPConfig: Application Gateway
+Add-AzureRmApplicationGatewayFrontendPort: Application Gateway
+Add-AzureRmApplicationGatewayHttpListener: Application Gateway
+Add-AzureRmApplicationGatewayIPConfiguration: Application Gateway
+Add-AzureRmApplicationGatewayProbeConfig: Application Gateway
+Add-AzureRmApplicationGatewayRequestRoutingRule: Application Gateway
+Add-AzureRmApplicationGatewaySslCertificate: Application Gateway
+Add-AzureRmApplicationGatewayUrlPathMapConfig: Application Gateway
+Add-AzureRmExpressRouteCircuitAuthorization: Express Route
+Add-AzureRmExpressRouteCircuitPeeringConfig: Express Route
+Add-AzureRmLoadBalancerBackendAddressPoolConfig: Load Balancer
+Add-AzureRmLoadBalancerFrontendIpConfig: Load Balancer
+Add-AzureRmLoadBalancerInboundNatPoolConfig: Load Balancer
+Add-AzureRmLoadBalancerInboundNatRuleConfig: Load Balancer
+Add-AzureRmLoadBalancerProbeConfig: Load Balancer
+Add-AzureRmLoadBalancerRuleConfig: Load Balancer
+Add-AzureRmNetworkInterfaceIpConfig: Virtual Network
+Add-AzureRmNetworkSecurityRuleConfig: Virtual Network
+Add-AzureRmRouteConfig: Route
+Add-AzureRmVirtualNetworkPeering: Virtual Network
+Add-AzureRmVirtualNetworkSubnetConfig: Virtual Network
+Add-AzureRmVpnClientRevokedCertificate: VPN
+Add-AzureRmVpnClientRootCertificate: VPN
+Get-AzureRmApplicationGateway: Application Gateway
+Get-AzureRmApplicationGatewayBackendAddressPool: Application Gateway
+Get-AzureRmApplicationGatewayBackendHttpSettings: Application Gateway
+Get-AzureRmApplicationGatewayFrontendIPConfig: Application Gateway
+Get-AzureRmApplicationGatewayFrontendPort: Application Gateway
+Get-AzureRmApplicationGatewayHttpListener: Application Gateway
+Get-AzureRmApplicationGatewayIPConfiguration: Application Gateway
+Get-AzureRmApplicationGatewayProbeConfig: Application Gateway
+Get-AzureRmApplicationGatewayRequestRoutingRule: Application Gateway
+Get-AzureRmApplicationGatewaySku: Application Gateway
+Get-AzureRmApplicationGatewaySslCertificate: Application Gateway
+Get-AzureRmApplicationGatewayUrlPathMapConfig: Application Gateway
+Get-AzureRmExpressRouteCircuit: Express Route
+Get-AzureRmExpressRouteCircuitARPTable: Express Route
+Get-AzureRmExpressRouteCircuitAuthorization: Express Route
+Get-AzureRmExpressRouteCircuitPeeringConfig: Express Route
+Get-AzureRmExpressRouteCircuitRouteTable: Express Route
+Get-AzureRmExpressRouteCircuitRouteTableSummary: Express Route
+Get-AzureRmExpressRouteCircuitStats: Express Route
+Get-AzureRmExpressRouteServiceProvider: Express Route
+Get-AzureRmLoadBalancer: Load Balancer
+Get-AzureRmLoadBalancerBackendAddressPoolConfig: Load Balancer
+Get-AzureRmLoadBalancerFrontendIpConfig: Load Balancer
+Get-AzureRmLoadBalancerInboundNatPoolConfig: Load Balancer
+Get-AzureRmLoadBalancerInboundNatRuleConfig: Load Balancer
+Get-AzureRmLoadBalancerProbeConfig: Load Balancer
+Get-AzureRmLoadBalancerRuleConfig: Load Balancer
+Get-AzureRmLocalNetworkGateway: Virtual Network
+Get-AzureRmNetworkInterface: Virtual Network
+Get-AzureRmNetworkInterfaceIpConfig: Virtual Network
+Get-AzureRmNetworkSecurityGroup: Virtual Network
+Get-AzureRmNetworkSecurityRuleConfig: Virtual Network
+Get-AzureRmPublicIpAddress: Virtual Network
+Get-AzureRmRouteConfig: Route
+Get-AzureRmRouteTable: Route
+Get-AzureRmVirtualNetwork: Virtual Network
+Get-AzureRmVirtualNetworkGateway: Virtual Network
+Get-AzureRmVirtualNetworkGatewayConnection: Virtual Network
+Get-AzureRmVirtualNetworkGatewayConnectionSharedKey: Virtual Network
+Get-AzureRmVirtualNetworkPeering: Virtual Network
+Get-AzureRmVirtualNetworkSubnetConfig: Virtual Network
+Get-AzureRmVpnClientPackage: VPN
+Get-AzureRmVpnClientRevokedCertificate: VPN
+Get-AzureRmVpnClientRootCertificate: VPN
+Move-AzureRmExpressRouteCircuit: Express Route
+New-AzureRmApplicationGateway: Application Gateway
+New-AzureRmApplicationGatewayBackendAddressPool: Application Gateway
+New-AzureRmApplicationGatewayBackendHttpSettings: Application Gateway
+New-AzureRmApplicationGatewayFrontendIPConfig: Application Gateway
+New-AzureRmApplicationGatewayFrontendPort: Application Gateway
+New-AzureRmApplicationGatewayHttpListener: Application Gateway
+New-AzureRmApplicationGatewayIPConfiguration: Application Gateway
+New-AzureRmApplicationGatewayPathRuleConfig: Application Gateway
+New-AzureRmApplicationGatewayProbeConfig: Application Gateway
+New-AzureRmApplicationGatewayRequestRoutingRule: Application Gateway
+New-AzureRmApplicationGatewaySku: Application Gateway
+New-AzureRmApplicationGatewaySslCertificate: Application Gateway
+New-AzureRmApplicationGatewayUrlPathMapConfig: Application Gateway
+New-AzureRmExpressRouteCircuit: Express Route
+New-AzureRmExpressRouteCircuitAuthorization: Express Route
+New-AzureRmExpressRouteCircuitPeeringConfig: Express Route
+New-AzureRmLoadBalancer: Load Balancer
+New-AzureRmLoadBalancerBackendAddressPoolConfig: Load Balancer
+New-AzureRmLoadBalancerFrontendIpConfig: Load Balancer
+New-AzureRmLoadBalancerInboundNatPoolConfig: Load Balancer
+New-AzureRmLoadBalancerInboundNatRuleConfig: Load Balancer
+New-AzureRmLoadBalancerProbeConfig: Load Balancer
+New-AzureRmLoadBalancerRuleConfig: Load Balancer
+New-AzureRmLocalNetworkGateway: Virtual Network
+New-AzureRmNetworkInterface: Virtual Network
+New-AzureRmNetworkInterfaceIpConfig: Virtual Network
+New-AzureRmNetworkSecurityGroup: Virtual Network
+New-AzureRmNetworkSecurityRuleConfig: Virtual Network
+New-AzureRmPublicIpAddress: Virtual Network
+New-AzureRmRouteConfig: Route
+New-AzureRmRouteTable: Route
+New-AzureRmVirtualNetwork: Virtual Network
+New-AzureRmVirtualNetworkGateway: Virtual Network
+New-AzureRmVirtualNetworkGatewayConnection: Virtual Network
+New-AzureRmVirtualNetworkGatewayIpConfig: Virtual Network
+New-AzureRmVirtualNetworkSubnetConfig: Virtual Network
+New-AzureRmVpnClientRevokedCertificate: VPN
+New-AzureRmVpnClientRootCertificate: VPN
+Remove-AzureRmApplicationGateway: Application Gateway
+Remove-AzureRmApplicationGatewayBackendAddressPool: Application Gateway
+Remove-AzureRmApplicationGatewayBackendHttpSettings: Application Gateway
+Remove-AzureRmApplicationGatewayFrontendIPConfig: Application Gateway
+Remove-AzureRmApplicationGatewayFrontendPort: Application Gateway
+Remove-AzureRmApplicationGatewayHttpListener: Application Gateway
+Remove-AzureRmApplicationGatewayIPConfiguration: Application Gateway
+Remove-AzureRmApplicationGatewayProbeConfig: Application Gateway
+Remove-AzureRmApplicationGatewayRequestRoutingRule: Application Gateway
+Remove-AzureRmApplicationGatewaySslCertificate: Application Gateway
+Remove-AzureRmApplicationGatewayUrlPathMapConfig: Application Gateway
+Remove-AzureRmExpressRouteCircuit: Express Route
+Remove-AzureRmExpressRouteCircuitAuthorization: Express Route
+Remove-AzureRmExpressRouteCircuitPeeringConfig: Express Route
+Remove-AzureRmLoadBalancer: Load Balancer
+Remove-AzureRmLoadBalancerBackendAddressPoolConfig: Load Balancer
+Remove-AzureRmLoadBalancerFrontendIpConfig: Load Balancer
+Remove-AzureRmLoadBalancerInboundNatPoolConfig: Load Balancer
+Remove-AzureRmLoadBalancerInboundNatRuleConfig: Load Balancer
+Remove-AzureRmLoadBalancerProbeConfig: Load Balancer
+Remove-AzureRmLoadBalancerRuleConfig: Load Balancer
+Remove-AzureRmLocalNetworkGateway: Virtual Network
+Remove-AzureRmNetworkInterface: Virtual Network
+Remove-AzureRmNetworkInterfaceIpConfig: Virtual Network
+Remove-AzureRmNetworkSecurityGroup: Virtual Network
+Remove-AzureRmNetworkSecurityRuleConfig: Virtual Network
+Remove-AzureRmPublicIpAddress: Virtual Network
+Remove-AzureRmRouteConfig: Route
+Remove-AzureRmRouteTable: Route
+Remove-AzureRmVirtualNetwork: Virtual Network
+Remove-AzureRmVirtualNetworkGateway: Virtual Network
+Remove-AzureRmVirtualNetworkGatewayConnection: Virtual Network
+Remove-AzureRmVirtualNetworkGatewayDefaultSite: Virtual Network
+Remove-AzureRmVirtualNetworkPeering: Virtual Network
+Remove-AzureRmVirtualNetworkSubnetConfig: Virtual Network
+Remove-AzureRmVpnClientRevokedCertificate: VPN
+Remove-AzureRmVpnClientRootCertificate: VPN
+Reset-AzureRmVirtualNetworkGateway: Virtual Network
+Reset-AzureRmVirtualNetworkGatewayConnectionSharedKey: Virtual Network
+Resize-AzureRmVirtualNetworkGateway: Virtual Network
+Set-AzureRmApplicationGateway: Application Gateway
+Set-AzureRmApplicationGatewayBackendAddressPool: Application Gateway
+Set-AzureRmApplicationGatewayBackendHttpSettings: Application Gateway
+Set-AzureRmApplicationGatewayFrontendIPConfig: Application Gateway
+Set-AzureRmApplicationGatewayFrontendPort: Application Gateway
+Set-AzureRmApplicationGatewayHttpListener: Application Gateway
+Set-AzureRmApplicationGatewayIPConfiguration: Application Gateway
+Set-AzureRmApplicationGatewayProbeConfig: Application Gateway
+Set-AzureRmApplicationGatewayRequestRoutingRule: Application Gateway
+Set-AzureRmApplicationGatewaySku: Application Gateway
+Set-AzureRmApplicationGatewaySslCertificate: Application Gateway
+Set-AzureRmApplicationGatewayUrlPathMapConfig: Application Gateway
+Set-AzureRmExpressRouteCircuit: Express Route
+Set-AzureRmExpressRouteCircuitPeeringConfig: Express Route
+Set-AzureRmLoadBalancer: Load Balancer
+Set-AzureRmLoadBalancerFrontendIpConfig: Load Balancer
+Set-AzureRmLoadBalancerInboundNatPoolConfig: Load Balancer
+Set-AzureRmLoadBalancerInboundNatRuleConfig: Load Balancer
+Set-AzureRmLoadBalancerProbeConfig: Load Balancer
+Set-AzureRmLoadBalancerRuleConfig: Load Balancer
+Set-AzureRmLocalNetworkGateway: Virtual Network
+Set-AzureRmNetworkInterface: Virtual Network
+Set-AzureRmNetworkInterfaceIpConfig: Virtual Network
+Set-AzureRmNetworkSecurityGroup: Virtual Network
+Set-AzureRmNetworkSecurityRuleConfig: Virtual Network
+Set-AzureRmPublicIpAddress: Virtual Network
+Set-AzureRmRouteConfig: Route
+Set-AzureRmRouteTable: Route
+Set-AzureRmVirtualNetwork: Virtual Network
+Set-AzureRmVirtualNetworkGateway: Virtual Network
+Set-AzureRmVirtualNetworkGatewayConnection: Virtual Network
+Set-AzureRmVirtualNetworkGatewayConnectionSharedKey: Virtual Network
+Set-AzureRmVirtualNetworkGatewayDefaultSite: Virtual Network
+Set-AzureRmVirtualNetworkGatewayVpnClientConfig: Virtual Network
+Set-AzureRmVirtualNetworkPeering: Virtual Network
+Set-AzureRmVirtualNetworkSubnetConfig: Virtual Network
+Start-AzureRmApplicationGateway: Application Gateway
+Stop-AzureRmApplicationGateway: Application Gateway
+Test-AzureRmDnsAvailability: DNS
 _isModulePage: true
 ---
 
