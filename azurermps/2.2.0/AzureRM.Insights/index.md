@@ -15,31 +15,31 @@ keywords: powershell, cmdlet
 manager: erickson-doug
 open_to_public_contributors: true
 ms.service: monitoring-alerts
-Add-AzureRmAutoscaleSetting: HD Insights
-Add-AzureRmLogAlertRule: HD Insights
-Add-AzureRmLogProfile: HD Insights
-Add-AzureRmMetricAlertRule: HD Insights
-Add-AzureRmWebtestAlertRule: HD Insights
-Get-AzureRmAlertHistory: HD Insights
-Get-AzureRmAlertRule: HD Insights
-Get-AzureRmAutoscaleHistory: HD Insights
-Get-AzureRmAutoscaleSetting: HD Insights
-Get-AzureRmDiagnosticSetting: HD Insights
-Get-AzureRmLog: HD Insights
-Get-AzureRmLogProfile: HD Insights
-Get-AzureRmMetric: HD Insights
-Get-AzureRmMetricDefinition: HD Insights
-Get-AzureRmUsage: HD Insights
-New-AzureRmAlertRuleEmail: HD Insights
-New-AzureRmAlertRuleWebhook: HD Insights
-New-AzureRmAutoscaleNotification: HD Insights
-New-AzureRmAutoscaleProfile: HD Insights
-New-AzureRmAutoscaleRule: HD Insights
-New-AzureRmAutoscaleWebhook: HD Insights
-Remove-AzureRmAlertRule: HD Insights
-Remove-AzureRmAutoscaleSetting: HD Insights
-Remove-AzureRmLogProfile: HD Insights
-Set-AzureRmDiagnosticSetting: HD Insights
+Add-AzureRmAutoscaleSetting: Monitoring
+Add-AzureRmLogAlertRule: Monitoring
+Add-AzureRmLogProfile: Monitoring
+Add-AzureRmMetricAlertRule: Monitoring
+Add-AzureRmWebtestAlertRule: Monitoring
+Get-AzureRmAlertHistory: Monitoring
+Get-AzureRmAlertRule: Monitoring
+Get-AzureRmAutoscaleHistory: Monitoring
+Get-AzureRmAutoscaleSetting: Monitoring
+Get-AzureRmDiagnosticSetting: Monitoring
+Get-AzureRmLog: Monitoring
+Get-AzureRmLogProfile: Monitoring
+Get-AzureRmMetric: Monitoring
+Get-AzureRmMetricDefinition: Monitoring
+Get-AzureRmUsage: Monitoring
+New-AzureRmAlertRuleEmail: Monitoring
+New-AzureRmAlertRuleWebhook: Monitoring
+New-AzureRmAutoscaleNotification: Monitoring
+New-AzureRmAutoscaleProfile: Monitoring
+New-AzureRmAutoscaleRule: Monitoring
+New-AzureRmAutoscaleWebhook: Monitoring
+Remove-AzureRmAlertRule: Monitoring
+Remove-AzureRmAutoscaleSetting: Monitoring
+Remove-AzureRmLogProfile: Monitoring
+Set-AzureRmDiagnosticSetting: Monitoring
 _isModulePage: true
 ---
 

@@ -17,7 +17,7 @@ keywords: powershell, cmdlet
 manager: erickson-doug
 open_to_public_contributors: true
 ms.service: subscription
-Get-UsageAggregates: Traffic Manager
+Get-UsageAggregates: Monitoring
 _isModulePage: true
 ---
 

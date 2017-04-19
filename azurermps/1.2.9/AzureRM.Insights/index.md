@@ -14,23 +14,23 @@ keywords: powershell, cmdlet
 manager: erickson-doug
 open_to_public_contributors: true
 ms.service: monitoring-alerts
-Add-AlertRule: HD Insights
-Add-AutoscaleSetting: HD Insights
-Format-MetricsAsTable: HD Insights
-Get-AlertHistory: HD Insights
-Get-AlertRule: HD Insights
-Get-AutoscaleHistory: HD Insights
-Get-AutoscaleSetting: HD Insights
-Get-AzureRmDiagnosticSetting: HD Insights
-Get-AzureRmLog: HD Insights
-Get-MetricDefinitions: HD Insights
-Get-Metrics: HD Insights
-Get-UsageMetrics: HD Insights
-New-AutoscaleProfile: HD Insights
-New-AutoscaleRule: HD Insights
-Remove-AlertRule: HD Insights
-Remove-AutoscaleSetting: HD Insights
-Set-AzureRmDiagnosticSetting: HD Insights
+Add-AlertRule: Monitoring
+Add-AutoscaleSetting: Monitoring
+Format-MetricsAsTable: Monitoring
+Get-AlertHistory: Monitoring
+Get-AlertRule: Monitoring
+Get-AutoscaleHistory: Monitoring
+Get-AutoscaleSetting: Monitoring
+Get-AzureRmDiagnosticSetting: Monitoring
+Get-AzureRmLog: Monitoring
+Get-MetricDefinitions: Monitoring
+Get-Metrics: Monitoring
+Get-UsageMetrics: Monitoring
+New-AutoscaleProfile: Monitoring
+New-AutoscaleRule: Monitoring
+Remove-AlertRule: Monitoring
+Remove-AutoscaleSetting: Monitoring
+Set-AzureRmDiagnosticSetting: Monitoring
 _isModulePage: true
 ---
 

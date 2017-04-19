@@ -22,37 +22,37 @@ Get-AzureRmIntegrationAccountCertificate: Integration Accounts
 Get-AzureRmIntegrationAccountMap: Integration Accounts
 Get-AzureRmIntegrationAccountPartner: Integration Accounts
 Get-AzureRmIntegrationAccountSchema: Integration Accounts
-Get-AzureRmLogicApp: Logic Apps
-Get-AzureRmLogicAppRunAction: Logic Apps
-Get-AzureRmLogicAppRunHistory: Logic Apps
-Get-AzureRmLogicAppTrigger: Logic Apps
-Get-AzureRmLogicAppTriggerCallbackUrl: Logic Apps
-Get-AzureRmLogicAppTriggerHistory: Logic Apps
-Get-AzureRmLogicAppUpgradedDefinition: Logic Apps
+Get-AzureRmLogicApp: Monitoring
+Get-AzureRmLogicAppRunAction: Monitoring
+Get-AzureRmLogicAppRunHistory: Monitoring
+Get-AzureRmLogicAppTrigger: Monitoring
+Get-AzureRmLogicAppTriggerCallbackUrl: Monitoring
+Get-AzureRmLogicAppTriggerHistory: Monitoring
+Get-AzureRmLogicAppUpgradedDefinition: Monitoring
 New-AzureRmIntegrationAccount: Integration Accounts
 New-AzureRmIntegrationAccountAgreement: Integration Accounts
 New-AzureRmIntegrationAccountCertificate: Integration Accounts
 New-AzureRmIntegrationAccountMap: Integration Accounts
 New-AzureRmIntegrationAccountPartner: Integration Accounts
 New-AzureRmIntegrationAccountSchema: Integration Accounts
-New-AzureRmLogicApp: Logic Apps
+New-AzureRmLogicApp: Monitoring
 Remove-AzureRmIntegrationAccount: Integration Accounts
 Remove-AzureRmIntegrationAccountAgreement: Integration Accounts
 Remove-AzureRmIntegrationAccountCertificate: Integration Accounts
 Remove-AzureRmIntegrationAccountMap: Integration Accounts
 Remove-AzureRmIntegrationAccountPartner: Integration Accounts
 Remove-AzureRmIntegrationAccountSchema: Integration Accounts
-Remove-AzureRmLogicApp: Logic Apps
+Remove-AzureRmLogicApp: Monitoring
 Set-AzureRmIntegrationAccount: Integration Accounts
 Set-AzureRmIntegrationAccountAgreement: Integration Accounts
 Set-AzureRmIntegrationAccountCertificate: Integration Accounts
 Set-AzureRmIntegrationAccountMap: Integration Accounts
 Set-AzureRmIntegrationAccountPartner: Integration Accounts
 Set-AzureRmIntegrationAccountSchema: Integration Accounts
-Set-AzureRmLogicApp: Logic Apps
-Start-AzureRmLogicApp: Logic Apps
-Stop-AzureRmLogicAppRun: Logic Apps
-Test-AzureRmLogicApp: Logic Apps
+Set-AzureRmLogicApp: Monitoring
+Start-AzureRmLogicApp: Monitoring
+Stop-AzureRmLogicAppRun: Monitoring
+Test-AzureRmLogicApp: Monitoring
 _isModulePage: true
 ---
 
