@@ -261,8 +261,16 @@
           href: AzureRM.Automation/Export-AzureRmAutomationDscConfiguration.md
         - name: Export-AzureRmAutomationDscNodeReportContent
           href: AzureRM.Automation/Export-AzureRmAutomationDscNodeReportContent.md
+        - name: Export-AzureRMAutomationRunbook
+          href: AzureRM.Automation/Export-AzureRMAutomationRunbook.md
         - name: Get-AzureRmAutomationAccount
           href: AzureRM.Automation/Get-AzureRmAutomationAccount.md
+        - name: Get-AzureRMAutomationCertificate
+          href: AzureRM.Automation/Get-AzureRMAutomationCertificate.md
+        - name: Get-AzureRMAutomationConnection
+          href: AzureRM.Automation/Get-AzureRMAutomationConnection.md
+        - name: Get-AzureRMAutomationCredential
+          href: AzureRM.Automation/Get-AzureRMAutomationCredential.md
         - name: Get-AzureRmAutomationDscCompilationJob
           href: AzureRM.Automation/Get-AzureRmAutomationDscCompilationJob.md
         - name: Get-AzureRmAutomationDscCompilationJobOutput
@@ -279,44 +287,116 @@
           href: AzureRM.Automation/Get-AzureRmAutomationDscOnboardingMetaconfig.md
         - name: Get-AzureRMAutomationHybridWorkerGroup
           href: AzureRM.Automation/Get-AzureRMAutomationHybridWorkerGroup.md
+        - name: Get-AzureRMAutomationJob
+          href: AzureRM.Automation/Get-AzureRMAutomationJob.md
+        - name: Get-AzureRMAutomationJobOutput
+          href: AzureRM.Automation/Get-AzureRMAutomationJobOutput.md
         - name: Get-AzureRmAutomationJobOutputRecord
           href: AzureRM.Automation/Get-AzureRmAutomationJobOutputRecord.md
         - name: Get-AzureRmAutomationModule
           href: AzureRM.Automation/Get-AzureRmAutomationModule.md
         - name: Get-AzureRmAutomationRegistrationInfo
           href: AzureRM.Automation/Get-AzureRmAutomationRegistrationInfo.md
+        - name: Get-AzureRMAutomationRunbook
+          href: AzureRM.Automation/Get-AzureRMAutomationRunbook.md
+        - name: Get-AzureRMAutomationSchedule
+          href: AzureRM.Automation/Get-AzureRMAutomationSchedule.md
+        - name: Get-AzureRMAutomationScheduledRunbook
+          href: AzureRM.Automation/Get-AzureRMAutomationScheduledRunbook.md
+        - name: Get-AzureRMAutomationVariable
+          href: AzureRM.Automation/Get-AzureRMAutomationVariable.md
+        - name: Get-AzureRMAutomationWebhook
+          href: AzureRM.Automation/Get-AzureRMAutomationWebhook.md
         - name: Import-AzureRmAutomationDscConfiguration
           href: AzureRM.Automation/Import-AzureRmAutomationDscConfiguration.md
         - name: Import-AzureRmAutomationDscNodeConfiguration
           href: AzureRM.Automation/Import-AzureRmAutomationDscNodeConfiguration.md
+        - name: Import-AzureRMAutomationRunbook
+          href: AzureRM.Automation/Import-AzureRMAutomationRunbook.md
         - name: New-AzureRmAutomationAccount
           href: AzureRM.Automation/New-AzureRmAutomationAccount.md
+        - name: New-AzureRMAutomationCertificate
+          href: AzureRM.Automation/New-AzureRMAutomationCertificate.md
+        - name: New-AzureRMAutomationConnection
+          href: AzureRM.Automation/New-AzureRMAutomationConnection.md
+        - name: New-AzureRMAutomationCredential
+          href: AzureRM.Automation/New-AzureRMAutomationCredential.md
         - name: New-AzureRmAutomationKey
           href: AzureRM.Automation/New-AzureRmAutomationKey.md
         - name: New-AzureRmAutomationModule
           href: AzureRM.Automation/New-AzureRmAutomationModule.md
+        - name: New-AzureRMAutomationRunbook
+          href: AzureRM.Automation/New-AzureRMAutomationRunbook.md
+        - name: New-AzureRMAutomationSchedule
+          href: AzureRM.Automation/New-AzureRMAutomationSchedule.md
+        - name: New-AzureRMAutomationVariable
+          href: AzureRM.Automation/New-AzureRMAutomationVariable.md
+        - name: New-AzureRMAutomationWebhook
+          href: AzureRM.Automation/New-AzureRMAutomationWebhook.md
+        - name: Publish-AzureRMAutomationRunbook
+          href: AzureRM.Automation/Publish-AzureRMAutomationRunbook.md
         - name: Register-AzureRmAutomationDscNode
           href: AzureRM.Automation/Register-AzureRmAutomationDscNode.md
+        - name: Register-AzureRMAutomationScheduledRunbook
+          href: AzureRM.Automation/Register-AzureRMAutomationScheduledRunbook.md
         - name: Remove-AzureRmAutomationAccount
           href: AzureRM.Automation/Remove-AzureRmAutomationAccount.md
+        - name: Remove-AzureRMAutomationCertificate
+          href: AzureRM.Automation/Remove-AzureRMAutomationCertificate.md
+        - name: Remove-AzureRMAutomationConnection
+          href: AzureRM.Automation/Remove-AzureRMAutomationConnection.md
         - name: Remove-AzureRmAutomationConnectionType
           href: AzureRM.Automation/Remove-AzureRmAutomationConnectionType.md
+        - name: Remove-AzureRMAutomationCredential
+          href: AzureRM.Automation/Remove-AzureRMAutomationCredential.md
         - name: Remove-AzureRmAutomationDscConfiguration
           href: AzureRM.Automation/Remove-AzureRmAutomationDscConfiguration.md
         - name: Remove-AzureRmAutomationDscNodeConfiguration
           href: AzureRM.Automation/Remove-AzureRmAutomationDscNodeConfiguration.md
         - name: Remove-AzureRmAutomationModule
           href: AzureRM.Automation/Remove-AzureRmAutomationModule.md
+        - name: Remove-AzureRMAutomationRunbook
+          href: AzureRM.Automation/Remove-AzureRMAutomationRunbook.md
+        - name: Remove-AzureRMAutomationSchedule
+          href: AzureRM.Automation/Remove-AzureRMAutomationSchedule.md
+        - name: Remove-AzureRMAutomationVariable
+          href: AzureRM.Automation/Remove-AzureRMAutomationVariable.md
+        - name: Remove-AzureRMAutomationWebhook
+          href: AzureRM.Automation/Remove-AzureRMAutomationWebhook.md
+        - name: Resume-AzureRMAutomationJob
+          href: AzureRM.Automation/Resume-AzureRMAutomationJob.md
         - name: Set-AzureRmAutomationAccount
           href: AzureRM.Automation/Set-AzureRmAutomationAccount.md
+        - name: Set-AzureRMAutomationCertificate
+          href: AzureRM.Automation/Set-AzureRMAutomationCertificate.md
+        - name: Set-AzureRMAutomationConnectionFieldValue
+          href: AzureRM.Automation/Set-AzureRMAutomationConnectionFieldValue.md
+        - name: Set-AzureRMAutomationCredential
+          href: AzureRM.Automation/Set-AzureRMAutomationCredential.md
         - name: Set-AzureRmAutomationDscNode
           href: AzureRM.Automation/Set-AzureRmAutomationDscNode.md
         - name: Set-AzureRmAutomationModule
           href: AzureRM.Automation/Set-AzureRmAutomationModule.md
+        - name: Set-AzureRMAutomationRunbook
+          href: AzureRM.Automation/Set-AzureRMAutomationRunbook.md
+        - name: Set-AzureRMAutomationSchedule
+          href: AzureRM.Automation/Set-AzureRMAutomationSchedule.md
+        - name: Set-AzureRMAutomationVariable
+          href: AzureRM.Automation/Set-AzureRMAutomationVariable.md
+        - name: Set-AzureRMAutomationWebhook
+          href: AzureRM.Automation/Set-AzureRMAutomationWebhook.md
         - name: Start-AzureRmAutomationDscCompilationJob
           href: AzureRM.Automation/Start-AzureRmAutomationDscCompilationJob.md
+        - name: Start-AzureRMAutomationRunbook
+          href: AzureRM.Automation/Start-AzureRMAutomationRunbook.md
+        - name: Stop-AzureRMAutomationJob
+          href: AzureRM.Automation/Stop-AzureRMAutomationJob.md
+        - name: Suspend-AzureRMAutomationJob
+          href: AzureRM.Automation/Suspend-AzureRMAutomationJob.md
         - name: Unregister-AzureRmAutomationDscNode
           href: AzureRM.Automation/Unregister-AzureRmAutomationDscNode.md
+        - name: Unregister-AzureRMAutomationScheduledRunbook
+          href: AzureRM.Automation/Unregister-AzureRMAutomationScheduledRunbook.md
     - name: Availability Sets
       href: 'AzureRM.Compute/index.md#availability_sets'
       items:
@@ -1219,10 +1299,14 @@
           href: AzureRM.OperationalInsights/Set-AzureRmOperationalInsightsWorkspace.md
         - name: Get-AzureRmVMBootDiagnosticsData
           href: AzureRM.Compute/Get-AzureRmVMBootDiagnosticsData.md
+        - name: Get-AzureRMVMDiagnosticsExtension
+          href: AzureRM.Compute/Get-AzureRMVMDiagnosticsExtension.md
         - name: Remove-AzureRmVMDiagnosticsExtension
           href: AzureRM.Compute/Remove-AzureRmVMDiagnosticsExtension.md
         - name: Set-AzureRmVMBootDiagnostics
           href: AzureRM.Compute/Set-AzureRmVMBootDiagnostics.md
+        - name: Set-AzureRMVMDiagnosticsExtension
+          href: AzureRM.Compute/Set-AzureRMVMDiagnosticsExtension.md
         - name: Get-AzureRmLogicApp
           href: AzureRM.LogicApp/Get-AzureRmLogicApp.md
         - name: Get-AzureRmLogicAppRunAction
@@ -1292,103 +1376,6 @@
           href: AzureRM.NotificationHubs/Set-AzureRmNotificationHubsNamespace.md
         - name: Set-AzureRmNotificationHubsNamespaceAuthorizationRules
           href: AzureRM.NotificationHubs/Set-AzureRmNotificationHubsNamespaceAuthorizationRules.md
-    - name: Others
-      href: 'AzureRM.Compute/index.md#others'
-      items:
-        - name: Add-AzureRMVhd
-          href: AzureRM.Compute/Add-AzureRMVhd.md
-        - name: Get-AzureRMVMDiagnosticsExtension
-          href: AzureRM.Compute/Get-AzureRMVMDiagnosticsExtension.md
-        - name: Get-AzureRMVMSqlServerExtension
-          href: AzureRM.Compute/Get-AzureRMVMSqlServerExtension.md
-        - name: Remove-AzureRMVMSqlServerExtension
-          href: AzureRM.Compute/Remove-AzureRMVMSqlServerExtension.md
-        - name: Set-AzureRMVMDataDisk
-          href: AzureRM.Compute/Set-AzureRMVMDataDisk.md
-        - name: Set-AzureRMVMDiagnosticsExtension
-          href: AzureRM.Compute/Set-AzureRMVMDiagnosticsExtension.md
-        - name: Set-AzureRMVMSqlServerExtension
-          href: AzureRM.Compute/Set-AzureRMVMSqlServerExtension.md
-        - name: Export-AzureRMAutomationRunbook
-          href: AzureRM.Automation/Export-AzureRMAutomationRunbook.md
-        - name: Get-AzureRMAutomationCertificate
-          href: AzureRM.Automation/Get-AzureRMAutomationCertificate.md
-        - name: Get-AzureRMAutomationConnection
-          href: AzureRM.Automation/Get-AzureRMAutomationConnection.md
-        - name: Get-AzureRMAutomationCredential
-          href: AzureRM.Automation/Get-AzureRMAutomationCredential.md
-        - name: Get-AzureRMAutomationJob
-          href: AzureRM.Automation/Get-AzureRMAutomationJob.md
-        - name: Get-AzureRMAutomationJobOutput
-          href: AzureRM.Automation/Get-AzureRMAutomationJobOutput.md
-        - name: Get-AzureRMAutomationRunbook
-          href: AzureRM.Automation/Get-AzureRMAutomationRunbook.md
-        - name: Get-AzureRMAutomationSchedule
-          href: AzureRM.Automation/Get-AzureRMAutomationSchedule.md
-        - name: Get-AzureRMAutomationScheduledRunbook
-          href: AzureRM.Automation/Get-AzureRMAutomationScheduledRunbook.md
-        - name: Get-AzureRMAutomationVariable
-          href: AzureRM.Automation/Get-AzureRMAutomationVariable.md
-        - name: Get-AzureRMAutomationWebhook
-          href: AzureRM.Automation/Get-AzureRMAutomationWebhook.md
-        - name: Import-AzureRMAutomationRunbook
-          href: AzureRM.Automation/Import-AzureRMAutomationRunbook.md
-        - name: New-AzureRMAutomationCertificate
-          href: AzureRM.Automation/New-AzureRMAutomationCertificate.md
-        - name: New-AzureRMAutomationConnection
-          href: AzureRM.Automation/New-AzureRMAutomationConnection.md
-        - name: New-AzureRMAutomationCredential
-          href: AzureRM.Automation/New-AzureRMAutomationCredential.md
-        - name: New-AzureRMAutomationRunbook
-          href: AzureRM.Automation/New-AzureRMAutomationRunbook.md
-        - name: New-AzureRMAutomationSchedule
-          href: AzureRM.Automation/New-AzureRMAutomationSchedule.md
-        - name: New-AzureRMAutomationVariable
-          href: AzureRM.Automation/New-AzureRMAutomationVariable.md
-        - name: New-AzureRMAutomationWebhook
-          href: AzureRM.Automation/New-AzureRMAutomationWebhook.md
-        - name: Publish-AzureRMAutomationRunbook
-          href: AzureRM.Automation/Publish-AzureRMAutomationRunbook.md
-        - name: Register-AzureRMAutomationScheduledRunbook
-          href: AzureRM.Automation/Register-AzureRMAutomationScheduledRunbook.md
-        - name: Remove-AzureRMAutomationCertificate
-          href: AzureRM.Automation/Remove-AzureRMAutomationCertificate.md
-        - name: Remove-AzureRMAutomationConnection
-          href: AzureRM.Automation/Remove-AzureRMAutomationConnection.md
-        - name: Remove-AzureRMAutomationCredential
-          href: AzureRM.Automation/Remove-AzureRMAutomationCredential.md
-        - name: Remove-AzureRMAutomationRunbook
-          href: AzureRM.Automation/Remove-AzureRMAutomationRunbook.md
-        - name: Remove-AzureRMAutomationSchedule
-          href: AzureRM.Automation/Remove-AzureRMAutomationSchedule.md
-        - name: Remove-AzureRMAutomationVariable
-          href: AzureRM.Automation/Remove-AzureRMAutomationVariable.md
-        - name: Remove-AzureRMAutomationWebhook
-          href: AzureRM.Automation/Remove-AzureRMAutomationWebhook.md
-        - name: Resume-AzureRMAutomationJob
-          href: AzureRM.Automation/Resume-AzureRMAutomationJob.md
-        - name: Set-AzureRMAutomationCertificate
-          href: AzureRM.Automation/Set-AzureRMAutomationCertificate.md
-        - name: Set-AzureRMAutomationConnectionFieldValue
-          href: AzureRM.Automation/Set-AzureRMAutomationConnectionFieldValue.md
-        - name: Set-AzureRMAutomationCredential
-          href: AzureRM.Automation/Set-AzureRMAutomationCredential.md
-        - name: Set-AzureRMAutomationRunbook
-          href: AzureRM.Automation/Set-AzureRMAutomationRunbook.md
-        - name: Set-AzureRMAutomationSchedule
-          href: AzureRM.Automation/Set-AzureRMAutomationSchedule.md
-        - name: Set-AzureRMAutomationVariable
-          href: AzureRM.Automation/Set-AzureRMAutomationVariable.md
-        - name: Set-AzureRMAutomationWebhook
-          href: AzureRM.Automation/Set-AzureRMAutomationWebhook.md
-        - name: Start-AzureRMAutomationRunbook
-          href: AzureRM.Automation/Start-AzureRMAutomationRunbook.md
-        - name: Stop-AzureRMAutomationJob
-          href: AzureRM.Automation/Stop-AzureRMAutomationJob.md
-        - name: Suspend-AzureRMAutomationJob
-          href: AzureRM.Automation/Suspend-AzureRMAutomationJob.md
-        - name: Unregister-AzureRMAutomationScheduledRunbook
-          href: AzureRM.Automation/Unregister-AzureRMAutomationScheduledRunbook.md
     - name: Policies
       href: 'AzureRM.SiteRecovery/index.md#policies'
       items:
@@ -1701,8 +1688,14 @@
     - name: SQL
       href: 'AzureRM.Compute/index.md#sql'
       items:
+        - name: Get-AzureRMVMSqlServerExtension
+          href: AzureRM.Compute/Get-AzureRMVMSqlServerExtension.md
         - name: New-AzureVMSqlServerAutoPatchingConfig
           href: AzureRM.Compute/New-AzureVMSqlServerAutoPatchingConfig.md
+        - name: Remove-AzureRMVMSqlServerExtension
+          href: AzureRM.Compute/Remove-AzureRMVMSqlServerExtension.md
+        - name: Set-AzureRMVMSqlServerExtension
+          href: AzureRM.Compute/Set-AzureRMVMSqlServerExtension.md
     - name: Storage
       href: 'AzureRM.Compute/index.md#storage'
       items:
@@ -2128,6 +2121,8 @@
           href: AzureRM.Compute/Remove-AzureRmVMDataDisk.md
         - name: Remove-AzureRmVMDiskEncryptionExtension
           href: AzureRM.Compute/Remove-AzureRmVMDiskEncryptionExtension.md
+        - name: Set-AzureRMVMDataDisk
+          href: AzureRM.Compute/Set-AzureRMVMDataDisk.md
         - name: Set-AzureRmVMDiskEncryptionExtension
           href: AzureRM.Compute/Set-AzureRmVMDiskEncryptionExtension.md
         - name: Set-AzureRmVMOSDisk
@@ -2197,6 +2192,8 @@
     - name: VM VHDs
       href: 'AzureRM.Compute/index.md#vm_vhds'
       items:
+        - name: Add-AzureRMVhd
+          href: AzureRM.Compute/Add-AzureRMVhd.md
         - name: Save-AzureRmVhd
           href: AzureRM.Compute/Save-AzureRmVhd.md
     - name: VPN

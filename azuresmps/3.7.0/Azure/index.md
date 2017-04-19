@@ -245,7 +245,7 @@ Get-WAPackVMSubnet: Virtual Machines
 Get-WAPackVMTemplate: Virtual Machines
 Get-WAPackVNet: Azure
 Grant-AzureHDInsightHttpServicesAccess: HD Insights
-Grant-AzureHdinsightRdpAccess: Others
+Grant-AzureHdinsightRdpAccess: HD Insights
 Import-AzurePublishSettingsFile: Azure
 Import-AzureSiteRecoveryVaultSettingsFile: Recovery
 Import-AzureStorSimpleLegacyApplianceConfig: Azure
@@ -478,7 +478,7 @@ Resume-AzureAutomationJob: Automation
 Resume-AzureSiteRecoveryJob: Recovery
 Resume-WAPackVM: Virtual Machines
 Revoke-AzureHDInsightHttpServicesAccess: HD Insights
-Revoke-AzureHdinsightRdpAccess: Others
+Revoke-AzureHdinsightRdpAccess: HD Insights
 Save-AzureServiceProjectPackage: Azure
 Save-AzureVhd: VM VHDs
 Save-AzureVMImage: VM Images

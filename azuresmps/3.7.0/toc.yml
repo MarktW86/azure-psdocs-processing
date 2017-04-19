@@ -649,6 +649,8 @@
           href: Azure/Get-AzureHDInsightProperties.md
         - name: Grant-AzureHDInsightHttpServicesAccess
           href: Azure/Grant-AzureHDInsightHttpServicesAccess.md
+        - name: Grant-AzureHdinsightRdpAccess
+          href: Azure/Grant-AzureHdinsightRdpAccess.md
         - name: Invoke-AzureHDInsightHiveJob
           href: Azure/Invoke-AzureHDInsightHiveJob.md
         - name: New-AzureHDInsightCluster
@@ -669,6 +671,8 @@
           href: Azure/Remove-AzureHDInsightCluster.md
         - name: Revoke-AzureHDInsightHttpServicesAccess
           href: Azure/Revoke-AzureHDInsightHttpServicesAccess.md
+        - name: Revoke-AzureHdinsightRdpAccess
+          href: Azure/Revoke-AzureHdinsightRdpAccess.md
         - name: Set-AzureHDInsightClusterSize
           href: Azure/Set-AzureHDInsightClusterSize.md
         - name: Set-AzureHDInsightDefaultStorage
@@ -818,8 +822,6 @@
           href: Azure/Get-AzureManagedCacheLocation.md
         - name: Get-AzureManagedCacheNamedCache
           href: Azure/Get-AzureManagedCacheNamedCache.md
-        - name: Grant-AzureHdinsightRdpAccess
-          href: Azure/Grant-AzureHdinsightRdpAccess.md
         - name: New-AzureManagedCache
           href: Azure/New-AzureManagedCache.md
         - name: New-AzureManagedCacheAccessKey
@@ -830,8 +832,6 @@
           href: Azure/Remove-AzureManagedCache.md
         - name: Remove-AzureManagedCacheNamedCache
           href: Azure/Remove-AzureManagedCacheNamedCache.md
-        - name: Revoke-AzureHdinsightRdpAccess
-          href: Azure/Revoke-AzureHdinsightRdpAccess.md
         - name: Set-AzureManagedCache
           href: Azure/Set-AzureManagedCache.md
         - name: Set-AzureManagedCacheNamedCache

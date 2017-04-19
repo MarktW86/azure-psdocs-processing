@@ -16,7 +16,7 @@ manager: erickson-doug
 open_to_public_contributors: true
 ms.service: big-compute
 Add-AzureRmContainerServiceAgentPoolProfile: Container Service
-Add-AzureRMVhd: Others
+Add-AzureRMVhd: VM VHDs
 Add-AzureRmVMAdditionalUnattendContent: Virtual Machines
 Add-AzureRmVMDataDisk: VM Disks
 Add-AzureRmVMNetworkInterface: Virtual Network
@@ -39,7 +39,7 @@ Get-AzureRmVMAEMExtension: Virtual Machines
 Get-AzureRmVMBootDiagnosticsData: Monitoring
 Get-AzureRmVMChefExtension: Virtual Machines
 Get-AzureRmVMCustomScriptExtension: Virtual Machines
-Get-AzureRMVMDiagnosticsExtension: Others
+Get-AzureRMVMDiagnosticsExtension: Monitoring
 Get-AzureRmVMDiskEncryptionStatus: VM Disks
 Get-AzureRmVMDscExtension: Virtual Machines
 Get-AzureRmVMDscExtensionStatus: Virtual Machines
@@ -51,7 +51,7 @@ Get-AzureRmVMImageOffer: VM Images
 Get-AzureRmVMImagePublisher: VM Images
 Get-AzureRmVMImageSku: VM Images
 Get-AzureRmVMSize: Virtual Machines
-Get-AzureRMVMSqlServerExtension: Others
+Get-AzureRMVMSqlServerExtension: SQL
 Get-AzureRmVmss: VM Scale Sets
 Get-AzureRmVmssSku: VM Scale Sets
 Get-AzureRmVmssVM: Virtual Machines
@@ -84,7 +84,7 @@ Remove-AzureRmVMDiskEncryptionExtension: VM Disks
 Remove-AzureRmVMDscExtension: Virtual Machines
 Remove-AzureRmVMExtension: Virtual Machines
 Remove-AzureRmVMNetworkInterface: Virtual Network
-Remove-AzureRMVMSqlServerExtension: Others
+Remove-AzureRMVMSqlServerExtension: SQL
 Remove-AzureRmVmss: VM Scale Sets
 Remove-AzureRmVmssExtension: VM Scale Sets
 Remove-AzureRmVmssNetworkInterfaceConfiguration: Virtual Network
@@ -101,8 +101,8 @@ Set-AzureRmVMBginfoExtension: Virtual Machines
 Set-AzureRmVMBootDiagnostics: Monitoring
 Set-AzureRmVMChefExtension: Virtual Machines
 Set-AzureRmVMCustomScriptExtension: Virtual Machines
-Set-AzureRMVMDataDisk: Others
-Set-AzureRMVMDiagnosticsExtension: Others
+Set-AzureRMVMDataDisk: VM Disks
+Set-AzureRMVMDiagnosticsExtension: Monitoring
 Set-AzureRmVMDiskEncryptionExtension: VM Disks
 Set-AzureRmVMDscExtension: Virtual Machines
 Set-AzureRmVMExtension: Virtual Machines
@@ -110,7 +110,7 @@ Set-AzureRmVMOperatingSystem: Virtual Machines
 Set-AzureRmVMOSDisk: VM Disks
 Set-AzureRmVMPlan: Virtual Machines
 Set-AzureRmVMSourceImage: VM Images
-Set-AzureRMVMSqlServerExtension: Others
+Set-AzureRMVMSqlServerExtension: SQL
 Set-AzureRmVmss: VM Scale Sets
 Set-AzureRmVmssOsProfile: VM Scale Sets
 Set-AzureRmVmssStorageProfile: Storage

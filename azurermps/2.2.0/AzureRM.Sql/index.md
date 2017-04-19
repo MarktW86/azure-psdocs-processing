@@ -24,7 +24,7 @@ Get-AzureRmSqlDatabaseBackupLongTermRetentionPolicy: Backup
 Get-AzureRmSqlDatabaseDataMaskingPolicy: Policies
 Get-AzureRmSqlDatabaseDataMaskingRule: SQL
 Get-AzureRmSqlDatabaseExpanded: SQL
-Get-AzureRMSqlDatabaseGeoBackup: Others
+Get-AzureRMSqlDatabaseGeoBackup: Backup
 Get-AzureRmSqlDatabaseGeoBackupPolicy: Backup
 Get-AzureRmSqlDatabaseImportExportStatus: SQL
 Get-AzureRmSqlDatabaseIndexRecommendations: SQL
@@ -36,7 +36,7 @@ Get-AzureRmSqlDatabaseThreatDetectionPolicy: Policies
 Get-AzureRmSqlDatabaseTransparentDataEncryption: SQL
 Get-AzureRmSqlDatabaseTransparentDataEncryptionActivity: SQL
 Get-AzureRmSqlDatabaseUpgradeHint: SQL
-Get-AzureRMSqlDeletedDatabaseBackup: Others
+Get-AzureRMSqlDeletedDatabaseBackup: Backup
 Get-AzureRmSqlElasticPool: SQL
 Get-AzureRmSqlElasticPoolActivity: SQL
 Get-AzureRmSqlElasticPoolAdvisor: SQL
