@@ -1,7 +1,7 @@
 ---
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/docs-conceptual/Working-with-Administrative-Units.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/docs-conceptual/Working-with-Administrative-Units.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/61c3bf1e775aa820a9887d5ce2f428a672fdfbd8
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/8d32acbc63e9fcdc61e4fd51a6c0e09777fa61b0
 ---
 # Working with Administrative Units
 
@@ -9,7 +9,8 @@ Here are some demo scripts that you can use to learn how to use Azure AD PowerSh
 
 #Demo scripts
 
-Setup.ps1	Run this script initially to create the users and admins used later in the demo.
+##Setup.ps1	
+Run this script initially to create the users and admins used later in the demo.
 ```powershell
 # Login as Global Administrator
 Connect-AzureAD
@@ -31,7 +32,8 @@ New-AzureADUser -UserPrincipalName "MobileUserAdmin@$initialDomain" -DisplayName
 
 ```
 
-Global Admin.ps1	Run this script after the setup script to walk through the experience of a global admin creating and populating the AUs, and assigning the respective AU-scoped User Account and Helpdesk Admins.
+##Global Admin.ps1	
+Run this script after the setup script to walk through the experience of a global admin creating and populating the AUs, and assigning the respective AU-scoped User Account and Helpdesk Admins.
 ```powershell
 #Login as Global Administrator
 Connect-AzureAD
@@ -118,7 +120,8 @@ Get-AzureADScopedRoleMembership -ObjectId $eastCoastAU.ObjectId | fl *
 ###################################################################################
 ```
 
-AU UA Admin.ps1	Run this script after the Global Admin script to walk through the experience of an AU-scoped User Account Admin updating profile information, resetting passwords, and assigning licenses for users in their AU.
+##AU UA Admin.ps1	
+Run this script after the Global Admin script to walk through the experience of an AU-scoped User Account Admin updating profile information, resetting passwords, and assigning licenses for users in their AU.
 ```powershell
 #Login as AU-scoped User Account Admin (WestCoastUserAdmin@<domain>, PS: Windows2000)
 Connect-AzureAD
@@ -150,7 +153,8 @@ $eastCoastUser1 = Get-AzureADUser -Filter "UserPrincipalName eq 'EastCoastUser1@
 Set-AzureADUserPassword -ObjectId $eastCoastUser1.ObjectId -Password $password
 ```
 
-AU Helpdesk Admin.ps1	Run this script after the Global Admin script to walk through the experience of an AU-scoped Helpdesk Admin resetting passwords for users in their AU.
+##AU Helpdesk Admin.ps1	
+Run this script after the Global Admin script to walk through the experience of an AU-scoped Helpdesk Admin resetting passwords for users in their AU.
 ```powershell
 #Login as East Coast Helpdesk Admin (EastCoastHelpdeskAdmin@<domain>, PS: Windows2000)
 Connect-AzureAD
@@ -168,7 +172,8 @@ $westCoastUser1 = Get-AzureADUser -Filter "UserPrincipalName eq 'WestCoastUser1@
 Set-AzureADUserPassword -ObjectId $westCoastUser1.ObjectId -Password $password
 ```
 
-Cleanup.ps1	Run this script to delete the created users and AUs
+##Cleanup.ps1	
+Run this script to delete the created users and AUs
 ```powershell
 #Login as a Global Admin
 Connect-AzureAD
