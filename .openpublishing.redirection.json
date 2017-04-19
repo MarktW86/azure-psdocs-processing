@@ -7072,567 +7072,567 @@
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/Add-AzureRMResourceProviderRegistration.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackAdmin/Add-AzureRMResourceProviderRegistration",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/Add-AzureRMUsageConnection.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackAdmin/Add-AzureRMUsageConnection",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/AzureRM.AzureStackAdmin.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackAdmin",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/Get-AzureRMGalleryItem.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackAdmin/Get-AzureRMGalleryItem",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/Get-AzureRMManagedLocation.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackAdmin/Get-AzureRMManagedLocation",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/Get-AzureRMManagedSubscription.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackAdmin/Get-AzureRMManagedSubscription",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/Get-AzureRMOffer.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackAdmin/Get-AzureRMOffer",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/Get-AzureRMPlan.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackAdmin/Get-AzureRMPlan",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/Get-AzureRMResourceProviderRegistration.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackAdmin/Get-AzureRMResourceProviderRegistration",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/Get-AzureRMTenantSubscription.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackAdmin/Get-AzureRMTenantSubscription",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/Get-AzureRMUsageConnection.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackAdmin/Get-AzureRMUsageConnection",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/Get-AzureStackToken.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackAdmin/Get-AzureStackToken",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/New-AzureRMManagedLocation.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackAdmin/New-AzureRMManagedLocation",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/New-AzureRMManagedSubscription.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackAdmin/New-AzureRMManagedSubscription",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/New-AzureRMOffer.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackAdmin/New-AzureRMOffer",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/New-AzureRMPlan.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackAdmin/New-AzureRMPlan",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/New-AzureRMTenantSubscription.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackAdmin/New-AzureRMTenantSubscription",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/Remove-AzureRMGalleryItem.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackAdmin/Remove-AzureRMGalleryItem",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/Remove-AzureRMManagedLocation.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackAdmin/Remove-AzureRMManagedLocation",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/Remove-AzureRMManagedSubscription.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackAdmin/Remove-AzureRMManagedSubscription",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/Remove-AzureRMOffer.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackAdmin/Remove-AzureRMOffer",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/Remove-AzureRMPlan.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackAdmin/Remove-AzureRMPlan",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/Remove-AzureRMResourceProviderRegistration.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackAdmin/Remove-AzureRMResourceProviderRegistration",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/Remove-AzureRMTenantSubscription.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackAdmin/Remove-AzureRMTenantSubscription",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/Remove-AzureRMUsageConnection.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackAdmin/Remove-AzureRMUsageConnection",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/Set-AzureRMManagedLocation.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackAdmin/Set-AzureRMManagedLocation",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/Set-AzureRMManagedSubscription.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackAdmin/Set-AzureRMManagedSubscription",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/Set-AzureRMOffer.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackAdmin/Set-AzureRMOffer",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/Set-AzureRMPlan.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackAdmin/Set-AzureRMPlan",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/Set-AzureRMResourceProviderRegistration.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackAdmin/Set-AzureRMResourceProviderRegistration",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackAdmin/v1.2.6/Set-AzureRMTenantSubscription.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackAdmin/Set-AzureRMTenantSubscription",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Add-ACSFarm.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackStorage/Add-ACSFarm",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.10.0/AzureRM.AzureStackStorage.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackStorage",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Disable-ACSNode.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackStorage/Disable-ACSNode",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Enable-ACSNode.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackStorage/Enable-ACSNode",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Export-ACSLog.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackStorage/Export-ACSLog",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Get-ACSBlobService.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackStorage/Get-ACSBlobService",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Get-ACSBlobServiceMetric.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackStorage/Get-ACSBlobServiceMetric",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Get-ACSBlobServiceMetricDefinition.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackStorage/Get-ACSBlobServiceMetricDefinition",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Get-ACSEvent.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackStorage/Get-ACSEvent",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Get-ACSEventQuery.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackStorage/Get-ACSEventQuery",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Get-ACSFarm.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackStorage/Get-ACSFarm",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Get-ACSFarmMetric.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackStorage/Get-ACSFarmMetric",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Get-ACSFarmMetricDefinition.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackStorage/Get-ACSFarmMetricDefinition",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Get-ACSFault.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackStorage/Get-ACSFault",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Get-ACSManagementService.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackStorage/Get-ACSManagementService",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Get-ACSManagementServiceMetric.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackStorage/Get-ACSManagementServiceMetric",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Get-ACSManagementServiceMetricDefinition.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackStorage/Get-ACSManagementServiceMetricDefinition",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Get-ACSNode.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackStorage/Get-ACSNode",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Get-ACSNodeMetric.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackStorage/Get-ACSNodeMetric",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Get-ACSNodeMetricDefinition.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackStorage/Get-ACSNodeMetricDefinition",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Get-ACSRoleInstance.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackStorage/Get-ACSRoleInstance",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Get-ACSRoleInstanceMetric.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackStorage/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Get-ACSRoleInstanceMetricDefinition.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackStorage/Get-ACSRoleInstanceMetric",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Get-ACSShare.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackStorage/Get-ACSShare",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Get-ACSShareMetric.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackStorage/Get-ACSShareMetric",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Get-ACSShareMetricDefinition.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackStorage/Get-ACSShareMetricDefinition",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Get-ACSStorageAccount.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackStorage/Get-ACSStorageAccount",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Get-ACSTableService.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackStorage/Get-ACSTableService",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Get-ACSTableServiceMetric.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackStorage/Get-ACSTableServiceMetric",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Get-ACSTableServiceMetricDefinition.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackStorage/Get-ACSTableServiceMetricDefinition",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Resolve-ACSFault.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackStorage/Resolve-ACSFault",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Restart-ACSRoleInstance.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackStorage/Restart-ACSRoleInstance",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Set-ACSBlobService.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackStorage/Set-ACSBlobService",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Set-ACSFarm.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackStorage/Set-ACSFarm",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Set-ACSManagementService.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackStorage/Set-ACSManagementService",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Set-ACSTableService.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackStorage/Set-ACSTableService",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Start-ACSBlobServerRoleInstance.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackStorage/Start-ACSBlobServerRoleInstance",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Stop-ACSBlobServerRoleInstance.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackStorage/Stop-ACSBlobServerRoleInstance",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Sync-ACSStorageAccount.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackStorage/Sync-ACSStorageAccount",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Undo-ACSStorageAccountDeletion.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackStorage/Undo-ACSStorageAccountDeletion",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.10.0/Update-ACSRoleInstance.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackStorage/Update-ACSRoleInstance",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/Add-ACSFarm.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackStorage/Add-ACSFarm",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/AzureRM.AzureStackStorage.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackStorage/",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/Disable-ACSNode.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackStorage/Disable-ACSNode",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/Enable-ACSNode.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackStorage/Enable-ACSNode",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/Export-ACSLog.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackStorage/Export-ACSLog",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/Get-ACSBlobService.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackStorage/Get-ACSBlobService",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/Get-ACSBlobServiceMetric.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackStorage/Get-ACSBlobServiceMetric",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/Get-ACSBlobServiceMetricDefinition.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackStorage/Get-ACSBlobServiceMetricDefinition",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/Get-ACSEvent.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackStorage/Get-ACSEvent",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/Get-ACSEventQuery.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackStorage/Get-ACSEventQuery",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/Get-ACSFarm.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackStorage/Get-ACSFarm",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/Get-ACSFarmMetric.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackStorage//Get-ACSFarmMetric",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/Get-ACSFarmMetricDefinition.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackStorage/Get-ACSFarmMetricDefinition",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/Get-ACSFault.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackStorage/Get-ACSFault",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/Get-ACSManagementService.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackStorage/Get-ACSManagementService",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/Get-ACSManagementServiceMetric.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackStorage/Get-ACSManagementServiceMetric",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/Get-ACSManagementServiceMetricDefinition.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackStorage/Get-ACSManagementServiceMetricDefinition",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/Get-ACSNode.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackStorage/Get-ACSNode",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/Get-ACSNodeMetric.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackStorage/Get-ACSNodeMetric",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/Get-ACSNodeMetricDefinition.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackStorage/Get-ACSNodeMetricDefinition",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/Get-ACSRoleInstance.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackStorage/Get-ACSRoleInstance",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/Get-ACSRoleInstanceMetric.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackStorage/Get-ACSRoleInstanceMetric",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/Get-ACSRoleInstanceMetricDefinition.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackStorage/Get-ACSRoleInstanceMetricDefinition",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/Get-ACSShare.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackStorage/Get-ACSShare",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/Get-ACSShareMetric.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackStorage/Get-ACSShareMetric",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/Get-ACSShareMetricDefinition.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackStorage/Get-ACSShareMetricDefinition",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/Get-ACSStorageAccount.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackStorage/Get-ACSStorageAccount",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/Get-ACSTableService.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackStorage/Get-ACSTableService",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/Get-ACSTableServiceMetric.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackStorage/Get-ACSTableServiceMetric",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/Get-ACSTableServiceMetricDefinition.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackStorage/Get-ACSTableServiceMetricDefinition",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/Resolve-ACSFault.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackStorage/Resolve-ACSFault",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/Restart-ACSRoleInstance.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackStorage/Restart-ACSRoleInstance",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/Set-ACSBlobService.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackStorage/Set-ACSBlobService",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/Set-ACSFarm.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackStorage/Set-ACSFarm",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/Set-ACSManagementService.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackStorage/Set-ACSManagementService",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/Set-ACSTableService.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackStorage/Set-ACSTableService",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/Start-ACSBlobServerRoleInstance.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackStorage/Start-ACSBlobServerRoleInstance",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/Stop-ACSBlobServerRoleInstance.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackStorage/Stop-ACSBlobServerRoleInstance",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/Sync-ACSStorageAccount.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackStorage/Sync-ACSStorageAccount",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/Undo-ACSStorageAccountDeletion.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackStorage/Undo-ACSStorageAccountDeletion",
       "redirect_document_id": false
     },
     {
       "source_path": "ResourceManager/AzureRM.AzureStackStorage/v0.9.9.1/Update-ACSRoleInstance.md",
-      "redirect_url": "/powershell/azure/overview",
+      "redirect_url": "/powershell/module/AzureRM.AzureStackStorage/Update-ACSRoleInstance",
       "redirect_document_id": false
     },
     {
