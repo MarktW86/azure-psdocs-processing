@@ -1,7 +1,7 @@
 ---
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/docs-conceptual/install-adv2.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/docs-conceptual/install-adv2.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/89519a71b15faa926225b0dc24eb17b9dc1f09fd
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/81ba9c13de7f3f71cb209d80af58564009adbe3a
 ---
 # Azure Active Directory PowerShell Version 2
 
@@ -37,11 +37,11 @@ The Azure AD module is distributed using the PowerShell gallery. Installing item
 
 With the latest[PowerShellGet](http://go.microsoft.com/fwlink/?LinkID=760387&clcid=0x409)module, you can:
 
-- Search through items in the Gallery with    [**Find-Module**](http://go.microsoft.com/fwlink/?LinkID=760387&clcid=0x409)    and    [**Find-Script**](http://go.microsoft.com/fwlink/?LinkID=760387&clcid=0x409)
-- Save items to your system from the Gallery with    [**Save-Module**](http://go.microsoft.com/fwlink/?LinkID=760387&clcid=0x409)    and    [**Save-Script**](http://go.microsoft.com/fwlink/?LinkID=760387&clcid=0x409)
-- Install items from the Gallery with    [**Install-Module**](http://go.microsoft.com/fwlink/?LinkID=760387&clcid=0x409)    and    [**Install-Script**](http://go.microsoft.com/fwlink/?LinkID=760387&clcid=0x409)
-- Upload items to the Gallery with    [**Publish-Module**](http://go.microsoft.com/fwlink/?LinkID=760387&clcid=0x409)    and    [**Publish-Script**](http://go.microsoft.com/fwlink/?LinkID=760387&clcid=0x409)
-- Add your own custom repository with    [**Register-PSRepository**](http://go.microsoft.com/fwlink/?LinkID=760387&clcid=0x409)
+- Search through items in the Gallery with [**Find-Module**](http://go.microsoft.com/fwlink/?LinkID=760387&clcid=0x409) and [**Find-Script**](http://go.microsoft.com/fwlink/?LinkID=760387&clcid=0x409)
+- Save items to your system from the Gallery with [**Save-Module**](http://go.microsoft.com/fwlink/?LinkID=760387&clcid=0x409)    and  [**Save-Script**](http://go.microsoft.com/fwlink/?LinkID=760387&clcid=0x409)
+- Install items from the Gallery with [**Install-Module**](http://go.microsoft.com/fwlink/?LinkID=760387&clcid=0x409) and [**Install-Script**](http://go.microsoft.com/fwlink/?LinkID=760387&clcid=0x409)
+- Upload items to the Gallery with [**Publish-Module**](http://go.microsoft.com/fwlink/?LinkID=760387&clcid=0x409) and [**Publish-Script**](http://go.microsoft.com/fwlink/?LinkID=760387&clcid=0x409)
+- Add your own custom repository with [**Register-PSRepository**](http://go.microsoft.com/fwlink/?LinkID=760387&clcid=0x409)
 
 Check out the [Getting Started](psgallery/psgallery_gettingstarted.md) page for more information on how to use PowerShellGet commands with the Gallery. You can also run *Update-Help -Module PowerShellGet* to install local help for these commands.
 
