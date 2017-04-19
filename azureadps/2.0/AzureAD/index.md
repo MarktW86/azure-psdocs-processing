@@ -3,11 +3,11 @@ Module Name: AzureAD
 Module Guid: b433e830-b479-4f7f-9c80-9cc6c28e1b51
 Locale: en-US
 ms.assetid: 7D9D9507-ADE5-45BD-97F8-0CCCDA3D3B58
-updated_at: 03/22/2017 00:03 AM
-ms.date: 03/22/2017
+updated_at: 04/19/2017 16:04 PM
+ms.date: 04/19/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/AzureActiveDirectory.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/AzureActiveDirectory.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/510276534a1b22a6eb658f77f0b005d9bd86438f
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/4b4167fc15ef605561dc8407bc48f82ab1a71354
 ms.topic: conceptual
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -193,11 +193,7 @@ _isModulePage: true
 ---
 # Azure Active Directory V2 PowerShell module
 ## Description
-The Azure Active Directory version 2 PowerShell module can be downloaded and installed from the PowerShell Gallery, www.powershellgallery.com.  The gallery uses the PowerShellGet module.
-
-The PowerShellGet module requires PowerShell 3.0 or newer.
-
-Therefore, PowerShellGet requires one of the following operating systems:
+The Azure Active Directory version 2 PowerShell module can be downloaded and installed from the PowerShell Gallery, www.powershellgallery.com.  The gallery uses the PowerShellGet module. The PowerShellGet module requires PowerShell 3.0 or newer and requires one of the following operating systems:
 
 Windows 10
 Windows 8.1 Pro
@@ -207,10 +203,7 @@ Windows Server 2016 TP5
 Windows Server 2012 R2
 Windows Server 2008 R2 SP1
 
-PowerShellGet also requires .NET Framework 4.5 or above. You can install .NET Framework 4.5 or above from [here](https://www.microsoft.com/en-us/download/details.aspx?id=30653). 
-
-For more information, please refer to [this link](https://msdn.microsoft.com/powershell/gallery/readme)
-
+PowerShellGet also requires .NET Framework 4.5 or above. You can install .NET Framework 4.5 or above from [here](https://www.microsoft.com/en-us/download/details.aspx?id=30653). For more information, please refer to [this link](https://msdn.microsoft.com/powershell/gallery/readme)
 For more detailed info on installation of the AzureAD cmdlets please see: [Azure Active Directory PowerShell version 2](https://docs.microsoft.com/en-us/powershell/azuread/).
 
 These are the cmdlets in the Azure Active Directory v2 PowerShell module.
