@@ -1,13 +1,13 @@
 ---
-external help file: Microsoft.Open.AzureADBeta.Graph.PowerShell.dll-Help.xml
+external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 ms.assetid: 29A39191-9E64-4983-8C89-B9A6C574E621
 online version:
 schema: 2.0.0
-updated_at: 12/01/2016 17:12 PM
-ms.date: 12/01/2016
+updated_at: 04/20/2017 04:04 AM
+ms.date: 04/20/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADDomain.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADDomain.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/8f658f99458e2c236d5f4be363030b6f24cacc4c
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/424c08eff259398d1aa2f26116c38cea5e911b45
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub

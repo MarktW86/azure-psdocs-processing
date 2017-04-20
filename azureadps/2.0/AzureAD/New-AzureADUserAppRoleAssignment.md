@@ -3,11 +3,11 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 ms.assetid: 3B666786-2620-4E80-9A36-552B942A9F7C
 online version:
 schema: 2.0.0
-updated_at: 03/20/2017 21:03 PM
-ms.date: 03/20/2017
+updated_at: 04/20/2017 04:04 AM
+ms.date: 04/20/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADUserAppRoleAssignment.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADUserAppRoleAssignment.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/539ba3ab8ed81dbbb2e2e1e30c1e8bc44b560602
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/424c08eff259398d1aa2f26116c38cea5e911b45
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -35,10 +35,9 @@ The **New-AzureADUserAppRoleAssignment** cmdlet assigns a user to an application
 
 ### Example 1: Assign a user to an application without roles
 ```
-
 # Get AppId of the app to assign the user to
 
-$appId = Get-AzureADApplication -SearchString “<Your App's display name>”
+$appId = Get-AzureADApplication -SearchString â€œ<Your App's display name>â€
 
 # Get the user to be added
 
@@ -46,7 +45,7 @@ $user = Get-AzureADUser -searchstring "<Your user's UPN>"
 
 # Get the service principal for the app you want to assign the user to
 
-$servicePrincipal = Get-AzureADServicePrincipal -Filter “appId eq ‘$appId'”
+$servicePrincipal = Get-AzureADServicePrincipal -Filter â€œappId eq â€˜$appId'â€
 
 # Create the user app role assignment
 
@@ -56,7 +55,6 @@ New-AzureADUserAppRoleAssignment -ObjectId $user.ObjectId -PrincipalId $user.Obj
 This command assigns a user to and application that doesn;t have any roles.
 
 ### Example 2: Assign a user to a specific role within an application
-
 ```
 $username = "<You user's UPN>"
 $appname = "<Your App's display name>"

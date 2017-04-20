@@ -3,11 +3,11 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 ms.assetid: 547BE76A-9D1F-4DF2-A3FB-BA6E735CD556
 online version:
 schema: 2.0.0
-updated_at: 02/04/2017 00:02 AM
-ms.date: 02/04/2017
+updated_at: 04/20/2017 04:04 AM
+ms.date: 04/20/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADApplication.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADApplication.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/3c958c260fe07ce8f34599794f089c4b3c1b8115
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/424c08eff259398d1aa2f26116c38cea5e911b45
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -34,7 +34,7 @@ Set-AzureADApplication -ObjectId <String>
  [-KnownClientApplications <System.Collections.Generic.List`1[System.String]>] [-LogoutUrl <String>]
  [-Oauth2AllowImplicitFlow <Boolean>] [-Oauth2AllowUrlPathMatching <Boolean>]
  [-Oauth2Permissions <System.Collections.Generic.List`1[Microsoft.Open.AzureAD.Model.OAuth2Permission]>]
- [-OAuth2RequiredPostResponse <Boolean>]
+ [-Oauth2RequirePostResponse <Boolean>]
  [-PasswordCredentials <System.Collections.Generic.List`1[Microsoft.Open.AzureAD.Model.PasswordCredential]>]
  [-PublicClient <Boolean>] [-RecordConsentConditions <String>]
  [-ReplyUrls <System.Collections.Generic.List`1[System.String]>]
@@ -268,21 +268,6 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -OAuth2RequiredPostResponse
-Specifies whether, as part of OAuth 2.0 token requests, Azure AD will allow POST requests, as opposed to GET requests. The default is false, which specifies that only GET requests will be allowed.
-
-```yaml
-Type: Boolean
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
 ### -ObjectId
 Specifies the ID of an application in Azure AD.
 
@@ -374,6 +359,21 @@ Accept wildcard characters: False
 ### -SamlMetadataUrl
 ```yaml
 Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -Oauth2RequirePostResponse
+{{Fill Oauth2RequirePostResponse Description}}
+
+```yaml
+Type: Boolean
 Parameter Sets: (All)
 Aliases: 
 

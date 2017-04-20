@@ -3,11 +3,11 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 ms.assetid: 7DC1958A-D7DE-44AF-A5B1-9C90ABF0B89A
 online version:
 schema: 2.0.0
-updated_at: 03/17/2017 15:03 PM
-ms.date: 03/17/2017
+updated_at: 04/20/2017 04:04 AM
+ms.date: 04/20/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADServicePrincipal.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADServicePrincipal.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/8fd00d1ecfa6331cf12575deac6511b2c92cfa1f
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/424c08eff259398d1aa2f26116c38cea5e911b45
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -245,8 +245,8 @@ Accept wildcard characters: False
 ### -ServicePrincipalNames
 Specifies an array of service principal names. Based on the identifierURIs collection, plus the application's appId property, these URIs are used to reference an application's service principal. A client will use these to:
 
-• populate requiredResourceAccess, via "Permissions to other applications” in the Azure classic portal.
-• specify a resource URI to acquire an access token, which is the URI returned in the “aud” claim.
+â€¢ populate requiredResourceAccess, via "Permissions to other applicationsâ€ in the Azure classic portal.
+â€¢ specify a resource URI to acquire an access token, which is the URI returned in the â€œaudâ€ claim.
 
 
 ```yaml

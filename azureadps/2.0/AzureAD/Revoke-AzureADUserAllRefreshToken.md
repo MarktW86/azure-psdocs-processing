@@ -2,11 +2,11 @@
 external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 02/08/2017 23:02 PM
-ms.date: 02/08/2017
+updated_at: 04/20/2017 04:04 AM
+ms.date: 04/20/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Revoke-AzureADUserAllRefreshToken.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Revoke-AzureADUserAllRefreshToken.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/1832f8b83a65336d1b6d21bb9072f421b6a5438c
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/424c08eff259398d1aa2f26116c38cea5e911b45
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -23,7 +23,7 @@ Invalidates the refresh tokens issued to applications for a user.
 ## SYNTAX
 
 ```
-Revoke-AzureADUserAllRefreshToken -ObjectId <String>
+Revoke-AzureADUserAllRefreshToken -ObjectId <String> [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -53,9 +53,12 @@ Aliases:
 Required: True
 Position: Named
 Default value: None
-Accept pipeline input: True (ByValue, ByPropertyName)
+Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
 ```
+
+### CommonParameters
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 
@@ -64,6 +67,7 @@ Accept wildcard characters: False
 ## NOTES
 
 ## RELATED LINKS
+
 [Revoke-AzureADSignedInUserAllRefreshToken](./Revoke-AzureADSignedInUserAllRefreshToken.md)
 
 [(#AzureAD: Certificate based authentication for iOS and Android now in preview!](https://blogs.technet.microsoft.com/enterprisemobility/2016/07/18/azuread-certificate-based-authentication-for-ios-and-android-now-in-preview/)

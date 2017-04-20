@@ -2,11 +2,11 @@
 external help file: Microsoft.Open.MS.GraphBeta.PowerShell.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 03/28/2017 21:03 PM
-ms.date: 03/28/2017
+updated_at: 04/20/2017 04:04 AM
+ms.date: 04/20/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADMSGroup.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADMSGroup.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/7d11b61f46019ef67575d2d44ef468ddc878c44b
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/424c08eff259398d1aa2f26116c38cea5e911b45
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -60,21 +60,6 @@ The sequence of two quotation marks in the rule are converted to single quotatio
 
 ## PARAMETERS
 
-### -Id
-Specifies the ID of the group for which attribute values are modified.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName, ByValue)
-Accept wildcard characters: False
-```
-
 ### -Description
 Specifies a description for the group.
 
@@ -105,6 +90,37 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
+### -GroupTypes
+Specifies that the group is a dynamic group. 
+To create a dynamic group, specify a value of DynamicMembership.
+
+```yaml
+Type: System.Collections.Generic.List`1[System.String]
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -Id
+Specifies the ID of the group for which attribute values are modified.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName, ByValue)
+Accept wildcard characters: False
+```
+
 ### -MailEnabled
 Specifies whether this group is mail enabled.
 
@@ -128,38 +144,6 @@ If _MailEnabled_ is $False, you must specify a mail nickname.
 
 ```yaml
 Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -SecurityEnabled
-Specifies whether the group is security enabled.
-For security groups, this value must be $True.
-
-```yaml
-Type: Boolean
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -GroupTypes
-Specifies that the group is a dynamic group. 
-To create a dynamic group, specify a value of DynamicMembership.
-
-```yaml
-Type: System.Collections.Generic.List`1[System.String]
 Parameter Sets: (All)
 Aliases: 
 
@@ -220,7 +204,36 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
+### -SecurityEnabled
+Specifies whether the group is security enabled.
+For security groups, this value must be $True.
 
+```yaml
+Type: Boolean
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -Visibility
+{{Fill Visibility Description}}
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
 
 ### CommonParameters
 This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).

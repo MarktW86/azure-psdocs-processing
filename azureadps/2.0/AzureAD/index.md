@@ -74,7 +74,6 @@ Get-AzureADPolicy: Policies
 Get-AzureADPolicyAppliedObject: Policies
 Get-AzureADScopedRoleMembership: Administrative Units
 Get-AzureADServiceAppRoleAssignment: Service Principals
-Get-AzureADServiceConfigurationRecord: Others
 Get-AzureADServicePrincipal: Service Principals
 Get-AzureADServicePrincipalCreatedObject: Service Principals
 Get-AzureADServicePrincipalKeyCredential: Service Principals
@@ -100,7 +99,6 @@ Get-AzureADUserOwnedDevice: Users
 Get-AzureADUserOwnedObject: Users
 Get-AzureADUserRegisteredDevice: Users
 Get-AzureADUserThumbnailPhoto: Users
-Get-AzureADVerificationDnsRecord: Others
 New-AzureADAdministrativeUnit: Administrative Units
 New-AzureADApplication: Applications
 New-AzureADApplicationExtensionProperty: Applications
@@ -129,7 +127,6 @@ Remove-AzureADApplicationExtensionProperty: Applications
 Remove-AzureADApplicationKeyCredential: Applications
 Remove-AzureADApplicationOwner: Applications
 Remove-AzureADApplicationPasswordCredential: Applications
-Remove-AzureADApplicationPolicy: Others
 Remove-AzureADContact: Contacts
 Remove-AzureADContactManager: Contacts
 Remove-AzureADDevice: Devices
@@ -153,7 +150,6 @@ Remove-AzureADServicePrincipal: Service Principals
 Remove-AzureADServicePrincipalKeyCredential: Service Principals
 Remove-AzureADServicePrincipalOwner: Service Principals
 Remove-AzureADServicePrincipalPasswordCredential: Service Principals
-Remove-AzureADServicePrincipalPolicy: Others
 Remove-AzureADTrustedCertificateAuthority: Certificate Authorities
 Remove-AzureADUser: Users
 Remove-AzureADUserAppRoleAssignment: Users
@@ -170,8 +166,6 @@ Select-AzureADGroupIdsUserIsMemberOf: Users
 Set-AzureADAdministrativeUnit: Administrative Units
 Set-AzureADApplication: Applications
 Set-AzureADApplicationLogo: Applications
-Set-AzureADContact: Others
-Set-AzureADContactManager: Others
 Set-AzureADDevice: Devices
 Set-AzureADDirectorySetting: Directory Settings
 Set-AzureADDomain: Domains

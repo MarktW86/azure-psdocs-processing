@@ -2,11 +2,11 @@
 external help file: Microsoft.Open.MS.GraphBeta.PowerShell.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 03/18/2017 00:03 AM
-ms.date: 03/18/2017
+updated_at: 04/20/2017 04:04 AM
+ms.date: 04/20/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADMSDeletedDirectoryObject.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADMSDeletedDirectoryObject.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/1263ae8ffe474c57d7a10e2353316c0deac8aa18
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/424c08eff259398d1aa2f26116c38cea5e911b45
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -23,7 +23,7 @@ This cmdlet is used to permanently delete a previously deleted directory object
 ## SYNTAX
 
 ```
-Remove-AzureADMSDeletedDirectoryObject -Id <String>
+Remove-AzureADMSDeletedDirectoryObject -Id <String> [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -55,10 +55,12 @@ Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
 ```
 
+### CommonParameters
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
+
 ## INPUTS
 
 ### System.String
-
 
 ## OUTPUTS
 

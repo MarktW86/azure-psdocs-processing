@@ -2,11 +2,11 @@
 external help file: Microsoft.Open.MS.GraphBeta.PowerShell.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 03/29/2017 04:03 AM
-ms.date: 03/29/2017
+updated_at: 04/20/2017 04:04 AM
+ms.date: 04/20/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADMSGroup.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADMSGroup.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/6736f295edae681312c8b24262f13af33ce6408e
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/424c08eff259398d1aa2f26116c38cea5e911b45
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -26,6 +26,7 @@ Creates an Azure AD group.
 New-AzureADMSGroup [-Description <String>] -DisplayName <String> -MailEnabled <Boolean> -MailNickname <String>
  -SecurityEnabled <Boolean> [-GroupTypes <System.Collections.Generic.List`1[System.String]>]
  [-MembershipRule <String>] [-MembershipRuleProcessingState <String>] [-Visibility <String>]
+ [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -200,7 +201,6 @@ Accept wildcard characters: False
 ```
 
 ### -Visibility
-
 This parameter determines the visibility of the group's content and members list. This parameter can take one of the following values:
 
 * "Public" - Anyone can view the contents of the group
@@ -226,6 +226,9 @@ Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
+
+### CommonParameters
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 

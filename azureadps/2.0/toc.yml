@@ -324,21 +324,6 @@
           href: AzureAD/Remove-AzureADObjectSetting.md
         - name: Set-AzureADObjectSetting
           href: AzureAD/Set-AzureADObjectSetting.md
-    - name: Others
-      href: 'AzureAD/index.md#others'
-      items:
-        - name: Get-AzureADServiceConfigurationRecord
-          href: AzureAD/Get-AzureADServiceConfigurationRecord.md
-        - name: Get-AzureADVerificationDnsRecord
-          href: AzureAD/Get-AzureADVerificationDnsRecord.md
-        - name: Remove-AzureADApplicationPolicy
-          href: AzureAD/Remove-AzureADApplicationPolicy.md
-        - name: Remove-AzureADServicePrincipalPolicy
-          href: AzureAD/Remove-AzureADServicePrincipalPolicy.md
-        - name: Set-AzureADContact
-          href: AzureAD/Set-AzureADContact.md
-        - name: Set-AzureADContactManager
-          href: AzureAD/Set-AzureADContactManager.md
     - name: Policies
       href: 'AzureAD/index.md#policies'
       items:
