@@ -33,6 +33,13 @@
       href: ../conceptual/2.0/Find-Module-version.md
     - name: How can I install a previous version of a module?
       href: ../conceptual/2.0/Install-previous-version.md
+- name: Troubleshooting
+  items:
+    - name: Authentication issues
+      href: ../conceptual/2.0/Authentication-issues.md
+      items:
+        - name: I get an error "\<your account> isn't in our system"
+          href: ../conceptual/2.0/account-not-in-system-error.md
 - name: Videos
   items:
     - name: Manage dynamic groups with PowerShell
