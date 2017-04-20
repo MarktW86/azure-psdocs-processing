@@ -7,7 +7,7 @@ updated_at: 04/20/2017 04:04 AM
 ms.date: 04/20/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADApplication.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADApplication.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/424c08eff259398d1aa2f26116c38cea5e911b45
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/785cafde2210485948fad58dd6f2d5df74b18bde
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -370,7 +370,7 @@ Accept wildcard characters: False
 ```
 
 ### -Oauth2RequirePostResponse
-{{Fill Oauth2RequirePostResponse Description}}
+Set theis to True if an Oauth2 Post response is required
 
 ```yaml
 Type: Boolean
