@@ -2,11 +2,11 @@
 external help file: Microsoft.AzureStack.Commands.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 04/11/2017 21:04 PM
-ms.date: 04/11/2017
+updated_at: 04/20/2017 23:04 PM
+ms.date: 04/20/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/Get-AzureRMOffer.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/Get-AzureRMOffer.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/da0fd350a2a76c2d3edbf597f3826de129c926e5
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d4f2539c40b2f09416fa3e1d384a0a1f0183fb5e
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -45,7 +45,7 @@ Get-AzureRMOffer [-Name <String>] -ResourceGroup <String> [-Managed] [-Informati
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### Example 1:
 ```
 Get-AzureRMOffer -Name "ComputeOffer" -ResourceGroup "OfferGroup" -Managed
 ```
@@ -56,7 +56,7 @@ Description
 
 The example gets an offer as a service administrator
 
-### -------------------------- EXAMPLE 2 --------------------------
+### Example 2:
 ```
 Get-AzureRMOffer -Provider "default" | Where-Object name -eq "ComputeOffer"
 ```
