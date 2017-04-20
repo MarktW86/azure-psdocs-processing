@@ -262,6 +262,8 @@
       items:
         - name: Add-AzureADServicePrincipalOwner
           href: AzureAD/Add-AzureADServicePrincipalOwner.md
+        - name: Get-AzureADServiceAppRoleAssignedTo
+          href: AzureAD/Get-AzureADServiceAppRoleAssignedTo.md
         - name: Get-AzureADServiceAppRoleAssignment
           href: AzureAD/Get-AzureADServiceAppRoleAssignment.md
         - name: Get-AzureADServicePrincipal
