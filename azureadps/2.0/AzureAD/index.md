@@ -14,30 +14,23 @@ ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: carolz
 ms.service: active-directory
-Add-AzureADAdministrativeUnitMember: Administrative Units
 Add-AzureADApplicationOwner: Applications
-Add-AzureADApplicationPolicy: Applications
 Add-AzureADDeviceRegisteredOwner: Devices
 Add-AzureADDeviceRegisteredUser: Devices
 Add-AzureADDirectoryRoleMember: Directory Roles
 Add-AzureADGroupMember: Groups
 Add-AzureADGroupOwner: Groups
-Add-AzureADScopedRoleMembership: Administrative Units
 Add-AzureADServicePrincipalOwner: Service Principals
-Add-AzureADServicePrincipalPolicy: Service Principals
 Confirm-AzureADDomain: Domains
 Connect-AzureAD: Connect to your directory
 Disconnect-AzureAD: Connect to your directory
 Enable-AzureADDirectoryRole: Directory Roles
-Get-AzureADAdministrativeUnit: Administrative Units
-Get-AzureADAdministrativeUnitMember: Administrative Units
 Get-AzureADApplication: Applications
 Get-AzureADApplicationExtensionProperty: Applications
 Get-AzureADApplicationKeyCredential: Applications
 Get-AzureADApplicationLogo: Applications
 Get-AzureADApplicationOwner: Applications
 Get-AzureADApplicationPasswordCredential: Applications
-Get-AzureADApplicationPolicy: Applications
 Get-AzureADApplicationServiceEndpoint: Applications
 Get-AzureADContact: Contacts
 Get-AzureADContactDirectReport: Contacts
@@ -53,8 +46,6 @@ Get-AzureADDeviceRegisteredUser: Devices
 Get-AzureADDirectoryRole: Directory Roles
 Get-AzureADDirectoryRoleMember: Directory Roles
 Get-AzureADDirectoryRoleTemplate: Directory Roles
-Get-AzureADDirectorySetting: Directory Settings
-Get-AzureADDirectorySettingTemplate: Directory Settings
 Get-AzureADDomain: Domains
 Get-AzureADDomainNameReference: Domains
 Get-AzureADDomainServiceConfigurationRecord: Domains
@@ -64,15 +55,8 @@ Get-AzureADGroup: Groups
 Get-AzureADGroupAppRoleAssignment: Groups
 Get-AzureADGroupMember: Groups
 Get-AzureADGroupOwner: Groups
-Get-AzureADMSDeletedDirectoryObject: Deleted Objects
-Get-AzureADMSDeletedGroup: Deleted Objects
-Get-AzureADMSGroup: Groups
 Get-AzureADOAuth2PermissionGrant: OAuth2
 Get-AzureADObjectByObjectId: Directory Objects
-Get-AzureADObjectSetting: Object Settings
-Get-AzureADPolicy: Policies
-Get-AzureADPolicyAppliedObject: Policies
-Get-AzureADScopedRoleMembership: Administrative Units
 Get-AzureADServiceAppRoleAssignment: Service Principals
 Get-AzureADServicePrincipal: Service Principals
 Get-AzureADServicePrincipalCreatedObject: Service Principals
@@ -82,7 +66,6 @@ Get-AzureADServicePrincipalOAuth2PermissionGrant: Service Principals
 Get-AzureADServicePrincipalOwnedObject: Service Principals
 Get-AzureADServicePrincipalOwner: Service Principals
 Get-AzureADServicePrincipalPasswordCredential: Service Principals
-Get-AzureADServicePrincipalPolicy: Service Principals
 Get-AzureADSubscribedSku: Directory
 Get-AzureADTenantDetail: Directory
 Get-AzureADTrustedCertificateAuthority: Certificate Authorities
@@ -99,20 +82,15 @@ Get-AzureADUserOwnedDevice: Users
 Get-AzureADUserOwnedObject: Users
 Get-AzureADUserRegisteredDevice: Users
 Get-AzureADUserThumbnailPhoto: Users
-New-AzureADAdministrativeUnit: Administrative Units
 New-AzureADApplication: Applications
 New-AzureADApplicationExtensionProperty: Applications
 New-AzureADApplicationKeyCredential: Applications
 New-AzureADApplicationPasswordCredential: Applications
 New-AzureADDevice: Devices
-New-AzureADDirectorySetting: Directory Settings
 New-AzureADDomain: Domains
 New-AzureADGroup: Groups
 New-AzureADGroupAppRoleAssignment: Groups
-New-AzureADMSGroup: Groups
 New-AzureADMSInvitation: Users
-New-AzureADObjectSetting: Object Settings
-New-AzureADPolicy: Policies
 New-AzureADServiceAppRoleAssignment: Service Principals
 New-AzureADServicePrincipal: Service Principals
 New-AzureADServicePrincipalKeyCredential: Service Principals
@@ -120,8 +98,6 @@ New-AzureADServicePrincipalPasswordCredential: Service Principals
 New-AzureADTrustedCertificateAuthority: Certificate Authorities
 New-AzureADUser: Users
 New-AzureADUserAppRoleAssignment: Users
-Remove-AzureADAdministrativeUnit: Administrative Units
-Remove-AzureADAdministrativeUnitMember: Administrative Units
 Remove-AzureADApplication: Applications
 Remove-AzureADApplicationExtensionProperty: Applications
 Remove-AzureADApplicationKeyCredential: Applications
@@ -133,18 +109,12 @@ Remove-AzureADDevice: Devices
 Remove-AzureADDeviceRegisteredOwner: Devices
 Remove-AzureADDeviceRegisteredUser: Devices
 Remove-AzureADDirectoryRoleMember: Directory Roles
-Remove-AzureADDirectorySetting: Directory Settings
 Remove-AzureADDomain: Domains
 Remove-AzureADGroup: Groups
 Remove-AzureADGroupAppRoleAssignment: Groups
 Remove-AzureADGroupMember: Groups
 Remove-AzureADGroupOwner: Groups
-Remove-AzureADMSDeletedDirectoryObject: Deleted Objects
-Remove-AzureADMSGroup: Groups
 Remove-AzureADOAuth2PermissionGrant: OAuth2
-Remove-AzureADObjectSetting: Object Settings
-Remove-AzureADPolicy: Policies
-Remove-AzureADScopedRoleMembership: Administrative Units
 Remove-AzureADServiceAppRoleAssignment: Service Principals
 Remove-AzureADServicePrincipal: Service Principals
 Remove-AzureADServicePrincipalKeyCredential: Service Principals
@@ -156,23 +126,17 @@ Remove-AzureADUserAppRoleAssignment: Users
 Remove-AzureADUserExtension: Users
 Remove-AzureADUserManager: Users
 Restore-AzureADDeletedApplication: Deleted Objects
-Restore-AzureADMSDeletedDirectoryObject: Deleted Objects
 Revoke-AzureADSignedInUserAllRefreshToken: Users
 Revoke-AzureADUserAllRefreshToken: Users
 Select-AzureADGroupIdsContactIsMemberOf: Contacts
 Select-AzureADGroupIdsGroupIsMemberOf: Groups
 Select-AzureADGroupIdsServicePrincipalIsMemberOf: Service Principals
 Select-AzureADGroupIdsUserIsMemberOf: Users
-Set-AzureADAdministrativeUnit: Administrative Units
 Set-AzureADApplication: Applications
 Set-AzureADApplicationLogo: Applications
 Set-AzureADDevice: Devices
-Set-AzureADDirectorySetting: Directory Settings
 Set-AzureADDomain: Domains
 Set-AzureADGroup: Groups
-Set-AzureADMSGroup: Groups
-Set-AzureADObjectSetting: Object Settings
-Set-AzureADPolicy: Policies
 Set-AzureADServicePrincipal: Service Principals
 Set-AzureADTenantDetail: Directory
 Set-AzureADTrustedCertificateAuthority: Certificate Authorities

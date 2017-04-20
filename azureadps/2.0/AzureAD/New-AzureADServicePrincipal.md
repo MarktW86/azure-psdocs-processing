@@ -7,7 +7,7 @@ updated_at: 04/20/2017 04:04 AM
 ms.date: 04/20/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADServicePrincipal.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADServicePrincipal.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/424c08eff259398d1aa2f26116c38cea5e911b45
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/040cd8da6d7a72a69c1b4ba2f09d33e47e3b88c8
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -245,8 +245,8 @@ Accept wildcard characters: False
 ### -ServicePrincipalNames
 Specifies an array of service principal names. Based on the identifierURIs collection, plus the application's appId property, these URIs are used to reference an application's service principal. A client will use these to:
 
-â€¢ populate requiredResourceAccess, via "Permissions to other applicationsâ€ in the Azure classic portal.
-â€¢ specify a resource URI to acquire an access token, which is the URI returned in the â€œaudâ€ claim.
+ ¢â‚¬Â¢ populate requiredResourceAccess, via "Permissions to other applications ¢â‚¬Â in the Azure classic portal.
+ ¢â‚¬Â¢ specify a resource URI to acquire an access token, which is the URI returned in the  ¢â‚¬Å"aud ¢â‚¬Â claim.
 
 
 ```yaml
