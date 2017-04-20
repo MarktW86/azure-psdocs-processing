@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Sql.dll-Help.xml
 ms.assetid: 555D58AB-1361-4BB1-ACD0-905C3C6F4F7E
 online version:
 schema: 2.0.0
-updated_at: 04/20/2017 01:04 AM
+updated_at: 04/20/2017 03:04 AM
 ms.date: 04/20/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.8.0/Set-AzureRmSqlElasticPool.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.8.0/Set-AzureRmSqlElasticPool.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/19b9ad2493180521265cd72f276c6d410e6db21c
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/6412b745de73ceede096d4c176e10b740867047f
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -71,9 +71,9 @@ Location          : Central US
 CreationDate      : 8/26/2015 10:00:17 PM
 State             : Ready
 Edition           : Premium
-Dtu               : 200
-DatabaseDtuMax    : 100
-DatabaseDtuMin    : 20
+Dtu               : 1000
+DatabaseDtuMax    : 125
+DatabaseDtuMin    : 25
 StorageMB         : 2097152
 Tags              :
 ```
