@@ -7,8 +7,8 @@ Locale: en-US
 ms.assetid: 0B91D740-D2BD-4D57-9E21-C582C9BE2CCA
 updated_at: 04/18/2017 21:04 PM
 ms.date: 04/18/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/RightsManagement.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/RightsManagement.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/release-ipclient/Azure%20Information%20Protection/AADRM/vlatest/RightsManagement.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/release-ipclient/Azure%20Information%20Protection/AADRM/vlatest/RightsManagement.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/64e4bfd0d000b17aa778b4c46124c22951d02017
 ms.topic: conceptual
 author: cabailey

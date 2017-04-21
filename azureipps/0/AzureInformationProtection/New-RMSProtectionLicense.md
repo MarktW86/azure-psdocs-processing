@@ -3,11 +3,11 @@ external help file: AIP.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=841547
 schema: 2.0.0
 ms.assetid: 031B84B2-E380-4989-8FD9-45CC777FE017
-updated_at: 04/20/2017 18:04 PM
-ms.date: 04/20/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AzureInformationProtection/vlatest/New-RMSProtectionLicense.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AzureInformationProtection/vlatest/New-RMSProtectionLicense.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/ac82c149bc94d83b9068e89295b83de5a319517f
+updated_at: 02/14/2017 17:02 PM
+ms.date: 02/14/2017
+content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/release-ipclient/Azure%20Information%20Protection/AzureInformationProtection/vlatest/New-RMSProtectionLicense.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/release-ipclient/Azure%20Information%20Protection/AzureInformationProtection/vlatest/New-RMSProtectionLicense.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/d1c5d3878715c0a5dd9195e1d580532ba3f2c68a
 ms.topic: reference
 author: cabailey
 ms.author: PowerShellHelpPub
@@ -120,7 +120,8 @@ Accept wildcard characters: False
 ```
 
 ### -Permission
-Specifies the usage rights for the ad-hoc policy. Use this parameter and the *UserEmail* parameter to grant rights to specified users.
+Specifies the usage rights for the ad-hoc policy.
+Use this parameter and the *UserEmail* parameter to grant rights to specified users.
 
 The acceptable values for this parameter:
 - VIEW

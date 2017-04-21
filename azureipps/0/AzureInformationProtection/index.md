@@ -7,8 +7,8 @@ Locale: en-US
 ms.assetid: 35D99F89-BD73-457E-95C7-73857656FB59
 updated_at: 03/15/2017 16:03 PM
 ms.date: 03/15/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AzureInformationProtection/vlatest/AIP.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AzureInformationProtection/vlatest/AIP.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/release-ipclient/Azure%20Information%20Protection/AzureInformationProtection/vlatest/AIP.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/release-ipclient/Azure%20Information%20Protection/AzureInformationProtection/vlatest/AIP.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/62402f84aad1fec5db98297b866b737224d97a84
 ms.topic: conceptual
 author: cabailey
@@ -25,6 +25,7 @@ Get-RMSServerAuthentication: AzureInformationProtection
 Get-RMSTemplate: AzureInformationProtection
 New-RMSProtectionLicense: AzureInformationProtection
 Protect-RMSFile: AzureInformationProtection
+Set-AIPFileClassification: AzureInformationProtection
 Set-AIPFileLabel: AzureInformationProtection
 Set-RMSServerAuthentication: AzureInformationProtection
 Unprotect-RMSFile: AzureInformationProtection

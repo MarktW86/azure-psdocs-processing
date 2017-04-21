@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: 91DD14FF-0033-4A7F-9738-87BD2A989FED
 updated_at: 02/08/2017 18:02 PM
 ms.date: 02/08/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Disconnect-AadrmService.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Disconnect-AadrmService.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/release-ipclient/Azure%20Information%20Protection/AADRM/vlatest/Disconnect-AadrmService.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/release-ipclient/Azure%20Information%20Protection/AADRM/vlatest/Disconnect-AadrmService.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/b5b814c02caa6cd576a3db614749957f10782144
 ms.topic: reference
 author: cabailey

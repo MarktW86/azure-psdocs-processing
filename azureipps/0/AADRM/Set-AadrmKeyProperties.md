@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: 7b1adf8c-d7a6-42f6-9010-4cc45308691c
 updated_at: 04/12/2017 16:04 PM
 ms.date: 04/12/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Set-AadrmKeyProperties.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Set-AadrmKeyProperties.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/release-ipclient/Azure%20Information%20Protection/AADRM/vlatest/Set-AadrmKeyProperties.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/release-ipclient/Azure%20Information%20Protection/AADRM/vlatest/Set-AadrmKeyProperties.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/c47d280f1ed64c57732f89d44616ed8368b32773
 ms.topic: reference
 author: cabailey

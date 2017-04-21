@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: 9802F554-834A-4BA0-A086-C7F8B2976939
 updated_at: 02/13/2017 21:02 PM
 ms.date: 02/13/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Add-AadrmRoleBasedAdministrator.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Add-AadrmRoleBasedAdministrator.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/release-ipclient/Azure%20Information%20Protection/AADRM/vlatest/Add-AadrmRoleBasedAdministrator.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/release-ipclient/Azure%20Information%20Protection/AADRM/vlatest/Add-AadrmRoleBasedAdministrator.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/22a102658f1b1c573e607b7c05590c1e292e41e2
 ms.topic: reference
 author: cabailey

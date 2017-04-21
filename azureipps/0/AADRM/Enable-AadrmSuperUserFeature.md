@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: 34D77711-B96A-43E8-B5FD-8CF5013EB7E3
 updated_at: 04/11/2017 00:04 AM
 ms.date: 04/11/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Enable-AadrmSuperUserFeature.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Enable-AadrmSuperUserFeature.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/release-ipclient/Azure%20Information%20Protection/AADRM/vlatest/Enable-AadrmSuperUserFeature.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/release-ipclient/Azure%20Information%20Protection/AADRM/vlatest/Enable-AadrmSuperUserFeature.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/f5f5beb6909618ca9d702cbac2e7b1453da63c7a
 ms.topic: reference
 author: cabailey
