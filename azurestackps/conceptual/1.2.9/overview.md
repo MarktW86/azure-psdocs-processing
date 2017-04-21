@@ -9,8 +9,8 @@ ms.devlang: powershell
 ms.topic: reference
 ms.author: sngun
 ms.manager: byronr
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/docs-conceptual/overview.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/docs-conceptual/overview.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/staging/azureps-cmdlets-docs/AzureStack/docs-conceptual/overview.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/staging/azureps-cmdlets-docs/AzureStack/docs-conceptual/overview.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/5e633c61e46f8185ebf79434734d1a086daf7515
 open_to_public_contributors: true
 ---

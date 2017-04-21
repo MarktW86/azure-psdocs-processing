@@ -2,11 +2,11 @@
 external help file: Microsoft.AzureStack.Commands.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 04/20/2017 23:04 PM
-ms.date: 04/20/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/Remove-AzureRMTenantSubscription.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/Remove-AzureRMTenantSubscription.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d4f2539c40b2f09416fa3e1d384a0a1f0183fb5e
+updated_at: 04/11/2017 21:04 PM
+ms.date: 04/11/2017
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/staging/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/Remove-AzureRMTenantSubscription.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/staging/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/Remove-AzureRMTenantSubscription.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/da0fd350a2a76c2d3edbf597f3826de129c926e5
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -33,7 +33,7 @@ Remove-AzureRMTenantSubscription -TargetSubscriptionId <Guid> [-InformationActio
 
 ## EXAMPLES
 
-### Example 1:
+### -------------------------- EXAMPLE 1 --------------------------
 ```
 Remove-AzureRMTenantSubscription -TargetSubscriptionId $TenantSubscriptionId
 ```
