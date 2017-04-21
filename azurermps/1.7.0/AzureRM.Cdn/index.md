@@ -5,8 +5,8 @@ Locale: en-US
 ms.assetid: D5D8D826-D8BC-4079-897B-3DAD745351E7
 updated_at: 11/11/2016 23:11 PM
 ms.date: 11/11/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Cdn/v1.0.6/AzureRM.Cdn.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Cdn/v1.0.6/AzureRM.Cdn.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/staging/azureps-cmdlets-docs/ResourceManager/AzureRM.Cdn/v1.0.6/AzureRM.Cdn.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/staging/azureps-cmdlets-docs/ResourceManager/AzureRM.Cdn/v1.0.6/AzureRM.Cdn.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf
 ms.topic: conceptual
 author: erickson-doug

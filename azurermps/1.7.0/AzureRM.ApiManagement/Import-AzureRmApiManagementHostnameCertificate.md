@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: 2A7EF835-586C-4E86-A243-3CC0E9623D71
 updated_at: 01/12/2017 01:01 AM
 ms.date: 01/12/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v1.1.4/Import-AzureRmApiManagementHostnameCertificate.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v1.1.4/Import-AzureRmApiManagementHostnameCertificate.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/staging/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v1.1.4/Import-AzureRmApiManagementHostnameCertificate.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/staging/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v1.1.4/Import-AzureRmApiManagementHostnameCertificate.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/744a3daf267d93d9084ba9f20bf25d56439bcc7f
 ms.topic: reference
 author: erickson-doug

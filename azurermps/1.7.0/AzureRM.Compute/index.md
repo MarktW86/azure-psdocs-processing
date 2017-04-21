@@ -7,8 +7,8 @@ Locale: en-US
 ms.assetid: 3FF02FCF-7E39-4DA0-AD1B-7F982B60A867
 updated_at: 11/22/2016 00:11 AM
 ms.date: 11/22/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/AzureRM.Compute.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/AzureRM.Compute.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/staging/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/AzureRM.Compute.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/staging/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/AzureRM.Compute.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e5245f9c2ed759dca260172c12d4ef03cef0982a
 ms.topic: conceptual
 author: erickson-doug

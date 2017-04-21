@@ -4,8 +4,8 @@ online version:
 schema: 2.0.0
 updated_at: 03/15/2017 19:03 PM
 ms.date: 03/15/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.7.0/Remove-AzureRmSqlDatabaseFromFailoverGroup.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.7.0/Remove-AzureRmSqlDatabaseFromFailoverGroup.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/staging/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.7.0/Remove-AzureRmSqlDatabaseFromFailoverGroup.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/staging/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.7.0/Remove-AzureRmSqlDatabaseFromFailoverGroup.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/1ba0f2a16ca624e1627db4f1214edb1a790c238a
 ms.topic: reference
 author: erickson-doug

@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: 8E0C633A-F157-4525-A1A8-327FA4BDD36D
 updated_at: 10/31/2016 21:10 PM
 ms.date: 10/31/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Profile/v1.0.12/Add-AzureRmAccount.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Profile/v1.0.12/Add-AzureRmAccount.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/staging/azureps-cmdlets-docs/ResourceManager/AzureRM.Profile/v1.0.12/Add-AzureRmAccount.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/staging/azureps-cmdlets-docs/ResourceManager/AzureRM.Profile/v1.0.12/Add-AzureRmAccount.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64
 ms.topic: reference
 author: erickson-doug

@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: 53EF5FF6-D1FF-44FB-8D8E-DC76C41A2F13
 updated_at: 11/11/2016 23:11 PM
 ms.date: 11/11/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.NotificationHubs/v2.1.0/Remove-AzureRmNotificationHubAuthorizationRules.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.NotificationHubs/v2.1.0/Remove-AzureRmNotificationHubAuthorizationRules.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/staging/azureps-cmdlets-docs/ResourceManager/AzureRM.NotificationHubs/v2.1.0/Remove-AzureRmNotificationHubAuthorizationRules.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/staging/azureps-cmdlets-docs/ResourceManager/AzureRM.NotificationHubs/v2.1.0/Remove-AzureRmNotificationHubAuthorizationRules.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf
 ms.topic: reference
 author: erickson-doug
