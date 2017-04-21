@@ -1,12 +1,12 @@
 ---
-external help file: Microsoft.Open.MS.GraphBeta.PowerShell.dll-Help.xml
+external help file: Microsoft.Open.MS.GraphV10.PowerShell.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 04/17/2017 18:04 PM
-ms.date: 04/17/2017
+updated_at: 04/20/2017 04:04 AM
+ms.date: 04/20/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADMSInvitation.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADMSInvitation.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/d81dc3de61b68161a80462b0435cbb08b37e1b62
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/040cd8da6d7a72a69c1b4ba2f09d33e47e3b88c8
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -143,6 +143,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## OUTPUTS
 
 ### System.Object
+
+## NOTES
 
 ## RELATED LINKS
 

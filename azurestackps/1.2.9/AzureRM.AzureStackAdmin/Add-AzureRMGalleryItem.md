@@ -2,11 +2,11 @@
 external help file: Microsoft.AzureStack.Commands.dll-help.xml
 online version:
 schema: 2.0.0
-updated_at: 04/11/2017 21:04 PM
-ms.date: 04/11/2017
+updated_at: 04/20/2017 23:04 PM
+ms.date: 04/20/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/Add-AzureRMGalleryItem.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/Add-AzureRMGalleryItem.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/da0fd350a2a76c2d3edbf597f3826de129c926e5
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d4f2539c40b2f09416fa3e1d384a0a1f0183fb5e
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -19,9 +19,7 @@ ms.service: azure-stack
 # Add-AzureRMGalleryItem
 
 ## SYNOPSIS
-The Add-AzureRMGalleryItem cmdlet adds the gallery item package.
-The gallery item uri needs to be a http/https uri accessible to the gallery service. 
-Typically .azpkg file is uploaded to a publicly accessible blob container and its uri is provided as the GallelryItemUri parameter
+Adds the gallery item package.
 
 ## SYNTAX
 
@@ -31,10 +29,13 @@ Add-AzureRMGalleryItem -GalleryItemUri <String> [-InformationAction <ActionPrefe
 ```
 
 ## DESCRIPTION
+The **Add-AzureRMGalleryItem** cmdlet adds the gallery item package.
+The gallery item uri needs to be a http/https uri accessible to the gallery service. 
+Typically .azpkg file is uploaded to a publicly accessible blob container and its uri is provided as the GallelryItemUri parameter
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### Example 1:
 ```
 Add-AzureRMGalleryItem -ApiVersion 2015-04-01 -GalleryItemUri "http://127.0.0.1:10000/devstoreaccount1/sqlrpgallery/Microsoft.SqlDatabase.0.1.0.azpkg"
 ```
@@ -123,4 +124,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-

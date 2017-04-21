@@ -1,13 +1,13 @@
 ---
-external help file: Microsoft.Open.AzureADBeta.Graph.PowerShell.dll-Help.xml
+external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 ms.assetid: 53B15037-19DD-4253-B998-D968DA05F2AC
 online version:
 schema: 2.0.0
-updated_at: 12/01/2016 17:12 PM
-ms.date: 12/01/2016
+updated_at: 04/20/2017 04:04 AM
+ms.date: 04/20/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADDomain.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADDomain.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/8f658f99458e2c236d5f4be363030b6f24cacc4c
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/040cd8da6d7a72a69c1b4ba2f09d33e47e3b88c8
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -24,9 +24,8 @@ Updates a domain.
 ## SYNTAX
 
 ```
-Set-AzureADDomain -Name <String> [-InformationAction <ActionPreference>] [-InformationVariable <String>]
- [-IsDefault <Boolean>] [-SupportedServices <System.Collections.Generic.List`1[System.String]>]
- [<CommonParameters>]
+Set-AzureADDomain -Name <String> [-IsDefault <Boolean>]
+ [-SupportedServices <System.Collections.Generic.List`1[System.String]>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -35,43 +34,6 @@ The **Set-AzureADDomain** cmdlet updates a domain in Azure Active Directory (AD)
 ## EXAMPLES
 
 ## PARAMETERS
-
-### -InformationAction
-Specifies how this cmdlet responds to an information event. The acceptable values for this parameter are:
-
-- Continue
-- Ignore
-- Inquire
-- SilentlyContinue
-- Stop
-- Suspend
-
-```yaml
-Type: ActionPreference
-Parameter Sets: (All)
-Aliases: infa
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -InformationVariable
-Specifies an information variable.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: iv
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
 
 ### -IsDefault
 ```yaml
