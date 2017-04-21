@@ -3,11 +3,11 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkId=722838
 schema: 2.0.0
 ms.assetid: 23E946A0-E6FC-4F8C-8F3B-352AD48CE426
-updated_at: 04/17/2017 16:04 PM
-ms.date: 04/17/2017
+updated_at: 04/20/2017 18:04 PM
+ms.date: 04/20/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Set-AadrmSuperUserGroup.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Set-AadrmSuperUserGroup.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/5af92e98a02d763b2ab8dd55a422ee6800025892
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/ac82c149bc94d83b9068e89295b83de5a319517f
 ms.topic: reference
 author: cabailey
 ms.author: PowerShellHelpPub
@@ -53,9 +53,8 @@ This command sets the super user group for the organization to SuperUserGroup@co
 ### -GroupEmailAddress
 Specifies the group email address for the super user group.
 
-*GroupEmailAddress* can specify a group that contains individual users or other nested groups.
+*GroupEmailAddress* can specify a group that contains individual users or other nested groups. It must be a valid group email address for an existing group in the organization.
 
-The *GroupEmailAddress* must be a valid group email address in the organization.
 
 ```yaml
 Type: String
