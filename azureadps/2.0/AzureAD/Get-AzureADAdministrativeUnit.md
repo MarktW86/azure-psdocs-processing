@@ -3,11 +3,11 @@ external help file: Microsoft.Open.AzureADBeta.Graph.PowerShell.dll-Help.xml
 ms.assetid: 46154156-B7D4-40DE-8EC9-760E44110C76
 online version:
 schema: 2.0.0
-updated_at: 04/20/2017 04:04 AM
-ms.date: 04/20/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2-preview/Get-AzureADAdministrativeUnit.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2-preview/Get-AzureADAdministrativeUnit.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/1d38b2a72c0f0efa61a3f3f11923881f0545e492
+updated_at: 04/24/2017 21:04 PM
+ms.date: 04/24/2017
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2.1/Get-AzureADAdministrativeUnit.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2.1/Get-AzureADAdministrativeUnit.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/58dbfa14efee8bd6121cb76044ff15751eaab5bc
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
