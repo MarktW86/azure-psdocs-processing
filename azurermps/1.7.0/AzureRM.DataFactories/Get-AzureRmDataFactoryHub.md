@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: 085EC9A1-E5F7-46D7-82EA-B8A71A7CBD9D
 updated_at: 10/24/2016 23:10 PM
 ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DataFactories/v1.0.12/Get-AzureRmDataFactoryHub.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DataFactories/v1.0.12/Get-AzureRmDataFactoryHub.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/Graham71305/azureps-cmdlets-docs/ResourceManager/AzureRM.DataFactories/v1.0.12/Get-AzureRmDataFactoryHub.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/Graham71305/azureps-cmdlets-docs/ResourceManager/AzureRM.DataFactories/v1.0.12/Get-AzureRmDataFactoryHub.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055
 ms.topic: reference
 author: erickson-doug

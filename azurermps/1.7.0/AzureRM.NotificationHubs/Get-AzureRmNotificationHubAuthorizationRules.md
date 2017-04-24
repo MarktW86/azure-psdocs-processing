@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: 629ECA36-00E3-4C03-B25E-C74B4C3281CE
 updated_at: 11/01/2016 22:11 PM
 ms.date: 11/01/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.NotificationHubs/v1.0.12/Get-AzureRmNotificationHubAuthorizationRules.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.NotificationHubs/v1.0.12/Get-AzureRmNotificationHubAuthorizationRules.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/Graham71305/azureps-cmdlets-docs/ResourceManager/AzureRM.NotificationHubs/v1.0.12/Get-AzureRmNotificationHubAuthorizationRules.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/Graham71305/azureps-cmdlets-docs/ResourceManager/AzureRM.NotificationHubs/v1.0.12/Get-AzureRmNotificationHubAuthorizationRules.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed
 ms.topic: reference
 author: erickson-doug

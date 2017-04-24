@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: 2E00EBCD-776D-406F-A4A7-47DB029F0865
 updated_at: 01/14/2017 00:01 AM
 ms.date: 01/14/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v2.1.0/Publish-AzureRmApiManagementTenantGitConfiguration.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v2.1.0/Publish-AzureRmApiManagementTenantGitConfiguration.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/Graham71305/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v2.1.0/Publish-AzureRmApiManagementTenantGitConfiguration.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/Graham71305/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v2.1.0/Publish-AzureRmApiManagementTenantGitConfiguration.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/da8eb594c0f0a447468b6e82a18c708dac6b5b28
 ms.topic: reference
 author: erickson-doug

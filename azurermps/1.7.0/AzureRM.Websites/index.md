@@ -4,8 +4,8 @@ Module Guid: cc69c625-e961-43f4-8b50-0061eba6e4b6
 Locale: en-US
 updated_at: 03/23/2017 22:03 PM
 ms.date: 03/23/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v1.1.3/AzureRM.Websites.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v1.1.3/AzureRM.Websites.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/Graham71305/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v1.1.3/AzureRM.Websites.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/Graham71305/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v1.1.3/AzureRM.Websites.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/535e2e74f053db46eadf4681f4a95ece9f189378
 ms.topic: conceptual
 author: erickson-doug

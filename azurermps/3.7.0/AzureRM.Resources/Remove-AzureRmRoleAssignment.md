@@ -5,8 +5,8 @@ online version:
 schema: 2.0.0
 updated_at: 04/10/2017 18:04 PM
 ms.date: 04/10/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Remove-AzureRmRoleAssignment.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Remove-AzureRmRoleAssignment.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/Graham71305/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Remove-AzureRmRoleAssignment.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/Graham71305/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Remove-AzureRmRoleAssignment.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0c85f7710e0a50f6ab0929dd4a223a08d562e08e
 ms.topic: reference
 author: erickson-doug

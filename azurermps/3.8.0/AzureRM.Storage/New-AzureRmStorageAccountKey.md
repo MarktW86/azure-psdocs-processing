@@ -5,8 +5,8 @@ online version:
 schema: 2.0.0
 updated_at: 04/12/2017 13:04 PM
 ms.date: 04/12/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Storage/v2.8.0/New-AzureRmStorageAccountKey.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Storage/v2.8.0/New-AzureRmStorageAccountKey.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/Graham71305/azureps-cmdlets-docs/ResourceManager/AzureRM.Storage/v2.8.0/New-AzureRmStorageAccountKey.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/Graham71305/azureps-cmdlets-docs/ResourceManager/AzureRM.Storage/v2.8.0/New-AzureRmStorageAccountKey.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/10ffa9840f6e98ac44ed65269d885bf4b16f1d24
 ms.topic: reference
 author: erickson-doug
