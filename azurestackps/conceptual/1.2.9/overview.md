@@ -11,7 +11,7 @@ ms.author: sngun
 ms.manager: byronr
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/docs-conceptual/overview.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/docs-conceptual/overview.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/5e633c61e46f8185ebf79434734d1a086daf7515
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/dd228ac5a616c5e8c1505d414d35a3c83b47838b
 open_to_public_contributors: true
 ---
 
@@ -25,7 +25,7 @@ Azure Stack requires the following two PowerShell modules:
 
 ## Next Steps
 
-* [Install PowerShell for Azure Stack](https://docs.microsoft.com/en-us/azure/azure-stack/azure-stack-powershell-install)
-* [Configure PowerShell for use with Azure Stack](https://docs.microsoft.com/en-us/azure/azure-stack/azure-stack-powershell-configure)
+* [Install PowerShell for Azure Stack](https://docs.microsoft.com/en-us/azure/azure-stack/azure-stack-powershell-install?view=azurestackps-1.2.9&toc=%2fpowershell%2fmodule%2ftoc.json%3fview%3dazurestackps-1.2.9&view=azurestackps-1.2.9)
+* [Configure PowerShell for use with Azure Stack](https://docs.microsoft.com/en-us/azure/azure-stack/azure-stack-powershell-configure?view=azurestackps-1.2.9&toc=%2fpowershell%2fmodule%2ftoc.json%3fview%3dazurestackps-1.2.9&view=azurestackps-1.2.9)
 
 
