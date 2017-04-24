@@ -1,7 +1,7 @@
 ---
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/docs-conceptual/install-adv2.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/docs-conceptual/install-adv2.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/5c1bedf7d65194c808104c327b466d4dffead66f
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/65adfa585acca7b552d86793fff0f3b0f782e65c
 ---
 # Azure Active Directory PowerShell Version 2
 
@@ -15,13 +15,13 @@ The Azure AD PowerShell Version 2 General Availability module can be downloaded 
 
 The Azure AD Module is supported on the following Windows operating systems with the default version of Microsoft .NET Framework and Windows PowerShell: Windows 8.1, Windows 8, Windows 7, Windows Server 2012 R2, Windows Server 2012, or Windows Server 2008 R2.
 
-If your computer has all the prerequisites for the installation, you can run
+If your computer has all the prerequisites for the installation, to install the General Availability version of the module on your computer you can run
 
 ```powershell
 Install-Module AzureAD
 ```
 
-to install the General Availability version of the module on your computer. To install the public preview release, use
+To install the public preview release, use
 
 ```powershell
 Install-module AzureADPreview

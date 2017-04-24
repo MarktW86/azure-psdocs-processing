@@ -3,11 +3,11 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 ms.assetid: 186B4EE1-A85A-45C0-B480-ABB4FBEF9AE0
 online version:
 schema: 2.0.0
-updated_at: 12/01/2016 17:12 PM
-ms.date: 12/01/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADDirectoryRoleTemplate.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADDirectoryRoleTemplate.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/8f658f99458e2c236d5f4be363030b6f24cacc4c
+updated_at: 04/20/2017 04:04 AM
+ms.date: 04/20/2017
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2-preview/Get-AzureADDirectoryRoleTemplate.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2-preview/Get-AzureADDirectoryRoleTemplate.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/1d38b2a72c0f0efa61a3f3f11923881f0545e492
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub

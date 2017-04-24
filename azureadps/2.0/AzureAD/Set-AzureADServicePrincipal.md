@@ -3,11 +3,11 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 ms.assetid: 540A8E20-80C9-48D8-BE49-E1DA84FD3BF7
 online version:
 schema: 2.0.0
-updated_at: 03/20/2017 23:03 PM
-ms.date: 03/20/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADServicePrincipal.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADServicePrincipal.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/d0887c87da28d9758d8d55b202d3b8fac71a7ec5
+updated_at: 04/20/2017 04:04 AM
+ms.date: 04/20/2017
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2-preview/Set-AzureADServicePrincipal.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2-preview/Set-AzureADServicePrincipal.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/1d38b2a72c0f0efa61a3f3f11923881f0545e492
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub

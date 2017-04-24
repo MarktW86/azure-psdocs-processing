@@ -36,9 +36,8 @@
 - name: Troubleshooting
   items:
     - name: Authentication issues
-      href: ../conceptual/1.0/Authentication-issues.md
       items:
-        - name: I get an error "\<your account> isn't in our system"
+        - name: 'I get an error "\[your account] isn''t in our system"'
           href: ../conceptual/1.0/account-not-in-system-error.md
 - name: Videos
   items:
