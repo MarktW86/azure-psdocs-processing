@@ -1,9 +1,9 @@
 ---
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/docs-conceptual/account-not-in-system-error.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/docs-conceptual/account-not-in-system-error.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/b1f958c77abd48801768c09c913cabe3572524ca
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/a9ca17e0c7741204daf187204edc92998508a2db
 ---
-# I get an error "\[your account>] isn't in our system"
+# I get an error "\[your account] isn't in our system"
 
 You can see this error message if the Connect-AzureAD cmdlet fails. There are several possible causes:
 
