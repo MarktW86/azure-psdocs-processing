@@ -844,6 +844,11 @@
           href: AzureRM.Batch/Stop-AzureBatchTask.md
         - name: Test-AzureBatchAutoScale
           href: AzureRM.Batch/Test-AzureBatchAutoScale.md
+    - name: Billing
+      href: 'AzureRM.Billing/index.md#billing'
+      items:
+        - name: Get-AzureRmBillingInvoice
+          href: AzureRM.Billing/Get-AzureRmBillingInvoice.md
     - name: CDN
       href: 'AzureRM.Cdn/index.md#cdn'
       items:

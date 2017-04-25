@@ -3,11 +3,11 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 ms.assetid: 5751DBA5-57F8-47C6-954D-9D4B026CE662
 online version:
 schema: 2.0.0
-updated_at: 04/20/2017 13:04 PM
-ms.date: 04/20/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADContract.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADContract.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/6784ef1ea564e1d26aa69307ad6878ee9a87b777
+updated_at: 04/24/2017 22:04 PM
+ms.date: 04/24/2017
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2-preview/Get-AzureADContract.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2-preview/Get-AzureADContract.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/e8fee4f7b154d51007aafbde860e493d3e63a77e
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -42,7 +42,7 @@ The **Get-AzureADContract** cmdlet gets a contract from Azure Active Directory. 
 ++ "ResellerPartner", which indicates a partner that is similar to a syndication partner, except that it doesn’t have exclusive access to a tenant. In the syndication case the customer cannot buy additional direct subscriptions from Microsoft or from other partners.
 + customerContextId - The unique identifier for the customer tenant referenced by this partnership. Corresponds to the objectId property of the customer tenant's TenantDetail object.
 + defaultDomainName - A copy of the customer tenant's default domain name. The copy is made when the partnership with the customer is established. It is not automatically updated if the customer tenant's default domain name changes.
-+ deletionTimestamp - This property is not valid for contracts and always returns null. 
++ deletionTimestamp - This property is not valid for contracts and always returns null.
 + displayName - A copy of the customer tenant's display name. The copy is made when the partnership with the customer is established. It is not automatically updated if the customer tenant's display name changes.
 + objectType - A string that identifies the object type. The value is always “Contract”. 
 + objectId - The unique identifier for the partnership. 
