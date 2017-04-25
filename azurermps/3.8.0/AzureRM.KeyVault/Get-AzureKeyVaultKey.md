@@ -5,8 +5,8 @@ online version: http://go.microsoft.com/fwlink/?LinkId=690297
 schema: 2.0.0
 updated_at: 04/07/2017 09:04 AM
 ms.date: 04/07/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.8.0/Get-AzureKeyVaultKey.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.8.0/Get-AzureKeyVaultKey.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.8.0/Get-AzureKeyVaultKey.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.8.0/Get-AzureKeyVaultKey.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/195dcb690a30a5f2c0ecd5606483862547ef544a
 ms.topic: reference
 author: erickson-doug

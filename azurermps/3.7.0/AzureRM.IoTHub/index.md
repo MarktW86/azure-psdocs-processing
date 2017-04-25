@@ -2,8 +2,8 @@
 Module Name: AzureRM.IotHub
 Module Guid: 51a3a993-fe39-4f8f-a437-2cb751584af5
 Locale: en-US
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.IoTHub/v1.3.0/AzureRM.IotHub.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.IoTHub/v1.3.0/AzureRM.IotHub.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.IoTHub/v1.3.0/AzureRM.IotHub.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.IoTHub/v1.3.0/AzureRM.IotHub.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/
 ms.topic: conceptual
 author: erickson-doug

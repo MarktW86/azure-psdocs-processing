@@ -4,8 +4,8 @@ online version:
 schema: 2.0.0
 updated_at: 03/23/2017 22:03 PM
 ms.date: 03/23/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v1.1.3/Remove-AzureRmAppServicePlan.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v1.1.3/Remove-AzureRmAppServicePlan.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v1.1.3/Remove-AzureRmAppServicePlan.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v1.1.3/Remove-AzureRmAppServicePlan.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/535e2e74f053db46eadf4681f4a95ece9f189378
 ms.topic: reference
 author: erickson-doug

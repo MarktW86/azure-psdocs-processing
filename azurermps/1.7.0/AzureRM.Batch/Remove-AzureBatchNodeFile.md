@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: F938688E-8C63-47CE-85AB-1F92A6EB85F5
 updated_at: 11/01/2016 22:11 PM
 ms.date: 11/01/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v1.1.4/Remove-AzureBatchNodeFile.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v1.1.4/Remove-AzureBatchNodeFile.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v1.1.4/Remove-AzureBatchNodeFile.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v1.1.4/Remove-AzureBatchNodeFile.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed
 ms.topic: reference
 author: erickson-doug

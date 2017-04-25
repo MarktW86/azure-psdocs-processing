@@ -2,8 +2,8 @@
 external help file: Microsoft.Azure.Commands.IotHub.dll-Help.xml
 online version:
 schema: 2.0.0
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.IoTHub/v1.4.0/Set-AzureRmIotHub.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.IoTHub/v1.4.0/Set-AzureRmIotHub.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.IoTHub/v1.4.0/Set-AzureRmIotHub.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.IoTHub/v1.4.0/Set-AzureRmIotHub.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/
 ms.topic: reference
 author: erickson-doug

@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: 280CB9EF-614F-46E6-93A1-19F3B5562384
 updated_at: 11/22/2016 20:11 PM
 ms.date: 11/22/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DataFactories/v1.0.12/Remove-AzureRmDataFactoryHub.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DataFactories/v1.0.12/Remove-AzureRmDataFactoryHub.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.DataFactories/v1.0.12/Remove-AzureRmDataFactoryHub.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.DataFactories/v1.0.12/Remove-AzureRmDataFactoryHub.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0cedc8f73bc96cf5ac4c69144e17b3de601fd3cc
 ms.topic: reference
 author: erickson-doug

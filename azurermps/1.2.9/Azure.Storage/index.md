@@ -4,8 +4,8 @@ Module Guid: 00612bca-fa22-401d-a671-9cc48b010e3b
 Locale: en-US
 updated_at: 03/27/2017 18:03 PM
 ms.date: 03/27/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/Azure.Storage/v1.0.4.3/Azure.Storage.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/Azure.Storage/v1.0.4.3/Azure.Storage.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/Azure.Storage/v1.0.4.3/Azure.Storage.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/Azure.Storage/v1.0.4.3/Azure.Storage.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/9b79c0a37330eb2c43d3e7d31b5ab53f0da9554c
 ms.topic: conceptual
 author: erickson-doug

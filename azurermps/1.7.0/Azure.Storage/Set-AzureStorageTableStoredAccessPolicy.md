@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: CD4016E4-C0AA-4963-BEB7-144A5BD2D619
 updated_at: 03/27/2017 18:03 PM
 ms.date: 03/27/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/Azure.Storage/v1.1.6/Set-AzureStorageTableStoredAccessPolicy.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/Azure.Storage/v1.1.6/Set-AzureStorageTableStoredAccessPolicy.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/Azure.Storage/v1.1.6/Set-AzureStorageTableStoredAccessPolicy.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/Azure.Storage/v1.1.6/Set-AzureStorageTableStoredAccessPolicy.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/9b79c0a37330eb2c43d3e7d31b5ab53f0da9554c
 ms.topic: reference
 author: erickson-doug

@@ -7,8 +7,8 @@ Locale: en-US
 ms.assetid: 9097353C-6C98-48DB-B87F-DD63ECF3C462
 updated_at: 04/07/2017 09:04 AM
 ms.date: 04/07/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.TrafficManager/v2.8.0/AzureRM.TrafficManager.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.TrafficManager/v2.8.0/AzureRM.TrafficManager.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.TrafficManager/v2.8.0/AzureRM.TrafficManager.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.TrafficManager/v2.8.0/AzureRM.TrafficManager.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/195dcb690a30a5f2c0ecd5606483862547ef544a
 ms.topic: conceptual
 author: erickson-doug

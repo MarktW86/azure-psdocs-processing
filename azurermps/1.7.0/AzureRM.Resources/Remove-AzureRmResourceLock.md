@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: 4669FDC5-6F1D-4465-8E5B-7EE62855CF24
 updated_at: 11/01/2016 22:11 PM
 ms.date: 11/01/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v2.0.3/Remove-AzureRmResourceLock.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v2.0.3/Remove-AzureRmResourceLock.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v2.0.3/Remove-AzureRmResourceLock.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v2.0.3/Remove-AzureRmResourceLock.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed
 ms.topic: reference
 author: erickson-doug

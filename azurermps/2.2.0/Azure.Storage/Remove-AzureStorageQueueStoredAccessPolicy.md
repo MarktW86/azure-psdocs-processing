@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: A147E1B2-68A7-47EF-AC15-D1F59F10416D
 updated_at: 03/27/2017 18:03 PM
 ms.date: 03/27/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/Azure.Storage/v2.1.0/Remove-AzureStorageQueueStoredAccessPolicy.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/Azure.Storage/v2.1.0/Remove-AzureStorageQueueStoredAccessPolicy.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/Azure.Storage/v2.1.0/Remove-AzureStorageQueueStoredAccessPolicy.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/Azure.Storage/v2.1.0/Remove-AzureStorageQueueStoredAccessPolicy.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/9b79c0a37330eb2c43d3e7d31b5ab53f0da9554c
 ms.topic: reference
 author: erickson-doug

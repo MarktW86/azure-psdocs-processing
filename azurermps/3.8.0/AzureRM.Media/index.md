@@ -5,8 +5,8 @@ Locale: en-US
 ms.assetid: A3CF7E4B-9FE5-4BD3-8609-2312B81A2FDF
 updated_at: 04/07/2017 09:04 AM
 ms.date: 04/07/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Media/v0.5.0/AzureRM.Media.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Media/v0.5.0/AzureRM.Media.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Media/v0.5.0/AzureRM.Media.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Media/v0.5.0/AzureRM.Media.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/195dcb690a30a5f2c0ecd5606483862547ef544a
 ms.topic: conceptual
 author: erickson-doug

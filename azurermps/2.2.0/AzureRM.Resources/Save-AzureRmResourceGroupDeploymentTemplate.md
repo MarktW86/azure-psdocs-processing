@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: 65E28714-387C-4C04-96F5-93D7C6ACE1BE
 updated_at: 01/09/2017 23:01 PM
 ms.date: 01/09/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.1.0/Save-AzureRmResourceGroupDeploymentTemplate.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.1.0/Save-AzureRmResourceGroupDeploymentTemplate.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.1.0/Save-AzureRmResourceGroupDeploymentTemplate.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.1.0/Save-AzureRmResourceGroupDeploymentTemplate.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/909020b7dbd03ec23a61b4fe16ccd2762277084c
 ms.topic: reference
 author: erickson-doug

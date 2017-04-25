@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: 4CC56593-F80C-45DA-9775-926783BCCAE4
 updated_at: 11/11/2016 23:11 PM
 ms.date: 11/11/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v1.1.11/Set-AzureKeyVaultSecretAttribute.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v1.1.11/Set-AzureKeyVaultSecretAttribute.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v1.1.11/Set-AzureKeyVaultSecretAttribute.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v1.1.11/Set-AzureKeyVaultSecretAttribute.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf
 ms.topic: reference
 author: erickson-doug

@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: 79459B67-B47E-4572-AFC0-A0C72214DF11
 updated_at: 11/22/2016 20:11 PM
 ms.date: 11/22/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.1.0/Add-AzureKeyVaultKey.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.1.0/Add-AzureKeyVaultKey.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.1.0/Add-AzureKeyVaultKey.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.1.0/Add-AzureKeyVaultKey.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0cedc8f73bc96cf5ac4c69144e17b3de601fd3cc
 ms.topic: reference
 author: erickson-doug

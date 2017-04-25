@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: E00896E4-38EC-40A4-AD6A-694BC1A9FE2C
 updated_at: 11/01/2016 22:11 PM
 ms.date: 11/01/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Dns/v1.0.12/Remove-AzureRmDnsZone.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Dns/v1.0.12/Remove-AzureRmDnsZone.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Dns/v1.0.12/Remove-AzureRmDnsZone.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Dns/v1.0.12/Remove-AzureRmDnsZone.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed
 ms.topic: reference
 author: erickson-doug

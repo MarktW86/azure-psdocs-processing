@@ -5,8 +5,8 @@ online version:
 schema: 2.0.0
 updated_at: 04/07/2017 09:04 AM
 ms.date: 04/07/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Media/v0.5.0/Set-AzureRmMediaServiceKey.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Media/v0.5.0/Set-AzureRmMediaServiceKey.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Media/v0.5.0/Set-AzureRmMediaServiceKey.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Media/v0.5.0/Set-AzureRmMediaServiceKey.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/195dcb690a30a5f2c0ecd5606483862547ef544a
 ms.topic: reference
 author: erickson-doug

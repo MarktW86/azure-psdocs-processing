@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: FC1A9B7F-9BA3-4AE2-A800-1C36C5317678
 updated_at: 11/22/2016 20:11 PM
 ms.date: 11/22/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.1.0/Set-AzureRmSqlServerAuditingPolicy.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.1.0/Set-AzureRmSqlServerAuditingPolicy.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.1.0/Set-AzureRmSqlServerAuditingPolicy.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.1.0/Set-AzureRmSqlServerAuditingPolicy.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0cedc8f73bc96cf5ac4c69144e17b3de601fd3cc
 ms.topic: reference
 author: erickson-doug

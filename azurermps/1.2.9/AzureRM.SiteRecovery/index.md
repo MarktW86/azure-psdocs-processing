@@ -4,8 +4,8 @@ Module Guid: d1de7560-48e1-48f3-bc8c-4eea3af2bbe1
 Locale: en-US
 updated_at: 03/23/2017 23:03 PM
 ms.date: 03/23/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v1.1.3.3/AzureRM.SiteRecovery.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v1.1.3.3/AzureRM.SiteRecovery.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v1.1.3.3/AzureRM.SiteRecovery.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v1.1.3.3/AzureRM.SiteRecovery.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/280872fa529e03be2466fa2252957a2060a9dfe4
 ms.topic: conceptual
 author: erickson-doug

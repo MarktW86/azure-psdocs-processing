@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: CA4D1BDD-8DF5-4F7B-A22D-307E2E3526C1
 updated_at: 03/27/2017 18:03 PM
 ms.date: 03/27/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/Azure.Storage/v2.1.0/Set-AzureStorageFileContent.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/Azure.Storage/v2.1.0/Set-AzureStorageFileContent.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/Azure.Storage/v2.1.0/Set-AzureStorageFileContent.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/Azure.Storage/v2.1.0/Set-AzureStorageFileContent.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/9b79c0a37330eb2c43d3e7d31b5ab53f0da9554c
 ms.topic: reference
 author: erickson-doug

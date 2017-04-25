@@ -10,8 +10,8 @@ ms.service: azure-resource-manager
 ms.devlang: powershell
 ms.topic: conceptual
 ms.date: 03/30/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/docs-conceptual/manage-subscriptions-azureps.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/docs-conceptual/manage-subscriptions-azureps.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/docs-conceptual/manage-subscriptions-azureps.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/docs-conceptual/manage-subscriptions-azureps.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/379641e1d19b18dec54244dce5910aa3f4d6d991
 open_to_public_contributors: true
 ---

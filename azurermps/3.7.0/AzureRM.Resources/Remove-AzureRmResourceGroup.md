@@ -5,8 +5,8 @@ online version:
 schema: 2.0.0
 updated_at: 04/09/2017 23:04 PM
 ms.date: 04/09/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Remove-AzureRmResourceGroup.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Remove-AzureRmResourceGroup.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Remove-AzureRmResourceGroup.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Remove-AzureRmResourceGroup.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7c9d4e19541cebeff216033013f52beaa31c8327
 ms.topic: reference
 author: erickson-doug

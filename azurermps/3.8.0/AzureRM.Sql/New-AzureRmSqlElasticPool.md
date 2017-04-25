@@ -5,8 +5,8 @@ online version:
 schema: 2.0.0
 updated_at: 04/20/2017 01:04 AM
 ms.date: 04/20/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.8.0/New-AzureRmSqlElasticPool.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.8.0/New-AzureRmSqlElasticPool.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.8.0/New-AzureRmSqlElasticPool.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.8.0/New-AzureRmSqlElasticPool.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/19b9ad2493180521265cd72f276c6d410e6db21c
 ms.topic: reference
 author: erickson-doug
