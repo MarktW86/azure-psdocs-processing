@@ -2,11 +2,11 @@
 external help file: Microsoft.AzureStack.Commands.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 04/20/2017 23:04 PM
-ms.date: 04/20/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/Remove-AzureRMPlan.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/Remove-AzureRMPlan.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d4f2539c40b2f09416fa3e1d384a0a1f0183fb5e
+updated_at: 04/25/2017 19:04 PM
+ms.date: 04/25/2017
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/Remove-AzureRMPlan.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/Remove-AzureRMPlan.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/c4315559410058943d9b4bbae2b76e607f21de95
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -19,8 +19,7 @@ ms.service: azure-stack
 # Remove-AzureRMPlan
 
 ## SYNOPSIS
-The Remove-AzureRMPlan cmddlet removes the specified plan.
-The plan should not have any references to offers to get removed
+Removes the specified plan.
 
 ## SYNTAX
 
@@ -30,26 +29,21 @@ Remove-AzureRMPlan -Name <String> -ResourceGroup <String> [-InformationAction <A
 ```
 
 ## DESCRIPTION
+The **Remove-AzureRMPlan** cmdlet removes the specified plan. For successful removal, the plan must not have any references to offers.
 
 ## EXAMPLES
 
 ### Example 1:
 ```
-Remover-AzureRMPlan -Name ComputePlan
+Remover-AzureRMPlan -Name "ComputePlan"
 ```
 
-Description
-
------------
-
-The example removes a plan named ComputePlan
+This command removes the plan named "ComputePlan".
 
 ## PARAMETERS
 
 ### -InformationAction
-Not Specified
-
-The following values are permitted for this object type.
+Not specified.
 
 ```yaml
 Type: ActionPreference
@@ -65,7 +59,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-Not Specified
+Not specified.
 
 ```yaml
 Type: String
@@ -80,12 +74,12 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-@{Text=}
+Specifies the name of the plan that is to be removed.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -95,7 +89,7 @@ Accept wildcard characters: False
 ```
 
 ### -PipelineVariable
-Not Specified
+Not specified.
 
 ```yaml
 Type: String
@@ -110,12 +104,12 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroup
-@{Text=}
+Specifies the resource group that contains the plan.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -129,6 +123,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## INPUTS
 
+### None
+
 ## OUTPUTS
 
 ### Microsoft.Azure.AzureOperationResponse
@@ -136,4 +132,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-

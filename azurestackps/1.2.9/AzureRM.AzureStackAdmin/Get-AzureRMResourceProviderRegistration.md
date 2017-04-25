@@ -2,11 +2,11 @@
 external help file: Microsoft.AzureStack.Commands.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 04/20/2017 23:04 PM
-ms.date: 04/20/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/Get-AzureRMResourceProviderRegistration.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/Get-AzureRMResourceProviderRegistration.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d4f2539c40b2f09416fa3e1d384a0a1f0183fb5e
+updated_at: 04/25/2017 19:04 PM
+ms.date: 04/25/2017
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/Get-AzureRMResourceProviderRegistration.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/Get-AzureRMResourceProviderRegistration.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/c4315559410058943d9b4bbae2b76e607f21de95
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -19,7 +19,7 @@ ms.service: azure-stack
 # Get-AzureRMResourceProviderRegistration
 
 ## SYNOPSIS
-The Get-AzureRmResourceProviderRegistration cmdlet gets the resource provider manifest registration details
+Gets the registration details of a resource provider.
 
 ## SYNTAX
 
@@ -30,27 +30,21 @@ Get-AzureRMResourceProviderRegistration [-Name <String>] -ResourceGroup <String>
 ```
 
 ## DESCRIPTION
-The Get-AzureRmResourceProviderRegistration cmdlet gets the resource provider manifest registration details
+The **Get-AzureRmResourceProviderRegistration** cmdlet gets the registration details of a resource provider.
 
 ## EXAMPLES
 
 ### Example 1:
 ```
-$registration = Get-AzureRMResourceProviderRegistration -Name "Microsoft.Sql.Admin" -ResourceGroup System
+$registration = Get-AzureRMResourceProviderRegistration -Name "Microsoft.Sql.Admin" -ResourceGroup "System"
 ```
 
-Description
-
------------
-
-The following example gets the registration manifest details for the Microsoft.Sql.Admin namespace
+This command gets the registration details for the "Microsoft.Sql.Admin" resource provider that was registered under the "System" resource group.
 
 ## PARAMETERS
 
 ### -InformationAction
-Not Specified
-
-The following values are permitted for this object type.
+Not Specified.
 
 ```yaml
 Type: ActionPreference
@@ -66,7 +60,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-Not Specified
+Not Specified.
 
 ```yaml
 Type: String
@@ -81,12 +75,12 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-@{Text=}
+Specifies the name of the resource provider.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -96,7 +90,7 @@ Accept wildcard characters: False
 ```
 
 ### -PipelineVariable
-Not Specified
+Not Specified.
 
 ```yaml
 Type: String
@@ -111,12 +105,12 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroup
-Resource group name
+Specifies the name of the resource group under which the resource provider was registered.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -130,6 +124,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## INPUTS
 
+### None
+
 ## OUTPUTS
 
 ### Microsoft.AzureStack.Management.Models.ProviderRegistrationModel
@@ -137,4 +133,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-

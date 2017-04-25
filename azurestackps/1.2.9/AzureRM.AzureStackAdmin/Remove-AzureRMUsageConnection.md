@@ -2,11 +2,11 @@
 external help file: Microsoft.AzureStack.Commands.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 04/20/2017 23:04 PM
-ms.date: 04/20/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/Remove-AzureRMUsageConnection.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/Remove-AzureRMUsageConnection.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d4f2539c40b2f09416fa3e1d384a0a1f0183fb5e
+updated_at: 04/25/2017 19:04 PM
+ms.date: 04/25/2017
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/Remove-AzureRMUsageConnection.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/Remove-AzureRMUsageConnection.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/c4315559410058943d9b4bbae2b76e607f21de95
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -19,7 +19,7 @@ ms.service: azure-stack
 # Remove-AzureRMUsageConnection
 
 ## SYNOPSIS
-The Remove-AzureRMUsageConnection cmdlet removes the usage connection information from the usage service.
+Removes the usage connection information from the usage service.
 
 ## SYNTAX
 
@@ -29,26 +29,21 @@ Remove-AzureRMUsageConnection -Name <String> [-ResourceGroup <String>] [-Informa
 ```
 
 ## DESCRIPTION
+The **Remove-AzureRMUsageConnection** cmdlet removes the usage connection information from the usage service.
 
 ## EXAMPLES
 
 ### Example 1:
 ```
-Remove-AzureRmUsageConnection -Name SqlRpUsageConnection -ResourceGroup System
+Remove-AzureRmUsageConnection -Name "SqlRpUsageConnection" -ResourceGroup "System"
 ```
 
-Description
-
------------
-
-The example removes the usage connection information for the specified name
+This command removes the information for the usage connection that is named "SqlRpUsageConnection" and contained in the "System" resource group.
 
 ## PARAMETERS
 
 ### -InformationAction
-Not Specified
-
-The following values are permitted for this object type.
+Not specified.
 
 ```yaml
 Type: ActionPreference
@@ -64,7 +59,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-Not Specified
+Not specified.
 
 ```yaml
 Type: String
@@ -79,12 +74,12 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-Specifies the existing usage connection name.
+Specifies the name of the usage connection.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -94,7 +89,7 @@ Accept wildcard characters: False
 ```
 
 ### -PipelineVariable
-Not Specified
+Not specified.
 
 ```yaml
 Type: String
@@ -109,12 +104,12 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroup
-Name of the resource group where the usage connection was created
+Name of the resource group where the usage connection was created.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -128,6 +123,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## INPUTS
 
+### None
+
 ## OUTPUTS
 
 ### Microsoft.Azure.AzureOperationResponse
@@ -135,4 +132,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-

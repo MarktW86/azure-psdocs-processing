@@ -2,11 +2,11 @@
 external help file: Microsoft.AzureStack.Commands.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 04/20/2017 23:04 PM
-ms.date: 04/20/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/New-AzureRMPlan.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/New-AzureRMPlan.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d4f2539c40b2f09416fa3e1d384a0a1f0183fb5e
+updated_at: 04/25/2017 19:04 PM
+ms.date: 04/25/2017
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/New-AzureRMPlan.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/New-AzureRMPlan.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/c4315559410058943d9b4bbae2b76e607f21de95
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -19,7 +19,7 @@ ms.service: azure-stack
 # New-AzureRMPlan
 
 ## SYNOPSIS
-The New-AzureRmPlan cmdlet creates a new plan composing the various quotas of the resource provider
+Creates a new plan comprising the various quotas of the resource provider.
 
 ## SYNTAX
 
@@ -30,83 +30,70 @@ New-AzureRMPlan -Name <String> [-DisplayName <String>] -ArmLocation <String> -Re
 ```
 
 ## DESCRIPTION
+The **New-AzureRmPlan** cmdlet creates a new plan comprising the various quotas of the resource provider.
 
 ## EXAMPLES
 
 ### Example 1:
 ```
+$quotaIds = @()
+$computeQuota = New-ComputeQuota -QuotaName "Basic" -Location "local"
+$quotaIds += $computeQuota.Id
+# Add other resource provider quotas if needed
+
 New-AzureRMPlan -Name $PlanName -DisplayName "ComputePlan" -ArmLocation "local" -ResourceGroup $ResourceGroupName -QuotaIds $quotaIds
+
+function New-ComputeQuota
+{
+param
+(
+\[parameter(Mandatory=$true)\]
+\[string\] $QuotaName,
+\[parameter(Mandatory=$true)\]
+\[string\] $Location,
+\[int\] $VirtualMachineCount = 2,
+\[int\] $MemoryLimitMB = 2048,
+\[int\] $CoresLimit = 2,
+\[string\] $ApiVersion = "2015-12-01-preview"
+)
+
+Write-Verbose "Creating compute quota named $QuotaName"
+
+$uri = "{0}subscriptions/{1}/providers/Microsoft.Compute.Admin/locations/{2}/quotas/{3}?api-version={4}" -f $AdminUri, $SubscriptionId, $Location, $QuotaName, $ApiVersion
+
+$RequestBody = @"
+{
+"name":"$quotaName",
+"type":"Microsoft.Compute.Admin/quotas",
+"location":"$Location",
+"properties":{
+"virtualMachineCount":$VirtualMachineCount,
+"memoryLimitMB":$MemoryLimitMB,
+"coresLimit":$CoresLimit
+}
+}
+"@
+
+# Get the $Token with Get-AzureStackToken cmdlet
+$headers = @{ "Authorization" = "Bearer "+ $Token }
+
+$quota = Invoke-RestMethod -Method Put -Uri $uri -Body $RequestBody -ContentType 'application/json' -Headers $headers
+
+Write-Output $quota
+}
 ```
 
-Description
-
------------
-
-The following example creates a plan.
-Note that quota creation cmdlets are not available yet and will be added in a future release
-
-            $quotaIds = @()
-            $computeQuota = New-ComputeQuota -QuotaName "Basic" -Location "local"
-            $quotaIds += $computeQuota.Id
-            # Add other resource provider quotas if needed
-
-            New-AzureRMPlan -Name $PlanName -DisplayName "ComputePlan" -ArmLocation "local" -ResourceGroup $ResourceGroupName -QuotaIds $quotaIds
-
-
-            function New-ComputeQuota
-            {
-            param
-            (
-            \[parameter(Mandatory=$true)\]
-            \[string\] $QuotaName,
-
-            \[parameter(Mandatory=$true)\]
-            \[string\] $Location,
-
-            \[int\] $VirtualMachineCount = 2,
-
-            \[int\] $MemoryLimitMB = 2048,
-
-            \[int\] $CoresLimit = 2,
-
-            \[string\] $ApiVersion = "2015-12-01-preview"
-            )
-
-            Write-Verbose "Creating compute quota named $QuotaName"
-
-            $uri = "{0}subscriptions/{1}/providers/Microsoft.Compute.Admin/locations/{2}/quotas/{3}?api-version={4}" -f $AdminUri, $SubscriptionId, $Location, $QuotaName, $ApiVersion
-
-            $RequestBody = @"
-            {
-            "name":"$quotaName",
-            "type":"Microsoft.Compute.Admin/quotas",
-            "location":"$Location",
-            "properties":{
-            "virtualMachineCount":$VirtualMachineCount,
-            "memoryLimitMB":$MemoryLimitMB,
-            "coresLimit":$CoresLimit
-            }
-            }
-            "@
-
-            # Get the $Token with Get-AzureStackToken cmdlet
-            $headers = @{ "Authorization" = "Bearer "+ $Token }
-
-            $quota = Invoke-RestMethod -Method Put -Uri $uri -Body $RequestBody -ContentType 'application/json' -Headers $headers
-
-            Write-Output $quota
-            }
+This example creates a plan with the display name "ComputePlan" and the quota IDs contained in the $quotaIds variable.
 
 ## PARAMETERS
 
 ### -ArmLocation
-Specifies the location of the Azurestack resource manager.
-The parameter will be deprecated in future
+Specifies the location of the Azure stack resource manager in the Azure stack installation.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -116,12 +103,12 @@ Accept wildcard characters: False
 ```
 
 ### -DisplayName
-Specifies the display name of the plan
+Specifies the display name of the plan.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -131,9 +118,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-Not Specified
-
-The following values are permitted for this object type.
+Not specified.
 
 ```yaml
 Type: ActionPreference
@@ -149,7 +134,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-Not Specified
+Not specified.
 
 ```yaml
 Type: String
@@ -164,12 +149,12 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-Specifies the name of the plan
+Specifies the name of the plan.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -179,7 +164,7 @@ Accept wildcard characters: False
 ```
 
 ### -PipelineVariable
-Not Specified
+Not specified.
 
 ```yaml
 Type: String
@@ -194,14 +179,12 @@ Accept wildcard characters: False
 ```
 
 ### -QuotaIds
-Specifies an array of quota ids.
-The resource providers create the quotas and provide the quota ids.
-The cmdlets for CRUD operations on  quotas are not available yet and will be added in a future release
+Specifies an array of quota IDs. The resource providers create the quotas and provide the IDs.
 
 ```yaml
 Type: String[]
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -211,12 +194,12 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroup
-The resource group name under which the plan resource is created
+Specifies the name of the resource group under which the plan resource is created.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -226,12 +209,12 @@ Accept wildcard characters: False
 ```
 
 ### -SkuIds
-An array of SkuIds from the resource provider
+An array of SKU IDs from the resource provider.
 
 ```yaml
 Type: String[]
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -245,6 +228,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## INPUTS
 
+### None
+
 ## OUTPUTS
 
 ### Microsoft.AzureStack.Management.Models.AdminPlanModel
@@ -252,4 +237,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-

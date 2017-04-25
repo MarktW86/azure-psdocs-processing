@@ -2,11 +2,11 @@
 external help file: Microsoft.AzureStack.Commands.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 04/20/2017 23:04 PM
-ms.date: 04/20/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/New-AzureRMOffer.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/New-AzureRMOffer.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d4f2539c40b2f09416fa3e1d384a0a1f0183fb5e
+updated_at: 04/25/2017 19:04 PM
+ms.date: 04/25/2017
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/New-AzureRMOffer.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/New-AzureRMOffer.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/c4315559410058943d9b4bbae2b76e607f21de95
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -19,7 +19,7 @@ ms.service: azure-stack
 # New-AzureRMOffer
 
 ## SYNOPSIS
-The New-AzureRmOffer cmdlet creates an offer composing of the specified base plans and add ons
+Creates an offer comprising the specified base plans and add-on plans.
 
 ## SYNTAX
 
@@ -31,30 +31,26 @@ New-AzureRMOffer -Name <String> [-DisplayName <String>] [-State <AccessibilitySt
 ```
 
 ## DESCRIPTION
+The **New-AzureRmOffer** cmdlet creates an offer comprising the specified base plans and add-on plans.
 
 ## EXAMPLES
 
 ### Example 1:
 ```
-New-AzureRMOffer -Name "ComputePlan" -DisplayName "ComputePlan" -State Private -BasePlanIds $BasePlanIds -ArmLocation "local"-ResourceGroup "OfferGroup"
+New-AzureRMOffer -Name "ComputePlan" -DisplayName "ComputePlan" -State Private -BasePlanIds $BasePlanIds -ArmLocation "local" -ResourceGroup "OfferGroup"
 ```
 
-Description
-
------------
-
-The example creates an offer with the provided base plans
+This command creates an offer with the base plans specified by $BasePlanIds.
 
 ## PARAMETERS
 
 ### -AddOnPlans
-An array of AddOn Plan Ids.
-The offer will support the extra quotas provided by the AddOns
+Specifies an array of add-on plan IDs. The offer will support the extra quotas that are provided by the add-on plans.
 
 ```yaml
 Type: AddonPlanDefinition[]
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -64,13 +60,12 @@ Accept wildcard characters: False
 ```
 
 ### -ArmLocation
-Specifies the location of the Azurestack Resource Manager.
-This parameter will be deprecated in a future release
+Specifies the location of the Azure stack resource manager in the Azure stack installation.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -80,13 +75,12 @@ Accept wildcard characters: False
 ```
 
 ### -BasePlanIds
-An array of the base plan Ids.
-The offer is going to compose of all the base plans and associated quotas
+Specifies an array of base plan IDs. The offer comprises all the base plans and associated quotas.
 
 ```yaml
 Type: String[]
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -96,12 +90,12 @@ Accept wildcard characters: False
 ```
 
 ### -DisplayName
-@{Text=}
+Specifies the display name of the offer.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -111,9 +105,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-Not Specified
-
-The following values are permitted for this object type.
+Not specified.
 
 ```yaml
 Type: ActionPreference
@@ -129,7 +121,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-Not Specified
+Not specified.
 
 ```yaml
 Type: String
@@ -144,12 +136,12 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-Specifies the name of the offer
+Specifies the name of the offer.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -159,7 +151,7 @@ Accept wildcard characters: False
 ```
 
 ### -PipelineVariable
-Not Specified
+Not specified.
 
 ```yaml
 Type: String
@@ -174,12 +166,12 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroup
-The existing resource group name where the offer resource is created
+Specifies the name of the resource group where the offer resource is created.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -189,13 +181,15 @@ Accept wildcard characters: False
 ```
 
 ### -State
-Specifies the state of the plan.
-The state could be Private, Public or Decommissioned
+Specifies the state of the offer plan. The acceptable values for this parameter are:
+  - Private
+  - Public
+  - Decommissioned
 
 ```yaml
 Type: AccessibilityState
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -209,6 +203,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## INPUTS
 
+### None
+
 ## OUTPUTS
 
 ### Microsoft.AzureStack.Management.Models.AdminOfferModel
@@ -216,4 +212,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-

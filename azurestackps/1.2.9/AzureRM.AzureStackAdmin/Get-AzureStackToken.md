@@ -2,11 +2,11 @@
 external help file: Microsoft.AzureStack.Commands.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 04/20/2017 23:04 PM
-ms.date: 04/20/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/Get-AzureStackToken.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/Get-AzureStackToken.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d4f2539c40b2f09416fa3e1d384a0a1f0183fb5e
+updated_at: 04/25/2017 19:04 PM
+ms.date: 04/25/2017
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/Get-AzureStackToken.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/Get-AzureStackToken.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/c4315559410058943d9b4bbae2b76e607f21de95
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -19,8 +19,7 @@ ms.service: azure-stack
 # Get-AzureStackToken
 
 ## SYNOPSIS
-The Get-AzureStackToken cmdlet gets a token to be used to make calls to Azurestack Resource Manager.
-The cmdlet will be deprecated in a future release
+Gets a token that is used to make calls to the Azure stack resource manager.
 
 ## SYNTAX
 
@@ -39,34 +38,30 @@ Get-AzureStackToken [-Authority] <String> -Resource <String> -AadTenantId <Strin
 ```
 
 ## DESCRIPTION
+The **Get-AzureStackToken** cmdlet gets a token that is used to make calls to the Azure stack resource manager.
 
 ## EXAMPLES
 
 ### Example 1:
 ```
+$endpoints = Invoke-RestMethod -Method Get -Uri "$($ArmEndpoint.TrimEnd('/'))/metadata/endpoints?api-version=2015-01-01" -Verbose
+$aadAuthorityEndpoint = $endpoints.authentication.loginEndpoint
+$aadResource = $endpoints.authentication.audiences\[0\]
+
 Get-AzureStackToken -Authority $aadAuthorityEndpoint -AadTenantId $AadTenantId -Resource $aadResource -Credential (Get-Credential) -Verbose
 ```
 
-Description
+This example gets the access token for the specified user.
 
------------
-
-The following example gets the access token for the specified user
-            $endpoints = Invoke-RestMethod -Method Get -Uri "$($ArmEndpoint.TrimEnd('/'))/metadata/endpoints?api-version=2015-01-01" -Verbose
-            $aadAuthorityEndpoint = $endpoints.authentication.loginEndpoint
-            $aadResource = $endpoints.authentication.audiences\[0\]
-
-            Get-AzureStackToken -Authority $aadAuthorityEndpoint -AadTenantId $AadTenantId -Resource $aadResource -Credential (Get-Credential) -Verbose
-
-## PARAMETERS
+# PARAMETERS
 
 ### -AadTenantId
-Azure active directory(AAD) tenant Id of the user belonging to the  AAD tenant group
+Specifies the Azure active directory (AAD) tenant Id of the user belonging to the AAD tenant group.
 
 ```yaml
 Type: String
 Parameter Sets: AAD
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -76,13 +71,12 @@ Accept wildcard characters: False
 ```
 
 ### -Authority
-Authority endpoint for authentication, typically of the form https://login.windows.net.
-The value can be obtained by access the ARM metadata endpoint https://\<ArmUri\>/metadata/endpoints?api-version=2015-01-01 and reading the value of loginEndpoint
+Specifies the endpoint for authentication, typically of the form "https://login.windows.net". To obtain this value, access the Azure resource manager (ARM) metadata endpoint https://\<ArmUri\>/metadata/endpoints?api-version=2015-01-01 and read the value of **loginEndpoint**.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -92,14 +86,12 @@ Accept wildcard characters: False
 ```
 
 ### -ClientId
-The ClientId parameter is optional.
-This parameter will be removed in a future release.
-Please omit this
+Specifies the client ID for the Azure Stack token.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -109,12 +101,12 @@ Accept wildcard characters: False
 ```
 
 ### -Credential
-Specifies the credential for the user for whom we need the access token
+Specifies the credential for the user for whom we need the access token.
 
 ```yaml
 Type: PSCredential
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -124,9 +116,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-Not Specified
-
-The following values are permitted for this object type.
+Not Specified.
 
 ```yaml
 Type: ActionPreference
@@ -142,7 +132,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-Not Specified
+Not Specified.
 
 ```yaml
 Type: String
@@ -157,7 +147,7 @@ Accept wildcard characters: False
 ```
 
 ### -PipelineVariable
-Not Specified
+Not Specified.
 
 ```yaml
 Type: String
@@ -172,12 +162,12 @@ Accept wildcard characters: False
 ```
 
 ### -Resource
-Resource value for authentication, The value can be obtained by access the ARM metadata endpoint https://\<ArmUri\>/metadata/endpoints?api-version=2015-01-01 and reading the value of audiences
+Specifies the resource for authentication. To obtain this value, access the Azure resource manager (ARM) metadata endpoint https://\<ArmUri\>/metadata/endpoints?api-version=2015-01-01 and read the value of **audiences**.
 
 ```yaml
 Type: String
 Parameter Sets: ADFS
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -189,7 +179,7 @@ Accept wildcard characters: False
 ```yaml
 Type: String
 Parameter Sets: AAD
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -203,6 +193,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## INPUTS
 
+### None
+
 ## OUTPUTS
 
 ### System.Object
@@ -210,4 +202,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-
