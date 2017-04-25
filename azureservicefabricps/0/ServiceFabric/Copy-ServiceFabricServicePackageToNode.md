@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 156B7382-5026-423F-8570-969F11C4BD5F
 online version:
 schema: 2.0.0
-updated_at: 04/13/2017 18:04 PM
-ms.date: 04/13/2017
+updated_at: 04/25/2017 17:04 PM
+ms.date: 04/25/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Copy-ServiceFabricServicePackageToNode.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Copy-ServiceFabricServicePackageToNode.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/e4666c66ecad8bb641483d243bfac15b26f72282
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/b0568e8767cc2ab26c178302266bc3776ad571e3
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -40,19 +40,19 @@ Before you perform any operation on a Service Fabric cluster, establish a connec
 
 ## EXAMPLES
 
-### 1:
+### Example 1: Generate a package share policy
 ```
 PS C:\> $sharingPolicy = new-ServiceFabricPackageSharingPolicy -PackageName CalcService5 -SharingScopeAll
 ```
 
-This command generates a package share policy by using [New-ServiceFabricPackageSharingPolicy](.\New-ServiceFabricPackageSharingPolicy.md) cmdlet and assign it to the variable $sharingPolicy
+This command generates a package share policy by using [New-ServiceFabricPackageSharingPolicy](.\New-ServiceFabricPackageSharingPolicy.md) cmdlet and assigns it to the variable named $sharingPolicy.
 
-### 2:
+### Example 2: Copy a service package 
 ```
 PS C:\> Copy-ServiceFabricServicePackageToNode -ServiceManifestName CalcService5 -ApplicationTypeName CalcServiceApp -ApplicationTypeVersion 5.0 -NodeName Node4 -PackageSharingPolicies $sharingPolicy -TimeoutSec 600 -Verbose
 ```
 
-The command copies the service package belong to application type "CalcServiceApp", application version "5.0" and service manifest "CalcService5" to Node4 with previously generated share policy object $sharePolicy.
+The command copies the service package belonging to the application type named CalcServiceApp, application version 5.0, and service manifest named CalcService5 to Node4 with a previously generated share policy object stored in the variable named $sharePolicy.
 
 ## PARAMETERS
 
