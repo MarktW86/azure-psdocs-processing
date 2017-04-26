@@ -2,11 +2,11 @@
 external help file: Microsoft.AzureStack.AzureConsistentStorage.Commands.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 04/25/2017 23:04 PM
-ms.date: 04/25/2017
+updated_at: 04/26/2017 00:04 AM
+ms.date: 04/26/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Get-ACSFarm.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Get-ACSFarm.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0675759bda66b13ca45b658745928f58a1ac27b7
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/6ec3f30a81fcea3164edc82f2757ecfc1f9403c6
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -48,7 +48,7 @@ Get-ACSFarm -ResourceGroupName $resourceGroup
 ## PARAMETERS
 
 ### -AdminUri
-@{Text=}
+
 
 ```yaml
 Type: Uri
@@ -63,7 +63,7 @@ Accept wildcard characters: False
 ```
 
 ### -FarmName
-@{Text=}
+
 
 ```yaml
 Type: String
@@ -117,7 +117,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-@{Text=}
+
 
 ```yaml
 Type: String
@@ -132,7 +132,7 @@ Accept wildcard characters: False
 ```
 
 ### -SkipCertificateValidation
-@{Text=}
+
 
 ```yaml
 Type: SwitchParameter
@@ -147,7 +147,7 @@ Accept wildcard characters: False
 ```
 
 ### -SubscriptionId
-@{Text=}
+
 
 ```yaml
 Type: String
@@ -162,7 +162,7 @@ Accept wildcard characters: False
 ```
 
 ### -Token
-@{Text=}
+
 
 ```yaml
 Type: String
