@@ -3,11 +3,11 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 ms.assetid: 8212C7A5-3AA7-4E28-9F0C-D0C97F8AC08E
 online version:
 schema: 2.0.0
-updated_at: 04/25/2017 20:04 PM
-ms.date: 04/25/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2preview/Get-AzureADGroupMember.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2preview/Get-AzureADGroupMember.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/c5cc449ee6e2b805fc85a9e05130b06b10899f67
+updated_at: 02/04/2017 00:02 AM
+ms.date: 02/04/2017
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADGroupMember.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADGroupMember.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/3c958c260fe07ce8f34599794f089c4b3c1b8115
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
