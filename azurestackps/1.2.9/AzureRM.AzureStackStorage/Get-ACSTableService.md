@@ -2,11 +2,11 @@
 external help file: Microsoft.AzureStack.AzureConsistentStorage.Commands.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 04/11/2017 21:04 PM
-ms.date: 04/11/2017
+updated_at: 04/26/2017 00:04 AM
+ms.date: 04/26/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Get-ACSTableService.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Get-ACSTableService.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/da0fd350a2a76c2d3edbf597f3826de129c926e5
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/6ec3f30a81fcea3164edc82f2757ecfc1f9403c6
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -34,7 +34,7 @@ Get status and settings of Table service.
 
 ## EXAMPLES
 
-### --------------------------  Example 1  --------------------------
+### Example 1:
 @{paragraph=PS C:\\\>}
 
 
@@ -50,7 +50,7 @@ Get-ACSTableService -ResourceGroupName $resourceGroup -FarmName $farm.Name
 ## PARAMETERS
 
 ### -AdminUri
-@{Text=}
+
 
 ```yaml
 Type: Uri
@@ -65,7 +65,7 @@ Accept wildcard characters: False
 ```
 
 ### -FarmName
-@{Text=}
+
 
 ```yaml
 Type: String
@@ -80,7 +80,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -95,7 +104,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -110,7 +119,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-@{Text=}
+
 
 ```yaml
 Type: String
@@ -125,7 +134,7 @@ Accept wildcard characters: False
 ```
 
 ### -SkipCertificateValidation
-@{Text=}
+
 
 ```yaml
 Type: SwitchParameter
@@ -140,7 +149,7 @@ Accept wildcard characters: False
 ```
 
 ### -SubscriptionId
-@{Text=}
+
 
 ```yaml
 Type: String
@@ -155,7 +164,7 @@ Accept wildcard characters: False
 ```
 
 ### -Token
-@{Text=}
+
 
 ```yaml
 Type: String
@@ -183,4 +192,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-

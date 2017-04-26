@@ -3,11 +3,11 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 ms.assetid: 3B666786-2620-4E80-9A36-552B942A9F7C
 online version:
 schema: 2.0.0
-updated_at: 04/24/2017 22:04 PM
-ms.date: 04/24/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2-preview/New-AzureADUserAppRoleAssignment.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2-preview/New-AzureADUserAppRoleAssignment.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/e8fee4f7b154d51007aafbde860e493d3e63a77e
+updated_at: 04/20/2017 04:04 AM
+ms.date: 04/20/2017
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADUserAppRoleAssignment.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADUserAppRoleAssignment.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/040cd8da6d7a72a69c1b4ba2f09d33e47e3b88c8
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -37,7 +37,7 @@ The **New-AzureADUserAppRoleAssignment** cmdlet assigns a user to an application
 ```
 # Get AppId of the app to assign the user to
 
-$appId = Get-AzureADApplication -SearchString â€œ<Your App's display name>â€
+$appId = Get-AzureADApplication -SearchString  ¢â‚¬Å"<Your App's display name> ¢â‚¬Â
 
 # Get the user to be added
 
@@ -45,7 +45,7 @@ $user = Get-AzureADUser -searchstring "<Your user's UPN>"
 
 # Get the service principal for the app you want to assign the user to
 
-$servicePrincipal = Get-AzureADServicePrincipal -Filter â€œappId eq â€˜$appId'â€
+$servicePrincipal = Get-AzureADServicePrincipal -Filter  ¢â‚¬Å"appId eq  ¢â‚¬Ëœ$appId' ¢â‚¬Â
 
 # Create the user app role assignment
 

@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 6DB6444E-9271-42D4-8EC9-73CA6A799369
 online version:
 schema: 2.0.0
-updated_at: 04/13/2017 18:04 PM
-ms.date: 04/13/2017
+updated_at: 04/25/2017 17:04 PM
+ms.date: 04/25/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Copy-ServiceFabricClusterPackage.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Copy-ServiceFabricClusterPackage.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/e4666c66ecad8bb641483d243bfac15b26f72282
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/b0568e8767cc2ab26c178302266bc3776ad571e3
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -58,7 +58,7 @@ Before you perform any operation on a Service Fabric cluster, establish a connec
 PS C:\> Copy-ServiceFabricClusterPackage -ClusterManifestPath "\\configStore\ClusterManifests\CH1\ClusterManifest_123.xml" -CodePackagePath "\\codeStore\MsiFiles\ServiceFabric.2.0.59.0.msi" -ImageStoreConnectionString "fabric:ImageStore"
 ```
 
-This command copies the specified MSI and cluster manifest file to the image store. When **CodePackagePathInImageStore** or **ClusterManifestPathInImageStore** are not provided, the file name will be used by default.
+This command copies the specified MSI and cluster manifest file to the image store. When the *CodePackagePathInImageStore* or *ClusterManifestPathInImageStore* parameters are not provided, the file name will be used by default.
 
 ### Example 2: Copy only cluster manifest to the image store
 ```
@@ -134,7 +134,7 @@ Accept wildcard characters: False
 ```
 
 ### -CodePackagePath
-Specifies the file path to a Service Fabric runtime installation file. This file can be a MSI or CAB or DEB file.
+Specifies the file path to a Service Fabric runtime installation file. This file can be a MSI, CAB, or DEB file.
 
 ```yaml
 Type: String

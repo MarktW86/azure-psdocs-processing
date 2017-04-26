@@ -3,11 +3,11 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 ms.assetid: D495C18D-D65F-4D9E-8A04-C478D1C0F97C
 online version:
 schema: 2.0.0
-updated_at: 04/24/2017 22:04 PM
-ms.date: 04/24/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2-preview/Remove-AzureADGroup.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2-preview/Remove-AzureADGroup.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/e8fee4f7b154d51007aafbde860e493d3e63a77e
+updated_at: 04/06/2017 04:04 AM
+ms.date: 04/06/2017
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADGroup.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADGroup.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/423d1441b932e126c6d22544233c258b9b4c80b1
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub

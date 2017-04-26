@@ -2,11 +2,11 @@
 external help file: Microsoft.AzureStack.AzureConsistentStorage.Commands.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 04/11/2017 21:04 PM
-ms.date: 04/11/2017
+updated_at: 04/26/2017 00:04 AM
+ms.date: 04/26/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Set-ACSFarm.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Set-ACSFarm.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/da0fd350a2a76c2d3edbf597f3826de129c926e5
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/6ec3f30a81fcea3164edc82f2757ecfc1f9403c6
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -55,7 +55,7 @@ Change the setting of service configuration on ACS Farm
 
 ## EXAMPLES
 
-### --------------------------  Example 1  --------------------------
+### Example 1:
 @{paragraph=PS C:\\\>}
 
 
@@ -71,7 +71,7 @@ Set-ACSFarm -ResourceGroupName $resourceGroup -FarmName $farm.Name -SettingPolli
 ## PARAMETERS
 
 ### -AdminUri
-@{Text=}
+
 
 ```yaml
 Type: Uri
@@ -86,7 +86,7 @@ Accept wildcard characters: False
 ```
 
 ### -BandwidthThrottleIsEnabled
-@{Text=}
+
 
 ```yaml
 Type: Boolean
@@ -101,7 +101,7 @@ Accept wildcard characters: False
 ```
 
 ### -CorsAllowedOriginsList
-@{Text=}
+
 
 ```yaml
 Type: String
@@ -116,7 +116,7 @@ Accept wildcard characters: False
 ```
 
 ### -DataCenterUriHostSuffixes
-@{Text=}
+
 
 ```yaml
 Type: String
@@ -131,7 +131,7 @@ Accept wildcard characters: False
 ```
 
 ### -DefaultEgressThresholdInGbps
-@{Text=}
+
 
 ```yaml
 Type: Double
@@ -146,7 +146,7 @@ Accept wildcard characters: False
 ```
 
 ### -DefaultIngressThresholdInGbps
-@{Text=}
+
 
 ```yaml
 Type: Double
@@ -161,7 +161,7 @@ Accept wildcard characters: False
 ```
 
 ### -DefaultIntranetEgressThresholdInGbps
-@{Text=}
+
 
 ```yaml
 Type: Double
@@ -176,7 +176,7 @@ Accept wildcard characters: False
 ```
 
 ### -DefaultIntranetIngressThresholdInGbps
-@{Text=}
+
 
 ```yaml
 Type: Double
@@ -191,7 +191,7 @@ Accept wildcard characters: False
 ```
 
 ### -DefaultRequestThresholdInTps
-@{Text=}
+
 
 ```yaml
 Type: Double
@@ -206,7 +206,7 @@ Accept wildcard characters: False
 ```
 
 ### -DefaultThrottleProbabilityDecayIntervalInSeconds
-@{Text=}
+
 
 ```yaml
 Type: Int32
@@ -221,7 +221,7 @@ Accept wildcard characters: False
 ```
 
 ### -DefaultTotalEgressThresholdInGbps
-@{Text=}
+
 
 ```yaml
 Type: Double
@@ -236,7 +236,7 @@ Accept wildcard characters: False
 ```
 
 ### -DefaultTotalIngressThresholdInGbps
-@{Text=}
+
 
 ```yaml
 Type: Double
@@ -251,7 +251,7 @@ Accept wildcard characters: False
 ```
 
 ### -FarmName
-@{Text=}
+
 
 ```yaml
 Type: String
@@ -266,7 +266,7 @@ Accept wildcard characters: False
 ```
 
 ### -FeedbackRefreshIntervalInSeconds
-@{Text=}
+
 
 ```yaml
 Type: Int32
@@ -281,7 +281,7 @@ Accept wildcard characters: False
 ```
 
 ### -GracePeriodForFullThrottlingInRefreshIntervals
-@{Text=}
+
 
 ```yaml
 Type: Int32
@@ -296,7 +296,7 @@ Accept wildcard characters: False
 ```
 
 ### -GracePeriodMaxThrottleProbability
-@{Text=}
+
 
 ```yaml
 Type: Double
@@ -311,7 +311,7 @@ Accept wildcard characters: False
 ```
 
 ### -HostStyleHttpPort
-@{Text=}
+
 
 ```yaml
 Type: Int32
@@ -326,7 +326,7 @@ Accept wildcard characters: False
 ```
 
 ### -HostStyleHttpsPort
-@{Text=}
+
 
 ```yaml
 Type: Int32
@@ -341,7 +341,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -356,7 +365,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -371,7 +380,7 @@ Accept wildcard characters: False
 ```
 
 ### -MinimumEgressThresholdInGbps
-@{Text=}
+
 
 ```yaml
 Type: Double
@@ -386,7 +395,7 @@ Accept wildcard characters: False
 ```
 
 ### -MinimumIngressThresholdInGbps
-@{Text=}
+
 
 ```yaml
 Type: Double
@@ -401,7 +410,7 @@ Accept wildcard characters: False
 ```
 
 ### -MinimumIntranetEgressThresholdInGbps
-@{Text=}
+
 
 ```yaml
 Type: Double
@@ -416,7 +425,7 @@ Accept wildcard characters: False
 ```
 
 ### -MinimumIntranetIngressThresholdInGbps
-@{Text=}
+
 
 ```yaml
 Type: Double
@@ -431,7 +440,7 @@ Accept wildcard characters: False
 ```
 
 ### -MinimumRequestThresholdInTps
-@{Text=}
+
 
 ```yaml
 Type: Double
@@ -446,7 +455,7 @@ Accept wildcard characters: False
 ```
 
 ### -MinimumTotalEgressThresholdInGbps
-@{Text=}
+
 
 ```yaml
 Type: Double
@@ -461,7 +470,7 @@ Accept wildcard characters: False
 ```
 
 ### -MinimumTotalIngressThresholdInGbps
-@{Text=}
+
 
 ```yaml
 Type: Double
@@ -476,7 +485,7 @@ Accept wildcard characters: False
 ```
 
 ### -NumberOfAccountsToSync
-@{Text=}
+
 
 ```yaml
 Type: Int32
@@ -491,7 +500,7 @@ Accept wildcard characters: False
 ```
 
 ### -OverallEgressThresholdInGbps
-@{Text=}
+
 
 ```yaml
 Type: Double
@@ -506,7 +515,7 @@ Accept wildcard characters: False
 ```
 
 ### -OverallIngressThresholdInGbps
-@{Text=}
+
 
 ```yaml
 Type: Double
@@ -521,7 +530,7 @@ Accept wildcard characters: False
 ```
 
 ### -OverallIntranetEgressThresholdInGbps
-@{Text=}
+
 
 ```yaml
 Type: Double
@@ -536,7 +545,7 @@ Accept wildcard characters: False
 ```
 
 ### -OverallIntranetIngressThresholdInGbps
-@{Text=}
+
 
 ```yaml
 Type: Double
@@ -551,7 +560,7 @@ Accept wildcard characters: False
 ```
 
 ### -OverallRequestThresholdInTps
-@{Text=}
+
 
 ```yaml
 Type: Double
@@ -566,7 +575,7 @@ Accept wildcard characters: False
 ```
 
 ### -OverallTotalEgressThresholdInGbps
-@{Text=}
+
 
 ```yaml
 Type: Double
@@ -581,7 +590,7 @@ Accept wildcard characters: False
 ```
 
 ### -OverallTotalIngressThresholdInGbps
-@{Text=}
+
 
 ```yaml
 Type: Double
@@ -596,7 +605,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-@{Text=}
+
 
 ```yaml
 Type: String
@@ -628,7 +637,7 @@ Accept wildcard characters: False
 ```
 
 ### -SettingsPollingIntervalInSecond
-@{Text=}
+
 
 ```yaml
 Type: Int32
@@ -643,7 +652,7 @@ Accept wildcard characters: False
 ```
 
 ### -SkipCertificateValidation
-@{Text=}
+
 
 ```yaml
 Type: SwitchParameter
@@ -658,7 +667,7 @@ Accept wildcard characters: False
 ```
 
 ### -SubscriptionId
-@{Text=}
+
 
 ```yaml
 Type: String
@@ -673,7 +682,7 @@ Accept wildcard characters: False
 ```
 
 ### -Token
-@{Text=}
+
 
 ```yaml
 Type: String
@@ -688,7 +697,7 @@ Accept wildcard characters: False
 ```
 
 ### -ToleranceFactorForEgress
-@{Text=}
+
 
 ```yaml
 Type: Double
@@ -703,7 +712,7 @@ Accept wildcard characters: False
 ```
 
 ### -ToleranceFactorForIngress
-@{Text=}
+
 
 ```yaml
 Type: Double
@@ -718,7 +727,7 @@ Accept wildcard characters: False
 ```
 
 ### -ToleranceFactorForIntranetEgress
-@{Text=}
+
 
 ```yaml
 Type: Double
@@ -733,7 +742,7 @@ Accept wildcard characters: False
 ```
 
 ### -ToleranceFactorForIntranetIngress
-@{Text=}
+
 
 ```yaml
 Type: Double
@@ -748,7 +757,7 @@ Accept wildcard characters: False
 ```
 
 ### -ToleranceFactorForTotalEgress
-@{Text=}
+
 
 ```yaml
 Type: Double
@@ -763,7 +772,7 @@ Accept wildcard characters: False
 ```
 
 ### -ToleranceFactorForTotalIngress
-@{Text=}
+
 
 ```yaml
 Type: Double
@@ -778,7 +787,7 @@ Accept wildcard characters: False
 ```
 
 ### -ToleranceFactorForTps
-@{Text=}
+
 
 ```yaml
 Type: Double
@@ -793,7 +802,7 @@ Accept wildcard characters: False
 ```
 
 ### -UsageCollectionIntervalInSeconds
-@{Text=}
+
 
 ```yaml
 Type: Int32
@@ -808,7 +817,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-@{Text=}
+
 
 ```yaml
 Type: SwitchParameter
@@ -823,7 +832,7 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-@{Text=}
+
 
 ```yaml
 Type: SwitchParameter
@@ -851,4 +860,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-

@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 73384750-6F54-4B7D-AD7D-BE53426132A4
 online version:
 schema: 2.0.0
-updated_at: 03/23/2017 20:03 PM
-ms.date: 03/23/2017
+updated_at: 04/25/2017 17:04 PM
+ms.date: 04/25/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Invoke-ServiceFabricDecryptText.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Invoke-ServiceFabricDecryptText.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/fac2031a80184883cdb99fa4a8c6e1971ab6aaf2
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/b0568e8767cc2ab26c178302266bc3776ad571e3
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -39,7 +39,7 @@ Before you perform any operation on a Service Fabric cluster, establish a connec
 
 ## EXAMPLES
 
-### 1:
+### Example 1:
 ```
 PS C:\windows\system32> $encryptedText = Invoke-ServiceFabricEncryptText -Text "hello world" -CertThumbprint $thumbprint
 -CertStore -StoreLocation LocalMachine -StoreName My

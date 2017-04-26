@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 51657577-F2A0-4D22-822C-3586F0A70B04
 online version:
 schema: 2.0.0
-updated_at: 03/20/2017 17:03 PM
-ms.date: 03/20/2017
+updated_at: 04/25/2017 17:04 PM
+ms.date: 04/25/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Copy-ServiceFabricApplicationPackage.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Copy-ServiceFabricApplicationPackage.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/4b282fbbada4e5b501710c20544af645ad024b6b
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/b0568e8767cc2ab26c178302266bc3776ad571e3
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -127,7 +127,7 @@ Accept wildcard characters: False
 ```
 
 ### -CompressPackage
-Specifies to compresses all sub-directories under the service directory (code/config/data packages) in the application package. If **SkipCopy** is not specified, the folders will be compressed before copying the application package to the image store.
+Specifies to compresses all sub-directories under the service directory (code/config/data packages) in the application package. If *SkipCopy* is not specified, the folders will be compressed before copying the application package to the image store.
 
 ```yaml
 Type: SwitchParameter
@@ -230,7 +230,7 @@ Accept wildcard characters: False
 ```
 
 ### -UncompressPackage
-Specifies to uncompresses all sub-directories under the service directory (code/config/data packages) in the application package. This can be used with **SkipCopy** to uncompress the application package locally without actually copying the application package to the image store.
+Specifies to uncompresses all sub-directories under the service directory (code/config/data packages) in the application package. This can be used with the *SkipCopy* parameter to uncompress the application package locally without actually copying the application package to the image store.
 
 ```yaml
 Type: SwitchParameter
