@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Cdn.dll-Help.xml
 ms.assetid: 7ADF4CDE-638B-4E00-88B1-688702B084A5
 online version:
 schema: 2.0.0
-updated_at: 04/07/2017 09:04 AM
-ms.date: 04/07/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Cdn/v2.8.0/Remove-AzureRmCdnEndpoint.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Cdn/v2.8.0/Remove-AzureRmCdnEndpoint.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/195dcb690a30a5f2c0ecd5606483862547ef544a
+content_git_url: https://github.com/Azure/azure-powershell/blob/v3.8.0-April2017/src/ResourceManager/Cdn/Commands.Cdn/help/Remove-AzureRmCdnEndpoint.md
+original_content_git_url: https://github.com/Azure/azure-powershell/blob/v3.8.0-April2017/src/ResourceManager/Cdn/Commands.Cdn/help/Remove-AzureRmCdnEndpoint.md
+gitcommit: https://github.com/Azure/azure-powershell/blob/94e42834e29c78cafba9e3f1e99e14af92561036
+updated_at: 04/26/2017 07:04 AM
+ms.date: 04/26/2017
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub

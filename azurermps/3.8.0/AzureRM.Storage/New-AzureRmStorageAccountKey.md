@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Management.Storage.dll-Help.xml
 ms.assetid: FDD2CE98-6C7E-4B95-BA5B-B03B6AC6EAEF
 online version:
 schema: 2.0.0
-updated_at: 04/12/2017 13:04 PM
-ms.date: 04/12/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Storage/v2.8.0/New-AzureRmStorageAccountKey.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Storage/v2.8.0/New-AzureRmStorageAccountKey.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/10ffa9840f6e98ac44ed65269d885bf4b16f1d24
+content_git_url: https://github.com/Azure/azure-powershell/blob/v3.8.0-April2017/src/ResourceManager/Storage/Commands.Management.Storage/help/New-AzureRmStorageAccountKey.md
+original_content_git_url: https://github.com/Azure/azure-powershell/blob/v3.8.0-April2017/src/ResourceManager/Storage/Commands.Management.Storage/help/New-AzureRmStorageAccountKey.md
+gitcommit: https://github.com/Azure/azure-powershell/blob/94e42834e29c78cafba9e3f1e99e14af92561036
+updated_at: 04/26/2017 07:04 AM
+ms.date: 04/26/2017
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -36,7 +36,7 @@ The **New-AzureRmStorageAccountKey** cmdlet regenerates a storage key for an Azu
 
 ### Example 1: Regenerate a storage key
 ```
-PS C:\>New-AzureRmStorageKey -ResourceGroupName "MyResourceGroup" -Name "MyStorageAccount" -KeyName "key1"
+PS C:\>New-AzureRmStorageKey -ResourceGroupName "MyResourceGroup" -AccountName "MyStorageAccount" -KeyName "key1"
 ```
 
 This command regenerates a storage key for the specified Storage account.

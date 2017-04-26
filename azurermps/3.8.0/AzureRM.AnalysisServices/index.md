@@ -4,20 +4,22 @@ Module Guid: acace26c-1775-4100-85c0-20c4d71eaa21
 Download Help Link: None_Azure
 Help Version: 0.0.1.0
 Locale: en-US
-updated_at: 04/07/2017 09:04 AM
-ms.date: 04/07/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.AnalysisServices/v0.2.0/AzureRM.AnalysisServices.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.AnalysisServices/v0.2.0/AzureRM.AnalysisServices.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/195dcb690a30a5f2c0ecd5606483862547ef544a
+content_git_url: https://github.com/Azure/azure-powershell/blob/v3.8.0-April2017/src/ResourceManager/AnalysisServices/Commands.AnalysisServices/help/AzureRM.AnalysisServices.md
+original_content_git_url: https://github.com/Azure/azure-powershell/blob/v3.8.0-April2017/src/ResourceManager/AnalysisServices/Commands.AnalysisServices/help/AzureRM.AnalysisServices.md
+gitcommit: https://github.com/Azure/azure-powershell/blob/2526f281fe0af40ef67662068fdbfa4ba9e7db43
+updated_at: 04/26/2017 07:04 AM
+ms.date: 04/26/2017
 ms.topic: conceptual
 author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
 open_to_public_contributors: true
+Add-AzureAnalysisServicesAccount: Analysis Services
 Get-AzureRmAnalysisServicesServer: Analysis Services
 New-AzureRmAnalysisServicesServer: Analysis Services
 Remove-AzureRmAnalysisServicesServer: Analysis Services
+Restart-AzureAnalysisServicesInstance: Analysis Services
 Resume-AzureRmAnalysisServicesServer: Analysis Services
 Set-AzureRmAnalysisServicesServer: Analysis Services
 Suspend-AzureRmAnalysisServicesServer: Analysis Services

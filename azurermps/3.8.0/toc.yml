@@ -76,12 +76,16 @@
     - name: Analysis Services
       href: 'AzureRM.AnalysisServices/index.md#analysis_services'
       items:
+        - name: Add-AzureAnalysisServicesAccount
+          href: AzureRM.AnalysisServices/Add-AzureAnalysisServicesAccount.md
         - name: Get-AzureRmAnalysisServicesServer
           href: AzureRM.AnalysisServices/Get-AzureRmAnalysisServicesServer.md
         - name: New-AzureRmAnalysisServicesServer
           href: AzureRM.AnalysisServices/New-AzureRmAnalysisServicesServer.md
         - name: Remove-AzureRmAnalysisServicesServer
           href: AzureRM.AnalysisServices/Remove-AzureRmAnalysisServicesServer.md
+        - name: Restart-AzureAnalysisServicesInstance
+          href: AzureRM.AnalysisServices/Restart-AzureAnalysisServicesInstance.md
         - name: Resume-AzureRmAnalysisServicesServer
           href: AzureRM.AnalysisServices/Resume-AzureRmAnalysisServicesServer.md
         - name: Set-AzureRmAnalysisServicesServer
@@ -1642,6 +1646,37 @@
           href: AzureRM.LogicApp/Stop-AzureRmLogicAppRun.md
         - name: Test-AzureRmLogicApp
           href: AzureRM.LogicApp/Test-AzureRmLogicApp.md
+    - name: Machine Learning
+      href: 'AzureRM.MachineLearning/index.md#machine_learning'
+      items:
+        - name: Export-AzureRmMlWebService
+          href: AzureRM.MachineLearning/Export-AzureRmMlWebService.md
+        - name: Get-AzureRmMlCommitmentAssociation
+          href: AzureRM.MachineLearning/Get-AzureRmMlCommitmentAssociation.md
+        - name: Get-AzureRmMlCommitmentPlan
+          href: AzureRM.MachineLearning/Get-AzureRmMlCommitmentPlan.md
+        - name: Get-AzureRmMlCommitmentPlanUsageHistory
+          href: AzureRM.MachineLearning/Get-AzureRmMlCommitmentPlanUsageHistory.md
+        - name: Get-AzureRmMlWebService
+          href: AzureRM.MachineLearning/Get-AzureRmMlWebService.md
+        - name: Get-AzureRmMlWebServiceKeys
+          href: AzureRM.MachineLearning/Get-AzureRmMlWebServiceKeys.md
+        - name: Import-AzureRmMlWebService
+          href: AzureRM.MachineLearning/Import-AzureRmMlWebService.md
+        - name: Move-AzureRmMlCommitmentAssociation
+          href: AzureRM.MachineLearning/Move-AzureRmMlCommitmentAssociation.md
+        - name: New-AzureRmMlCommitmentPlan
+          href: AzureRM.MachineLearning/New-AzureRmMlCommitmentPlan.md
+        - name: New-AzureRmMlWebService
+          href: AzureRM.MachineLearning/New-AzureRmMlWebService.md
+        - name: Remove-AzureRmMlCommitmentPlan
+          href: AzureRM.MachineLearning/Remove-AzureRmMlCommitmentPlan.md
+        - name: Remove-AzureRmMlWebService
+          href: AzureRM.MachineLearning/Remove-AzureRmMlWebService.md
+        - name: Update-AzureRmMlCommitmentPlan
+          href: AzureRM.MachineLearning/Update-AzureRmMlCommitmentPlan.md
+        - name: Update-AzureRmMlWebService
+          href: AzureRM.MachineLearning/Update-AzureRmMlWebService.md
     - name: Media Services
       href: 'AzureRM.Media/index.md#media_services'
       items:
@@ -2286,6 +2321,43 @@
           href: AzureRM.Network/Set-AzureRmRouteFilterRuleConfig.md
         - name: Set-AzureRmRouteTable
           href: AzureRM.Network/Set-AzureRmRouteTable.md
+    - name: Scheduler
+      href: 'AzureRM.Scheduler/index.md#scheduler'
+      items:
+        - name: Disable-AzureRmSchedulerJobCollection
+          href: AzureRM.Scheduler/Disable-AzureRmSchedulerJobCollection.md
+        - name: Enable-AzureRmSchedulerJobCollection
+          href: AzureRM.Scheduler/Enable-AzureRmSchedulerJobCollection.md
+        - name: Get-AzureRmSchedulerJob
+          href: AzureRM.Scheduler/Get-AzureRmSchedulerJob.md
+        - name: Get-AzureRmSchedulerJobCollection
+          href: AzureRM.Scheduler/Get-AzureRmSchedulerJobCollection.md
+        - name: Get-AzureRmSchedulerJobHistory
+          href: AzureRM.Scheduler/Get-AzureRmSchedulerJobHistory.md
+        - name: New-AzureRmSchedulerHttpJob
+          href: AzureRM.Scheduler/New-AzureRmSchedulerHttpJob.md
+        - name: New-AzureRmSchedulerJobCollection
+          href: AzureRM.Scheduler/New-AzureRmSchedulerJobCollection.md
+        - name: New-AzureRmSchedulerServiceBusQueueJob
+          href: AzureRM.Scheduler/New-AzureRmSchedulerServiceBusQueueJob.md
+        - name: New-AzureRmSchedulerServiceBusTopicJob
+          href: AzureRM.Scheduler/New-AzureRmSchedulerServiceBusTopicJob.md
+        - name: New-AzureRmSchedulerStorageQueueJob
+          href: AzureRM.Scheduler/New-AzureRmSchedulerStorageQueueJob.md
+        - name: Remove-AzureRmSchedulerJob
+          href: AzureRM.Scheduler/Remove-AzureRmSchedulerJob.md
+        - name: Remove-AzureRmSchedulerJobCollection
+          href: AzureRM.Scheduler/Remove-AzureRmSchedulerJobCollection.md
+        - name: Set-AzureRmSchedulerHttpJob
+          href: AzureRM.Scheduler/Set-AzureRmSchedulerHttpJob.md
+        - name: Set-AzureRmSchedulerJobCollection
+          href: AzureRM.Scheduler/Set-AzureRmSchedulerJobCollection.md
+        - name: Set-AzureRmSchedulerServiceBusQueueJob
+          href: AzureRM.Scheduler/Set-AzureRmSchedulerServiceBusQueueJob.md
+        - name: Set-AzureRmSchedulerServiceBusTopicJob
+          href: AzureRM.Scheduler/Set-AzureRmSchedulerServiceBusTopicJob.md
+        - name: Set-AzureRmSchedulerStorageQueueJob
+          href: AzureRM.Scheduler/Set-AzureRmSchedulerStorageQueueJob.md
     - name: Server Management
       href: 'AzureRM.ServerManagement/index.md#server_management'
       items:

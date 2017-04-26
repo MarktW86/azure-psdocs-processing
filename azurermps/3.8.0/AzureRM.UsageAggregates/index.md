@@ -5,11 +5,11 @@ Download Help Link: None
 Help Version: 4.0.0.0
 Locale: en-US
 ms.assetid: 2BDD4B1D-43E7-44C1-9C67-165E35983F11
-updated_at: 04/07/2017 09:04 AM
-ms.date: 04/07/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.UsageAggregates/v2.8.0/AzureRM.UsageAggregates.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.UsageAggregates/v2.8.0/AzureRM.UsageAggregates.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/195dcb690a30a5f2c0ecd5606483862547ef544a
+content_git_url: https://github.com/Azure/azure-powershell/blob/v3.8.0-April2017/src/ResourceManager/UsageAggregates/Commands.UsageAggregates/help/AzureRM.UsageAggregates.md
+original_content_git_url: https://github.com/Azure/azure-powershell/blob/v3.8.0-April2017/src/ResourceManager/UsageAggregates/Commands.UsageAggregates/help/AzureRM.UsageAggregates.md
+gitcommit: https://github.com/Azure/azure-powershell/blob/94e42834e29c78cafba9e3f1e99e14af92561036
+updated_at: 04/26/2017 07:04 AM
+ms.date: 04/26/2017
 ms.topic: conceptual
 author: erickson-doug
 ms.author: PowerShellHelpPub
