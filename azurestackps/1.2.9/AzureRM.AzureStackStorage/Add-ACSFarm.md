@@ -2,11 +2,11 @@
 external help file: Microsoft.AzureStack.AzureConsistentStorage.Commands.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 04/26/2017 00:04 AM
+updated_at: 04/26/2017 18:04 PM
 ms.date: 04/26/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Add-ACSFarm.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Add-ACSFarm.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/6ec3f30a81fcea3164edc82f2757ecfc1f9403c6
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/51953647469adcc8031e9f92fbb62504cafc3aa8
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -31,8 +31,8 @@ Add-ACSFarm [-ResourceGroupName] <String> [-FarmName] <String> [-SettingAccessSt
 ```
 
 ## DESCRIPTION
-The **Add-ACSFarm** cmdlet registers a provisioned ACS farm.
-Service Admin uses the cmdlet to registered that farm to SRP.
+The **Add-ACSFarm** cmdlet registers a provisioned Access Control Server (ASS) farm.
+Service Admin uses the cmdlet to registered that farm to Service Resource Provider (SRP).
 
 ## EXAMPLES
 
@@ -145,7 +145,7 @@ Accept wildcard characters: False
 ```
 
 ### -SettingAccessString
-
+Specifies the access settings string.
 
 ```yaml
 Type: String
@@ -247,3 +247,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+
+[Get-ACSFarm](./Get-ACSFarm.md)
+
+[Set-ACSFarm](./Set-ACSFarm.md)

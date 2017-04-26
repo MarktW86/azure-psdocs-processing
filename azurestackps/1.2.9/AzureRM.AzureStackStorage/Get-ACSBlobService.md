@@ -2,11 +2,11 @@
 external help file: Microsoft.AzureStack.AzureConsistentStorage.Commands.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 04/26/2017 00:04 AM
+updated_at: 04/26/2017 18:04 PM
 ms.date: 04/26/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Get-ACSBlobService.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Get-ACSBlobService.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/6ec3f30a81fcea3164edc82f2757ecfc1f9403c6
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/51953647469adcc8031e9f92fbb62504cafc3aa8
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -19,7 +19,7 @@ ms.service: azure-stack
 # Get-ACSBlobService
 
 ## SYNOPSIS
-Retrieve the status and settings of Blob service
+Gets the status and settings of a Blob service.
 
 ## SYNTAX
 
@@ -30,22 +30,26 @@ Get-ACSBlobService [-ResourceGroupName] <String> [-FarmName] <String> [[-Subscri
 ```
 
 ## DESCRIPTION
-Retrieve the status and settings of Blob service
+The **Get-ACSBlobService** gets the status and settings of a Blob service.
 
 ## EXAMPLES
 
 ### Example 1:
-@{paragraph=PS C:\\\>}
-
-
 
 ```
-$resourceGroup = 'System' 
+PS C:\> $ResourceGroup = "System" 
 
-$farm = Get-ACSFarm -ResourceGroupName $resourceGroup
+PS C:\> $Farm = Get-ACSFarm -ResourceGroupName $ResourceGroup
 
-Get-ACSBlobService -ResourceGroupName $resourceGroup -FarmName $farm.Name | fl
+PS C:\> Get-ACSBlobService -ResourceGroupName $ResourceGroup -FarmName $Farm.Name | fl
 ```
+
+The first command stores the resource group named System to the variable named $ResourceGroup.
+
+The second command uses the [Get-ACSFarm](./Get-ACSFarm.md) cmdlet to get the farm and stores the result in the variable named $Farm.
+
+The third command then uses **Get-ACSBlobService** to get the Blob service from the farm stored in the $Farm variable. 
+
 
 ## PARAMETERS
 
@@ -134,7 +138,7 @@ Accept wildcard characters: False
 ```
 
 ### -SkipCertificateValidation
-
+Indicates that the cmdlet does not validate the certificate.
 
 ```yaml
 Type: SwitchParameter
