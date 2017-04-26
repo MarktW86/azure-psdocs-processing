@@ -2,11 +2,11 @@
 external help file: Microsoft.AzureStack.AzureConsistentStorage.Commands.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 04/11/2017 21:04 PM
-ms.date: 04/11/2017
+updated_at: 04/25/2017 23:04 PM
+ms.date: 04/25/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Add-ACSFarm.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Add-ACSFarm.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/da0fd350a2a76c2d3edbf597f3826de129c926e5
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0675759bda66b13ca45b658745928f58a1ac27b7
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -19,7 +19,7 @@ ms.service: azure-stack
 # Add-ACSFarm
 
 ## SYNOPSIS
-Register a new provisioned ACS farm.
+Registers a provisioned ACS farm.
 
 ## SYNTAX
 
@@ -31,26 +31,22 @@ Add-ACSFarm [-ResourceGroupName] <String> [-FarmName] <String> [-SettingAccessSt
 ```
 
 ## DESCRIPTION
-After fabric admin deploy a new ACS farm.
-Service Admin could use the cmdlet to registered that farm to SRP.
+The **Add-ACSFarm** cmdlet registers a provisioned ACS farm.
+Service Admin uses the cmdlet to registered that farm to SRP.
 
 ## EXAMPLES
 
-### --------------------------  Example 1  --------------------------
-@{paragraph=PS C:\\\>}
-
-
+### Example 1: Add an ACSFarm
 
 ```
-$resourceGroup = 'System' 
 
-Add-ACSFarm -ResourceGroupName $resourceGroup -FarmName 'YourNameFarmName' -Location 'YourLocation'
+PS C:\> Add-ACSFarm -ResourceGroupName "RG002" -FarmName "YourNameFarmName" -Location "YourLocation"
 ```
 
 ## PARAMETERS
 
 ### -AdminUri
-@{Text=}
+Specifies the link, as a URI, to the service admin.
 
 ```yaml
 Type: Uri
@@ -65,7 +61,7 @@ Accept wildcard characters: False
 ```
 
 ### -FarmName
-@{Text=}
+Specifies the name of the ACS farm.
 
 ```yaml
 Type: String
@@ -80,7 +76,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -95,7 +100,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -110,7 +115,7 @@ Accept wildcard characters: False
 ```
 
 ### -Location
-@{Text=}
+Specifies the location of the ACS farm.
 
 ```yaml
 Type: String
@@ -125,7 +130,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-@{Text=}
+Specifies the name of the resource group that contains the ACS farm.
 
 ```yaml
 Type: String
@@ -155,7 +160,7 @@ Accept wildcard characters: False
 ```
 
 ### -SkipCertificateValidation
-@{Text=}
+Indicates that the cmdlet does not validate the specified certificate.
 
 ```yaml
 Type: SwitchParameter
@@ -170,7 +175,7 @@ Accept wildcard characters: False
 ```
 
 ### -SubscriptionId
-@{Text=}
+Specifies the subscription ID.
 
 ```yaml
 Type: String
@@ -200,7 +205,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-@{Text=}
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -215,7 +220,8 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-@{Text=}
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
 
 ```yaml
 Type: SwitchParameter
@@ -241,4 +247,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-

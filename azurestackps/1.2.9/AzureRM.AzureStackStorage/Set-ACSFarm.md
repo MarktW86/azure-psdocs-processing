@@ -2,11 +2,11 @@
 external help file: Microsoft.AzureStack.AzureConsistentStorage.Commands.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 04/11/2017 21:04 PM
-ms.date: 04/11/2017
+updated_at: 04/25/2017 23:04 PM
+ms.date: 04/25/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Set-ACSFarm.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Set-ACSFarm.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/da0fd350a2a76c2d3edbf597f3826de129c926e5
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0675759bda66b13ca45b658745928f58a1ac27b7
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -55,7 +55,7 @@ Change the setting of service configuration on ACS Farm
 
 ## EXAMPLES
 
-### --------------------------  Example 1  --------------------------
+### Example 1:
 @{paragraph=PS C:\\\>}
 
 
@@ -341,7 +341,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -356,7 +365,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -851,4 +860,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-
