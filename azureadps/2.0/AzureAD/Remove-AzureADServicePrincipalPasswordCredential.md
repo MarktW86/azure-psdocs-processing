@@ -3,11 +3,11 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.Custom.dll-Help.xm
 ms.assetid: 75F2C609-19BB-4E07-8E76-4AF00C028A2A
 online version:
 schema: 2.0.0
-updated_at: 12/01/2016 17:12 PM
-ms.date: 12/01/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADServicePrincipalPasswordCredential.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADServicePrincipalPasswordCredential.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/8f658f99458e2c236d5f4be363030b6f24cacc4c
+updated_at: 04/25/2017 20:04 PM
+ms.date: 04/25/2017
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2preview/Remove-AzureADServicePrincipalPasswordCredential.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2preview/Remove-AzureADServicePrincipalPasswordCredential.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/c5cc449ee6e2b805fc85a9e05130b06b10899f67
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub

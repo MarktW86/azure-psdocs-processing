@@ -3,11 +3,11 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 ms.assetid: 120268ED-E28B-434B-8EC2-313D3C3517B9
 online version:
 schema: 2.0.0
-updated_at: 04/20/2017 04:04 AM
-ms.date: 04/20/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Confirm-AzureADDomain.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Confirm-AzureADDomain.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/abfb2c522d49d9dc91d64da7a6f7c105be1fd780
+updated_at: 04/25/2017 20:04 PM
+ms.date: 04/25/2017
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2preview/Confirm-AzureADDomain.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2preview/Confirm-AzureADDomain.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/c5cc449ee6e2b805fc85a9e05130b06b10899f67
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -24,7 +24,8 @@ Validate the ownership of a domain.
 ## SYNTAX
 
 ```
-Confirm-AzureADDomain -Name <String> [<CommonParameters>]
+Confirm-AzureADDomain -Name <String> [-InformationAction <ActionPreference>] [-InformationVariable <String>]
+ [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -33,6 +34,43 @@ The **Confirm-AzureADDomain** cmdlet validates the ownership of an Azure Active 
 ## EXAMPLES
 
 ## PARAMETERS
+
+### -InformationAction
+Specifies how this cmdlet responds to an information event. The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
+
+```yaml
+Type: ActionPreference
+Parameter Sets: (All)
+Aliases: infa
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -InformationVariable
+Specifies a variable in which to store an information event message.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: iv
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
 
 ### -Name
 Specifies the name of the domain.
