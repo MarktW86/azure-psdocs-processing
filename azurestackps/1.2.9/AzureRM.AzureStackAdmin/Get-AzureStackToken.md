@@ -2,11 +2,11 @@
 external help file: Microsoft.AzureStack.Commands.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 04/25/2017 19:04 PM
-ms.date: 04/25/2017
+updated_at: 04/26/2017 21:04 PM
+ms.date: 04/26/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/Get-AzureStackToken.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/Get-AzureStackToken.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/c4315559410058943d9b4bbae2b76e607f21de95
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/8148b84843596f457ba0115ec7f454221d2e13f9
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -53,7 +53,7 @@ Get-AzureStackToken -Authority $aadAuthorityEndpoint -AadTenantId $AadTenantId -
 
 This example gets the access token for the specified user.
 
-# PARAMETERS
+## PARAMETERS
 
 ### -AadTenantId
 Specifies the Azure active directory (AAD) tenant Id of the user belonging to the AAD tenant group.
