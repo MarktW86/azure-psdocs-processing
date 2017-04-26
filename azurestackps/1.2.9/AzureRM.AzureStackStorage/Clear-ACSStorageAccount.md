@@ -2,11 +2,11 @@
 external help file: Microsoft.AzureStack.AzureConsistentStorage.Commands.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 04/26/2017 00:04 AM
+updated_at: 04/26/2017 18:04 PM
 ms.date: 04/26/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/Graham71305/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Clear-ACSStorageAccount.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/Graham71305/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Clear-ACSStorageAccount.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/6ec3f30a81fcea3164edc82f2757ecfc1f9403c6
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/51953647469adcc8031e9f92fbb62504cafc3aa8
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -19,7 +19,7 @@ ms.service: azure-stack
 # Clear-ACSStorageAccount
 
 ## SYNOPSIS
-Clear deleted tenant storage Accounts, regardless of retention period.
+Clears tenant storage accounts, regardless of retention period.
 
 ## SYNTAX
 
@@ -30,16 +30,9 @@ Clear-ACSStorageAccount [-ResourceGroupName] <String> [-FarmName] <String> [[-Su
 ```
 
 ## DESCRIPTION
-Clear deleted tenant storage Accounts, regardless of retention period.
+The **Clear-ACSStorageAccount** cmdlet clears tenant storage accounts, regardless of retention period.
 
 ## EXAMPLES
-
-### Example 1
-```
-PS C:\> {{ Add example code here }}
-```
-
-{{ Add example description here }}
 
 ## PARAMETERS
 
@@ -59,7 +52,7 @@ Accept wildcard characters: False
 ```
 
 ### -FarmName
-
+Specifies the name of the ACS farm storage account for which the cmdlet clears. 
 
 ```yaml
 Type: String
@@ -113,7 +106,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-
+Specifies the name of the resource group.
 
 ```yaml
 Type: String
@@ -128,7 +121,7 @@ Accept wildcard characters: False
 ```
 
 ### -SkipCertificateValidation
-
+Indicates that the cmdlet does not validate the certificate.
 
 ```yaml
 Type: SwitchParameter
@@ -143,7 +136,7 @@ Accept wildcard characters: False
 ```
 
 ### -SubscriptionId
-
+Specifies the subscription ID of the ACS storage account. 
 
 ```yaml
 Type: String
@@ -173,7 +166,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -188,7 +181,8 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
 
 ```yaml
 Type: SwitchParameter
@@ -214,3 +208,5 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+
+[Sync-ACSStorageAccount](./Sync-ACSStorageAccount.md)
