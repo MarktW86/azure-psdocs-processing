@@ -4,8 +4,8 @@ online version:
 schema: 2.0.0
 updated_at: 04/26/2017 18:04 PM
 ms.date: 04/26/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Add-ACSFarm.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Add-ACSFarm.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/4.0.0/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Add-ACSFarm.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/4.0.0/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Add-ACSFarm.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/51953647469adcc8031e9f92fbb62504cafc3aa8
 ms.topic: reference
 author: erickson-doug

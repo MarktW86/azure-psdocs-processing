@@ -4,8 +4,8 @@ online version:
 schema: 2.0.0
 updated_at: 04/26/2017 21:04 PM
 ms.date: 04/26/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/Get-AzureStackToken.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/Get-AzureStackToken.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/4.0.0/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/Get-AzureStackToken.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/4.0.0/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/Get-AzureStackToken.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/8148b84843596f457ba0115ec7f454221d2e13f9
 ms.topic: reference
 author: erickson-doug

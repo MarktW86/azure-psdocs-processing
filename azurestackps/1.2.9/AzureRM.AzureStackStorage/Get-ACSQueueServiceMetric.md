@@ -4,8 +4,8 @@ online version:
 schema: 2.0.0
 updated_at: 04/27/2017 14:04 PM
 ms.date: 04/27/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Get-ACSQueueServiceMetric.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Get-ACSQueueServiceMetric.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/4.0.0/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Get-ACSQueueServiceMetric.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/4.0.0/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Get-ACSQueueServiceMetric.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/52d25abe0edad89ed790b8a506784596116b809e
 ms.topic: reference
 author: erickson-doug

@@ -4,8 +4,8 @@ online version:
 schema: 2.0.0
 updated_at: 04/25/2017 18:04 PM
 ms.date: 04/25/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/Set-AzureRMManagedSubscription.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/Set-AzureRMManagedSubscription.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/4.0.0/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/Set-AzureRMManagedSubscription.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/4.0.0/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/Set-AzureRMManagedSubscription.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/9c6c7ffcf11db099b87d00d6019bdaf3d4e13521
 ms.topic: reference
 author: erickson-doug
