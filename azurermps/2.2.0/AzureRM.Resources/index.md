@@ -18,38 +18,67 @@ ms.service: azure-resource-manager
 Export-AzureRmResourceGroup: Resources
 Find-AzureRmResource: Resources
 Find-AzureRmResourceGroup: Resources
+Get-AzureRmADAppCredential: Active Directory
+Get-AzureRmADApplication: Active Directory
+Get-AzureRmADGroup: Active Directory
+Get-AzureRmADGroupMember: Active Directory
+Get-AzureRmADServicePrincipal: Active Directory
+Get-AzureRmADSpCredential: Active Directory
+Get-AzureRmADUser: Active Directory
+Get-AzureRmAuthorizationChangeLog: Others
 Get-AzureRmLocation: Resource groups
 Get-AzureRmPolicyAssignment: Policies
 Get-AzureRmPolicyDefinition: Policies
 Get-AzureRmProviderFeature: Resource providers
+Get-AzureRmProviderOperation: Resource providers
 Get-AzureRmResource: Resources
 Get-AzureRmResourceGroup: Resources
 Get-AzureRmResourceGroupDeployment: Resources
 Get-AzureRmResourceGroupDeploymentOperation: Resources
 Get-AzureRmResourceLock: Resources
 Get-AzureRmResourceProvider: Resource providers
+Get-AzureRmRoleAssignment: Roles
+Get-AzureRmRoleDefinition: Roles
 Invoke-AzureRmResourceAction: Resources
 Move-AzureRmResource: Resources
+New-AzureRmADAppCredential: Active Directory
+New-AzureRmADApplication: Active Directory
+New-AzureRmADServicePrincipal: Active Directory
+New-AzureRmADSpCredential: Active Directory
+New-AzureRmADUser: Active Directory
 New-AzureRmPolicyAssignment: Policies
 New-AzureRmPolicyDefinition: Policies
 New-AzureRmResource: Resources
 New-AzureRmResourceGroup: Resources
 New-AzureRmResourceGroupDeployment: Resources
 New-AzureRmResourceLock: Resources
+New-AzureRmRoleAssignment: Roles
+New-AzureRmRoleDefinition: Roles
 Register-AzureRmProviderFeature: Resource providers
 Register-AzureRmResourceProvider: Resource providers
+Remove-AzureRmADAppCredential: Active Directory
+Remove-AzureRmADApplication: Active Directory
+Remove-AzureRmADServicePrincipal: Active Directory
+Remove-AzureRmADSpCredential: Active Directory
+Remove-AzureRmADUser: Active Directory
 Remove-AzureRmPolicyAssignment: Policies
 Remove-AzureRmPolicyDefinition: Policies
 Remove-AzureRmResource: Resources
 Remove-AzureRmResourceGroup: Resources
 Remove-AzureRmResourceGroupDeployment: Resources
 Remove-AzureRmResourceLock: Resources
+Remove-AzureRmRoleAssignment: Roles
+Remove-AzureRmRoleDefinition: Roles
 Save-AzureRmResourceGroupDeploymentTemplate: Resources
+Set-AzureRmADApplication: Active Directory
+Set-AzureRmADServicePrincipal: Active Directory
+Set-AzureRmADUser: Active Directory
 Set-AzureRmPolicyAssignment: Policies
 Set-AzureRmPolicyDefinition: Policies
 Set-AzureRmResource: Resources
 Set-AzureRmResourceGroup: Resources
 Set-AzureRmResourceLock: Resources
+Set-AzureRmRoleDefinition: Roles
 Stop-AzureRmResourceGroupDeployment: Resources
 Test-AzureRmResourceGroupDeployment: Resources
 Unregister-AzureRmResourceProvider: Resource providers

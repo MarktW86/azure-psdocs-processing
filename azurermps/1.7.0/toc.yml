@@ -37,6 +37,24 @@
           href: AzureRM.Compute/Get-AzureRmVMADDomainExtension.md
         - name: Set-AzureRmVMADDomainExtension
           href: AzureRM.Compute/Set-AzureRmVMADDomainExtension.md
+        - name: Get-AzureRmADApplication
+          href: AzureRM.Resources/Get-AzureRmADApplication.md
+        - name: Get-AzureRmADGroup
+          href: AzureRM.Resources/Get-AzureRmADGroup.md
+        - name: Get-AzureRmADGroupMember
+          href: AzureRM.Resources/Get-AzureRmADGroupMember.md
+        - name: Get-AzureRmADServicePrincipal
+          href: AzureRM.Resources/Get-AzureRmADServicePrincipal.md
+        - name: Get-AzureRmADUser
+          href: AzureRM.Resources/Get-AzureRmADUser.md
+        - name: New-AzureRmADApplication
+          href: AzureRM.Resources/New-AzureRmADApplication.md
+        - name: New-AzureRmADServicePrincipal
+          href: AzureRM.Resources/New-AzureRmADServicePrincipal.md
+        - name: Remove-AzureRmADApplication
+          href: AzureRM.Resources/Remove-AzureRmADApplication.md
+        - name: Remove-AzureRmADServicePrincipal
+          href: AzureRM.Resources/Remove-AzureRmADServicePrincipal.md
     - name: API Management
       href: 'AzureRM.ApiManagement/index.md#api_management'
       items:
@@ -984,6 +1002,8 @@
           href: AzureRM.HDInsight/Grant-AzureRmHDInsightRdpServicesAccess.md
         - name: Invoke-AzureRmHDInsightHiveJob
           href: AzureRM.HDInsight/Invoke-AzureRmHDInsightHiveJob.md
+        - name: New-AzureRmHDInsightCluster
+          href: AzureRM.HDInsight/New-AzureRmHDInsightCluster.md
         - name: New-AzureRmHDInsightClusterConfig
           href: AzureRM.HDInsight/New-AzureRmHDInsightClusterConfig.md
         - name: New-AzureRmHDInsightHiveJobDefinition
@@ -1309,6 +1329,8 @@
           href: AzureRM.Compute/Set-AzureRMVMDiagnosticsExtension.md
         - name: Get-AzureRmLogicApp
           href: AzureRM.LogicApp/Get-AzureRmLogicApp.md
+        - name: Get-AzureRmLogicAppAccessKey
+          href: AzureRM.LogicApp/Get-AzureRmLogicAppAccessKey.md
         - name: Get-AzureRmLogicAppRunAction
           href: AzureRM.LogicApp/Get-AzureRmLogicAppRunAction.md
         - name: Get-AzureRmLogicAppRunHistory
@@ -1323,6 +1345,8 @@
           href: AzureRM.LogicApp/Remove-AzureRmLogicApp.md
         - name: Set-AzureRmLogicApp
           href: AzureRM.LogicApp/Set-AzureRmLogicApp.md
+        - name: Set-AzureRmLogicAppAccessKey
+          href: AzureRM.LogicApp/Set-AzureRmLogicAppAccessKey.md
         - name: Start-AzureRmLogicApp
           href: AzureRM.LogicApp/Start-AzureRmLogicApp.md
         - name: Stop-AzureRmLogicAppRun
@@ -1376,6 +1400,11 @@
           href: AzureRM.NotificationHubs/Set-AzureRmNotificationHubsNamespace.md
         - name: Set-AzureRmNotificationHubsNamespaceAuthorizationRules
           href: AzureRM.NotificationHubs/Set-AzureRmNotificationHubsNamespaceAuthorizationRules.md
+    - name: Others
+      href: 'AzureRM.Resources/index.md#others'
+      items:
+        - name: Get-AzureRmAuthorizationChangeLog
+          href: AzureRM.Resources/Get-AzureRmAuthorizationChangeLog.md
     - name: Policies
       href: 'AzureRM.SiteRecovery/index.md#policies'
       items:
@@ -1576,6 +1605,8 @@
       items:
         - name: Get-AzureRmProviderFeature
           href: AzureRM.Resources/Get-AzureRmProviderFeature.md
+        - name: Get-AzureRmProviderOperation
+          href: AzureRM.Resources/Get-AzureRmProviderOperation.md
         - name: Get-AzureRmResourceProvider
           href: AzureRM.Resources/Get-AzureRmResourceProvider.md
         - name: Register-AzureRmProviderFeature
@@ -1635,6 +1666,23 @@
           href: AzureRM.Resources/Stop-AzureRmResourceGroupDeployment.md
         - name: Test-AzureRmResourceGroupDeployment
           href: AzureRM.Resources/Test-AzureRmResourceGroupDeployment.md
+    - name: Roles
+      href: 'AzureRM.Resources/index.md#roles'
+      items:
+        - name: Get-AzureRmRoleAssignment
+          href: AzureRM.Resources/Get-AzureRmRoleAssignment.md
+        - name: Get-AzureRmRoleDefinition
+          href: AzureRM.Resources/Get-AzureRmRoleDefinition.md
+        - name: New-AzureRmRoleAssignment
+          href: AzureRM.Resources/New-AzureRmRoleAssignment.md
+        - name: New-AzureRmRoleDefinition
+          href: AzureRM.Resources/New-AzureRmRoleDefinition.md
+        - name: Remove-AzureRmRoleAssignment
+          href: AzureRM.Resources/Remove-AzureRmRoleAssignment.md
+        - name: Remove-AzureRmRoleDefinition
+          href: AzureRM.Resources/Remove-AzureRmRoleDefinition.md
+        - name: Set-AzureRmRoleDefinition
+          href: AzureRM.Resources/Set-AzureRmRoleDefinition.md
     - name: Route
       href: 'AzureRM.Network/index.md#route'
       items:

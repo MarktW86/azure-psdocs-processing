@@ -21,8 +21,10 @@ Get-AzureRmDataLakeStoreAccount: Data Lake
 Get-AzureRmDataLakeStoreChildItem: Data Lake
 Get-AzureRmDataLakeStoreItem: Data Lake
 Get-AzureRmDataLakeStoreItemAcl: Data Lake
+Get-AzureRmDataLakeStoreItemAclEntry: Data Lake
 Get-AzureRmDataLakeStoreItemContent: Data Lake
 Get-AzureRmDataLakeStoreItemOwner: Data Lake
+Get-AzureRmDataLakeStoreItemPermission: Data Lake
 Import-AzureRmDataLakeStoreItem: Data Lake
 Join-AzureRmDataLakeStoreItem: Data Lake
 Move-AzureRmDataLakeStoreItem: Data Lake
@@ -30,11 +32,13 @@ New-AzureRmDataLakeStoreAccount: Data Lake
 New-AzureRmDataLakeStoreItem: Data Lake
 Remove-AzureRmDataLakeStoreAccount: Data Lake
 Remove-AzureRmDataLakeStoreItem: Data Lake
+Remove-AzureRmDataLakeStoreItemAcl: Data Lake
 Remove-AzureRmDataLakeStoreItemAclEntry: Data Lake
 Set-AzureRmDataLakeStoreAccount: Data Lake
 Set-AzureRmDataLakeStoreItemAcl: Data Lake
 Set-AzureRmDataLakeStoreItemAclEntry: Data Lake
 Set-AzureRmDataLakeStoreItemOwner: Data Lake
+Set-AzureRmDataLakeStoreItemPermission: Data Lake
 Test-AzureRmDataLakeStoreAccount: Data Lake
 Test-AzureRmDataLakeStoreItem: Data Lake
 _isModulePage: true

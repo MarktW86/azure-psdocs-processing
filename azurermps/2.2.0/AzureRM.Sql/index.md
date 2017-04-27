@@ -80,6 +80,7 @@ Remove-AzureRmSqlServerAuditing: SQL
 Remove-AzureRmSqlServerCommunicationLink: SQL
 Remove-AzureRmSqlServerDisasterRecoveryConfiguration: Recovery
 Remove-AzureRmSqlServerFirewallRule: SQL
+Remove-AzureRmSqlServerThreatDetectionPolicy: Policies
 Restore-AzureRmSqlDatabase: SQL
 Resume-AzureRmSqlDatabase: SQL
 Set-AzureRmSqlDatabase: SQL

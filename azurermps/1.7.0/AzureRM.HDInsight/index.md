@@ -29,6 +29,7 @@ Get-AzureRmHDInsightScriptActionHistory: HD Monitoring
 Grant-AzureRmHDInsightHttpServicesAccess: HD Monitoring
 Grant-AzureRmHDInsightRdpServicesAccess: HD Monitoring
 Invoke-AzureRmHDInsightHiveJob: HD Monitoring
+New-AzureRmHDInsightCluster: HD Monitoring
 New-AzureRmHDInsightClusterConfig: HD Monitoring
 New-AzureRmHDInsightHiveJobDefinition: HD Monitoring
 New-AzureRmHDInsightMapReduceJobDefinition: HD Monitoring

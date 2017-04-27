@@ -23,6 +23,7 @@ Get-AzureRmIntegrationAccountMap: Integration Accounts
 Get-AzureRmIntegrationAccountPartner: Integration Accounts
 Get-AzureRmIntegrationAccountSchema: Integration Accounts
 Get-AzureRmLogicApp: Monitoring
+Get-AzureRmLogicAppAccessKey: Monitoring
 Get-AzureRmLogicAppRunAction: Monitoring
 Get-AzureRmLogicAppRunHistory: Monitoring
 Get-AzureRmLogicAppTrigger: Monitoring
@@ -48,6 +49,7 @@ Set-AzureRmIntegrationAccountMap: Integration Accounts
 Set-AzureRmIntegrationAccountPartner: Integration Accounts
 Set-AzureRmIntegrationAccountSchema: Integration Accounts
 Set-AzureRmLogicApp: Monitoring
+Set-AzureRmLogicAppAccessKey: Monitoring
 Start-AzureRmLogicApp: Monitoring
 Stop-AzureRmLogicAppRun: Monitoring
 _isModulePage: true
