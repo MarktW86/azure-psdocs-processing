@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 ms.assetid: 278228EB-0126-4F27-A30F-51DC498C65FE
 online version:
 schema: 2.0.0
-updated_at: 04/07/2017 09:04 AM
-ms.date: 04/07/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/Graham71305/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.7.0/Get-AzureRmLoadBalancerProbeConfig.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/Graham71305/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.7.0/Get-AzureRmLoadBalancerProbeConfig.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/195dcb690a30a5f2c0ecd5606483862547ef544a
+content_git_url: https://github.com/Azure/azure-powershell/blob/v3.8.0-April2017/src/ResourceManager/Network/Commands.Network/help/Get-AzureRmLoadBalancerProbeConfig.md
+original_content_git_url: https://github.com/Azure/azure-powershell/blob/v3.8.0-April2017/src/ResourceManager/Network/Commands.Network/help/Get-AzureRmLoadBalancerProbeConfig.md
+gitcommit: https://github.com/Azure/azure-powershell/blob/898dcc79a9e3bf9563d390c9a7c04f5ea5b5a269
+updated_at: 04/26/2017 07:04 AM
+ms.date: 04/26/2017
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub

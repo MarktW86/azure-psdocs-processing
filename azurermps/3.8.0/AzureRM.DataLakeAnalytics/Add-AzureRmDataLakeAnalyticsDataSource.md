@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.DataLakeAnalytics.dll-Help.xml
 ms.assetid: A38D8BF6-D302-4586-B7AF-4C80B546E96F
 online version:
 schema: 2.0.0
-updated_at: 04/07/2017 09:04 AM
-ms.date: 04/07/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/Graham71305/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeAnalytics/v2.8.0/Add-AzureRmDataLakeAnalyticsDataSource.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/Graham71305/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeAnalytics/v2.8.0/Add-AzureRmDataLakeAnalyticsDataSource.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/195dcb690a30a5f2c0ecd5606483862547ef544a
+content_git_url: https://github.com/Azure/azure-powershell/blob/v3.8.0-April2017/src/ResourceManager/DataLakeAnalytics/Commands.DataLakeAnalytics/help/Add-AzureRmDataLakeAnalyticsDataSource.md
+original_content_git_url: https://github.com/Azure/azure-powershell/blob/v3.8.0-April2017/src/ResourceManager/DataLakeAnalytics/Commands.DataLakeAnalytics/help/Add-AzureRmDataLakeAnalyticsDataSource.md
+gitcommit: https://github.com/Azure/azure-powershell/blob/acaa012bbc3d2249dc7ee2c45b30f62c620d7998
+updated_at: 04/26/2017 07:04 AM
+ms.date: 04/26/2017
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub

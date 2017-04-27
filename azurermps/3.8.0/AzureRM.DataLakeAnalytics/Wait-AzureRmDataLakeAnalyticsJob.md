@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.DataLakeAnalytics.dll-Help.xml
 ms.assetid: CE7B54BC-C493-49CE-93BD-346ED0B966A1
 online version:
 schema: 2.0.0
-updated_at: 04/07/2017 09:04 AM
-ms.date: 04/07/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/Graham71305/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeAnalytics/v2.8.0/Wait-AzureRmDataLakeAnalyticsJob.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/Graham71305/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeAnalytics/v2.8.0/Wait-AzureRmDataLakeAnalyticsJob.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/195dcb690a30a5f2c0ecd5606483862547ef544a
+content_git_url: https://github.com/Azure/azure-powershell/blob/v3.8.0-April2017/src/ResourceManager/DataLakeAnalytics/Commands.DataLakeAnalytics/help/Wait-AzureRmDataLakeAnalyticsJob.md
+original_content_git_url: https://github.com/Azure/azure-powershell/blob/v3.8.0-April2017/src/ResourceManager/DataLakeAnalytics/Commands.DataLakeAnalytics/help/Wait-AzureRmDataLakeAnalyticsJob.md
+gitcommit: https://github.com/Azure/azure-powershell/blob/945e7b9cce0fa0730b0544770ab84bd991a9fbe1
+updated_at: 04/26/2017 07:04 AM
+ms.date: 04/26/2017
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub

@@ -2,11 +2,11 @@
 Module Name: AzureRM.Network
 Module Guid: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
 Locale: en-US
-updated_at: 04/07/2017 09:04 AM
-ms.date: 04/07/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/Graham71305/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.7.0/AzureRM.Network.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/Graham71305/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.7.0/AzureRM.Network.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/195dcb690a30a5f2c0ecd5606483862547ef544a
+content_git_url: https://github.com/Azure/azure-powershell/blob/v3.8.0-April2017/src/ResourceManager/Network/Commands.Network/help/AzureRM.Network.md
+original_content_git_url: https://github.com/Azure/azure-powershell/blob/v3.8.0-April2017/src/ResourceManager/Network/Commands.Network/help/AzureRM.Network.md
+gitcommit: https://github.com/Azure/azure-powershell/blob/394d84a350aee3cd69565f02a032a8bb97116681
+updated_at: 04/26/2017 07:04 AM
+ms.date: 04/26/2017
 ms.topic: conceptual
 author: erickson-doug
 ms.author: PowerShellHelpPub
