@@ -4,8 +4,8 @@ online version:
 schema: 2.0.0
 updated_at: 03/06/2017 22:03 PM
 ms.date: 03/06/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricRuntimeUpgradeVersion.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricRuntimeUpgradeVersion.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/Graham71141/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricRuntimeUpgradeVersion.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/Graham71141/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricRuntimeUpgradeVersion.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/f316a90f932ebcb7312c516e5fc173dc4b1bc762
 ms.topic: reference
 author: oanapl

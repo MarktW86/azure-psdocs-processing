@@ -5,8 +5,8 @@ online version:
 schema: 2.0.0
 updated_at: 03/14/2017 23:03 PM
 ms.date: 03/14/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Send-ServiceFabricReplicaHealthReport.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Send-ServiceFabricReplicaHealthReport.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/Graham71141/Service-Fabric-cmdlets/ServiceFabric/vlatest/Send-ServiceFabricReplicaHealthReport.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/Graham71141/Service-Fabric-cmdlets/ServiceFabric/vlatest/Send-ServiceFabricReplicaHealthReport.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/815de1336e123545148361804c8426d11a4b3932
 ms.topic: reference
 author: oanapl
