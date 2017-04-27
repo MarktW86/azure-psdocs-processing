@@ -2,11 +2,11 @@
 external help file: Microsoft.AzureStack.AzureConsistentStorage.Commands.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 04/27/2017 13:04 PM
+updated_at: 04/27/2017 14:04 PM
 ms.date: 04/27/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/Graham71305/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Get-ACSBlobServiceMetric.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/Graham71305/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Get-ACSBlobServiceMetric.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/9a4c46f4a899f4d01966831d3cc84fd5672d8b5d
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/52d25abe0edad89ed790b8a506784596116b809e
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -68,7 +68,7 @@ Accept wildcard characters: False
 ```
 
 ### -EndTimeInUtc
-{{Fill EndTimeInUtc Description}}
+
 
 ```yaml
 Type: DateTime
@@ -83,7 +83,7 @@ Accept wildcard characters: False
 ```
 
 ### -FarmName
-
+Specifies the name of the server farm.
 
 ```yaml
 Type: String
@@ -152,7 +152,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-
+Specifies the name of the resource group that contains the BLOB service.
 
 ```yaml
 Type: String
@@ -167,7 +167,7 @@ Accept wildcard characters: False
 ```
 
 ### -SkipCertificateValidation
-
+Indicates that the cmdlet does not validate the certificate.
 
 ```yaml
 Type: SwitchParameter
@@ -182,7 +182,7 @@ Accept wildcard characters: False
 ```
 
 ### -StartTimeInUtc
-{{Fill StartTimeInUtc Description}}
+
 
 ```yaml
 Type: DateTime
