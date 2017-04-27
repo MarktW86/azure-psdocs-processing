@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 9D63C467-E643-4DCD-B8AD-70C741D39377
 online version:
 schema: 2.0.0
-updated_at: 04/13/2017 18:04 PM
-ms.date: 04/13/2017
+updated_at: 04/27/2017 02:04 AM
+ms.date: 04/27/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricApplicationHealth.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricApplicationHealth.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/e4666c66ecad8bb641483d243bfac15b26f72282
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/df0999df1d4841a9b73be457339bfafe2f964b24
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -63,8 +63,7 @@ PS C:\> Get-ServiceFabricApplicationHealth -ApplicationName fabric:/myapp/persis
 ```
 
 This command queries the health of the named application.
-It specifies values for health policy.
-It uses filters to return only Error events, and children with Error or Warning health states.
+The command specifies values for health policy and it uses filters to return only Error events, and children with Error or Warning health states.
 
 ## PARAMETERS
 
@@ -135,7 +134,7 @@ Accept wildcard characters: False
 ```
 
 ### -EventsFilter
-Specifies the filter for the collection of **HealthEvent**s reported on the application based on health state.
+Specifies the filter for the collection of **HealthEvents** reported on the application based on health state.
 The value can be obtained from members or bitwise operations on members of **HealthStateFilter**.
 Only events that match the filter are returned.
 All events are used to evaluate the application aggregated health state.
