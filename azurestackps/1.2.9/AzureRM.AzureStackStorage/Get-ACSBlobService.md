@@ -2,11 +2,11 @@
 external help file: Microsoft.AzureStack.AzureConsistentStorage.Commands.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 04/27/2017 02:04 AM
+updated_at: 04/27/2017 13:04 PM
 ms.date: 04/27/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Get-ACSBlobService.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Get-ACSBlobService.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/8f41a76fd1cd5ddf800ed7d11b499f75eac8fd80
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/9a4c46f4a899f4d01966831d3cc84fd5672d8b5d
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -54,7 +54,7 @@ The third command then uses **Get-ACSBlobService** to get the Blob service from 
 ## PARAMETERS
 
 ### -AdminUri
-
+Specifies the link, as a URI, to the service admin.
 
 ```yaml
 Type: Uri

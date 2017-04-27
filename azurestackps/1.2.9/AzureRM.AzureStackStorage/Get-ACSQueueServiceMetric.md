@@ -2,11 +2,11 @@
 external help file: Microsoft.AzureStack.AzureConsistentStorage.Commands.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 04/26/2017 00:04 AM
-ms.date: 04/26/2017
+updated_at: 04/27/2017 14:04 PM
+ms.date: 04/27/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Get-ACSQueueServiceMetric.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Get-ACSQueueServiceMetric.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/6ec3f30a81fcea3164edc82f2757ecfc1f9403c6
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/52d25abe0edad89ed790b8a506784596116b809e
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -75,7 +75,7 @@ Accept wildcard characters: False
 ```
 
 ### -EndTimeInUtc
-{{Fill EndTimeInUtc Description}}
+
 
 ```yaml
 Type: DateTime
@@ -189,7 +189,7 @@ Accept wildcard characters: False
 ```
 
 ### -StartTimeInUtc
-{{Fill StartTimeInUtc Description}}
+
 
 ```yaml
 Type: DateTime
