@@ -2,11 +2,11 @@
 external help file: Microsoft.AzureStack.AzureConsistentStorage.Commands.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 04/11/2017 21:04 PM
-ms.date: 04/11/2017
+updated_at: 04/27/2017 13:04 PM
+ms.date: 04/27/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Get-ACSBlobService.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Get-ACSBlobService.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/da0fd350a2a76c2d3edbf597f3826de129c926e5
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/9a4c46f4a899f4d01966831d3cc84fd5672d8b5d
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -19,7 +19,7 @@ ms.service: azure-stack
 # Get-ACSBlobService
 
 ## SYNOPSIS
-Retrieve the status and settings of Blob service
+Gets the status and settings of a BLOB service.
 
 ## SYNTAX
 
@@ -30,27 +30,31 @@ Get-ACSBlobService [-ResourceGroupName] <String> [-FarmName] <String> [[-Subscri
 ```
 
 ## DESCRIPTION
-Retrieve the status and settings of Blob service
+The **Get-ACSBlobService** gets the status and settings of a Blob service.
 
 ## EXAMPLES
 
-### --------------------------  Example 1  --------------------------
-@{paragraph=PS C:\\\>}
-
-
+### Example 1: Get the status and settings of a BLOB service
 
 ```
-$resourceGroup = 'System' 
+PS C:\> $ResourceGroup = "System" 
 
-$farm = Get-ACSFarm -ResourceGroupName $resourceGroup
+PS C:\> $Farm = Get-ACSFarm -ResourceGroupName $ResourceGroup
 
-Get-ACSBlobService -ResourceGroupName $resourceGroup -FarmName $farm.Name | fl
+PS C:\> Get-ACSBlobService -ResourceGroupName $ResourceGroup -FarmName $Farm.Name | fl
 ```
+
+The first command stores the resource group named System to the variable named $ResourceGroup.
+
+The second command uses the [Get-ACSFarm](./Get-ACSFarm.md) cmdlet to get the farm and stores the result in the variable named $Farm.
+
+The third command then uses **Get-ACSBlobService** to get the Blob service from the farm stored in the $Farm variable. 
+
 
 ## PARAMETERS
 
 ### -AdminUri
-@{Text=}
+Specifies the link, as a URI, to the service admin.
 
 ```yaml
 Type: Uri
@@ -65,7 +69,7 @@ Accept wildcard characters: False
 ```
 
 ### -FarmName
-@{Text=}
+Specifies the name of the server farm.
 
 ```yaml
 Type: String
@@ -80,7 +84,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -95,7 +108,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -110,7 +123,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-@{Text=}
+Specifies the name of the resource group that contains the BLOB service.
 
 ```yaml
 Type: String
@@ -125,7 +138,7 @@ Accept wildcard characters: False
 ```
 
 ### -SkipCertificateValidation
-@{Text=}
+Indicates that the cmdlet does not validate the certificate.
 
 ```yaml
 Type: SwitchParameter
@@ -140,7 +153,7 @@ Accept wildcard characters: False
 ```
 
 ### -SubscriptionId
-@{Text=}
+Specifies the ID of the subscription that contains the BLOB service.
 
 ```yaml
 Type: String
@@ -155,7 +168,7 @@ Accept wildcard characters: False
 ```
 
 ### -Token
-@{Text=}
+
 
 ```yaml
 Type: String
@@ -184,3 +197,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
+[Get-ACSBlobServiceMetric](./Get-ACSBlobServiceMetric.md)
+
+[Get-ACSBlobServiceMetricDefinition](./Get-ACSBlobServiceMetricDefinition.md)

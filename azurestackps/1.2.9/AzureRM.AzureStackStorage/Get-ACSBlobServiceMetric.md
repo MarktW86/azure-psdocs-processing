@@ -2,11 +2,11 @@
 external help file: Microsoft.AzureStack.AzureConsistentStorage.Commands.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 04/11/2017 21:04 PM
-ms.date: 04/11/2017
+updated_at: 04/27/2017 14:04 PM
+ms.date: 04/27/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Get-ACSBlobServiceMetric.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Get-ACSBlobServiceMetric.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/da0fd350a2a76c2d3edbf597f3826de129c926e5
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/52d25abe0edad89ed790b8a506784596116b809e
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -19,7 +19,7 @@ ms.service: azure-stack
 # Get-ACSBlobServiceMetric
 
 ## SYNOPSIS
-Retrieve the metrics of Blob service
+Gets the metrics of a BLOB service.
 
 ## SYNTAX
 
@@ -31,21 +31,14 @@ Get-ACSBlobServiceMetric [-FarmName] <String> [-ResourceGroupName] <String> [-Ti
 ```
 
 ## DESCRIPTION
-Retrieve the metrics of Blob service
+The **Get-ACSBlobServiceMetric** cmdlet gets the metrics of a BLOB service.
 
 ## EXAMPLES
-
-### Example 1
-```
-PS C:\> {{ Add example code here }}
-```
-
-{{ Add example description here }}
 
 ## PARAMETERS
 
 ### -AdminUri
-@{Text=}
+Specifies the link, as a URI, to the service admin.
 
 ```yaml
 Type: Uri
@@ -60,7 +53,7 @@ Accept wildcard characters: False
 ```
 
 ### -DetailedOutput
-@{Text=}
+
 
 ```yaml
 Type: SwitchParameter
@@ -75,7 +68,7 @@ Accept wildcard characters: False
 ```
 
 ### -EndTimeInUtc
-{{Fill EndTimeInUtc Description}}
+
 
 ```yaml
 Type: DateTime
@@ -90,7 +83,7 @@ Accept wildcard characters: False
 ```
 
 ### -FarmName
-@{Text=}
+Specifies the name of the server farm.
 
 ```yaml
 Type: String
@@ -105,7 +98,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -120,7 +122,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -135,7 +137,7 @@ Accept wildcard characters: False
 ```
 
 ### -MetricNames
-@{Text=}
+
 
 ```yaml
 Type: String[]
@@ -150,7 +152,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-@{Text=}
+Specifies the name of the resource group that contains the BLOB service.
 
 ```yaml
 Type: String
@@ -165,7 +167,7 @@ Accept wildcard characters: False
 ```
 
 ### -SkipCertificateValidation
-@{Text=}
+Indicates that the cmdlet does not validate the certificate.
 
 ```yaml
 Type: SwitchParameter
@@ -180,7 +182,7 @@ Accept wildcard characters: False
 ```
 
 ### -StartTimeInUtc
-{{Fill StartTimeInUtc Description}}
+
 
 ```yaml
 Type: DateTime
@@ -195,7 +197,7 @@ Accept wildcard characters: False
 ```
 
 ### -SubscriptionId
-@{Text=}
+
 
 ```yaml
 Type: String
@@ -210,7 +212,7 @@ Accept wildcard characters: False
 ```
 
 ### -TimeGrain
-@{Text=}
+
 
 ```yaml
 Type: TimeGrain
@@ -225,7 +227,7 @@ Accept wildcard characters: False
 ```
 
 ### -Token
-@{Text=}
+
 
 ```yaml
 Type: String
@@ -255,4 +257,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-
