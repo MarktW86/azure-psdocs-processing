@@ -2,11 +2,11 @@
 external help file: Microsoft.AzureStack.Commands.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 04/20/2017 23:04 PM
-ms.date: 04/20/2017
+updated_at: 04/25/2017 19:04 PM
+ms.date: 04/25/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/Graham71305/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/Remove-AzureRMResourceProviderRegistration.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/Graham71305/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/Remove-AzureRMResourceProviderRegistration.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d4f2539c40b2f09416fa3e1d384a0a1f0183fb5e
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/c4315559410058943d9b4bbae2b76e607f21de95
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -19,7 +19,7 @@ ms.service: azure-stack
 # Remove-AzureRMResourceProviderRegistration
 
 ## SYNOPSIS
-The Remove-ResourceProviderRegistration cmdlet removes the resource provider manifest
+Removes the resource provider manifest.
 
 ## SYNTAX
 
@@ -30,26 +30,21 @@ Remove-AzureRMResourceProviderRegistration -Name <String> -ResourceGroup <String
 ```
 
 ## DESCRIPTION
+The **Remove-ResourceProviderRegistration** cmdlet removes the resource provider manifest.
 
 ## EXAMPLES
 
 ### Example 1:
 ```
-Remove-ResourceProviderRegistration -Name "Microsoft.Sql.Admin" -ResourceGroup system
+Remove-ResourceProviderRegistration -Name "Microsoft.Sql.Admin" -ResourceGroup "system"
 ```
 
-Description
-
------------
-
-The example removes the resource provider manifest for the namespace Microsoft.Sql.Admin
+This command removes the resource provider manifest named "Microsoft.Sql.Admin" that is in the "system" resource group.
 
 ## PARAMETERS
 
 ### -InformationAction
-Not Specified
-
-The following values are permitted for this object type.
+Not specified.
 
 ```yaml
 Type: ActionPreference
@@ -65,7 +60,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-Not Specified
+Not specified.
 
 ```yaml
 Type: String
@@ -80,12 +75,12 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-@{Text=}
+Specifies the name of the resource provider manifest to be removed.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -95,7 +90,7 @@ Accept wildcard characters: False
 ```
 
 ### -PipelineVariable
-Not Specified
+Not specified.
 
 ```yaml
 Type: String
@@ -110,12 +105,12 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroup
-@{Text=}
+Specifies the resource group that the contains the resource provider manifest to be removed.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -129,6 +124,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## INPUTS
 
+### None
+
 ## OUTPUTS
 
 ### Microsoft.Azure.AzureOperationResponse
@@ -136,4 +133,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-

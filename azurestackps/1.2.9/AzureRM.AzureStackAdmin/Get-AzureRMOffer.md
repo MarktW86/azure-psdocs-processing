@@ -2,11 +2,11 @@
 external help file: Microsoft.AzureStack.Commands.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 04/20/2017 23:04 PM
-ms.date: 04/20/2017
+updated_at: 04/25/2017 19:04 PM
+ms.date: 04/25/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/Graham71305/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/Get-AzureRMOffer.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/Graham71305/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/Get-AzureRMOffer.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d4f2539c40b2f09416fa3e1d384a0a1f0183fb5e
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/c4315559410058943d9b4bbae2b76e607f21de95
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -19,7 +19,7 @@ ms.service: azure-stack
 # Get-AzureRMOffer
 
 ## SYNOPSIS
-The cmdlet gets the offer as an administrator or as a tenant user
+Gets an offer.
 
 ## SYNTAX
 
@@ -42,6 +42,7 @@ Get-AzureRMOffer [-Name <String>] -ResourceGroup <String> [-Managed] [-Informati
 ```
 
 ## DESCRIPTION
+The **Get-AzureRMOffer** cmdlet gets an offer. This cmdlet can be executed as a service administrator or as a tenant user.
 
 ## EXAMPLES
 
@@ -50,29 +51,19 @@ Get-AzureRMOffer [-Name <String>] -ResourceGroup <String> [-Managed] [-Informati
 Get-AzureRMOffer -Name "ComputeOffer" -ResourceGroup "OfferGroup" -Managed
 ```
 
-Description
-
------------
-
-The example gets an offer as a service administrator
+This command gets the offer named "ComputeOffer" and created in the "OfferGroup" resource group. This command is being executed as a service administrator.
 
 ### Example 2:
 ```
 Get-AzureRMOffer -Provider "default" | Where-Object name -eq "ComputeOffer"
 ```
 
-Description
-
------------
-
-The example gets the list of public offers as a tenant
+This command gets the list of public offers. The command is being executed as a tenant user.
 
 ## PARAMETERS
 
 ### -InformationAction
-Not Specified
-
-The following values are permitted for this object type.
+Not Specified.
 
 ```yaml
 Type: ActionPreference
@@ -88,7 +79,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-Not Specified
+Not Specified.
 
 ```yaml
 Type: String
@@ -103,12 +94,12 @@ Accept wildcard characters: False
 ```
 
 ### -Managed
-Managed switch specified that the operation is being executed as administrator
+Indicates whether the operation is being executed as a service administrator.
 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Admin
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -118,12 +109,12 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-Name of the offer
+Specifies the name of the offer.
 
 ```yaml
 Type: String
 Parameter Sets: Admin
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -133,12 +124,12 @@ Accept wildcard characters: False
 ```
 
 ### -OfferId
-Specifies the id of the offer
+Specifies the ID of the offer.
 
 ```yaml
 Type: String
 Parameter Sets: TenantGet
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -148,7 +139,7 @@ Accept wildcard characters: False
 ```
 
 ### -PipelineVariable
-Not Specified
+Not Specified.
 
 ```yaml
 Type: String
@@ -163,13 +154,12 @@ Accept wildcard characters: False
 ```
 
 ### -Provider
-Specifies the Provider.
-For the first party tenant scenarios this value should be "default".
+Specifies the Provider. For the first party tenant scenarios this value should be "default".
 
 ```yaml
 Type: String
 Parameter Sets: TenantList
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -179,12 +169,12 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroup
-The resource group name where the offer was created
+Specifies the name of the resource group where the offer was created.
 
 ```yaml
 Type: String
 Parameter Sets: Admin
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -198,12 +188,13 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## INPUTS
 
+### None
+
 ## OUTPUTS
 
 ### Microsoft.AzureStack.Management.Models.OfferDefinition
-            Microsoft.AzureStack.Management.Models.AdminOfferModel
+### Microsoft.AzureStack.Management.Models.AdminOfferModel
 
 ## NOTES
 
 ## RELATED LINKS
-

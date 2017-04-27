@@ -2,11 +2,11 @@
 external help file: Microsoft.AzureStack.Commands.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 04/20/2017 23:04 PM
-ms.date: 04/20/2017
+updated_at: 04/25/2017 19:04 PM
+ms.date: 04/25/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/Graham71305/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/Set-AzureRMPlan.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/Graham71305/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/Set-AzureRMPlan.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d4f2539c40b2f09416fa3e1d384a0a1f0183fb5e
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/c4315559410058943d9b4bbae2b76e607f21de95
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -19,7 +19,7 @@ ms.service: azure-stack
 # Set-AzureRMPlan
 
 ## SYNOPSIS
-The cmdlet Set-AzureRMPlan updates the existing plan with the given modified plan object
+Updates the existing plan with the given modified plan object.
 
 ## SYNTAX
 
@@ -29,26 +29,22 @@ Set-AzureRMPlan -Plan <AdminPlanModel> -ResourceGroup <String> [-InformationActi
 ```
 
 ## DESCRIPTION
+The **Set-AzureRMPlan** cmdlet updates the existing plan with the given modified plan object.
 
 ## EXAMPLES
 
 ### Example 1:
 ```
-$Plan = Get-AzureRMPlan -Name "ComputePlan" -ResourceGroup "PlanGroup" -Managed; # Modify the plan object for the need;  Set-AzureRMPlan -Plan $Plan -ResourceGroup "PlanGroup"
+$planUpdated = Get-AzureRMPlan -Name "ComputePlan" -ResourceGroup "PlanGroup" -Managed
+Set-AzureRMPlan -Plan $planUpdated -ResourceGroup "PlanGroup"
 ```
 
-Description
-
------------
-
-The example gets a plan, modifies the plan object and then updates the plan
+This example gets a plan, modifies the plan object, and then updates the plan.
 
 ## PARAMETERS
 
 ### -InformationAction
-Not Specified
-
-The following values are permitted for this object type.
+Not specified.
 
 ```yaml
 Type: ActionPreference
@@ -64,7 +60,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-Not Specified
+Not specified.
 
 ```yaml
 Type: String
@@ -79,7 +75,7 @@ Accept wildcard characters: False
 ```
 
 ### -PipelineVariable
-Not Specified
+Not specified.
 
 ```yaml
 Type: String
@@ -94,13 +90,12 @@ Accept wildcard characters: False
 ```
 
 ### -Plan
-Specifies the plan object.
-The object can be got by executing Get-AzureRmPlan cmdlet
+Specifies an updated **AdminPlanModel** object to be used for updating the existing plan data.
 
 ```yaml
 Type: AdminPlanModel
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -110,12 +105,12 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroup
-Specifies the resource group name of the plan
+Specifies the name of the resource group of the plan.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -129,6 +124,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## INPUTS
 
+### None
+
 ## OUTPUTS
 
 ### Microsoft.AzureStack.Management.Models.AdminPlanModel
@@ -136,4 +133,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-

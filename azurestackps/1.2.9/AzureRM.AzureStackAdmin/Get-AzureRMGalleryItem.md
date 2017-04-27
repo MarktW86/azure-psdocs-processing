@@ -2,11 +2,11 @@
 external help file: Microsoft.AzureStack.Commands.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 04/20/2017 23:04 PM
-ms.date: 04/20/2017
+updated_at: 04/25/2017 19:04 PM
+ms.date: 04/25/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/Graham71305/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/Get-AzureRMGalleryItem.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/Graham71305/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/Get-AzureRMGalleryItem.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d4f2539c40b2f09416fa3e1d384a0a1f0183fb5e
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/c4315559410058943d9b4bbae2b76e607f21de95
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -19,7 +19,7 @@ ms.service: azure-stack
 # Get-AzureRMGalleryItem
 
 ## SYNOPSIS
-The Get-AzureRmGalleryItem cmdlet gets the gallery item
+Gets the gallery item.
 
 ## SYNTAX
 
@@ -29,6 +29,7 @@ Get-AzureRMGalleryItem [-Name <String>] [-InformationAction <ActionPreference>] 
 ```
 
 ## DESCRIPTION
+The **Get-AzureRmGalleryItem** cmdlet gets the gallery item.
 
 ## EXAMPLES
 
@@ -37,18 +38,12 @@ Get-AzureRMGalleryItem [-Name <String>] [-InformationAction <ActionPreference>] 
 Get-AzureRMGalleryItem -Name "Microsoft.SqlDatabase.0.1.0" -ApiVersion "2015-04-01"
 ```
 
-Description
-
------------
-
-The example gets the gallery item named 'Microsoft.SqlDatabase.0.1.0'
+This command gets the gallery item named 'Microsoft.SqlDatabase.0.1.0'.
 
 ## PARAMETERS
 
 ### -InformationAction
-Not Specified
-
-The following values are permitted for this object type.
+Not Specified.
 
 ```yaml
 Type: ActionPreference
@@ -64,7 +59,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-Not Specified
+Not Specified.
 
 ```yaml
 Type: String
@@ -79,12 +74,12 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-Specifies the gallery item name
+Specifies the name of the gallery item to be retrieved.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -94,7 +89,7 @@ Accept wildcard characters: False
 ```
 
 ### -PipelineVariable
-Not Specified
+Not Specified.
 
 ```yaml
 Type: String
@@ -113,6 +108,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## INPUTS
 
+### None
+
 ## OUTPUTS
 
 ### Microsoft.AzureStack.Management.Models.GalleryItemModel
@@ -120,4 +117,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-

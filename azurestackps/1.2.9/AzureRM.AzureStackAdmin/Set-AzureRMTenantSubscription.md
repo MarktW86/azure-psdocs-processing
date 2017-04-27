@@ -2,11 +2,11 @@
 external help file: Microsoft.AzureStack.Commands.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 04/11/2017 21:04 PM
-ms.date: 04/11/2017
+updated_at: 04/25/2017 18:04 PM
+ms.date: 04/25/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/Graham71305/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/Set-AzureRMTenantSubscription.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/Graham71305/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/Set-AzureRMTenantSubscription.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/da0fd350a2a76c2d3edbf597f3826de129c926e5
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/9c6c7ffcf11db099b87d00d6019bdaf3d4e13521
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -19,8 +19,7 @@ ms.service: azure-stack
 # Set-AzureRMTenantSubscription
 
 ## SYNOPSIS
-The Set-AzureRMTenantSubscription cmdlet updates the current logged user's subscription details.
-This cmdlet will be deprecated in a future release
+Updates the current logged-in user's tenant subscription.
 
 ## SYNTAX
 
@@ -30,22 +29,23 @@ Set-AzureRMTenantSubscription -Subscription <SubscriptionDefinition> [-Informati
 ```
 
 ## DESCRIPTION
+The **Set-AzureRMTenantSubscription** cmdlet updates the current logged-in user's tenant subscription.
 
 ## EXAMPLES
 
-### Example 1
+### -------------------------- EXAMPLE 1 --------------------------
 ```
-PS C:\> {{ Add example code here }}
+$subscriptionUpdated = Get-AzureRmTenantSubscription
+$subscriptionUpdated.OfferId = "Abc123"
+Set-AzureRMTenantSubscription -Subscription $subscriptionUpdated
 ```
 
-{{ Add example description here }}
+This example modifies the **OfferId** property of a **SubscriptionDefinition** object and then passes the object in the **Subscription** parameter of the ** Set-AzureRMTenantSubscription** cmdlet.
 
 ## PARAMETERS
 
 ### -InformationAction
-Not Specified
-
-The following values are permitted for this object type.
+Not specified.
 
 ```yaml
 Type: ActionPreference
@@ -61,7 +61,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-Not Specified
+Not specified.
 
 ```yaml
 Type: String
@@ -76,7 +76,7 @@ Accept wildcard characters: False
 ```
 
 ### -PipelineVariable
-Not Specified
+Not specified.
 
 ```yaml
 Type: String
@@ -91,12 +91,12 @@ Accept wildcard characters: False
 ```
 
 ### -Subscription
-Updated subscription definition object
+Specifies an updated **SubscriptionDefinition** object to be used for updating the existing subscription data.
 
 ```yaml
 Type: SubscriptionDefinition
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -110,6 +110,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## INPUTS
 
+### None
+
 ## OUTPUTS
 
 ### Microsoft.AzureStack.Management.Models.SubscriptionDefinition
@@ -117,4 +119,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-

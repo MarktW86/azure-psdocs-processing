@@ -2,11 +2,11 @@
 external help file: Microsoft.AzureStack.Commands.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 04/20/2017 23:04 PM
-ms.date: 04/20/2017
+updated_at: 04/25/2017 19:04 PM
+ms.date: 04/25/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/Graham71305/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/New-AzureRMManagedLocation.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/Graham71305/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/New-AzureRMManagedLocation.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d4f2539c40b2f09416fa3e1d384a0a1f0183fb5e
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/c4315559410058943d9b4bbae2b76e607f21de95
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -19,8 +19,7 @@ ms.service: azure-stack
 # New-AzureRMManagedLocation
 
 ## SYNOPSIS
-The cmdlet New-AzureRmManagedLocation creates a new location managed by Azurestack Resource Manager.
-The resource providers can be deployed in the new location
+Creates a new location managed by the Azure stack Resource Manager.
 
 ## SYNTAX
 
@@ -31,6 +30,7 @@ New-AzureRMManagedLocation -Name <String> -DisplayName <String> -Latitude <Doubl
 ```
 
 ## DESCRIPTION
+The **New-AzureRmManagedLocation** cmdlet creates a new location managed by the Azure stack Resource Manager. The resource providers can be deployed in the new location.
 
 ## EXAMPLES
 
@@ -39,21 +39,17 @@ New-AzureRMManagedLocation -Name <String> -DisplayName <String> -Latitude <Doubl
 New-AzureRMManagedLocation -Name "LocationName" -DisplayName "LocationName" -Latitude 80.5 -Longitude -45.5
 ```
 
-Description
-
------------
-
-The example creates a new location
+This command creates a new location named "LocationName".
 
 ## PARAMETERS
 
 ### -DisplayName
-@{Text=}
+Specifies the display name of the managed location.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -63,9 +59,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-Not Specified
-
-The following values are permitted for this object type.
+Not Specified.
 
 ```yaml
 Type: ActionPreference
@@ -81,7 +75,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-Not Specified
+Not Specified.
 
 ```yaml
 Type: String
@@ -96,12 +90,12 @@ Accept wildcard characters: False
 ```
 
 ### -Latitude
-Specifies the latitude of the location in decimal format
+Specifies the latitude of the location in decimal format.
 
 ```yaml
 Type: Double
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -111,12 +105,12 @@ Accept wildcard characters: False
 ```
 
 ### -Longitude
-Specifies the Longitude of the location in decimal format
+Specifies the Longitude of the location in decimal format.
 
 ```yaml
 Type: Double
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -126,12 +120,12 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-Specifies the name of the location
+Specifies the name of the location.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -141,7 +135,7 @@ Accept wildcard characters: False
 ```
 
 ### -PipelineVariable
-Not Specified
+Not Specified.
 
 ```yaml
 Type: String
@@ -160,6 +154,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## INPUTS
 
+### None
+
 ## OUTPUTS
 
 ### Microsoft.AzureStack.Management.Models.Location
@@ -167,4 +163,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-

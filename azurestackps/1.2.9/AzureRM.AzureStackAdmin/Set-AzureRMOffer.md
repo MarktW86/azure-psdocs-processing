@@ -2,11 +2,11 @@
 external help file: Microsoft.AzureStack.Commands.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 04/20/2017 23:04 PM
-ms.date: 04/20/2017
+updated_at: 04/25/2017 19:04 PM
+ms.date: 04/25/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/Graham71305/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/Set-AzureRMOffer.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/Graham71305/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/Set-AzureRMOffer.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d4f2539c40b2f09416fa3e1d384a0a1f0183fb5e
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/c4315559410058943d9b4bbae2b76e607f21de95
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -19,7 +19,7 @@ ms.service: azure-stack
 # Set-AzureRMOffer
 
 ## SYNOPSIS
-The Set-AzureRmOffer cmdlet updates the existing offer
+Updates an existing offer.
 
 ## SYNTAX
 
@@ -30,27 +30,23 @@ Set-AzureRMOffer -Offer <AdminOfferModel> -ResourceGroup <String> [-Subscription
 ```
 
 ## DESCRIPTION
-The Set-AzureRmOffer cmdlet updates the existing offer
+The **Set-AzureRmOffer** cmdlet updates an existing offer.
 
 ## EXAMPLES
 
 ### Example 1:
 ```
-$Offer = Get-AzureRMOffer -Name "ComputeOffer" -ResourceGroup "OfferGroup" -Managed; $Offer.DisplayName ="New Compute Offer";  Set-AzureRMOffer -Plan $Offer -ResourceGroup "OfferGroup"
+$offerUpdated = Get-AzureRMOffer -Name "ComputeOffer" -ResourceGroup "OfferGroup" -Managed
+$offerUpdated.DisplayName ="New Compute Offer"
+Set-AzureRMOffer -Offer $offerUpdated -ResourceGroup "OfferGroup"
 ```
 
-Description
-
------------
-
-The example gets and updates the offer name 'ComputeOffer'
+This example gets and updates the offer named "ComputeOffer" that belongs to the "OfferGroup" resource group.
 
 ## PARAMETERS
 
 ### -InformationAction
-Not Specified
-
-The following values are permitted for this object type.
+Not specified.
 
 ```yaml
 Type: ActionPreference
@@ -66,7 +62,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-Not Specified
+Not specified.
 
 ```yaml
 Type: String
@@ -81,12 +77,12 @@ Accept wildcard characters: False
 ```
 
 ### -Offer
-@{Text=}
+Specifies an updated **AdminOfferModel** object to be used for updating the existing offer data.
 
 ```yaml
 Type: AdminOfferModel
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -96,7 +92,7 @@ Accept wildcard characters: False
 ```
 
 ### -PipelineVariable
-Not Specified
+Not specified.
 
 ```yaml
 Type: String
@@ -111,12 +107,12 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroup
-Specifies the resource group name of the offer
+Specifies the name of the resource group that contains the offer.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -126,12 +122,12 @@ Accept wildcard characters: False
 ```
 
 ### -SubscriptionId
-{{Fill SubscriptionId Description}}
+Specifies the subscription ID of the service administrator. This parameter is not needed when you use the cmdlet in the Azure stack environment configured against Azure Active Directory.
 
 ```yaml
 Type: Guid
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -145,6 +141,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## INPUTS
 
+### None
+
 ## OUTPUTS
 
 ### Microsoft.AzureStack.Management.Models.AdminOfferModel
@@ -152,4 +150,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-

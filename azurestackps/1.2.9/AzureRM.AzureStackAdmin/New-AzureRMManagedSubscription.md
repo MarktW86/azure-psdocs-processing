@@ -2,11 +2,11 @@
 external help file: Microsoft.AzureStack.Commands.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 04/20/2017 23:04 PM
-ms.date: 04/20/2017
+updated_at: 04/25/2017 19:04 PM
+ms.date: 04/25/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/Graham71305/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/New-AzureRMManagedSubscription.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/Graham71305/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/New-AzureRMManagedSubscription.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d4f2539c40b2f09416fa3e1d384a0a1f0183fb5e
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/c4315559410058943d9b4bbae2b76e607f21de95
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -19,7 +19,7 @@ ms.service: azure-stack
 # New-AzureRMManagedSubscription
 
 ## SYNOPSIS
-The New-AzureRmManagedSubscriiption cmdlet creates a subscription as an admin for the specified tenant user
+Creates a subscription as an administrator for the specified tenant user.
 
 ## SYNTAX
 
@@ -30,6 +30,7 @@ New-AzureRMManagedSubscription -Owner <String> -OfferId <String> [-DisplayName <
 ```
 
 ## DESCRIPTION
+The **New-AzureRmManagedSubscriiption** cmdlet creates a subscription as an administrator for the specified tenant user.
 
 ## EXAMPLES
 
@@ -38,21 +39,17 @@ New-AzureRMManagedSubscription -Owner <String> -OfferId <String> [-DisplayName <
 New-AzureRmManagedSubscription -Owner "tenanuser@contoso.com" -OfferId $OfferId -DisplayName "Displayname"
 ```
 
-Description
-
------------
-
-The example creates a subscription for the specified tenant user.
+This command creates a subscription for the tenant user "tenanuser@contoso.com".
 
 ## PARAMETERS
 
 ### -DisplayName
-{{Fill DisplayName Description}}
+Specifies the display name of the managed subscription.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -62,9 +59,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-Not Specified
-
-The following values are permitted for this object type.
+Not Specified.
 
 ```yaml
 Type: ActionPreference
@@ -80,7 +75,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-Not Specified
+Not Specified.
 
 ```yaml
 Type: String
@@ -95,12 +90,12 @@ Accept wildcard characters: False
 ```
 
 ### -OfferId
-Specifies the Id of the offer to which the user is subscribed to
+Specifies the ID of the offer to which the tenant user is subscribed.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -110,12 +105,12 @@ Accept wildcard characters: False
 ```
 
 ### -Owner
-Specifies the owner of the subscription
+Specifies the tenant user who is the owner of the subscription.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -125,7 +120,7 @@ Accept wildcard characters: False
 ```
 
 ### -PipelineVariable
-Not Specified
+Not Specified.
 
 ```yaml
 Type: String
@@ -144,6 +139,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## INPUTS
 
+### None
+
 ## OUTPUTS
 
 ### Microsoft.AzureStack.Management.Models.SubscriptionDefinition
@@ -151,4 +148,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-
