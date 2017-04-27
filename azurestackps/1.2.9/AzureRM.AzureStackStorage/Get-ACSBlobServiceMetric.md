@@ -2,11 +2,11 @@
 external help file: Microsoft.AzureStack.AzureConsistentStorage.Commands.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 04/26/2017 00:04 AM
-ms.date: 04/26/2017
+updated_at: 04/27/2017 02:04 AM
+ms.date: 04/27/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/Graham71305/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Get-ACSBlobServiceMetric.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/Graham71305/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Get-ACSBlobServiceMetric.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/6ec3f30a81fcea3164edc82f2757ecfc1f9403c6
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/8f41a76fd1cd5ddf800ed7d11b499f75eac8fd80
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -19,7 +19,7 @@ ms.service: azure-stack
 # Get-ACSBlobServiceMetric
 
 ## SYNOPSIS
-Retrieve the metrics of Blob service
+Gets the metrics of a BLOB service.
 
 ## SYNTAX
 
@@ -31,16 +31,9 @@ Get-ACSBlobServiceMetric [-FarmName] <String> [-ResourceGroupName] <String> [-Ti
 ```
 
 ## DESCRIPTION
-Retrieve the metrics of Blob service
+The **Get-ACSBlobServiceMetric** cmdlet gets the metrics of a BLOB service.
 
 ## EXAMPLES
-
-### Example 1
-```
-PS C:\> {{ Add example code here }}
-```
-
-{{ Add example description here }}
 
 ## PARAMETERS
 
