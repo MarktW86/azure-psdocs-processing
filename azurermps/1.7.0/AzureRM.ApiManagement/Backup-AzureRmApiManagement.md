@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: B3B67164-7ADF-4FE3-87AB-51DCD46ED084
 updated_at: 01/12/2017 01:01 AM
 ms.date: 01/12/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v1.1.4/Backup-AzureRmApiManagement.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v1.1.4/Backup-AzureRmApiManagement.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/4.0.0/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v1.1.4/Backup-AzureRmApiManagement.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/4.0.0/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v1.1.4/Backup-AzureRmApiManagement.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/744a3daf267d93d9084ba9f20bf25d56439bcc7f
 ms.topic: reference
 author: erickson-doug

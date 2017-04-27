@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: 8A9FC0CE-8259-4544-BBC2-778CDE4EF12A
 updated_at: 01/09/2017 23:01 PM
 ms.date: 01/09/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.1.0/Find-AzureRmResourceGroup.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.1.0/Find-AzureRmResourceGroup.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/4.0.0/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.1.0/Find-AzureRmResourceGroup.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/4.0.0/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.1.0/Find-AzureRmResourceGroup.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/909020b7dbd03ec23a61b4fe16ccd2762277084c
 ms.topic: reference
 author: erickson-doug

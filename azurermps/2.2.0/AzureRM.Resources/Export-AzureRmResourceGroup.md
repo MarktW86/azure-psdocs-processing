@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: 33266F90-5353-459F-AEDC-11A60421805E
 updated_at: 01/09/2017 23:01 PM
 ms.date: 01/09/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.1.0/Export-AzureRmResourceGroup.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.1.0/Export-AzureRmResourceGroup.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/4.0.0/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.1.0/Export-AzureRmResourceGroup.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/4.0.0/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.1.0/Export-AzureRmResourceGroup.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/909020b7dbd03ec23a61b4fe16ccd2762277084c
 ms.topic: reference
 author: erickson-doug

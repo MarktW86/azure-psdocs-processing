@@ -4,8 +4,8 @@ online version:
 schema: 2.0.0
 updated_at: 03/15/2017 20:03 PM
 ms.date: 03/15/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.7.0/Add-AzureRmSqlDatabaseToFailoverGroup.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.7.0/Add-AzureRmSqlDatabaseToFailoverGroup.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/4.0.0/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.7.0/Add-AzureRmSqlDatabaseToFailoverGroup.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/4.0.0/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.7.0/Add-AzureRmSqlDatabaseToFailoverGroup.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d661156ea7c515a4c8b6df33e68d65d50d6e9950
 ms.topic: reference
 author: erickson-doug

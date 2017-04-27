@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: 8C4D3F64-A5EC-4E5A-8BD9-68086BAA8294
 updated_at: 11/01/2016 22:11 PM
 ms.date: 11/01/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v1.0.12/Remove-AzureRmDataLakeStoreItemAclEntry.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v1.0.12/Remove-AzureRmDataLakeStoreItemAclEntry.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/4.0.0/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v1.0.12/Remove-AzureRmDataLakeStoreItemAclEntry.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/4.0.0/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v1.0.12/Remove-AzureRmDataLakeStoreItemAclEntry.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed
 ms.topic: reference
 author: erickson-doug

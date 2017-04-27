@@ -5,8 +5,8 @@ online version:
 schema: 2.0.0
 updated_at: 04/10/2017 20:04 PM
 ms.date: 04/10/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Remove-AzureRmADUser.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Remove-AzureRmADUser.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/4.0.0/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Remove-AzureRmADUser.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/4.0.0/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Remove-AzureRmADUser.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e668a416cbf384e95e38cd702d8ade05f16dd7a3
 ms.topic: reference
 author: erickson-doug

@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: 5B728D30-EB23-451D-B27F-B358EB57F3CE
 updated_at: 11/01/2016 22:11 PM
 ms.date: 11/01/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v1.1.11/Update-AzureRmSiteRecoveryProtectionDirection.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v1.1.11/Update-AzureRmSiteRecoveryProtectionDirection.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/4.0.0/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v1.1.11/Update-AzureRmSiteRecoveryProtectionDirection.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/4.0.0/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v1.1.11/Update-AzureRmSiteRecoveryProtectionDirection.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed
 ms.topic: reference
 author: erickson-doug

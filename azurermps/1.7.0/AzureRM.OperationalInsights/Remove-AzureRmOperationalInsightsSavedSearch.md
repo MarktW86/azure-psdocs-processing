@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: C0B71949-72D6-4DE9-BC4D-88D6562D05BA
 updated_at: 11/01/2016 22:11 PM
 ms.date: 11/01/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.OperationalInsights/v1.0.12/Remove-AzureRmOperationalInsightsSavedSearch.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.OperationalInsights/v1.0.12/Remove-AzureRmOperationalInsightsSavedSearch.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/4.0.0/azureps-cmdlets-docs/ResourceManager/AzureRM.OperationalInsights/v1.0.12/Remove-AzureRmOperationalInsightsSavedSearch.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/4.0.0/azureps-cmdlets-docs/ResourceManager/AzureRM.OperationalInsights/v1.0.12/Remove-AzureRmOperationalInsightsSavedSearch.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed
 ms.topic: reference
 author: erickson-doug

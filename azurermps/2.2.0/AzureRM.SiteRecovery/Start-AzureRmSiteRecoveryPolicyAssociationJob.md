@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: BC5F616B-7AE1-4352-BCAE-B9778DC7CE93
 updated_at: 11/11/2016 23:11 PM
 ms.date: 11/11/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v2.1.0/Start-AzureRmSiteRecoveryPolicyAssociationJob.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v2.1.0/Start-AzureRmSiteRecoveryPolicyAssociationJob.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/4.0.0/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v2.1.0/Start-AzureRmSiteRecoveryPolicyAssociationJob.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/4.0.0/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v2.1.0/Start-AzureRmSiteRecoveryPolicyAssociationJob.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf
 ms.topic: reference
 author: erickson-doug

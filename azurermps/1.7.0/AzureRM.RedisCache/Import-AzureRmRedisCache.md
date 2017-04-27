@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: 3F8F7A51-B753-4513-85B1-406C65FAFFD0
 updated_at: 10/31/2016 21:10 PM
 ms.date: 10/31/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v1.1.10/Import-AzureRmRedisCache.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v1.1.10/Import-AzureRmRedisCache.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/4.0.0/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v1.1.10/Import-AzureRmRedisCache.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/4.0.0/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v1.1.10/Import-AzureRmRedisCache.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64
 ms.topic: reference
 author: erickson-doug

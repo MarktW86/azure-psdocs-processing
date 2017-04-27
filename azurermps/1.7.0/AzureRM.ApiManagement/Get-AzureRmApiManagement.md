@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: E067DED3-A2E3-4D53-8628-0EBBAFA62721
 updated_at: 01/12/2017 01:01 AM
 ms.date: 01/12/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v1.1.4/Get-AzureRmApiManagement.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v1.1.4/Get-AzureRmApiManagement.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/4.0.0/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v1.1.4/Get-AzureRmApiManagement.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/4.0.0/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v1.1.4/Get-AzureRmApiManagement.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/744a3daf267d93d9084ba9f20bf25d56439bcc7f
 ms.topic: reference
 author: erickson-doug
