@@ -3,11 +3,11 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 ms.assetid: 56657391-43D9-4939-B5AE-BB44EF00BE6E
 online version:
 schema: 2.0.0
-updated_at: 02/10/2017 18:02 PM
-ms.date: 02/10/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADUser.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADUser.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/d3a4bf78b21bbe92ea504e28cdf6fd0ecb57bfac
+updated_at: 04/20/2017 04:04 AM
+ms.date: 04/20/2017
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/preview/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADUser.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/preview/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADUser.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/785cafde2210485948fad58dd6f2d5df74b18bde
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -27,7 +27,7 @@ Updates a user.
 Set-AzureADUser -ObjectId <String>
  [-ExtensionProperty <System.Collections.Generic.Dictionary`2[System.String,System.String]>]
  [-AccountEnabled <Boolean>] [-City <String>] [-Country <String>] [-CreationType <String>]
- [-Department <String>] [-DisplayName <String>] [-FacsimilieTelephoneNumber <String>] [-GivenName <String>]
+ [-Department <String>] [-DisplayName <String>] [-FacsimileTelephoneNumber <String>] [-GivenName <String>]
  [-IsCompromised <Boolean>] [-ImmutableId <String>] [-JobTitle <String>] [-MailNickName <String>]
  [-Mobile <String>] [-OtherMails <System.Collections.Generic.List`1[System.String]>]
  [-PasswordPolicies <String>] [-PasswordProfile <PasswordProfile>] [-PhysicalDeliveryOfficeName <String>]
@@ -141,20 +141,6 @@ Accept wildcard characters: False
 ### -ExtensionProperty
 ```yaml
 Type: System.Collections.Generic.Dictionary`2[System.String,System.String]
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -FacsimilieTelephoneNumber
-Specifies the user's fax number.
-```yaml
-Type: String
 Parameter Sets: (All)
 Aliases: 
 
@@ -475,6 +461,21 @@ Accept wildcard characters: False
 ```
 
 ### -UserType
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -FacsimileTelephoneNumber
+The Facsimile TelephoneNumber of the user
+
 ```yaml
 Type: String
 Parameter Sets: (All)

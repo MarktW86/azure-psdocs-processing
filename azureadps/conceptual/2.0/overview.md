@@ -1,7 +1,7 @@
 ---
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/docs-conceptual/overview.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/docs-conceptual/overview.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/8aa5d1e40ee924aa7f9619b8019a3b04ec946e88
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/preview/Azure%20AD%20Cmdlets/docs-conceptual/overview.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/preview/Azure%20AD%20Cmdlets/docs-conceptual/overview.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/a100da980eb7d179a5e13f962ccc29cc7bd90f9a
 ---
 # Azure Active Directory PowerShell
 
@@ -15,6 +15,6 @@ Please refer to the below detailed description of the modules for a full list of
 
 Module | Description
 ------ | -----------
-[AzureAD](/powershell/module/azuread?view-azureadps-2.0) | Azure Active Directory PowerShell v2
-[MSOnline](/powershell/module/msonline?view-azureadps-1.0)| Azure Active Directory PowerShell v1
+[AzureAD](/powershell/module/azuread?view=azureadps-2.0) | Azure Active Directory PowerShell v2
+[MSOnline](/powershell/module/msonline?view=azureadps-1.0)| Azure Active Directory PowerShell v1
 

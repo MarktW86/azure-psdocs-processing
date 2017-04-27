@@ -3,11 +3,11 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 ms.assetid: 3719960D-7A77-414E-A20C-812B527F27AB
 online version:
 schema: 2.0.0
-updated_at: 12/05/2016 20:12 PM
-ms.date: 12/05/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Enable-AzureADDirectoryRole.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Enable-AzureADDirectoryRole.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/a3f4eb41072cf1506c8f82aa100e942b0830fc23
+updated_at: 04/20/2017 04:04 AM
+ms.date: 04/20/2017
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/preview/Azure%20AD%20Cmdlets/AzureAD/v2/Enable-AzureADDirectoryRole.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/preview/Azure%20AD%20Cmdlets/AzureAD/v2/Enable-AzureADDirectoryRole.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/785cafde2210485948fad58dd6f2d5df74b18bde
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -24,8 +24,8 @@ Activates an existing directory role in Azure Active Directory.
 ## SYNTAX
 
 ```
-Enable-AzureADDirectoryRole -DirectoryRole <DirectoryRole> [-InformationAction <ActionPreference>]
- [-InformationVariable <String>] [<CommonParameters>]
+Enable-AzureADDirectoryRole [-InformationAction <ActionPreference>] [-InformationVariable <String>]
+ [-RoleTemplateId <String>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -64,21 +64,6 @@ The final command enables the directory role in $Role.
 
 ## PARAMETERS
 
-### -DirectoryRole
-Specifies an Azure Active Directory role. Only the roleTemplateId is required.
-
-```yaml
-Type: DirectoryRole
-Parameter Sets: (All)
-Aliases: 
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName, ByValue)
-Accept wildcard characters: False
-```
-
 ### -InformationAction
 Specifies how this cmdlet responds to an information event. The acceptable values for this parameter are:
 
@@ -108,6 +93,21 @@ Specifies a variable in which to store an information event message.
 Type: String
 Parameter Sets: (All)
 Aliases: iv
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -RoleTemplateId
+The ID of the Role template to enable
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
 
 Required: False
 Position: Named

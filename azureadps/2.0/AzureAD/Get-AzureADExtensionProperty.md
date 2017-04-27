@@ -2,11 +2,11 @@
 external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 02/08/2017 23:02 PM
-ms.date: 02/08/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADExtensionProperty.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADExtensionProperty.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/1832f8b83a65336d1b6d21bb9072f421b6a5438c
+updated_at: 04/20/2017 04:04 AM
+ms.date: 04/20/2017
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/preview/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADExtensionProperty.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/preview/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADExtensionProperty.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/424c08eff259398d1aa2f26116c38cea5e911b45
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -23,7 +23,7 @@ Gets  extension properties registered with Azure AD.
 ## SYNTAX
 
 ```
-Get-AzureADExtensionProperty [-IsSyncedFromOnPremises <Nullable`1[Boolean]>]
+Get-AzureADExtensionProperty [-IsSyncedFromOnPremises <Boolean>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -32,7 +32,7 @@ You can get extension properties that are synced with on-premises Azure AD, thos
 
 ## EXAMPLES
 
-### Example 1: Get extension properties synced from on-premises Azure AD 
+### Example 1: Get extension properties synced from on-premises Azure AD
 ```
 PS C:\> Get-AzureADExtensionProperty -IsSyncedFromOnPremises $True
 
@@ -54,7 +54,7 @@ Specifies whether this cmdlet gets extension properties that are synced or not s
 - No value. Get all extension properties.
 
 ```yaml
-Type: Nullable`1[Boolean]
+Type: Boolean
 Parameter Sets: (All)
 Aliases: 
 
@@ -65,6 +65,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
+### CommonParameters
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
+
 ## INPUTS
 
 ## OUTPUTS
@@ -72,3 +75,4 @@ Accept wildcard characters: False
 ## NOTES
 
 ## RELATED LINKS
+
