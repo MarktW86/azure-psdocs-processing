@@ -2,11 +2,11 @@
 external help file: Microsoft.AzureStack.AzureConsistentStorage.Commands.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 04/26/2017 18:04 PM
-ms.date: 04/26/2017
+updated_at: 04/27/2017 02:04 AM
+ms.date: 04/27/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Get-ACSBlobService.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Get-ACSBlobService.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/51953647469adcc8031e9f92fbb62504cafc3aa8
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/8f41a76fd1cd5ddf800ed7d11b499f75eac8fd80
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -19,7 +19,7 @@ ms.service: azure-stack
 # Get-ACSBlobService
 
 ## SYNOPSIS
-Gets the status and settings of a Blob service.
+Gets the status and settings of a BLOB service.
 
 ## SYNTAX
 
@@ -34,7 +34,7 @@ The **Get-ACSBlobService** gets the status and settings of a Blob service.
 
 ## EXAMPLES
 
-### Example 1:
+### Example 1: Get the status and settings of a BLOB service
 
 ```
 PS C:\> $ResourceGroup = "System" 
@@ -69,7 +69,7 @@ Accept wildcard characters: False
 ```
 
 ### -FarmName
-
+Specifies the name of the server farm.
 
 ```yaml
 Type: String
@@ -123,7 +123,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-
+Specifies the name of the resource group that contains the BLOB service.
 
 ```yaml
 Type: String
@@ -153,7 +153,7 @@ Accept wildcard characters: False
 ```
 
 ### -SubscriptionId
-
+Specifies the ID of the subscription that contains the BLOB service.
 
 ```yaml
 Type: String
@@ -196,3 +196,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+
+[Get-ACSBlobServiceMetric](./Get-ACSBlobServiceMetric.md)
+
+[Get-ACSBlobServiceMetricDefinition](./Get-ACSBlobServiceMetricDefinition.md)
