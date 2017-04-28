@@ -29,12 +29,12 @@ Get-AzureBatchJobSchedule: Batch
 Get-AzureBatchNodeFile: Batch
 Get-AzureBatchNodeFileContent: Batch
 Get-AzureBatchPool: Batch
-Get-AzureBatchRemoteDesktopProtocolFile: Virtual Machines
+Get-AzureBatchRemoteDesktopProtocolFile: Batch
 Get-AzureBatchSubtask: Batch
 Get-AzureBatchTask: Batch
 Get-AzureRmBatchAccount: Batch
 Get-AzureRmBatchAccountKeys: Batch
-Get-AzureRmBatchSubscriptionQuotas: Subscriptions
+Get-AzureRmBatchSubscriptionQuotas: Batch
 New-AzureBatchCertificate: Batch
 New-AzureBatchComputeNodeUser: Batch
 New-AzureBatchJob: Batch

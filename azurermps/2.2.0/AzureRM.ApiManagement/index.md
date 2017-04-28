@@ -57,7 +57,7 @@ New-AzureRmApiManagementProduct: API Management
 New-AzureRmApiManagementProperty: API Management
 New-AzureRmApiManagementSubscription: API Management
 New-AzureRmApiManagementUser: API Management
-New-AzureRmApiManagementVirtualNetwork: Virtual Network
+New-AzureRmApiManagementVirtualNetwork: API Management
 Publish-AzureRmApiManagementTenantGitConfiguration: API Management
 Remove-AzureRmApiManagement: API Management
 Remove-AzureRmApiManagementApi: API Management
@@ -92,7 +92,7 @@ Set-AzureRmApiManagementProperty: API Management
 Set-AzureRmApiManagementSubscription: API Management
 Set-AzureRmApiManagementTenantAccess: API Management
 Set-AzureRmApiManagementUser: API Management
-Set-AzureRmApiManagementVirtualNetworks: Virtual Network
+Set-AzureRmApiManagementVirtualNetworks: API Management
 Update-AzureRmApiManagementDeployment: API Management
 Update-AzureRmApiManagementRegion: API Management
 _isModulePage: true

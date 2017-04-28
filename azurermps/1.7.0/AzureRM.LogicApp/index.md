@@ -15,43 +15,43 @@ keywords: powershell, cmdlet
 manager: erickson-doug
 open_to_public_contributors: true
 ms.service: app-service-logic
-Get-AzureRmIntegrationAccount: Integration Accounts
-Get-AzureRmIntegrationAccountAgreement: Integration Accounts
-Get-AzureRmIntegrationAccountCallbackUrl: Integration Accounts
-Get-AzureRmIntegrationAccountCertificate: Integration Accounts
-Get-AzureRmIntegrationAccountMap: Integration Accounts
-Get-AzureRmIntegrationAccountPartner: Integration Accounts
-Get-AzureRmIntegrationAccountSchema: Integration Accounts
-Get-AzureRmLogicApp: Monitoring
-Get-AzureRmLogicAppAccessKey: Monitoring
-Get-AzureRmLogicAppRunAction: Monitoring
-Get-AzureRmLogicAppRunHistory: Monitoring
-Get-AzureRmLogicAppTrigger: Monitoring
-Get-AzureRmLogicAppTriggerHistory: Monitoring
-New-AzureRmIntegrationAccount: Integration Accounts
-New-AzureRmIntegrationAccountAgreement: Integration Accounts
-New-AzureRmIntegrationAccountCertificate: Integration Accounts
-New-AzureRmIntegrationAccountMap: Integration Accounts
-New-AzureRmIntegrationAccountPartner: Integration Accounts
-New-AzureRmIntegrationAccountSchema: Integration Accounts
-New-AzureRmLogicApp: Monitoring
-Remove-AzureRmIntegrationAccount: Integration Accounts
-Remove-AzureRmIntegrationAccountAgreement: Integration Accounts
-Remove-AzureRmIntegrationAccountCertificate: Integration Accounts
-Remove-AzureRmIntegrationAccountMap: Integration Accounts
-Remove-AzureRmIntegrationAccountPartner: Integration Accounts
-Remove-AzureRmIntegrationAccountSchema: Integration Accounts
-Remove-AzureRmLogicApp: Monitoring
-Set-AzureRmIntegrationAccount: Integration Accounts
-Set-AzureRmIntegrationAccountAgreement: Integration Accounts
-Set-AzureRmIntegrationAccountCertificate: Integration Accounts
-Set-AzureRmIntegrationAccountMap: Integration Accounts
-Set-AzureRmIntegrationAccountPartner: Integration Accounts
-Set-AzureRmIntegrationAccountSchema: Integration Accounts
-Set-AzureRmLogicApp: Monitoring
-Set-AzureRmLogicAppAccessKey: Monitoring
-Start-AzureRmLogicApp: Monitoring
-Stop-AzureRmLogicAppRun: Monitoring
+Get-AzureRmIntegrationAccount: Logic Apps
+Get-AzureRmIntegrationAccountAgreement: Logic Apps
+Get-AzureRmIntegrationAccountCallbackUrl: Logic Apps
+Get-AzureRmIntegrationAccountCertificate: Logic Apps
+Get-AzureRmIntegrationAccountMap: Logic Apps
+Get-AzureRmIntegrationAccountPartner: Logic Apps
+Get-AzureRmIntegrationAccountSchema: Logic Apps
+Get-AzureRmLogicApp: Logic Apps
+Get-AzureRmLogicAppAccessKey: Logic Apps
+Get-AzureRmLogicAppRunAction: Logic Apps
+Get-AzureRmLogicAppRunHistory: Logic Apps
+Get-AzureRmLogicAppTrigger: Logic Apps
+Get-AzureRmLogicAppTriggerHistory: Logic Apps
+New-AzureRmIntegrationAccount: Logic Apps
+New-AzureRmIntegrationAccountAgreement: Logic Apps
+New-AzureRmIntegrationAccountCertificate: Logic Apps
+New-AzureRmIntegrationAccountMap: Logic Apps
+New-AzureRmIntegrationAccountPartner: Logic Apps
+New-AzureRmIntegrationAccountSchema: Logic Apps
+New-AzureRmLogicApp: Logic Apps
+Remove-AzureRmIntegrationAccount: Logic Apps
+Remove-AzureRmIntegrationAccountAgreement: Logic Apps
+Remove-AzureRmIntegrationAccountCertificate: Logic Apps
+Remove-AzureRmIntegrationAccountMap: Logic Apps
+Remove-AzureRmIntegrationAccountPartner: Logic Apps
+Remove-AzureRmIntegrationAccountSchema: Logic Apps
+Remove-AzureRmLogicApp: Logic Apps
+Set-AzureRmIntegrationAccount: Logic Apps
+Set-AzureRmIntegrationAccountAgreement: Logic Apps
+Set-AzureRmIntegrationAccountCertificate: Logic Apps
+Set-AzureRmIntegrationAccountMap: Logic Apps
+Set-AzureRmIntegrationAccountPartner: Logic Apps
+Set-AzureRmIntegrationAccountSchema: Logic Apps
+Set-AzureRmLogicApp: Logic Apps
+Set-AzureRmLogicAppAccessKey: Logic Apps
+Start-AzureRmLogicApp: Logic Apps
+Stop-AzureRmLogicAppRun: Logic Apps
 _isModulePage: true
 ---
 

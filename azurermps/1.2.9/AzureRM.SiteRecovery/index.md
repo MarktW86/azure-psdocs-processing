@@ -14,41 +14,41 @@ keywords: powershell, cmdlet
 manager: erickson-doug
 open_to_public_contributors: true
 ms.service: site-recovery
-Get-AzureRmSiteRecoveryJob: Site Recovery
-Get-AzureRmSiteRecoveryNetwork: Site Recovery
-Get-AzureRmSiteRecoveryNetworkMapping: Site Recovery
-Get-AzureRmSiteRecoveryPolicy: Site Recovery
-Get-AzureRmSiteRecoveryProtectionContainer: Site Recovery
-Get-AzureRmSiteRecoveryProtectionEntity: Site Recovery
-Get-AzureRmSiteRecoveryServer: Site Recovery
-Get-AzureRmSiteRecoverySite: Site Recovery
-Get-AzureRmSiteRecoveryVault: Site Recovery
-Get-AzureRmSiteRecoveryVaultSettings: Site Recovery
-Get-AzureRmSiteRecoveryVaultSettingsFile: Site Recovery
-Get-AzureRmSiteRecoveryVM: Site Recovery
-Import-AzureRmSiteRecoveryVaultSettingsFile: Site Recovery
-New-AzureRmSiteRecoveryNetworkMapping: Site Recovery
-New-AzureRmSiteRecoveryPolicy: Site Recovery
-New-AzureRmSiteRecoverySite: Site Recovery
-New-AzureRmSiteRecoveryVault: Site Recovery
-Remove-AzureRmSiteRecoveryNetworkMapping: Site Recovery
-Remove-AzureRmSiteRecoveryPolicy: Site Recovery
-Remove-AzureRmSiteRecoveryServer: Site Recovery
-Remove-AzureRmSiteRecoverySite: Site Recovery
-Remove-AzureRmSiteRecoveryVault: Site Recovery
-Restart-AzureRmSiteRecoveryJob: Site Recovery
-Resume-AzureRmSiteRecoveryJob: Site Recovery
-Set-AzureRmSiteRecoveryProtectionEntity: Site Recovery
-Set-AzureRmSiteRecoveryVaultSettings: Site Recovery
-Set-AzureRmSiteRecoveryVM: Site Recovery
-Start-AzureRmSiteRecoveryCommitFailoverJob: Site Recovery
-Start-AzureRmSiteRecoveryPlannedFailoverJob: Site Recovery
-Start-AzureRmSiteRecoveryPolicyAssociationJob: Site Recovery
-Start-AzureRmSiteRecoveryPolicyDissociationJob: Site Recovery
-Start-AzureRmSiteRecoveryTestFailoverJob: Site Recovery
-Start-AzureRmSiteRecoveryUnplannedFailoverJob: Site Recovery
-Stop-AzureRmSiteRecoveryJob: Site Recovery
-Update-AzureRmSiteRecoveryProtectionDirection: Site Recovery
+Get-AzureRmSiteRecoveryJob: Recovery
+Get-AzureRmSiteRecoveryNetwork: Recovery
+Get-AzureRmSiteRecoveryNetworkMapping: Recovery
+Get-AzureRmSiteRecoveryPolicy: Recovery
+Get-AzureRmSiteRecoveryProtectionContainer: Recovery
+Get-AzureRmSiteRecoveryProtectionEntity: Recovery
+Get-AzureRmSiteRecoveryServer: Recovery
+Get-AzureRmSiteRecoverySite: Recovery
+Get-AzureRmSiteRecoveryVault: Recovery
+Get-AzureRmSiteRecoveryVaultSettings: Recovery
+Get-AzureRmSiteRecoveryVaultSettingsFile: Recovery
+Get-AzureRmSiteRecoveryVM: Recovery
+Import-AzureRmSiteRecoveryVaultSettingsFile: Recovery
+New-AzureRmSiteRecoveryNetworkMapping: Recovery
+New-AzureRmSiteRecoveryPolicy: Recovery
+New-AzureRmSiteRecoverySite: Recovery
+New-AzureRmSiteRecoveryVault: Recovery
+Remove-AzureRmSiteRecoveryNetworkMapping: Recovery
+Remove-AzureRmSiteRecoveryPolicy: Recovery
+Remove-AzureRmSiteRecoveryServer: Recovery
+Remove-AzureRmSiteRecoverySite: Recovery
+Remove-AzureRmSiteRecoveryVault: Recovery
+Restart-AzureRmSiteRecoveryJob: Recovery
+Resume-AzureRmSiteRecoveryJob: Recovery
+Set-AzureRmSiteRecoveryProtectionEntity: Recovery
+Set-AzureRmSiteRecoveryVaultSettings: Recovery
+Set-AzureRmSiteRecoveryVM: Recovery
+Start-AzureRmSiteRecoveryCommitFailoverJob: Recovery
+Start-AzureRmSiteRecoveryPlannedFailoverJob: Recovery
+Start-AzureRmSiteRecoveryPolicyAssociationJob: Recovery
+Start-AzureRmSiteRecoveryPolicyDissociationJob: Recovery
+Start-AzureRmSiteRecoveryTestFailoverJob: Recovery
+Start-AzureRmSiteRecoveryUnplannedFailoverJob: Recovery
+Stop-AzureRmSiteRecoveryJob: Recovery
+Update-AzureRmSiteRecoveryProtectionDirection: Recovery
 _isModulePage: true
 ---
 
