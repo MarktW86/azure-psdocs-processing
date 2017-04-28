@@ -5,8 +5,8 @@ schema: 2.0.0
 content_git_url: https://github.com/Azure/azure-powershell/blob/v3.8.0-April2017/src/ResourceManager/Sql/Commands.Sql/help/Add-AzureRmSqlDatabaseToFailoverGroup.md
 original_content_git_url: https://github.com/Azure/azure-powershell/blob/v3.8.0-April2017/src/ResourceManager/Sql/Commands.Sql/help/Add-AzureRmSqlDatabaseToFailoverGroup.md
 gitcommit: https://github.com/Azure/azure-powershell/blob/1844a179dcdc378afe538856e5f5140acffa4760
-updated_at: 04/26/2017 16:04 PM
-ms.date: 04/26/2017
+updated_at: 04/28/2017 07:04 AM
+ms.date: 04/28/2017
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -40,12 +40,12 @@ PS C:\> Add-AzureRmSqlDatabaseToFailoverGroup -FailoverGroupName myFg-ResourceGr
 ```
 
 ### Example 2
-
-Using Pipe Line to pipe in the database objects 
 ```
+Using Pipe Line to pipe in the database objects 
+
 PS C:\> Get-AzureRmSqlDatabase -ServerName testsvr -ResourceGroupName rg2 | Add-AzureRmSqlDatabaseToFailoverGroup -FailoverGroupName myFg-ResourceGroupName myRg -ServerName mysvr
 
-```
+
 
 ## PARAMETERS
 
@@ -63,8 +63,7 @@ Accept wildcard characters: False
 ```
 
 ### -FailoverGroupName
-The name of the Azure SQL Failover Group.
-```yaml
+The name of the Azure SQL Failover Group.```yaml
 Type: String
 Parameter Sets: (All)
 Aliases: 
@@ -77,8 +76,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-The name of the resource group.
-```yaml
+The name of the resource group.```yaml
 Type: String
 Parameter Sets: (All)
 Aliases: 
@@ -91,8 +89,7 @@ Accept wildcard characters: False
 ```
 
 ### -ServerName
-The name of the Azure SQL Server the Failover Group is in.
-```yaml
+The name of the Azure SQL Server the Failover Group is in.```yaml
 Type: String
 Parameter Sets: (All)
 Aliases: 
@@ -105,8 +102,7 @@ Accept wildcard characters: False
 ```
 
 ### -Tags
-The tags to associate with the Azure Sql Elastic Pool
-```yaml
+The tags to associate with the Azure Sql Elastic Pool```yaml
 Type: Hashtable
 Parameter Sets: (All)
 Aliases: Tag
