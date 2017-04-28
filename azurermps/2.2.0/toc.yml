@@ -2289,10 +2289,8 @@
         - name: Suspend-AzureRmSqlDatabase
           href: AzureRM.Sql/Suspend-AzureRmSqlDatabase.md
     - name: Storage
-      href: 'AzureRM.Compute/index.md#storage'
+      href: 'AzureRM.Storage/index.md#storage'
       items:
-        - name: Set-AzureRmVmssStorageProfile
-          href: AzureRM.Compute/Set-AzureRmVmssStorageProfile.md
         - name: Get-AzureRmStorageAccount
           href: AzureRM.Storage/Get-AzureRmStorageAccount.md
         - name: Get-AzureRmStorageAccountKey
@@ -2787,6 +2785,8 @@
           href: AzureRM.Compute/Set-AzureRmVmss.md
         - name: Set-AzureRmVmssOsProfile
           href: AzureRM.Compute/Set-AzureRmVmssOsProfile.md
+        - name: Set-AzureRmVmssStorageProfile
+          href: AzureRM.Compute/Set-AzureRmVmssStorageProfile.md
         - name: Start-AzureRmVmss
           href: AzureRM.Compute/Start-AzureRmVmss.md
         - name: Stop-AzureRmVmss

@@ -1556,8 +1556,6 @@
           href: AzureRM.Storage/Set-AzureRmCurrentStorageAccount.md
         - name: Set-AzureRmStorageAccount
           href: AzureRM.Storage/Set-AzureRmStorageAccount.md
-        - name: Set-AzureRmVmssStorageProfile
-          href: AzureRM.Compute/Set-AzureRmVmssStorageProfile.md
         - name: Get-AzureStorageBlob
           href: Azure.Storage/Get-AzureStorageBlob.md
         - name: Get-AzureStorageBlobContent
@@ -1988,6 +1986,8 @@
           href: AzureRM.Compute/Set-AzureRmVmss.md
         - name: Set-AzureRmVmssOsProfile
           href: AzureRM.Compute/Set-AzureRmVmssOsProfile.md
+        - name: Set-AzureRmVmssStorageProfile
+          href: AzureRM.Compute/Set-AzureRmVmssStorageProfile.md
         - name: Start-AzureRmVmss
           href: AzureRM.Compute/Start-AzureRmVmss.md
         - name: Stop-AzureRmVmss

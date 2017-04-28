@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.Resources.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 04/27/2017 22:04 PM
+updated_at: 04/27/2017 23:04 PM
 ms.date: 04/27/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.1.0/Remove-AzureRmADServicePrincipal.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.1.0/Remove-AzureRmADServicePrincipal.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/a5140f27ab8f99c2992dc2ba0c9a1cd31941b109
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7cf59de36d0250df33b8c93304c5e85ff71a92a6
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -167,6 +167,4 @@ Keywords: azure, azurerm, arm, resource, management, manager, resource, group, t
 [Remove-AzureRmADApplication]()
 
 [Remove-AzureRmADAppCredential]()
-
-[]()
 

@@ -112,7 +112,7 @@ Set-AzureRmVMSourceImage: VM Images
 Set-AzureRMVMSqlServerExtension: SQL
 Set-AzureRmVmss: VM Scale Sets
 Set-AzureRmVmssOsProfile: VM Scale Sets
-Set-AzureRmVmssStorageProfile: Storage
+Set-AzureRmVmssStorageProfile: VM Scale Sets
 Set-AzureRmVmssVM: Virtual Machines
 Start-AzureRmVM: Virtual Machines
 Start-AzureRmVmss: VM Scale Sets
