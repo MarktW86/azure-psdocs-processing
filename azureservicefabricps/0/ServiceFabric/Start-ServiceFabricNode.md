@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 368529F1-EA7E-407B-93A7-352ED6D2048C
 online version:
 schema: 2.0.0
-updated_at: 03/13/2017 21:03 PM
-ms.date: 03/13/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricNode.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricNode.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/16a82fb62f024a7a246aebb83519e457a923b5e1
+updated_at: 04/06/2017 14:04 PM
+ms.date: 04/06/2017
+content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/V5.6_Updates/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricNode.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/V5.6_Updates/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricNode.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/8cc7df560eb5276f5793b86a2b9d29aa7dfc34dd
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -33,6 +33,8 @@ Start-ServiceFabricNode [-NodeName] <String> [[-NodeInstanceId] <BigInteger>] [[
 ## DESCRIPTION
 **OBSOLETE**. The **Start-ServiceFabricNode** cmdlet starts a node in a Service Fabric cluster.
 
+## EXAMPLES
+
 ## PARAMETERS
 
 ### -ClusterConnectionPort
@@ -41,7 +43,7 @@ Specifies the cluster connection port for the node to start.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: 4
@@ -56,7 +58,7 @@ Specifies whether the action waits for the restart to complete.
 ```yaml
 Type: CompletionMode
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -71,7 +73,7 @@ Specifies the IP address or fully qualified domain name (FQDN) for the node to s
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: 3
@@ -86,7 +88,7 @@ Specifies a node instance ID.
 ```yaml
 Type: BigInteger
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: 2
@@ -101,7 +103,7 @@ Specifies the name of a Service Fabric node to start.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
 Position: 1
@@ -116,7 +118,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named

@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 298F2C12-F1BE-4341-B5A0-4C45CF45EB52
 online version:
 schema: 2.0.0
-updated_at: 04/13/2017 18:04 PM
-ms.date: 04/13/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Unregister-ServiceFabricClusterPackage.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Unregister-ServiceFabricClusterPackage.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/e4666c66ecad8bb641483d243bfac15b26f72282
+updated_at: 04/28/2017 17:04 PM
+ms.date: 04/28/2017
+content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/V5.6_Updates/Service-Fabric-cmdlets/ServiceFabric/vlatest/Unregister-ServiceFabricClusterPackage.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/V5.6_Updates/Service-Fabric-cmdlets/ServiceFabric/vlatest/Unregister-ServiceFabricClusterPackage.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/0bb6363c16973306c98ebe34d1884cb8bef9db63
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -30,16 +30,16 @@ Unregister-ServiceFabricClusterPackage -CodePackageVersion <String> -ClusterMani
  [-TimeoutSec <Int32>] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
-### Code only
+### Code
 ```
-Unregister-ServiceFabricClusterPackage [-Code] -CodePackageVersion <String>
+Unregister-ServiceFabricClusterPackage [-Code] -CodePackageVersion <String> [-ClusterManifestVersion <String>]
  [-Force] [-TimeoutSec <Int32>] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ### Config
 ```
-Unregister-ServiceFabricClusterPackage [-Config] -ClusterManifestVersion <String> 
-[-Force] [-TimeoutSec <Int32>] [-WhatIf] [-Confirm] [<CommonParameters>]
+Unregister-ServiceFabricClusterPackage [-Config] [-CodePackageVersion <String>]
+ -ClusterManifestVersion <String> [-Force] [-TimeoutSec <Int32>] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ## DESCRIPTION

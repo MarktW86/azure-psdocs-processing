@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 4BC03E59-F564-4678-A6DE-83974795422C
 online version:
 schema: 2.0.0
-updated_at: 03/13/2017 21:03 PM
-ms.date: 03/13/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Stop-ServiceFabricNode.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Stop-ServiceFabricNode.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/16a82fb62f024a7a246aebb83519e457a923b5e1
+updated_at: 04/06/2017 14:04 PM
+ms.date: 04/06/2017
+content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/V5.6_Updates/Service-Fabric-cmdlets/ServiceFabric/vlatest/Stop-ServiceFabricNode.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/V5.6_Updates/Service-Fabric-cmdlets/ServiceFabric/vlatest/Stop-ServiceFabricNode.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/8cc7df560eb5276f5793b86a2b9d29aa7dfc34dd
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -32,6 +32,8 @@ Stop-ServiceFabricNode [-NodeName] <String> [[-NodeInstanceId] <BigInteger>]
 ## DESCRIPTION
 **OBSOLETE**. The **Stop-ServiceFabricNode** cmdlet stops a node in a Service Fabric cluster.
 
+## EXAMPLES
+
 ## PARAMETERS
 
 ### -CommandCompletionMode
@@ -40,7 +42,7 @@ Specifies whether the action waits for the restart to complete.
 ```yaml
 Type: CompletionMode
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -55,7 +57,7 @@ Specifies a node instance ID.
 ```yaml
 Type: BigInteger
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: 2
@@ -70,7 +72,7 @@ Specifies the name of a Service Fabric node to stop.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
 Position: 1
@@ -85,7 +87,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named

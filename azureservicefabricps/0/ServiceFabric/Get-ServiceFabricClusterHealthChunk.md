@@ -5,8 +5,8 @@ online version:
 schema: 2.0.0
 updated_at: 04/27/2017 02:04 AM
 ms.date: 04/27/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricClusterHealthChunk.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricClusterHealthChunk.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/V5.6_Updates/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricClusterHealthChunk.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/V5.6_Updates/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricClusterHealthChunk.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/df0999df1d4841a9b73be457339bfafe2f964b24
 ms.topic: reference
 author: oanapl

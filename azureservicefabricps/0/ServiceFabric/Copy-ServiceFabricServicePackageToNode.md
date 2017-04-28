@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 156B7382-5026-423F-8570-969F11C4BD5F
 online version:
 schema: 2.0.0
-updated_at: 04/25/2017 17:04 PM
-ms.date: 04/25/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Copy-ServiceFabricServicePackageToNode.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Copy-ServiceFabricServicePackageToNode.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/b0568e8767cc2ab26c178302266bc3776ad571e3
+updated_at: 04/28/2017 17:04 PM
+ms.date: 04/28/2017
+content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/V5.6_Updates/Service-Fabric-cmdlets/ServiceFabric/vlatest/Copy-ServiceFabricServicePackageToNode.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/V5.6_Updates/Service-Fabric-cmdlets/ServiceFabric/vlatest/Copy-ServiceFabricServicePackageToNode.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/0bb6363c16973306c98ebe34d1884cb8bef9db63
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -156,13 +156,11 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## INPUTS
 
 ### None
-
 You cannot pipe input to this cmdlet.
 
 ## OUTPUTS
 
 ### System.Object
-
 This cmdlet returns a message that includes the status of the operation.
 
 ## NOTES

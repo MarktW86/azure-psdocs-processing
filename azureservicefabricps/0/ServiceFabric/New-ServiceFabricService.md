@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 3C647305-B5A8-4CB7-8655-CC7695736CE0
 online version:
 schema: 2.0.0
-updated_at: 04/13/2017 18:04 PM
-ms.date: 04/13/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/New-ServiceFabricService.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/New-ServiceFabricService.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/e4666c66ecad8bb641483d243bfac15b26f72282
+updated_at: 04/28/2017 17:04 PM
+ms.date: 04/28/2017
+content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/V5.6_Updates/Service-Fabric-cmdlets/ServiceFabric/vlatest/New-ServiceFabricService.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/V5.6_Updates/Service-Fabric-cmdlets/ServiceFabric/vlatest/New-ServiceFabricService.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/4837102948363e7eb7cd3f5ccda1f176ed954ec6
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -28,18 +28,18 @@ Creates a Service Fabric service.
 ```
 New-ServiceFabricService [-Stateless] [-PartitionSchemeSingleton] [-ApplicationName] <Uri> [-ServiceName] <Uri>
  [-ServiceTypeName] <String> -InstanceCount <Int32> [-PlacementConstraint <String>] [-Metric <String[]>]
- [-Correlation <String[]>] [-PlacementPolicy <String[]>] [-DefaultMoveCost <String>] [-TimeoutSec <Int32>]
- [<CommonParameters>]
+ [-Correlation <String[]>] [-PlacementPolicy <String[]>] [-DefaultMoveCost <String>]
+ [-ServicePackageActivationMode <ServicePackageActivationMode>] [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
-### Stateful UniformInt64 Adhoc
+### Stateful Singleton Non-Adhoc
 ```
-New-ServiceFabricService [-Stateful] [-PartitionSchemeUniformInt64] [-Adhoc] [-ServiceName] <Uri>
- [-ServiceTypeName] <String> -PartitionCount <Int32> -LowKey <Int64> -HighKey <Int64> [-HasPersistedState]
- -TargetReplicaSetSize <Int32> -MinReplicaSetSize <Int32> [-ReplicaRestartWaitDuration <TimeSpan>]
- [-QuorumLossWaitDuration <TimeSpan>] [-StandByReplicaKeepDuration <TimeSpan>] [-PlacementConstraint <String>]
- [-Metric <String[]>] [-Correlation <String[]>] [-PlacementPolicy <String[]>] [-DefaultMoveCost <String>]
- [-TimeoutSec <Int32>] [<CommonParameters>]
+New-ServiceFabricService [-Stateful] [-PartitionSchemeSingleton] [-ApplicationName] <Uri> [-ServiceName] <Uri>
+ [-ServiceTypeName] <String> [-HasPersistedState] -TargetReplicaSetSize <Int32> -MinReplicaSetSize <Int32>
+ [-ReplicaRestartWaitDuration <TimeSpan>] [-QuorumLossWaitDuration <TimeSpan>]
+ [-StandByReplicaKeepDuration <TimeSpan>] [-PlacementConstraint <String>] [-Metric <String[]>]
+ [-Correlation <String[]>] [-PlacementPolicy <String[]>] [-DefaultMoveCost <String>]
+ [-ServicePackageActivationMode <ServicePackageActivationMode>] [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
 ### Stateful UniformInt64 Non-Adhoc
@@ -49,8 +49,8 @@ New-ServiceFabricService [-Stateful] [-PartitionSchemeUniformInt64] [-Applicatio
  [-HasPersistedState] -TargetReplicaSetSize <Int32> -MinReplicaSetSize <Int32>
  [-ReplicaRestartWaitDuration <TimeSpan>] [-QuorumLossWaitDuration <TimeSpan>]
  [-StandByReplicaKeepDuration <TimeSpan>] [-PlacementConstraint <String>] [-Metric <String[]>]
- [-Correlation <String[]>] [-PlacementPolicy <String[]>] [-DefaultMoveCost <String>] [-TimeoutSec <Int32>]
- [<CommonParameters>]
+ [-Correlation <String[]>] [-PlacementPolicy <String[]>] [-DefaultMoveCost <String>]
+ [-ServicePackageActivationMode <ServicePackageActivationMode>] [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
 ### Stateful Named Non-Adhoc
@@ -59,8 +59,8 @@ New-ServiceFabricService [-Stateful] [-PartitionSchemeNamed] [-ApplicationName] 
  [-ServiceTypeName] <String> -PartitionNames <String[]> [-HasPersistedState] -TargetReplicaSetSize <Int32>
  -MinReplicaSetSize <Int32> [-ReplicaRestartWaitDuration <TimeSpan>] [-QuorumLossWaitDuration <TimeSpan>]
  [-StandByReplicaKeepDuration <TimeSpan>] [-PlacementConstraint <String>] [-Metric <String[]>]
- [-Correlation <String[]>] [-PlacementPolicy <String[]>] [-DefaultMoveCost <String>] [-TimeoutSec <Int32>]
- [<CommonParameters>]
+ [-Correlation <String[]>] [-PlacementPolicy <String[]>] [-DefaultMoveCost <String>]
+ [-ServicePackageActivationMode <ServicePackageActivationMode>] [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
 ### Stateful Singleton Adhoc
@@ -69,18 +69,18 @@ New-ServiceFabricService [-Stateful] [-PartitionSchemeSingleton] [-Adhoc] [-Serv
  [-ServiceTypeName] <String> [-HasPersistedState] -TargetReplicaSetSize <Int32> -MinReplicaSetSize <Int32>
  [-ReplicaRestartWaitDuration <TimeSpan>] [-QuorumLossWaitDuration <TimeSpan>]
  [-StandByReplicaKeepDuration <TimeSpan>] [-PlacementConstraint <String>] [-Metric <String[]>]
- [-Correlation <String[]>] [-PlacementPolicy <String[]>] [-DefaultMoveCost <String>] [-TimeoutSec <Int32>]
- [<CommonParameters>]
+ [-Correlation <String[]>] [-PlacementPolicy <String[]>] [-DefaultMoveCost <String>]
+ [-ServicePackageActivationMode <ServicePackageActivationMode>] [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
-### Stateful Singleton Non-Adhoc
+### Stateful UniformInt64 Adhoc
 ```
-New-ServiceFabricService [-Stateful] [-PartitionSchemeSingleton] [-ApplicationName] <Uri> [-ServiceName] <Uri>
- [-ServiceTypeName] <String> [-HasPersistedState] -TargetReplicaSetSize <Int32> -MinReplicaSetSize <Int32>
- [-ReplicaRestartWaitDuration <TimeSpan>] [-QuorumLossWaitDuration <TimeSpan>]
- [-StandByReplicaKeepDuration <TimeSpan>] [-PlacementConstraint <String>] [-Metric <String[]>]
- [-Correlation <String[]>] [-PlacementPolicy <String[]>] [-DefaultMoveCost <String>] [-TimeoutSec <Int32>]
- [<CommonParameters>]
+New-ServiceFabricService [-Stateful] [-PartitionSchemeUniformInt64] [-Adhoc] [-ServiceName] <Uri>
+ [-ServiceTypeName] <String> -PartitionCount <Int32> -LowKey <Int64> -HighKey <Int64> [-HasPersistedState]
+ -TargetReplicaSetSize <Int32> -MinReplicaSetSize <Int32> [-ReplicaRestartWaitDuration <TimeSpan>]
+ [-QuorumLossWaitDuration <TimeSpan>] [-StandByReplicaKeepDuration <TimeSpan>] [-PlacementConstraint <String>]
+ [-Metric <String[]>] [-Correlation <String[]>] [-PlacementPolicy <String[]>] [-DefaultMoveCost <String>]
+ [-ServicePackageActivationMode <ServicePackageActivationMode>] [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
 ### Stateful Named Adhoc
@@ -89,24 +89,8 @@ New-ServiceFabricService [-Stateful] [-PartitionSchemeNamed] [-Adhoc] [-ServiceN
  [-ServiceTypeName] <String> -PartitionNames <String[]> [-HasPersistedState] -TargetReplicaSetSize <Int32>
  -MinReplicaSetSize <Int32> [-ReplicaRestartWaitDuration <TimeSpan>] [-QuorumLossWaitDuration <TimeSpan>]
  [-StandByReplicaKeepDuration <TimeSpan>] [-PlacementConstraint <String>] [-Metric <String[]>]
- [-Correlation <String[]>] [-PlacementPolicy <String[]>] [-DefaultMoveCost <String>] [-TimeoutSec <Int32>]
- [<CommonParameters>]
-```
-
-### Stateless Singleton Adhoc
-```
-New-ServiceFabricService [-Stateless] [-PartitionSchemeSingleton] [-Adhoc] [-ServiceName] <Uri>
- [-ServiceTypeName] <String> -InstanceCount <Int32> [-PlacementConstraint <String>] [-Metric <String[]>]
- [-Correlation <String[]>] [-PlacementPolicy <String[]>] [-DefaultMoveCost <String>] [-TimeoutSec <Int32>]
- [<CommonParameters>]
-```
-
-### Stateless Named Adhoc
-```
-New-ServiceFabricService [-Stateless] [-PartitionSchemeNamed] [-Adhoc] [-ServiceName] <Uri>
- [-ServiceTypeName] <String> -PartitionNames <String[]> -InstanceCount <Int32> [-PlacementConstraint <String>]
- [-Metric <String[]>] [-Correlation <String[]>] [-PlacementPolicy <String[]>] [-DefaultMoveCost <String>]
- [-TimeoutSec <Int32>] [<CommonParameters>]
+ [-Correlation <String[]>] [-PlacementPolicy <String[]>] [-DefaultMoveCost <String>]
+ [-ServicePackageActivationMode <ServicePackageActivationMode>] [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
 ### Stateless UniformInt64 Non-Adhoc
@@ -114,7 +98,8 @@ New-ServiceFabricService [-Stateless] [-PartitionSchemeNamed] [-Adhoc] [-Service
 New-ServiceFabricService [-Stateless] [-PartitionSchemeUniformInt64] [-ApplicationName] <Uri>
  [-ServiceName] <Uri> [-ServiceTypeName] <String> -PartitionCount <Int32> -LowKey <Int64> -HighKey <Int64>
  -InstanceCount <Int32> [-PlacementConstraint <String>] [-Metric <String[]>] [-Correlation <String[]>]
- [-PlacementPolicy <String[]>] [-DefaultMoveCost <String>] [-TimeoutSec <Int32>] [<CommonParameters>]
+ [-PlacementPolicy <String[]>] [-DefaultMoveCost <String>]
+ [-ServicePackageActivationMode <ServicePackageActivationMode>] [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
 ### Stateless Named Non-Adhoc
@@ -122,7 +107,15 @@ New-ServiceFabricService [-Stateless] [-PartitionSchemeUniformInt64] [-Applicati
 New-ServiceFabricService [-Stateless] [-PartitionSchemeNamed] [-ApplicationName] <Uri> [-ServiceName] <Uri>
  [-ServiceTypeName] <String> -PartitionNames <String[]> -InstanceCount <Int32> [-PlacementConstraint <String>]
  [-Metric <String[]>] [-Correlation <String[]>] [-PlacementPolicy <String[]>] [-DefaultMoveCost <String>]
- [-TimeoutSec <Int32>] [<CommonParameters>]
+ [-ServicePackageActivationMode <ServicePackageActivationMode>] [-TimeoutSec <Int32>] [<CommonParameters>]
+```
+
+### Stateless Singleton Adhoc
+```
+New-ServiceFabricService [-Stateless] [-PartitionSchemeSingleton] [-Adhoc] [-ServiceName] <Uri>
+ [-ServiceTypeName] <String> -InstanceCount <Int32> [-PlacementConstraint <String>] [-Metric <String[]>]
+ [-Correlation <String[]>] [-PlacementPolicy <String[]>] [-DefaultMoveCost <String>]
+ [-ServicePackageActivationMode <ServicePackageActivationMode>] [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
 ### Stateless UniformInt64 Adhoc
@@ -130,7 +123,16 @@ New-ServiceFabricService [-Stateless] [-PartitionSchemeNamed] [-ApplicationName]
 New-ServiceFabricService [-Stateless] [-PartitionSchemeUniformInt64] [-Adhoc] [-ServiceName] <Uri>
  [-ServiceTypeName] <String> -PartitionCount <Int32> -LowKey <Int64> -HighKey <Int64> -InstanceCount <Int32>
  [-PlacementConstraint <String>] [-Metric <String[]>] [-Correlation <String[]>] [-PlacementPolicy <String[]>]
- [-DefaultMoveCost <String>] [-TimeoutSec <Int32>] [<CommonParameters>]
+ [-DefaultMoveCost <String>] [-ServicePackageActivationMode <ServicePackageActivationMode>]
+ [-TimeoutSec <Int32>] [<CommonParameters>]
+```
+
+### Stateless Named Adhoc
+```
+New-ServiceFabricService [-Stateless] [-PartitionSchemeNamed] [-Adhoc] [-ServiceName] <Uri>
+ [-ServiceTypeName] <String> -PartitionNames <String[]> -InstanceCount <Int32> [-PlacementConstraint <String>]
+ [-Metric <String[]>] [-Correlation <String[]>] [-PlacementPolicy <String[]>] [-DefaultMoveCost <String>]
+ [-ServicePackageActivationMode <ServicePackageActivationMode>] [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -195,7 +197,7 @@ Note: This is only for legacy support.
 
 ```yaml
 Type: SwitchParameter
-Parameter Sets: Stateful UniformInt64 Adhoc, Stateful Singleton Adhoc, Stateful Named Adhoc, Stateless Singleton Adhoc, Stateless Named Adhoc, Stateless UniformInt64 Adhoc
+Parameter Sets: Stateful Singleton Adhoc, Stateful UniformInt64 Adhoc, Stateful Named Adhoc, Stateless Singleton Adhoc, Stateless UniformInt64 Adhoc, Stateless Named Adhoc
 Aliases: 
 
 Required: True
@@ -212,7 +214,7 @@ The cmdlet creates a service based on this application.
 
 ```yaml
 Type: Uri
-Parameter Sets: Stateless Singleton Non-Adhoc, Stateful UniformInt64 Non-Adhoc, Stateful Named Non-Adhoc, Stateful Singleton Non-Adhoc, Stateless UniformInt64 Non-Adhoc, Stateless Named Non-Adhoc
+Parameter Sets: Stateless Singleton Non-Adhoc, Stateful Singleton Non-Adhoc, Stateful UniformInt64 Non-Adhoc, Stateful Named Non-Adhoc, Stateless UniformInt64 Non-Adhoc, Stateless Named Non-Adhoc
 Aliases: 
 
 Required: True
@@ -269,7 +271,7 @@ When a FabricReplicator at a secondary replica receives an operation for a persi
 
 ```yaml
 Type: SwitchParameter
-Parameter Sets: Stateful UniformInt64 Adhoc, Stateful UniformInt64 Non-Adhoc, Stateful Named Non-Adhoc, Stateful Singleton Adhoc, Stateful Singleton Non-Adhoc, Stateful Named Adhoc
+Parameter Sets: Stateful Singleton Non-Adhoc, Stateful UniformInt64 Non-Adhoc, Stateful Named Non-Adhoc, Stateful Singleton Adhoc, Stateful UniformInt64 Adhoc, Stateful Named Adhoc
 Aliases: 
 
 Required: False
@@ -284,7 +286,7 @@ Specifies the high key range of the partition set.
 
 ```yaml
 Type: Int64
-Parameter Sets: Stateful UniformInt64 Adhoc, Stateful UniformInt64 Non-Adhoc, Stateless UniformInt64 Non-Adhoc, Stateless UniformInt64 Adhoc
+Parameter Sets: Stateful UniformInt64 Non-Adhoc, Stateful UniformInt64 Adhoc, Stateless UniformInt64 Non-Adhoc, Stateless UniformInt64 Adhoc
 Aliases: 
 
 Required: True
@@ -300,7 +302,7 @@ Setting InstanceCount to -1 implies deploying instances to all the nodes within 
 
 ```yaml
 Type: Int32
-Parameter Sets: Stateless Singleton Non-Adhoc, Stateless Singleton Adhoc, Stateless Named Adhoc, Stateless UniformInt64 Non-Adhoc, Stateless Named Non-Adhoc, Stateless UniformInt64 Adhoc
+Parameter Sets: Stateless Singleton Non-Adhoc, Stateless UniformInt64 Non-Adhoc, Stateless Named Non-Adhoc, Stateless Singleton Adhoc, Stateless UniformInt64 Adhoc, Stateless Named Adhoc
 Aliases: 
 
 Required: True
@@ -315,7 +317,7 @@ Specifies the low key range of the partition set.
 
 ```yaml
 Type: Int64
-Parameter Sets: Stateful UniformInt64 Adhoc, Stateful UniformInt64 Non-Adhoc, Stateless UniformInt64 Non-Adhoc, Stateless UniformInt64 Adhoc
+Parameter Sets: Stateful UniformInt64 Non-Adhoc, Stateful UniformInt64 Adhoc, Stateless UniformInt64 Non-Adhoc, Stateless UniformInt64 Adhoc
 Aliases: 
 
 Required: True
@@ -347,7 +349,7 @@ Specifies the minimum replica set size that Service Fabric will keep in its view
 
 ```yaml
 Type: Int32
-Parameter Sets: Stateful UniformInt64 Adhoc, Stateful UniformInt64 Non-Adhoc, Stateful Named Non-Adhoc, Stateful Singleton Adhoc, Stateful Singleton Non-Adhoc, Stateful Named Adhoc
+Parameter Sets: Stateful Singleton Non-Adhoc, Stateful UniformInt64 Non-Adhoc, Stateful Named Non-Adhoc, Stateful Singleton Adhoc, Stateful UniformInt64 Adhoc, Stateful Named Adhoc
 Aliases: 
 
 Required: True
@@ -362,7 +364,7 @@ Specifies the number of partitions for the Service Fabric service.
 
 ```yaml
 Type: Int32
-Parameter Sets: Stateful UniformInt64 Adhoc, Stateful UniformInt64 Non-Adhoc, Stateless UniformInt64 Non-Adhoc, Stateless UniformInt64 Adhoc
+Parameter Sets: Stateful UniformInt64 Non-Adhoc, Stateful UniformInt64 Adhoc, Stateless UniformInt64 Non-Adhoc, Stateless UniformInt64 Adhoc
 Aliases: 
 
 Required: True
@@ -377,7 +379,7 @@ Specifies an array of names of partitions.
 
 ```yaml
 Type: String[]
-Parameter Sets: Stateful Named Non-Adhoc, Stateful Named Adhoc, Stateless Named Adhoc, Stateless Named Non-Adhoc
+Parameter Sets: Stateful Named Non-Adhoc, Stateful Named Adhoc, Stateless Named Non-Adhoc, Stateless Named Adhoc
 Aliases: 
 
 Required: True
@@ -393,7 +395,7 @@ Services using this model usually have data that can be bucketed, within a bound
 
 ```yaml
 Type: SwitchParameter
-Parameter Sets: Stateful Named Non-Adhoc, Stateful Named Adhoc, Stateless Named Adhoc, Stateless Named Non-Adhoc
+Parameter Sets: Stateful Named Non-Adhoc, Stateful Named Adhoc, Stateless Named Non-Adhoc, Stateless Named Adhoc
 Aliases: 
 
 Required: True
@@ -409,7 +411,7 @@ Singleton partitions are typically used when the service does not require any ad
 
 ```yaml
 Type: SwitchParameter
-Parameter Sets: Stateless Singleton Non-Adhoc, Stateful Singleton Adhoc, Stateful Singleton Non-Adhoc, Stateless Singleton Adhoc
+Parameter Sets: Stateless Singleton Non-Adhoc, Stateful Singleton Non-Adhoc, Stateful Singleton Adhoc, Stateless Singleton Adhoc
 Aliases: 
 
 Required: True
@@ -424,7 +426,7 @@ Indicates that the service uses the UniformInt64 partition scheme. This means th
 
 ```yaml
 Type: SwitchParameter
-Parameter Sets: Stateful UniformInt64 Adhoc, Stateful UniformInt64 Non-Adhoc, Stateless UniformInt64 Non-Adhoc, Stateless UniformInt64 Adhoc
+Parameter Sets: Stateful UniformInt64 Non-Adhoc, Stateful UniformInt64 Adhoc, Stateless UniformInt64 Non-Adhoc, Stateless UniformInt64 Adhoc
 Aliases: 
 
 Required: True
@@ -473,7 +475,7 @@ For more information, type `Get-Help New-TimeSpan`.
 
 ```yaml
 Type: TimeSpan
-Parameter Sets: Stateful UniformInt64 Adhoc, Stateful UniformInt64 Non-Adhoc, Stateful Named Non-Adhoc, Stateful Singleton Adhoc, Stateful Singleton Non-Adhoc, Stateful Named Adhoc
+Parameter Sets: Stateful Singleton Non-Adhoc, Stateful UniformInt64 Non-Adhoc, Stateful Named Non-Adhoc, Stateful Singleton Adhoc, Stateful UniformInt64 Adhoc, Stateful Named Adhoc
 Aliases: 
 
 Required: False
@@ -489,7 +491,7 @@ To obtain a **TimeSpan** object, use the [New-TimeSpan](http://go.microsoft.com/
 
 ```yaml
 Type: TimeSpan
-Parameter Sets: Stateful UniformInt64 Adhoc, Stateful UniformInt64 Non-Adhoc, Stateful Named Non-Adhoc, Stateful Singleton Adhoc, Stateful Singleton Non-Adhoc, Stateful Named Adhoc
+Parameter Sets: Stateful Singleton Non-Adhoc, Stateful UniformInt64 Non-Adhoc, Stateful Named Non-Adhoc, Stateful Singleton Adhoc, Stateful UniformInt64 Adhoc, Stateful Named Adhoc
 Aliases: 
 
 Required: False
@@ -509,6 +511,23 @@ Aliases:
 
 Required: True
 Position: 4
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -ServicePackageActivationMode
+Controls the [hosting model][1] to be used for the service. Valid values are **SharedProcess** and **ExclusiveProcess**. The default is **SharedProcess**. 
+
+With **SharedProcess** activation mode, replicas (or instances) of different services of a given *ServiceType* will share same *ServiceHost*. With **ExclusiveProcess** activation mode, each replica or instance of a service will have its own dedicated *ServiceHost*. For more details, please see [Service Fabric Hosting Model][1].
+
+```yaml
+Type: ServicePackageActivationMode
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -535,7 +554,7 @@ To obtain a **TimeSpan** object, use the [New-TimeSpan](http://go.microsoft.com/
 
 ```yaml
 Type: TimeSpan
-Parameter Sets: Stateful UniformInt64 Adhoc, Stateful UniformInt64 Non-Adhoc, Stateful Named Non-Adhoc, Stateful Singleton Adhoc, Stateful Singleton Non-Adhoc, Stateful Named Adhoc
+Parameter Sets: Stateful Singleton Non-Adhoc, Stateful UniformInt64 Non-Adhoc, Stateful Named Non-Adhoc, Stateful Singleton Adhoc, Stateful UniformInt64 Adhoc, Stateful Named Adhoc
 Aliases: 
 
 Required: False
@@ -550,7 +569,7 @@ Indicates that the service is a Service Fabric stateful service.
 
 ```yaml
 Type: SwitchParameter
-Parameter Sets: Stateful UniformInt64 Adhoc, Stateful UniformInt64 Non-Adhoc, Stateful Named Non-Adhoc, Stateful Singleton Adhoc, Stateful Singleton Non-Adhoc, Stateful Named Adhoc
+Parameter Sets: Stateful Singleton Non-Adhoc, Stateful UniformInt64 Non-Adhoc, Stateful Named Non-Adhoc, Stateful Singleton Adhoc, Stateful UniformInt64 Adhoc, Stateful Named Adhoc
 Aliases: 
 
 Required: True
@@ -565,7 +584,7 @@ Indicates that the service is a Service Fabric stateless service.
 
 ```yaml
 Type: SwitchParameter
-Parameter Sets: Stateless Singleton Non-Adhoc, Stateless Singleton Adhoc, Stateless Named Adhoc, Stateless UniformInt64 Non-Adhoc, Stateless Named Non-Adhoc, Stateless UniformInt64 Adhoc
+Parameter Sets: Stateless Singleton Non-Adhoc, Stateless UniformInt64 Non-Adhoc, Stateless Named Non-Adhoc, Stateless Singleton Adhoc, Stateless UniformInt64 Adhoc, Stateless Named Adhoc
 Aliases: 
 
 Required: True
@@ -580,7 +599,7 @@ Specifies the number of replicas that the system creates and maintains for each 
 
 ```yaml
 Type: Int32
-Parameter Sets: Stateful UniformInt64 Adhoc, Stateful UniformInt64 Non-Adhoc, Stateful Named Non-Adhoc, Stateful Singleton Adhoc, Stateful Singleton Non-Adhoc, Stateful Named Adhoc
+Parameter Sets: Stateful Singleton Non-Adhoc, Stateful UniformInt64 Non-Adhoc, Stateful Named Non-Adhoc, Stateful Singleton Adhoc, Stateful UniformInt64 Adhoc, Stateful Named Adhoc
 Aliases: 
 
 Required: True
@@ -635,3 +654,6 @@ This cmdlet returns a **System.Fabric.Description.ServiceDescription** object fo
 [Resolve-ServiceFabricService](./Resolve-ServiceFabricService.md)
 
 [Update-ServiceFabricService](./Update-ServiceFabricService.md)
+
+<!--Link references--In actual articles, you only need a single period before the slash-->
+[1]: /azure/service-fabric/service-fabric-hosting-model

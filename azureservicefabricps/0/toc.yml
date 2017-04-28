@@ -35,6 +35,8 @@
           href: ServiceFabric/Get-ServiceFabricApplicationName.md
         - name: Get-ServiceFabricApplicationType
           href: ServiceFabric/Get-ServiceFabricApplicationType.md
+        - name: Get-ServiceFabricApplicationTypePaged
+          href: ServiceFabric/Get-ServiceFabricApplicationTypePaged.md
         - name: Get-ServiceFabricApplicationUpgrade
           href: ServiceFabric/Get-ServiceFabricApplicationUpgrade.md
         - name: Get-ServiceFabricChaosReport
@@ -133,6 +135,8 @@
           href: ServiceFabric/Get-ServiceFabricServiceType.md
         - name: Get-ServiceFabricTestCommandStatusList
           href: ServiceFabric/Get-ServiceFabricTestCommandStatusList.md
+        - name: Get-ServiceFabricUnplacedReplicaInformation
+          href: ServiceFabric/Get-ServiceFabricUnplacedReplicaInformation.md
         - name: Invoke-ServiceFabricChaosTestScenario
           href: ServiceFabric/Invoke-ServiceFabricChaosTestScenario.md
         - name: Invoke-ServiceFabricDecryptText
@@ -157,6 +161,8 @@
           href: ServiceFabric/Move-ServiceFabricSecondaryReplica.md
         - name: New-ServiceFabricApplication
           href: ServiceFabric/New-ServiceFabricApplication.md
+        - name: New-ServiceFabricCluster
+          href: ServiceFabric/New-ServiceFabricCluster.md
         - name: New-ServiceFabricNodeConfiguration
           href: ServiceFabric/New-ServiceFabricNodeConfiguration.md
         - name: New-ServiceFabricPackageDebugParameter
@@ -233,6 +239,8 @@
           href: ServiceFabric/Send-ServiceFabricReplicaHealthReport.md
         - name: Send-ServiceFabricServiceHealthReport
           href: ServiceFabric/Send-ServiceFabricServiceHealthReport.md
+        - name: Set-ServiceFabricReplicaPlacementHealthReporting
+          href: ServiceFabric/Set-ServiceFabricReplicaPlacementHealthReporting.md
         - name: Start-ServiceFabricApplicationRollback
           href: ServiceFabric/Start-ServiceFabricApplicationRollback.md
         - name: Start-ServiceFabricApplicationUpgrade

@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 57A27B58-D6EC-464F-97FA-63F5D0391954
 online version:
 schema: 2.0.0
-updated_at: 04/13/2017 18:04 PM
-ms.date: 04/13/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Add-ServiceFabricNode.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Add-ServiceFabricNode.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/e4666c66ecad8bb641483d243bfac15b26f72282
+updated_at: 04/28/2017 17:04 PM
+ms.date: 04/28/2017
+content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/V5.6_Updates/Service-Fabric-cmdlets/ServiceFabric/vlatest/Add-ServiceFabricNode.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/V5.6_Updates/Service-Fabric-cmdlets/ServiceFabric/vlatest/Add-ServiceFabricNode.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/0bb6363c16973306c98ebe34d1884cb8bef9db63
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -25,7 +25,8 @@ Adds a Service Fabric node to a cluster.
 ## SYNTAX
 
 ```
-Add-ServiceFabricNode -NodeName <String> -NodeType <String> -IpAddressOrFQDN <String> -UpgradeDomain <String> -FaultDomain <String> -FabricRuntimePackagePath <String> [-TimeoutSec <Int32>] [<CommonParameters>]
+Add-ServiceFabricNode [-NodeName] <String> -NodeType <String> -IpAddressOrFQDN <String> -UpgradeDomain <String>
+ -FaultDomain <String> -FabricRuntimePackagePath <String> [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION

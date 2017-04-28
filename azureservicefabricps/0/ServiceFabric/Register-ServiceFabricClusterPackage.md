@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 4E889F33-E989-492D-884A-A59A3A89FE08
 online version:
 schema: 2.0.0
-updated_at: 04/13/2017 18:04 PM
-ms.date: 04/13/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Register-ServiceFabricClusterPackage.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Register-ServiceFabricClusterPackage.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/e4666c66ecad8bb641483d243bfac15b26f72282
+updated_at: 04/28/2017 17:04 PM
+ms.date: 04/28/2017
+content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/V5.6_Updates/Service-Fabric-cmdlets/ServiceFabric/vlatest/Register-ServiceFabricClusterPackage.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/V5.6_Updates/Service-Fabric-cmdlets/ServiceFabric/vlatest/Register-ServiceFabricClusterPackage.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/0bb6363c16973306c98ebe34d1884cb8bef9db63
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -32,12 +32,14 @@ Register-ServiceFabricClusterPackage -CodePackagePath <String> -ClusterManifestP
 
 ### Code
 ```
-Register-ServiceFabricClusterPackage [-Code] -CodePackagePath <String> [-TimeoutSec <Int32>] [<CommonParameters>]
+Register-ServiceFabricClusterPackage [-Code] -CodePackagePath <String> [-ClusterManifestPath <String>]
+ [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
 ### Config
 ```
-Register-ServiceFabricClusterPackage [-Config] -ClusterManifestPath <String> [-TimeoutSec <Int32>] [<CommonParameters>]
+Register-ServiceFabricClusterPackage [-Config] [-CodePackagePath <String>] -ClusterManifestPath <String>
+ [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION

@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 9F010748-70B9-4E00-94C7-EBD0B2983C35
 online version:
 schema: 2.0.0
-updated_at: 03/23/2017 20:03 PM
-ms.date: 03/23/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Invoke-ServiceFabricChaosTestScenario.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Invoke-ServiceFabricChaosTestScenario.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/fac2031a80184883cdb99fa4a8c6e1971ab6aaf2
+updated_at: 04/06/2017 14:04 PM
+ms.date: 04/06/2017
+content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/V5.6_Updates/Service-Fabric-cmdlets/ServiceFabric/vlatest/Invoke-ServiceFabricChaosTestScenario.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/V5.6_Updates/Service-Fabric-cmdlets/ServiceFabric/vlatest/Invoke-ServiceFabricChaosTestScenario.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/8cc7df560eb5276f5793b86a2b9d29aa7dfc34dd
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -20,7 +20,6 @@ ms.service: service-fabric
 # Invoke-ServiceFabricChaosTestScenario
 
 ## SYNOPSIS
-
 This cmdlet is **Obsolete**. Please use [Start-ServiceFabricChaos](./Start-ServiceFabricChaos.md).
 
 Invokes a test scenario to induce iterative failover and faults in a cluster.
@@ -34,8 +33,9 @@ Invoke-ServiceFabricChaosTestScenario [-TimeToRunMinute] <UInt32> [-MaxClusterSt
 ```
 
 ## DESCRIPTION
-
 This cmdlet is **Obsolete**. Please use [Start-ServiceFabricChaos](./Start-ServiceFabricChaos.md).
+
+## EXAMPLES
 
 ## PARAMETERS
 

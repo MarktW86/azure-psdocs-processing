@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: F4B3017C-09C6-4423-ADC0-9F49F3F8AFB7
 online version:
 schema: 2.0.0
-updated_at: 04/13/2017 18:04 PM
-ms.date: 04/13/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricDeployedServicePackageHealth.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricDeployedServicePackageHealth.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/e4666c66ecad8bb641483d243bfac15b26f72282
+updated_at: 04/28/2017 17:04 PM
+ms.date: 04/28/2017
+content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/V5.6_Updates/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricDeployedServicePackageHealth.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/V5.6_Updates/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricDeployedServicePackageHealth.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/4837102948363e7eb7cd3f5ccda1f176ed954ec6
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -27,7 +27,8 @@ Gets the health of a Service Fabric service package.
 ```
 Get-ServiceFabricDeployedServicePackageHealth [-ApplicationName] <Uri> [-ServiceManifestName] <String>
  [-NodeName] <String> [-ConsiderWarningAsError <Boolean>] [-EventsHealthStateFilter <Int64>]
- [-EventsFilter <HealthStateFilter>] [-TimeoutSec <Int32>] [<CommonParameters>]
+ [-EventsFilter <HealthStateFilter>] [-ServicePackageActivationId <String>] [-TimeoutSec <Int32>]
+ [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -162,6 +163,23 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
+### -ServicePackageActivationId
+The activation id of the deployed *ServicePackage*. This can be obtained by using the query [Get-ServiceFabricDeployedServicePackage](Get-ServiceFabricDeployedServicePackage.md).
+
+If *ServicePackageActivationMode* specified at the time of creating the service (using [New-ServiceFabricService](New-ServiceFabricService.md)) is *SharedProcess* (or if it is not specfied, in which case it defaults to *SharedProcess*), then value of *ServicePackageActivationId* is always an empty string and need not be specified. To learn more about service package activation id, please see [Service Fabric Hosting Model][1].
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
 ### -TimeoutSec
 Specifies the time-out period, in seconds, for the operation.
 
@@ -199,3 +217,6 @@ This cmdlet returns a **System.Fabric.Health.DeployedServicePackageHealth** obje
 [Get-ServiceFabricClusterConnection](./Get-ServiceFabricClusterConnection.md)
 
 [Get-ServiceFabricDeployedServicePackage](./Get-ServiceFabricDeployedServicePackage.md)
+
+<!--Link references--In actual articles, you only need a single period before the slash-->
+[1]: /azure/service-fabric/service-fabric-hosting-model

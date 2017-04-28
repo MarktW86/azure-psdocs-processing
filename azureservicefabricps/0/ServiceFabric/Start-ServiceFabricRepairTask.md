@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 239A882B-8E31-4404-AB35-2A39D8ABC600
 online version:
 schema: 2.0.0
-updated_at: 04/13/2017 18:04 PM
-ms.date: 04/13/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricRepairTask.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricRepairTask.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/e4666c66ecad8bb641483d243bfac15b26f72282
+updated_at: 04/28/2017 17:04 PM
+ms.date: 04/28/2017
+content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/V5.6_Updates/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricRepairTask.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/V5.6_Updates/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricRepairTask.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/0bb6363c16973306c98ebe34d1884cb8bef9db63
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -30,15 +30,15 @@ Start-ServiceFabricRepairTask [-NodeName] <String> [-NodeAction] <SystemNodeRepa
  [-Description <String>] [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
-### NodeManual
-```
-Start-ServiceFabricRepairTask [-NodeNames] <String[]> [-NodeImpact] <NodeImpactLevel> [-TaskId <String>]
- [-Description <String>] [-TimeoutSec <Int32>] [<CommonParameters>]
-```
-
 ### NodeCustomAuto
 ```
 Start-ServiceFabricRepairTask [-NodeNames] <String[]> [-CustomAction] <String> [-TaskId <String>]
+ [-Description <String>] [-TimeoutSec <Int32>] [<CommonParameters>]
+```
+
+### NodeManual
+```
+Start-ServiceFabricRepairTask [-NodeNames] <String[]> [-NodeImpact] <NodeImpactLevel> [-TaskId <String>]
  [-Description <String>] [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
@@ -178,7 +178,7 @@ This cmdlet repairs the nodes that this parameter specifies.
 
 ```yaml
 Type: String[]
-Parameter Sets: NodeManual, NodeCustomAuto
+Parameter Sets: NodeCustomAuto, NodeManual
 Aliases: 
 
 Required: True

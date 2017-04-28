@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: BEA22E4F-87EE-48AC-9406-E8A05BB8A740
 online version:
 schema: 2.0.0
-updated_at: 04/13/2017 18:04 PM
-ms.date: 04/13/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Invoke-ServiceFabricFailoverTestScenario.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Invoke-ServiceFabricFailoverTestScenario.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/e4666c66ecad8bb641483d243bfac15b26f72282
+updated_at: 04/28/2017 17:04 PM
+ms.date: 04/28/2017
+content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/V5.6_Updates/Service-Fabric-cmdlets/ServiceFabric/vlatest/Invoke-ServiceFabricFailoverTestScenario.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/V5.6_Updates/Service-Fabric-cmdlets/ServiceFabric/vlatest/Invoke-ServiceFabricFailoverTestScenario.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/0bb6363c16973306c98ebe34d1884cb8bef9db63
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -31,6 +31,12 @@ Invoke-ServiceFabricFailoverTestScenario -MaxServiceStabilizationTimeoutSec <UIn
  [<CommonParameters>]
 ```
 
+### ServiceNameRandomPartition
+```
+Invoke-ServiceFabricFailoverTestScenario -MaxServiceStabilizationTimeoutSec <UInt32> -TimeToRunMinute <UInt32>
+ [-WaitTimeBetweenFaultsSec <Int32>] -ServiceName <Uri> [-TimeoutSec <Int32>] [<CommonParameters>]
+```
+
 ### ServiceNamePartitionSingleton
 ```
 Invoke-ServiceFabricFailoverTestScenario -MaxServiceStabilizationTimeoutSec <UInt32> -TimeToRunMinute <UInt32>
@@ -43,12 +49,6 @@ Invoke-ServiceFabricFailoverTestScenario -MaxServiceStabilizationTimeoutSec <UIn
 Invoke-ServiceFabricFailoverTestScenario -MaxServiceStabilizationTimeoutSec <UInt32> -TimeToRunMinute <UInt32>
  [-WaitTimeBetweenFaultsSec <Int32>] -ServiceName <Uri> [-PartitionKindNamed] -PartitionKey <String>
  [-TimeoutSec <Int32>] [<CommonParameters>]
-```
-
-### ServiceNameRandomPartition
-```
-Invoke-ServiceFabricFailoverTestScenario -MaxServiceStabilizationTimeoutSec <UInt32> -TimeToRunMinute <UInt32>
- [-WaitTimeBetweenFaultsSec <Int32>] -ServiceName <Uri> [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
 ### ServiceNamePartitionUniformedInt

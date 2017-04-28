@@ -4,8 +4,8 @@ online version:
 schema: 2.0.0
 updated_at: 04/06/2017 14:04 PM
 ms.date: 04/06/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/V5.6_Updates/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricPackageDebugParameters.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/V5.6_Updates/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricPackageDebugParameters.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/V5.6_Updates/Service-Fabric-cmdlets/ServiceFabric/vlatest/Set-ServiceFabricReplicaPlacementHealthReporting.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/V5.6_Updates/Service-Fabric-cmdlets/ServiceFabric/vlatest/Set-ServiceFabricReplicaPlacementHealthReporting.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/8cc7df560eb5276f5793b86a2b9d29aa7dfc34dd
 ms.topic: reference
 author: oanapl
@@ -16,7 +16,7 @@ open_to_public_contributors: false
 ms.service: service-fabric
 ---
 
-# Get-ServiceFabricPackageDebugParameters
+# Set-ServiceFabricReplicaPlacementHealthReporting
 
 ## SYNOPSIS
 {{Fill in the Synopsis}}
@@ -24,8 +24,7 @@ ms.service: service-fabric
 ## SYNTAX
 
 ```
-Get-ServiceFabricPackageDebugParameters [-DebugParameters] <CodePackageDebugParameters[]> [-TimeoutSec <Int32>]
- [<CommonParameters>]
+Set-ServiceFabricReplicaPlacementHealthReporting [-Enabled] <Boolean> [-TimeoutSec <Int32>]
 ```
 
 ## DESCRIPTION
@@ -42,18 +41,18 @@ PS C:\> {{ Add example code here }}
 
 ## PARAMETERS
 
-### -DebugParameters
-{{Fill DebugParameters Description}}
+### -Enabled
+{{Fill Enabled Description}}
 
 ```yaml
-Type: CodePackageDebugParameters[]
+Type: Boolean
 Parameter Sets: (All)
 Aliases: 
 
 Required: True
 Position: 0
 Default value: None
-Accept pipeline input: False
+Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
@@ -72,12 +71,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### CommonParameters
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
-
 ## INPUTS
 
-### None
+### System.Boolean
+
 
 ## OUTPUTS
 

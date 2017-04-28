@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: CF0A03A9-D1E2-446A-BCA2-80B1D620D586
 online version:
 schema: 2.0.0
-updated_at: 04/13/2017 18:04 PM
-ms.date: 04/13/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Remove-ServiceFabricClusterPackage.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Remove-ServiceFabricClusterPackage.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/e4666c66ecad8bb641483d243bfac15b26f72282
+updated_at: 04/28/2017 17:04 PM
+ms.date: 04/28/2017
+content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/V5.6_Updates/Service-Fabric-cmdlets/ServiceFabric/vlatest/Remove-ServiceFabricClusterPackage.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/V5.6_Updates/Service-Fabric-cmdlets/ServiceFabric/vlatest/Remove-ServiceFabricClusterPackage.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/0bb6363c16973306c98ebe34d1884cb8bef9db63
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -27,22 +27,22 @@ Removes a Service Fabric cluster package from the image store.
 ### Code
 ```
 Remove-ServiceFabricClusterPackage [-Code] -CodePackagePathInImageStore <String>
- [-ClusterManifestPathInImageStore <String>] -ImageStoreConnectionString <String> [-TimeoutSec <Int32>]
- [-WhatIf] [-Confirm] [<CommonParameters>]
+ [-ClusterManifestPathInImageStore <String>] [-ImageStoreConnectionString <String>]
+ [-CertStoreLocation <StoreLocation>] [-TimeoutSec <Int32>] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ### Config
 ```
 Remove-ServiceFabricClusterPackage [-Config] [-CodePackagePathInImageStore <String>]
- -ClusterManifestPathInImageStore <String> -ImageStoreConnectionString <String> [-TimeoutSec <Int32>] [-WhatIf]
- [-Confirm] [<CommonParameters>]
+ -ClusterManifestPathInImageStore <String> [-ImageStoreConnectionString <String>]
+ [-CertStoreLocation <StoreLocation>] [-TimeoutSec <Int32>] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ### Both
 ```
 Remove-ServiceFabricClusterPackage -CodePackagePathInImageStore <String>
- -ClusterManifestPathInImageStore <String> -ImageStoreConnectionString <String> [-TimeoutSec <Int32>] [-WhatIf]
- [-Confirm] [<CommonParameters>]
+ -ClusterManifestPathInImageStore <String> [-ImageStoreConnectionString <String>]
+ [-CertStoreLocation <StoreLocation>] [-TimeoutSec <Int32>] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -74,6 +74,21 @@ This command removes the cluster package that has the specified image store path
 The cmdlet does prompt you for confirmation before it removes the cluster package.
 
 ## PARAMETERS
+
+### -CertStoreLocation
+{{Fill CertStoreLocation Description}}
+
+```yaml
+Type: StoreLocation
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
 
 ### -ClusterManifestPathInImageStore
 Specifies the relative path in the image store of the cluster manifest.
@@ -169,7 +184,7 @@ Type: String
 Parameter Sets: (All)
 Aliases: 
 
-Required: True
+Required: False
 Position: Named
 Default value: None
 Accept pipeline input: False

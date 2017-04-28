@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 6DB6444E-9271-42D4-8EC9-73CA6A799369
 online version:
 schema: 2.0.0
-updated_at: 04/25/2017 17:04 PM
-ms.date: 04/25/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Copy-ServiceFabricClusterPackage.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Copy-ServiceFabricClusterPackage.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/b0568e8767cc2ab26c178302266bc3776ad571e3
+updated_at: 04/28/2017 17:04 PM
+ms.date: 04/28/2017
+content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/V5.6_Updates/Service-Fabric-cmdlets/ServiceFabric/vlatest/Copy-ServiceFabricClusterPackage.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/V5.6_Updates/Service-Fabric-cmdlets/ServiceFabric/vlatest/Copy-ServiceFabricClusterPackage.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/0bb6363c16973306c98ebe34d1884cb8bef9db63
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -27,18 +27,23 @@ Copies a Service Fabric runtime installation file and/or cluster manifest to the
 ### Both (Default)
 ```
 Copy-ServiceFabricClusterPackage -CodePackagePath <String> -ClusterManifestPath <String>
- -ImageStoreConnectionString <String> [-CodePackagePathInImageStore <String>]
- [-ClusterManifestPathInImageStore <String>] [-TimeoutSec <Int32>] [<CommonParameters>]
+ [-ImageStoreConnectionString <String>] [-CodePackagePathInImageStore <String>]
+ [-ClusterManifestPathInImageStore <String>] [-CertStoreLocation <StoreLocation>] [-TimeoutSec <Int32>]
+ [<CommonParameters>]
 ```
 
 ### Code
 ```
-Copy-ServiceFabricClusterPackage [-Code] -CodePackagePath <String> -ImageStoreConnectionString <String> [-CodePackagePathInImageStore <String>] [-TimeoutSec <Int32>] [<CommonParameters>]
+Copy-ServiceFabricClusterPackage [-Code] -CodePackagePath <String> [-ClusterManifestPath <String>]
+ [-ImageStoreConnectionString <String>] [-CodePackagePathInImageStore <String>]
+ [-CertStoreLocation <StoreLocation>] [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
 ### Config
 ```
-Copy-ServiceFabricClusterPackage [-Config] -ClusterManifestPath <String> -ImageStoreConnectionString <String> [-ClusterManifestPathInImageStore <String>] [-TimeoutSec <Int32>] [<CommonParameters>]
+Copy-ServiceFabricClusterPackage [-Config] [-CodePackagePath <String>] -ClusterManifestPath <String>
+ [-ImageStoreConnectionString <String>] [-ClusterManifestPathInImageStore <String>]
+ [-CertStoreLocation <StoreLocation>] [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -75,6 +80,21 @@ PS C:\> Copy-ServiceFabricClusterPackage -Code -CodePackagePath "\\codeStore\Msi
 This command copies just the specified MSI file to ServiceFabric.msi in the image store.
 
 ## PARAMETERS
+
+### -CertStoreLocation
+{{Fill CertStoreLocation Description}}
+
+```yaml
+Type: StoreLocation
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
 
 ### -ClusterManifestPath
 Specifies the path to a Service Fabric cluster manifest.
@@ -198,7 +218,7 @@ Type: String
 Parameter Sets: (All)
 Aliases: 
 
-Required: True
+Required: False
 Position: Named
 Default value: None
 Accept pipeline input: False

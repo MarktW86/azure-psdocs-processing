@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 51657577-F2A0-4D22-822C-3586F0A70B04
 online version:
 schema: 2.0.0
-updated_at: 04/25/2017 17:04 PM
-ms.date: 04/25/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Copy-ServiceFabricApplicationPackage.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Copy-ServiceFabricApplicationPackage.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/b0568e8767cc2ab26c178302266bc3776ad571e3
+updated_at: 04/28/2017 17:04 PM
+ms.date: 04/28/2017
+content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/V5.6_Updates/Service-Fabric-cmdlets/ServiceFabric/vlatest/Copy-ServiceFabricApplicationPackage.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/V5.6_Updates/Service-Fabric-cmdlets/ServiceFabric/vlatest/Copy-ServiceFabricApplicationPackage.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/0bb6363c16973306c98ebe34d1884cb8bef9db63
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -24,19 +24,12 @@ Copies a Service Fabric application package to the image store.
 
 ## SYNTAX
 
-### SkipCopy
 ```
 Copy-ServiceFabricApplicationPackage [-ApplicationPackagePath] <String>
- [[-ImageStoreConnectionString] <String>] [[-ApplicationPackagePathInImageStore] <String>] [-ShowProgress]
- [-ShowProgressIntervalMilliseconds <Int32>] [-CompressPackage] [-UncompressPackage] [-SkipCopy]
+ [[-ImageStoreConnectionString] <String>] [[-ApplicationPackagePathInImageStore] <String>]
+ [-ApplicationPackageCopyPath <String>] [-ShowProgress] [-ShowProgressIntervalMilliseconds <Int32>]
+ [-CompressPackage] [-UncompressPackage] [-SkipCopy] [-GenerateChecksums] [-CertStoreLocation <StoreLocation>]
  [-TimeoutSec <Int32>] [<CommonParameters>]
-```
-
-### Copy
-```
-Copy-ServiceFabricApplicationPackage [-ApplicationPackagePath] <String> [-ImageStoreConnectionString] <String>
- [[-ApplicationPackagePathInImageStore] <String>] [-ShowProgress] [-ShowProgressIntervalMilliseconds <Int32>]
- [-CompressPackage] [-UncompressPackage] [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -95,6 +88,21 @@ This command uncompresses all sub-directories under the service directory withou
 
 ## PARAMETERS
 
+### -ApplicationPackageCopyPath
+{{Fill ApplicationPackageCopyPath Description}}
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
 ### -ApplicationPackagePath
 Specifies the relative path of an application package.
 The cmdlet copies the package from the path that you specify.
@@ -126,8 +134,38 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
+### -CertStoreLocation
+{{Fill CertStoreLocation Description}}
+
+```yaml
+Type: StoreLocation
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
 ### -CompressPackage
 Specifies to compresses all sub-directories under the service directory (code/config/data packages) in the application package. If *SkipCopy* is not specified, the folders will be compressed before copying the application package to the image store.
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -GenerateChecksums
+{{Fill GenerateChecksums Description}}
 
 ```yaml
 Type: SwitchParameter
@@ -146,22 +184,10 @@ Specifies the connection string for the Service Fabric image store. Read more ab
 
 ```yaml
 Type: String
-Parameter Sets: SkipCopy
+Parameter Sets: (All)
 Aliases: 
 
 Required: False
-Position: 2
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-```yaml
-Type: String
-Parameter Sets: Copy
-Aliases: 
-
-Required: True
 Position: 2
 Default value: None
 Accept pipeline input: False
@@ -203,10 +229,10 @@ Specifies to skip copying the application package to image store. This should be
 
 ```yaml
 Type: SwitchParameter
-Parameter Sets: SkipCopy
+Parameter Sets: (All)
 Aliases: 
 
-Required: True
+Required: False
 Position: Named
 Default value: None
 Accept pipeline input: False

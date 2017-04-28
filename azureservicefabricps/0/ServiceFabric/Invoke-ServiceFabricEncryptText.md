@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 3DED0AB0-1412-4104-A9A6-94D496E4C054
 online version:
 schema: 2.0.0
-updated_at: 04/25/2017 17:04 PM
-ms.date: 04/25/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Invoke-ServiceFabricEncryptText.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Invoke-ServiceFabricEncryptText.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/b0568e8767cc2ab26c178302266bc3776ad571e3
+updated_at: 04/28/2017 17:04 PM
+ms.date: 04/28/2017
+content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/V5.6_Updates/Service-Fabric-cmdlets/ServiceFabric/vlatest/Invoke-ServiceFabricEncryptText.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/V5.6_Updates/Service-Fabric-cmdlets/ServiceFabric/vlatest/Invoke-ServiceFabricEncryptText.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/0bb6363c16973306c98ebe34d1884cb8bef9db63
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -49,13 +49,13 @@ Before you perform any operation on a Service Fabric cluster, establish a connec
 ```
 $thumbprint="bf 7c 7a 9f 02 6c 60 62 c6 df 65 55 98 b7 44 e3 99 46 f7 27"
 $encryptedText = Invoke-ServiceFabricEncryptText -Text "hello world" -CertThumbprint $thumbprint -CertStore -StoreLocation LocalMachine -StoreName My
-
 ```
+
 ### Example 2:
 ```
 $encryptedText = Invoke-ServiceFabricEncryptText -Text "hello world" -CertFile -Path c:\temp\mycert.cer
-
 ```
+
 ## PARAMETERS
 
 ### -AlgorithmOid

@@ -5,8 +5,8 @@ online version:
 schema: 2.0.0
 updated_at: 03/07/2017 01:03 AM
 ms.date: 03/07/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricPartitionHealth.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricPartitionHealth.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/V5.6_Updates/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricPartitionHealth.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/V5.6_Updates/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricPartitionHealth.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/be6c4ceaccf4d5ec6ef47f54a9177be459e6e44d
 ms.topic: reference
 author: oanapl

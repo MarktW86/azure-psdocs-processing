@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 32BC7760-F639-4236-8F42-6C68ADE81F25
 online version:
 schema: 2.0.0
-updated_at: 04/13/2017 18:04 PM
-ms.date: 04/13/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricClusterUpgrade.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricClusterUpgrade.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/e4666c66ecad8bb641483d243bfac15b26f72282
+updated_at: 04/28/2017 17:04 PM
+ms.date: 04/28/2017
+content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/V5.6_Updates/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricClusterUpgrade.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/V5.6_Updates/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricClusterUpgrade.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/0bb6363c16973306c98ebe34d1884cb8bef9db63
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -38,20 +38,6 @@ Start-ServiceFabricClusterUpgrade [-Code] [-CodePackageVersion] <String> [-Force
  [-UnmonitoredAuto] [-Force] [-TimeoutSec <Int32>] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
-### Code Monitored
-```
-Start-ServiceFabricClusterUpgrade [-Code] [-CodePackageVersion] <String> [-ForceRestart]
- [[-UpgradeReplicaSetCheckTimeoutSec] <UInt32>] [-ReplicaQuorumTimeoutSec <UInt32>] [-RestartProcess]
- [-Monitored] -FailureAction <UpgradeFailureAction> [-HealthCheckRetryTimeoutSec <UInt32>]
- [-HealthCheckWaitDurationSec <UInt32>] [-HealthCheckStableDurationSec <UInt32>]
- [-UpgradeDomainTimeoutSec <UInt32>] [-UpgradeTimeoutSec <UInt32>] [-ConsiderWarningAsError <Boolean>]
- [-MaxPercentUnhealthyApplications <Byte>] [-MaxPercentUnhealthyNodes <Byte>]
- [-ApplicationTypeHealthPolicyMap <ApplicationTypeHealthPolicyMap>] [-EnableDeltaHealthEvaluation]
- [-MaxPercentDeltaUnhealthyNodes <Byte>] [-MaxPercentUpgradeDomainDeltaUnhealthyNodes <Byte>] [-Force]
- [-ApplicationHealthPolicyMap <ApplicationHealthPolicyMap>] [-TimeoutSec <Int32>] [-WhatIf] [-Confirm]
- [<CommonParameters>]
-```
-
 ### Code UnmonitoredManual
 ```
 Start-ServiceFabricClusterUpgrade [-Code] [-CodePackageVersion] <String> [-ForceRestart]
@@ -59,9 +45,9 @@ Start-ServiceFabricClusterUpgrade [-Code] [-CodePackageVersion] <String> [-Force
  [-UnmonitoredManual] [-Force] [-TimeoutSec <Int32>] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
-### Config Monitored
+### Code Monitored
 ```
-Start-ServiceFabricClusterUpgrade [-Config] [-ClusterManifestVersion] <String> [-ForceRestart]
+Start-ServiceFabricClusterUpgrade [-Code] [-CodePackageVersion] <String> [-ForceRestart]
  [[-UpgradeReplicaSetCheckTimeoutSec] <UInt32>] [-ReplicaQuorumTimeoutSec <UInt32>] [-RestartProcess]
  [-Monitored] -FailureAction <UpgradeFailureAction> [-HealthCheckRetryTimeoutSec <UInt32>]
  [-HealthCheckWaitDurationSec <UInt32>] [-HealthCheckStableDurationSec <UInt32>]
@@ -87,11 +73,11 @@ Start-ServiceFabricClusterUpgrade [-Config] [-ClusterManifestVersion] <String> [
  [-UnmonitoredManual] [-Force] [-TimeoutSec <Int32>] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
-### Both Monitored
+### Config Monitored
 ```
-Start-ServiceFabricClusterUpgrade [-CodePackageVersion] <String> [-ClusterManifestVersion] <String>
- [-ForceRestart] [[-UpgradeReplicaSetCheckTimeoutSec] <UInt32>] [-ReplicaQuorumTimeoutSec <UInt32>]
- [-RestartProcess] [-Monitored] -FailureAction <UpgradeFailureAction> [-HealthCheckRetryTimeoutSec <UInt32>]
+Start-ServiceFabricClusterUpgrade [-Config] [-ClusterManifestVersion] <String> [-ForceRestart]
+ [[-UpgradeReplicaSetCheckTimeoutSec] <UInt32>] [-ReplicaQuorumTimeoutSec <UInt32>] [-RestartProcess]
+ [-Monitored] -FailureAction <UpgradeFailureAction> [-HealthCheckRetryTimeoutSec <UInt32>]
  [-HealthCheckWaitDurationSec <UInt32>] [-HealthCheckStableDurationSec <UInt32>]
  [-UpgradeDomainTimeoutSec <UInt32>] [-UpgradeTimeoutSec <UInt32>] [-ConsiderWarningAsError <Boolean>]
  [-MaxPercentUnhealthyApplications <Byte>] [-MaxPercentUnhealthyNodes <Byte>]
@@ -106,6 +92,20 @@ Start-ServiceFabricClusterUpgrade [-CodePackageVersion] <String> [-ClusterManife
 Start-ServiceFabricClusterUpgrade [-CodePackageVersion] <String> [-ClusterManifestVersion] <String>
  [-ForceRestart] [[-UpgradeReplicaSetCheckTimeoutSec] <UInt32>] [-ReplicaQuorumTimeoutSec <UInt32>]
  [-RestartProcess] [-UnmonitoredManual] [-Force] [-TimeoutSec <Int32>] [-WhatIf] [-Confirm]
+ [<CommonParameters>]
+```
+
+### Both Monitored
+```
+Start-ServiceFabricClusterUpgrade [-CodePackageVersion] <String> [-ClusterManifestVersion] <String>
+ [-ForceRestart] [[-UpgradeReplicaSetCheckTimeoutSec] <UInt32>] [-ReplicaQuorumTimeoutSec <UInt32>]
+ [-RestartProcess] [-Monitored] -FailureAction <UpgradeFailureAction> [-HealthCheckRetryTimeoutSec <UInt32>]
+ [-HealthCheckWaitDurationSec <UInt32>] [-HealthCheckStableDurationSec <UInt32>]
+ [-UpgradeDomainTimeoutSec <UInt32>] [-UpgradeTimeoutSec <UInt32>] [-ConsiderWarningAsError <Boolean>]
+ [-MaxPercentUnhealthyApplications <Byte>] [-MaxPercentUnhealthyNodes <Byte>]
+ [-ApplicationTypeHealthPolicyMap <ApplicationTypeHealthPolicyMap>] [-EnableDeltaHealthEvaluation]
+ [-MaxPercentDeltaUnhealthyNodes <Byte>] [-MaxPercentUpgradeDomainDeltaUnhealthyNodes <Byte>] [-Force]
+ [-ApplicationHealthPolicyMap <ApplicationHealthPolicyMap>] [-TimeoutSec <Int32>] [-WhatIf] [-Confirm]
  [<CommonParameters>]
 ```
 
@@ -205,7 +205,7 @@ Specifies the version stored in a Service Fabric cluster manifest.
 
 ```yaml
 Type: String
-Parameter Sets: Both UnmonitoredAuto, Config Monitored, Config UnmonitoredAuto, Config UnmonitoredManual, Both Monitored, Both UnmonitoredManual
+Parameter Sets: Both UnmonitoredAuto, Config UnmonitoredAuto, Config UnmonitoredManual, Config Monitored, Both UnmonitoredManual, Both Monitored
 Aliases: 
 
 Required: True
@@ -220,7 +220,7 @@ Indicates that the package includes only a Service Fabric .msi file.
 
 ```yaml
 Type: SwitchParameter
-Parameter Sets: Code UnmonitoredAuto, Code Monitored, Code UnmonitoredManual
+Parameter Sets: Code UnmonitoredAuto, Code UnmonitoredManual, Code Monitored
 Aliases: 
 
 Required: True
@@ -235,7 +235,7 @@ Specifies the version of the Service Fabric .msi file.
 
 ```yaml
 Type: String
-Parameter Sets: Both UnmonitoredAuto, Code UnmonitoredAuto, Code Monitored, Code UnmonitoredManual, Both Monitored, Both UnmonitoredManual
+Parameter Sets: Both UnmonitoredAuto, Code UnmonitoredAuto, Code UnmonitoredManual, Code Monitored, Both UnmonitoredManual, Both Monitored
 Aliases: 
 
 Required: True
@@ -250,27 +250,12 @@ Indicates that the package is a Service Fabric cluster manifest.
 
 ```yaml
 Type: SwitchParameter
-Parameter Sets: Config Monitored, Config UnmonitoredAuto, Config UnmonitoredManual
+Parameter Sets: Config UnmonitoredAuto, Config UnmonitoredManual, Config Monitored
 Aliases: 
 
 Required: True
 Position: 1
 Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -Confirm
-Prompts for confirmation before running the cmdlet.
-
-```yaml
-Type: SwitchParameter
-Parameter Sets: (All)
-Aliases: cf
-
-Required: False
-Position: Named
-Default value: False
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
@@ -616,7 +601,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-Prompts you for confirmation before running the cmdlet.
+Prompts for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter

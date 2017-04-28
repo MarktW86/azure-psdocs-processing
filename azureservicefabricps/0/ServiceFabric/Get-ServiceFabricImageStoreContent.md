@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: DD60B18E-5ED7-41B6-B9D4-38BD726DCFF2
 online version:
 schema: 2.0.0
-updated_at: 04/13/2017 18:04 PM
-ms.date: 04/13/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricImageStoreContent.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricImageStoreContent.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/e4666c66ecad8bb641483d243bfac15b26f72282
+updated_at: 04/28/2017 17:04 PM
+ms.date: 04/28/2017
+content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/V5.6_Updates/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricImageStoreContent.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/V5.6_Updates/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricImageStoreContent.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/0bb6363c16973306c98ebe34d1884cb8bef9db63
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -26,15 +26,15 @@ Gets image store content information
 
 ### Application
 ```
-Get-ServiceFabricImageStoreContent [-Application] -ApplicationTypeName <String>
- [-ApplicationTypeVersion <String>] -ImageStoreConnectionString <String> [-TimeoutSec <Int32>]
+Get-ServiceFabricImageStoreContent -ApplicationTypeName <String> [-ApplicationTypeVersion <String>]
+ [-ImageStoreConnectionString <String>] [-CertStoreLocation <StoreLocation>] [-TimeoutSec <Int32>]
  [<CommonParameters>]
 ```
 
 ### Path
 ```
-Get-ServiceFabricImageStoreContent [-Path] [-RemoteRelativePath <String>] -ImageStoreConnectionString <String>
- [-TimeoutSec <Int32>] [<CommonParameters>]
+Get-ServiceFabricImageStoreContent [-RemoteRelativePath <String>] [-ImageStoreConnectionString <String>]
+ [-CertStoreLocation <StoreLocation>] [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -57,21 +57,6 @@ PS C:\> Get-ServiceFabricImageStoreContent -Path -RemoteRelativePath "Store\Calc
 This command gets information about image store content within the specified image store relative path "Store\CalcServiceApp\apps".
 
 ## PARAMETERS
-
-### -Application
-Indicates that image store content is searched by application type name and version.
-
-```yaml
-Type: SwitchParameter
-Parameter Sets: Application
-Aliases: 
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
 
 ### -ApplicationTypeName
 Specifies the name of a Service Fabric application type.
@@ -103,6 +88,21 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
+### -CertStoreLocation
+{{Fill CertStoreLocation Description}}
+
+```yaml
+Type: StoreLocation
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
 ### -ImageStoreConnectionString
 Specifies the connection string for the Service Fabric image store.
 
@@ -111,22 +111,7 @@ Type: String
 Parameter Sets: (All)
 Aliases: 
 
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -Path
-Indicates that image store content are found within the image store relative path.
-
-```yaml
-Type: SwitchParameter
-Parameter Sets: Path
-Aliases: 
-
-Required: True
+Required: False
 Position: Named
 Default value: None
 Accept pipeline input: False
@@ -179,3 +164,4 @@ The cmdlet **Get-ServiceFabricStoreContent** returns instances of the  **System.
 ## NOTES
 
 ## RELATED LINKS
+

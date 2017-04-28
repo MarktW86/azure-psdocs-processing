@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: A315ECB3-FC8C-451B-85B0-C3C4887B78C9
 online version:
 schema: 2.0.0
-updated_at: 04/13/2017 18:04 PM
-ms.date: 04/13/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Resolve-ServiceFabricService.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Resolve-ServiceFabricService.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/e4666c66ecad8bb641483d243bfac15b26f72282
+updated_at: 04/28/2017 17:04 PM
+ms.date: 04/28/2017
+content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/V5.6_Updates/Service-Fabric-cmdlets/ServiceFabric/vlatest/Resolve-ServiceFabricService.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/V5.6_Updates/Service-Fabric-cmdlets/ServiceFabric/vlatest/Resolve-ServiceFabricService.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/0bb6363c16973306c98ebe34d1884cb8bef9db63
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -48,16 +48,16 @@ Resolve-ServiceFabricService [-PartitionKindUniformInt64] [-ServiceName] <Uri> [
  [-PreviousResult <ResolvedServicePartition>] [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
-### Named NonRefresh
-```
-Resolve-ServiceFabricService [-PartitionKindNamed] [-ServiceName] <Uri> [-PartitionKey] <String>
- [-PreviousResult <ResolvedServicePartition>] [-TimeoutSec <Int32>] [<CommonParameters>]
-```
-
 ### Named ForceRefresh
 ```
 Resolve-ServiceFabricService [-PartitionKindNamed] [-ServiceName] <Uri> [-PartitionKey] <String>
  [-ForceRefresh] [-TimeoutSec <Int32>] [<CommonParameters>]
+```
+
+### Named NonRefresh
+```
+Resolve-ServiceFabricService [-PartitionKindNamed] [-ServiceName] <Uri> [-PartitionKey] <String>
+ [-PreviousResult <ResolvedServicePartition>] [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -113,7 +113,7 @@ Specifies the partition key for the Service Fabric service.
 
 ```yaml
 Type: String
-Parameter Sets: UniformInt64 ForceRefresh, UniformInt64 NonRefresh, Named NonRefresh, Named ForceRefresh
+Parameter Sets: UniformInt64 ForceRefresh, UniformInt64 NonRefresh, Named ForceRefresh, Named NonRefresh
 Aliases: 
 
 Required: True
@@ -128,7 +128,7 @@ Indicates that the Service Fabric service is a named partition.
 
 ```yaml
 Type: SwitchParameter
-Parameter Sets: Named NonRefresh, Named ForceRefresh
+Parameter Sets: Named ForceRefresh, Named NonRefresh
 Aliases: 
 
 Required: True
