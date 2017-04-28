@@ -35,7 +35,7 @@ Get-AzureRmContainerService: Container Service
 Get-AzureRmRemoteDesktopFile: Virtual Machines
 Get-AzureRmVM: Virtual Machines
 Get-AzureRmVMAccessExtension: Virtual Machines
-Get-AzureRmVMADDomainExtension: Active Directory
+Get-AzureRmVMADDomainExtension: Virtual Machines
 Get-AzureRmVMAEMExtension: Virtual Machines
 Get-AzureRmVMBootDiagnosticsData: Monitoring
 Get-AzureRmVMChefExtension: Virtual Machines
@@ -52,10 +52,10 @@ Get-AzureRmVMImageOffer: VM Images
 Get-AzureRmVMImagePublisher: VM Images
 Get-AzureRmVMImageSku: VM Images
 Get-AzureRmVMSize: Virtual Machines
-Get-AzureRMVMSqlServerExtension: SQL
+Get-AzureRMVMSqlServerExtension: Virtual Machines
 Get-AzureRmVmss: VM Scale Sets
 Get-AzureRmVmssSku: VM Scale Sets
-Get-AzureRmVmssVM: Virtual Machines
+Get-AzureRmVmssVM: VM Scale Sets
 Get-AzureRmVMUsage: Virtual Machines
 New-AzureRmAvailabilitySet: Availability Sets
 New-AzureRmContainerService: Container Service
@@ -67,7 +67,7 @@ New-AzureRmVmssConfig: VM Scale Sets
 New-AzureRmVmssIpConfig: VM Scale Sets
 New-AzureRmVmssVaultCertificateConfig: VM Scale Sets
 New-AzureVMSqlServerAutoBackupConfig: Backup
-New-AzureVMSqlServerAutoPatchingConfig: SQL
+New-AzureVMSqlServerAutoPatchingConfig: Virtual Machines
 New-AzureVMSqlServerKeyVaultCredentialConfig: Key Vault
 Publish-AzureRmVMDscConfiguration: Virtual Machines
 Remove-AzureRmAvailabilitySet: Availability Sets
@@ -85,7 +85,7 @@ Remove-AzureRmVMDiskEncryptionExtension: VM Disks
 Remove-AzureRmVMDscExtension: Virtual Machines
 Remove-AzureRmVMExtension: Virtual Machines
 Remove-AzureRmVMNetworkInterface: Virtual Network
-Remove-AzureRMVMSqlServerExtension: SQL
+Remove-AzureRMVMSqlServerExtension: Virtual Machines
 Remove-AzureRmVmss: VM Scale Sets
 Remove-AzureRmVmssDiagnosticsExtension: Others
 Remove-AzureRmVmssExtension: VM Scale Sets
@@ -96,7 +96,7 @@ Save-AzureRmVhd: VM VHDs
 Save-AzureRmVMImage: VM Images
 Set-AzureRmVM: Virtual Machines
 Set-AzureRmVMAccessExtension: Virtual Machines
-Set-AzureRmVMADDomainExtension: Active Directory
+Set-AzureRmVMADDomainExtension: Virtual Machines
 Set-AzureRmVMAEMExtension: Virtual Machines
 Set-AzureRmVMBackupExtension: Backup
 Set-AzureRmVMBginfoExtension: Virtual Machines
@@ -112,11 +112,11 @@ Set-AzureRmVMOperatingSystem: Virtual Machines
 Set-AzureRmVMOSDisk: VM Disks
 Set-AzureRmVMPlan: Virtual Machines
 Set-AzureRmVMSourceImage: VM Images
-Set-AzureRMVMSqlServerExtension: SQL
+Set-AzureRMVMSqlServerExtension: Virtual Machines
 Set-AzureRmVmss: VM Scale Sets
 Set-AzureRmVmssOsProfile: VM Scale Sets
-Set-AzureRmVmssStorageProfile: VM Scale Sets
-Set-AzureRmVmssVM: Virtual Machines
+Set-AzureRmVmssStorageProfile: Storage
+Set-AzureRmVmssVM: VM Scale Sets
 Start-AzureRmVM: Virtual Machines
 Start-AzureRmVmss: VM Scale Sets
 Stop-AzureRmVM: Virtual Machines

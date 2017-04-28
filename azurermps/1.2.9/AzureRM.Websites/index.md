@@ -18,10 +18,10 @@ Get-AzureRmAppServicePlan: App Service
 Get-AzureRmAppServicePlanMetrics: App Service
 Get-AzureRmWebApp: App Service
 Get-AzureRmWebAppCertificate: App Service
-Get-AzureRmWebAppMetrics: Monitoring
+Get-AzureRmWebAppMetrics: App Service
 Get-AzureRmWebAppPublishingProfile: App Service
 Get-AzureRmWebAppSlot: App Service
-Get-AzureRmWebAppSlotMetrics: Monitoring
+Get-AzureRmWebAppSlotMetrics: App Service
 Get-AzureRmWebAppSlotPublishingProfile: App Service
 Get-AzureRmWebAppSSLBinding: App Service
 New-AzureRmAppServicePlan: App Service

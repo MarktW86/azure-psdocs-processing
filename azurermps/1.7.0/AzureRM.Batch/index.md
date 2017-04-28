@@ -35,8 +35,8 @@ Get-AzureBatchNodeFile: Batch
 Get-AzureBatchNodeFileContent: Batch
 Get-AzureBatchPool: Batch
 Get-AzureBatchPoolStatistics: Batch
-Get-AzureBatchPoolUsageMetrics: Batch
-Get-AzureBatchRemoteDesktopProtocolFile: Batch
+Get-AzureBatchPoolUsageMetrics: Monitoring
+Get-AzureBatchRemoteDesktopProtocolFile: Virtual Machines
 Get-AzureBatchRemoteLoginSettings: Batch
 Get-AzureBatchSubtask: Batch
 Get-AzureBatchTask: Batch
@@ -44,7 +44,7 @@ Get-AzureRmBatchAccount: Batch
 Get-AzureRmBatchAccountKeys: Batch
 Get-AzureRmBatchApplication: Batch
 Get-AzureRmBatchApplicationPackage: Batch
-Get-AzureRmBatchSubscriptionQuotas: Batch
+Get-AzureRmBatchSubscriptionQuotas: Subscriptions
 New-AzureBatchCertificate: Batch
 New-AzureBatchComputeNodeUser: Batch
 New-AzureBatchJob: Batch

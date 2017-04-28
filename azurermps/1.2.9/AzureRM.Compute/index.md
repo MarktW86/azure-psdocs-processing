@@ -44,10 +44,10 @@ Get-AzureRmVMImageOffer: VM Images
 Get-AzureRmVMImagePublisher: VM Images
 Get-AzureRmVMImageSku: VM Images
 Get-AzureRmVMSize: Virtual Machines
-Get-AzureRmVMSqlServerExtension: SQL
+Get-AzureRmVMSqlServerExtension: Virtual Machines
 Get-AzureRmVmss: VM Scale Sets
 Get-AzureRmVmssSku: VM Scale Sets
-Get-AzureRmVmssVM: Virtual Machines
+Get-AzureRmVmssVM: VM Scale Sets
 Get-AzureRmVMUsage: Virtual Machines
 New-AzureRmAvailabilitySet: Availability Sets
 New-AzureRmVM: Virtual Machines
@@ -57,7 +57,7 @@ New-AzureRmVmssConfig: VM Scale Sets
 New-AzureRmVmssIpConfig: VM Scale Sets
 New-AzureRmVmssVaultCertificateConfig: VM Scale Sets
 New-AzureVMSqlServerAutoBackupConfig: Backup
-New-AzureVMSqlServerAutoPatchingConfig: SQL
+New-AzureVMSqlServerAutoPatchingConfig: Virtual Machines
 Publish-AzureRmVMDscConfiguration: Virtual Machines
 Remove-AzureRmAvailabilitySet: Availability Sets
 Remove-AzureRmVM: Virtual Machines
@@ -70,7 +70,7 @@ Remove-AzureRmVMDiskEncryptionExtension: VM Disks
 Remove-AzureRmVMDscExtension: Virtual Machines
 Remove-AzureRmVMExtension: Virtual Machines
 Remove-AzureRmVMNetworkInterface: Virtual Network
-Remove-AzureRmVMSqlServerExtension: SQL
+Remove-AzureRmVMSqlServerExtension: Virtual Machines
 Remove-AzureRmVmss: VM Scale Sets
 Remove-AzureRmVmssExtension: VM Scale Sets
 Remove-AzureRmVmssNetworkInterfaceConfiguration: Virtual Network
@@ -93,11 +93,11 @@ Set-AzureRmVMOperatingSystem: Virtual Machines
 Set-AzureRmVMOSDisk: VM Disks
 Set-AzureRmVMPlan: Virtual Machines
 Set-AzureRmVMSourceImage: VM Images
-Set-AzureRmVMSqlServerExtension: SQL
+Set-AzureRmVMSqlServerExtension: Virtual Machines
 Set-AzureRmVmss: VM Scale Sets
 Set-AzureRmVmssOsProfile: VM Scale Sets
-Set-AzureRmVmssStorageProfile: VM Scale Sets
-Set-AzureRmVmssVM: Virtual Machines
+Set-AzureRmVmssStorageProfile: Storage
+Set-AzureRmVmssVM: VM Scale Sets
 Start-AzureRmVM: Virtual Machines
 Start-AzureRmVmss: VM Scale Sets
 Stop-AzureRmVM: Virtual Machines

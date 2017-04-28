@@ -24,7 +24,7 @@ Get-AzureRmApiManagementSsoToken: API Management
 Import-AzureRmApiManagementHostnameCertificate: API Management
 New-AzureRmApiManagement: API Management
 New-AzureRmApiManagementHostnameConfiguration: API Management
-New-AzureRmApiManagementVirtualNetwork: API Management
+New-AzureRmApiManagementVirtualNetwork: Virtual Network
 Remove-AzureRmApiManagement: API Management
 Remove-AzureRmApiManagementRegion: API Management
 Restore-AzureRmApiManagement: API Management

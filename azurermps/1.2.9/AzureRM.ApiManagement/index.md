@@ -45,7 +45,7 @@ New-AzureRmApiManagementOperation: API Management
 New-AzureRmApiManagementProduct: API Management
 New-AzureRmApiManagementSubscription: API Management
 New-AzureRmApiManagementUser: API Management
-New-AzureRmApiManagementVirtualNetwork: API Management
+New-AzureRmApiManagementVirtualNetwork: Virtual Network
 Remove-AzureRmApiManagement: API Management
 Remove-AzureRmApiManagementApi: API Management
 Remove-AzureRmApiManagementApiFromProduct: API Management
@@ -71,7 +71,7 @@ Set-AzureRmApiManagementPolicy: API Management
 Set-AzureRmApiManagementProduct: API Management
 Set-AzureRmApiManagementSubscription: API Management
 Set-AzureRmApiManagementUser: API Management
-Set-AzureRmApiManagementVirtualNetworks: API Management
+Set-AzureRmApiManagementVirtualNetworks: Virtual Network
 Update-AzureRmApiManagementDeployment: API Management
 Update-AzureRmApiManagementRegion: API Management
 _isModulePage: true
