@@ -2,11 +2,11 @@
 Module Name: AzureRM.AzureStackstorage
 Module Guid: da5816b5-97a6-4301-9aa0-72cc68c79f20
 Locale: en-US
-updated_at: 04/12/2017 23:04 PM
-ms.date: 04/12/2017
+updated_at: 04/28/2017 21:04 PM
+ms.date: 04/28/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/Graham71305/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/AzureRM.AzureStackstorage.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/Graham71305/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/AzureRM.AzureStackstorage.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/5e633c61e46f8185ebf79434734d1a086daf7515
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/75431b1f2193df6595896df8a0c0bb66ae1d12ac
 ms.topic: conceptual
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -55,88 +55,88 @@ This topic displays help topics for the storage cmdlets operated by the Azure St
 
 ## AzureRM.AzureStackstorage Cmdlets
 ### [Add-ACSFarm](Add-ACSFarm.md)
-Register a new provisioned ACS farm.
+Registers a provisioned ACS farm.
 
 ### [Clear-ACSStorageAccount](Clear-ACSStorageAccount.md)
-Clear deleted tenant storage Accounts, regardless of retention period.
+Clears deleted tenant storage Accounts, regardless of retention period.
 
 ### [Get-ACSAcquisition](Get-ACSAcquisition.md)
-Get or list acquisitions
+Get or list acquisitions.
 
 ### [Get-ACSBlobService](Get-ACSBlobService.md)
-Retrieve the status and settings of Blob service
+Gets the status and settings of Blob service.
 
 ### [Get-ACSBlobServiceMetric](Get-ACSBlobServiceMetric.md)
-Retrieve the metrics of Blob service
+Gets the metrics of Blob service.
 
 ### [Get-ACSBlobServiceMetricDefinition](Get-ACSBlobServiceMetricDefinition.md)
-Retrieve the metric definitions of Blob service
+Gets the metric definitions of Blob service.
 
 ### [Get-ACSContainer](Get-ACSContainer.md)
-{{Fill in the Synopsis}}
+Gets the ACS container.
 
 ### [Get-ACSContainerMigrationStatus](Get-ACSContainerMigrationStatus.md)
 {{Fill in the Synopsis}}
 
 ### [Get-ACSFarm](Get-ACSFarm.md)
-Retrieve the Azure-consistent Storage Farm and its properties and settings.
+Gets the Azure-consistent Storage Farm and its properties and settings.
 
 ### [Get-ACSFarmMetric](Get-ACSFarmMetric.md)
-Retrieve the metrics of ACS farm
+Gets the metrics of ACS farm.
 
 ### [Get-ACSFarmMetricDefinition](Get-ACSFarmMetricDefinition.md)
-Retrieve the metric definitions of ACS farm
+Gets the metric definitions of ACS farm.
 
 ### [Get-ACSQueueService](Get-ACSQueueService.md)
-Retrieve status and settings of Queue service
+Gets status and settings of Queue service.
 
 ### [Get-ACSQueueServiceMetric](Get-ACSQueueServiceMetric.md)
-Retrieve the metrics of Queue service
+Gets the metrics of Queue service.
 
 ### [Get-ACSQueueServiceMetricDefinition](Get-ACSQueueServiceMetricDefinition.md)
-Retrieve the metric definitions of Table service
+Gets the metric definitions of Table service.
 
 ### [Get-ACSQuota](Get-ACSQuota.md)
-Get the Storage quota resource
+Gets the Storage quota resource.
 
 ### [Get-ACSShare](Get-ACSShare.md)
-Get list of SMB shares used in the Azure Consistent Storage system.
+Gets list of SMB shares used in the Azure Consistent Storage system.
 
 ### [Get-ACSShareMetric](Get-ACSShareMetric.md)
-Retrieve the metrics of a share
+Gets the metrics of a share.
 
 ### [Get-ACSShareMetricDefinition](Get-ACSShareMetricDefinition.md)
-Retrieve the metric definitions of share
+Gets the metric definitions of share.
 
 ### [Get-ACSSharesForMigration](Get-ACSSharesForMigration.md)
 {{Fill in the Synopsis}}
 
 ### [Get-ACSStorageAccount](Get-ACSStorageAccount.md)
-Retrieve a list of the tenant storage accounts based on the tenant subscription ID, account name (or part of the account name) , account status or based on a account ID.
+Gets a list of the tenant storage accounts based on the tenant subscription ID, account name (or part of the account name) , account status or based on a account ID.
 
 ### [Get-ACSTableService](Get-ACSTableService.md)
-Get status and settings of Table service.
+Gets status and settings of Table service.
 
 ### [Get-ACSTableServiceMetric](Get-ACSTableServiceMetric.md)
-Retrieve the metrics of Table service
+Gets the metrics of Table service.
 
 ### [Get-ACSTableServiceMetricDefinition](Get-ACSTableServiceMetricDefinition.md)
-Retrieve the metric definitions of Table service
+Gets the metric definitions of Table service
 
 ### [New-ACSQuota](New-ACSQuota.md)
-Create a new storage quota resource
+Create a storage quota resource.
 
 ### [Remove-ACSAcquisition](Remove-ACSAcquisition.md)
-Remove an acquisition
+Removes an acquisition.
 
 ### [Remove-ACSQuota](Remove-ACSQuota.md)
-Removes the Storage quota resource
+Removes the Storage quota resource.
 
 ### [Set-ACSFarm](Set-ACSFarm.md)
-Change the setting of service configuration on ACS Farm
+Changes the setting of service configuration on ACS Farm.
 
 ### [Set-ACSQuota](Set-ACSQuota.md)
-Updates an existing Storage quota resource
+Updates an existing Storage quota resource.
 
 ### [Start-ACSContainerMigration](Start-ACSContainerMigration.md)
 {{Fill in the Synopsis}}
@@ -145,8 +145,7 @@ Updates an existing Storage quota resource
 {{Fill in the Synopsis}}
 
 ### [Sync-ACSStorageAccount](Sync-ACSStorageAccount.md)
-Synchronize the account status of the tenant storage accounts from backend to frontend cache.
+Synchronizes the account status of the tenant storage accounts from backend to frontend cache.
 
 ### [Undo-ACSStorageAccountDeletion](Undo-ACSStorageAccountDeletion.md)
-Undelete a tenant storage account.
-
+Undo a tenant storage account.

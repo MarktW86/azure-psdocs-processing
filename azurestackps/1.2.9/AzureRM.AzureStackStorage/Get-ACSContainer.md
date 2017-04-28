@@ -2,11 +2,11 @@
 external help file: Microsoft.AzureStack.AzureConsistentStorage.Commands.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 04/27/2017 13:04 PM
-ms.date: 04/27/2017
+updated_at: 04/28/2017 21:04 PM
+ms.date: 04/28/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/Graham71305/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Get-ACSContainer.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/Graham71305/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Get-ACSContainer.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/9a4c46f4a899f4d01966831d3cc84fd5672d8b5d
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/75431b1f2193df6595896df8a0c0bb66ae1d12ac
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -19,7 +19,7 @@ ms.service: azure-stack
 # Get-ACSContainer
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+Gets the ACS container.
 
 ## SYNTAX
 
@@ -30,16 +30,9 @@ Get-ACSContainer [-ResourceGroupName] <String> [-FarmName] <String> [-ShareName]
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+The **Get-ACSContainer** cmdlet gets the Azure Consistent Storage (ACS) container.
 
 ## EXAMPLES
-
-### Example 1
-```
-PS C:\> {{ Add example code here }}
-```
-
-{{ Add example description here }}
 
 ## PARAMETERS
 
@@ -59,7 +52,7 @@ Accept wildcard characters: False
 ```
 
 ### -Count
-{{Fill Count Description}}
+
 
 ```yaml
 Type: UInt32
@@ -74,7 +67,7 @@ Accept wildcard characters: False
 ```
 
 ### -FarmName
-{{Fill FarmName Description}}
+Specifies the name of the server farm.
 
 ```yaml
 Type: String
@@ -89,7 +82,7 @@ Accept wildcard characters: False
 ```
 
 ### -Intent
-{{Fill Intent Description}}
+
 
 ```yaml
 Type: ContainerGetIntent
@@ -105,7 +98,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-{{Fill ResourceGroupName Description}}
+Specifies the name of the resource group that holds the ACS container.
 
 ```yaml
 Type: String
@@ -120,7 +113,7 @@ Accept wildcard characters: False
 ```
 
 ### -ShareName
-{{Fill ShareName Description}}
+Specifies the name of the used in the Azure Consistent Storage system.
 
 ```yaml
 Type: String
@@ -135,7 +128,7 @@ Accept wildcard characters: False
 ```
 
 ### -SkipCertificateValidation
-{{Fill SkipCertificateValidation Description}}
+Indicates that the cmdlet does not validate the certificate.
 
 ```yaml
 Type: SwitchParameter
@@ -150,7 +143,7 @@ Accept wildcard characters: False
 ```
 
 ### -SubscriptionId
-{{Fill SubscriptionId Description}}
+Specifies the subscription ID. 
 
 ```yaml
 Type: String
@@ -165,7 +158,7 @@ Accept wildcard characters: False
 ```
 
 ### -Token
-{{Fill Token Description}}
+
 
 ```yaml
 Type: String
@@ -194,3 +187,5 @@ System.Uri
 ## NOTES
 
 ## RELATED LINKS
+
+[Get-ACSContainerMigrationStatus](./Get-ACSContainerMigrationStatus.md)
