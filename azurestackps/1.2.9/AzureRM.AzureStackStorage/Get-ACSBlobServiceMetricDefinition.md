@@ -2,11 +2,11 @@
 external help file: Microsoft.AzureStack.AzureConsistentStorage.Commands.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 04/27/2017 13:04 PM
-ms.date: 04/27/2017
+updated_at: 04/28/2017 21:04 PM
+ms.date: 04/28/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Get-ACSBlobServiceMetricDefinition.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Get-ACSBlobServiceMetricDefinition.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/9a4c46f4a899f4d01966831d3cc84fd5672d8b5d
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/75431b1f2193df6595896df8a0c0bb66ae1d12ac
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -19,7 +19,7 @@ ms.service: azure-stack
 # Get-ACSBlobServiceMetricDefinition
 
 ## SYNOPSIS
-Retrieve the metric definitions of Blob service
+Gets the metric definitions of the BLOB service.
 
 ## SYNTAX
 
@@ -31,16 +31,9 @@ Get-ACSBlobServiceMetricDefinition [-FarmName] <String> [-ResourceGroupName] <St
 ```
 
 ## DESCRIPTION
-Retrieve the metric definitions of Blob service
+The **Get-ACSBlobServiceMetricDefinition** cmdlet gets the metric definitions of the BLOB service.
 
 ## EXAMPLES
-
-### Example 1
-```
-PS C:\> {{ Add example code here }}
-```
-
-{{ Add example description here }}
 
 ## PARAMETERS
 
@@ -60,7 +53,7 @@ Accept wildcard characters: False
 ```
 
 ### -DetailedOutput
-
+Indicates that the cmdlet gets detailed output.
 
 ```yaml
 Type: SwitchParameter
@@ -75,7 +68,7 @@ Accept wildcard characters: False
 ```
 
 ### -FarmName
-
+Specifies the name of the server farm.
 
 ```yaml
 Type: String
@@ -129,7 +122,7 @@ Accept wildcard characters: False
 ```
 
 ### -MetricNames
-
+Specifies a string array of metric names that this cmdlet gets definitions.
 
 ```yaml
 Type: String[]
@@ -144,7 +137,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-
+Specifies the name of the resource group that contains the BLOB service definition.
 
 ```yaml
 Type: String
@@ -159,7 +152,7 @@ Accept wildcard characters: False
 ```
 
 ### -SkipCertificateValidation
-
+Indicates that the cmdlet does not validate the certificate.
 
 ```yaml
 Type: SwitchParameter
@@ -174,7 +167,7 @@ Accept wildcard characters: False
 ```
 
 ### -SubscriptionId
-
+Specifies the subscription ID. 
 
 ```yaml
 Type: String
@@ -219,3 +212,5 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+
+[Get-ACSBlobServiceMetric](./Get-ACSBlobServiceMetric.md)
