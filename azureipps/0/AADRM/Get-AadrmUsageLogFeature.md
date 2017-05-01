@@ -3,11 +3,11 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkId=400617
 schema: 2.0.0
 ms.assetid: C63B5A33-75B8-43A4-83E2-F6AF477A5BBF
-updated_at: 04/11/2017 05:04 AM
-ms.date: 04/11/2017
+updated_at: 04/29/2017 00:04 AM
+ms.date: 04/29/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmUsageLogFeature.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmUsageLogFeature.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/2047afa5f7c701b3cf7c3a822ab28ef22a7a6869
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/aa36cee17bbd446f1306ffee721412d345e089e5
 ms.topic: reference
 author: cabailey
 ms.author: PowerShellHelpPub
@@ -20,7 +20,7 @@ ms.service: rights-management
 # Get-AadrmUsageLogFeature
 
 ## SYNOPSIS
-Gets the status of usage logging for Rights Management.
+Deprecated: Gets the status of legacy usage logging for Rights Management.
 
 ## SYNTAX
 
@@ -29,11 +29,9 @@ Get-AadrmUsageLogFeature [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-The **Get-AadrmUsageLogFeature** cmdlet gets the status of usage logging for Azure Rights Management.
+This cmdlet is now deprecated.
 
-You must use PowerShell to get this information; you cannot do this action by using a management portal.
-
-Note: This cmdlet always returns **False** after the usage logging change in February 2016. After this date, usage logging is enabled automatically and the only Windows PowerShell cmdlet that you need for Azure RMS usage logging is [Get-AadrmUserLog](./Get-AadrmUserLog.md).
+This cmdlet always returns **False** after the usage logging change in February 2016. After this date, usage logging is enabled automatically and the only Windows PowerShell cmdlet that you need for Azure RMS usage logging is [Get-AadrmUserLog](./Get-AadrmUserLog.md).
 
 For more information about usage logging, see [Logging and analyzing usage of the Azure Rights Management service](https://docs.microsoft.com/information-protection/deploy-use/log-analyze-usage).
 
@@ -42,10 +40,10 @@ For more information about usage logging, see [Logging and analyzing usage of th
 ### Example 1: Get usage log feature
 ```
 PS C:\>Get-AadrmUsageLogFeature
-True
+False
 ```
 
-This command gets whether the usage log feature is enabled.
+This command always returns False because this cmdlet is now deprecated.
 
 ## PARAMETERS
 
@@ -60,8 +58,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Disable-AadrmUsageLogFeature](./Disable-AadrmUsageLogFeature.md)
-
-[Enable-AadrmUsageLogFeature](./Enable-AadrmUsageLogFeature.md)
+[Get-AadrmUserLog](./Get-AadrmUserLog.md)
 
 [Logging and analyzing usage of the Azure Rights Management service](https://docs.microsoft.com/information-protection/deploy-use/log-analyze-usage)
