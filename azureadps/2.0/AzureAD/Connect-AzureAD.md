@@ -3,11 +3,11 @@ external help file: Microsoft.Open.Azure.AD.CommonLibrary.dll-Help.xml
 ms.assetid: A5EF9C25-E0D9-432F-A528-81534A01F444
 online version:
 schema: 2.0.0
-updated_at: 04/20/2017 04:04 AM
-ms.date: 04/20/2017
+updated_at: 05/01/2017 21:05 PM
+ms.date: 05/01/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Connect-AzureAD.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Connect-AzureAD.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/424c08eff259398d1aa2f26116c38cea5e911b45
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/1e5ab48da717fd164821967e570ccae43d55901d
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -26,22 +26,23 @@ Connects with an authenticated account to use Active Directory cmdlet requests.
 ### UserCredential (Default)
 ```
 Connect-AzureAD [-AzureEnvironmentName <EnvironmentName>] [-TenantId <String>] [-Credential <PSCredential>]
- [-AccountId <String>] [-LogLevel <LogLevel>] [-InformationAction <ActionPreference>]
+ [-AccountId <String>] [-LogLevel <LogLevel>] [-LogFilePath <String>] [-InformationAction <ActionPreference>]
  [-InformationVariable <String>] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ### ServicePrincipalCertificate
 ```
 Connect-AzureAD [-AzureEnvironmentName <EnvironmentName>] -TenantId <String> -CertificateThumbprint <String>
- -ApplicationId <String> [-LogLevel <LogLevel>] [-InformationAction <ActionPreference>]
+ -ApplicationId <String> [-LogLevel <LogLevel>] [-LogFilePath <String>] [-InformationAction <ActionPreference>]
  [-InformationVariable <String>] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ### AccessToken
 ```
 Connect-AzureAD [-AzureEnvironmentName <EnvironmentName>] [-TenantId <String>] -AadAccessToken <String>
- [-MsAccessToken <String>] -AccountId <String> [-LogLevel <LogLevel>] [-InformationAction <ActionPreference>]
- [-InformationVariable <String>] [-WhatIf] [-Confirm] [<CommonParameters>]
+ [-MsAccessToken <String>] -AccountId <String> [-LogLevel <LogLevel>] [-LogFilePath <String>]
+ [-InformationAction <ActionPreference>] [-InformationVariable <String>] [-WhatIf] [-Confirm]
+ [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -359,6 +360,21 @@ Aliases: wi
 Required: False
 Position: Named
 Default value: False
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -LogFilePath
+The path where the log file for this PowerShell session is written to. Provide a value here if you need to deviate from the default PowerShell log file location.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
