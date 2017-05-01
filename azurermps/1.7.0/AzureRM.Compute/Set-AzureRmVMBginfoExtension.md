@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Compute.dll-Help.xml
 online version:
 schema: 2.0.0
 ms.assetid: AF603495-E205-4000-928B-CF1C59551E39
-updated_at: 11/01/2016 22:11 PM
-ms.date: 11/01/2016
+updated_at: 04/20/2017 18:04 PM
+ms.date: 04/20/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Set-AzureRmVMBginfoExtension.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Set-AzureRmVMBginfoExtension.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/54d52272d43af01fff38caf3240535da82a4e43c
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -38,7 +38,7 @@ The **Set-AzureRmVMBGInfoExtension** cmdlet adds the BGInfo extension to a virtu
 
 ### Example 1: Add the BGInfo extension for a virtual machine
 ```
-PS C:\>Set-AzureVMBGInfoExtension -ResrouceGroupName "ContosoRG" -VMName "ContosoVM" -Name "ExtensionName" -TypeHandlerVersion "2.1" -Location "West Europe"
+PS C:\>Set-AzureVMBGInfoExtension -ResourceGroupName "ContosoRG" -VMName "ContosoVM" -Name "ExtensionName" -TypeHandlerVersion "2.1" -Location "West Europe"
 ```
 
 This command adds the BGInfo extension to virtual machine named ContosoVM.
