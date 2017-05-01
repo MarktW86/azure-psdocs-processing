@@ -3,11 +3,11 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkId=722835
 schema: 2.0.0
 ms.assetid: 7C339803-9C45-4B06-B741-DB8CD43EF886
-updated_at: 04/11/2017 05:04 AM
-ms.date: 04/11/2017
+updated_at: 04/29/2017 01:04 AM
+ms.date: 04/29/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmUserLog.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmUserLog.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/2047afa5f7c701b3cf7c3a822ab28ef22a7a6869
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/218462361c94f71429287edbdcecb154a63deecd
 ms.topic: reference
 author: cabailey
 ms.author: PowerShellHelpPub
@@ -30,17 +30,17 @@ Get-AadrmUserLog -Path <String> [-FromDate <DateTime>] [-ToDate <DateTime>] [-Fo
 ```
 
 ## DESCRIPTION
-The **Get-AadrmUserLog** cmdlet downloads Azure Rights Management user logs to local storage.
+The **Get-AadrmUserLog** cmdlet downloads Azure Rights Management user logs to local storage. You must specify either a specific date or a date range to download the log entries.
 
 You must use PowerShell to get these user logs; you cannot do this action by using a management portal.
 
 When you run this command and specify a date only for the **DateTime** objects, the time is assumed to be 00:00:00 in your local time, and then converted to UTC. 
 
-When you specify a time with a date (for example, -fordate "2/1/2016 15:00:00"), that date and time is converted to UTC. The **Get-AadrmUserLog** command then gets the logs for that UTC time period. 
+When you specify a time with a date (for example, -ForDate "2/1/2016 15:00:00"), that date and time is converted to UTC. The **Get-AadrmUserLog** command then gets the logs for that UTC time period. 
 
 See the examples for how you might need to change your **DateTime** values, to accommodate the conversion needed for your local time.
 
-For more information about usage logging, For more information about usage logging, see [Logging and analyzing usage of the Azure Rights Management service](https://docs.microsoft.com/information-protection/deploy-use/log-analyze-usage).
+For more information about usage logging and a step-by-step example, see [Logging and analyzing usage of the Azure Rights Management service](https://docs.microsoft.com/information-protection/deploy-use/log-analyze-usage).
 
 ## EXAMPLES
 
@@ -49,7 +49,8 @@ For more information about usage logging, For more information about usage loggi
 PS C:\>Get-AadrmUserLog -Path 'C:\Logs' -FromDate 12/12/2015 -ToDate 12/15/2015 -NumberOfThreads 10
 ```
 
-This command downloads user logs created between 12/12/2015 and 12/15/2015 (in UTC tme) to the folder C:\Logs.
+This command downloads user logs created between 12/12/2015 and 12/15/2015 (in UTC tme) to the folder C:\Logs. 
+
 The command uses 10 threads to download the logs.
 
 ### Example 2: Get user logs for a date

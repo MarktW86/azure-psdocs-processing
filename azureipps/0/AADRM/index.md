@@ -5,11 +5,11 @@ Download Help Link: N/A
 Help Version: 2.9.0.0
 Locale: en-US
 ms.assetid: 0B91D740-D2BD-4D57-9E21-C582C9BE2CCA
-updated_at: 04/18/2017 21:04 PM
-ms.date: 04/18/2017
+updated_at: 04/29/2017 00:04 AM
+ms.date: 04/29/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/RightsManagement.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/RightsManagement.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/64e4bfd0d000b17aa778b4c46124c22951d02017
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/aa36cee17bbd446f1306ffee721412d345e089e5
 ms.topic: conceptual
 author: cabailey
 ms.author: PowerShellHelpPub
@@ -234,7 +234,7 @@ Gets a list of Rights Management templates.
 
 
 ### [Get-AadrmUsageLogFeature](./Get-AadrmUsageLogFeature.md)
-Gets the status of usage logging for Rights Management.
+Deprecated: Gets the status of legacy usage logging for Rights Management.
 
 
 ### [Get-AadrmUsageLogLastCounterValue](./Get-AadrmUsageLogLastCounterValue.md)
