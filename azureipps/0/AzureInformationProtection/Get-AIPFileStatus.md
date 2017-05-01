@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: ED3F3730-434E-4EDF-969B-0ABE30D68030
 updated_at: 04/13/2017 16:04 PM
 ms.date: 04/13/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AzureInformationProtection/vlatest/Get-AIPFileStatus.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AzureInformationProtection/vlatest/Get-AIPFileStatus.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/release-doctracking/Azure%20Information%20Protection/AzureInformationProtection/vlatest/Get-AIPFileStatus.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/release-doctracking/Azure%20Information%20Protection/AzureInformationProtection/vlatest/Get-AIPFileStatus.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/04982db0e589eaad83c857df455917c085a673c1
 ms.topic: reference
 author: cabailey

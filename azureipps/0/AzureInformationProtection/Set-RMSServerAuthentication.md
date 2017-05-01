@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: 83B4D09E-ADAE-4DF9-9924-132A9FE47DFF
 updated_at: 02/14/2017 17:02 PM
 ms.date: 02/14/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AzureInformationProtection/vlatest/Set-RMSServerAuthentication.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AzureInformationProtection/vlatest/Set-RMSServerAuthentication.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/release-doctracking/Azure%20Information%20Protection/AzureInformationProtection/vlatest/Set-RMSServerAuthentication.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/release-doctracking/Azure%20Information%20Protection/AzureInformationProtection/vlatest/Set-RMSServerAuthentication.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/d1c5d3878715c0a5dd9195e1d580532ba3f2c68a
 ms.topic: reference
 author: cabailey

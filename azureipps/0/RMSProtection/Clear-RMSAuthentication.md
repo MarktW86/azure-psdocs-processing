@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: D0D6B294-8664-4E9A-8553-5031F452CC64
 updated_at: 02/08/2017 18:02 PM
 ms.date: 02/08/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/RMSProtection/vlatest/Clear-RMSAuthentication.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/RMSProtection/vlatest/Clear-RMSAuthentication.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/release-doctracking/Azure%20Information%20Protection/RMSProtection/vlatest/Clear-RMSAuthentication.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/release-doctracking/Azure%20Information%20Protection/RMSProtection/vlatest/Clear-RMSAuthentication.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/b5b814c02caa6cd576a3db614749957f10782144
 ms.topic: reference
 author: cabailey

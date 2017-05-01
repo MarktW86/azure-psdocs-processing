@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: C63B5A33-75B8-43A4-83E2-F6AF477A5BBF
 updated_at: 04/29/2017 00:04 AM
 ms.date: 04/29/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmUsageLogFeature.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmUsageLogFeature.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/release-doctracking/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmUsageLogFeature.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/release-doctracking/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmUsageLogFeature.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/aa36cee17bbd446f1306ffee721412d345e089e5
 ms.topic: reference
 author: cabailey

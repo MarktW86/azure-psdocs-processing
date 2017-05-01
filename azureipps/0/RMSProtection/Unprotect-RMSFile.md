@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: C07C0831-92B3-43CE-B18F-F2A12F3283DC
 updated_at: 03/07/2017 01:03 AM
 ms.date: 03/07/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/RMSProtection/vlatest/Unprotect-RMSFile.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/RMSProtection/vlatest/Unprotect-RMSFile.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/release-doctracking/Azure%20Information%20Protection/RMSProtection/vlatest/Unprotect-RMSFile.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/release-doctracking/Azure%20Information%20Protection/RMSProtection/vlatest/Unprotect-RMSFile.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/2dcadd30a529550a6c38ca36b089083710e8f317
 ms.topic: reference
 author: cabailey

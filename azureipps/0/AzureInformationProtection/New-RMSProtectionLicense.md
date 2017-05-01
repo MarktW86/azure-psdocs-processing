@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: 031B84B2-E380-4989-8FD9-45CC777FE017
 updated_at: 04/20/2017 18:04 PM
 ms.date: 04/20/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AzureInformationProtection/vlatest/New-RMSProtectionLicense.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AzureInformationProtection/vlatest/New-RMSProtectionLicense.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/release-doctracking/Azure%20Information%20Protection/AzureInformationProtection/vlatest/New-RMSProtectionLicense.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/release-doctracking/Azure%20Information%20Protection/AzureInformationProtection/vlatest/New-RMSProtectionLicense.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/ac82c149bc94d83b9068e89295b83de5a319517f
 ms.topic: reference
 author: cabailey

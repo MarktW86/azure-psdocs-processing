@@ -1,8 +1,8 @@
 ---
 title: Add-AadrmKey-retired| Microsoft Docs
 ms.assetid: A1C99424-D986-4A5A-B2E1-6D18EEF11B21
-content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/docs-conceptual/Add-AadrmKey.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/docs-conceptual/Add-AadrmKey.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/release-doctracking/Azure%20Information%20Protection/docs-conceptual/Add-AadrmKey.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/release-doctracking/Azure%20Information%20Protection/docs-conceptual/Add-AadrmKey.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/27625bb48f7fd554fac2e06f07fad34ae2d99149
 open_to_public_contributors: false
 ---

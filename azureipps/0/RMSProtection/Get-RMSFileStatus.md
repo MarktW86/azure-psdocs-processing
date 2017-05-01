@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: 074F42BF-D30C-45C4-88F9-E445A7DFEA41
 updated_at: 01/16/2017 20:01 PM
 ms.date: 01/16/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/RMSProtection/vlatest/Get-RMSFileStatus.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/RMSProtection/vlatest/Get-RMSFileStatus.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/release-doctracking/Azure%20Information%20Protection/RMSProtection/vlatest/Get-RMSFileStatus.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/release-doctracking/Azure%20Information%20Protection/RMSProtection/vlatest/Get-RMSFileStatus.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/f1352338bfee6b58a131e5d9723b53e5719e2276
 ms.topic: reference
 author: cabailey

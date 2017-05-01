@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: 23E946A0-E6FC-4F8C-8F3B-352AD48CE426
 updated_at: 05/01/2017 16:05 PM
 ms.date: 05/01/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Set-AadrmSuperUserGroup.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Set-AadrmSuperUserGroup.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/release-doctracking/Azure%20Information%20Protection/AADRM/vlatest/Set-AadrmSuperUserGroup.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/release-doctracking/Azure%20Information%20Protection/AADRM/vlatest/Set-AadrmSuperUserGroup.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/64e9c474de8ba424ec88327ada5252d3a5907d98
 ms.topic: reference
 author: cabailey

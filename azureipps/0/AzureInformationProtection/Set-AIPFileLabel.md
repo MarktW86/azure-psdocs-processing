@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: 566E595C-D574-4DED-AE38-CBCD75694B45
 updated_at: 04/13/2017 16:04 PM
 ms.date: 04/13/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AzureInformationProtection/vlatest/Set-AIPFileLabel.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AzureInformationProtection/vlatest/Set-AIPFileLabel.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/release-doctracking/Azure%20Information%20Protection/AzureInformationProtection/vlatest/Set-AIPFileLabel.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/release-doctracking/Azure%20Information%20Protection/AzureInformationProtection/vlatest/Set-AIPFileLabel.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/04982db0e589eaad83c857df455917c085a673c1
 ms.topic: reference
 author: cabailey

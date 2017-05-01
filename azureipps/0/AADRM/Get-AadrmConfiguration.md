@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: 57CD3929-8922-43C2-9056-B5543F1FD0BB
 updated_at: 02/12/2017 21:02 PM
 ms.date: 02/12/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmConfiguration.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmConfiguration.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/release-doctracking/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmConfiguration.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/release-doctracking/Azure%20Information%20Protection/AADRM/vlatest/Get-AadrmConfiguration.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/e4c765ba645ee6c466dd1ff7182695aa9e59fb44
 ms.topic: reference
 author: cabailey

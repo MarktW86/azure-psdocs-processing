@@ -5,8 +5,8 @@ Locale: en-US
 ms.assetid: 35D99F89-BD73-457E-95C7-73857656FB59
 updated_at: 02/05/2017 20:02 PM
 ms.date: 02/05/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/RMSProtection/vlatest/RightsProtection.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/RMSProtection/vlatest/RightsProtection.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/release-doctracking/Azure%20Information%20Protection/RMSProtection/vlatest/RightsProtection.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/release-doctracking/Azure%20Information%20Protection/RMSProtection/vlatest/RightsProtection.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/9e8d03eb755301409a160fcbe692a6cbfd19e9e0
 ms.topic: conceptual
 author: cabailey
