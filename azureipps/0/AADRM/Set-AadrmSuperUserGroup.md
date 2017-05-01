@@ -3,11 +3,11 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkId=722838
 schema: 2.0.0
 ms.assetid: 23E946A0-E6FC-4F8C-8F3B-352AD48CE426
-updated_at: 04/29/2017 00:04 AM
-ms.date: 04/29/2017
+updated_at: 05/01/2017 16:05 PM
+ms.date: 05/01/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Set-AadrmSuperUserGroup.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Set-AadrmSuperUserGroup.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/aa36cee17bbd446f1306ffee721412d345e089e5
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/64e9c474de8ba424ec88327ada5252d3a5907d98
 ms.topic: reference
 author: cabailey
 ms.author: PowerShellHelpPub
@@ -31,7 +31,7 @@ Set-AadrmSuperUserGroup -GroupEmailAddress <String> [<CommonParameters>]
 ## DESCRIPTION
 The **Set-AadrmSuperUserGroup** cmdlet specifies a group to use as the super user group for your Azure Rights Management service. Members of this group are then super users, which means they become a Rights Management owner for all content that is protected by your organization. These super users can decrypt this protected content and remove protection from it, even if an expiration date has been set and expired. Typically, this level of access is required for legal eDiscovery and by auditing teams.
 
-You can specify any group that has an email address, but be aware that for performance reasons, group membership is cached. For information about group requirements, see [Preparing for Azure Information Protection](https://docs.microsoft.com/information-protection/plan-design/prepare).
+You can specify any group that has an email address, but be aware that for performance reasons, group membership is cached. For information about group requirements, see [Preparing users and groups for Azure Information Protection](https://docs.microsoft.com/information-protection/plan-design/prepare).
 
 If a super user group already exists, running this cmdlet overwrites it. This cmdlet does not affect users that are individually assigned as super users with the [Add-AadrmSuperUser](./Add-AadrmSuperUser.md) cmdlet.
 
@@ -88,5 +88,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Clear-AadrmSuperUserGroup](./Clear-AadrmSuperUserGroup.md)
 
 [Get-AadrmSuperUserGroup](./Get-AadrmSuperUserGroup.md)
-
-[Configuring super users for Azure Rights Management and discovery services or data recovery](https://docs.microsoft.com/information-protection/deploy-use/configure-super-users)
