@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.Azure.Commands.Compute.dll-Help.xml
+ms.assetid: BE03B82D-16B8-407F-B774-62A872E99F3D
 online version:
 schema: 2.0.0
-ms.assetid: BE03B82D-16B8-407F-B774-62A872E99F3D
-updated_at: 11/01/2016 22:11 PM
-ms.date: 11/01/2016
+updated_at: 05/01/2017 21:05 PM
+ms.date: 05/01/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Add-AzureRmVMNetworkInterface.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Add-AzureRmVMNetworkInterface.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0589fbf53d27e39e0cf445261d29c64fb0859d62
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -70,23 +70,6 @@ The final command updates the state of the virtual machine stored in $VirtualMac
 
 ## PARAMETERS
 
-### -VM
-Specifies a local virtual machine object to which to add a network interface.
-To create a virtual machine, use the New-AzureRmVMConfig cmdlet.
-To obtain an existing virtual machine, use the Get-AzureRmVM cmdlet.
-
-```yaml
-Type: PSVirtualMachine
-Parameter Sets: (All)
-Aliases: VMProfile
-
-Required: True
-Position: 0
-Default value: None
-Accept pipeline input: True (ByPropertyName, ByValue)
-Accept wildcard characters: False
-```
-
 ### -Id
 Specifies the ID of a network interface to add to a virtual machine.
 You can use the Get-AzureRmNetworkInterface cmdlet to obtain a network interface.
@@ -98,21 +81,6 @@ Aliases: NicId, NetworkInterfaceId
 
 Required: True
 Position: 1
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -Primary
-Indicates that this cmdlet adds the network interface as the primary interface.
-
-```yaml
-Type: SwitchParameter
-Parameter Sets: GetNicFromNicId
-Aliases: 
-
-Required: False
-Position: 2
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
@@ -169,6 +137,38 @@ Required: True
 Position: 1
 Default value: None
 Accept pipeline input: True (ByValue)
+Accept wildcard characters: False
+```
+
+### -Primary
+Indicates that this cmdlet adds the network interface as the primary interface.
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: GetNicFromNicId
+Aliases: 
+
+Required: False
+Position: 2
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -VM
+Specifies a local virtual machine object to which to add a network interface.
+To create a virtual machine, use the New-AzureRmVMConfig cmdlet.
+To obtain an existing virtual machine, use the Get-AzureRmVM cmdlet.
+
+```yaml
+Type: PSVirtualMachine
+Parameter Sets: (All)
+Aliases: VMProfile
+
+Required: True
+Position: 0
+Default value: None
+Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
 ```
 

@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.Azure.Commands.Compute.dll-Help.xml
+ms.assetid: 3A4888E7-DF4E-47EF-95EC-C86929DD9B34
 online version:
 schema: 2.0.0
-ms.assetid: 3A4888E7-DF4E-47EF-95EC-C86929DD9B34
-updated_at: 11/11/2016 23:11 PM
-ms.date: 11/11/2016
+updated_at: 05/01/2017 21:05 PM
+ms.date: 05/01/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.1.0/Get-AzureRmVM.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.1.0/Get-AzureRmVM.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0589fbf53d27e39e0cf445261d29c64fb0859d62
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -26,22 +26,25 @@ Gets the properties of a virtual machine.
 
 ### ListAllVirtualMachinesParamSet (Default)
 ```
-Get-AzureRmVM [<CommonParameters>]
-```
-
-### GetVirtualMachineInResourceGroupParamSet
-```
-Get-AzureRmVM [-ResourceGroupName] <String> [-Name] <String> [-Status] [<CommonParameters>]
+Get-AzureRmVM [-InformationAction <ActionPreference>] [-InformationVariable <String>] [<CommonParameters>]
 ```
 
 ### ListVirtualMachineInResourceGroupParamSet
 ```
-Get-AzureRmVM [-ResourceGroupName] <String> [<CommonParameters>]
+Get-AzureRmVM [-ResourceGroupName] <String> [-InformationAction <ActionPreference>]
+ [-InformationVariable <String>] [<CommonParameters>]
+```
+
+### GetVirtualMachineInResourceGroupParamSet
+```
+Get-AzureRmVM [-ResourceGroupName] <String> [-Name] <String> [-Status] [-InformationAction <ActionPreference>]
+ [-InformationVariable <String>] [<CommonParameters>]
 ```
 
 ### ListNextLinkVirtualMachinesParamSet
 ```
-Get-AzureRmVM [-NextLink] <Uri> [<CommonParameters>]
+Get-AzureRmVM [-NextLink] <Uri> [-InformationAction <ActionPreference>] [-InformationVariable <String>]
+ [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -84,33 +87,29 @@ This command gets all the virtual machines in your subscription.
 
 ## PARAMETERS
 
-### -Name
-Specifies the name of the virtual machine to get.
+### -InformationAction
+@{Text=}```yaml
+Type: ActionPreference
+Parameter Sets: (All)
+Aliases: infa
 
-```yaml
-Type: String
-Parameter Sets: GetVirtualMachineInResourceGroupParamSet
-Aliases: ResourceName, VMName
-
-Required: True
-Position: 2
+Required: False
+Position: Named
 Default value: None
-Accept pipeline input: True (ByPropertyName)
+Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -NextLink
-Specifies the next link.
+### -InformationVariable
+@{Text=}```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: iv
 
-```yaml
-Type: Uri
-Parameter Sets: ListNextLinkVirtualMachinesParamSet
-Aliases: 
-
-Required: True
-Position: 2
+Required: False
+Position: Named
 Default value: None
-Accept pipeline input: True (ByPropertyName)
+Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
@@ -119,8 +118,23 @@ Specifies the name of a resource group.
 
 ```yaml
 Type: String
-Parameter Sets: GetVirtualMachineInResourceGroupParamSet, ListVirtualMachineInResourceGroupParamSet
+Parameter Sets: ListVirtualMachineInResourceGroupParamSet, GetVirtualMachineInResourceGroupParamSet
 Aliases: 
+
+Required: True
+Position: 0
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -Name
+Specifies the name of the virtual machine to get.
+
+```yaml
+Type: String
+Parameter Sets: GetVirtualMachineInResourceGroupParamSet
+Aliases: ResourceName, VMName
 
 Required: True
 Position: 1
@@ -138,9 +152,24 @@ Parameter Sets: GetVirtualMachineInResourceGroupParamSet
 Aliases: 
 
 Required: False
-Position: 3
+Position: 2
 Default value: None
 Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -NextLink
+Specifies the next link.
+
+```yaml
+Type: Uri
+Parameter Sets: ListNextLinkVirtualMachinesParamSet
+Aliases: 
+
+Required: True
+Position: 1
+Default value: None
+Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 

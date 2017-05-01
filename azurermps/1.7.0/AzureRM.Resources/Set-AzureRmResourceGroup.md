@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.Azure.Commands.ResourceManager.Cmdlets.dll-Help.xml
+ms.assetid: F8BB065B-E6E9-49AE-A7AB-815068C40F23
 online version:
 schema: 2.0.0
-ms.assetid: F8BB065B-E6E9-49AE-A7AB-815068C40F23
-updated_at: 11/01/2016 22:11 PM
-ms.date: 11/01/2016
+updated_at: 05/01/2017 21:05 PM
+ms.date: 05/01/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v2.0.3/Set-AzureRmResourceGroup.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v2.0.3/Set-AzureRmResourceGroup.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0589fbf53d27e39e0cf445261d29c64fb0859d62
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -26,13 +26,12 @@ Modifies a resource group.
 
 ### Lists the resource group based in the name. (Default)
 ```
-Set-AzureRmResourceGroup [-Name] <String> [-Tag] <Hashtable[]> [-ApiVersion <String>] [-Pre]
- [<CommonParameters>]
+Set-AzureRmResourceGroup [-Name] <String> [-Tag] <Hashtable> [-ApiVersion <String>] [-Pre] [<CommonParameters>]
 ```
 
 ### Lists the resource group based in the Id.
 ```
-Set-AzureRmResourceGroup [-Tag] <Hashtable[]> [-Id] <String> [-ApiVersion <String>] [-Pre] [<CommonParameters>]
+Set-AzureRmResourceGroup [-Tag] <Hashtable> [-Id] <String> [-ApiVersion <String>] [-Pre] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -131,7 +130,7 @@ To delete a tag, enter a hash table with all tags currently applied to the resou
 To delete all tags from a resource group, specify an empty hash table: `@{}`.
 
 ```yaml
-Type: Hashtable[]
+Type: Hashtable
 Parameter Sets: (All)
 Aliases: Tags
 

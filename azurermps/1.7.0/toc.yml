@@ -54,30 +54,158 @@
     - name: API Management
       href: 'AzureRM.ApiManagement/index.md#api_management'
       items:
+        - name: Add-AzureRmApiManagementApiToProduct
+          href: AzureRM.ApiManagement/Add-AzureRmApiManagementApiToProduct.md
+        - name: Add-AzureRmApiManagementProductToGroup
+          href: AzureRM.ApiManagement/Add-AzureRmApiManagementProductToGroup.md
         - name: Add-AzureRmApiManagementRegion
           href: AzureRM.ApiManagement/Add-AzureRmApiManagementRegion.md
+        - name: Add-AzureRmApiManagementUserToGroup
+          href: AzureRM.ApiManagement/Add-AzureRmApiManagementUserToGroup.md
         - name: Backup-AzureRmApiManagement
           href: AzureRM.ApiManagement/Backup-AzureRmApiManagement.md
+        - name: Export-AzureRmApiManagementApi
+          href: AzureRM.ApiManagement/Export-AzureRmApiManagementApi.md
         - name: Get-AzureRmApiManagement
           href: AzureRM.ApiManagement/Get-AzureRmApiManagement.md
+        - name: Get-AzureRmApiManagementApi
+          href: AzureRM.ApiManagement/Get-AzureRmApiManagementApi.md
+        - name: Get-AzureRmApiManagementAuthorizationServer
+          href: AzureRM.ApiManagement/Get-AzureRmApiManagementAuthorizationServer.md
+        - name: Get-AzureRmApiManagementCertificate
+          href: AzureRM.ApiManagement/Get-AzureRmApiManagementCertificate.md
+        - name: Get-AzureRmApiManagementGroup
+          href: AzureRM.ApiManagement/Get-AzureRmApiManagementGroup.md
+        - name: Get-AzureRmApiManagementLogger
+          href: AzureRM.ApiManagement/Get-AzureRmApiManagementLogger.md
+        - name: Get-AzureRmApiManagementOpenIdConnectProvider
+          href: AzureRM.ApiManagement/Get-AzureRmApiManagementOpenIdConnectProvider.md
+        - name: Get-AzureRmApiManagementOperation
+          href: AzureRM.ApiManagement/Get-AzureRmApiManagementOperation.md
+        - name: Get-AzureRmApiManagementPolicy
+          href: AzureRM.ApiManagement/Get-AzureRmApiManagementPolicy.md
+        - name: Get-AzureRmApiManagementProduct
+          href: AzureRM.ApiManagement/Get-AzureRmApiManagementProduct.md
+        - name: Get-AzureRmApiManagementProperty
+          href: AzureRM.ApiManagement/Get-AzureRmApiManagementProperty.md
         - name: Get-AzureRmApiManagementSsoToken
           href: AzureRM.ApiManagement/Get-AzureRmApiManagementSsoToken.md
+        - name: Get-AzureRmApiManagementSubscription
+          href: AzureRM.ApiManagement/Get-AzureRmApiManagementSubscription.md
+        - name: Get-AzureRmApiManagementTenantAccess
+          href: AzureRM.ApiManagement/Get-AzureRmApiManagementTenantAccess.md
+        - name: Get-AzureRmApiManagementTenantGitAccess
+          href: AzureRM.ApiManagement/Get-AzureRmApiManagementTenantGitAccess.md
+        - name: Get-AzureRmApiManagementTenantSyncState
+          href: AzureRM.ApiManagement/Get-AzureRmApiManagementTenantSyncState.md
+        - name: Get-AzureRmApiManagementUser
+          href: AzureRM.ApiManagement/Get-AzureRmApiManagementUser.md
+        - name: Get-AzureRmApiManagementUserSsoUrl
+          href: AzureRM.ApiManagement/Get-AzureRmApiManagementUserSsoUrl.md
+        - name: Import-AzureRmApiManagementApi
+          href: AzureRM.ApiManagement/Import-AzureRmApiManagementApi.md
         - name: Import-AzureRmApiManagementHostnameCertificate
           href: AzureRM.ApiManagement/Import-AzureRmApiManagementHostnameCertificate.md
         - name: New-AzureRmApiManagement
           href: AzureRM.ApiManagement/New-AzureRmApiManagement.md
+        - name: New-AzureRmApiManagementApi
+          href: AzureRM.ApiManagement/New-AzureRmApiManagementApi.md
+        - name: New-AzureRmApiManagementAuthorizationServer
+          href: AzureRM.ApiManagement/New-AzureRmApiManagementAuthorizationServer.md
+        - name: New-AzureRmApiManagementCertificate
+          href: AzureRM.ApiManagement/New-AzureRmApiManagementCertificate.md
+        - name: New-AzureRmApiManagementContext
+          href: AzureRM.ApiManagement/New-AzureRmApiManagementContext.md
+        - name: New-AzureRmApiManagementGroup
+          href: AzureRM.ApiManagement/New-AzureRmApiManagementGroup.md
         - name: New-AzureRmApiManagementHostnameConfiguration
           href: AzureRM.ApiManagement/New-AzureRmApiManagementHostnameConfiguration.md
+        - name: New-AzureRmApiManagementLogger
+          href: AzureRM.ApiManagement/New-AzureRmApiManagementLogger.md
+        - name: New-AzureRmApiManagementOpenIdConnectProvider
+          href: AzureRM.ApiManagement/New-AzureRmApiManagementOpenIdConnectProvider.md
+        - name: New-AzureRmApiManagementOperation
+          href: AzureRM.ApiManagement/New-AzureRmApiManagementOperation.md
+        - name: New-AzureRmApiManagementProduct
+          href: AzureRM.ApiManagement/New-AzureRmApiManagementProduct.md
+        - name: New-AzureRmApiManagementProperty
+          href: AzureRM.ApiManagement/New-AzureRmApiManagementProperty.md
+        - name: New-AzureRmApiManagementSubscription
+          href: AzureRM.ApiManagement/New-AzureRmApiManagementSubscription.md
+        - name: New-AzureRmApiManagementUser
+          href: AzureRM.ApiManagement/New-AzureRmApiManagementUser.md
         - name: New-AzureRmApiManagementVirtualNetwork
           href: AzureRM.ApiManagement/New-AzureRmApiManagementVirtualNetwork.md
+        - name: Publish-AzureRmApiManagementTenantGitConfiguration
+          href: AzureRM.ApiManagement/Publish-AzureRmApiManagementTenantGitConfiguration.md
         - name: Remove-AzureRmApiManagement
           href: AzureRM.ApiManagement/Remove-AzureRmApiManagement.md
+        - name: Remove-AzureRmApiManagementApi
+          href: AzureRM.ApiManagement/Remove-AzureRmApiManagementApi.md
+        - name: Remove-AzureRmApiManagementApiFromProduct
+          href: AzureRM.ApiManagement/Remove-AzureRmApiManagementApiFromProduct.md
+        - name: Remove-AzureRmApiManagementAuthorizationServer
+          href: AzureRM.ApiManagement/Remove-AzureRmApiManagementAuthorizationServer.md
+        - name: Remove-AzureRmApiManagementCertificate
+          href: AzureRM.ApiManagement/Remove-AzureRmApiManagementCertificate.md
+        - name: Remove-AzureRmApiManagementGroup
+          href: AzureRM.ApiManagement/Remove-AzureRmApiManagementGroup.md
+        - name: Remove-AzureRmApiManagementLogger
+          href: AzureRM.ApiManagement/Remove-AzureRmApiManagementLogger.md
+        - name: Remove-AzureRmApiManagementOpenIdConnectProvider
+          href: AzureRM.ApiManagement/Remove-AzureRmApiManagementOpenIdConnectProvider.md
+        - name: Remove-AzureRmApiManagementOperation
+          href: AzureRM.ApiManagement/Remove-AzureRmApiManagementOperation.md
+        - name: Remove-AzureRmApiManagementPolicy
+          href: AzureRM.ApiManagement/Remove-AzureRmApiManagementPolicy.md
+        - name: Remove-AzureRmApiManagementProduct
+          href: AzureRM.ApiManagement/Remove-AzureRmApiManagementProduct.md
+        - name: Remove-AzureRmApiManagementProductFromGroup
+          href: AzureRM.ApiManagement/Remove-AzureRmApiManagementProductFromGroup.md
+        - name: Remove-AzureRmApiManagementProperty
+          href: AzureRM.ApiManagement/Remove-AzureRmApiManagementProperty.md
         - name: Remove-AzureRmApiManagementRegion
           href: AzureRM.ApiManagement/Remove-AzureRmApiManagementRegion.md
+        - name: Remove-AzureRmApiManagementSubscription
+          href: AzureRM.ApiManagement/Remove-AzureRmApiManagementSubscription.md
+        - name: Remove-AzureRmApiManagementUser
+          href: AzureRM.ApiManagement/Remove-AzureRmApiManagementUser.md
+        - name: Remove-AzureRmApiManagementUserFromGroup
+          href: AzureRM.ApiManagement/Remove-AzureRmApiManagementUserFromGroup.md
         - name: Restore-AzureRmApiManagement
           href: AzureRM.ApiManagement/Restore-AzureRmApiManagement.md
+        - name: Save-AzureRmApiManagementTenantGitConfiguration
+          href: AzureRM.ApiManagement/Save-AzureRmApiManagementTenantGitConfiguration.md
+        - name: Set-AzureRmApiManagementApi
+          href: AzureRM.ApiManagement/Set-AzureRmApiManagementApi.md
+        - name: Set-AzureRmApiManagementAuthorizationServer
+          href: AzureRM.ApiManagement/Set-AzureRmApiManagementAuthorizationServer.md
+        - name: Set-AzureRmApiManagementCertificate
+          href: AzureRM.ApiManagement/Set-AzureRmApiManagementCertificate.md
+        - name: Set-AzureRmApiManagementGroup
+          href: AzureRM.ApiManagement/Set-AzureRmApiManagementGroup.md
         - name: Set-AzureRmApiManagementHostnames
           href: AzureRM.ApiManagement/Set-AzureRmApiManagementHostnames.md
+        - name: Set-AzureRmApiManagementLogger
+          href: AzureRM.ApiManagement/Set-AzureRmApiManagementLogger.md
+        - name: Set-AzureRmApiManagementOpenIdConnectProvider
+          href: AzureRM.ApiManagement/Set-AzureRmApiManagementOpenIdConnectProvider.md
+        - name: Set-AzureRmApiManagementOperation
+          href: AzureRM.ApiManagement/Set-AzureRmApiManagementOperation.md
+        - name: Set-AzureRmApiManagementPolicy
+          href: AzureRM.ApiManagement/Set-AzureRmApiManagementPolicy.md
+        - name: Set-AzureRmApiManagementProduct
+          href: AzureRM.ApiManagement/Set-AzureRmApiManagementProduct.md
+        - name: Set-AzureRmApiManagementProperty
+          href: AzureRM.ApiManagement/Set-AzureRmApiManagementProperty.md
+        - name: Set-AzureRmApiManagementSubscription
+          href: AzureRM.ApiManagement/Set-AzureRmApiManagementSubscription.md
+        - name: Set-AzureRmApiManagementTenantAccess
+          href: AzureRM.ApiManagement/Set-AzureRmApiManagementTenantAccess.md
+        - name: Set-AzureRmApiManagementUser
+          href: AzureRM.ApiManagement/Set-AzureRmApiManagementUser.md
+        - name: Set-AzureRmApiManagementVirtualNetworks
+          href: AzureRM.ApiManagement/Set-AzureRmApiManagementVirtualNetworks.md
         - name: Update-AzureRmApiManagementDeployment
           href: AzureRM.ApiManagement/Update-AzureRmApiManagementDeployment.md
         - name: Update-AzureRmApiManagementRegion
@@ -1452,10 +1580,40 @@
         - name: Set-AzureRmNotificationHubsNamespaceAuthorizationRules
           href: AzureRM.NotificationHubs/Set-AzureRmNotificationHubsNamespaceAuthorizationRules.md
     - name: Others
-      href: 'AzureRM.Resources/index.md#others'
+      href: 'AzureRM.HDInsight/index.md#others'
       items:
+        - name: New-AzureHDInsightClusterIdentity
+          href: AzureRM.HDInsight/New-AzureHDInsightClusterIdentity.md
+        - name: Get-AzureRmLogicAppTriggerCallbackUrl
+          href: AzureRM.LogicApp/Get-AzureRmLogicAppTriggerCallbackUrl.md
+        - name: Get-AzureRmLogicAppUpgradedDefinition
+          href: AzureRM.LogicApp/Get-AzureRmLogicAppUpgradedDefinition.md
+        - name: Test-AzureRmLogicApp
+          href: AzureRM.LogicApp/Test-AzureRmLogicApp.md
+        - name: Get-AzureRmADAppCredential
+          href: AzureRM.Resources/Get-AzureRmADAppCredential.md
+        - name: Get-AzureRmADSpCredential
+          href: AzureRM.Resources/Get-AzureRmADSpCredential.md
         - name: Get-AzureRmAuthorizationChangeLog
           href: AzureRM.Resources/Get-AzureRmAuthorizationChangeLog.md
+        - name: New-AzureRmADAppCredential
+          href: AzureRM.Resources/New-AzureRmADAppCredential.md
+        - name: New-AzureRmADSpCredential
+          href: AzureRM.Resources/New-AzureRmADSpCredential.md
+        - name: New-AzureRmADUser
+          href: AzureRM.Resources/New-AzureRmADUser.md
+        - name: Remove-AzureRmADAppCredential
+          href: AzureRM.Resources/Remove-AzureRmADAppCredential.md
+        - name: Remove-AzureRmADSpCredential
+          href: AzureRM.Resources/Remove-AzureRmADSpCredential.md
+        - name: Remove-AzureRmADUser
+          href: AzureRM.Resources/Remove-AzureRmADUser.md
+        - name: Set-AzureRmADApplication
+          href: AzureRM.Resources/Set-AzureRmADApplication.md
+        - name: Set-AzureRmADServicePrincipal
+          href: AzureRM.Resources/Set-AzureRmADServicePrincipal.md
+        - name: Set-AzureRmADUser
+          href: AzureRM.Resources/Set-AzureRmADUser.md
     - name: Policies
       href: 'AzureRM.Resources/index.md#policies'
       items:
@@ -1968,6 +2126,15 @@
           href: AzureRM.StreamAnalytics/Test-AzureRmStreamAnalyticsInput.md
         - name: Test-AzureRmStreamAnalyticsOutput
           href: AzureRM.StreamAnalytics/Test-AzureRmStreamAnalyticsOutput.md
+    - name: Tags
+      href: 'AzureRM.Tags/index.md#tags'
+      items:
+        - name: Get-AzureRmTag
+          href: AzureRM.Tags/Get-AzureRmTag.md
+        - name: New-AzureRmTag
+          href: AzureRM.Tags/New-AzureRmTag.md
+        - name: Remove-AzureRmTag
+          href: AzureRM.Tags/Remove-AzureRmTag.md
     - name: Traffic Manager
       href: 'AzureRM.TrafficManager/index.md#traffic_manager'
       items:

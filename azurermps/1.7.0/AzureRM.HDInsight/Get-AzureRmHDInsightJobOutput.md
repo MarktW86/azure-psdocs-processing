@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.Azure.Commands.HDInsight.dll-Help.xml
+ms.assetid: 8ACEF132-C795-405B-8A1C-90D35E744272
 online version:
 schema: 2.0.0
-ms.assetid: 8ACEF132-C795-405B-8A1C-90D35E744272
-updated_at: 11/01/2016 22:11 PM
-ms.date: 11/01/2016
+updated_at: 05/01/2017 21:05 PM
+ms.date: 05/01/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v1.1.4/Get-AzureRmHDInsightJobOutput.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v1.1.4/Get-AzureRmHDInsightJobOutput.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0589fbf53d27e39e0cf445261d29c64fb0859d62
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -24,11 +24,19 @@ Gets the log output for a job from the storage account associated with a specifi
 
 ## SYNTAX
 
+### Display
 ```
-Get-AzureRmHDInsightJobOutput [-ClusterName] <String> [-JobId] <String> [[-DefaultContainer] <String>]
- [[-DefaultStorageAccountName] <String>] [[-DefaultStorageAccountKey] <String>]
- [-HttpCredential] <PSCredential> [-ResourceGroupName <String>] [-DisplayOutputType <JobDisplayOutputType>]
- [-InformationAction <ActionPreference>] [-InformationVariable <String>] [<CommonParameters>]
+Get-AzureRmHDInsightJobOutput [-ClusterName] <String> [-JobId] <String> [-DefaultContainer] <String>
+ [-DefaultStorageAccountName] <String> [-DefaultStorageAccountKey] <String> -HttpCredential <PSCredential>
+ [[-ResourceGroupName] <String>] [-DisplayOutputType <JobDisplayOutputType>] [<CommonParameters>]
+```
+
+### Download
+```
+Get-AzureRmHDInsightJobOutput [-ClusterName] <String> [-JobId] <String> [-DefaultContainer] <String>
+ [-DefaultStorageAccountName] <String> [-DefaultStorageAccountKey] <String> -HttpCredential <PSCredential>
+ [[-ResourceGroupName] <String>] -DownloadOutputType <JobDownloadOutputType> -Folder <String>
+ [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -60,6 +68,21 @@ This command gets the log output from the cluster named your-hadoop-001.
 
 ## PARAMETERS
 
+### -ResourceGroupName
+Specifies the name of the resource group.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: 0
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
 ### -ClusterName
 Specifies the name of the cluster.
 
@@ -69,7 +92,7 @@ Parameter Sets: (All)
 Aliases: 
 
 Required: True
-Position: 0
+Position: 1
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -84,7 +107,7 @@ Parameter Sets: (All)
 Aliases: 
 
 Required: True
-Position: 1
+Position: 2
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -98,8 +121,8 @@ Type: String
 Parameter Sets: (All)
 Aliases: 
 
-Required: False
-Position: 2
+Required: True
+Position: 3
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -113,8 +136,8 @@ Type: String
 Parameter Sets: (All)
 Aliases: 
 
-Required: False
-Position: 3
+Required: True
+Position: 4
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -128,38 +151,8 @@ Type: String
 Parameter Sets: (All)
 Aliases: 
 
-Required: False
-Position: 4
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -HttpCredential
-Specifies the cluster login (HTTP) credentials for the cluster.
-
-```yaml
-Type: PSCredential
-Parameter Sets: (All)
-Aliases: ClusterCredential
-
 Required: True
 Position: 5
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -ResourceGroupName
-Specifies the name of the resource group.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -174,7 +167,7 @@ psdx_paramvalues
 
 ```yaml
 Type: JobDisplayOutputType
-Parameter Sets: (All)
+Parameter Sets: Display
 Aliases: 
 
 Required: False
@@ -184,39 +177,41 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationAction
-Specifies how this cmdlet responds to an information event.
+### -DownloadOutputType
+The type of output to download.```yaml
+Type: JobDownloadOutputType
+Parameter Sets: Download
+Aliases: 
 
-The acceptable values for this parameter are:
-
-- Continue
-- Ignore
-- Inquire
-- SilentlyContinue
-- Stop
-- Suspend
-
-```yaml
-Type: ActionPreference
-Parameter Sets: (All)
-Aliases: infa
-
-Required: False
+Required: True
 Position: Named
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationVariable
-Specifies an information variable.
+### -Folder
+The folder to save the output to.```yaml
+Type: String
+Parameter Sets: Download
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -HttpCredential
+Specifies the cluster login (HTTP) credentials for the cluster.
 
 ```yaml
-Type: String
+Type: PSCredential
 Parameter Sets: (All)
-Aliases: iv
+Aliases: ClusterCredential
 
-Required: False
+Required: True
 Position: Named
 Default value: None
 Accept pipeline input: False

@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.Azure.Commands.Compute.dll-Help.xml
+ms.assetid: 0A4CD882-5ED6-44AF-8874-CF5DDCEDA53F
 online version:
 schema: 2.0.0
-ms.assetid: 0A4CD882-5ED6-44AF-8874-CF5DDCEDA53F
-updated_at: 11/11/2016 23:11 PM
-ms.date: 11/11/2016
+updated_at: 05/01/2017 21:05 PM
+ms.date: 05/01/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.1.0/Get-AzureRmVmssVM.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.1.0/Get-AzureRmVmssVM.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0589fbf53d27e39e0cf445261d29c64fb0859d62
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -85,9 +85,9 @@ Parameter Sets: InvokeByDynamicParameters, InvokeByDynamicParametersForFriendMet
 Aliases: 
 
 Required: False
-Position: 4
+Position: 3
 Default value: None
-Accept pipeline input: False
+Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
@@ -100,7 +100,7 @@ Parameter Sets: InvokeByDynamicParametersForFriendMethod, InvokeByStaticParamete
 Aliases: 
 
 Required: True
-Position: 5
+Position: 4
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -115,9 +115,9 @@ Parameter Sets: InvokeByDynamicParameters, InvokeByDynamicParametersForFriendMet
 Aliases: 
 
 Required: False
-Position: 2
+Position: 1
 Default value: None
-Accept pipeline input: False
+Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
@@ -127,12 +127,12 @@ Species the name of the VMSS.
 ```yaml
 Type: String
 Parameter Sets: InvokeByDynamicParameters, InvokeByDynamicParametersForFriendMethod
-Aliases: 
+Aliases: Name
 
 Required: False
-Position: 3
+Position: 2
 Default value: None
-Accept pipeline input: False
+Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 

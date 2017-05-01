@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.ApiManagement.ServiceManagement.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 04/27/2017 22:04 PM
-ms.date: 04/27/2017
+updated_at: 05/01/2017 21:05 PM
+ms.date: 05/01/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v1.0.4.3/Remove-AzureRmApiManagementPolicy.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v1.0.4.3/Remove-AzureRmApiManagementPolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/a5140f27ab8f99c2992dc2ba0c9a1cd31941b109
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0589fbf53d27e39e0cf445261d29c64fb0859d62
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -25,23 +25,25 @@ Removes policy from specified scope.
 
 ### Tenant level (Default)
 ```
-Remove-AzureRmApiManagementPolicy -Context <PsApiManagementContext> [-PassThru] [-Force]
+Remove-AzureRmApiManagementPolicy -Context <PsApiManagementContext> [-PassThru] [-Force] [<CommonParameters>]
 ```
 
 ### Product level
 ```
 Remove-AzureRmApiManagementPolicy -Context <PsApiManagementContext> -ProductId <String> [-PassThru] [-Force]
+ [<CommonParameters>]
 ```
 
 ### API level
 ```
 Remove-AzureRmApiManagementPolicy -Context <PsApiManagementContext> -ApiId <String> [-PassThru] [-Force]
+ [<CommonParameters>]
 ```
 
 ### Operation level
 ```
 Remove-AzureRmApiManagementPolicy -Context <PsApiManagementContext> -ApiId <String> -OperationId <String>
- [-PassThru] [-Force]
+ [-PassThru] [-Force] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -52,6 +54,10 @@ Removes policy from specified scope.
 ### --------------------------  Example 1  --------------------------
 @{paragraph=PS C:\\\>}
 
+
+
+
+
 ```
 Remove-AzureRmApiManagementPolicy -Context $apimContext
 ```
@@ -60,6 +66,10 @@ Remove tenant level policy.
 
 ### --------------------------  Example 2  --------------------------
 @{paragraph=PS C:\\\>}
+
+
+
+
 
 ```
 Remove-AzureRmApiManagementPolicy -Context $apimContext -ProductId 0123456789
@@ -70,6 +80,10 @@ Remove product-scope policy.
 ### --------------------------  Example 3  --------------------------
 @{paragraph=PS C:\\\>}
 
+
+
+
+
 ```
 Remove-AzureRmApiManagementPolicy -Context $apimContext -ApiId 9876543210
 ```
@@ -78,6 +92,10 @@ Remove API-scope policy.
 
 ### --------------------------  Example 4  --------------------------
 @{paragraph=PS C:\\\>}
+
+
+
+
 
 ```
 Remove-AzureRmApiManagementPolicy -Context $apimContext -ApiId 9876543210 -OperationId 777
@@ -187,6 +205,9 @@ Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
+
+### CommonParameters
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 

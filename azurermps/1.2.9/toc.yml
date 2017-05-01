@@ -1187,8 +1187,36 @@
     - name: Others
       href: 'AzureRM.Resources/index.md#others'
       items:
+        - name: Export-AzureRmResourceGroup
+          href: AzureRM.Resources/Export-AzureRmResourceGroup.md
+        - name: Get-AzureRmADAppCredential
+          href: AzureRM.Resources/Get-AzureRmADAppCredential.md
+        - name: Get-AzureRmADSpCredential
+          href: AzureRM.Resources/Get-AzureRmADSpCredential.md
         - name: Get-AzureRmAuthorizationChangeLog
           href: AzureRM.Resources/Get-AzureRmAuthorizationChangeLog.md
+        - name: Get-AzureRmLocation
+          href: AzureRM.Resources/Get-AzureRmLocation.md
+        - name: New-AzureRmADAppCredential
+          href: AzureRM.Resources/New-AzureRmADAppCredential.md
+        - name: New-AzureRmADSpCredential
+          href: AzureRM.Resources/New-AzureRmADSpCredential.md
+        - name: New-AzureRmADUser
+          href: AzureRM.Resources/New-AzureRmADUser.md
+        - name: Remove-AzureRmADAppCredential
+          href: AzureRM.Resources/Remove-AzureRmADAppCredential.md
+        - name: Remove-AzureRmADSpCredential
+          href: AzureRM.Resources/Remove-AzureRmADSpCredential.md
+        - name: Remove-AzureRmADUser
+          href: AzureRM.Resources/Remove-AzureRmADUser.md
+        - name: Save-AzureRmResourceGroupDeploymentTemplate
+          href: AzureRM.Resources/Save-AzureRmResourceGroupDeploymentTemplate.md
+        - name: Set-AzureRmADApplication
+          href: AzureRM.Resources/Set-AzureRmADApplication.md
+        - name: Set-AzureRmADServicePrincipal
+          href: AzureRM.Resources/Set-AzureRmADServicePrincipal.md
+        - name: Set-AzureRmADUser
+          href: AzureRM.Resources/Set-AzureRmADUser.md
     - name: Policies
       href: 'AzureRM.Resources/index.md#policies'
       items:

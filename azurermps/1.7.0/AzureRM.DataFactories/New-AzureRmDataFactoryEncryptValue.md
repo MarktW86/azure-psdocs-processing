@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.Azure.Commands.DataFactories.dll-Help.xml
+ms.assetid: 8350C2EF-E464-45F0-8D73-529D254FB031
 online version:
 schema: 2.0.0
-ms.assetid: 8350C2EF-E464-45F0-8D73-529D254FB031
-updated_at: 11/18/2016 08:11 AM
-ms.date: 11/18/2016
+updated_at: 05/01/2017 21:05 PM
+ms.date: 05/01/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DataFactories/v1.0.12/New-AzureRmDataFactoryEncryptValue.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DataFactories/v1.0.12/New-AzureRmDataFactoryEncryptValue.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2537e371256820c5575d89299741a8f7b6f7e585
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0589fbf53d27e39e0cf445261d29c64fb0859d62
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -109,6 +109,57 @@ The **New-AzureRmDataFactoryEncryptValue** command creates an encrypted value fo
 
 ## PARAMETERS
 
+### -AuthenticationType
+Specifies the type of authentication to be used to connect to the data source.
+The acceptable values for this parameter are:
+
+- Windows
+- Basic
+- Anonymous.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: 8
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -Credential
+Specifies the Windows authentication credentials (user name and password) to be used.
+This cmdlet encrypts the credential data you specify here.
+
+```yaml
+Type: PSCredential
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: 5
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -Database
+Specifies the database name of the linked service.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: 10
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
 ### -DataFactory
 Specifies a **PSDataFactory** object.
 This cmdlet encrypts data for the data factory that this parameter specifies.
@@ -157,6 +208,22 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
+### -NonCredentialValue
+Specifies the non-credential part of the Open Database Connectivity (ODBC) connection string.
+This parameter is applicable only for the ODBC linked service.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: 7
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
 ### -ResourceGroupName
 Specifies the name of an Azure resource group.
 This cmdlet encrypts data for the group that this parameter specifies.
@@ -173,35 +240,16 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Value
-Specifies the value to encrypt.
-For an on-premises SQL Server linked service and an on-premises Oracle linked service, use a connection string.
-For an on-premises ODBC linked service, use the credential part of the connection string.
-For on premises file system linked service, if the file system is local to the gateway computer, use Local or localhost, and if the file system is on a server different from the gateway computer, use \\\\servername.
+### -Server
+Specifies the server name of the linked service.
 
 ```yaml
-Type: SecureString
+Type: String
 Parameter Sets: (All)
 Aliases: 
 
 Required: False
-Position: 3
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -Credential
-Specifies the Windows authentication credentials (user name and password) to be used.
-This cmdlet encrypts the credential data you specify here.
-
-```yaml
-Type: PSCredential
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: 5
+Position: 9
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -234,67 +282,19 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -NonCredentialValue
-Specifies the non-credential part of the Open Database Connectivity (ODBC) connection string.
-This parameter is applicable only for the ODBC linked service.
+### -Value
+Specifies the value to encrypt.
+For an on-premises SQL Server linked service and an on-premises Oracle linked service, use a connection string.
+For an on-premises ODBC linked service, use the credential part of the connection string.
+For on premises file system linked service, if the file system is local to the gateway computer, use Local or localhost, and if the file system is on a server different from the gateway computer, use \\\\servername.
 
 ```yaml
-Type: String
+Type: SecureString
 Parameter Sets: (All)
 Aliases: 
 
 Required: False
-Position: 7
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -AuthenticationType
-Specifies the type of authentication to be used to connect to the data source.
-The acceptable values for this parameter are:
-
-- Windows
-- Basic
-- Anonymous.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: 8
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -Server
-Specifies the server name of the linked service.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: 9
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -Database
-Specifies the database name of the linked service.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: 10
+Position: 3
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False

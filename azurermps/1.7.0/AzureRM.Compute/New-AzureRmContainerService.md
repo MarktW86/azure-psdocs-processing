@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.Azure.Commands.Compute.dll-Help.xml
+ms.assetid: F8BE4014-FFD0-4F3E-A7EA-25197A4B85B0
 online version:
 schema: 2.0.0
-ms.assetid: F8BE4014-FFD0-4F3E-A7EA-25197A4B85B0
-updated_at: 11/01/2016 22:11 PM
-ms.date: 11/01/2016
+updated_at: 05/01/2017 21:05 PM
+ms.date: 05/01/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/New-AzureRmContainerService.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/New-AzureRmContainerService.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0589fbf53d27e39e0cf445261d29c64fb0859d62
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -54,6 +54,22 @@ The service is named csResourceGroup17.
 
 ## PARAMETERS
 
+### -ContainerService
+Specifies a container service object that contains the properties for the new service.
+To obtain a **ContainerService** object, use the New-AzureRmContainerServiceConfig cmdlet.
+
+```yaml
+Type: ContainerService
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: 3
+Default value: None
+Accept pipeline input: True (ByValue)
+Accept wildcard characters: False
+```
+
 ### -InformationAction
 Specifies how this cmdlet responds to an information event.
 
@@ -93,21 +109,6 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ResourceGroupName
-Specifies the resource group in which this cmdlet deploys the container service.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: True
-Position: 1
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
 ### -Name
 Specifies the name of the container service that this cmdlet creates.
 
@@ -123,19 +124,18 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ContainerService
-Specifies a container service object that contains the properties for the new service.
-To obtain a **ContainerService** object, use the New-AzureRmContainerServiceConfig cmdlet.
+### -ResourceGroupName
+Specifies the resource group in which this cmdlet deploys the container service.
 
 ```yaml
-Type: ContainerService
+Type: String
 Parameter Sets: (All)
 Aliases: 
 
 Required: True
-Position: 3
+Position: 1
 Default value: None
-Accept pipeline input: True (ByValue)
+Accept pipeline input: False
 Accept wildcard characters: False
 ```
 

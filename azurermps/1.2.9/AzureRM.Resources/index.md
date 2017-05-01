@@ -2,11 +2,11 @@
 Module Name: AzureRM.Resources
 Module Guid: ab3ca893-26fe-44b0-bd3c-8933df144d7b
 Locale: en-US
-updated_at: 03/23/2017 23:03 PM
-ms.date: 03/23/2017
+updated_at: 05/01/2017 21:05 PM
+ms.date: 05/01/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v1.0.4.3/AzureRM.Resources.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v1.0.4.3/AzureRM.Resources.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/280872fa529e03be2466fa2252957a2060a9dfe4
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0589fbf53d27e39e0cf445261d29c64fb0859d62
 ms.topic: conceptual
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -14,14 +14,18 @@ keywords: powershell, cmdlet
 manager: erickson-doug
 open_to_public_contributors: true
 ms.service: azure-resource-manager
+Export-AzureRmResourceGroup: Others
 Find-AzureRmResource: Resources
 Find-AzureRmResourceGroup: Resources
+Get-AzureRmADAppCredential: Others
 Get-AzureRmADApplication: Active Directory
 Get-AzureRmADGroup: Active Directory
 Get-AzureRmADGroupMember: Active Directory
 Get-AzureRmADServicePrincipal: Active Directory
+Get-AzureRmADSpCredential: Others
 Get-AzureRmADUser: Active Directory
 Get-AzureRmAuthorizationChangeLog: Others
+Get-AzureRmLocation: Others
 Get-AzureRmPolicyAssignment: Policies
 Get-AzureRmPolicyDefinition: Policies
 Get-AzureRmProviderFeature: Resources
@@ -36,8 +40,11 @@ Get-AzureRmRoleAssignment: Resources
 Get-AzureRmRoleDefinition: Resources
 Invoke-AzureRmResourceAction: Resources
 Move-AzureRmResource: Resources
+New-AzureRmADAppCredential: Others
 New-AzureRmADApplication: Active Directory
 New-AzureRmADServicePrincipal: Active Directory
+New-AzureRmADSpCredential: Others
+New-AzureRmADUser: Others
 New-AzureRmPolicyAssignment: Policies
 New-AzureRmPolicyDefinition: Policies
 New-AzureRmResource: Resources
@@ -48,8 +55,11 @@ New-AzureRmRoleAssignment: Resources
 New-AzureRmRoleDefinition: Resources
 Register-AzureRmProviderFeature: Resources
 Register-AzureRmResourceProvider: Resources
+Remove-AzureRmADAppCredential: Others
 Remove-AzureRmADApplication: Active Directory
 Remove-AzureRmADServicePrincipal: Active Directory
+Remove-AzureRmADSpCredential: Others
+Remove-AzureRmADUser: Others
 Remove-AzureRmPolicyAssignment: Policies
 Remove-AzureRmPolicyDefinition: Policies
 Remove-AzureRmResource: Resources
@@ -58,6 +68,10 @@ Remove-AzureRmResourceGroupDeployment: Resources
 Remove-AzureRmResourceLock: Resources
 Remove-AzureRmRoleAssignment: Resources
 Remove-AzureRmRoleDefinition: Resources
+Save-AzureRmResourceGroupDeploymentTemplate: Others
+Set-AzureRmADApplication: Others
+Set-AzureRmADServicePrincipal: Others
+Set-AzureRmADUser: Others
 Set-AzureRmPolicyAssignment: Policies
 Set-AzureRmPolicyDefinition: Policies
 Set-AzureRmResource: Resources
@@ -95,6 +109,11 @@ _isModulePage: true
 
 ### [Get-AzureRmADUser](Get-AzureRmADUser.md)
 {{Fill in the Synopsis}}
+
+### [Get-AzureRmAuthorizationChangeLog](Get-AzureRmAuthorizationChangeLog.md)
+Gets access change history for the selected subscription for the specified time range i.e.
+role assignments that were added or removed, including classic administrators (co-administrators and service administrators).
+Maximum duration that can be queried is 15 days (going back up to past 90 days).
 
 ### [Get-AzureRmPolicyAssignment](Get-AzureRmPolicyAssignment.md)
 {{Fill in the Synopsis}}

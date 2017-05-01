@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.Azure.Commands.ServerManagement.dll-Help.xml
+ms.assetid: BCD0E4A3-8586-4FD6-8EF7-35F5E14FCFCB
 online version:
 schema: 2.0.0
-ms.assetid: BCD0E4A3-8586-4FD6-8EF7-35F5E14FCFCB
-updated_at: 11/01/2016 22:11 PM
-ms.date: 11/01/2016
+updated_at: 05/01/2017 21:05 PM
+ms.date: 05/01/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ServerManagement/v1.0.3/Get-AzureRmServerManagementSession.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ServerManagement/v1.0.3/Get-AzureRmServerManagementSession.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0589fbf53d27e39e0cf445261d29c64fb0859d62
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -54,63 +54,6 @@ The **Get-AzureRmServerManagementSession** cmdlet gets a single Azure Server Man
 
 ## PARAMETERS
 
-### -ResourceGroupName
-Specifies the name of the resource group for which this cmdlet gets the retrieve the session.
-
-```yaml
-Type: String
-Parameter Sets: ByNodeName
-Aliases: 
-
-Required: True
-Position: 0
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -NodeName
-Specifies the name of the node where the session is located.
-
-```yaml
-Type: String
-Parameter Sets: ByNodeName
-Aliases: 
-
-Required: True
-Position: 1
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -SessionName
-Specifies the name of the session in which this cmdlet gets.
-
-```yaml
-Type: String
-Parameter Sets: ByNodeName
-Aliases: 
-
-Required: True
-Position: 2
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-```yaml
-Type: String
-Parameter Sets: BySession
-Aliases: 
-
-Required: False
-Position: 2
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
 ### -InformationAction
 Specifies how this cmdlet responds to an information event.
 
@@ -150,6 +93,52 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
+### -Node
+Specifies an existing **Node** object that is used to get the *ResourceGroupName* and the *NodeName* parameters.
+You must also specify a value for the *SessionName* parameter.
+
+```yaml
+Type: Node
+Parameter Sets: ByNode
+Aliases: 
+
+Required: True
+Position: 0
+Default value: None
+Accept pipeline input: True (ByValue)
+Accept wildcard characters: False
+```
+
+### -NodeName
+Specifies the name of the node where the session is located.
+
+```yaml
+Type: String
+Parameter Sets: ByNodeName
+Aliases: 
+
+Required: True
+Position: 1
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -ResourceGroupName
+Specifies the name of the resource group for which this cmdlet gets the retrieve the session.
+
+```yaml
+Type: String
+Parameter Sets: ByNodeName
+Aliases: 
+
+Required: True
+Position: 0
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
 ### -Session
 Specifies an existing **Session** object that is used to get the *ResourceGroupName*, the *NodeName*, and the *SessionName* parameters.
 
@@ -165,19 +154,30 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-### -Node
-Specifies an existing **Node** object that is used to get the *ResourceGroupName* and the *NodeName* parameters.
-You must also specify a value for the *SessionName* parameter.
+### -SessionName
+Specifies the name of the session in which this cmdlet gets.
 
 ```yaml
-Type: Node
-Parameter Sets: ByNode
+Type: String
+Parameter Sets: ByNodeName
 Aliases: 
 
 Required: True
-Position: 0
+Position: 2
 Default value: None
-Accept pipeline input: True (ByValue)
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+```yaml
+Type: String
+Parameter Sets: BySession
+Aliases: 
+
+Required: False
+Position: 2
+Default value: None
+Accept pipeline input: False
 Accept wildcard characters: False
 ```
 

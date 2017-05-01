@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.Resources.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 03/23/2017 23:03 PM
-ms.date: 03/23/2017
+updated_at: 05/01/2017 21:05 PM
+ms.date: 05/01/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v1.0.4.3/New-AzureRmADApplication.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v1.0.4.3/New-AzureRmADApplication.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/280872fa529e03be2466fa2252957a2060a9dfe4
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0589fbf53d27e39e0cf445261d29c64fb0859d62
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -25,32 +25,41 @@ ms.service: azure-resource-manager
 
 ### ApplicationWithoutCredentialParameterSet (Default)
 ```
-New-AzureRmADApplication -DisplayName <String> -HomePage <String> -IdentifierUris <String[]>
- [<CommonParameters>]
+New-AzureRmADApplication -DisplayName <String> -IdentifierUris <String[]> [-HomePage <String>]
+ [-ReplyUrls <String[]>] [-AvailableToOtherTenants <Boolean>] [-InformationAction <ActionPreference>]
+ [-InformationVariable <String>] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ### ApplicationWithPasswordPlainParameterSet
 ```
-New-AzureRmADApplication -DisplayName <String> -HomePage <String> -IdentifierUris <String[]> -Password <String>
- [-StartDate <DateTime>] [-EndDate <DateTime>] [<CommonParameters>]
-```
-
-### ApplicationWithPasswordCredentialParameterSet
-```
-New-AzureRmADApplication -DisplayName <String> -HomePage <String> -IdentifierUris <String[]>
- -PasswordCredentials <PSADPasswordCredential[]> [<CommonParameters>]
-```
-
-### ApplicationWithKeyPlainParameterSet
-```
-New-AzureRmADApplication -DisplayName <String> -HomePage <String> -IdentifierUris <String[]> -KeyValue <String>
- [-KeyType <String>] [-KeyUsage <String>] [-StartDate <DateTime>] [-EndDate <DateTime>] [<CommonParameters>]
+New-AzureRmADApplication -DisplayName <String> -IdentifierUris <String[]> [-HomePage <String>]
+ [-ReplyUrls <String[]>] [-AvailableToOtherTenants <Boolean>] -Password <String> [-StartDate <DateTime>]
+ [-EndDate <DateTime>] [-InformationAction <ActionPreference>] [-InformationVariable <String>] [-WhatIf]
+ [-Confirm] [<CommonParameters>]
 ```
 
 ### ApplicationWithKeyCredentialParameterSet
 ```
-New-AzureRmADApplication -DisplayName <String> -HomePage <String> -IdentifierUris <String[]>
- -KeyCredentials <PSADKeyCredential[]> [<CommonParameters>]
+New-AzureRmADApplication -DisplayName <String> -IdentifierUris <String[]> [-HomePage <String>]
+ [-ReplyUrls <String[]>] [-AvailableToOtherTenants <Boolean>] -KeyCredentials <PSADKeyCredential[]>
+ [-InformationAction <ActionPreference>] [-InformationVariable <String>] [-WhatIf] [-Confirm]
+ [<CommonParameters>]
+```
+
+### ApplicationWithPasswordCredentialParameterSet
+```
+New-AzureRmADApplication -DisplayName <String> -IdentifierUris <String[]> [-HomePage <String>]
+ [-ReplyUrls <String[]>] [-AvailableToOtherTenants <Boolean>] -PasswordCredentials <PSADPasswordCredential[]>
+ [-InformationAction <ActionPreference>] [-InformationVariable <String>] [-WhatIf] [-Confirm]
+ [<CommonParameters>]
+```
+
+### ApplicationWithKeyPlainParameterSet
+```
+New-AzureRmADApplication -DisplayName <String> -IdentifierUris <String[]> [-HomePage <String>]
+ [-ReplyUrls <String[]>] [-AvailableToOtherTenants <Boolean>] -CertValue <String> [-StartDate <DateTime>]
+ [-EndDate <DateTime>] [-InformationAction <ActionPreference>] [-InformationVariable <String>] [-WhatIf]
+ [-Confirm] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -82,37 +91,6 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -EndDate
-The end date till which password or key is valid.
-Default value is one year after current time.
-
-```yaml
-Type: DateTime
-Parameter Sets: ApplicationWithPasswordPlainParameterSet, ApplicationWithKeyPlainParameterSet
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -HomePage
-The URL to the application's homepage.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
 ### -IdentifierUris
 The URIs that identify the application.
 
@@ -128,29 +106,12 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -KeyCredentials
-The collection of key credentials associated with the application.
-
-```yaml
-Type: PSADKeyCredential[]
-Parameter Sets: ApplicationWithKeyCredentialParameterSet
-Aliases: 
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -KeyType
-The type of the key credentials associated with the application.
-Acceptable values are 'AsymmetricX509Cert', 'Password' and 'Symmetric'.
-Default is 'AsymmetricX509Cert'
+### -HomePage
+The URL to the application's homepage.
 
 ```yaml
 Type: String
-Parameter Sets: ApplicationWithKeyPlainParameterSet
+Parameter Sets: (All)
 Aliases: 
 
 Required: False
@@ -160,14 +121,10 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -KeyUsage
-The usage of the key credentials associated with the application.
-Acceptable values are 'Sign' and 'Verify'.
-Default is 'Verify'
-
-```yaml
-Type: String
-Parameter Sets: ApplicationWithKeyPlainParameterSet
+### -ReplyUrls
+The application reply urls.```yaml
+Type: String[]
+Parameter Sets: (All)
 Aliases: 
 
 Required: False
@@ -177,18 +134,68 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -KeyValue
-The value for the key credentials associated with the application that will be valid for one year by default.
-
-```yaml
-Type: String
-Parameter Sets: ApplicationWithKeyPlainParameterSet
+### -AvailableToOtherTenants
+The value specifying whether the application is a single tenant or a multi-tenant.```yaml
+Type: Boolean
+Parameter Sets: (All)
 Aliases: 
 
-Required: True
+Required: False
 Position: Named
 Default value: None
 Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -InformationAction
+@{Text=}```yaml
+Type: ActionPreference
+Parameter Sets: (All)
+Aliases: infa
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -InformationVariable
+@{Text=}```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: iv
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -WhatIf
+@{Text=}```yaml
+Type: SwitchParameter
+Parameter Sets: (All)
+Aliases: wi
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -Confirm
+@{Text=}```yaml
+Type: SwitchParameter
+Parameter Sets: (All)
+Aliases: cf
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
@@ -201,6 +208,38 @@ Parameter Sets: ApplicationWithPasswordPlainParameterSet
 Aliases: 
 
 Required: True
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -StartDate
+The start date after which password or key would be valid.
+Default value is current time.
+
+```yaml
+Type: DateTime
+Parameter Sets: ApplicationWithPasswordPlainParameterSet, ApplicationWithKeyPlainParameterSet
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -EndDate
+The end date till which password or key is valid.
+Default value is one year after current time.
+
+```yaml
+Type: DateTime
+Parameter Sets: ApplicationWithPasswordPlainParameterSet, ApplicationWithKeyPlainParameterSet
+Aliases: 
+
+Required: False
 Position: Named
 Default value: None
 Accept pipeline input: True (ByPropertyName)
@@ -222,16 +261,28 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -StartDate
-The start date after which password or key would be valid.
-Default value is current time.
-
-```yaml
-Type: DateTime
-Parameter Sets: ApplicationWithPasswordPlainParameterSet, ApplicationWithKeyPlainParameterSet
+### -CertValue
+The value of the "asymmetric" credential type. It represents the base 64 encoded certificate.```yaml
+Type: String
+Parameter Sets: ApplicationWithKeyPlainParameterSet
 Aliases: 
 
-Required: False
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -KeyCredentials
+The collection of key credentials associated with the application.
+
+```yaml
+Type: PSADKeyCredential[]
+Parameter Sets: ApplicationWithKeyCredentialParameterSet
+Aliases: 
+
+Required: True
 Position: Named
 Default value: None
 Accept pipeline input: True (ByPropertyName)

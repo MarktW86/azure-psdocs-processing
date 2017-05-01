@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.Azure.Commands.Compute.dll-Help.xml
+ms.assetid: A052C39E-360C-4576-94C8-7EAD4D78CBEC
 online version:
 schema: 2.0.0
-ms.assetid: A052C39E-360C-4576-94C8-7EAD4D78CBEC
-updated_at: 11/01/2016 22:11 PM
-ms.date: 11/01/2016
+updated_at: 05/01/2017 21:05 PM
+ms.date: 05/01/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/New-AzureRmVmssVaultCertificateConfig.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/New-AzureRmVmssVaultCertificateConfig.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0589fbf53d27e39e0cf445261d29c64fb0859d62
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -44,6 +44,22 @@ This command creates a Key Vault certificate configuration that uses the certifi
 
 ## PARAMETERS
 
+### -CertificateStore
+Specifies the certificate store on the virtual machines in the scale set where the certificate is added.
+This is only valid for Windows Virtual Machine Scale Sets.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: 1
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
 ### -CertificateUrl
 Specifies the URI of a certificate stored in the Key Vault.
 
@@ -62,22 +78,6 @@ Aliases:
 
 Required: False
 Position: 0
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -CertificateStore
-Specifies the certificate store on the virtual machines in the scale set where the certificate is added.
-This is only valid for Windows Virtual Machine Scale Sets.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: 1
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False

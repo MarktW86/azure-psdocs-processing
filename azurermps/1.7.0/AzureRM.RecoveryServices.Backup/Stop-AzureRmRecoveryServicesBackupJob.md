@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.Azure.Commands.RecoveryServices.Backup.dll-Help.xml
+ms.assetid: D71E1B64-58E9-4665-A6CB-01E70F6E60AD
 online version:
 schema: 2.0.0
-ms.assetid: D71E1B64-58E9-4665-A6CB-01E70F6E60AD
-updated_at: 11/01/2016 22:11 PM
-ms.date: 11/01/2016
+updated_at: 05/01/2017 21:05 PM
+ms.date: 05/01/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices.Backup/v1.0.4/Stop-AzureRmRecoveryServicesBackupJob.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices.Backup/v1.0.4/Stop-AzureRmRecoveryServicesBackupJob.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0589fbf53d27e39e0cf445261d29c64fb0859d62
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -97,6 +97,22 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
+### -Job
+Specifies a job that this cmdlet cancels.
+To obtain a **BackupJob** object, use the Get-AzureRmRecoveryServicesBackupJob cmdlet.
+
+```yaml
+Type: JobBase
+Parameter Sets: JobFilterSet
+Aliases: 
+
+Required: True
+Position: 1
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
 ### -JobId
 Specifies the ID of the job to cancel.
 The ID is the InstanceId property of a **BackupJob** object.
@@ -109,22 +125,6 @@ Aliases:
 
 Required: True
 Position: 2
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -Job
-Specifies a job that this cmdlet cancels.
-To obtain a **BackupJob** object, use the Get-AzureRmRecoveryServicesBackupJob cmdlet.
-
-```yaml
-Type: JobBase
-Parameter Sets: JobFilterSet
-Aliases: 
-
-Required: True
-Position: 1
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False

@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.ApiManagement.ServiceManagement.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 04/27/2017 22:04 PM
-ms.date: 04/27/2017
+updated_at: 05/01/2017 21:05 PM
+ms.date: 05/01/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v1.0.4.3/Get-AzureRmApiManagementPolicy.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v1.0.4.3/Get-AzureRmApiManagementPolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/a5140f27ab8f99c2992dc2ba0c9a1cd31941b109
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0589fbf53d27e39e0cf445261d29c64fb0859d62
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -26,24 +26,25 @@ Gets specified scope policy.
 ### Tenant level (Default)
 ```
 Get-AzureRmApiManagementPolicy -Context <PsApiManagementContext> [-Format <String>] [-SaveAs <String>] [-Force]
+ [<CommonParameters>]
 ```
 
 ### Product level
 ```
 Get-AzureRmApiManagementPolicy -Context <PsApiManagementContext> [-Format <String>] [-SaveAs <String>]
- -ProductId <String> [-Force]
+ -ProductId <String> [-Force] [<CommonParameters>]
 ```
 
 ### API level
 ```
 Get-AzureRmApiManagementPolicy -Context <PsApiManagementContext> [-Format <String>] [-SaveAs <String>]
- -ApiId <String> [-Force]
+ -ApiId <String> [-Force] [<CommonParameters>]
 ```
 
 ### Operation level
 ```
 Get-AzureRmApiManagementPolicy -Context <PsApiManagementContext> [-Format <String>] [-SaveAs <String>]
- -ApiId <String> -OperationId <String> [-Force]
+ -ApiId <String> -OperationId <String> [-Force] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -54,6 +55,10 @@ Gets specified scope policy.
 ### --------------------------  Example 1  --------------------------
 @{paragraph=PS C:\\\>}
 
+
+
+
+
 ```
 Get-AzureRmApiManagementPolicy -Context $apimContext -SaveAs 'C:\contoso\policies\tenantpolicy.xml'
 ```
@@ -62,6 +67,10 @@ Get tenant level policy and save to file named tenantpolicy.xml.
 
 ### --------------------------  Example 2  --------------------------
 @{paragraph=PS C:\\\>}
+
+
+
+
 
 ```
 $policyString = Get-AzureRmApiManagementPolicy -Context $apimContext -ProductId 0123456789
@@ -72,6 +81,10 @@ Get product-scope policy
 ### --------------------------  Example 3  --------------------------
 @{paragraph=PS C:\\\>}
 
+
+
+
+
 ```
 $policyString = Get-AzureRmApiManagementPolicy -Context $apimContext -ApiId 9876543210
 ```
@@ -80,6 +93,10 @@ Get API-scope policy.
 
 ### --------------------------  Example 4  --------------------------
 @{paragraph=PS C:\\\>}
+
+
+
+
 
 ```
 Get-AzureRmApiManagementPolicy -Context $apimContext -ApiId 9876543210 -OperationId 777
@@ -206,6 +223,9 @@ Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
+
+### CommonParameters
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 

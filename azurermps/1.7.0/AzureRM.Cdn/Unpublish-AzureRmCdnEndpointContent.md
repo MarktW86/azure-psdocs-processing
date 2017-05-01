@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.Azure.Commands.Cdn.dll-Help.xml
+ms.assetid: C101398F-75B3-44D9-B07A-38405B748EA7
 online version:
 schema: 2.0.0
-ms.assetid: C101398F-75B3-44D9-B07A-38405B748EA7
-updated_at: 11/01/2016 22:11 PM
-ms.date: 11/01/2016
+updated_at: 05/01/2017 21:05 PM
+ms.date: 05/01/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Cdn/v1.0.6/Unpublish-AzureRmCdnEndpointContent.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Cdn/v1.0.6/Unpublish-AzureRmCdnEndpointContent.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0589fbf53d27e39e0cf445261d29c64fb0859d62
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -49,38 +49,23 @@ The **Unpublish-AzureRmCdnEndpointContent** cmdlet purges the content from an Az
 
 ## PARAMETERS
 
+### -CdnEndpoint
+Specifies the endpoint that this cmdlet purges.
+
+```yaml
+Type: PSEndpoint
+Parameter Sets: Parameter Set for object parameters
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: True (ByValue)
+Accept wildcard characters: False
+```
+
 ### -EndpointName
 Specifies name of the endpoint that this cmdlet purges.
-
-```yaml
-Type: String
-Parameter Sets: Parameter Set for fields parameters
-Aliases: 
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -ProfileName
-Specifies the name of the profile to which the endpoint belongs.
-
-```yaml
-Type: String
-Parameter Sets: Parameter Set for fields parameters
-Aliases: 
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -ResourceGroupName
-Specifies the name of the resource group to which the endpoint belongs.
 
 ```yaml
 Type: String
@@ -133,6 +118,36 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
+### -PassThru
+passthru
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -ProfileName
+Specifies the name of the profile to which the endpoint belongs.
+
+```yaml
+Type: String
+Parameter Sets: Parameter Set for fields parameters
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
 ### -PurgeContent
 Specifies an array of relative paths for the content on the origin server that this cmdlet purges.
 
@@ -148,33 +163,18 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -CdnEndpoint
-Specifies the endpoint that this cmdlet purges.
+### -ResourceGroupName
+Specifies the name of the resource group to which the endpoint belongs.
 
 ```yaml
-Type: PSEndpoint
-Parameter Sets: Parameter Set for object parameters
+Type: String
+Parameter Sets: Parameter Set for fields parameters
 Aliases: 
 
 Required: True
 Position: Named
 Default value: None
-Accept pipeline input: True (ByValue)
-Accept wildcard characters: False
-```
-
-### -PassThru
-passthru
-
-```yaml
-Type: SwitchParameter
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
+Accept pipeline input: False
 Accept wildcard characters: False
 ```
 

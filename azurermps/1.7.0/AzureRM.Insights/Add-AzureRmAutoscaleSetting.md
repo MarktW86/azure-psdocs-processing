@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.Azure.Commands.Insights.dll-Help.xml
+ms.assetid: 106EFEA6-2D6E-48FB-A840-985AC7D55E01
 online version:
 schema: 2.0.0
-ms.assetid: 106EFEA6-2D6E-48FB-A840-985AC7D55E01
-updated_at: 11/01/2016 22:11 PM
-ms.date: 11/01/2016
+updated_at: 05/01/2017 21:05 PM
+ms.date: 05/01/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Insights/v1.0.12/Add-AzureRmAutoscaleSetting.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Insights/v1.0.12/Add-AzureRmAutoscaleSetting.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0589fbf53d27e39e0cf445261d29c64fb0859d62
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -67,52 +67,6 @@ The final command creates an Autoscale setting using the profiles in $Profile1 a
 
 ## PARAMETERS
 
-### -SettingSpec
-Specifies an **AutoscaleSetting** object.
-You can use the Get-AzureRmAutoscaleSetting cmdlet to get an **AutoscaleSetting** object or you can construct one in a wps_2 script.
-
-```yaml
-Type: PSAutoscaleSetting
-Parameter Sets: Parameters for Add-AzureRmAutoscaleSetting cmdlet in the update semantics
-Aliases: 
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -ResourceGroup
-Specifies the name of the resource group for the resource associated with the Autoscale setting.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -DisableSetting
-Disables an existing Autoscale setting.
-
-```yaml
-Type: SwitchParameter
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
 ### -AutoscaleProfiles
 Specifies a list of profiles to add to the Autoscale setting, or $Null to add no profile.
 
@@ -128,11 +82,11 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Notifications
-Specifies a list of comma-separated notifications.
+### -DisableSetting
+Disables an existing Autoscale setting.
 
 ```yaml
-Type: System.Collections.Generic.List`1[Microsoft.Azure.Management.Insights.Models.AutoscaleNotification]
+Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
 
@@ -164,6 +118,52 @@ Specifies the name of the Autoscale setting to create.
 ```yaml
 Type: String
 Parameter Sets: Parameters for Add-AzureRmAutoscaleSetting cmdlet in the create semantics
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -Notifications
+Specifies a list of comma-separated notifications.
+
+```yaml
+Type: System.Collections.Generic.List`1[Microsoft.Azure.Management.Insights.Models.AutoscaleNotification]
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -ResourceGroup
+Specifies the name of the resource group for the resource associated with the Autoscale setting.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -SettingSpec
+Specifies an **AutoscaleSetting** object.
+You can use the Get-AzureRmAutoscaleSetting cmdlet to get an **AutoscaleSetting** object or you can construct one in a wps_2 script.
+
+```yaml
+Type: PSAutoscaleSetting
+Parameter Sets: Parameters for Add-AzureRmAutoscaleSetting cmdlet in the update semantics
 Aliases: 
 
 Required: True

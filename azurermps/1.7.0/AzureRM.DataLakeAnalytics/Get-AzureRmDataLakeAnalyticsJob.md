@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.Azure.Commands.DataLakeAnalytics.dll-Help.xml
+ms.assetid: 7973D46E-7F57-480E-B5E2-D37400364424
 online version:
 schema: 2.0.0
-ms.assetid: 7973D46E-7F57-480E-B5E2-D37400364424
-updated_at: 11/01/2016 22:11 PM
-ms.date: 11/01/2016
+updated_at: 05/01/2017 21:05 PM
+ms.date: 05/01/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeAnalytics/v1.1.4/Get-AzureRmDataLakeAnalyticsJob.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeAnalytics/v1.1.4/Get-AzureRmDataLakeAnalyticsJob.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0589fbf53d27e39e0cf445261d29c64fb0859d62
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -75,8 +75,8 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Name
-Specifies a name to use to filter the job list results.
+### -Include
+Specifies options that indicate the type of additional information to retrieve about the job.
 psdx_paramvalues
 
 - None
@@ -85,107 +85,12 @@ psdx_paramvalues
 - All
 
 ```yaml
-Type: String
-Parameter Sets: All In Resource Group and Account
-Aliases: 
-
-Required: False
-Position: 1
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -Submitter
-Specifies the email address of a user.
-Use this parameter to filter the job list results to jobs submitted by a specified user.
-
-```yaml
-Type: String
-Parameter Sets: All In Resource Group and Account
+Type: ExtendedJobData
+Parameter Sets: Specific JobInformation
 Aliases: 
 
 Required: False
 Position: 2
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -SubmittedAfter
-Specifies a date filter.
-Use this parameter to filter the job list result to jobs submitted after the specified date.
-
-```yaml
-Type: DateTimeOffset
-Parameter Sets: All In Resource Group and Account
-Aliases: 
-
-Required: False
-Position: 3
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -SubmittedBefore
-Specifies a date filter.
-Use this parameter to filter the job list result to jobs submitted before the specified date.
-
-```yaml
-Type: DateTimeOffset
-Parameter Sets: All In Resource Group and Account
-Aliases: 
-
-Required: False
-Position: 4
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -State
-Specifies a state filter for the job results.
-psdx_paramvalues
-
-- Accepted
-- New
-- Compiling
-- Scheduling
-- Queued
-- Starting
-- Paused
-- Running
-- Ended
-
-```yaml
-Type: JobState[]
-Parameter Sets: All In Resource Group and Account
-Aliases: 
-
-Required: False
-Position: 5
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -Result
-Specifies a result filter for the job results.
-psdx_paramvalues
-
-- None
-- Cancelled
-- Failed
-- Succeeded
-
-```yaml
-Type: JobResult[]
-Parameter Sets: All In Resource Group and Account
-Aliases: 
-
-Required: False
-Position: 6
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
@@ -245,8 +150,8 @@ Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
 ```
 
-### -Include
-Specifies options that indicate the type of additional information to retrieve about the job.
+### -Name
+Specifies a name to use to filter the job list results.
 psdx_paramvalues
 
 - None
@@ -255,8 +160,103 @@ psdx_paramvalues
 - All
 
 ```yaml
-Type: ExtendedJobData
-Parameter Sets: Specific JobInformation
+Type: String
+Parameter Sets: All In Resource Group and Account
+Aliases: 
+
+Required: False
+Position: 1
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -Result
+Specifies a result filter for the job results.
+psdx_paramvalues
+
+- None
+- Cancelled
+- Failed
+- Succeeded
+
+```yaml
+Type: JobResult[]
+Parameter Sets: All In Resource Group and Account
+Aliases: 
+
+Required: False
+Position: 6
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -State
+Specifies a state filter for the job results.
+psdx_paramvalues
+
+- Accepted
+- New
+- Compiling
+- Scheduling
+- Queued
+- Starting
+- Paused
+- Running
+- Ended
+
+```yaml
+Type: JobState[]
+Parameter Sets: All In Resource Group and Account
+Aliases: 
+
+Required: False
+Position: 5
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -SubmittedAfter
+Specifies a date filter.
+Use this parameter to filter the job list result to jobs submitted after the specified date.
+
+```yaml
+Type: DateTimeOffset
+Parameter Sets: All In Resource Group and Account
+Aliases: 
+
+Required: False
+Position: 3
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -SubmittedBefore
+Specifies a date filter.
+Use this parameter to filter the job list result to jobs submitted before the specified date.
+
+```yaml
+Type: DateTimeOffset
+Parameter Sets: All In Resource Group and Account
+Aliases: 
+
+Required: False
+Position: 4
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -Submitter
+Specifies the email address of a user.
+Use this parameter to filter the job list results to jobs submitted by a specified user.
+
+```yaml
+Type: String
+Parameter Sets: All In Resource Group and Account
 Aliases: 
 
 Required: False

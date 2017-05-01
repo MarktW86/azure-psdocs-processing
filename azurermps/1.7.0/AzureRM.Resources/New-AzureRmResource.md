@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.Azure.Commands.ResourceManager.Cmdlets.dll-Help.xml
+ms.assetid: C65367CF-2B69-44D6-A3AB-B1192405C292
 online version:
 schema: 2.0.0
-ms.assetid: C65367CF-2B69-44D6-A3AB-B1192405C292
-updated_at: 11/22/2016 00:11 AM
-ms.date: 11/22/2016
+updated_at: 05/01/2017 21:05 PM
+ms.date: 05/01/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v2.0.3/New-AzureRmResource.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v2.0.3/New-AzureRmResource.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e5245f9c2ed759dca260172c12d4ef03cef0982a
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0589fbf53d27e39e0cf445261d29c64fb0859d62
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -27,24 +27,26 @@ Creates a resource.
 ### The resource Id. (Default)
 ```
 New-AzureRmResource [-Location <String>] [-Kind <String>] [-Properties <PSObject>] [-Plan <Hashtable>]
- [-Sku <Hashtable>] [-Tag <Hashtable[]>] [-IsFullObject] -ResourceId <String> [-ODataQuery <String>] [-Force]
- [-ApiVersion <String>] [-Pre] [-WhatIf] [-Confirm] [<CommonParameters>]
+ [-Sku <Hashtable>] [-Tag <Hashtable>] [-Zones <String[]>] [-IsFullObject] -ResourceId <String>
+ [-ODataQuery <String>] [-Force] [-ApiVersion <String>] [-Pre] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ### Resource that resides at the subscription level.
 ```
 New-AzureRmResource [-Location <String>] [-Kind <String>] [-Properties <PSObject>] [-Plan <Hashtable>]
- [-Sku <Hashtable>] [-Tag <Hashtable[]>] [-IsFullObject] -ResourceName <String> -ResourceType <String>
- [-ExtensionResourceName <String>] [-ExtensionResourceType <String>] [-ODataQuery <String>]
- [-ResourceGroupName <String>] [-Force] [-ApiVersion <String>] [-Pre] [-WhatIf] [-Confirm] [<CommonParameters>]
+ [-Sku <Hashtable>] [-Tag <Hashtable>] [-Zones <String[]>] [-IsFullObject] -ResourceName <String>
+ -ResourceType <String> [-ExtensionResourceName <String>] [-ExtensionResourceType <String>]
+ [-ODataQuery <String>] [-ResourceGroupName <String>] [-Force] [-ApiVersion <String>] [-Pre] [-WhatIf]
+ [-Confirm] [<CommonParameters>]
 ```
 
 ### Resource that resides at the tenant level.
 ```
 New-AzureRmResource [-Location <String>] [-Kind <String>] [-Properties <PSObject>] [-Plan <Hashtable>]
- [-Sku <Hashtable>] [-Tag <Hashtable[]>] [-IsFullObject] -ResourceName <String> -ResourceType <String>
- [-ExtensionResourceName <String>] [-ExtensionResourceType <String>] [-ODataQuery <String>] [-TenantLevel]
- [-Force] [-ApiVersion <String>] [-Pre] [-WhatIf] [-Confirm] [<CommonParameters>]
+ [-Sku <Hashtable>] [-Tag <Hashtable>] [-Zones <String[]>] [-IsFullObject] -ResourceName <String>
+ -ResourceType <String> [-ExtensionResourceName <String>] [-ExtensionResourceType <String>]
+ [-ODataQuery <String>] [-TenantLevel] [-Force] [-ApiVersion <String>] [-Pre] [-WhatIf] [-Confirm]
+ [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -101,7 +103,7 @@ Accept wildcard characters: False
 Specifies resource tags as an array of hash tables.
 
 ```yaml
-Type: Hashtable[]
+Type: Hashtable
 Parameter Sets: (All)
 Aliases: Tags
 
@@ -380,6 +382,19 @@ Aliases: wi
 Required: False
 Position: Named
 Default value: False
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -Zones
+The zones.```yaml
+Type: String[]
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
 ```

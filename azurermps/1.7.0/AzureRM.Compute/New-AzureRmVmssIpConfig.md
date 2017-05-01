@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.Azure.Commands.Compute.dll-Help.xml
+ms.assetid: CA90AFD7-6DE6-497A-8EA2-DDC6B2F8FA1D
 online version:
 schema: 2.0.0
-ms.assetid: CA90AFD7-6DE6-497A-8EA2-DDC6B2F8FA1D
-updated_at: 11/01/2016 22:11 PM
-ms.date: 11/01/2016
+updated_at: 05/01/2017 21:05 PM
+ms.date: 05/01/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/New-AzureRmVmssIpConfig.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/New-AzureRmVmssIpConfig.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0589fbf53d27e39e0cf445261d29c64fb0859d62
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -58,51 +58,6 @@ The command specifies values for the *LoadBalancerInboundNatPoolsId* and *LoadBa
 
 ## PARAMETERS
 
-### -Name
-Specifies the name of the IP configuration.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: 0
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -Id
-Specifies an ID.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: 1
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -SubnetId
-Specifies the subnet ID in which the configuration creates  the VMSS network interface.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: 2
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
 ### -ApplicationGatewayBackendAddressPoolsId
 Specifies an array of references to backend address pools of load balancers.
 A scale set can reference backend address pools of one public and one internal load balancer.
@@ -120,35 +75,16 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -LoadBalancerBackendAddressPoolsId
-Specifies an array of references to incoming network address translation (NAT) pools of the load balancers.
-A scale set can reference incoming NAT pools of one public and one internal load balancer.
-Multiple scale sets cannot use the same load balancer.
+### -Id
+Specifies an ID.
 
 ```yaml
-Type: String[]
+Type: String
 Parameter Sets: (All)
 Aliases: 
 
 Required: False
-Position: 4
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -LoadBalancerInboundNatPoolsId
-Specifies an array of references to incoming NAT pools of the load balancers.
-A scale set can reference incoming NAT pools of one public and one internal load balancer.
-Multiple scale sets cannot use the same load balancer.
-
-```yaml
-Type: String[]
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: 5
+Position: 1
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
@@ -190,6 +126,70 @@ Required: False
 Position: Named
 Default value: None
 Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -LoadBalancerBackendAddressPoolsId
+Specifies an array of references to incoming network address translation (NAT) pools of the load balancers.
+A scale set can reference incoming NAT pools of one public and one internal load balancer.
+Multiple scale sets cannot use the same load balancer.
+
+```yaml
+Type: String[]
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: 4
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -LoadBalancerInboundNatPoolsId
+Specifies an array of references to incoming NAT pools of the load balancers.
+A scale set can reference incoming NAT pools of one public and one internal load balancer.
+Multiple scale sets cannot use the same load balancer.
+
+```yaml
+Type: String[]
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: 5
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -Name
+Specifies the name of the IP configuration.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: 0
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -SubnetId
+Specifies the subnet ID in which the configuration creates  the VMSS network interface.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: 2
+Default value: None
+Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 

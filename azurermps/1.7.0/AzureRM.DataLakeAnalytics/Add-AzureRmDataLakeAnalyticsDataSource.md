@@ -1,13 +1,13 @@
 ---
-external help file: Microsoft.Azure.Commands.DataLakeAnalytics.dll-Help.xml
+external help file: Microsoft.Azure.Commands.DataLakeAnalytics.dll-help.xml
+ms.assetid: 9D981DAD-6198-43B6-B06E-0056605D69BA
 online version:
 schema: 2.0.0
-ms.assetid: 9D981DAD-6198-43B6-B06E-0056605D69BA
-updated_at: 11/01/2016 22:11 PM
-ms.date: 11/01/2016
+updated_at: 05/01/2017 21:05 PM
+ms.date: 05/01/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeAnalytics/v1.1.4/Add-AzureRmDataLakeAnalyticsDataSource.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeAnalytics/v1.1.4/Add-AzureRmDataLakeAnalyticsDataSource.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0589fbf53d27e39e0cf445261d29c64fb0859d62
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -52,6 +52,21 @@ This command adds a Data Lake Store data source to a Data Lake Analytics account
 
 ## PARAMETERS
 
+### -AccessKey
+Specifies the access key of the Azure Blob storage account to add.
+
+```yaml
+Type: String
+Parameter Sets: Add a Blob storage account
+Aliases: 
+
+Required: True
+Position: 2
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
 ### -Account
 Specifies the Data Lake Analytics account name.
 
@@ -62,6 +77,21 @@ Aliases: AccountName
 
 Required: True
 Position: 0
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -Blob
+Specifies the name of the Azure Blob Storage account to add.
+
+```yaml
+Type: String
+Parameter Sets: Add a Blob storage account
+Aliases: AzureBlob
+
+Required: True
+Position: 1
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
@@ -92,21 +122,6 @@ Aliases:
 
 Required: False
 Position: 2
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -ResourceGroupName
-Specifies the resource group name of the Data Lake Analytics account.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: 3
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
@@ -151,31 +166,16 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Blob
-Specifies the name of the Azure Blob Storage account to add.
+### -ResourceGroupName
+Specifies the resource group name of the Data Lake Analytics account.
 
 ```yaml
 Type: String
-Parameter Sets: Add a Blob storage account
-Aliases: AzureBlob
-
-Required: True
-Position: 1
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -AccessKey
-Specifies the access key of the Azure Blob storage account to add.
-
-```yaml
-Type: String
-Parameter Sets: Add a Blob storage account
+Parameter Sets: (All)
 Aliases: 
 
-Required: True
-Position: 2
+Required: False
+Position: 3
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
