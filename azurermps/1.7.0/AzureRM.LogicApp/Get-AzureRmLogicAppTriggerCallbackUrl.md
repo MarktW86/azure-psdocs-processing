@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.LogicApp.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 05/01/2017 21:05 PM
+updated_at: 05/01/2017 23:05 PM
 ms.date: 05/01/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/v1.0.8/Get-AzureRmLogicAppTriggerCallbackUrl.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/v1.0.8/Get-AzureRmLogicAppTriggerCallbackUrl.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0589fbf53d27e39e0cf445261d29c64fb0859d62
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e6c50f092a50232feb999e95f29b598dc16c3d34
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -44,10 +44,7 @@ If you miss a required template parameter, the cmdlet prompts you for the value.
 Get-AzureRmLogicAppTriggerCallbackUrl -ResourceGroupName "ResourceGroup1" -Name "LogicApp1" -TriggerName "manual"
 ```
 
-This commands gets the integration account callback URL.
-
-Value                                                                                                                                                                                                               
------                                                                                                                                                                                                               
+This commands gets the integration account callback URL.                                                                                                                                                                                                        
 https://prod-03.westus.logic.azure.com:443/workflows/c4ed9335bc864140a11f4508d19acea3/triggers/manual/run?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=\<value\>
 
 ## PARAMETERS
