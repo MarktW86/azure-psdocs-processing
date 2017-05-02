@@ -2,11 +2,11 @@
 external help file: Microsoft.AzureStack.Commands.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 04/20/2017 23:04 PM
-ms.date: 04/20/2017
+updated_at: 05/02/2017 19:05 PM
+ms.date: 05/02/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/Set-AzureRMResourceProviderRegistration.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/Set-AzureRMResourceProviderRegistration.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d4f2539c40b2f09416fa3e1d384a0a1f0183fb5e
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/64ea21b6f9d300bac04d2df45c463f94a5e389b4
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -19,7 +19,7 @@ ms.service: azure-stack
 # Set-AzureRMResourceProviderRegistration
 
 ## SYNOPSIS
-Updates the provider registration manifest with the new provider registration model
+Updates the provider registration manifest with the new provider registration model.
 
 ## SYNTAX
 
@@ -30,26 +30,25 @@ Set-AzureRMResourceProviderRegistration -ProviderRegistration <ProviderRegistrat
 ```
 
 ## DESCRIPTION
+The **Set-AzureRMResourceProviderRegistration** cmdlet updates the provider registration manifest with the new provider registration model.
 
 ## EXAMPLES
 
-### Example 1:
+### Example 1: Change a property of a provider registration manifest
 ```
-$manifest = Get-AzureRMResourceProviderRegistration -Name "Microsoft.Compute" -ResourceGroup "system" -Managed; # Modify the manifest object for the need;  Set-AzureRMResourceProviderRegistration -ProviderRegistration $manifest -ResourceGroup "System"
+$manifestToUpdate = Get-AzureRMResourceProviderRegistration -Name "Microsoft.Compute" -ResourceGroup "system" -Managed
+$manifestToUpdate.DisplayName = "Compute Registration"
+Set-AzureRMResourceProviderRegistration -ProviderRegistration $manifestToUpdate -ResourceGroup "System"
 ```
 
-Description
-
------------
-
-The example shows how to get the Provider Registration object and then update for the changes
+This example modifies the **DisplayName** property of the provider registration manifest named "Microsoft.Compute" in the "system" resource group.
+The first statement gets the provider registration manifest and stores the object in the $manifestToUpdate variable.
+After the **DisplayName** property is changed, the updated object is passed in the **ProviderRegistration** parameter of the **Set-AzureRMResourceProviderRegistration** cmdlet.
 
 ## PARAMETERS
 
 ### -InformationAction
-Not Specified
-
-The following values are permitted for this object type.
+Specifies how this cmdlet responds to an information event.
 
 ```yaml
 Type: ActionPreference
@@ -65,7 +64,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-Not Specified
+Specifies a variable that is used for storing an informational message.
 
 ```yaml
 Type: String
@@ -80,7 +79,7 @@ Accept wildcard characters: False
 ```
 
 ### -PipelineVariable
-Not Specified
+Specifies a variable that stores the value of the current pipeline element.
 
 ```yaml
 Type: String
@@ -95,13 +94,12 @@ Accept wildcard characters: False
 ```
 
 ### -ProviderRegistration
-Provider Registration Model object.
-Get the object through Get-AzureRmResourceProviderRegistration and modify the values needed
+Specifies an updated **ProviderRegistrationModel** object to be used for updating the existing provider registration data.
 
 ```yaml
 Type: ProviderRegistrationModel
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -111,12 +109,12 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroup
-Resource group name
+Specifies the name of the resource group that contains the provider registration.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -130,6 +128,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## INPUTS
 
+### None
+
 ## OUTPUTS
 
 ### Microsoft.AzureStack.Management.Models.ProviderRegistrationModel
@@ -137,4 +137,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-

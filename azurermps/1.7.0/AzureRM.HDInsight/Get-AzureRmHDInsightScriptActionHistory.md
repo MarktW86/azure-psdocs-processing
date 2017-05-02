@@ -2,12 +2,11 @@
 external help file: Microsoft.Azure.Commands.HDInsight.dll-Help.xml
 online version:
 schema: 2.0.0
-ms.assetid: 134300D2-BBC4-4435-BD95-EA6B1EB6ECE2
-updated_at: 11/01/2016 22:11 PM
-ms.date: 11/01/2016
+updated_at: 05/02/2017 17:05 PM
+ms.date: 05/02/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v1.1.4/Get-AzureRmHDInsightScriptActionHistory.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v1.1.4/Get-AzureRmHDInsightScriptActionHistory.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/fdff926f5dd35f9020f210f87b450464ba162edc
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -31,16 +30,18 @@ Get-AzureRmHDInsightScriptActionHistory [-ClusterName] <String> [[-ScriptExecuti
 ```
 
 ## DESCRIPTION
-The **Get-AzureRmHDInsightScriptActionHistory** cmdlet gets the script action history for an Azure HDInsight cluster and lists it in reverse chronological order, or gets details of a previously executed script action.
+The Get-AzureRmHDInsightScriptActionHistory cmdlet gets the script action history for an Azure HDInsight cluster and lists it in reverse chronological order, or gets details of a previously executed script action.
 
 ## EXAMPLES
 
-### Example 1: Get the history of script actions executions for a cluster
-```
-PS C:\>Get-AzureRmHDInsightScriptActionHistory -ClusterName "your-hadoop-001"
-```
+### --------------------------  Example 1: Get the history of script actions executions for a cluster  --------------------------
+@{paragraph=PS C:\\\>}
 
-This command gets the history of script actions for the cluster your-hadoop-001.
+
+
+```
+PS C:\> Get-AzureRmHDInsightScriptActionHistory -ClusterName "your-hadoop-001"
+```
 
 ## PARAMETERS
 
@@ -59,16 +60,31 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ScriptExecutionId
-Specifies the execution ID of the executed script action.
+### -InformationAction
+@{Text=}
 
 ```yaml
-Type: Int64
+Type: ActionPreference
 Parameter Sets: (All)
-Aliases: 
+Aliases: infa
 
 Required: False
-Position: 1
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -InformationVariable
+@{Text=}
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: iv
+
+Required: False
+Position: Named
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -89,40 +105,16 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationAction
-Specifies how this cmdlet responds to an information event.
-
-The acceptable values for this parameter are:
-
-- Continue
-- Ignore
-- Inquire
-- SilentlyContinue
-- Stop
-- Suspend
+### -ScriptExecutionId
+Specifies the execution id of the executed script action.
 
 ```yaml
-Type: ActionPreference
+Type: Int64
 Parameter Sets: (All)
-Aliases: infa
+Aliases: 
 
 Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -InformationVariable
-Specifies an information variable.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: iv
-
-Required: False
-Position: Named
+Position: 1
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -136,7 +128,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## OUTPUTS
 
 ## NOTES
+Keywords: azure, azurerm, arm, resource, management, manager, hadoop, hdinsight, hd, insight
 
 ## RELATED LINKS
-
 

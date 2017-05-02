@@ -2,11 +2,11 @@
 external help file: Microsoft.AzureStack.Commands.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 04/20/2017 23:04 PM
-ms.date: 04/20/2017
+updated_at: 05/02/2017 19:05 PM
+ms.date: 05/02/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/Get-AzureRMOffer.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/Get-AzureRMOffer.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d4f2539c40b2f09416fa3e1d384a0a1f0183fb5e
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/64ea21b6f9d300bac04d2df45c463f94a5e389b4
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -19,7 +19,7 @@ ms.service: azure-stack
 # Get-AzureRMOffer
 
 ## SYNOPSIS
-The cmdlet gets the offer as an administrator or as a tenant user
+Gets an offer as an administrator or as a tenant user.
 
 ## SYNTAX
 
@@ -42,37 +42,28 @@ Get-AzureRMOffer [-Name <String>] -ResourceGroup <String> [-Managed] [-Informati
 ```
 
 ## DESCRIPTION
+The **Get-AzureRMOffer** cmdlet gets an offer. This cmdlet can be executed as a service administrator or as a tenant user.
 
 ## EXAMPLES
 
-### Example 1:
+### Example 1: Run the cmdlet as a service administrator to get the specified offer
 ```
 Get-AzureRMOffer -Name "ComputeOffer" -ResourceGroup "OfferGroup" -Managed
 ```
 
-Description
+This example gets the offer named "ComputeOffer" and created in the "OfferGroup" resource group. The presence of the **Managed** parameter runs the cmdlet as a service administrator.
 
------------
-
-The example gets an offer as a service administrator
-
-### Example 2:
+### Example 2: Run the cmdlet as a tenant user to get a list of offers
 ```
 Get-AzureRMOffer -Provider "default" | Where-Object name -eq "ComputeOffer"
 ```
 
-Description
-
------------
-
-The example gets the list of public offers as a tenant
+This example gets a list of public offers and then pipes the list to the **Where-Object** cmdlet to filter out all offers except the ones named "ComputeOffer".
 
 ## PARAMETERS
 
 ### -InformationAction
-Not Specified
-
-The following values are permitted for this object type.
+Specifies how this cmdlet responds to an information event.
 
 ```yaml
 Type: ActionPreference
@@ -88,7 +79,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-Not Specified
+Specifies a variable that is used for storing an informational message.
 
 ```yaml
 Type: String
@@ -103,12 +94,12 @@ Accept wildcard characters: False
 ```
 
 ### -Managed
-Managed switch specified that the operation is being executed as administrator
+Indicates whether the operation is being executed as a service administrator.
 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Admin
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -118,12 +109,12 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-Name of the offer
+Specifies the name of the offer.
 
 ```yaml
 Type: String
 Parameter Sets: Admin
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -133,12 +124,12 @@ Accept wildcard characters: False
 ```
 
 ### -OfferId
-Specifies the id of the offer
+Specifies the ID of the offer.
 
 ```yaml
 Type: String
 Parameter Sets: TenantGet
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -148,7 +139,7 @@ Accept wildcard characters: False
 ```
 
 ### -PipelineVariable
-Not Specified
+Specifies a variable that stores the value of the current pipeline element.
 
 ```yaml
 Type: String
@@ -163,13 +154,12 @@ Accept wildcard characters: False
 ```
 
 ### -Provider
-Specifies the Provider.
-For the first party tenant scenarios this value should be "default".
+Specifies the Provider. For the first party tenant scenarios this value should be "default".
 
 ```yaml
 Type: String
 Parameter Sets: TenantList
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -179,12 +169,12 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroup
-The resource group name where the offer was created
+Specifies the name of the resource group where the offer was created.
 
 ```yaml
 Type: String
 Parameter Sets: Admin
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -198,12 +188,13 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## INPUTS
 
+### None
+
 ## OUTPUTS
 
 ### Microsoft.AzureStack.Management.Models.OfferDefinition
-            Microsoft.AzureStack.Management.Models.AdminOfferModel
+### Microsoft.AzureStack.Management.Models.AdminOfferModel
 
 ## NOTES
 
 ## RELATED LINKS
-

@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.Azure.Commands.Compute.dll-Help.xml
+ms.assetid: 9D55E256-553B-4DA0-B802-E5EC189724EB
 online version:
 schema: 2.0.0
-ms.assetid: 9D55E256-553B-4DA0-B802-E5EC189724EB
-updated_at: 11/01/2016 22:11 PM
-ms.date: 11/01/2016
+updated_at: 05/01/2017 21:05 PM
+ms.date: 05/01/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Set-AzureRmVmssOsProfile.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Set-AzureRmVmssOsProfile.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0589fbf53d27e39e0cf445261d29c64fb0859d62
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -49,48 +49,17 @@ The command sets the computer name prefix for all the virtual machine instances 
 
 ## PARAMETERS
 
-### -VirtualMachineScaleSet
-Specifies the VMSS object.
-You can use the New-AzureRmVmssConfig cmdlet to create the object.
+### -AdditionalUnattendContent
+Specifies an unattended content object.
+You can use the Add-AzureRmVMAdditionalUnattendContent to create the object.
 
 ```yaml
-Type: VirtualMachineScaleSet
-Parameter Sets: (All)
-Aliases: 
-
-Required: True
-Position: 0
-Default value: None
-Accept pipeline input: True (ByPropertyName, ByValue)
-Accept wildcard characters: False
-```
-
-### -ComputerNamePrefix
-Specifies the computer name prefix for all the virtual machine instances in the VMSS.
-Computer names must be 1 to 15 characters long.
-
-```yaml
-Type: String
+Type: AdditionalUnattendContent[]
 Parameter Sets: (All)
 Aliases: 
 
 Required: False
-Position: 1
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -AdminUsername
-Specifies the administrator account name to use for all the virtual machine instances in the VMSS.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: 2
+Position: 8
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
@@ -111,6 +80,37 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
+### -AdminUsername
+Specifies the administrator account name to use for all the virtual machine instances in the VMSS.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: 2
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -ComputerNamePrefix
+Specifies the computer name prefix for all the virtual machine instances in the VMSS.
+Computer names must be 1 to 15 characters long.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: 1
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
 ### -CustomData
 Specifies a base-64 encoded string of custom data.
 This is decoded to a binary array that is saved as a file on the virtual machine.
@@ -123,131 +123,6 @@ Aliases:
 
 Required: False
 Position: 4
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -WindowsConfigurationProvisionVMAgent
-Indicates whether virtual machine agent should be provisioned on the virtual machines in the VMSS.
-
-```yaml
-Type: Boolean
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: 5
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -WindowsConfigurationEnableAutomaticUpdate
-Indicates whether the virtual machines in the VMSS are enabled for automatic updates.
-
-```yaml
-Type: Boolean
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: 6
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -TimeZone
-Specifies the time zone for the virtual machine.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: 7
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -AdditionalUnattendContent
-Specifies an unattended content object.
-You can use the Add-AzureRmVMAdditionalUnattendContent to create the object.
-
-```yaml
-Type: AdditionalUnattendContent[]
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: 8
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -Listener
-Specifies the Windows Remote Management (WinRM) listeners.
-This enables remote wps_1.
-You can use the Add-AzureRmVmssWinRMListener cmdlet to create the listener.
-
-```yaml
-Type: WinRMListener[]
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: 9
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -LinuxConfigurationDisablePasswordAuthentication
-Indicates that this cmdlet disables password authentication.
-
-```yaml
-Type: Boolean
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: 10
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -PublicKey
-Specifies the Secure Shell (SSH) public key object.
-You can use the Add-AzureRmVMSshPublicKey cmdlet to create the object.
-
-```yaml
-Type: SshPublicKey[]
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: 11
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -Secret
-Specifies the secrets object which contains the certificate references to place on the virtual machine.
-You can use the Add-AzureRmVmssSecret cmdlet to create the secrets object.
-
-```yaml
-Type: VaultSecretGroup[]
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: 12
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
@@ -289,6 +164,131 @@ Required: False
 Position: Named
 Default value: None
 Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -LinuxConfigurationDisablePasswordAuthentication
+Indicates that this cmdlet disables password authentication.
+
+```yaml
+Type: Boolean
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: 10
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -Listener
+Specifies the Windows Remote Management (WinRM) listeners.
+This enables remote wps_1.
+You can use the Add-AzureRmVmssWinRMListener cmdlet to create the listener.
+
+```yaml
+Type: WinRMListener[]
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: 9
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -PublicKey
+Specifies the Secure Shell (SSH) public key object.
+You can use the Add-AzureRmVMSshPublicKey cmdlet to create the object.
+
+```yaml
+Type: SshPublicKey[]
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: 11
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -Secret
+Specifies the secrets object which contains the certificate references to place on the virtual machine.
+You can use the Add-AzureRmVmssSecret cmdlet to create the secrets object.
+
+```yaml
+Type: VaultSecretGroup[]
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: 12
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -TimeZone
+Specifies the time zone for the virtual machine.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: 7
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -VirtualMachineScaleSet
+Specifies the VMSS object.
+You can use the New-AzureRmVmssConfig cmdlet to create the object.
+
+```yaml
+Type: VirtualMachineScaleSet
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: 0
+Default value: None
+Accept pipeline input: True (ByPropertyName, ByValue)
+Accept wildcard characters: False
+```
+
+### -WindowsConfigurationEnableAutomaticUpdate
+Indicates whether the virtual machines in the VMSS are enabled for automatic updates.
+
+```yaml
+Type: Boolean
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: 6
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -WindowsConfigurationProvisionVMAgent
+Indicates whether virtual machine agent should be provisioned on the virtual machines in the VMSS.
+
+```yaml
+Type: Boolean
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: 5
+Default value: None
+Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 

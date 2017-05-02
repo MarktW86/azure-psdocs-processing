@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.Azure.Commands.Insights.dll-Help.xml
+ms.assetid: 219D5A7F-E37C-4F37-AFC1-61C17680E25A
 online version:
 schema: 2.0.0
-ms.assetid: 219D5A7F-E37C-4F37-AFC1-61C17680E25A
-updated_at: 11/01/2016 22:11 PM
-ms.date: 11/01/2016
+updated_at: 05/01/2017 21:05 PM
+ms.date: 05/01/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Insights/v1.0.12/Get-AzureRmUsage.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Insights/v1.0.12/Get-AzureRmUsage.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0589fbf53d27e39e0cf445261d29c64fb0859d62
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -43,43 +43,11 @@ This command gets the usage metrics for the specified website.
 
 ## PARAMETERS
 
-### -ResourceId
-Specifies the ID of the resource for the metric.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: True
-Position: 0
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
 ### -ApiVersion
 Specifies an API version string, for example, 2014-04-01, which is accepted by the resource provider.
 
 ```yaml
 Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -StartTime
-Specifies the earliest time and date to search.
-
-You can use the Get-Date cmdlet to get a **DateTime** object.
-
-```yaml
-Type: DateTime
 Parameter Sets: (All)
 Aliases: 
 
@@ -112,6 +80,38 @@ Specifies an array of names of metrics.
 
 ```yaml
 Type: String[]
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -ResourceId
+Specifies the ID of the resource for the metric.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: 0
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -StartTime
+Specifies the earliest time and date to search.
+
+You can use the Get-Date cmdlet to get a **DateTime** object.
+
+```yaml
+Type: DateTime
 Parameter Sets: (All)
 Aliases: 
 

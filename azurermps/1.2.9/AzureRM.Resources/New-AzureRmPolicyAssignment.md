@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.ResourceManager.Cmdlets.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 03/23/2017 23:03 PM
-ms.date: 03/23/2017
+updated_at: 05/02/2017 17:05 PM
+ms.date: 05/02/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v1.0.4.3/New-AzureRmPolicyAssignment.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v1.0.4.3/New-AzureRmPolicyAssignment.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/280872fa529e03be2466fa2252957a2060a9dfe4
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/fdff926f5dd35f9020f210f87b450464ba162edc
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -19,32 +19,38 @@ ms.service: azure-resource-manager
 # New-AzureRmPolicyAssignment
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+Creates a new policy assignment
 
 ## SYNTAX
 
 ```
 New-AzureRmPolicyAssignment -Name <String> -Scope <String> [-DisplayName <String>] -PolicyDefinition <PSObject>
- [-ApiVersion <String>] [-Pre] [<CommonParameters>]
+ [-ApiVersion <String>] [-Pre] [-InformationAction <ActionPreference>] [-InformationVariable <String>]
+ [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+Creates a new policy assignment
 
 ## EXAMPLES
 
-### Example 1
+### --------------------------  Policy assignment at resource group level  --------------------------
+@{paragraph=PS C:\\\>}
+
+
+
 ```
-PS C:\> {{ Add example code here }}
+$resourceGroup = Get-AzureRmResourceGroup -Name myRG
+          $policy = Get-AzureRmPolicyDefinition -Name myExisitingVmPolicy
+          New-AzureRmPolicyAssignment -Name VmPolicyAssignment -PolicyDefinition $policy -Scope $resourceGroup.ResourceId
 ```
 
-{{ Add example description here }}
+Puts a policy assignment at the specified resource group level
 
 ## PARAMETERS
 
 ### -ApiVersion
-When set, indicates the version of the resource provider API to use.
-If not specified, the API version is automatically determined as the latest available.
+@{Text=}
 
 ```yaml
 Type: String
@@ -59,7 +65,7 @@ Accept wildcard characters: False
 ```
 
 ### -DisplayName
-The description for policy assignment.
+The display name for the policy assignment
 
 ```yaml
 Type: String
@@ -73,8 +79,38 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
+### -InformationAction
+@{Text=}
+
+```yaml
+Type: ActionPreference
+Parameter Sets: (All)
+Aliases: infa
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -InformationVariable
+@{Text=}
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: iv
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
 ### -Name
-The policy assignment name.
+The policy assignment name
 
 ```yaml
 Type: String
@@ -89,7 +125,7 @@ Accept wildcard characters: False
 ```
 
 ### -PolicyDefinition
-The pollicy definition object.
+The policy definition object, containing the policy rule
 
 ```yaml
 Type: PSObject
@@ -104,7 +140,7 @@ Accept wildcard characters: False
 ```
 
 ### -Pre
-When set, indicates that the cmdlet should use pre-release API versions when automatically determining which version to use.
+@{Text=}
 
 ```yaml
 Type: SwitchParameter
@@ -119,7 +155,8 @@ Accept wildcard characters: False
 ```
 
 ### -Scope
-The scope for policy assignment.
+The scope at which to assign the policy assignment.
+For example: /subscriptions/{subId}/resourcegroups/{rgName}
 
 ```yaml
 Type: String
@@ -138,12 +175,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## INPUTS
 
-### System.String
-System.Management.Automation.PSObject
-
 ## OUTPUTS
-
-### System.Management.Automation.PSObject
 
 ## NOTES
 

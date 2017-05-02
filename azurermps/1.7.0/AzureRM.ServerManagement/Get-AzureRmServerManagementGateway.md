@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.Azure.Commands.ServerManagement.dll-Help.xml
+ms.assetid: 79F77158-D89A-46B4-8281-87E4D0A9C95A
 online version:
 schema: 2.0.0
-ms.assetid: 79F77158-D89A-46B4-8281-87E4D0A9C95A
-updated_at: 11/01/2016 22:11 PM
-ms.date: 11/01/2016
+updated_at: 05/01/2017 21:05 PM
+ms.date: 05/01/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ServerManagement/v1.0.3/Get-AzureRmServerManagementGateway.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ServerManagement/v1.0.3/Get-AzureRmServerManagementGateway.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0589fbf53d27e39e0cf445261d29c64fb0859d62
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -87,6 +87,42 @@ This command gets all instances of a Server Management Gateway named Gateway01 t
 
 ## PARAMETERS
 
+### -Gateway
+Specifies a gateway that this cmdlet gets.
+
+The cmdlet uses the *ResourceGroupName* and *GatewayName* parameters through the specified Gateway to perform the action.
+
+When this parameter is specified, this cmdlet will include detailed status for the gateway.
+
+```yaml
+Type: Gateway
+Parameter Sets: Single-ByObject
+Aliases: 
+
+Required: True
+Position: 0
+Default value: None
+Accept pipeline input: True (ByValue)
+Accept wildcard characters: False
+```
+
+### -GatewayName
+Specifies the name of the Server Management Gateway for which this cmdlet gets gate.
+
+When you specify the *GatewayName* parameter, this cmdlet will include detailed status on the gateway.
+
+```yaml
+Type: String
+Parameter Sets: Single-ByName
+Aliases: 
+
+Required: True
+Position: 1
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
 ### -InformationAction
 Specifies how this cmdlet responds to an information event.
 
@@ -138,42 +174,6 @@ Required: True
 Position: 0
 Default value: None
 Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -GatewayName
-Specifies the name of the Server Management Gateway for which this cmdlet gets gate.
-
-When you specify the *GatewayName* parameter, this cmdlet will include detailed status on the gateway.
-
-```yaml
-Type: String
-Parameter Sets: Single-ByName
-Aliases: 
-
-Required: True
-Position: 1
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -Gateway
-Specifies a gateway that this cmdlet gets.
-
-The cmdlet uses the *ResourceGroupName* and *GatewayName* parameters through the specified Gateway to perform the action.
-
-When this parameter is specified, this cmdlet will include detailed status for the gateway.
-
-```yaml
-Type: Gateway
-Parameter Sets: Single-ByObject
-Aliases: 
-
-Required: True
-Position: 0
-Default value: None
-Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 

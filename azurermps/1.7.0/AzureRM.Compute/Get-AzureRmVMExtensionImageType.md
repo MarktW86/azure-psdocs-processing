@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.Azure.Commands.Compute.dll-Help.xml
+ms.assetid: 96828771-1E43-4F85-8A58-EA68E2D0F90A
 online version:
 schema: 2.0.0
-ms.assetid: 96828771-1E43-4F85-8A58-EA68E2D0F90A
-updated_at: 11/01/2016 22:11 PM
-ms.date: 11/01/2016
+updated_at: 05/01/2017 21:05 PM
+ms.date: 05/01/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Get-AzureRmVMExtensionImageType.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Get-AzureRmVMExtensionImageType.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0589fbf53d27e39e0cf445261d29c64fb0859d62
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -42,39 +42,6 @@ PS C:\>Get-AzureRmVMExtensionImageType -Location "Central US" -PublisherName "Fa
 This command gets the extension image type for the specified publisher and location.
 
 ## PARAMETERS
-
-### -Location
-Specifies the location of an extension.
-This cmdlet gets the type for an extension at the location that this parameter specifies.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -PublisherName
-Specifies the name of a publisher of an extension.
-To obtain an extension publisher, use the Get-AzureRmVMImagePublisher cmdlet.
-This cmdlet gets the type for an extension from the publisher that this parameter specifies.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
 
 ### -InformationAction
 Specifies how this cmdlet responds to an information event.
@@ -112,6 +79,39 @@ Required: False
 Position: Named
 Default value: None
 Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -Location
+Specifies the location of an extension.
+This cmdlet gets the type for an extension at the location that this parameter specifies.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -PublisherName
+Specifies the name of a publisher of an extension.
+To obtain an extension publisher, use the Get-AzureRmVMImagePublisher cmdlet.
+This cmdlet gets the type for an extension from the publisher that this parameter specifies.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 

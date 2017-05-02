@@ -2,12 +2,11 @@
 external help file: Microsoft.Azure.Commands.ResourceManager.Cmdlets.dll-Help.xml
 online version:
 schema: 2.0.0
-ms.assetid: 1F2F7BD8-BA9E-4AFD-91CC-6AE4AB89C895
-updated_at: 11/01/2016 22:11 PM
-ms.date: 11/01/2016
+updated_at: 05/02/2017 17:05 PM
+ms.date: 05/02/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v2.0.3/Register-AzureRmProviderFeature.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v2.0.3/Register-AzureRmProviderFeature.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/fdff926f5dd35f9020f210f87b450464ba162edc
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -20,7 +19,6 @@ ms.service: azure-resource-manager
 # Register-AzureRmProviderFeature
 
 ## SYNOPSIS
-Registers an Azure provider feature in your account.
 
 ## SYNTAX
 
@@ -30,34 +28,21 @@ Register-AzureRmProviderFeature -FeatureName <String> -ProviderNamespace <String
 ```
 
 ## DESCRIPTION
-The **Register-AzureRmProviderFeature** cmdlet registers an Azure provider feature in your account.
+If you find an issue with this cmdlet, please create an issue on https://github.com/Azure/azure-powershell/issues, with a lable "ResourceManager".
 
 ## EXAMPLES
 
-### 1:
+### Example 1
+```
+PS C:\> {{ Add example code here }}
 ```
 
-```
+{{ Add example description here }}
 
 ## PARAMETERS
 
 ### -FeatureName
-Specifies the name of the feature that this cmdlet registers.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -ProviderNamespace
-Specifies a namespace for which this cmdlet registers a provider feature.
+@{Text=}
 
 ```yaml
 Type: String
@@ -72,6 +57,7 @@ Accept wildcard characters: False
 ```
 
 ### -Force
+@{Text=}
 
 ```yaml
 Type: SwitchParameter
@@ -85,6 +71,21 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
+### -ProviderNamespace
+@{Text=}
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
 ### -Confirm
 Prompts you for confirmation before running the cmdlet.
 
@@ -95,7 +96,7 @@ Aliases: cf
 
 Required: False
 Position: Named
-Default value: False
+Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
@@ -111,7 +112,7 @@ Aliases: wi
 
 Required: False
 Position: Named
-Default value: False
+Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
@@ -124,9 +125,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## OUTPUTS
 
 ## NOTES
+Keywords: azure, azurerm, arm, resource, management, manager, resource, group, template, deployment
 
 ## RELATED LINKS
-
-[Get-AzureRmProviderFeature](./Get-AzureRmProviderFeature.md)
-
 

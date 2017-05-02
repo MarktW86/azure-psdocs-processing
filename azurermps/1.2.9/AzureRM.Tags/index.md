@@ -14,9 +14,9 @@ keywords: powershell, cmdlet
 manager: erickson-doug
 open_to_public_contributors: true
 ms.service: azure-resource-manager
-Get-AzureRmTag: Resource tags
-New-AzureRmTag: Resource tags
-Remove-AzureRmTag: Resource tags
+Get-AzureRmTag: Tags
+New-AzureRmTag: Tags
+Remove-AzureRmTag: Tags
 _isModulePage: true
 ---
 

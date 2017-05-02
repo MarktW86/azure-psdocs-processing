@@ -2,11 +2,11 @@
 external help file: Microsoft.AzureStack.Commands.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 04/20/2017 23:04 PM
-ms.date: 04/20/2017
+updated_at: 05/02/2017 19:05 PM
+ms.date: 05/02/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/Add-AzureRMUsageConnection.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/Add-AzureRMUsageConnection.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d4f2539c40b2f09416fa3e1d384a0a1f0183fb5e
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/64ea21b6f9d300bac04d2df45c463f94a5e389b4
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -19,10 +19,7 @@ ms.service: azure-stack
 # Add-AzureRMUsageConnection
 
 ## SYNOPSIS
-The Add-AzureRMUsageConnection cmdlet adds an usage connection details for a resource provider.
-The cmdlet gets the storage account information where the resource provider is storing the usage records.
-This information is given to the usage service through this cmdlet. 
-Usage Service will retrieve the usage records periodically from the storage account information provided
+Adds usage connection details for a resource provider.
 
 ## SYNTAX
 
@@ -35,64 +32,57 @@ Add-AzureRMUsageConnection -Name <String> -ResourceGroup <String> -ArmLocation <
 ```
 
 ## DESCRIPTION
+The **Add-AzureRMUsageConnection** cmdlet adds usage connection details for a resource provider. The cmdlet gets information about the storage account where the resource provider is storing the usage records and gives this information to the usage service. The usage service will retrieve the usage records periodically based on the storage account information provided.
 
 ## EXAMPLES
 
-### Example 1:
+### Example 1: Add usage connection details for the resource provider in the specified resource group
 ```
+$usageConnectionId = "sqlrpusageconnection"
+$location = "local"
+
+# Create Resource Group
+# The following name could be anything
+$usageConnectionRG="UsageConnectionRG"
+New-AzureRMResourceGroup -Name $usageConnectionRG  -Location $location -Force
+
+# Make sure the tables and queues exist
+# if not create them with New-AzureStorageTale/New-AzureStorageQueue
+$usageReportingQueue = "sqlrpusagequeue"
+$usageReportingTable = "sqlrpusagetable"
+$errorReportingQueue = "sqlrpusageerrorqueue"
+$errorReportingTable = "sqlrpusageerrortable"
+
+# Create storage account if other than DevStorage
+$storageConnectionString = "UseDevelopmentStorage=true"
+
+$usageConnectionParams = @{
+Name = $usageConnectionId
+ResourceGroup = $usageConnectionRG
+ProviderNamespace = "Microsoft.Sql"
+ArmLocation = $location
+ProviderLocation = $location
+UsageStorageConnectionString = $storageConnectionString
+UsageReportingQueue = $usageReportingQueue
+UsageReportingTable = $usageReportingTable
+ErrorReportingQueue = $errorReportingQueue
+ErrorReportingTable = $errorReportingTable
+}
+
 Add-AzureRmUsageConnection @usageConnectionParams
 ```
 
-Description
-
------------
-
-The following example registers a usage connection information of a resource provider to usage service
-
-            $usageConnectionId = "sqlrpusageconnection"
-            $location = "local"
-
-            # Create Resource Group
-            # The following name could be anything
-            $usageConnectionRG="UsageConnectionRG"
-            New-AzureRMResourceGroup -Name $usageConnectionRG  -Location $location -Force
-
-            # Make sure the tables and queues exist
-            # if not create them with New-AzureStorageTale/New-AzureStorageQueue
-            $usageReportingQueue = "sqlrpusagequeue"
-            $usageReportingTable = "sqlrpusagetable"
-            $errorReportingQueue = "sqlrpusageerrorqueue"
-            $errorReportingTable = "sqlrpusageerrortable"
-
-            # Create Storage Account If Other than DevStorage
-            $storageConnectionString = "UseDevelopmentStorage=true"
-
-
-            $usageConnectionParams = @{
-            Name = $usageConnectionId
-            ResourceGroup = $usageConnectionRG
-            ProviderNamespace = "Microsoft.Sql"
-            ArmLocation = $location
-            ProviderLocation = $location
-            UsageStorageConnectionString = $storageConnectionString
-            UsageReportingQueue = $usageReportingQueue
-            UsageReportingTable = $usageReportingTable
-            ErrorReportingQueue = $errorReportingQueue
-            ErrorReportingTable = $errorReportingTable
-            ApiVersion = "2015-06-01-preview"
-            }
-
-            Add-AzureRmUsageConnection @usageConnectionParams
+This example creates a resource group named "UsageConnectionRG" and adds usage connection details for the resource provider in this resource group.
 
 ## PARAMETERS
 
 ### -ArmLocation
-This is the Location of the resource manager instance in the Azure Stack installation
+Specifies the location of the resource manager in the Azure Stack.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -102,13 +92,12 @@ Accept wildcard characters: False
 ```
 
 ### -ErrorReportingQueue
-Queue name for reporting the errors.
-Usage service would insert records in this queue for any errors during its collection process
+Specifies the name of the queue that is used for reporting the errors. The usage service would insert records in this queue for any errors generated during its collection process.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -118,13 +107,12 @@ Accept wildcard characters: False
 ```
 
 ### -ErrorReportingTable
-Table name for reporting the errors.
-Usage service would insert records in this queue for any errors during its collection process
+Specifies the name of the table that is used for reporting the errors. The usage service would insert records in this table for any errors generated during its collection process.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -134,9 +122,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-Not Specified
-
-The following values are permitted for this object type.
+Specifies how this cmdlet responds to an information event.
 
 ```yaml
 Type: ActionPreference
@@ -152,7 +138,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-Not Specified
+Specifies a variable that is used for storing an informational message.
 
 ```yaml
 Type: String
@@ -167,12 +153,12 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-Specifies the name of the usage connection
+Specifies the name of the usage connection.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -182,7 +168,7 @@ Accept wildcard characters: False
 ```
 
 ### -PipelineVariable
-Not Specified
+Specifies a variable that stores the value of the current pipeline element.
 
 ```yaml
 Type: String
@@ -197,12 +183,12 @@ Accept wildcard characters: False
 ```
 
 ### -ProviderLocation
-Location of the resource provider for which the usage connection is being added
+Specifies the location of the resource provider for which the usage connection information is being added.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -212,12 +198,12 @@ Accept wildcard characters: False
 ```
 
 ### -ProviderNamespace
-Namespace of the resource provider for which the usage connection is being added
+Specifies the namespace of the resource provider for which the usage connection information is being added.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -227,12 +213,12 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroup
-Resource group name for the usage connection resource
+Specifies the name of the resource group of the resource provider for which the usage connection information is being added.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -242,13 +228,12 @@ Accept wildcard characters: False
 ```
 
 ### -UsageReportingQueue
-Queue name where the added usage meta data is queued .
-Using this metadata, Usage service will read the data from reporting table for usage aggregation
+Specifies the name of the queue in which the added usage meta data is stored. Using this metadata, the usage service will read the data from the usage reporting table.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -258,12 +243,12 @@ Accept wildcard characters: False
 ```
 
 ### -UsageReportingTable
-Table name where usage records are inserted
+Specifies the name of the table in which usage records are stored.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -273,12 +258,12 @@ Accept wildcard characters: False
 ```
 
 ### -UsageStorageConnectionString
-This specifies the storage connection string in which the resource provider usage records are inserted
+Specifies the storage connection string in which the resource provider usage records are stored.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -292,6 +277,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## INPUTS
 
+### None
+
 ## OUTPUTS
 
 ### Microsoft.AzureStack.Management.Models.UsageConnectionModel
@@ -299,4 +286,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-

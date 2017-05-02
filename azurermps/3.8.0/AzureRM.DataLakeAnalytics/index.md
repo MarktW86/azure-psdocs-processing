@@ -4,11 +4,11 @@ Module Guid: eca73aa1-a68f-4ceb-9775-70759316a57b
 Download Help Link: None
 Help Version: 1.0.0.0
 Locale: en-US
-updated_at: 04/07/2017 09:04 AM
-ms.date: 04/07/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeAnalytics/v2.8.0/AzureRM.DataLakeAnalytics.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeAnalytics/v2.8.0/AzureRM.DataLakeAnalytics.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/195dcb690a30a5f2c0ecd5606483862547ef544a
+content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/DataLakeAnalytics/Commands.DataLakeAnalytics/help/AzureRM.DataLakeAnalytics.md
+original_content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/DataLakeAnalytics/Commands.DataLakeAnalytics/help/AzureRM.DataLakeAnalytics.md
+gitcommit: https://github.com/Azure/azure-powershell/blob/acaa012bbc3d2249dc7ee2c45b30f62c620d7998
+updated_at: 04/28/2017 07:04 AM
+ms.date: 04/28/2017
 ms.topic: conceptual
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -16,31 +16,31 @@ keywords: powershell, cmdlet
 manager: erickson-doug
 open_to_public_contributors: true
 ms.service: data-lake-analytics
-Add-AzureRmDataLakeAnalyticsDataSource: Data Lake
-Add-AzureRmDataLakeAnalyticsFirewallRule: Data Lake
-Get-AzureRmDataLakeAnalyticsAccount: Data Lake
-Get-AzureRmDataLakeAnalyticsCatalogItem: Data Lake
-Get-AzureRmDataLakeAnalyticsDataSource: Data Lake
-Get-AzureRmDataLakeAnalyticsFirewallRule: Data Lake
-Get-AzureRmDataLakeAnalyticsJob: Data Lake
-New-AzureRmDataLakeAnalyticsAccount: Data Lake
-New-AzureRmDataLakeAnalyticsCatalogCredential: Data Lake
-New-AzureRmDataLakeAnalyticsCatalogSecret: Data Lake
-Remove-AzureRmDataLakeAnalyticsAccount: Data Lake
-Remove-AzureRmDataLakeAnalyticsCatalogCredential: Data Lake
-Remove-AzureRmDataLakeAnalyticsCatalogSecret: Data Lake
-Remove-AzureRmDataLakeAnalyticsDataSource: Data Lake
-Remove-AzureRmDataLakeAnalyticsFirewallRule: Data Lake
-Set-AzureRmDataLakeAnalyticsAccount: Data Lake
-Set-AzureRmDataLakeAnalyticsCatalogCredential: Data Lake
-Set-AzureRmDataLakeAnalyticsCatalogSecret: Data Lake
-Set-AzureRmDataLakeAnalyticsDataSource: Data Lake
-Set-AzureRmDataLakeAnalyticsFirewallRule: Data Lake
-Stop-AzureRmDataLakeAnalyticsJob: Data Lake
-Submit-AzureRmDataLakeAnalyticsJob: Data Lake
-Test-AzureRmDataLakeAnalyticsAccount: Data Lake
-Test-AzureRmDataLakeAnalyticsCatalogItem: Data Lake
-Wait-AzureRmDataLakeAnalyticsJob: Data Lake
+Add-AzureRmDataLakeAnalyticsDataSource: Data Lake Analytics
+Add-AzureRmDataLakeAnalyticsFirewallRule: Data Lake Analytics
+Get-AzureRmDataLakeAnalyticsAccount: Data Lake Analytics
+Get-AzureRmDataLakeAnalyticsCatalogItem: Data Lake Analytics
+Get-AzureRmDataLakeAnalyticsDataSource: Data Lake Analytics
+Get-AzureRmDataLakeAnalyticsFirewallRule: Data Lake Analytics
+Get-AzureRmDataLakeAnalyticsJob: Data Lake Analytics
+New-AzureRmDataLakeAnalyticsAccount: Data Lake Analytics
+New-AzureRmDataLakeAnalyticsCatalogCredential: Data Lake Analytics
+New-AzureRmDataLakeAnalyticsCatalogSecret: Data Lake Analytics
+Remove-AzureRmDataLakeAnalyticsAccount: Data Lake Analytics
+Remove-AzureRmDataLakeAnalyticsCatalogCredential: Data Lake Analytics
+Remove-AzureRmDataLakeAnalyticsCatalogSecret: Data Lake Analytics
+Remove-AzureRmDataLakeAnalyticsDataSource: Data Lake Analytics
+Remove-AzureRmDataLakeAnalyticsFirewallRule: Data Lake Analytics
+Set-AzureRmDataLakeAnalyticsAccount: Data Lake Analytics
+Set-AzureRmDataLakeAnalyticsCatalogCredential: Data Lake Analytics
+Set-AzureRmDataLakeAnalyticsCatalogSecret: Data Lake Analytics
+Set-AzureRmDataLakeAnalyticsDataSource: Data Lake Analytics
+Set-AzureRmDataLakeAnalyticsFirewallRule: Data Lake Analytics
+Stop-AzureRmDataLakeAnalyticsJob: Data Lake Analytics
+Submit-AzureRmDataLakeAnalyticsJob: Data Lake Analytics
+Test-AzureRmDataLakeAnalyticsAccount: Data Lake Analytics
+Test-AzureRmDataLakeAnalyticsCatalogItem: Data Lake Analytics
+Wait-AzureRmDataLakeAnalyticsJob: Data Lake Analytics
 _isModulePage: true
 ---
 

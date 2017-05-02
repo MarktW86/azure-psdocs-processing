@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.Resources.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 03/23/2017 23:03 PM
-ms.date: 03/23/2017
+updated_at: 05/02/2017 17:05 PM
+ms.date: 05/02/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v1.0.4.3/Get-AzureRmADUser.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v1.0.4.3/Get-AzureRmADUser.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/280872fa529e03be2466fa2252957a2060a9dfe4
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/fdff926f5dd35f9020f210f87b450464ba162edc
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -19,7 +19,7 @@ ms.service: azure-resource-manager
 # Get-AzureRmADUser
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+Filters active directory users.
 
 ## SYNTAX
 
@@ -49,21 +49,49 @@ Get-AzureRmADUser -Mail <String> [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+This is the Description section
+
+Filters active directory users.
 
 ## EXAMPLES
 
-### Example 1
+### --------------------------  Filters users using UPN  --------------------------
+@{paragraph=PS C:\\\>}
+
+
+
 ```
-PS C:\> {{ Add example code here }}
+PS C:\> Get-AzureRmADUser -UPN foo@domain.com
 ```
 
-{{ Add example description here }}
+Gets user with foo@domain.com
+
+### --------------------------  Filters users using Search String  --------------------------
+@{paragraph=PS C:\\\>}
+
+
+
+```
+PS C:\> Get-AzureRmADUser -SearchString Joe
+```
+
+Filters all ad users that has Joe in the display name.
+
+### --------------------------  List AD users  --------------------------
+@{paragraph=PS C:\\\>}
+
+
+
+```
+PS C:\> Get-AzureRmADUser
+```
+
+Gets all AD users
 
 ## PARAMETERS
 
 ### -Mail
-The user mail.
+@{Text=}
 
 ```yaml
 Type: String
@@ -78,7 +106,7 @@ Accept wildcard characters: False
 ```
 
 ### -ObjectId
-The user object id.
+Object id of the user.
 
 ```yaml
 Type: String
@@ -93,7 +121,7 @@ Accept wildcard characters: False
 ```
 
 ### -SearchString
-The user search string.
+The user display name
 
 ```yaml
 Type: String
@@ -108,7 +136,7 @@ Accept wildcard characters: False
 ```
 
 ### -UserPrincipalName
-The user UPN.
+UPN of the user.
 
 ```yaml
 Type: String
@@ -139,13 +167,15 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## INPUTS
 
-### System.String
-
 ## OUTPUTS
-
-### System.Collections.Generic.List`1[[Microsoft.Azure.Commands.Resources.Models.ActiveDirectory.PSADUser, Microsoft.Azure.Commands.Resources, Version=1.0.4.3, Culture=neutral, PublicKeyToken=31bf3856ad364e35]]
 
 ## NOTES
 
 ## RELATED LINKS
+
+[Get-AzureRmADGroup]()
+
+[Get-AzureRmADServicePrincipal]()
+
+[Get-AzureRmADGroupMember]()
 

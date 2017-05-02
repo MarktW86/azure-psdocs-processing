@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.Azure.Commands.RecoveryServices.Backup.dll-Help.xml
+ms.assetid: 65B4F207-B14C-4757-BBD5-58DA52DC52E6
 online version:
 schema: 2.0.0
-ms.assetid: 65B4F207-B14C-4757-BBD5-58DA52DC52E6
-updated_at: 11/01/2016 22:11 PM
-ms.date: 11/01/2016
+updated_at: 05/01/2017 21:05 PM
+ms.date: 05/01/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices.Backup/v1.0.4/Get-AzureRmRecoveryServicesBackupRecoveryPoint.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices.Backup/v1.0.4/Get-AzureRmRecoveryServicesBackupRecoveryPoint.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0589fbf53d27e39e0cf445261d29c64fb0859d62
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -73,21 +73,6 @@ The last command gets an array of recovery points for the item in $BackupItem, a
 
 ## PARAMETERS
 
-### -StartDate
-Specifies the start of the date range.
-
-```yaml
-Type: DateTime
-Parameter Sets: DateTimeFilter
-Aliases: 
-
-Required: False
-Position: 0
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
 ### -EndDate
 Specifies the end of the date range.
 
@@ -142,21 +127,6 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -RecoveryPointId
-Specifies the recovery point ID.
-
-```yaml
-Type: String
-Parameter Sets: RecoveryPointId
-Aliases: 
-
-Required: True
-Position: 1
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
 ### -Item
 Specifies the item for which this cmdlet gets recovery points.
 To obtain an **AzureRmRecoveryServicesBackupItem** object, use the Get-AzureRmRecoveryServicesBackupItem cmdlet.
@@ -183,6 +153,36 @@ Aliases:
 
 Required: False
 Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -RecoveryPointId
+Specifies the recovery point ID.
+
+```yaml
+Type: String
+Parameter Sets: RecoveryPointId
+Aliases: 
+
+Required: True
+Position: 1
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -StartDate
+Specifies the start of the date range.
+
+```yaml
+Type: DateTime
+Parameter Sets: DateTimeFilter
+Aliases: 
+
+Required: False
+Position: 0
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False

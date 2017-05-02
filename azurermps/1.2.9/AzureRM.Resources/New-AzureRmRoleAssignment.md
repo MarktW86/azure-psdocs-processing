@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.Resources.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 03/23/2017 23:03 PM
-ms.date: 03/23/2017
+updated_at: 05/02/2017 17:05 PM
+ms.date: 05/02/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v1.0.4.3/New-AzureRmRoleAssignment.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v1.0.4.3/New-AzureRmRoleAssignment.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/280872fa529e03be2466fa2252957a2060a9dfe4
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/fdff926f5dd35f9020f210f87b450464ba162edc
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -19,90 +19,189 @@ ms.service: azure-resource-manager
 # New-AzureRmRoleAssignment
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+Assigns the specified RBAC role to the specified principal, at the specified scope.
 
 ## SYNTAX
 
 ### EmptyParameterSet (Default)
 ```
-New-AzureRmRoleAssignment -ObjectId <String> -Scope <String> -RoleDefinitionName <String> [<CommonParameters>]
+New-AzureRmRoleAssignment -ObjectId <String> -Scope <String> -RoleDefinitionName <String>
+ [-InformationAction <ActionPreference>] [-InformationVariable <String>] [<CommonParameters>]
 ```
 
 ### ResourceGroupWithObjectIdParameterSet
 ```
 New-AzureRmRoleAssignment -ObjectId <String> -ResourceGroupName <String> -RoleDefinitionName <String>
- [<CommonParameters>]
+ [-InformationAction <ActionPreference>] [-InformationVariable <String>] [<CommonParameters>]
 ```
 
 ### ResourceWithObjectIdParameterSet
 ```
 New-AzureRmRoleAssignment -ObjectId <String> -ResourceGroupName <String> -ResourceName <String>
- -ResourceType <String> [-ParentResource <String>] -RoleDefinitionName <String> [<CommonParameters>]
+ -ResourceType <String> [-ParentResource <String>] -RoleDefinitionName <String>
+ [-InformationAction <ActionPreference>] [-InformationVariable <String>] [<CommonParameters>]
 ```
 
 ### ScopeWithObjectIdParameterSet
 ```
 New-AzureRmRoleAssignment -ObjectId <String> [-Scope <String>] -RoleDefinitionName <String>
- [<CommonParameters>]
+ [-InformationAction <ActionPreference>] [-InformationVariable <String>] [<CommonParameters>]
 ```
 
 ### RoleIdWithScopeAndObjectIdParameterSet
 ```
-New-AzureRmRoleAssignment -ObjectId <String> -Scope <String> -RoleDefinitionId <Guid> [<CommonParameters>]
+New-AzureRmRoleAssignment -ObjectId <String> -Scope <String> -RoleDefinitionId <Guid>
+ [-InformationAction <ActionPreference>] [-InformationVariable <String>] [<CommonParameters>]
 ```
 
 ### ResourceGroupWithSignInNameParameterSet
 ```
 New-AzureRmRoleAssignment -SignInName <String> -ResourceGroupName <String> -RoleDefinitionName <String>
- [<CommonParameters>]
+ [-InformationAction <ActionPreference>] [-InformationVariable <String>] [<CommonParameters>]
 ```
 
 ### ResourceWithSignInNameParameterSet
 ```
 New-AzureRmRoleAssignment -SignInName <String> -ResourceGroupName <String> -ResourceName <String>
- -ResourceType <String> [-ParentResource <String>] -RoleDefinitionName <String> [<CommonParameters>]
+ -ResourceType <String> [-ParentResource <String>] -RoleDefinitionName <String>
+ [-InformationAction <ActionPreference>] [-InformationVariable <String>] [<CommonParameters>]
 ```
 
 ### ScopeWithSignInNameParameterSet
 ```
 New-AzureRmRoleAssignment -SignInName <String> [-Scope <String>] -RoleDefinitionName <String>
- [<CommonParameters>]
+ [-InformationAction <ActionPreference>] [-InformationVariable <String>] [<CommonParameters>]
 ```
 
 ### ResourceGroupWithSPNParameterSet
 ```
 New-AzureRmRoleAssignment -ServicePrincipalName <String> -ResourceGroupName <String>
- -RoleDefinitionName <String> [<CommonParameters>]
+ -RoleDefinitionName <String> [-InformationAction <ActionPreference>] [-InformationVariable <String>]
+ [<CommonParameters>]
 ```
 
 ### ResourceWithSPNParameterSet
 ```
 New-AzureRmRoleAssignment -ServicePrincipalName <String> -ResourceGroupName <String> -ResourceName <String>
- -ResourceType <String> [-ParentResource <String>] -RoleDefinitionName <String> [<CommonParameters>]
+ -ResourceType <String> [-ParentResource <String>] -RoleDefinitionName <String>
+ [-InformationAction <ActionPreference>] [-InformationVariable <String>] [<CommonParameters>]
 ```
 
 ### ScopeWithSPNParameterSet
 ```
 New-AzureRmRoleAssignment -ServicePrincipalName <String> [-Scope <String>] -RoleDefinitionName <String>
- [<CommonParameters>]
+ [-InformationAction <ActionPreference>] [-InformationVariable <String>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+Use the New-AzureRMRoleAssignment command to grant access.
+Access is granted by assigning the appropriate RBAC role to them at the right scope.
+To grant access to the entire subscription, assign a role at the subscription scope.
+To grant access to a specific resource group within a subscription, assign a role at the resource group scope.
+
+The subject of the assignment must be specified.
+To specify a user, use SignInName or Azure AD ObjectId parameters.
+To specify a security group, use Azure AD ObjectId parameter.
+And to specify an Azure AD application, use ServicePrincipalName or ObjectId parameters.
+
+The role that is being assigned must be specified using the RoleDefinitionName parameter.
+
+The scope at which access is being granted may be specified.
+It defaults to the selected subscription. 
+The scope of the assignment can be specified using one of the following parameter combinations
+        a.
+Scope - This is the fully qualified scope starting with /subscriptions/\<subscriptionId\>
+        b.
+ResourceGroupName - to grant access to the specified resource group.
+        c.
+ResourceName, ResourceType, ResourceGroupName and (optionally) ParentResource - to specify a particular resource within a resource group to grant access to.
 
 ## EXAMPLES
 
-### Example 1
+### --------------------------  Example 1  --------------------------
+@{paragraph=PS C:\\\>}
+
+
+
 ```
-PS C:\> {{ Add example code here }}
+PS C:\> New-AzureRmRoleAssignment -ResourceGroupName rg1 -SignInName allen.young@live.com -RoleDefinitionName Reader
 ```
 
-{{ Add example description here }}
+Grant Reader role access to a user at a resource group scope
+
+### --------------------------  Example 2  --------------------------
+@{paragraph=PS C:\\\>}
+
+
+
+```
+PS C:\> Get-AzureRMADGroup -SearchString "Christine Koch Team"
+
+          DisplayName                    Type                           ObjectId
+          -----------                    ----                           --------
+          Christine Koch Team                                           2f9d4375-cbf1-48e8-83c9-2a0be4cb33fb
+
+          PS C:\> New-AzureRmRoleAssignment -ObjectId 2f9d4375-cbf1-48e8-83c9-2a0be4cb33fb -RoleDefinitionName Contributor  -ResourceGroupName rg1
+```
+
+Grant access to a security group
+
+### --------------------------  Example 3  --------------------------
+@{paragraph=PS C:\\\>}
+
+
+
+```
+PS C:\> New-AzureRmRoleAssignment -SignInName john.doe@contoso.com -RoleDefinitionName Owner -Scope "/subscription/86f81fc3-b00f-48cd-8218-3879f51ff362/resourcegroups/rg1/providers/Microsoft.Web/sites/site1"
+```
+
+Grant access to a user at a resource (website)
+
+### --------------------------  Example 4  --------------------------
+@{paragraph=PS C:\\\>}
+
+
+
+```
+PS C:\> New-AzureRMRoleAssignment -ObjectId 5ac84765-1c8c-4994-94b2-629461bd191b -RoleDefinitionName "Virtual Machine Contributor" -ResourceName Devices-Engineering-ProjectRND -ResourceType Microsoft.Network/virtualNetworks/subnets -ParentResource virtualNetworks/VNET-EASTUS-01 -ResourceGroupName Network
+```
+
+Grant access to a group at a nested resource (subnet)
 
 ## PARAMETERS
 
+### -InformationAction
+@{Text=}
+
+```yaml
+Type: ActionPreference
+Parameter Sets: (All)
+Aliases: infa
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -InformationVariable
+@{Text=}
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: iv
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
 ### -ObjectId
-The user or group object id.
+Azure AD Objectid of the user, group or service principal.
 
 ```yaml
 Type: String
@@ -117,7 +216,8 @@ Accept wildcard characters: False
 ```
 
 ### -ParentResource
-Parent resource of the resource to assign the role to, if there is any.
+The parent resource in the hierarchy(of the resource specified using ResourceName parameter).
+Should only be  used in conjunction with ResourceGroupName, ResourceType and ResourceName parameters to construct a hierarchical scope in the form of a relative URI that identifies a resource.
 
 ```yaml
 Type: String
@@ -132,7 +232,9 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Resource group to assign the role to.
+The resource group name.
+Creates an assignment that is effective at the specified resource group.
+When used in conjunction with ResourceName, ResourceType and (optionally)ParentResource parameters, the command constructs a hierarchical scope in the form of a relative URI that identifies a resource.
 
 ```yaml
 Type: String
@@ -147,7 +249,10 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceName
-Resource to assign the role to.
+The resource name.
+For e.g.
+storageaccountprod.
+Should only be used in conjunction with ResourceGroupName, ResourceType and (optionally)ParentResource parameters to construct a hierarchical scope in the form of a  relative URI that identifies a resource.
 
 ```yaml
 Type: String
@@ -162,7 +267,10 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceType
-Type of the resource to assign the role to.
+The resource type.
+For e.g.
+Microsoft.Network/virtualNetworks.
+Should only be used in conjunction with ResourceGroupName, ResourceName and (optionally)ParentResource parameters to construct a hierarchical scope in  the form of a relative URI that identifies a resource.
 
 ```yaml
 Type: String
@@ -177,7 +285,7 @@ Accept wildcard characters: False
 ```
 
 ### -RoleDefinitionId
-Role Id the principal is assigned to.
+Id of the RBAC role that needs to be assigned to the principal.
 
 ```yaml
 Type: Guid
@@ -192,7 +300,8 @@ Accept wildcard characters: False
 ```
 
 ### -RoleDefinitionName
-Role name to assign the principals with.
+Name of the RBAC role that needs to be assigned to the principal i.e.
+Reader, Contributor, Virtual Network Administrator, etc.
 
 ```yaml
 Type: String
@@ -207,11 +316,12 @@ Accept wildcard characters: False
 ```
 
 ### -Scope
-Scope of the role assignment.
+The Scope of the role assignment.
 In the format of relative URI.
-If not specified, will assign the role at subscription level.
-If specified, it can either start with "/subscriptions/\<id\>" or the part after that.
-If it's latter, the current subscription id will be used.
+For e.g.
+"/subscriptions/9004a9fd-d58e-48dc-aeb2-4a4aec58606f/resourceGroups/TestRG".
+If not specified, will create the role assignment at subscription level.
+If specified, it should start with "/subscriptions/{id}".
 
 ```yaml
 Type: String
@@ -238,7 +348,7 @@ Accept wildcard characters: False
 ```
 
 ### -ServicePrincipalName
-The app SPN.
+The ServicePrincipalName of the Azure AD application
 
 ```yaml
 Type: String
@@ -253,7 +363,7 @@ Accept wildcard characters: False
 ```
 
 ### -SignInName
-The user SignInName.
+The email address or the user principal name of the user.
 
 ```yaml
 Type: String
@@ -272,14 +382,16 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## INPUTS
 
-### System.String
-System.Guid
-
 ## OUTPUTS
 
-### Microsoft.Azure.Commands.Resources.Models.Authorization.PSRoleAssignment
-
 ## NOTES
+Keywords: azure, azurerm, arm, resource, management, manager, resource, group, template, deployment
 
 ## RELATED LINKS
+
+[Get-AzureRmRoleAssignment]()
+
+[Remove-AzureRmRoleAssignment]()
+
+[Get-AzureRmRoleDefinition]()
 

@@ -2,11 +2,11 @@
 external help file: Microsoft.AzureStack.Commands.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 04/20/2017 23:04 PM
-ms.date: 04/20/2017
+updated_at: 05/02/2017 19:05 PM
+ms.date: 05/02/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/Get-AzureRMManagedLocation.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/Get-AzureRMManagedLocation.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d4f2539c40b2f09416fa3e1d384a0a1f0183fb5e
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/64ea21b6f9d300bac04d2df45c463f94a5e389b4
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -19,7 +19,7 @@ ms.service: azure-stack
 # Get-AzureRMManagedLocation
 
 ## SYNOPSIS
-The Get-AzureRmMangedLocation cmdlet gets the azurestack resource manager location as an administrator
+Gets the details about a location managed by the Azure stack resource manager.
 
 ## SYNTAX
 
@@ -29,26 +29,21 @@ Get-AzureRMManagedLocation [-Name <String>] [-InformationAction <ActionPreferenc
 ```
 
 ## DESCRIPTION
+The **Get-AzureRmMangedLocation** cmdlet gets the details about a location managed by the Azure stack resource manager.
 
 ## EXAMPLES
 
-### Example 1:
+### Example 1: Get details about the location having the specified name
 ```
 Get-AzureRMManagedLocation -Name "Chicago"
 ```
 
-Description
-
------------
-
-The example gets the details of the location named 'Chicago'
+This example gets the details of the location named "Chicago".
 
 ## PARAMETERS
 
 ### -InformationAction
-Not Specified
-
-The following values are permitted for this object type.
+Specifies how this cmdlet responds to an information event.
 
 ```yaml
 Type: ActionPreference
@@ -64,7 +59,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-Not Specified
+Specifies a variable that is used for storing an informational message.
 
 ```yaml
 Type: String
@@ -79,12 +74,12 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-Specifies the name of the location
+Specifies the name of the location.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -94,7 +89,7 @@ Accept wildcard characters: False
 ```
 
 ### -PipelineVariable
-Not Specified
+Specifies a variable that stores the value of the current pipeline element.
 
 ```yaml
 Type: String
@@ -113,6 +108,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## INPUTS
 
+### None
+
 ## OUTPUTS
 
 ### Microsoft.AzureStack.Management.Models.Location
@@ -120,4 +117,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-

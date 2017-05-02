@@ -2,12 +2,11 @@
 external help file: Microsoft.Azure.Commands.HDInsight.dll-Help.xml
 online version:
 schema: 2.0.0
-ms.assetid: 1BEEEEA7-3B43-4BC1-AAB3-E82145CAAE5E
-updated_at: 11/01/2016 22:11 PM
-ms.date: 11/01/2016
+updated_at: 05/02/2017 17:05 PM
+ms.date: 05/02/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v1.1.4/Add-AzureRmHDInsightScriptAction.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v1.1.4/Add-AzureRmHDInsightScriptAction.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/fdff926f5dd35f9020f210f87b450464ba162edc
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -31,9 +30,9 @@ Add-AzureRmHDInsightScriptAction [-Config] <AzureHDInsightConfig> [-NodeType] <C
 ```
 
 ## DESCRIPTION
-The **Add-AzureRmHDInsightScriptAction** cmdlet adds script actions to the HDInsight configuration object created by the New-AzureRmHDInsightClusterConfig cmdlet.
+The Add-AzureRmHDInsightScriptAction cmdlet adds script actions to the HDInsight configuration object created by the New-AzureRmHDInsightClusterConfig cmdlet.
 
-Script actions provide functionality that is used to install additional software or to change the configuration of applications that run on a Hadoop cluster by using mshshort or Bash scripts (for Windows or Linux clusters, respectively).
+Script actions provide functionality that is used to install additional software or to change the configuration of applications that run on a Hadoop cluster by using Windows PowerShell or Bash scripts (for Windows or Linux clusters, respectively).
 
 A script action runs on the cluster nodes when HDInsight clusters are deployed, and they run after nodes in the cluster complete HDInsight configuration.
 The script action runs under system administrator account privileges and provides full access rights to the cluster nodes.
@@ -41,32 +40,37 @@ You can provide each cluster with a list of script actions to run in a specified
 
 ## EXAMPLES
 
-### Example 1: Add a script action to the cluster configuration object
+### --------------------------  Example 1: Add a script action to the cluster configuration object.  --------------------------
+@{paragraph=PS C:\\\>}
+
+
+
 ```
-PS C:\># Primary storage account info
-PS C:\> $storageAccountResourceGroupName = "Group"
-PS C:\> $storageAccountName = "yourstorageacct001"
-PS C:\> $storageAccountKey = (Get-AzureRmStorageAccountKey -ResourceGroupName $storageAccountResourceGroupName -Name $storageAccountName)[0].value
+PS C:\> # Primary storage account info
+        $storageAccountResourceGroupName = "Group"
+        $storageAccountName = "yourstorageacct001"
+        $storageAccountKey = Get-AzureStorageAccountKey `
+            -ResourceGroupName $storageAccountResourceGroupName `
+            -Name $storageAccountName | %{ $_.Key1 }
+        $storageContainer = "container001"
+
+        # Script action info
+        $scriptActionName = "&lt;script action name&gt;"
+        $scriptActionURI = "&lt;script action URI&gt;"
+        $scriptActionParameters = "&lt;script action parameters&gt;" 
+
+        # Cluster configuration info
+        $location = "East US 2"
+        $clusterResourceGroupName = "Group"
+        $clusterName = "your-hadoop-001"
+        $clusterCreds = Get-Credential
+
+        # If the cluster's resource group doesn't exist yet, run:
+        #   New-AzureRmResourceGroup -Name $clusterResourceGroupName -Location $location
 
 
-PS C:\> $storageContainer = "container001"
-
-# Script action info
-PS C:\> $scriptActionName = "<script action name>"
-PS C:\> $scriptActionURI = "<script action URI>"
-PS C:\> $scriptActionParameters = "<script action parameters>" 
-
-# Cluster configuration info
-PS C:\> $location = "East US 2"
-PS C:\> $clusterResourceGroupName = "Group"
-PS C:\> $clusterName = "your-hadoop-001"
-PS C:\> $clusterCreds = Get-Credential
-
-# If the cluster's resource group doesn't exist yet, run:
-#   New-AzureRmResourceGroup -Name $clusterResourceGroupName -Location $location
-
-# Create the cluster
-PS C:\> New-AzureRmHDInsightClusterConfig  `
+        # Create the cluster
+        New-AzureRmHDInsightClusterConfig  `
             | Add-AzureRmHDInsightScriptAction `
                 -Name $scriptActionName `
                 -Uri $scriptActionURI `
@@ -90,13 +94,13 @@ PS C:\> New-AzureRmHDInsightClusterConfig  `
                 -DefaultStorageContainer $storageContainer
 ```
 
-This command adds a script action for the Head and Worker nodes of the your-hadoop-001 cluster, to be run at the end of cluster creation.
+This command adds a script action for the Head and Worker nodes of the 'your-hadoop-001' cluster, to be run at the end of cluster creation.
 
 ## PARAMETERS
 
 ### -Config
 Specifies the HDInsight cluster configuration object that this cmdlet modifies.
-This object is created by the **New-AzureRmHDInsightClusterConfig** cmdlet.
+This object is created by the New-AzureRmHDInsightClusterConfig cmdlet.
 
 ```yaml
 Type: AzureHDInsightConfig
@@ -110,36 +114,31 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-### -NodeType
-Specifies the node type on which to run the script action.
-psdx_paramvalues
-
-- HeadNode
-- WorkerNode
-- ZookeeperNode
+### -InformationAction
+@{Text=}
 
 ```yaml
-Type: ClusterNodeType
+Type: ActionPreference
 Parameter Sets: (All)
-Aliases: 
+Aliases: infa
 
-Required: True
-Position: 1
+Required: False
+Position: Named
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Uri
-Specifies the public URI for the script action (a PowerShell or Bash script).
+### -InformationVariable
+@{Text=}
 
 ```yaml
-Type: Uri
+Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases: iv
 
-Required: True
-Position: 2
+Required: False
+Position: Named
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -160,6 +159,21 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
+### -NodeType
+Specifies the node type on which to run the script action.
+
+```yaml
+Type: ClusterNodeType
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: 1
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
 ### -Parameters
 Specifies the parameters for the script action.
 
@@ -175,40 +189,16 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationAction
-Specifies how this cmdlet responds to an information event.
-
-The acceptable values for this parameter are:
-
-- Continue
-- Ignore
-- Inquire
-- SilentlyContinue
-- Stop
-- Suspend
+### -Uri
+Specifies the public URI for the script action (a PowerShell or Bash script).
 
 ```yaml
-Type: ActionPreference
+Type: Uri
 Parameter Sets: (All)
-Aliases: infa
+Aliases: 
 
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -InformationVariable
-Specifies an information variable.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: iv
-
-Required: False
-Position: Named
+Required: True
+Position: 2
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -222,9 +212,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## OUTPUTS
 
 ## NOTES
+Keywords: azure, azurerm, arm, resource, management, manager, hadoop, hdinsight, hd, insight
 
 ## RELATED LINKS
-
-[New-AzureRmHDInsightClusterConfig](./New-AzureRmHDInsightClusterConfig.md)
-
 

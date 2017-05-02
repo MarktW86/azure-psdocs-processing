@@ -2,11 +2,11 @@
 external help file: Microsoft.AzureStack.AzureConsistentStorage.Commands.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 04/26/2017 00:04 AM
-ms.date: 04/26/2017
+updated_at: 04/27/2017 13:04 PM
+ms.date: 04/27/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Get-ACSAcquisition.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Get-ACSAcquisition.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/6ec3f30a81fcea3164edc82f2757ecfc1f9403c6
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/9a4c46f4a899f4d01966831d3cc84fd5672d8b5d
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -19,7 +19,7 @@ ms.service: azure-stack
 # Get-ACSAcquisition
 
 ## SYNOPSIS
-Get or list acquisitions
+Gets or lists acquisitions.
 
 ## SYNTAX
 
@@ -39,22 +39,15 @@ Get-ACSAcquisition [-ResourceGroupName] <String> [-FarmName] <String> [-TenantSu
 ```
 
 ## DESCRIPTION
-Get acquisition by acquisition ID
-List acquisition by subscription, storage account or Blob container
+The **Get-ACSAcquisition** gets or lists acquisitions by acquisition ID
+This cmdlet lists acquisition by subscription, storage account, or Blob container.
 
 ## EXAMPLES
-
-### Example 1
-```
-PS C:\> {{ Add example code here }}
-```
-
-{{ Add example description here }}
 
 ## PARAMETERS
 
 ### -AcquisitionId
-
+Specifies the acquisition ID that this cmdlet gets.
 
 ```yaml
 Type: String
@@ -69,7 +62,7 @@ Accept wildcard characters: False
 ```
 
 ### -AdminUri
-
+Specifies the link, as a URI, to the service admin.
 
 ```yaml
 Type: Uri
@@ -99,7 +92,7 @@ Accept wildcard characters: False
 ```
 
 ### -FarmName
-
+Specifies the name of the server farm.
 
 ```yaml
 Type: String
@@ -153,7 +146,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-
+Specifies the name of the resource group that contains the acquisition.
 
 ```yaml
 Type: String
@@ -168,7 +161,7 @@ Accept wildcard characters: False
 ```
 
 ### -SkipCertificateValidation
-
+Indicates that the cmdlet does not validate the certificate.
 
 ```yaml
 Type: SwitchParameter
@@ -183,6 +176,7 @@ Accept wildcard characters: False
 ```
 
 ### -StorageAccountName
+Specifies the name of the storage account that contains the acquisition.
 
 
 ```yaml
@@ -198,7 +192,7 @@ Accept wildcard characters: False
 ```
 
 ### -SubscriptionId
-
+Specifies the ID of the subscription that contains the acquisition.
 
 ```yaml
 Type: String
@@ -213,7 +207,7 @@ Accept wildcard characters: False
 ```
 
 ### -TenantSubscriptionId
-
+Specifies the ID of the tenant subscription.
 
 ```yaml
 Type: String
@@ -256,3 +250,5 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+
+[Remove-ACSAcquisition](./[Remove-ACSAcquisition.md)

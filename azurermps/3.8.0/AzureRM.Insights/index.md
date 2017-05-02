@@ -3,11 +3,11 @@ Module Name: AzureRM.Insights
 Module Guid: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
 Locale: en-US
 ms.assetid: E2C6E8E4-0324-415E-AF25-4237D6101C9F
-updated_at: 04/07/2017 09:04 AM
-ms.date: 04/07/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Insights/v2.8.0/AzureRM.Insights.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Insights/v2.8.0/AzureRM.Insights.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/195dcb690a30a5f2c0ecd5606483862547ef544a
+content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/Insights/Commands.Insights/help/AzureRM.Insights.md
+original_content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/Insights/Commands.Insights/help/AzureRM.Insights.md
+gitcommit: https://github.com/Azure/azure-powershell/blob/94e42834e29c78cafba9e3f1e99e14af92561036
+updated_at: 04/28/2017 07:04 AM
+ms.date: 04/28/2017
 ms.topic: conceptual
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -15,31 +15,31 @@ keywords: powershell, cmdlet
 manager: erickson-doug
 open_to_public_contributors: true
 ms.service: monitoring-alerts
-Add-AzureRmAutoscaleSetting: Insights
-Add-AzureRmLogAlertRule: Insights
-Add-AzureRmLogProfile: Insights
-Add-AzureRmMetricAlertRule: Insights
-Add-AzureRmWebtestAlertRule: Insights
-Get-AzureRmAlertHistory: Insights
-Get-AzureRmAlertRule: Insights
-Get-AzureRmAutoscaleHistory: Insights
-Get-AzureRmAutoscaleSetting: Insights
-Get-AzureRmDiagnosticSetting: Insights
-Get-AzureRmLog: Insights
-Get-AzureRmLogProfile: Insights
-Get-AzureRmMetric: Insights
-Get-AzureRmMetricDefinition: Insights
-Get-AzureRmUsage: Insights
-New-AzureRmAlertRuleEmail: Insights
-New-AzureRmAlertRuleWebhook: Insights
-New-AzureRmAutoscaleNotification: Insights
-New-AzureRmAutoscaleProfile: Insights
-New-AzureRmAutoscaleRule: Insights
-New-AzureRmAutoscaleWebhook: Insights
-Remove-AzureRmAlertRule: Insights
-Remove-AzureRmAutoscaleSetting: Insights
-Remove-AzureRmLogProfile: Insights
-Set-AzureRmDiagnosticSetting: Insights
+Add-AzureRmAutoscaleSetting: Monitor
+Add-AzureRmLogAlertRule: Monitor
+Add-AzureRmLogProfile: Monitor
+Add-AzureRmMetricAlertRule: Monitor
+Add-AzureRmWebtestAlertRule: Monitor
+Get-AzureRmAlertHistory: Monitor
+Get-AzureRmAlertRule: Monitor
+Get-AzureRmAutoscaleHistory: Monitor
+Get-AzureRmAutoscaleSetting: Monitor
+Get-AzureRmDiagnosticSetting: Monitor
+Get-AzureRmLog: Monitor
+Get-AzureRmLogProfile: Monitor
+Get-AzureRmMetric: Monitor
+Get-AzureRmMetricDefinition: Monitor
+Get-AzureRmUsage: Monitor
+New-AzureRmAlertRuleEmail: Monitor
+New-AzureRmAlertRuleWebhook: Monitor
+New-AzureRmAutoscaleNotification: Monitor
+New-AzureRmAutoscaleProfile: Monitor
+New-AzureRmAutoscaleRule: Monitor
+New-AzureRmAutoscaleWebhook: Monitor
+Remove-AzureRmAlertRule: Monitor
+Remove-AzureRmAutoscaleSetting: Monitor
+Remove-AzureRmLogProfile: Monitor
+Set-AzureRmDiagnosticSetting: Monitor
 _isModulePage: true
 ---
 

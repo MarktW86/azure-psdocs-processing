@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.Resources.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 03/23/2017 23:03 PM
-ms.date: 03/23/2017
+updated_at: 05/02/2017 17:05 PM
+ms.date: 05/02/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v1.0.4.3/New-AzureRmADServicePrincipal.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v1.0.4.3/New-AzureRmADServicePrincipal.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/280872fa529e03be2466fa2252957a2060a9dfe4
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/fdff926f5dd35f9020f210f87b450464ba162edc
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -19,7 +19,7 @@ ms.service: azure-resource-manager
 # New-AzureRmADServicePrincipal
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+Creates a new azure active directory service principal.
 
 ## SYNTAX
 
@@ -28,21 +28,31 @@ New-AzureRmADServicePrincipal -ApplicationId <Guid> [-DisableAccount] [<CommonPa
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+This is the Description section
+
+Creates a new azure active directory service principal.
 
 ## EXAMPLES
 
-### Example 1
+### --------------------------  Create new AAD service principal.  --------------------------
+@{paragraph=PS C:\\\>}
+
+
+
 ```
-PS C:\> {{ Add example code here }}
+New-AzureRmADServicePrincipal -ApplicationId a3dad041-8119-4182-b500-f8f959bf31db
 ```
 
-{{ Add example description here }}
+Creates a new azure active directory service principal.
+
+DisplayName                    Type                           ObjectId
+-----------                    ----                           --------
+NewApplication                                                61b5d8ea-fdc6-40a2-8d5b-ad447c678d45
 
 ## PARAMETERS
 
 ### -ApplicationId
-The application id for which service principal is created.
+@{Text=}
 
 ```yaml
 Type: Guid
@@ -57,7 +67,7 @@ Accept wildcard characters: False
 ```
 
 ### -DisableAccount
-Create the service principal with account disabled.
+@{Text=}
 
 ```yaml
 Type: SwitchParameter
@@ -76,13 +86,18 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## INPUTS
 
-### System.Guid
-
 ## OUTPUTS
 
-### Microsoft.Azure.Commands.Resources.Models.ActiveDirectory.PSADServicePrincipal
-
 ## NOTES
+Keywords: azure, azurerm, arm, resource, management, manager, resource, group, template, deployment
 
 ## RELATED LINKS
+
+[Remove-AzureRmADServicePrincipal]()
+
+[Get-AzureRmADServicePrincipal]()
+
+[New-AzureRmADApplication]()
+
+[Remove-AzureRmADApplication]()
 

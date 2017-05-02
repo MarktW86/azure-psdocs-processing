@@ -2,11 +2,11 @@
 external help file: Microsoft.AzureStack.Commands.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 04/20/2017 23:04 PM
-ms.date: 04/20/2017
+updated_at: 05/02/2017 19:05 PM
+ms.date: 05/02/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/Add-AzureRMResourceProviderRegistration.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/Add-AzureRMResourceProviderRegistration.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d4f2539c40b2f09416fa3e1d384a0a1f0183fb5e
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/64ea21b6f9d300bac04d2df45c463f94a5e389b4
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -19,8 +19,7 @@ ms.service: azure-stack
 # Add-AzureRMResourceProviderRegistration
 
 ## SYNOPSIS
-This cmdlet adds a resource provider manifest to azure stack resource manager.
-This is needed to register any new resource provider with resource manager.
+Adds a resource provider manifest to the azure stack resource manager.
 
 ## SYNTAX
 
@@ -43,49 +42,43 @@ Add-AzureRMResourceProviderRegistration -Name <String> -Namespace <String> -Reso
 ```
 
 ## DESCRIPTION
+The **Add-AzureRMResourceProviderRegistration** cmdlet adds a resource provider manifest to the azure stack resource manager. This is needed to register any new resource provider with resource manager.
 
 ## EXAMPLES
 
-### Example 1:
+### Example 1: Register the resource provider manifest for the specified namespace
+```
+# Make sure to provide the resource types json of the resource provider being registered
+$adminResourceTypesFile="$PSScriptRoot\AdminResourceTypes.json"
+$adminNamespace="Microsoft.Sql.Admin"
+$adminJson = Get-Content $adminResourceTypesFile -Raw | ConvertFrom-Json
+$adminJson | % { $_.endpoints\[0\].endpointUri="https://${VmName}:30010" }
+$adminJsonStr = $adminJson | ConvertTo-Json -Depth 4
+
+$location = "local"
+Add-AzureRMResourceProviderRegistration -Name $adminNamespace \`
+-Namespace $adminNamespace \`
+-ResourceGroup System \`
+-ArmLocation $location \`
+-ProviderLocation $location \`
+-DisplayName $adminNamespace \`
+-ExtensionName "SqlAdminExtension" \`
+-ExtensionUri "https://${VmName}:13002"  \`
+-ResourceManagerType Admin  \`
+-ResourceTypes $adminJsonStr
 ```
 
-```
-
-Description
-
------------
-
-The following example registers the resource provider manifest for a namespace providing the details needed
-
-
-            # Make sure to provide the resource types json of the resource provider being registered
-            $adminResourceTypesFile="$PSScriptRoot\AdminResourceTypes.json"
-            $adminNamespace="Microsoft.Sql.Admin"
-            $adminJson = Get-Content $adminResourceTypesFile -Raw | ConvertFrom-Json
-            $adminJson | % { $_.endpoints\[0\].endpointUri="https://${VmName}:30010" }
-            $adminJsonStr = $adminJson | ConvertTo-Json -Depth 4
-
-            $location = "local"
-            Add-AzureRMResourceProviderRegistration -Name $adminNamespace \`
-            -Namespace $adminNamespace \`
-            -ResourceGroup System \`
-            -ArmLocation $location \`
-            -ProviderLocation $location \`
-            -DisplayName $adminNamespace \`
-            -ExtensionName "SqlAdminExtension" \`
-            -ExtensionUri "https://${VmName}:13002"  \`
-            -ResourceManagerType Admin  \`
-            -ResourceTypes $adminJsonStr
+This example registers the resource provider manifest for the "Microsoft.Sql.Admin" namespace, which is specified in the $adminNamespace variable.
 
 ## PARAMETERS
 
 ### -ArmLocation
-{{Fill ArmLocation Description}}
+Specifies the location of the resource manager in the Azure stack.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -95,12 +88,12 @@ Accept wildcard characters: False
 ```
 
 ### -DisplayName
-@{Text=}
+Specifies the name to be displayed to the user for the resource provider manifest.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -110,12 +103,12 @@ Accept wildcard characters: False
 ```
 
 ### -ExtensionName
-Extension name associated with the resource provider manifest
+Specifies the name of the extension that is associated with the resource provider manifest.
 
 ```yaml
 Type: String
 Parameter Sets: SingleExtension
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -125,13 +118,12 @@ Accept wildcard characters: False
 ```
 
 ### -Extensions
-Json string specifying the extension names and extension URIs associated with the resource provider manifest.
-This parameter is used only when there are multiple parameters associated with a single resource provider manifest
+Specifies a JSON string containing the names and URIs of the extensions that are associated with the resource provider manifest. This parameter is used only when there are multiple parameters associated with a single resource provider manifest.
 
 ```yaml
 Type: String
 Parameter Sets: MultipleExtensions
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -141,12 +133,12 @@ Accept wildcard characters: False
 ```
 
 ### -ExtensionUri
-Extension URI associated with the resource provider manifest
+Specifies URI of the extension that is associated with the resource provider manifest.
 
 ```yaml
 Type: Uri
 Parameter Sets: SingleExtension
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -156,9 +148,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-Not Specified
-
-The following values are permitted for this object type.
+Specifies how this cmdlet responds to an information event.
 
 ```yaml
 Type: ActionPreference
@@ -174,7 +164,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-Not Specified
+Specifies a variable that is used for storing an informational message.
 
 ```yaml
 Type: String
@@ -189,12 +179,12 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-Resource provider manifest name
+Specifies the name of the resource provider manifest.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -204,12 +194,12 @@ Accept wildcard characters: False
 ```
 
 ### -Namespace
-Namespace associated with the resource provider manifest
+Specifies the namespace associated with the resource provider manifest.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -219,7 +209,7 @@ Accept wildcard characters: False
 ```
 
 ### -PipelineVariable
-Not Specified
+Specifies a variable that stores the value of the current pipeline element.
 
 ```yaml
 Type: String
@@ -234,12 +224,12 @@ Accept wildcard characters: False
 ```
 
 ### -ProviderLocation
-Location of the resource provider
+Specifies the location of the resource provider.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -249,12 +239,12 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroup
-Resource group under which the resource provider manifest is created
+Specifies the resource group under which the resource provider manifest is created.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -269,7 +259,7 @@ Accept wildcard characters: False
 ```yaml
 Type: ResourceManagerType
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -279,12 +269,12 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceTypes
-Json string describing the resource provider manifest.
+Specifies the JSON string describing the resource provider manifest.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -305,4 +295,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-

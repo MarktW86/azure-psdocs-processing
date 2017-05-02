@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
+ms.assetid: F335A62A-2FE4-44D4-AAD8-F998C4750294
 online version:
 schema: 2.0.0
-ms.assetid: F335A62A-2FE4-44D4-AAD8-F998C4750294
-updated_at: 11/01/2016 22:11 PM
-ms.date: 11/01/2016
+updated_at: 05/01/2017 21:05 PM
+ms.date: 05/01/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v1.0.13/Remove-AzureRmVpnClientRootCertificate.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v1.0.13/Remove-AzureRmVpnClientRootCertificate.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0589fbf53d27e39e0cf445261d29c64fb0859d62
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -58,80 +58,6 @@ The third command uses the information stored in the $CertificateText variable a
 
 ## PARAMETERS
 
-### -VpnClientRootCertificateName
-Specifies the name of the client root certificate that this cmdlet removes.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: ResourceName
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -VirtualNetworkGatewayName
-Specifies the name of the virtual network gateway that the certificate is removed from.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -ResourceGroupName
-Specifies the name of the resource group that the virtual network gateway is assigned to.
-
-Resource groups categorize items to help simplify inventory management and general Azure administration.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -PublicCertData
-Specifies the text representation of the root certificate to be removed.
-To obtain the text representation, export your certificate in .cer format (using Base64) encoding, then open the resulting file in a text editor.
-You should see output similar to the following (note that the actual output will contain many more lines of text than the abbreviated sample shown here):
-
------ BEGIN CERTIFICATE -----
-MIIC13FAAXC3671Auij9HHgUNEW8343NMJklo09982CVVFAw8w
------ END CERTIFICATE -----
-
-The PublicCertData is made up of all the lines between the first line (----- BEGIN CERTIFICATE -----) and the last line (----- END CERTIFICATE -----) in the file.
-You can retrieve the PublicCertData using pn_PowerShell commands similar to this:
-
-$Text = Get-Content -Path "C:\Azure\Certificates\ExportedCertficate.cer"
-$CertificateText = for ($i=1; $i -lt $Text.Length -1 ; $i++){$Text\[$i\]}
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
 ### -InformationAction
 Specifies how this cmdlet responds to an information event.
 
@@ -168,6 +94,80 @@ Required: False
 Position: Named
 Default value: None
 Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -PublicCertData
+Specifies the text representation of the root certificate to be removed.
+To obtain the text representation, export your certificate in .cer format (using Base64) encoding, then open the resulting file in a text editor.
+You should see output similar to the following (note that the actual output will contain many more lines of text than the abbreviated sample shown here):
+
+----- BEGIN CERTIFICATE -----
+MIIC13FAAXC3671Auij9HHgUNEW8343NMJklo09982CVVFAw8w
+----- END CERTIFICATE -----
+
+The PublicCertData is made up of all the lines between the first line (----- BEGIN CERTIFICATE -----) and the last line (----- END CERTIFICATE -----) in the file.
+You can retrieve the PublicCertData using pn_PowerShell commands similar to this:
+
+$Text = Get-Content -Path "C:\Azure\Certificates\ExportedCertficate.cer"
+$CertificateText = for ($i=1; $i -lt $Text.Length -1 ; $i++){$Text\[$i\]}
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -ResourceGroupName
+Specifies the name of the resource group that the virtual network gateway is assigned to.
+
+Resource groups categorize items to help simplify inventory management and general Azure administration.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -VirtualNetworkGatewayName
+Specifies the name of the virtual network gateway that the certificate is removed from.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -VpnClientRootCertificateName
+Specifies the name of the client root certificate that this cmdlet removes.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: ResourceName
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 

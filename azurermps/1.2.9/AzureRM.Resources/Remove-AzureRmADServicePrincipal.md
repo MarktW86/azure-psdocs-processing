@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.Resources.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 03/23/2017 23:03 PM
-ms.date: 03/23/2017
+updated_at: 05/02/2017 17:05 PM
+ms.date: 05/02/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v1.0.4.3/Remove-AzureRmADServicePrincipal.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v1.0.4.3/Remove-AzureRmADServicePrincipal.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/280872fa529e03be2466fa2252957a2060a9dfe4
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/fdff926f5dd35f9020f210f87b450464ba162edc
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -19,7 +19,7 @@ ms.service: azure-resource-manager
 # Remove-AzureRmADServicePrincipal
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+Deletes the azure active directory service principal.
 
 ## SYNTAX
 
@@ -28,21 +28,27 @@ Remove-AzureRmADServicePrincipal -ObjectId <String> [-Force] [-PassThru] [<Commo
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+This is the Description section
+
+Deletes the azure active directory service principal.
 
 ## EXAMPLES
 
-### Example 1
+### --------------------------  Delete AAD service principal.  --------------------------
+@{paragraph=PS C:\\\>}
+
+
+
 ```
-PS C:\> {{ Add example code here }}
+PS C:\> Remove-AzureRmADServicePrincipal -ObjectId 61b5d8ea-fdc6-40a2-8d5b-ad447c678d45 -Force
 ```
 
-{{ Add example description here }}
+Deletes the given azure active directory service principal.
 
 ## PARAMETERS
 
 ### -Force
-{{Fill Force Description}}
+@{Text=}
 
 ```yaml
 Type: SwitchParameter
@@ -57,7 +63,7 @@ Accept wildcard characters: False
 ```
 
 ### -ObjectId
-The service principal object id.
+@{Text=}
 
 ```yaml
 Type: String
@@ -72,7 +78,7 @@ Accept wildcard characters: False
 ```
 
 ### -PassThru
-{{Fill PassThru Description}}
+@{Text=}
 
 ```yaml
 Type: SwitchParameter
@@ -91,13 +97,14 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## INPUTS
 
-### System.String
-
 ## OUTPUTS
 
-### Microsoft.Azure.Commands.Resources.Models.ActiveDirectory.PSADServicePrincipal
-
 ## NOTES
+Keywords: azure, azurerm, arm, resource, management, manager, resource, group, template, deployment
 
 ## RELATED LINKS
+
+[New-AzureRmADServicePrincipal]()
+
+[Get-AzureRmADServicePrincipal]()
 

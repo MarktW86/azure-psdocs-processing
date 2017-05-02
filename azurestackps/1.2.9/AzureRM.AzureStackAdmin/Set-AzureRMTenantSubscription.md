@@ -2,11 +2,11 @@
 external help file: Microsoft.AzureStack.Commands.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 04/11/2017 21:04 PM
-ms.date: 04/11/2017
+updated_at: 05/02/2017 19:05 PM
+ms.date: 05/02/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/Set-AzureRMTenantSubscription.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/Set-AzureRMTenantSubscription.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/da0fd350a2a76c2d3edbf597f3826de129c926e5
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/64ea21b6f9d300bac04d2df45c463f94a5e389b4
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -19,8 +19,7 @@ ms.service: azure-stack
 # Set-AzureRMTenantSubscription
 
 ## SYNOPSIS
-The Set-AzureRMTenantSubscription cmdlet updates the current logged user's subscription details.
-This cmdlet will be deprecated in a future release
+Updates the current logged-in user's tenant subscription.
 
 ## SYNTAX
 
@@ -30,22 +29,25 @@ Set-AzureRMTenantSubscription -Subscription <SubscriptionDefinition> [-Informati
 ```
 
 ## DESCRIPTION
+The **Set-AzureRMTenantSubscription** cmdlet updates the current logged-in user's tenant subscription.
 
 ## EXAMPLES
 
-### Example 1
+### EXAMPLE 1: Change a property of the current logged-in user's tenant subscription
 ```
-PS C:\> {{ Add example code here }}
+$subscriptionToUpdate = Get-AzureRmTenantSubscription
+$subscriptionToUpdate.OfferId = "Abc123"
+Set-AzureRMTenantSubscription -Subscription $subscriptionToUpdate
 ```
 
-{{ Add example description here }}
+This example modifies the **OfferId** property of the current logged-in user's tenant subscription.
+The first statement gets the subscription and stores the object in the $subscriptionToUpdate variable.
+After the **OfferId** property is changed, the updated object is passed in the **Subscription** parameter of the **Set-AzureRMTenantSubscription** cmdlet.
 
 ## PARAMETERS
 
 ### -InformationAction
-Not Specified
-
-The following values are permitted for this object type.
+Specifies how this cmdlet responds to an information event.
 
 ```yaml
 Type: ActionPreference
@@ -61,7 +63,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-Not Specified
+Specifies a variable that is used for storing an informational message.
 
 ```yaml
 Type: String
@@ -76,7 +78,7 @@ Accept wildcard characters: False
 ```
 
 ### -PipelineVariable
-Not Specified
+Specifies a variable that stores the value of the current pipeline element.
 
 ```yaml
 Type: String
@@ -91,12 +93,12 @@ Accept wildcard characters: False
 ```
 
 ### -Subscription
-Updated subscription definition object
+Specifies an updated **SubscriptionDefinition** object to be used for updating the existing subscription data.
 
 ```yaml
 Type: SubscriptionDefinition
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -110,6 +112,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## INPUTS
 
+### None
+
 ## OUTPUTS
 
 ### Microsoft.AzureStack.Management.Models.SubscriptionDefinition
@@ -117,4 +121,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-

@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.Resources.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 03/23/2017 23:03 PM
-ms.date: 03/23/2017
+updated_at: 05/02/2017 17:05 PM
+ms.date: 05/02/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v1.0.4.3/New-AzureRmADApplication.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v1.0.4.3/New-AzureRmADApplication.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/280872fa529e03be2466fa2252957a2060a9dfe4
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/fdff926f5dd35f9020f210f87b450464ba162edc
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -19,7 +19,7 @@ ms.service: azure-resource-manager
 # New-AzureRmADApplication
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+Creates a new azure active directory application.
 
 ## SYNTAX
 
@@ -54,21 +54,89 @@ New-AzureRmADApplication -DisplayName <String> -HomePage <String> -IdentifierUri
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+This is the Description section
+
+Creates a new azure active directory application.
 
 ## EXAMPLES
 
-### Example 1
+### --------------------------  Create new AAD application.  --------------------------
+@{paragraph=PS C:\\\>}
+
+
+
 ```
-PS C:\> {{ Add example code here }}
+PS C:\> New-AzureRmADApplication -DisplayName "NewApplication" -HomePage "http://www.microsoft.com" -IdentifierUris "http://NewApplication"
 ```
 
-{{ Add example description here }}
+Creates a new azure active directory application without any credentials.
+
+Type                    : Application
+ApplicationId           : 9400567a-3d4f-4c99-a690-276ba94fbf47
+ApplicationObjectId     : 4de22120-3c65-4786-aa51-9886c079d892
+AvailableToOtherTenants : False
+AppPermissions          : {{
+                            "claimValue": "user_impersonation",
+                            "description": "Allow the application to access NewApplication on behalf of the signed-in
+                          user.",
+                            "directAccessGrantTypes": \[\],
+                            "displayName": "Access NewApplication",
+                            "impersonationAccessGrantTypes": \[
+                              {
+                                "impersonated": "User",
+                                "impersonator": "Application"
+                              }
+                            \],
+                            "isDisabled": false,
+                            "origin": "Application",
+                            "permissionId": "0efb9772-220f-48d4-9f86-eb3e01402d54",
+                            "resourceScopeType": "Personal",
+                            "userConsentDescription": "Allow the application to access NewApplication on your behalf.",
+                            "userConsentDisplayName": "Access NewApplication",
+                            "lang": null
+                          }}
+
+### --------------------------  Create new AAD application with password.  --------------------------
+@{paragraph=PS C:\\\>}
+
+
+
+```
+PS C:\> New-AzureRmADApplication -DisplayName "NewApplication" -HomePage "http://www.microsoft.com" -IdentifierUris "http:
+//NewApplication" -Password "password"
+```
+
+Creates a new azure active directory application and associates password credentials with it.
+
+Type                    : Application
+ApplicationId           : a3dad041-8119-4182-b500-f8f959bf31db
+ApplicationObjectId     : b4cd1619-80b3-4cfb-9f8f-9f2333425738
+AvailableToOtherTenants : False
+AppPermissions          : {{
+                            "claimValue": "user_impersonation",
+                            "description": "Allow the application to access NewApplication on behalf of the signed-in
+                          user.",
+                            "directAccessGrantTypes": \[\],
+                            "displayName": "Access NewApplication",
+                            "impersonationAccessGrantTypes": \[
+                              {
+                                "impersonated": "User",
+                                "impersonator": "Application"
+                              }
+                            \],
+                            "isDisabled": false,
+                            "origin": "Application",
+                            "permissionId": "18509754-f97a-47f9-9c31-d4a16046e0ee",
+                            "resourceScopeType": "Personal",
+                            "userConsentDescription": "Allow the application to access NewApplication on your behalf.",
+                            "userConsentDisplayName": "Access NewApplication",
+                            "lang": null
+                          }}
 
 ## PARAMETERS
 
 ### -DisplayName
-The display name for the application.
+@{Text=}
 
 ```yaml
 Type: String
@@ -83,8 +151,7 @@ Accept wildcard characters: False
 ```
 
 ### -EndDate
-The end date till which password or key is valid.
-Default value is one year after current time.
+@{Text=}
 
 ```yaml
 Type: DateTime
@@ -99,7 +166,7 @@ Accept wildcard characters: False
 ```
 
 ### -HomePage
-The URL to the application's homepage.
+@{Text=}
 
 ```yaml
 Type: String
@@ -114,7 +181,7 @@ Accept wildcard characters: False
 ```
 
 ### -IdentifierUris
-The URIs that identify the application.
+@{Text=}
 
 ```yaml
 Type: String[]
@@ -129,7 +196,7 @@ Accept wildcard characters: False
 ```
 
 ### -KeyCredentials
-The collection of key credentials associated with the application.
+@{Text=}
 
 ```yaml
 Type: PSADKeyCredential[]
@@ -144,9 +211,7 @@ Accept wildcard characters: False
 ```
 
 ### -KeyType
-The type of the key credentials associated with the application.
-Acceptable values are 'AsymmetricX509Cert', 'Password' and 'Symmetric'.
-Default is 'AsymmetricX509Cert'
+@{Text=}
 
 ```yaml
 Type: String
@@ -161,9 +226,7 @@ Accept wildcard characters: False
 ```
 
 ### -KeyUsage
-The usage of the key credentials associated with the application.
-Acceptable values are 'Sign' and 'Verify'.
-Default is 'Verify'
+@{Text=}
 
 ```yaml
 Type: String
@@ -178,7 +241,7 @@ Accept wildcard characters: False
 ```
 
 ### -KeyValue
-The value for the key credentials associated with the application that will be valid for one year by default.
+@{Text=}
 
 ```yaml
 Type: String
@@ -193,7 +256,7 @@ Accept wildcard characters: False
 ```
 
 ### -Password
-The value for the password credential associated with the application that will be valid for one year by default.
+@{Text=}
 
 ```yaml
 Type: String
@@ -208,7 +271,7 @@ Accept wildcard characters: False
 ```
 
 ### -PasswordCredentials
-The collection of password credentials associated with the application.
+@{Text=}
 
 ```yaml
 Type: PSADPasswordCredential[]
@@ -223,8 +286,7 @@ Accept wildcard characters: False
 ```
 
 ### -StartDate
-The start date after which password or key would be valid.
-Default value is current time.
+@{Text=}
 
 ```yaml
 Type: DateTime
@@ -243,17 +305,16 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## INPUTS
 
-### System.String
-System.String[]
-Microsoft.Azure.Commands.Resources.Models.ActiveDirectory.PSADPasswordCredential[]
-Microsoft.Azure.Commands.Resources.Models.ActiveDirectory.PSADKeyCredential[]
-System.DateTime
-
 ## OUTPUTS
 
-### Microsoft.Azure.Commands.Resources.Models.ActiveDirectory.PSADApplication
-
 ## NOTES
+Keywords: azure, azurerm, arm, resource, management, manager, resource, group, template, deployment
 
 ## RELATED LINKS
+
+[Remove-AzureRmADApplication]()
+
+[New-AzureRmADServicePrincipal]()
+
+[Remove-AzureRmADServicePrincipal]()
 

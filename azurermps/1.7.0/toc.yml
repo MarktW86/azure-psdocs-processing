@@ -31,39 +31,181 @@
 - name: Reference
   items:
     - name: Active Directory
-      href: 'AzureRM.Compute/index.md#active_directory'
+      href: 'AzureRM.Resources/index.md#active_directory'
       items:
-        - name: Get-AzureRmVMADDomainExtension
-          href: AzureRM.Compute/Get-AzureRmVMADDomainExtension.md
-        - name: Set-AzureRmVMADDomainExtension
-          href: AzureRM.Compute/Set-AzureRmVMADDomainExtension.md
+        - name: Get-AzureRmADApplication
+          href: AzureRM.Resources/Get-AzureRmADApplication.md
+        - name: Get-AzureRmADGroup
+          href: AzureRM.Resources/Get-AzureRmADGroup.md
+        - name: Get-AzureRmADGroupMember
+          href: AzureRM.Resources/Get-AzureRmADGroupMember.md
+        - name: Get-AzureRmADServicePrincipal
+          href: AzureRM.Resources/Get-AzureRmADServicePrincipal.md
+        - name: Get-AzureRmADUser
+          href: AzureRM.Resources/Get-AzureRmADUser.md
+        - name: New-AzureRmADApplication
+          href: AzureRM.Resources/New-AzureRmADApplication.md
+        - name: New-AzureRmADServicePrincipal
+          href: AzureRM.Resources/New-AzureRmADServicePrincipal.md
+        - name: Remove-AzureRmADApplication
+          href: AzureRM.Resources/Remove-AzureRmADApplication.md
+        - name: Remove-AzureRmADServicePrincipal
+          href: AzureRM.Resources/Remove-AzureRmADServicePrincipal.md
     - name: API Management
       href: 'AzureRM.ApiManagement/index.md#api_management'
       items:
+        - name: Add-AzureRmApiManagementApiToProduct
+          href: AzureRM.ApiManagement/Add-AzureRmApiManagementApiToProduct.md
+        - name: Add-AzureRmApiManagementProductToGroup
+          href: AzureRM.ApiManagement/Add-AzureRmApiManagementProductToGroup.md
         - name: Add-AzureRmApiManagementRegion
           href: AzureRM.ApiManagement/Add-AzureRmApiManagementRegion.md
+        - name: Add-AzureRmApiManagementUserToGroup
+          href: AzureRM.ApiManagement/Add-AzureRmApiManagementUserToGroup.md
         - name: Backup-AzureRmApiManagement
           href: AzureRM.ApiManagement/Backup-AzureRmApiManagement.md
+        - name: Export-AzureRmApiManagementApi
+          href: AzureRM.ApiManagement/Export-AzureRmApiManagementApi.md
         - name: Get-AzureRmApiManagement
           href: AzureRM.ApiManagement/Get-AzureRmApiManagement.md
+        - name: Get-AzureRmApiManagementApi
+          href: AzureRM.ApiManagement/Get-AzureRmApiManagementApi.md
+        - name: Get-AzureRmApiManagementAuthorizationServer
+          href: AzureRM.ApiManagement/Get-AzureRmApiManagementAuthorizationServer.md
+        - name: Get-AzureRmApiManagementCertificate
+          href: AzureRM.ApiManagement/Get-AzureRmApiManagementCertificate.md
+        - name: Get-AzureRmApiManagementGroup
+          href: AzureRM.ApiManagement/Get-AzureRmApiManagementGroup.md
+        - name: Get-AzureRmApiManagementLogger
+          href: AzureRM.ApiManagement/Get-AzureRmApiManagementLogger.md
+        - name: Get-AzureRmApiManagementOpenIdConnectProvider
+          href: AzureRM.ApiManagement/Get-AzureRmApiManagementOpenIdConnectProvider.md
+        - name: Get-AzureRmApiManagementOperation
+          href: AzureRM.ApiManagement/Get-AzureRmApiManagementOperation.md
+        - name: Get-AzureRmApiManagementPolicy
+          href: AzureRM.ApiManagement/Get-AzureRmApiManagementPolicy.md
+        - name: Get-AzureRmApiManagementProduct
+          href: AzureRM.ApiManagement/Get-AzureRmApiManagementProduct.md
+        - name: Get-AzureRmApiManagementProperty
+          href: AzureRM.ApiManagement/Get-AzureRmApiManagementProperty.md
         - name: Get-AzureRmApiManagementSsoToken
           href: AzureRM.ApiManagement/Get-AzureRmApiManagementSsoToken.md
+        - name: Get-AzureRmApiManagementSubscription
+          href: AzureRM.ApiManagement/Get-AzureRmApiManagementSubscription.md
+        - name: Get-AzureRmApiManagementTenantAccess
+          href: AzureRM.ApiManagement/Get-AzureRmApiManagementTenantAccess.md
+        - name: Get-AzureRmApiManagementTenantGitAccess
+          href: AzureRM.ApiManagement/Get-AzureRmApiManagementTenantGitAccess.md
+        - name: Get-AzureRmApiManagementTenantSyncState
+          href: AzureRM.ApiManagement/Get-AzureRmApiManagementTenantSyncState.md
+        - name: Get-AzureRmApiManagementUser
+          href: AzureRM.ApiManagement/Get-AzureRmApiManagementUser.md
+        - name: Get-AzureRmApiManagementUserSsoUrl
+          href: AzureRM.ApiManagement/Get-AzureRmApiManagementUserSsoUrl.md
+        - name: Import-AzureRmApiManagementApi
+          href: AzureRM.ApiManagement/Import-AzureRmApiManagementApi.md
         - name: Import-AzureRmApiManagementHostnameCertificate
           href: AzureRM.ApiManagement/Import-AzureRmApiManagementHostnameCertificate.md
         - name: New-AzureRmApiManagement
           href: AzureRM.ApiManagement/New-AzureRmApiManagement.md
+        - name: New-AzureRmApiManagementApi
+          href: AzureRM.ApiManagement/New-AzureRmApiManagementApi.md
+        - name: New-AzureRmApiManagementAuthorizationServer
+          href: AzureRM.ApiManagement/New-AzureRmApiManagementAuthorizationServer.md
+        - name: New-AzureRmApiManagementCertificate
+          href: AzureRM.ApiManagement/New-AzureRmApiManagementCertificate.md
+        - name: New-AzureRmApiManagementContext
+          href: AzureRM.ApiManagement/New-AzureRmApiManagementContext.md
+        - name: New-AzureRmApiManagementGroup
+          href: AzureRM.ApiManagement/New-AzureRmApiManagementGroup.md
         - name: New-AzureRmApiManagementHostnameConfiguration
           href: AzureRM.ApiManagement/New-AzureRmApiManagementHostnameConfiguration.md
+        - name: New-AzureRmApiManagementLogger
+          href: AzureRM.ApiManagement/New-AzureRmApiManagementLogger.md
+        - name: New-AzureRmApiManagementOpenIdConnectProvider
+          href: AzureRM.ApiManagement/New-AzureRmApiManagementOpenIdConnectProvider.md
+        - name: New-AzureRmApiManagementOperation
+          href: AzureRM.ApiManagement/New-AzureRmApiManagementOperation.md
+        - name: New-AzureRmApiManagementProduct
+          href: AzureRM.ApiManagement/New-AzureRmApiManagementProduct.md
+        - name: New-AzureRmApiManagementProperty
+          href: AzureRM.ApiManagement/New-AzureRmApiManagementProperty.md
+        - name: New-AzureRmApiManagementSubscription
+          href: AzureRM.ApiManagement/New-AzureRmApiManagementSubscription.md
+        - name: New-AzureRmApiManagementUser
+          href: AzureRM.ApiManagement/New-AzureRmApiManagementUser.md
         - name: New-AzureRmApiManagementVirtualNetwork
           href: AzureRM.ApiManagement/New-AzureRmApiManagementVirtualNetwork.md
+        - name: Publish-AzureRmApiManagementTenantGitConfiguration
+          href: AzureRM.ApiManagement/Publish-AzureRmApiManagementTenantGitConfiguration.md
         - name: Remove-AzureRmApiManagement
           href: AzureRM.ApiManagement/Remove-AzureRmApiManagement.md
+        - name: Remove-AzureRmApiManagementApi
+          href: AzureRM.ApiManagement/Remove-AzureRmApiManagementApi.md
+        - name: Remove-AzureRmApiManagementApiFromProduct
+          href: AzureRM.ApiManagement/Remove-AzureRmApiManagementApiFromProduct.md
+        - name: Remove-AzureRmApiManagementAuthorizationServer
+          href: AzureRM.ApiManagement/Remove-AzureRmApiManagementAuthorizationServer.md
+        - name: Remove-AzureRmApiManagementCertificate
+          href: AzureRM.ApiManagement/Remove-AzureRmApiManagementCertificate.md
+        - name: Remove-AzureRmApiManagementGroup
+          href: AzureRM.ApiManagement/Remove-AzureRmApiManagementGroup.md
+        - name: Remove-AzureRmApiManagementLogger
+          href: AzureRM.ApiManagement/Remove-AzureRmApiManagementLogger.md
+        - name: Remove-AzureRmApiManagementOpenIdConnectProvider
+          href: AzureRM.ApiManagement/Remove-AzureRmApiManagementOpenIdConnectProvider.md
+        - name: Remove-AzureRmApiManagementOperation
+          href: AzureRM.ApiManagement/Remove-AzureRmApiManagementOperation.md
+        - name: Remove-AzureRmApiManagementPolicy
+          href: AzureRM.ApiManagement/Remove-AzureRmApiManagementPolicy.md
+        - name: Remove-AzureRmApiManagementProduct
+          href: AzureRM.ApiManagement/Remove-AzureRmApiManagementProduct.md
+        - name: Remove-AzureRmApiManagementProductFromGroup
+          href: AzureRM.ApiManagement/Remove-AzureRmApiManagementProductFromGroup.md
+        - name: Remove-AzureRmApiManagementProperty
+          href: AzureRM.ApiManagement/Remove-AzureRmApiManagementProperty.md
         - name: Remove-AzureRmApiManagementRegion
           href: AzureRM.ApiManagement/Remove-AzureRmApiManagementRegion.md
+        - name: Remove-AzureRmApiManagementSubscription
+          href: AzureRM.ApiManagement/Remove-AzureRmApiManagementSubscription.md
+        - name: Remove-AzureRmApiManagementUser
+          href: AzureRM.ApiManagement/Remove-AzureRmApiManagementUser.md
+        - name: Remove-AzureRmApiManagementUserFromGroup
+          href: AzureRM.ApiManagement/Remove-AzureRmApiManagementUserFromGroup.md
         - name: Restore-AzureRmApiManagement
           href: AzureRM.ApiManagement/Restore-AzureRmApiManagement.md
+        - name: Save-AzureRmApiManagementTenantGitConfiguration
+          href: AzureRM.ApiManagement/Save-AzureRmApiManagementTenantGitConfiguration.md
+        - name: Set-AzureRmApiManagementApi
+          href: AzureRM.ApiManagement/Set-AzureRmApiManagementApi.md
+        - name: Set-AzureRmApiManagementAuthorizationServer
+          href: AzureRM.ApiManagement/Set-AzureRmApiManagementAuthorizationServer.md
+        - name: Set-AzureRmApiManagementCertificate
+          href: AzureRM.ApiManagement/Set-AzureRmApiManagementCertificate.md
+        - name: Set-AzureRmApiManagementGroup
+          href: AzureRM.ApiManagement/Set-AzureRmApiManagementGroup.md
         - name: Set-AzureRmApiManagementHostnames
           href: AzureRM.ApiManagement/Set-AzureRmApiManagementHostnames.md
+        - name: Set-AzureRmApiManagementLogger
+          href: AzureRM.ApiManagement/Set-AzureRmApiManagementLogger.md
+        - name: Set-AzureRmApiManagementOpenIdConnectProvider
+          href: AzureRM.ApiManagement/Set-AzureRmApiManagementOpenIdConnectProvider.md
+        - name: Set-AzureRmApiManagementOperation
+          href: AzureRM.ApiManagement/Set-AzureRmApiManagementOperation.md
+        - name: Set-AzureRmApiManagementPolicy
+          href: AzureRM.ApiManagement/Set-AzureRmApiManagementPolicy.md
+        - name: Set-AzureRmApiManagementProduct
+          href: AzureRM.ApiManagement/Set-AzureRmApiManagementProduct.md
+        - name: Set-AzureRmApiManagementProperty
+          href: AzureRM.ApiManagement/Set-AzureRmApiManagementProperty.md
+        - name: Set-AzureRmApiManagementSubscription
+          href: AzureRM.ApiManagement/Set-AzureRmApiManagementSubscription.md
+        - name: Set-AzureRmApiManagementTenantAccess
+          href: AzureRM.ApiManagement/Set-AzureRmApiManagementTenantAccess.md
+        - name: Set-AzureRmApiManagementUser
+          href: AzureRM.ApiManagement/Set-AzureRmApiManagementUser.md
+        - name: Set-AzureRmApiManagementVirtualNetworks
+          href: AzureRM.ApiManagement/Set-AzureRmApiManagementVirtualNetworks.md
         - name: Update-AzureRmApiManagementDeployment
           href: AzureRM.ApiManagement/Update-AzureRmApiManagementDeployment.md
         - name: Update-AzureRmApiManagementRegion
@@ -71,20 +213,32 @@
     - name: App Service
       href: 'AzureRM.Websites/index.md#app_service'
       items:
+        - name: Edit-AzureRmWebAppBackupConfiguration
+          href: AzureRM.Websites/Edit-AzureRmWebAppBackupConfiguration.md
         - name: Get-AzureRmAppServicePlan
           href: AzureRM.Websites/Get-AzureRmAppServicePlan.md
         - name: Get-AzureRmAppServicePlanMetrics
           href: AzureRM.Websites/Get-AzureRmAppServicePlanMetrics.md
         - name: Get-AzureRmWebApp
           href: AzureRM.Websites/Get-AzureRmWebApp.md
+        - name: Get-AzureRmWebAppBackup
+          href: AzureRM.Websites/Get-AzureRmWebAppBackup.md
+        - name: Get-AzureRmWebAppBackupConfiguration
+          href: AzureRM.Websites/Get-AzureRmWebAppBackupConfiguration.md
+        - name: Get-AzureRmWebAppBackupList
+          href: AzureRM.Websites/Get-AzureRmWebAppBackupList.md
         - name: Get-AzureRmWebAppCertificate
           href: AzureRM.Websites/Get-AzureRmWebAppCertificate.md
+        - name: Get-AzureRmWebAppMetrics
+          href: AzureRM.Websites/Get-AzureRmWebAppMetrics.md
         - name: Get-AzureRmWebAppPublishingProfile
           href: AzureRM.Websites/Get-AzureRmWebAppPublishingProfile.md
         - name: Get-AzureRmWebAppSlot
           href: AzureRM.Websites/Get-AzureRmWebAppSlot.md
         - name: Get-AzureRmWebAppSlotConfigName
           href: AzureRM.Websites/Get-AzureRmWebAppSlotConfigName.md
+        - name: Get-AzureRmWebAppSlotMetrics
+          href: AzureRM.Websites/Get-AzureRmWebAppSlotMetrics.md
         - name: Get-AzureRmWebAppSlotPublishingProfile
           href: AzureRM.Websites/Get-AzureRmWebAppSlotPublishingProfile.md
         - name: Get-AzureRmWebAppSSLBinding
@@ -93,6 +247,10 @@
           href: AzureRM.Websites/New-AzureRmAppServicePlan.md
         - name: New-AzureRmWebApp
           href: AzureRM.Websites/New-AzureRmWebApp.md
+        - name: New-AzureRmWebAppBackup
+          href: AzureRM.Websites/New-AzureRmWebAppBackup.md
+        - name: New-AzureRmWebAppDatabaseBackupSetting
+          href: AzureRM.Websites/New-AzureRmWebAppDatabaseBackupSetting.md
         - name: New-AzureRmWebAppSlot
           href: AzureRM.Websites/New-AzureRmWebAppSlot.md
         - name: New-AzureRmWebAppSSLBinding
@@ -101,6 +259,8 @@
           href: AzureRM.Websites/Remove-AzureRmAppServicePlan.md
         - name: Remove-AzureRmWebApp
           href: AzureRM.Websites/Remove-AzureRmWebApp.md
+        - name: Remove-AzureRmWebAppBackup
+          href: AzureRM.Websites/Remove-AzureRmWebAppBackup.md
         - name: Remove-AzureRmWebAppSlot
           href: AzureRM.Websites/Remove-AzureRmWebAppSlot.md
         - name: Remove-AzureRmWebAppSSLBinding
@@ -113,6 +273,8 @@
           href: AzureRM.Websites/Restart-AzureRmWebApp.md
         - name: Restart-AzureRmWebAppSlot
           href: AzureRM.Websites/Restart-AzureRmWebAppSlot.md
+        - name: Restore-AzureRmWebAppBackup
+          href: AzureRM.Websites/Restore-AzureRmWebAppBackup.md
         - name: Set-AzureRmAppServicePlan
           href: AzureRM.Websites/Set-AzureRmAppServicePlan.md
         - name: Set-AzureRmWebApp
@@ -397,15 +559,6 @@
           href: AzureRM.Automation/Unregister-AzureRmAutomationDscNode.md
         - name: Unregister-AzureRMAutomationScheduledRunbook
           href: AzureRM.Automation/Unregister-AzureRMAutomationScheduledRunbook.md
-    - name: Availability Sets
-      href: 'AzureRM.Compute/index.md#availability_sets'
-      items:
-        - name: Get-AzureRmAvailabilitySet
-          href: AzureRM.Compute/Get-AzureRmAvailabilitySet.md
-        - name: New-AzureRmAvailabilitySet
-          href: AzureRM.Compute/New-AzureRmAvailabilitySet.md
-        - name: Remove-AzureRmAvailabilitySet
-          href: AzureRM.Compute/Remove-AzureRmAvailabilitySet.md
     - name: Backup
       href: 'AzureRM.Backup/index.md#backup'
       items:
@@ -497,34 +650,6 @@
           href: AzureRM.RecoveryServices.Backup/Unregister-AzureRmRecoveryServicesBackupManagementServer.md
         - name: Wait-AzureRmRecoveryServicesBackupJob
           href: AzureRM.RecoveryServices.Backup/Wait-AzureRmRecoveryServicesBackupJob.md
-        - name: Backup-AzureKeyVaultKey
-          href: AzureRM.KeyVault/Backup-AzureKeyVaultKey.md
-        - name: Get-AzureRmRecoveryServicesBackupProperties
-          href: AzureRM.RecoveryServices/Get-AzureRmRecoveryServicesBackupProperties.md
-        - name: Set-AzureRmRecoveryServicesBackupProperties
-          href: AzureRM.RecoveryServices/Set-AzureRmRecoveryServicesBackupProperties.md
-        - name: New-AzureVMSqlServerAutoBackupConfig
-          href: AzureRM.Compute/New-AzureVMSqlServerAutoBackupConfig.md
-        - name: Remove-AzureRmVMBackup
-          href: AzureRM.Compute/Remove-AzureRmVMBackup.md
-        - name: Set-AzureRmVMBackupExtension
-          href: AzureRM.Compute/Set-AzureRmVMBackupExtension.md
-        - name: Edit-AzureRmWebAppBackupConfiguration
-          href: AzureRM.Websites/Edit-AzureRmWebAppBackupConfiguration.md
-        - name: Get-AzureRmWebAppBackup
-          href: AzureRM.Websites/Get-AzureRmWebAppBackup.md
-        - name: Get-AzureRmWebAppBackupConfiguration
-          href: AzureRM.Websites/Get-AzureRmWebAppBackupConfiguration.md
-        - name: Get-AzureRmWebAppBackupList
-          href: AzureRM.Websites/Get-AzureRmWebAppBackupList.md
-        - name: New-AzureRmWebAppBackup
-          href: AzureRM.Websites/New-AzureRmWebAppBackup.md
-        - name: New-AzureRmWebAppDatabaseBackupSetting
-          href: AzureRM.Websites/New-AzureRmWebAppDatabaseBackupSetting.md
-        - name: Remove-AzureRmWebAppBackup
-          href: AzureRM.Websites/Remove-AzureRmWebAppBackup.md
-        - name: Restore-AzureRmWebAppBackup
-          href: AzureRM.Websites/Restore-AzureRmWebAppBackup.md
     - name: Batch
       href: 'AzureRM.Batch/index.md#batch'
       items:
@@ -720,8 +845,8 @@
           href: AzureRM.Compute/Remove-AzureRmContainerServiceAgentPoolProfile.md
         - name: Update-AzureRmContainerService
           href: AzureRM.Compute/Update-AzureRmContainerService.md
-    - name: Data Factory
-      href: 'AzureRM.DataFactories/index.md#data_factory'
+    - name: Data Factories
+      href: 'AzureRM.DataFactories/index.md#data_factories'
       items:
         - name: Get-AzureRmDataFactory
           href: AzureRM.DataFactories/Get-AzureRmDataFactory.md
@@ -779,8 +904,8 @@
           href: AzureRM.DataFactories/Set-AzureRmDataFactorySliceStatus.md
         - name: Suspend-AzureRmDataFactoryPipeline
           href: AzureRM.DataFactories/Suspend-AzureRmDataFactoryPipeline.md
-    - name: Data Lake
-      href: 'AzureRM.DataLakeAnalytics/index.md#data_lake'
+    - name: Data Lake Analytics
+      href: 'AzureRM.DataLakeAnalytics/index.md#data_lake_analytics'
       items:
         - name: Add-AzureRmDataLakeAnalyticsDataSource
           href: AzureRM.DataLakeAnalytics/Add-AzureRmDataLakeAnalyticsDataSource.md
@@ -818,6 +943,9 @@
           href: AzureRM.DataLakeAnalytics/Test-AzureRmDataLakeAnalyticsCatalogItem.md
         - name: Wait-AzureRmDataLakeAnalyticsJob
           href: AzureRM.DataLakeAnalytics/Wait-AzureRmDataLakeAnalyticsJob.md
+    - name: Data Lake Store
+      href: 'AzureRM.DataLakeStore/index.md#data_lake_store'
+      items:
         - name: Add-AzureRmDataLakeStoreItemContent
           href: AzureRM.DataLakeStore/Add-AzureRmDataLakeStoreItemContent.md
         - name: Export-AzureRmDataLakeStoreItem
@@ -912,49 +1040,8 @@
           href: AzureRM.Dns/Set-AzureRmDnsZone.md
         - name: Test-AzureRmDnsAvailability
           href: AzureRM.Network/Test-AzureRmDnsAvailability.md
-    - name: Express Route
-      href: 'AzureRM.Network/index.md#express_route'
-      items:
-        - name: Add-AzureRmExpressRouteCircuitAuthorization
-          href: AzureRM.Network/Add-AzureRmExpressRouteCircuitAuthorization.md
-        - name: Add-AzureRmExpressRouteCircuitPeeringConfig
-          href: AzureRM.Network/Add-AzureRmExpressRouteCircuitPeeringConfig.md
-        - name: Get-AzureRmExpressRouteCircuit
-          href: AzureRM.Network/Get-AzureRmExpressRouteCircuit.md
-        - name: Get-AzureRmExpressRouteCircuitARPTable
-          href: AzureRM.Network/Get-AzureRmExpressRouteCircuitARPTable.md
-        - name: Get-AzureRmExpressRouteCircuitAuthorization
-          href: AzureRM.Network/Get-AzureRmExpressRouteCircuitAuthorization.md
-        - name: Get-AzureRmExpressRouteCircuitPeeringConfig
-          href: AzureRM.Network/Get-AzureRmExpressRouteCircuitPeeringConfig.md
-        - name: Get-AzureRmExpressRouteCircuitRouteTable
-          href: AzureRM.Network/Get-AzureRmExpressRouteCircuitRouteTable.md
-        - name: Get-AzureRmExpressRouteCircuitRouteTableSummary
-          href: AzureRM.Network/Get-AzureRmExpressRouteCircuitRouteTableSummary.md
-        - name: Get-AzureRmExpressRouteCircuitStats
-          href: AzureRM.Network/Get-AzureRmExpressRouteCircuitStats.md
-        - name: Get-AzureRmExpressRouteServiceProvider
-          href: AzureRM.Network/Get-AzureRmExpressRouteServiceProvider.md
-        - name: Move-AzureRmExpressRouteCircuit
-          href: AzureRM.Network/Move-AzureRmExpressRouteCircuit.md
-        - name: New-AzureRmExpressRouteCircuit
-          href: AzureRM.Network/New-AzureRmExpressRouteCircuit.md
-        - name: New-AzureRmExpressRouteCircuitAuthorization
-          href: AzureRM.Network/New-AzureRmExpressRouteCircuitAuthorization.md
-        - name: New-AzureRmExpressRouteCircuitPeeringConfig
-          href: AzureRM.Network/New-AzureRmExpressRouteCircuitPeeringConfig.md
-        - name: Remove-AzureRmExpressRouteCircuit
-          href: AzureRM.Network/Remove-AzureRmExpressRouteCircuit.md
-        - name: Remove-AzureRmExpressRouteCircuitAuthorization
-          href: AzureRM.Network/Remove-AzureRmExpressRouteCircuitAuthorization.md
-        - name: Remove-AzureRmExpressRouteCircuitPeeringConfig
-          href: AzureRM.Network/Remove-AzureRmExpressRouteCircuitPeeringConfig.md
-        - name: Set-AzureRmExpressRouteCircuit
-          href: AzureRM.Network/Set-AzureRmExpressRouteCircuit.md
-        - name: Set-AzureRmExpressRouteCircuitPeeringConfig
-          href: AzureRM.Network/Set-AzureRmExpressRouteCircuitPeeringConfig.md
-    - name: HD Monitoring
-      href: 'AzureRM.HDInsight/index.md#hd_monitoring'
+    - name: HD Insights
+      href: 'AzureRM.HDInsight/index.md#hd_insights'
       items:
         - name: Add-AzureRmHDInsightClusterIdentity
           href: AzureRM.HDInsight/Add-AzureRmHDInsightClusterIdentity.md
@@ -984,6 +1071,8 @@
           href: AzureRM.HDInsight/Grant-AzureRmHDInsightRdpServicesAccess.md
         - name: Invoke-AzureRmHDInsightHiveJob
           href: AzureRM.HDInsight/Invoke-AzureRmHDInsightHiveJob.md
+        - name: New-AzureRmHDInsightCluster
+          href: AzureRM.HDInsight/New-AzureRmHDInsightCluster.md
         - name: New-AzureRmHDInsightClusterConfig
           href: AzureRM.HDInsight/New-AzureRmHDInsightClusterConfig.md
         - name: New-AzureRmHDInsightHiveJobDefinition
@@ -1020,64 +1109,13 @@
           href: AzureRM.HDInsight/Use-AzureRmHDInsightCluster.md
         - name: Wait-AzureRmHDInsightJob
           href: AzureRM.HDInsight/Wait-AzureRmHDInsightJob.md
-    - name: Integration Accounts
-      href: 'AzureRM.LogicApp/index.md#integration_accounts'
-      items:
-        - name: Get-AzureRmIntegrationAccount
-          href: AzureRM.LogicApp/Get-AzureRmIntegrationAccount.md
-        - name: Get-AzureRmIntegrationAccountAgreement
-          href: AzureRM.LogicApp/Get-AzureRmIntegrationAccountAgreement.md
-        - name: Get-AzureRmIntegrationAccountCallbackUrl
-          href: AzureRM.LogicApp/Get-AzureRmIntegrationAccountCallbackUrl.md
-        - name: Get-AzureRmIntegrationAccountCertificate
-          href: AzureRM.LogicApp/Get-AzureRmIntegrationAccountCertificate.md
-        - name: Get-AzureRmIntegrationAccountMap
-          href: AzureRM.LogicApp/Get-AzureRmIntegrationAccountMap.md
-        - name: Get-AzureRmIntegrationAccountPartner
-          href: AzureRM.LogicApp/Get-AzureRmIntegrationAccountPartner.md
-        - name: Get-AzureRmIntegrationAccountSchema
-          href: AzureRM.LogicApp/Get-AzureRmIntegrationAccountSchema.md
-        - name: New-AzureRmIntegrationAccount
-          href: AzureRM.LogicApp/New-AzureRmIntegrationAccount.md
-        - name: New-AzureRmIntegrationAccountAgreement
-          href: AzureRM.LogicApp/New-AzureRmIntegrationAccountAgreement.md
-        - name: New-AzureRmIntegrationAccountCertificate
-          href: AzureRM.LogicApp/New-AzureRmIntegrationAccountCertificate.md
-        - name: New-AzureRmIntegrationAccountMap
-          href: AzureRM.LogicApp/New-AzureRmIntegrationAccountMap.md
-        - name: New-AzureRmIntegrationAccountPartner
-          href: AzureRM.LogicApp/New-AzureRmIntegrationAccountPartner.md
-        - name: New-AzureRmIntegrationAccountSchema
-          href: AzureRM.LogicApp/New-AzureRmIntegrationAccountSchema.md
-        - name: Remove-AzureRmIntegrationAccount
-          href: AzureRM.LogicApp/Remove-AzureRmIntegrationAccount.md
-        - name: Remove-AzureRmIntegrationAccountAgreement
-          href: AzureRM.LogicApp/Remove-AzureRmIntegrationAccountAgreement.md
-        - name: Remove-AzureRmIntegrationAccountCertificate
-          href: AzureRM.LogicApp/Remove-AzureRmIntegrationAccountCertificate.md
-        - name: Remove-AzureRmIntegrationAccountMap
-          href: AzureRM.LogicApp/Remove-AzureRmIntegrationAccountMap.md
-        - name: Remove-AzureRmIntegrationAccountPartner
-          href: AzureRM.LogicApp/Remove-AzureRmIntegrationAccountPartner.md
-        - name: Remove-AzureRmIntegrationAccountSchema
-          href: AzureRM.LogicApp/Remove-AzureRmIntegrationAccountSchema.md
-        - name: Set-AzureRmIntegrationAccount
-          href: AzureRM.LogicApp/Set-AzureRmIntegrationAccount.md
-        - name: Set-AzureRmIntegrationAccountAgreement
-          href: AzureRM.LogicApp/Set-AzureRmIntegrationAccountAgreement.md
-        - name: Set-AzureRmIntegrationAccountCertificate
-          href: AzureRM.LogicApp/Set-AzureRmIntegrationAccountCertificate.md
-        - name: Set-AzureRmIntegrationAccountMap
-          href: AzureRM.LogicApp/Set-AzureRmIntegrationAccountMap.md
-        - name: Set-AzureRmIntegrationAccountPartner
-          href: AzureRM.LogicApp/Set-AzureRmIntegrationAccountPartner.md
-        - name: Set-AzureRmIntegrationAccountSchema
-          href: AzureRM.LogicApp/Set-AzureRmIntegrationAccountSchema.md
     - name: Key Vault
       href: 'AzureRM.KeyVault/index.md#key_vault'
       items:
         - name: Add-AzureKeyVaultKey
           href: AzureRM.KeyVault/Add-AzureKeyVaultKey.md
+        - name: Backup-AzureKeyVaultKey
+          href: AzureRM.KeyVault/Backup-AzureKeyVaultKey.md
         - name: Get-AzureKeyVaultKey
           href: AzureRM.KeyVault/Get-AzureKeyVaultKey.md
         - name: Get-AzureKeyVaultSecret
@@ -1104,8 +1142,6 @@
           href: AzureRM.KeyVault/Set-AzureKeyVaultSecretAttribute.md
         - name: Set-AzureRmKeyVaultAccessPolicy
           href: AzureRM.KeyVault/Set-AzureRmKeyVaultAccessPolicy.md
-        - name: New-AzureVMSqlServerKeyVaultCredentialConfig
-          href: AzureRM.Compute/New-AzureVMSqlServerKeyVaultCredentialConfig.md
     - name: Load Balancer
       href: 'AzureRM.Network/index.md#load_balancer'
       items:
@@ -1175,6 +1211,83 @@
           href: AzureRM.Network/Set-AzureRmLoadBalancerProbeConfig.md
         - name: Set-AzureRmLoadBalancerRuleConfig
           href: AzureRM.Network/Set-AzureRmLoadBalancerRuleConfig.md
+    - name: Logic Apps
+      href: 'AzureRM.LogicApp/index.md#logic_apps'
+      items:
+        - name: Get-AzureRmIntegrationAccount
+          href: AzureRM.LogicApp/Get-AzureRmIntegrationAccount.md
+        - name: Get-AzureRmIntegrationAccountAgreement
+          href: AzureRM.LogicApp/Get-AzureRmIntegrationAccountAgreement.md
+        - name: Get-AzureRmIntegrationAccountCallbackUrl
+          href: AzureRM.LogicApp/Get-AzureRmIntegrationAccountCallbackUrl.md
+        - name: Get-AzureRmIntegrationAccountCertificate
+          href: AzureRM.LogicApp/Get-AzureRmIntegrationAccountCertificate.md
+        - name: Get-AzureRmIntegrationAccountMap
+          href: AzureRM.LogicApp/Get-AzureRmIntegrationAccountMap.md
+        - name: Get-AzureRmIntegrationAccountPartner
+          href: AzureRM.LogicApp/Get-AzureRmIntegrationAccountPartner.md
+        - name: Get-AzureRmIntegrationAccountSchema
+          href: AzureRM.LogicApp/Get-AzureRmIntegrationAccountSchema.md
+        - name: Get-AzureRmLogicApp
+          href: AzureRM.LogicApp/Get-AzureRmLogicApp.md
+        - name: Get-AzureRmLogicAppAccessKey
+          href: AzureRM.LogicApp/Get-AzureRmLogicAppAccessKey.md
+        - name: Get-AzureRmLogicAppRunAction
+          href: AzureRM.LogicApp/Get-AzureRmLogicAppRunAction.md
+        - name: Get-AzureRmLogicAppRunHistory
+          href: AzureRM.LogicApp/Get-AzureRmLogicAppRunHistory.md
+        - name: Get-AzureRmLogicAppTrigger
+          href: AzureRM.LogicApp/Get-AzureRmLogicAppTrigger.md
+        - name: Get-AzureRmLogicAppTriggerHistory
+          href: AzureRM.LogicApp/Get-AzureRmLogicAppTriggerHistory.md
+        - name: New-AzureRmIntegrationAccount
+          href: AzureRM.LogicApp/New-AzureRmIntegrationAccount.md
+        - name: New-AzureRmIntegrationAccountAgreement
+          href: AzureRM.LogicApp/New-AzureRmIntegrationAccountAgreement.md
+        - name: New-AzureRmIntegrationAccountCertificate
+          href: AzureRM.LogicApp/New-AzureRmIntegrationAccountCertificate.md
+        - name: New-AzureRmIntegrationAccountMap
+          href: AzureRM.LogicApp/New-AzureRmIntegrationAccountMap.md
+        - name: New-AzureRmIntegrationAccountPartner
+          href: AzureRM.LogicApp/New-AzureRmIntegrationAccountPartner.md
+        - name: New-AzureRmIntegrationAccountSchema
+          href: AzureRM.LogicApp/New-AzureRmIntegrationAccountSchema.md
+        - name: New-AzureRmLogicApp
+          href: AzureRM.LogicApp/New-AzureRmLogicApp.md
+        - name: Remove-AzureRmIntegrationAccount
+          href: AzureRM.LogicApp/Remove-AzureRmIntegrationAccount.md
+        - name: Remove-AzureRmIntegrationAccountAgreement
+          href: AzureRM.LogicApp/Remove-AzureRmIntegrationAccountAgreement.md
+        - name: Remove-AzureRmIntegrationAccountCertificate
+          href: AzureRM.LogicApp/Remove-AzureRmIntegrationAccountCertificate.md
+        - name: Remove-AzureRmIntegrationAccountMap
+          href: AzureRM.LogicApp/Remove-AzureRmIntegrationAccountMap.md
+        - name: Remove-AzureRmIntegrationAccountPartner
+          href: AzureRM.LogicApp/Remove-AzureRmIntegrationAccountPartner.md
+        - name: Remove-AzureRmIntegrationAccountSchema
+          href: AzureRM.LogicApp/Remove-AzureRmIntegrationAccountSchema.md
+        - name: Remove-AzureRmLogicApp
+          href: AzureRM.LogicApp/Remove-AzureRmLogicApp.md
+        - name: Set-AzureRmIntegrationAccount
+          href: AzureRM.LogicApp/Set-AzureRmIntegrationAccount.md
+        - name: Set-AzureRmIntegrationAccountAgreement
+          href: AzureRM.LogicApp/Set-AzureRmIntegrationAccountAgreement.md
+        - name: Set-AzureRmIntegrationAccountCertificate
+          href: AzureRM.LogicApp/Set-AzureRmIntegrationAccountCertificate.md
+        - name: Set-AzureRmIntegrationAccountMap
+          href: AzureRM.LogicApp/Set-AzureRmIntegrationAccountMap.md
+        - name: Set-AzureRmIntegrationAccountPartner
+          href: AzureRM.LogicApp/Set-AzureRmIntegrationAccountPartner.md
+        - name: Set-AzureRmIntegrationAccountSchema
+          href: AzureRM.LogicApp/Set-AzureRmIntegrationAccountSchema.md
+        - name: Set-AzureRmLogicApp
+          href: AzureRM.LogicApp/Set-AzureRmLogicApp.md
+        - name: Set-AzureRmLogicAppAccessKey
+          href: AzureRM.LogicApp/Set-AzureRmLogicAppAccessKey.md
+        - name: Start-AzureRmLogicApp
+          href: AzureRM.LogicApp/Start-AzureRmLogicApp.md
+        - name: Stop-AzureRmLogicAppRun
+          href: AzureRM.LogicApp/Stop-AzureRmLogicAppRun.md
     - name: Machine Learning
       href: 'AzureRM.MachineLearning/index.md#machine_learning'
       items:
@@ -1192,13 +1305,9 @@
           href: AzureRM.MachineLearning/Remove-AzureRmMlWebService.md
         - name: Update-AzureRmMlWebService
           href: AzureRM.MachineLearning/Update-AzureRmMlWebService.md
-    - name: Monitoring
-      href: 'AzureRM.RedisCache/index.md#monitoring'
+    - name: Monitor
+      href: 'AzureRM.Insights/index.md#monitor'
       items:
-        - name: Remove-AzureRmRedisCacheDiagnostics
-          href: AzureRM.RedisCache/Remove-AzureRmRedisCacheDiagnostics.md
-        - name: Set-AzureRmRedisCacheDiagnostics
-          href: AzureRM.RedisCache/Set-AzureRmRedisCacheDiagnostics.md
         - name: Add-AzureRmAutoscaleSetting
           href: AzureRM.Insights/Add-AzureRmAutoscaleSetting.md
         - name: Add-AzureRmLogAlertRule
@@ -1249,10 +1358,6 @@
           href: AzureRM.Insights/Remove-AzureRmLogProfile.md
         - name: Set-AzureRmDiagnosticSetting
           href: AzureRM.Insights/Set-AzureRmDiagnosticSetting.md
-        - name: Disable-AzureRmDataCollection
-          href: AzureRM.Profile/Disable-AzureRmDataCollection.md
-        - name: Enable-AzureRmDataCollection
-          href: AzureRM.Profile/Enable-AzureRmDataCollection.md
         - name: Get-AzureRmOperationalInsightsIntelligencePacks
           href: AzureRM.OperationalInsights/Get-AzureRmOperationalInsightsIntelligencePacks.md
         - name: Get-AzureRmOperationalInsightsLinkTargets
@@ -1297,46 +1402,63 @@
           href: AzureRM.OperationalInsights/Set-AzureRmOperationalInsightsStorageInsight.md
         - name: Set-AzureRmOperationalInsightsWorkspace
           href: AzureRM.OperationalInsights/Set-AzureRmOperationalInsightsWorkspace.md
-        - name: Get-AzureRmVMBootDiagnosticsData
-          href: AzureRM.Compute/Get-AzureRmVMBootDiagnosticsData.md
-        - name: Get-AzureRMVMDiagnosticsExtension
-          href: AzureRM.Compute/Get-AzureRMVMDiagnosticsExtension.md
-        - name: Remove-AzureRmVMDiagnosticsExtension
-          href: AzureRM.Compute/Remove-AzureRmVMDiagnosticsExtension.md
-        - name: Set-AzureRmVMBootDiagnostics
-          href: AzureRM.Compute/Set-AzureRmVMBootDiagnostics.md
-        - name: Set-AzureRMVMDiagnosticsExtension
-          href: AzureRM.Compute/Set-AzureRMVMDiagnosticsExtension.md
-        - name: Get-AzureRmLogicApp
-          href: AzureRM.LogicApp/Get-AzureRmLogicApp.md
-        - name: Get-AzureRmLogicAppRunAction
-          href: AzureRM.LogicApp/Get-AzureRmLogicAppRunAction.md
-        - name: Get-AzureRmLogicAppRunHistory
-          href: AzureRM.LogicApp/Get-AzureRmLogicAppRunHistory.md
-        - name: Get-AzureRmLogicAppTrigger
-          href: AzureRM.LogicApp/Get-AzureRmLogicAppTrigger.md
-        - name: Get-AzureRmLogicAppTriggerHistory
-          href: AzureRM.LogicApp/Get-AzureRmLogicAppTriggerHistory.md
-        - name: New-AzureRmLogicApp
-          href: AzureRM.LogicApp/New-AzureRmLogicApp.md
-        - name: Remove-AzureRmLogicApp
-          href: AzureRM.LogicApp/Remove-AzureRmLogicApp.md
-        - name: Set-AzureRmLogicApp
-          href: AzureRM.LogicApp/Set-AzureRmLogicApp.md
-        - name: Start-AzureRmLogicApp
-          href: AzureRM.LogicApp/Start-AzureRmLogicApp.md
-        - name: Stop-AzureRmLogicAppRun
-          href: AzureRM.LogicApp/Stop-AzureRmLogicAppRun.md
-        - name: Get-AzureRmWebAppMetrics
-          href: AzureRM.Websites/Get-AzureRmWebAppMetrics.md
-        - name: Get-AzureRmWebAppSlotMetrics
-          href: AzureRM.Websites/Get-AzureRmWebAppSlotMetrics.md
-        - name: Get-AzureStorageServiceMetricsProperty
-          href: Azure.Storage/Get-AzureStorageServiceMetricsProperty.md
-        - name: Set-AzureStorageServiceMetricsProperty
-          href: Azure.Storage/Set-AzureStorageServiceMetricsProperty.md
-    - name: Notification Hub
-      href: 'AzureRM.NotificationHubs/index.md#notification_hub'
+    - name: Networking
+      href: 'AzureRM.Network/index.md#networking'
+      items:
+        - name: Add-AzureRmNetworkInterfaceIpConfig
+          href: AzureRM.Network/Add-AzureRmNetworkInterfaceIpConfig.md
+        - name: Add-AzureRmNetworkSecurityRuleConfig
+          href: AzureRM.Network/Add-AzureRmNetworkSecurityRuleConfig.md
+        - name: Get-AzureRmLocalNetworkGateway
+          href: AzureRM.Network/Get-AzureRmLocalNetworkGateway.md
+        - name: Get-AzureRmNetworkInterface
+          href: AzureRM.Network/Get-AzureRmNetworkInterface.md
+        - name: Get-AzureRmNetworkInterfaceIpConfig
+          href: AzureRM.Network/Get-AzureRmNetworkInterfaceIpConfig.md
+        - name: Get-AzureRmNetworkSecurityGroup
+          href: AzureRM.Network/Get-AzureRmNetworkSecurityGroup.md
+        - name: Get-AzureRmNetworkSecurityRuleConfig
+          href: AzureRM.Network/Get-AzureRmNetworkSecurityRuleConfig.md
+        - name: Get-AzureRmPublicIpAddress
+          href: AzureRM.Network/Get-AzureRmPublicIpAddress.md
+        - name: New-AzureRmLocalNetworkGateway
+          href: AzureRM.Network/New-AzureRmLocalNetworkGateway.md
+        - name: New-AzureRmNetworkInterface
+          href: AzureRM.Network/New-AzureRmNetworkInterface.md
+        - name: New-AzureRmNetworkInterfaceIpConfig
+          href: AzureRM.Network/New-AzureRmNetworkInterfaceIpConfig.md
+        - name: New-AzureRmNetworkSecurityGroup
+          href: AzureRM.Network/New-AzureRmNetworkSecurityGroup.md
+        - name: New-AzureRmNetworkSecurityRuleConfig
+          href: AzureRM.Network/New-AzureRmNetworkSecurityRuleConfig.md
+        - name: New-AzureRmPublicIpAddress
+          href: AzureRM.Network/New-AzureRmPublicIpAddress.md
+        - name: Remove-AzureRmLocalNetworkGateway
+          href: AzureRM.Network/Remove-AzureRmLocalNetworkGateway.md
+        - name: Remove-AzureRmNetworkInterface
+          href: AzureRM.Network/Remove-AzureRmNetworkInterface.md
+        - name: Remove-AzureRmNetworkInterfaceIpConfig
+          href: AzureRM.Network/Remove-AzureRmNetworkInterfaceIpConfig.md
+        - name: Remove-AzureRmNetworkSecurityGroup
+          href: AzureRM.Network/Remove-AzureRmNetworkSecurityGroup.md
+        - name: Remove-AzureRmNetworkSecurityRuleConfig
+          href: AzureRM.Network/Remove-AzureRmNetworkSecurityRuleConfig.md
+        - name: Remove-AzureRmPublicIpAddress
+          href: AzureRM.Network/Remove-AzureRmPublicIpAddress.md
+        - name: Set-AzureRmLocalNetworkGateway
+          href: AzureRM.Network/Set-AzureRmLocalNetworkGateway.md
+        - name: Set-AzureRmNetworkInterface
+          href: AzureRM.Network/Set-AzureRmNetworkInterface.md
+        - name: Set-AzureRmNetworkInterfaceIpConfig
+          href: AzureRM.Network/Set-AzureRmNetworkInterfaceIpConfig.md
+        - name: Set-AzureRmNetworkSecurityGroup
+          href: AzureRM.Network/Set-AzureRmNetworkSecurityGroup.md
+        - name: Set-AzureRmNetworkSecurityRuleConfig
+          href: AzureRM.Network/Set-AzureRmNetworkSecurityRuleConfig.md
+        - name: Set-AzureRmPublicIpAddress
+          href: AzureRM.Network/Set-AzureRmPublicIpAddress.md
+    - name: Notification Hubs
+      href: 'AzureRM.NotificationHubs/index.md#notification_hubs'
       items:
         - name: Get-AzureRmNotificationHub
           href: AzureRM.NotificationHubs/Get-AzureRmNotificationHub.md
@@ -1377,50 +1499,8 @@
         - name: Set-AzureRmNotificationHubsNamespaceAuthorizationRules
           href: AzureRM.NotificationHubs/Set-AzureRmNotificationHubsNamespaceAuthorizationRules.md
     - name: Policies
-      href: 'AzureRM.SiteRecovery/index.md#policies'
+      href: 'AzureRM.Resources/index.md#policies'
       items:
-        - name: Get-AzureRmSiteRecoveryPolicy
-          href: AzureRM.SiteRecovery/Get-AzureRmSiteRecoveryPolicy.md
-        - name: New-AzureRmSiteRecoveryPolicy
-          href: AzureRM.SiteRecovery/New-AzureRmSiteRecoveryPolicy.md
-        - name: Remove-AzureRmSiteRecoveryPolicy
-          href: AzureRM.SiteRecovery/Remove-AzureRmSiteRecoveryPolicy.md
-        - name: Start-AzureRmSiteRecoveryPolicyAssociationJob
-          href: AzureRM.SiteRecovery/Start-AzureRmSiteRecoveryPolicyAssociationJob.md
-        - name: Start-AzureRmSiteRecoveryPolicyDissociationJob
-          href: AzureRM.SiteRecovery/Start-AzureRmSiteRecoveryPolicyDissociationJob.md
-        - name: Get-AzureStorageContainerStoredAccessPolicy
-          href: Azure.Storage/Get-AzureStorageContainerStoredAccessPolicy.md
-        - name: Get-AzureStorageQueueStoredAccessPolicy
-          href: Azure.Storage/Get-AzureStorageQueueStoredAccessPolicy.md
-        - name: Get-AzureStorageShareStoredAccessPolicy
-          href: Azure.Storage/Get-AzureStorageShareStoredAccessPolicy.md
-        - name: Get-AzureStorageTableStoredAccessPolicy
-          href: Azure.Storage/Get-AzureStorageTableStoredAccessPolicy.md
-        - name: New-AzureStorageContainerStoredAccessPolicy
-          href: Azure.Storage/New-AzureStorageContainerStoredAccessPolicy.md
-        - name: New-AzureStorageQueueStoredAccessPolicy
-          href: Azure.Storage/New-AzureStorageQueueStoredAccessPolicy.md
-        - name: New-AzureStorageShareStoredAccessPolicy
-          href: Azure.Storage/New-AzureStorageShareStoredAccessPolicy.md
-        - name: New-AzureStorageTableStoredAccessPolicy
-          href: Azure.Storage/New-AzureStorageTableStoredAccessPolicy.md
-        - name: Remove-AzureStorageContainerStoredAccessPolicy
-          href: Azure.Storage/Remove-AzureStorageContainerStoredAccessPolicy.md
-        - name: Remove-AzureStorageQueueStoredAccessPolicy
-          href: Azure.Storage/Remove-AzureStorageQueueStoredAccessPolicy.md
-        - name: Remove-AzureStorageShareStoredAccessPolicy
-          href: Azure.Storage/Remove-AzureStorageShareStoredAccessPolicy.md
-        - name: Remove-AzureStorageTableStoredAccessPolicy
-          href: Azure.Storage/Remove-AzureStorageTableStoredAccessPolicy.md
-        - name: Set-AzureStorageContainerStoredAccessPolicy
-          href: Azure.Storage/Set-AzureStorageContainerStoredAccessPolicy.md
-        - name: Set-AzureStorageQueueStoredAccessPolicy
-          href: Azure.Storage/Set-AzureStorageQueueStoredAccessPolicy.md
-        - name: Set-AzureStorageShareStoredAccessPolicy
-          href: Azure.Storage/Set-AzureStorageShareStoredAccessPolicy.md
-        - name: Set-AzureStorageTableStoredAccessPolicy
-          href: Azure.Storage/Set-AzureStorageTableStoredAccessPolicy.md
         - name: Get-AzureRmPolicyAssignment
           href: AzureRM.Resources/Get-AzureRmPolicyAssignment.md
         - name: Get-AzureRmPolicyDefinition
@@ -1452,89 +1532,42 @@
           href: AzureRM.PowerBIEmbedded/Remove-AzureRmPowerBIWorkspaceCollection.md
         - name: Reset-AzureRmPowerBIWorkspaceCollectionAccessKeys
           href: AzureRM.PowerBIEmbedded/Reset-AzureRmPowerBIWorkspaceCollectionAccessKeys.md
-    - name: Recovery
-      href: 'AzureRM.SiteRecovery/index.md#recovery'
+    - name: Profile
+      href: 'AzureRM.Profile/index.md#profile'
       items:
-        - name: Edit-AzureRmSiteRecoveryRecoveryPlan
-          href: AzureRM.SiteRecovery/Edit-AzureRmSiteRecoveryRecoveryPlan.md
-        - name: Get-AzureRmSiteRecoveryJob
-          href: AzureRM.SiteRecovery/Get-AzureRmSiteRecoveryJob.md
-        - name: Get-AzureRmSiteRecoveryNetwork
-          href: AzureRM.SiteRecovery/Get-AzureRmSiteRecoveryNetwork.md
-        - name: Get-AzureRmSiteRecoveryNetworkMapping
-          href: AzureRM.SiteRecovery/Get-AzureRmSiteRecoveryNetworkMapping.md
-        - name: Get-AzureRmSiteRecoveryProtectionContainer
-          href: AzureRM.SiteRecovery/Get-AzureRmSiteRecoveryProtectionContainer.md
-        - name: Get-AzureRmSiteRecoveryProtectionEntity
-          href: AzureRM.SiteRecovery/Get-AzureRmSiteRecoveryProtectionEntity.md
-        - name: Get-AzureRmSiteRecoveryRecoveryPlan
-          href: AzureRM.SiteRecovery/Get-AzureRmSiteRecoveryRecoveryPlan.md
-        - name: Get-AzureRmSiteRecoveryServer
-          href: AzureRM.SiteRecovery/Get-AzureRmSiteRecoveryServer.md
-        - name: Get-AzureRmSiteRecoverySite
-          href: AzureRM.SiteRecovery/Get-AzureRmSiteRecoverySite.md
-        - name: Get-AzureRmSiteRecoveryStorageClassification
-          href: AzureRM.SiteRecovery/Get-AzureRmSiteRecoveryStorageClassification.md
-        - name: Get-AzureRmSiteRecoveryStorageClassificationMapping
-          href: AzureRM.SiteRecovery/Get-AzureRmSiteRecoveryStorageClassificationMapping.md
-        - name: Get-AzureRmSiteRecoveryVault
-          href: AzureRM.SiteRecovery/Get-AzureRmSiteRecoveryVault.md
-        - name: Get-AzureRmSiteRecoveryVaultSettings
-          href: AzureRM.SiteRecovery/Get-AzureRmSiteRecoveryVaultSettings.md
-        - name: Get-AzureRmSiteRecoveryVaultSettingsFile
-          href: AzureRM.SiteRecovery/Get-AzureRmSiteRecoveryVaultSettingsFile.md
-        - name: Get-AzureRmSiteRecoveryVM
-          href: AzureRM.SiteRecovery/Get-AzureRmSiteRecoveryVM.md
-        - name: Import-AzureRmSiteRecoveryVaultSettingsFile
-          href: AzureRM.SiteRecovery/Import-AzureRmSiteRecoveryVaultSettingsFile.md
-        - name: New-AzureRmSiteRecoveryNetworkMapping
-          href: AzureRM.SiteRecovery/New-AzureRmSiteRecoveryNetworkMapping.md
-        - name: New-AzureRmSiteRecoveryRecoveryPlan
-          href: AzureRM.SiteRecovery/New-AzureRmSiteRecoveryRecoveryPlan.md
-        - name: New-AzureRmSiteRecoverySite
-          href: AzureRM.SiteRecovery/New-AzureRmSiteRecoverySite.md
-        - name: New-AzureRmSiteRecoveryStorageClassificationMapping
-          href: AzureRM.SiteRecovery/New-AzureRmSiteRecoveryStorageClassificationMapping.md
-        - name: New-AzureRmSiteRecoveryVault
-          href: AzureRM.SiteRecovery/New-AzureRmSiteRecoveryVault.md
-        - name: Remove-AzureRmSiteRecoveryNetworkMapping
-          href: AzureRM.SiteRecovery/Remove-AzureRmSiteRecoveryNetworkMapping.md
-        - name: Remove-AzureRmSiteRecoveryRecoveryPlan
-          href: AzureRM.SiteRecovery/Remove-AzureRmSiteRecoveryRecoveryPlan.md
-        - name: Remove-AzureRmSiteRecoveryServer
-          href: AzureRM.SiteRecovery/Remove-AzureRmSiteRecoveryServer.md
-        - name: Remove-AzureRmSiteRecoverySite
-          href: AzureRM.SiteRecovery/Remove-AzureRmSiteRecoverySite.md
-        - name: Remove-AzureRmSiteRecoveryStorageClassificationMapping
-          href: AzureRM.SiteRecovery/Remove-AzureRmSiteRecoveryStorageClassificationMapping.md
-        - name: Remove-AzureRmSiteRecoveryVault
-          href: AzureRM.SiteRecovery/Remove-AzureRmSiteRecoveryVault.md
-        - name: Restart-AzureRmSiteRecoveryJob
-          href: AzureRM.SiteRecovery/Restart-AzureRmSiteRecoveryJob.md
-        - name: Resume-AzureRmSiteRecoveryJob
-          href: AzureRM.SiteRecovery/Resume-AzureRmSiteRecoveryJob.md
-        - name: Set-AzureRmSiteRecoveryProtectionEntity
-          href: AzureRM.SiteRecovery/Set-AzureRmSiteRecoveryProtectionEntity.md
-        - name: Set-AzureRmSiteRecoveryVaultSettings
-          href: AzureRM.SiteRecovery/Set-AzureRmSiteRecoveryVaultSettings.md
-        - name: Set-AzureRmSiteRecoveryVM
-          href: AzureRM.SiteRecovery/Set-AzureRmSiteRecoveryVM.md
-        - name: Start-AzureRmSiteRecoveryCommitFailoverJob
-          href: AzureRM.SiteRecovery/Start-AzureRmSiteRecoveryCommitFailoverJob.md
-        - name: Start-AzureRmSiteRecoveryPlannedFailoverJob
-          href: AzureRM.SiteRecovery/Start-AzureRmSiteRecoveryPlannedFailoverJob.md
-        - name: Start-AzureRmSiteRecoveryTestFailoverJob
-          href: AzureRM.SiteRecovery/Start-AzureRmSiteRecoveryTestFailoverJob.md
-        - name: Start-AzureRmSiteRecoveryUnplannedFailoverJob
-          href: AzureRM.SiteRecovery/Start-AzureRmSiteRecoveryUnplannedFailoverJob.md
-        - name: Stop-AzureRmSiteRecoveryJob
-          href: AzureRM.SiteRecovery/Stop-AzureRmSiteRecoveryJob.md
-        - name: Update-AzureRmSiteRecoveryProtectionDirection
-          href: AzureRM.SiteRecovery/Update-AzureRmSiteRecoveryProtectionDirection.md
-        - name: Update-AzureRmSiteRecoveryRecoveryPlan
-          href: AzureRM.SiteRecovery/Update-AzureRmSiteRecoveryRecoveryPlan.md
-        - name: Update-AzureRmSiteRecoveryServer
-          href: AzureRM.SiteRecovery/Update-AzureRmSiteRecoveryServer.md
+        - name: Add-AzureRmAccount
+          href: AzureRM.Profile/Add-AzureRmAccount.md
+        - name: Add-AzureRmEnvironment
+          href: AzureRM.Profile/Add-AzureRmEnvironment.md
+        - name: Disable-AzureRmDataCollection
+          href: AzureRM.Profile/Disable-AzureRmDataCollection.md
+        - name: Enable-AzureRmDataCollection
+          href: AzureRM.Profile/Enable-AzureRmDataCollection.md
+        - name: Get-AzureRmContext
+          href: AzureRM.Profile/Get-AzureRmContext.md
+        - name: Get-AzureRmEnvironment
+          href: AzureRM.Profile/Get-AzureRmEnvironment.md
+        - name: Get-AzureRmSubscription
+          href: AzureRM.Profile/Get-AzureRmSubscription.md
+        - name: Get-AzureRmTenant
+          href: AzureRM.Profile/Get-AzureRmTenant.md
+        - name: Remove-AzureRmEnvironment
+          href: AzureRM.Profile/Remove-AzureRmEnvironment.md
+        - name: Save-AzureRmProfile
+          href: AzureRM.Profile/Save-AzureRmProfile.md
+        - name: Select-AzureRmProfile
+          href: AzureRM.Profile/Select-AzureRmProfile.md
+        - name: Set-AzureRmContext
+          href: AzureRM.Profile/Set-AzureRmContext.md
+        - name: Set-AzureRmEnvironment
+          href: AzureRM.Profile/Set-AzureRmEnvironment.md
+        - name: Get-AzureRmAuthorizationChangeLog
+          href: AzureRM.Resources/Get-AzureRmAuthorizationChangeLog.md
+    - name: Recovery Services
+      href: 'AzureRM.RecoveryServices/index.md#recovery_services'
+      items:
+        - name: Get-AzureRmRecoveryServicesBackupProperties
+          href: AzureRM.RecoveryServices/Get-AzureRmRecoveryServicesBackupProperties.md
         - name: Get-AzureRmRecoveryServicesVault
           href: AzureRM.RecoveryServices/Get-AzureRmRecoveryServicesVault.md
         - name: Get-AzureRmRecoveryServicesVaultSettingsFile
@@ -1543,6 +1576,8 @@
           href: AzureRM.RecoveryServices/New-AzureRmRecoveryServicesVault.md
         - name: Remove-AzureRmRecoveryServicesVault
           href: AzureRM.RecoveryServices/Remove-AzureRmRecoveryServicesVault.md
+        - name: Set-AzureRmRecoveryServicesBackupProperties
+          href: AzureRM.RecoveryServices/Set-AzureRmRecoveryServicesBackupProperties.md
         - name: Set-AzureRmRecoveryServicesVaultContext
           href: AzureRM.RecoveryServices/Set-AzureRmRecoveryServicesVaultContext.md
     - name: Redis Cache
@@ -1562,28 +1597,14 @@
           href: AzureRM.RedisCache/New-AzureRmRedisCacheKey.md
         - name: Remove-AzureRmRedisCache
           href: AzureRM.RedisCache/Remove-AzureRmRedisCache.md
+        - name: Remove-AzureRmRedisCacheDiagnostics
+          href: AzureRM.RedisCache/Remove-AzureRmRedisCacheDiagnostics.md
         - name: Reset-AzureRmRedisCache
           href: AzureRM.RedisCache/Reset-AzureRmRedisCache.md
         - name: Set-AzureRmRedisCache
           href: AzureRM.RedisCache/Set-AzureRmRedisCache.md
-    - name: Resource groups
-      href: 'AzureRM.Resources/index.md#resource_groups'
-      items:
-        - name: Get-AzureRmLocation
-          href: AzureRM.Resources/Get-AzureRmLocation.md
-    - name: Resource providers
-      href: 'AzureRM.Resources/index.md#resource_providers'
-      items:
-        - name: Get-AzureRmProviderFeature
-          href: AzureRM.Resources/Get-AzureRmProviderFeature.md
-        - name: Get-AzureRmResourceProvider
-          href: AzureRM.Resources/Get-AzureRmResourceProvider.md
-        - name: Register-AzureRmProviderFeature
-          href: AzureRM.Resources/Register-AzureRmProviderFeature.md
-        - name: Register-AzureRmResourceProvider
-          href: AzureRM.Resources/Register-AzureRmResourceProvider.md
-        - name: Unregister-AzureRmResourceProvider
-          href: AzureRM.Resources/Unregister-AzureRmResourceProvider.md
+        - name: Set-AzureRmRedisCacheDiagnostics
+          href: AzureRM.RedisCache/Set-AzureRmRedisCacheDiagnostics.md
     - name: Resources
       href: 'AzureRM.Resources/index.md#resources'
       items:
@@ -1593,6 +1614,12 @@
           href: AzureRM.Resources/Find-AzureRmResource.md
         - name: Find-AzureRmResourceGroup
           href: AzureRM.Resources/Find-AzureRmResourceGroup.md
+        - name: Get-AzureRmLocation
+          href: AzureRM.Resources/Get-AzureRmLocation.md
+        - name: Get-AzureRmProviderFeature
+          href: AzureRM.Resources/Get-AzureRmProviderFeature.md
+        - name: Get-AzureRmProviderOperation
+          href: AzureRM.Resources/Get-AzureRmProviderOperation.md
         - name: Get-AzureRmResource
           href: AzureRM.Resources/Get-AzureRmResource.md
         - name: Get-AzureRmResourceGroup
@@ -1603,6 +1630,12 @@
           href: AzureRM.Resources/Get-AzureRmResourceGroupDeploymentOperation.md
         - name: Get-AzureRmResourceLock
           href: AzureRM.Resources/Get-AzureRmResourceLock.md
+        - name: Get-AzureRmResourceProvider
+          href: AzureRM.Resources/Get-AzureRmResourceProvider.md
+        - name: Get-AzureRmRoleAssignment
+          href: AzureRM.Resources/Get-AzureRmRoleAssignment.md
+        - name: Get-AzureRmRoleDefinition
+          href: AzureRM.Resources/Get-AzureRmRoleDefinition.md
         - name: Invoke-AzureRmResourceAction
           href: AzureRM.Resources/Invoke-AzureRmResourceAction.md
         - name: Move-AzureRmResource
@@ -1615,6 +1648,14 @@
           href: AzureRM.Resources/New-AzureRmResourceGroupDeployment.md
         - name: New-AzureRmResourceLock
           href: AzureRM.Resources/New-AzureRmResourceLock.md
+        - name: New-AzureRmRoleAssignment
+          href: AzureRM.Resources/New-AzureRmRoleAssignment.md
+        - name: New-AzureRmRoleDefinition
+          href: AzureRM.Resources/New-AzureRmRoleDefinition.md
+        - name: Register-AzureRmProviderFeature
+          href: AzureRM.Resources/Register-AzureRmProviderFeature.md
+        - name: Register-AzureRmResourceProvider
+          href: AzureRM.Resources/Register-AzureRmResourceProvider.md
         - name: Remove-AzureRmResource
           href: AzureRM.Resources/Remove-AzureRmResource.md
         - name: Remove-AzureRmResourceGroup
@@ -1623,6 +1664,10 @@
           href: AzureRM.Resources/Remove-AzureRmResourceGroupDeployment.md
         - name: Remove-AzureRmResourceLock
           href: AzureRM.Resources/Remove-AzureRmResourceLock.md
+        - name: Remove-AzureRmRoleAssignment
+          href: AzureRM.Resources/Remove-AzureRmRoleAssignment.md
+        - name: Remove-AzureRmRoleDefinition
+          href: AzureRM.Resources/Remove-AzureRmRoleDefinition.md
         - name: Save-AzureRmResourceGroupDeploymentTemplate
           href: AzureRM.Resources/Save-AzureRmResourceGroupDeploymentTemplate.md
         - name: Set-AzureRmResource
@@ -1631,27 +1676,69 @@
           href: AzureRM.Resources/Set-AzureRmResourceGroup.md
         - name: Set-AzureRmResourceLock
           href: AzureRM.Resources/Set-AzureRmResourceLock.md
+        - name: Set-AzureRmRoleDefinition
+          href: AzureRM.Resources/Set-AzureRmRoleDefinition.md
         - name: Stop-AzureRmResourceGroupDeployment
           href: AzureRM.Resources/Stop-AzureRmResourceGroupDeployment.md
         - name: Test-AzureRmResourceGroupDeployment
           href: AzureRM.Resources/Test-AzureRmResourceGroupDeployment.md
+        - name: Unregister-AzureRmResourceProvider
+          href: AzureRM.Resources/Unregister-AzureRmResourceProvider.md
     - name: Route
       href: 'AzureRM.Network/index.md#route'
       items:
+        - name: Add-AzureRmExpressRouteCircuitAuthorization
+          href: AzureRM.Network/Add-AzureRmExpressRouteCircuitAuthorization.md
+        - name: Add-AzureRmExpressRouteCircuitPeeringConfig
+          href: AzureRM.Network/Add-AzureRmExpressRouteCircuitPeeringConfig.md
         - name: Add-AzureRmRouteConfig
           href: AzureRM.Network/Add-AzureRmRouteConfig.md
+        - name: Get-AzureRmExpressRouteCircuit
+          href: AzureRM.Network/Get-AzureRmExpressRouteCircuit.md
+        - name: Get-AzureRmExpressRouteCircuitARPTable
+          href: AzureRM.Network/Get-AzureRmExpressRouteCircuitARPTable.md
+        - name: Get-AzureRmExpressRouteCircuitAuthorization
+          href: AzureRM.Network/Get-AzureRmExpressRouteCircuitAuthorization.md
+        - name: Get-AzureRmExpressRouteCircuitPeeringConfig
+          href: AzureRM.Network/Get-AzureRmExpressRouteCircuitPeeringConfig.md
+        - name: Get-AzureRmExpressRouteCircuitRouteTable
+          href: AzureRM.Network/Get-AzureRmExpressRouteCircuitRouteTable.md
+        - name: Get-AzureRmExpressRouteCircuitRouteTableSummary
+          href: AzureRM.Network/Get-AzureRmExpressRouteCircuitRouteTableSummary.md
+        - name: Get-AzureRmExpressRouteCircuitStats
+          href: AzureRM.Network/Get-AzureRmExpressRouteCircuitStats.md
+        - name: Get-AzureRmExpressRouteServiceProvider
+          href: AzureRM.Network/Get-AzureRmExpressRouteServiceProvider.md
         - name: Get-AzureRmRouteConfig
           href: AzureRM.Network/Get-AzureRmRouteConfig.md
         - name: Get-AzureRmRouteTable
           href: AzureRM.Network/Get-AzureRmRouteTable.md
+        - name: Move-AzureRmExpressRouteCircuit
+          href: AzureRM.Network/Move-AzureRmExpressRouteCircuit.md
+        - name: New-AzureRmExpressRouteCircuit
+          href: AzureRM.Network/New-AzureRmExpressRouteCircuit.md
+        - name: New-AzureRmExpressRouteCircuitAuthorization
+          href: AzureRM.Network/New-AzureRmExpressRouteCircuitAuthorization.md
+        - name: New-AzureRmExpressRouteCircuitPeeringConfig
+          href: AzureRM.Network/New-AzureRmExpressRouteCircuitPeeringConfig.md
         - name: New-AzureRmRouteConfig
           href: AzureRM.Network/New-AzureRmRouteConfig.md
         - name: New-AzureRmRouteTable
           href: AzureRM.Network/New-AzureRmRouteTable.md
+        - name: Remove-AzureRmExpressRouteCircuit
+          href: AzureRM.Network/Remove-AzureRmExpressRouteCircuit.md
+        - name: Remove-AzureRmExpressRouteCircuitAuthorization
+          href: AzureRM.Network/Remove-AzureRmExpressRouteCircuitAuthorization.md
+        - name: Remove-AzureRmExpressRouteCircuitPeeringConfig
+          href: AzureRM.Network/Remove-AzureRmExpressRouteCircuitPeeringConfig.md
         - name: Remove-AzureRmRouteConfig
           href: AzureRM.Network/Remove-AzureRmRouteConfig.md
         - name: Remove-AzureRmRouteTable
           href: AzureRM.Network/Remove-AzureRmRouteTable.md
+        - name: Set-AzureRmExpressRouteCircuit
+          href: AzureRM.Network/Set-AzureRmExpressRouteCircuit.md
+        - name: Set-AzureRmExpressRouteCircuitPeeringConfig
+          href: AzureRM.Network/Set-AzureRmExpressRouteCircuitPeeringConfig.md
         - name: Set-AzureRmRouteConfig
           href: AzureRM.Network/Set-AzureRmRouteConfig.md
         - name: Set-AzureRmRouteTable
@@ -1685,22 +1772,102 @@
           href: AzureRM.ServerManagement/Reset-AzureRmServerManagementGatewayProfile.md
         - name: Save-AzureRmServerManagementGatewayProfile
           href: AzureRM.ServerManagement/Save-AzureRmServerManagementGatewayProfile.md
-    - name: SQL
-      href: 'AzureRM.Compute/index.md#sql'
+    - name: Site Recovery
+      href: 'AzureRM.SiteRecovery/index.md#site_recovery'
       items:
-        - name: Get-AzureRMVMSqlServerExtension
-          href: AzureRM.Compute/Get-AzureRMVMSqlServerExtension.md
-        - name: New-AzureVMSqlServerAutoPatchingConfig
-          href: AzureRM.Compute/New-AzureVMSqlServerAutoPatchingConfig.md
-        - name: Remove-AzureRMVMSqlServerExtension
-          href: AzureRM.Compute/Remove-AzureRMVMSqlServerExtension.md
-        - name: Set-AzureRMVMSqlServerExtension
-          href: AzureRM.Compute/Set-AzureRMVMSqlServerExtension.md
+        - name: Edit-AzureRmSiteRecoveryRecoveryPlan
+          href: AzureRM.SiteRecovery/Edit-AzureRmSiteRecoveryRecoveryPlan.md
+        - name: Get-AzureRmSiteRecoveryJob
+          href: AzureRM.SiteRecovery/Get-AzureRmSiteRecoveryJob.md
+        - name: Get-AzureRmSiteRecoveryNetwork
+          href: AzureRM.SiteRecovery/Get-AzureRmSiteRecoveryNetwork.md
+        - name: Get-AzureRmSiteRecoveryNetworkMapping
+          href: AzureRM.SiteRecovery/Get-AzureRmSiteRecoveryNetworkMapping.md
+        - name: Get-AzureRmSiteRecoveryPolicy
+          href: AzureRM.SiteRecovery/Get-AzureRmSiteRecoveryPolicy.md
+        - name: Get-AzureRmSiteRecoveryProtectionContainer
+          href: AzureRM.SiteRecovery/Get-AzureRmSiteRecoveryProtectionContainer.md
+        - name: Get-AzureRmSiteRecoveryProtectionEntity
+          href: AzureRM.SiteRecovery/Get-AzureRmSiteRecoveryProtectionEntity.md
+        - name: Get-AzureRmSiteRecoveryRecoveryPlan
+          href: AzureRM.SiteRecovery/Get-AzureRmSiteRecoveryRecoveryPlan.md
+        - name: Get-AzureRmSiteRecoveryServer
+          href: AzureRM.SiteRecovery/Get-AzureRmSiteRecoveryServer.md
+        - name: Get-AzureRmSiteRecoverySite
+          href: AzureRM.SiteRecovery/Get-AzureRmSiteRecoverySite.md
+        - name: Get-AzureRmSiteRecoveryStorageClassification
+          href: AzureRM.SiteRecovery/Get-AzureRmSiteRecoveryStorageClassification.md
+        - name: Get-AzureRmSiteRecoveryStorageClassificationMapping
+          href: AzureRM.SiteRecovery/Get-AzureRmSiteRecoveryStorageClassificationMapping.md
+        - name: Get-AzureRmSiteRecoveryVault
+          href: AzureRM.SiteRecovery/Get-AzureRmSiteRecoveryVault.md
+        - name: Get-AzureRmSiteRecoveryVaultSettings
+          href: AzureRM.SiteRecovery/Get-AzureRmSiteRecoveryVaultSettings.md
+        - name: Get-AzureRmSiteRecoveryVaultSettingsFile
+          href: AzureRM.SiteRecovery/Get-AzureRmSiteRecoveryVaultSettingsFile.md
+        - name: Get-AzureRmSiteRecoveryVM
+          href: AzureRM.SiteRecovery/Get-AzureRmSiteRecoveryVM.md
+        - name: Import-AzureRmSiteRecoveryVaultSettingsFile
+          href: AzureRM.SiteRecovery/Import-AzureRmSiteRecoveryVaultSettingsFile.md
+        - name: New-AzureRmSiteRecoveryNetworkMapping
+          href: AzureRM.SiteRecovery/New-AzureRmSiteRecoveryNetworkMapping.md
+        - name: New-AzureRmSiteRecoveryPolicy
+          href: AzureRM.SiteRecovery/New-AzureRmSiteRecoveryPolicy.md
+        - name: New-AzureRmSiteRecoveryRecoveryPlan
+          href: AzureRM.SiteRecovery/New-AzureRmSiteRecoveryRecoveryPlan.md
+        - name: New-AzureRmSiteRecoverySite
+          href: AzureRM.SiteRecovery/New-AzureRmSiteRecoverySite.md
+        - name: New-AzureRmSiteRecoveryStorageClassificationMapping
+          href: AzureRM.SiteRecovery/New-AzureRmSiteRecoveryStorageClassificationMapping.md
+        - name: New-AzureRmSiteRecoveryVault
+          href: AzureRM.SiteRecovery/New-AzureRmSiteRecoveryVault.md
+        - name: Remove-AzureRmSiteRecoveryNetworkMapping
+          href: AzureRM.SiteRecovery/Remove-AzureRmSiteRecoveryNetworkMapping.md
+        - name: Remove-AzureRmSiteRecoveryPolicy
+          href: AzureRM.SiteRecovery/Remove-AzureRmSiteRecoveryPolicy.md
+        - name: Remove-AzureRmSiteRecoveryRecoveryPlan
+          href: AzureRM.SiteRecovery/Remove-AzureRmSiteRecoveryRecoveryPlan.md
+        - name: Remove-AzureRmSiteRecoveryServer
+          href: AzureRM.SiteRecovery/Remove-AzureRmSiteRecoveryServer.md
+        - name: Remove-AzureRmSiteRecoverySite
+          href: AzureRM.SiteRecovery/Remove-AzureRmSiteRecoverySite.md
+        - name: Remove-AzureRmSiteRecoveryStorageClassificationMapping
+          href: AzureRM.SiteRecovery/Remove-AzureRmSiteRecoveryStorageClassificationMapping.md
+        - name: Remove-AzureRmSiteRecoveryVault
+          href: AzureRM.SiteRecovery/Remove-AzureRmSiteRecoveryVault.md
+        - name: Restart-AzureRmSiteRecoveryJob
+          href: AzureRM.SiteRecovery/Restart-AzureRmSiteRecoveryJob.md
+        - name: Resume-AzureRmSiteRecoveryJob
+          href: AzureRM.SiteRecovery/Resume-AzureRmSiteRecoveryJob.md
+        - name: Set-AzureRmSiteRecoveryProtectionEntity
+          href: AzureRM.SiteRecovery/Set-AzureRmSiteRecoveryProtectionEntity.md
+        - name: Set-AzureRmSiteRecoveryVaultSettings
+          href: AzureRM.SiteRecovery/Set-AzureRmSiteRecoveryVaultSettings.md
+        - name: Set-AzureRmSiteRecoveryVM
+          href: AzureRM.SiteRecovery/Set-AzureRmSiteRecoveryVM.md
+        - name: Start-AzureRmSiteRecoveryCommitFailoverJob
+          href: AzureRM.SiteRecovery/Start-AzureRmSiteRecoveryCommitFailoverJob.md
+        - name: Start-AzureRmSiteRecoveryPlannedFailoverJob
+          href: AzureRM.SiteRecovery/Start-AzureRmSiteRecoveryPlannedFailoverJob.md
+        - name: Start-AzureRmSiteRecoveryPolicyAssociationJob
+          href: AzureRM.SiteRecovery/Start-AzureRmSiteRecoveryPolicyAssociationJob.md
+        - name: Start-AzureRmSiteRecoveryPolicyDissociationJob
+          href: AzureRM.SiteRecovery/Start-AzureRmSiteRecoveryPolicyDissociationJob.md
+        - name: Start-AzureRmSiteRecoveryTestFailoverJob
+          href: AzureRM.SiteRecovery/Start-AzureRmSiteRecoveryTestFailoverJob.md
+        - name: Start-AzureRmSiteRecoveryUnplannedFailoverJob
+          href: AzureRM.SiteRecovery/Start-AzureRmSiteRecoveryUnplannedFailoverJob.md
+        - name: Stop-AzureRmSiteRecoveryJob
+          href: AzureRM.SiteRecovery/Stop-AzureRmSiteRecoveryJob.md
+        - name: Update-AzureRmSiteRecoveryProtectionDirection
+          href: AzureRM.SiteRecovery/Update-AzureRmSiteRecoveryProtectionDirection.md
+        - name: Update-AzureRmSiteRecoveryRecoveryPlan
+          href: AzureRM.SiteRecovery/Update-AzureRmSiteRecoveryRecoveryPlan.md
+        - name: Update-AzureRmSiteRecoveryServer
+          href: AzureRM.SiteRecovery/Update-AzureRmSiteRecoveryServer.md
     - name: Storage
-      href: 'AzureRM.Compute/index.md#storage'
+      href: 'AzureRM.Storage/index.md#storage'
       items:
-        - name: Set-AzureRmVmssStorageProfile
-          href: AzureRM.Compute/Set-AzureRmVmssStorageProfile.md
         - name: Get-AzureRmStorageAccount
           href: AzureRM.Storage/Get-AzureRmStorageAccount.md
         - name: Get-AzureRmStorageAccountKey
@@ -1727,6 +1894,8 @@
           href: Azure.Storage/Get-AzureStorageBlobCopyState.md
         - name: Get-AzureStorageContainer
           href: Azure.Storage/Get-AzureStorageContainer.md
+        - name: Get-AzureStorageContainerStoredAccessPolicy
+          href: Azure.Storage/Get-AzureStorageContainerStoredAccessPolicy.md
         - name: Get-AzureStorageCORSRule
           href: Azure.Storage/Get-AzureStorageCORSRule.md
         - name: Get-AzureStorageFile
@@ -1737,12 +1906,20 @@
           href: Azure.Storage/Get-AzureStorageFileCopyState.md
         - name: Get-AzureStorageQueue
           href: Azure.Storage/Get-AzureStorageQueue.md
+        - name: Get-AzureStorageQueueStoredAccessPolicy
+          href: Azure.Storage/Get-AzureStorageQueueStoredAccessPolicy.md
         - name: Get-AzureStorageServiceLoggingProperty
           href: Azure.Storage/Get-AzureStorageServiceLoggingProperty.md
+        - name: Get-AzureStorageServiceMetricsProperty
+          href: Azure.Storage/Get-AzureStorageServiceMetricsProperty.md
         - name: Get-AzureStorageShare
           href: Azure.Storage/Get-AzureStorageShare.md
+        - name: Get-AzureStorageShareStoredAccessPolicy
+          href: Azure.Storage/Get-AzureStorageShareStoredAccessPolicy.md
         - name: Get-AzureStorageTable
           href: Azure.Storage/Get-AzureStorageTable.md
+        - name: Get-AzureStorageTableStoredAccessPolicy
+          href: Azure.Storage/Get-AzureStorageTableStoredAccessPolicy.md
         - name: New-AzureStorageAccountSASToken
           href: Azure.Storage/New-AzureStorageAccountSASToken.md
         - name: New-AzureStorageBlobSASToken
@@ -1751,6 +1928,8 @@
           href: Azure.Storage/New-AzureStorageContainer.md
         - name: New-AzureStorageContainerSASToken
           href: Azure.Storage/New-AzureStorageContainerSASToken.md
+        - name: New-AzureStorageContainerStoredAccessPolicy
+          href: Azure.Storage/New-AzureStorageContainerStoredAccessPolicy.md
         - name: New-AzureStorageContext
           href: Azure.Storage/New-AzureStorageContext.md
         - name: New-AzureStorageDirectory
@@ -1761,18 +1940,26 @@
           href: Azure.Storage/New-AzureStorageQueue.md
         - name: New-AzureStorageQueueSASToken
           href: Azure.Storage/New-AzureStorageQueueSASToken.md
+        - name: New-AzureStorageQueueStoredAccessPolicy
+          href: Azure.Storage/New-AzureStorageQueueStoredAccessPolicy.md
         - name: New-AzureStorageShare
           href: Azure.Storage/New-AzureStorageShare.md
         - name: New-AzureStorageShareSASToken
           href: Azure.Storage/New-AzureStorageShareSASToken.md
+        - name: New-AzureStorageShareStoredAccessPolicy
+          href: Azure.Storage/New-AzureStorageShareStoredAccessPolicy.md
         - name: New-AzureStorageTable
           href: Azure.Storage/New-AzureStorageTable.md
         - name: New-AzureStorageTableSASToken
           href: Azure.Storage/New-AzureStorageTableSASToken.md
+        - name: New-AzureStorageTableStoredAccessPolicy
+          href: Azure.Storage/New-AzureStorageTableStoredAccessPolicy.md
         - name: Remove-AzureStorageBlob
           href: Azure.Storage/Remove-AzureStorageBlob.md
         - name: Remove-AzureStorageContainer
           href: Azure.Storage/Remove-AzureStorageContainer.md
+        - name: Remove-AzureStorageContainerStoredAccessPolicy
+          href: Azure.Storage/Remove-AzureStorageContainerStoredAccessPolicy.md
         - name: Remove-AzureStorageCORSRule
           href: Azure.Storage/Remove-AzureStorageCORSRule.md
         - name: Remove-AzureStorageDirectory
@@ -1781,22 +1968,38 @@
           href: Azure.Storage/Remove-AzureStorageFile.md
         - name: Remove-AzureStorageQueue
           href: Azure.Storage/Remove-AzureStorageQueue.md
+        - name: Remove-AzureStorageQueueStoredAccessPolicy
+          href: Azure.Storage/Remove-AzureStorageQueueStoredAccessPolicy.md
         - name: Remove-AzureStorageShare
           href: Azure.Storage/Remove-AzureStorageShare.md
+        - name: Remove-AzureStorageShareStoredAccessPolicy
+          href: Azure.Storage/Remove-AzureStorageShareStoredAccessPolicy.md
         - name: Remove-AzureStorageTable
           href: Azure.Storage/Remove-AzureStorageTable.md
+        - name: Remove-AzureStorageTableStoredAccessPolicy
+          href: Azure.Storage/Remove-AzureStorageTableStoredAccessPolicy.md
         - name: Set-AzureStorageBlobContent
           href: Azure.Storage/Set-AzureStorageBlobContent.md
         - name: Set-AzureStorageContainerAcl
           href: Azure.Storage/Set-AzureStorageContainerAcl.md
+        - name: Set-AzureStorageContainerStoredAccessPolicy
+          href: Azure.Storage/Set-AzureStorageContainerStoredAccessPolicy.md
         - name: Set-AzureStorageCORSRule
           href: Azure.Storage/Set-AzureStorageCORSRule.md
         - name: Set-AzureStorageFileContent
           href: Azure.Storage/Set-AzureStorageFileContent.md
+        - name: Set-AzureStorageQueueStoredAccessPolicy
+          href: Azure.Storage/Set-AzureStorageQueueStoredAccessPolicy.md
         - name: Set-AzureStorageServiceLoggingProperty
           href: Azure.Storage/Set-AzureStorageServiceLoggingProperty.md
+        - name: Set-AzureStorageServiceMetricsProperty
+          href: Azure.Storage/Set-AzureStorageServiceMetricsProperty.md
         - name: Set-AzureStorageShareQuota
           href: Azure.Storage/Set-AzureStorageShareQuota.md
+        - name: Set-AzureStorageShareStoredAccessPolicy
+          href: Azure.Storage/Set-AzureStorageShareStoredAccessPolicy.md
+        - name: Set-AzureStorageTableStoredAccessPolicy
+          href: Azure.Storage/Set-AzureStorageTableStoredAccessPolicy.md
         - name: Start-AzureStorageBlobCopy
           href: Azure.Storage/Start-AzureStorageBlobCopy.md
         - name: Start-AzureStorageFileCopy
@@ -1850,31 +2053,15 @@
           href: AzureRM.StreamAnalytics/Test-AzureRmStreamAnalyticsInput.md
         - name: Test-AzureRmStreamAnalyticsOutput
           href: AzureRM.StreamAnalytics/Test-AzureRmStreamAnalyticsOutput.md
-    - name: Subscriptions
-      href: 'AzureRM.Profile/index.md#subscriptions'
+    - name: Tags
+      href: 'AzureRM.Tags/index.md#tags'
       items:
-        - name: Add-AzureRmAccount
-          href: AzureRM.Profile/Add-AzureRmAccount.md
-        - name: Add-AzureRmEnvironment
-          href: AzureRM.Profile/Add-AzureRmEnvironment.md
-        - name: Get-AzureRmContext
-          href: AzureRM.Profile/Get-AzureRmContext.md
-        - name: Get-AzureRmEnvironment
-          href: AzureRM.Profile/Get-AzureRmEnvironment.md
-        - name: Get-AzureRmSubscription
-          href: AzureRM.Profile/Get-AzureRmSubscription.md
-        - name: Get-AzureRmTenant
-          href: AzureRM.Profile/Get-AzureRmTenant.md
-        - name: Remove-AzureRmEnvironment
-          href: AzureRM.Profile/Remove-AzureRmEnvironment.md
-        - name: Save-AzureRmProfile
-          href: AzureRM.Profile/Save-AzureRmProfile.md
-        - name: Select-AzureRmProfile
-          href: AzureRM.Profile/Select-AzureRmProfile.md
-        - name: Set-AzureRmContext
-          href: AzureRM.Profile/Set-AzureRmContext.md
-        - name: Set-AzureRmEnvironment
-          href: AzureRM.Profile/Set-AzureRmEnvironment.md
+        - name: Get-AzureRmTag
+          href: AzureRM.Tags/Get-AzureRmTag.md
+        - name: New-AzureRmTag
+          href: AzureRM.Tags/New-AzureRmTag.md
+        - name: Remove-AzureRmTag
+          href: AzureRM.Tags/Remove-AzureRmTag.md
     - name: Traffic Manager
       href: 'AzureRM.TrafficManager/index.md#traffic_manager'
       items:
@@ -1911,103 +2098,93 @@
       items:
         - name: Add-AzureRmVMAdditionalUnattendContent
           href: AzureRM.Compute/Add-AzureRmVMAdditionalUnattendContent.md
+        - name: Add-AzureRmVMDataDisk
+          href: AzureRM.Compute/Add-AzureRmVMDataDisk.md
+        - name: Add-AzureRmVMNetworkInterface
+          href: AzureRM.Compute/Add-AzureRmVMNetworkInterface.md
         - name: Add-AzureRmVMSecret
           href: AzureRM.Compute/Add-AzureRmVMSecret.md
         - name: Add-AzureRmVMSshPublicKey
           href: AzureRM.Compute/Add-AzureRmVMSshPublicKey.md
+        - name: Disable-AzureRmVMDiskEncryption
+          href: AzureRM.Compute/Disable-AzureRmVMDiskEncryption.md
+        - name: Get-AzureRmAvailabilitySet
+          href: AzureRM.Compute/Get-AzureRmAvailabilitySet.md
         - name: Get-AzureRmRemoteDesktopFile
           href: AzureRM.Compute/Get-AzureRmRemoteDesktopFile.md
         - name: Get-AzureRmVM
           href: AzureRM.Compute/Get-AzureRmVM.md
-        - name: Get-AzureRmVMAccessExtension
-          href: AzureRM.Compute/Get-AzureRmVMAccessExtension.md
-        - name: Get-AzureRmVMAEMExtension
-          href: AzureRM.Compute/Get-AzureRmVMAEMExtension.md
-        - name: Get-AzureRmVMCustomScriptExtension
-          href: AzureRM.Compute/Get-AzureRmVMCustomScriptExtension.md
-        - name: Get-AzureRmVMDscExtension
-          href: AzureRM.Compute/Get-AzureRmVMDscExtension.md
-        - name: Get-AzureRmVMDscExtensionStatus
-          href: AzureRM.Compute/Get-AzureRmVMDscExtensionStatus.md
-        - name: Get-AzureRmVMExtension
-          href: AzureRM.Compute/Get-AzureRmVMExtension.md
+        - name: Get-AzureRmVMBootDiagnosticsData
+          href: AzureRM.Compute/Get-AzureRmVMBootDiagnosticsData.md
+        - name: Get-AzureRmVMDiskEncryptionStatus
+          href: AzureRM.Compute/Get-AzureRmVMDiskEncryptionStatus.md
+        - name: Get-AzureRmVMImage
+          href: AzureRM.Compute/Get-AzureRmVMImage.md
+        - name: Get-AzureRmVMImageOffer
+          href: AzureRM.Compute/Get-AzureRmVMImageOffer.md
+        - name: Get-AzureRmVMImagePublisher
+          href: AzureRM.Compute/Get-AzureRmVMImagePublisher.md
+        - name: Get-AzureRmVMImageSku
+          href: AzureRM.Compute/Get-AzureRmVMImageSku.md
         - name: Get-AzureRmVMSize
           href: AzureRM.Compute/Get-AzureRmVMSize.md
-        - name: Get-AzureRmVmssVM
-          href: AzureRM.Compute/Get-AzureRmVmssVM.md
         - name: Get-AzureRmVMUsage
           href: AzureRM.Compute/Get-AzureRmVMUsage.md
+        - name: New-AzureRmAvailabilitySet
+          href: AzureRM.Compute/New-AzureRmAvailabilitySet.md
         - name: New-AzureRmVM
           href: AzureRM.Compute/New-AzureRmVM.md
         - name: New-AzureRmVMConfig
           href: AzureRM.Compute/New-AzureRmVMConfig.md
+        - name: New-AzureVMSqlServerAutoBackupConfig
+          href: AzureRM.Compute/New-AzureVMSqlServerAutoBackupConfig.md
+        - name: New-AzureVMSqlServerAutoPatchingConfig
+          href: AzureRM.Compute/New-AzureVMSqlServerAutoPatchingConfig.md
+        - name: New-AzureVMSqlServerKeyVaultCredentialConfig
+          href: AzureRM.Compute/New-AzureVMSqlServerKeyVaultCredentialConfig.md
         - name: Publish-AzureRmVMDscConfiguration
           href: AzureRM.Compute/Publish-AzureRmVMDscConfiguration.md
+        - name: Remove-AzureRmAvailabilitySet
+          href: AzureRM.Compute/Remove-AzureRmAvailabilitySet.md
         - name: Remove-AzureRmVM
           href: AzureRM.Compute/Remove-AzureRmVM.md
-        - name: Remove-AzureRmVMAccessExtension
-          href: AzureRM.Compute/Remove-AzureRmVMAccessExtension.md
-        - name: Remove-AzureRmVMAEMExtension
-          href: AzureRM.Compute/Remove-AzureRmVMAEMExtension.md
-        - name: Remove-AzureRmVMCustomScriptExtension
-          href: AzureRM.Compute/Remove-AzureRmVMCustomScriptExtension.md
-        - name: Remove-AzureRmVMDscExtension
-          href: AzureRM.Compute/Remove-AzureRmVMDscExtension.md
-        - name: Remove-AzureRmVMExtension
-          href: AzureRM.Compute/Remove-AzureRmVMExtension.md
+        - name: Remove-AzureRmVMBackup
+          href: AzureRM.Compute/Remove-AzureRmVMBackup.md
+        - name: Remove-AzureRmVMDataDisk
+          href: AzureRM.Compute/Remove-AzureRmVMDataDisk.md
+        - name: Remove-AzureRmVMNetworkInterface
+          href: AzureRM.Compute/Remove-AzureRmVMNetworkInterface.md
         - name: Restart-AzureRmVM
           href: AzureRM.Compute/Restart-AzureRmVM.md
+        - name: Save-AzureRmVMImage
+          href: AzureRM.Compute/Save-AzureRmVMImage.md
         - name: Set-AzureRmVM
           href: AzureRM.Compute/Set-AzureRmVM.md
-        - name: Set-AzureRmVMAccessExtension
-          href: AzureRM.Compute/Set-AzureRmVMAccessExtension.md
-        - name: Set-AzureRmVMAEMExtension
-          href: AzureRM.Compute/Set-AzureRmVMAEMExtension.md
-        - name: Set-AzureRmVMBginfoExtension
-          href: AzureRM.Compute/Set-AzureRmVMBginfoExtension.md
-        - name: Set-AzureRmVMCustomScriptExtension
-          href: AzureRM.Compute/Set-AzureRmVMCustomScriptExtension.md
-        - name: Set-AzureRmVMDscExtension
-          href: AzureRM.Compute/Set-AzureRmVMDscExtension.md
-        - name: Set-AzureRmVMExtension
-          href: AzureRM.Compute/Set-AzureRmVMExtension.md
+        - name: Set-AzureRmVMBootDiagnostics
+          href: AzureRM.Compute/Set-AzureRmVMBootDiagnostics.md
+        - name: Set-AzureRMVMDataDisk
+          href: AzureRM.Compute/Set-AzureRMVMDataDisk.md
         - name: Set-AzureRmVMOperatingSystem
           href: AzureRM.Compute/Set-AzureRmVMOperatingSystem.md
+        - name: Set-AzureRmVMOSDisk
+          href: AzureRM.Compute/Set-AzureRmVMOSDisk.md
         - name: Set-AzureRmVMPlan
           href: AzureRM.Compute/Set-AzureRmVMPlan.md
-        - name: Set-AzureRmVmssVM
-          href: AzureRM.Compute/Set-AzureRmVmssVM.md
+        - name: Set-AzureRmVMSourceImage
+          href: AzureRM.Compute/Set-AzureRmVMSourceImage.md
         - name: Start-AzureRmVM
           href: AzureRM.Compute/Start-AzureRmVM.md
         - name: Stop-AzureRmVM
           href: AzureRM.Compute/Stop-AzureRmVM.md
-        - name: Test-AzureRmVMAEMExtension
-          href: AzureRM.Compute/Test-AzureRmVMAEMExtension.md
         - name: Update-AzureRmVM
           href: AzureRM.Compute/Update-AzureRmVM.md
     - name: Virtual Network
       href: 'AzureRM.Network/index.md#virtual_network'
       items:
-        - name: Add-AzureRmNetworkInterfaceIpConfig
-          href: AzureRM.Network/Add-AzureRmNetworkInterfaceIpConfig.md
-        - name: Add-AzureRmNetworkSecurityRuleConfig
-          href: AzureRM.Network/Add-AzureRmNetworkSecurityRuleConfig.md
         - name: Add-AzureRmVirtualNetworkPeering
           href: AzureRM.Network/Add-AzureRmVirtualNetworkPeering.md
         - name: Add-AzureRmVirtualNetworkSubnetConfig
           href: AzureRM.Network/Add-AzureRmVirtualNetworkSubnetConfig.md
-        - name: Get-AzureRmLocalNetworkGateway
-          href: AzureRM.Network/Get-AzureRmLocalNetworkGateway.md
-        - name: Get-AzureRmNetworkInterface
-          href: AzureRM.Network/Get-AzureRmNetworkInterface.md
-        - name: Get-AzureRmNetworkInterfaceIpConfig
-          href: AzureRM.Network/Get-AzureRmNetworkInterfaceIpConfig.md
-        - name: Get-AzureRmNetworkSecurityGroup
-          href: AzureRM.Network/Get-AzureRmNetworkSecurityGroup.md
-        - name: Get-AzureRmNetworkSecurityRuleConfig
-          href: AzureRM.Network/Get-AzureRmNetworkSecurityRuleConfig.md
-        - name: Get-AzureRmPublicIpAddress
-          href: AzureRM.Network/Get-AzureRmPublicIpAddress.md
         - name: Get-AzureRmVirtualNetwork
           href: AzureRM.Network/Get-AzureRmVirtualNetwork.md
         - name: Get-AzureRmVirtualNetworkGateway
@@ -2020,18 +2197,6 @@
           href: AzureRM.Network/Get-AzureRmVirtualNetworkPeering.md
         - name: Get-AzureRmVirtualNetworkSubnetConfig
           href: AzureRM.Network/Get-AzureRmVirtualNetworkSubnetConfig.md
-        - name: New-AzureRmLocalNetworkGateway
-          href: AzureRM.Network/New-AzureRmLocalNetworkGateway.md
-        - name: New-AzureRmNetworkInterface
-          href: AzureRM.Network/New-AzureRmNetworkInterface.md
-        - name: New-AzureRmNetworkInterfaceIpConfig
-          href: AzureRM.Network/New-AzureRmNetworkInterfaceIpConfig.md
-        - name: New-AzureRmNetworkSecurityGroup
-          href: AzureRM.Network/New-AzureRmNetworkSecurityGroup.md
-        - name: New-AzureRmNetworkSecurityRuleConfig
-          href: AzureRM.Network/New-AzureRmNetworkSecurityRuleConfig.md
-        - name: New-AzureRmPublicIpAddress
-          href: AzureRM.Network/New-AzureRmPublicIpAddress.md
         - name: New-AzureRmVirtualNetwork
           href: AzureRM.Network/New-AzureRmVirtualNetwork.md
         - name: New-AzureRmVirtualNetworkGateway
@@ -2042,18 +2207,6 @@
           href: AzureRM.Network/New-AzureRmVirtualNetworkGatewayIpConfig.md
         - name: New-AzureRmVirtualNetworkSubnetConfig
           href: AzureRM.Network/New-AzureRmVirtualNetworkSubnetConfig.md
-        - name: Remove-AzureRmLocalNetworkGateway
-          href: AzureRM.Network/Remove-AzureRmLocalNetworkGateway.md
-        - name: Remove-AzureRmNetworkInterface
-          href: AzureRM.Network/Remove-AzureRmNetworkInterface.md
-        - name: Remove-AzureRmNetworkInterfaceIpConfig
-          href: AzureRM.Network/Remove-AzureRmNetworkInterfaceIpConfig.md
-        - name: Remove-AzureRmNetworkSecurityGroup
-          href: AzureRM.Network/Remove-AzureRmNetworkSecurityGroup.md
-        - name: Remove-AzureRmNetworkSecurityRuleConfig
-          href: AzureRM.Network/Remove-AzureRmNetworkSecurityRuleConfig.md
-        - name: Remove-AzureRmPublicIpAddress
-          href: AzureRM.Network/Remove-AzureRmPublicIpAddress.md
         - name: Remove-AzureRmVirtualNetwork
           href: AzureRM.Network/Remove-AzureRmVirtualNetwork.md
         - name: Remove-AzureRmVirtualNetworkGateway
@@ -2072,18 +2225,6 @@
           href: AzureRM.Network/Reset-AzureRmVirtualNetworkGatewayConnectionSharedKey.md
         - name: Resize-AzureRmVirtualNetworkGateway
           href: AzureRM.Network/Resize-AzureRmVirtualNetworkGateway.md
-        - name: Set-AzureRmLocalNetworkGateway
-          href: AzureRM.Network/Set-AzureRmLocalNetworkGateway.md
-        - name: Set-AzureRmNetworkInterface
-          href: AzureRM.Network/Set-AzureRmNetworkInterface.md
-        - name: Set-AzureRmNetworkInterfaceIpConfig
-          href: AzureRM.Network/Set-AzureRmNetworkInterfaceIpConfig.md
-        - name: Set-AzureRmNetworkSecurityGroup
-          href: AzureRM.Network/Set-AzureRmNetworkSecurityGroup.md
-        - name: Set-AzureRmNetworkSecurityRuleConfig
-          href: AzureRM.Network/Set-AzureRmNetworkSecurityRuleConfig.md
-        - name: Set-AzureRmPublicIpAddress
-          href: AzureRM.Network/Set-AzureRmPublicIpAddress.md
         - name: Set-AzureRmVirtualNetwork
           href: AzureRM.Network/Set-AzureRmVirtualNetwork.md
         - name: Set-AzureRmVirtualNetworkGateway
@@ -2094,58 +2235,75 @@
           href: AzureRM.Network/Set-AzureRmVirtualNetworkGatewayConnectionSharedKey.md
         - name: Set-AzureRmVirtualNetworkGatewayDefaultSite
           href: AzureRM.Network/Set-AzureRmVirtualNetworkGatewayDefaultSite.md
-        - name: Set-AzureRmVirtualNetworkGatewayVpnClientConfig
-          href: AzureRM.Network/Set-AzureRmVirtualNetworkGatewayVpnClientConfig.md
         - name: Set-AzureRmVirtualNetworkPeering
           href: AzureRM.Network/Set-AzureRmVirtualNetworkPeering.md
         - name: Set-AzureRmVirtualNetworkSubnetConfig
           href: AzureRM.Network/Set-AzureRmVirtualNetworkSubnetConfig.md
-        - name: Add-AzureRmVMNetworkInterface
-          href: AzureRM.Compute/Add-AzureRmVMNetworkInterface.md
-        - name: Add-AzureRmVmssNetworkInterfaceConfiguration
-          href: AzureRM.Compute/Add-AzureRmVmssNetworkInterfaceConfiguration.md
-        - name: Remove-AzureRmVMNetworkInterface
-          href: AzureRM.Compute/Remove-AzureRmVMNetworkInterface.md
-        - name: Remove-AzureRmVmssNetworkInterfaceConfiguration
-          href: AzureRM.Compute/Remove-AzureRmVmssNetworkInterfaceConfiguration.md
-    - name: VM Disks
-      href: 'AzureRM.Compute/index.md#vm_disks'
+    - name: VM Extensions
+      href: 'AzureRM.Compute/index.md#vm_extensions'
       items:
-        - name: Add-AzureRmVMDataDisk
-          href: AzureRM.Compute/Add-AzureRmVMDataDisk.md
-        - name: Disable-AzureRmVMDiskEncryption
-          href: AzureRM.Compute/Disable-AzureRmVMDiskEncryption.md
-        - name: Get-AzureRmVMDiskEncryptionStatus
-          href: AzureRM.Compute/Get-AzureRmVMDiskEncryptionStatus.md
-        - name: Remove-AzureRmVMDataDisk
-          href: AzureRM.Compute/Remove-AzureRmVMDataDisk.md
-        - name: Remove-AzureRmVMDiskEncryptionExtension
-          href: AzureRM.Compute/Remove-AzureRmVMDiskEncryptionExtension.md
-        - name: Set-AzureRMVMDataDisk
-          href: AzureRM.Compute/Set-AzureRMVMDataDisk.md
-        - name: Set-AzureRmVMDiskEncryptionExtension
-          href: AzureRM.Compute/Set-AzureRmVMDiskEncryptionExtension.md
-        - name: Set-AzureRmVMOSDisk
-          href: AzureRM.Compute/Set-AzureRmVMOSDisk.md
-    - name: VM Images
-      href: 'AzureRM.Compute/index.md#vm_images'
-      items:
+        - name: Get-AzureRmVMAccessExtension
+          href: AzureRM.Compute/Get-AzureRmVMAccessExtension.md
+        - name: Get-AzureRmVMADDomainExtension
+          href: AzureRM.Compute/Get-AzureRmVMADDomainExtension.md
+        - name: Get-AzureRmVMAEMExtension
+          href: AzureRM.Compute/Get-AzureRmVMAEMExtension.md
+        - name: Get-AzureRmVMCustomScriptExtension
+          href: AzureRM.Compute/Get-AzureRmVMCustomScriptExtension.md
+        - name: Get-AzureRMVMDiagnosticsExtension
+          href: AzureRM.Compute/Get-AzureRMVMDiagnosticsExtension.md
+        - name: Get-AzureRmVMDscExtension
+          href: AzureRM.Compute/Get-AzureRmVMDscExtension.md
+        - name: Get-AzureRmVMDscExtensionStatus
+          href: AzureRM.Compute/Get-AzureRmVMDscExtensionStatus.md
+        - name: Get-AzureRmVMExtension
+          href: AzureRM.Compute/Get-AzureRmVMExtension.md
         - name: Get-AzureRmVMExtensionImage
           href: AzureRM.Compute/Get-AzureRmVMExtensionImage.md
         - name: Get-AzureRmVMExtensionImageType
           href: AzureRM.Compute/Get-AzureRmVMExtensionImageType.md
-        - name: Get-AzureRmVMImage
-          href: AzureRM.Compute/Get-AzureRmVMImage.md
-        - name: Get-AzureRmVMImageOffer
-          href: AzureRM.Compute/Get-AzureRmVMImageOffer.md
-        - name: Get-AzureRmVMImagePublisher
-          href: AzureRM.Compute/Get-AzureRmVMImagePublisher.md
-        - name: Get-AzureRmVMImageSku
-          href: AzureRM.Compute/Get-AzureRmVMImageSku.md
-        - name: Save-AzureRmVMImage
-          href: AzureRM.Compute/Save-AzureRmVMImage.md
-        - name: Set-AzureRmVMSourceImage
-          href: AzureRM.Compute/Set-AzureRmVMSourceImage.md
+        - name: Get-AzureRMVMSqlServerExtension
+          href: AzureRM.Compute/Get-AzureRMVMSqlServerExtension.md
+        - name: Remove-AzureRmVMAccessExtension
+          href: AzureRM.Compute/Remove-AzureRmVMAccessExtension.md
+        - name: Remove-AzureRmVMAEMExtension
+          href: AzureRM.Compute/Remove-AzureRmVMAEMExtension.md
+        - name: Remove-AzureRmVMCustomScriptExtension
+          href: AzureRM.Compute/Remove-AzureRmVMCustomScriptExtension.md
+        - name: Remove-AzureRmVMDiagnosticsExtension
+          href: AzureRM.Compute/Remove-AzureRmVMDiagnosticsExtension.md
+        - name: Remove-AzureRmVMDiskEncryptionExtension
+          href: AzureRM.Compute/Remove-AzureRmVMDiskEncryptionExtension.md
+        - name: Remove-AzureRmVMDscExtension
+          href: AzureRM.Compute/Remove-AzureRmVMDscExtension.md
+        - name: Remove-AzureRmVMExtension
+          href: AzureRM.Compute/Remove-AzureRmVMExtension.md
+        - name: Remove-AzureRMVMSqlServerExtension
+          href: AzureRM.Compute/Remove-AzureRMVMSqlServerExtension.md
+        - name: Set-AzureRmVMAccessExtension
+          href: AzureRM.Compute/Set-AzureRmVMAccessExtension.md
+        - name: Set-AzureRmVMADDomainExtension
+          href: AzureRM.Compute/Set-AzureRmVMADDomainExtension.md
+        - name: Set-AzureRmVMAEMExtension
+          href: AzureRM.Compute/Set-AzureRmVMAEMExtension.md
+        - name: Set-AzureRmVMBackupExtension
+          href: AzureRM.Compute/Set-AzureRmVMBackupExtension.md
+        - name: Set-AzureRmVMBginfoExtension
+          href: AzureRM.Compute/Set-AzureRmVMBginfoExtension.md
+        - name: Set-AzureRmVMCustomScriptExtension
+          href: AzureRM.Compute/Set-AzureRmVMCustomScriptExtension.md
+        - name: Set-AzureRMVMDiagnosticsExtension
+          href: AzureRM.Compute/Set-AzureRMVMDiagnosticsExtension.md
+        - name: Set-AzureRmVMDiskEncryptionExtension
+          href: AzureRM.Compute/Set-AzureRmVMDiskEncryptionExtension.md
+        - name: Set-AzureRmVMDscExtension
+          href: AzureRM.Compute/Set-AzureRmVMDscExtension.md
+        - name: Set-AzureRmVMExtension
+          href: AzureRM.Compute/Set-AzureRmVMExtension.md
+        - name: Set-AzureRMVMSqlServerExtension
+          href: AzureRM.Compute/Set-AzureRMVMSqlServerExtension.md
+        - name: Test-AzureRmVMAEMExtension
+          href: AzureRM.Compute/Test-AzureRmVMAEMExtension.md
     - name: VM Scale Sets
       href: 'AzureRM.Compute/index.md#vm_scale_sets'
       items:
@@ -2153,6 +2311,8 @@
           href: AzureRM.Compute/Add-AzureRmVmssAdditionalUnattendContent.md
         - name: Add-AzureRmVmssExtension
           href: AzureRM.Compute/Add-AzureRmVmssExtension.md
+        - name: Add-AzureRmVmssNetworkInterfaceConfiguration
+          href: AzureRM.Compute/Add-AzureRmVmssNetworkInterfaceConfiguration.md
         - name: Add-AzureRmVmssSecret
           href: AzureRM.Compute/Add-AzureRmVmssSecret.md
         - name: Add-AzureRmVmssSshPublicKey
@@ -2163,6 +2323,8 @@
           href: AzureRM.Compute/Get-AzureRmVmss.md
         - name: Get-AzureRmVmssSku
           href: AzureRM.Compute/Get-AzureRmVmssSku.md
+        - name: Get-AzureRmVmssVM
+          href: AzureRM.Compute/Get-AzureRmVmssVM.md
         - name: New-AzureRmVmss
           href: AzureRM.Compute/New-AzureRmVmss.md
         - name: New-AzureRmVmssConfig
@@ -2175,12 +2337,18 @@
           href: AzureRM.Compute/Remove-AzureRmVmss.md
         - name: Remove-AzureRmVmssExtension
           href: AzureRM.Compute/Remove-AzureRmVmssExtension.md
+        - name: Remove-AzureRmVmssNetworkInterfaceConfiguration
+          href: AzureRM.Compute/Remove-AzureRmVmssNetworkInterfaceConfiguration.md
         - name: Restart-AzureRmVmss
           href: AzureRM.Compute/Restart-AzureRmVmss.md
         - name: Set-AzureRmVmss
           href: AzureRM.Compute/Set-AzureRmVmss.md
         - name: Set-AzureRmVmssOsProfile
           href: AzureRM.Compute/Set-AzureRmVmssOsProfile.md
+        - name: Set-AzureRmVmssStorageProfile
+          href: AzureRM.Compute/Set-AzureRmVmssStorageProfile.md
+        - name: Set-AzureRmVmssVM
+          href: AzureRM.Compute/Set-AzureRmVmssVM.md
         - name: Start-AzureRmVmss
           href: AzureRM.Compute/Start-AzureRmVmss.md
         - name: Stop-AzureRmVmss
@@ -2217,3 +2385,5 @@
           href: AzureRM.Network/Remove-AzureRmVpnClientRevokedCertificate.md
         - name: Remove-AzureRmVpnClientRootCertificate
           href: AzureRM.Network/Remove-AzureRmVpnClientRootCertificate.md
+        - name: Set-AzureRmVirtualNetworkGatewayVpnClientConfig
+          href: AzureRM.Network/Set-AzureRmVirtualNetworkGatewayVpnClientConfig.md

@@ -2,11 +2,11 @@
 external help file: Microsoft.AzureStack.Commands.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 04/20/2017 23:04 PM
-ms.date: 04/20/2017
+updated_at: 05/02/2017 19:05 PM
+ms.date: 05/02/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/Remove-AzureRMTenantSubscription.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/Remove-AzureRMTenantSubscription.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d4f2539c40b2f09416fa3e1d384a0a1f0183fb5e
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/64ea21b6f9d300bac04d2df45c463f94a5e389b4
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -19,8 +19,7 @@ ms.service: azure-stack
 # Remove-AzureRMTenantSubscription
 
 ## SYNOPSIS
-The Remove-AzureRMTenantSubscription cmdlet removes the current logged in user's specified subscription.
-There should not be any resources under the subscription to be removed
+Removes the current logged-in user's tenant subscription.
 
 ## SYNTAX
 
@@ -30,26 +29,21 @@ Remove-AzureRMTenantSubscription -TargetSubscriptionId <Guid> [-InformationActio
 ```
 
 ## DESCRIPTION
+The **Remove-AzureRMTenantSubscription** cmdlet removes the current logged-in user's tenant subscription. For successful removal, there must not be any resources under the subscription.
 
 ## EXAMPLES
 
-### Example 1:
+### Example 1: Remove the tenant subscription of the current logged-in user
 ```
 Remove-AzureRMTenantSubscription -TargetSubscriptionId $TenantSubscriptionId
 ```
 
-Description
-
------------
-
-The example removes the specified tenant subscription id.
+This example removes the logged-in user's tenant subscription that is specified by the ID that is stored in the $TenantSubscriptionId variable.
 
 ## PARAMETERS
 
 ### -InformationAction
-Not Specified
-
-The following values are permitted for this object type.
+Specifies how this cmdlet responds to an information event.
 
 ```yaml
 Type: ActionPreference
@@ -65,7 +59,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-Not Specified
+Specifies a variable that is used for storing an informational message.
 
 ```yaml
 Type: String
@@ -80,7 +74,7 @@ Accept wildcard characters: False
 ```
 
 ### -PipelineVariable
-Not Specified
+Specifies a variable that stores the value of the current pipeline element.
 
 ```yaml
 Type: String
@@ -95,12 +89,12 @@ Accept wildcard characters: False
 ```
 
 ### -TargetSubscriptionId
-The current logged in user's Subscription Id to be removed
+Specifies the ID of the current logged-in user's subscription that is to be removed.
 
 ```yaml
 Type: Guid
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -114,6 +108,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## INPUTS
 
+### None
+
 ## OUTPUTS
 
 ### Microsoft.Azure.AzureOperationResponse
@@ -121,4 +117,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-

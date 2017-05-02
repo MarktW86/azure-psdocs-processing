@@ -3,11 +3,11 @@ Module Name: AzureRM.OperationalInsights
 Module Guid: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
 Locale: en-US
 ms.assetid: 578BD1DC-DC86-44A0-A38A-599B9C9F98B0
-updated_at: 04/07/2017 09:04 AM
-ms.date: 04/07/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.OperationalInsights/v2.8.0/AzureRM.OperationalInsights.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.OperationalInsights/v2.8.0/AzureRM.OperationalInsights.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/195dcb690a30a5f2c0ecd5606483862547ef544a
+content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/OperationalInsights/Commands.OperationalInsights/help/AzureRM.OperationalInsights.md
+original_content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/OperationalInsights/Commands.OperationalInsights/help/AzureRM.OperationalInsights.md
+gitcommit: https://github.com/Azure/azure-powershell/blob/94e42834e29c78cafba9e3f1e99e14af92561036
+updated_at: 04/28/2017 07:04 AM
+ms.date: 04/28/2017
 ms.topic: conceptual
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -15,45 +15,45 @@ keywords: powershell, cmdlet
 manager: erickson-doug
 open_to_public_contributors: true
 ms.service: operational-insights
-Disable-AzureRmOperationalInsightsIISLogCollection: Operational Insights
-Disable-AzureRmOperationalInsightsLinuxCustomLogCollection: Operational Insights
-Disable-AzureRmOperationalInsightsLinuxPerformanceCollection: Operational Insights
-Disable-AzureRmOperationalInsightsLinuxSyslogCollection: Operational Insights
-Enable-AzureRmOperationalInsightsIISLogCollection: Operational Insights
-Enable-AzureRmOperationalInsightsLinuxCustomLogCollection: Operational Insights
-Enable-AzureRmOperationalInsightsLinuxPerformanceCollection: Operational Insights
-Enable-AzureRmOperationalInsightsLinuxSyslogCollection: Operational Insights
-Get-AzureRmOperationalInsightsDataSource: Operational Insights
-Get-AzureRmOperationalInsightsIntelligencePacks: Operational Insights
-Get-AzureRmOperationalInsightsLinkTargets: Operational Insights
-Get-AzureRmOperationalInsightsSavedSearch: Operational Insights
-Get-AzureRmOperationalInsightsSavedSearchResults: Operational Insights
-Get-AzureRmOperationalInsightsSchema: Operational Insights
-Get-AzureRmOperationalInsightsSearchResults: Operational Insights
-Get-AzureRmOperationalInsightsStorageInsight: Operational Insights
-Get-AzureRmOperationalInsightsWorkspace: Operational Insights
-Get-AzureRmOperationalInsightsWorkspaceManagementGroups: Operational Insights
-Get-AzureRmOperationalInsightsWorkspaceSharedKeys: Operational Insights
-Get-AzureRmOperationalInsightsWorkspaceUsage: Operational Insights
-New-AzureRmOperationalInsightsAzureActivityLogDataSource: Operational Insights
-New-AzureRmOperationalInsightsComputerGroup: Operational Insights
-New-AzureRmOperationalInsightsCustomLogDataSource: Operational Insights
-New-AzureRmOperationalInsightsLinuxPerformanceObjectDataSource: Operational Insights
-New-AzureRmOperationalInsightsLinuxSyslogDataSource: Operational Insights
-New-AzureRmOperationalInsightsSavedSearch: Operational Insights
-New-AzureRmOperationalInsightsStorageInsight: Operational Insights
-New-AzureRmOperationalInsightsWindowsEventDataSource: Operational Insights
-New-AzureRmOperationalInsightsWindowsPerformanceCounterDataSource: Operational Insights
-New-AzureRmOperationalInsightsWorkspace: Operational Insights
-Remove-AzureRmOperationalInsightsDataSource: Operational Insights
-Remove-AzureRmOperationalInsightsSavedSearch: Operational Insights
-Remove-AzureRmOperationalInsightsStorageInsight: Operational Insights
-Remove-AzureRmOperationalInsightsWorkspace: Operational Insights
-Set-AzureRmOperationalInsightsDataSource: Operational Insights
-Set-AzureRmOperationalInsightsIntelligencePack: Operational Insights
-Set-AzureRmOperationalInsightsSavedSearch: Operational Insights
-Set-AzureRmOperationalInsightsStorageInsight: Operational Insights
-Set-AzureRmOperationalInsightsWorkspace: Operational Insights
+Disable-AzureRmOperationalInsightsIISLogCollection: Monitor
+Disable-AzureRmOperationalInsightsLinuxCustomLogCollection: Monitor
+Disable-AzureRmOperationalInsightsLinuxPerformanceCollection: Monitor
+Disable-AzureRmOperationalInsightsLinuxSyslogCollection: Monitor
+Enable-AzureRmOperationalInsightsIISLogCollection: Monitor
+Enable-AzureRmOperationalInsightsLinuxCustomLogCollection: Monitor
+Enable-AzureRmOperationalInsightsLinuxPerformanceCollection: Monitor
+Enable-AzureRmOperationalInsightsLinuxSyslogCollection: Monitor
+Get-AzureRmOperationalInsightsDataSource: Monitor
+Get-AzureRmOperationalInsightsIntelligencePacks: Monitor
+Get-AzureRmOperationalInsightsLinkTargets: Monitor
+Get-AzureRmOperationalInsightsSavedSearch: Monitor
+Get-AzureRmOperationalInsightsSavedSearchResults: Monitor
+Get-AzureRmOperationalInsightsSchema: Monitor
+Get-AzureRmOperationalInsightsSearchResults: Monitor
+Get-AzureRmOperationalInsightsStorageInsight: Monitor
+Get-AzureRmOperationalInsightsWorkspace: Monitor
+Get-AzureRmOperationalInsightsWorkspaceManagementGroups: Monitor
+Get-AzureRmOperationalInsightsWorkspaceSharedKeys: Monitor
+Get-AzureRmOperationalInsightsWorkspaceUsage: Monitor
+New-AzureRmOperationalInsightsAzureActivityLogDataSource: Monitor
+New-AzureRmOperationalInsightsComputerGroup: Monitor
+New-AzureRmOperationalInsightsCustomLogDataSource: Monitor
+New-AzureRmOperationalInsightsLinuxPerformanceObjectDataSource: Monitor
+New-AzureRmOperationalInsightsLinuxSyslogDataSource: Monitor
+New-AzureRmOperationalInsightsSavedSearch: Monitor
+New-AzureRmOperationalInsightsStorageInsight: Monitor
+New-AzureRmOperationalInsightsWindowsEventDataSource: Monitor
+New-AzureRmOperationalInsightsWindowsPerformanceCounterDataSource: Monitor
+New-AzureRmOperationalInsightsWorkspace: Monitor
+Remove-AzureRmOperationalInsightsDataSource: Monitor
+Remove-AzureRmOperationalInsightsSavedSearch: Monitor
+Remove-AzureRmOperationalInsightsStorageInsight: Monitor
+Remove-AzureRmOperationalInsightsWorkspace: Monitor
+Set-AzureRmOperationalInsightsDataSource: Monitor
+Set-AzureRmOperationalInsightsIntelligencePack: Monitor
+Set-AzureRmOperationalInsightsSavedSearch: Monitor
+Set-AzureRmOperationalInsightsStorageInsight: Monitor
+Set-AzureRmOperationalInsightsWorkspace: Monitor
 _isModulePage: true
 ---
 

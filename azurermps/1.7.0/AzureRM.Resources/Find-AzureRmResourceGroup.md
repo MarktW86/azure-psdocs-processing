@@ -2,12 +2,11 @@
 external help file: Microsoft.Azure.Commands.ResourceManager.Cmdlets.dll-Help.xml
 online version:
 schema: 2.0.0
-ms.assetid: 7827EDC2-87D5-4885-B853-CB48B5847A16
-updated_at: 11/01/2016 22:11 PM
-ms.date: 11/01/2016
+updated_at: 05/02/2017 17:05 PM
+ms.date: 05/02/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v2.0.3/Find-AzureRmResourceGroup.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v2.0.3/Find-AzureRmResourceGroup.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/fdff926f5dd35f9020f210f87b450464ba162edc
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -20,7 +19,7 @@ ms.service: azure-resource-manager
 # Find-AzureRmResourceGroup
 
 ## SYNOPSIS
-Searches for resource groups.
+Searches for resource group using the specified parameters.
 
 ## SYNTAX
 
@@ -29,55 +28,50 @@ Find-AzureRmResourceGroup [-Tag <Hashtable>] [-ApiVersion <String>] [-Pre] [<Com
 ```
 
 ## DESCRIPTION
-The **Find-AzureRmResourceGroup** cmdlet searches for resource groups using the specified parameters.
+Searches for resource group using the specified parameters.
+
+If you find an issue with this cmdlet, please create an issue on https://github.com/Azure/azure-powershell/issues, with a lable "ResourceManager".
 
 ## EXAMPLES
 
-### Example 1: Find all resource groups
+### --------------------------  FindAllResourceGroups  --------------------------
+@{paragraph=PS C:\\\>}
+
+
+
 ```
-PS C:\>Find-AzureRmResourceGroup
+Find-AzureRmResourceGroup
 ```
 
-This command finds all resource groups.
+Finds all resource group.
 
-### Example 2: Find resource groups by tag name
-```
-PS C:\>Find-AzureRmResourceGroup -Tag @{ Name = "testtag" }
-```
+### --------------------------  FindByTagName  --------------------------
+@{paragraph=PS C:\\\>}
 
-This command finds all resource groups that have a tag named testtag.
 
-### Example 3: Find resource groups by tag name and value
+
 ```
-PS C:\>Find-AzureRmResourceGroup -Tag @{ Name = "testtag"; Value = "testval" }
+Find-AzureRmResourceGroup -Tag @{ Name = "testtag" }
 ```
 
-This command finds all resource groups that have a tag named testtag and the value testval.
+Finds all resource group with a tag with name 'testtag'.
+
+### --------------------------  FindByTagNameAndValue  --------------------------
+@{paragraph=PS C:\\\>}
+
+
+
+```
+Find-AzureRmResourceGroup -Tag @{ Name = "testtag"; Value = "testval" }
+```
+
+Finds all resource group with a tag with name 'testtag' and value 'testval'.
 
 ## PARAMETERS
 
-### -Tag
-Specifies tag information, as a hash table, to filter your results.
-Use the following formats: 
-
-`@{Name = '`tagName`'}`
-`@{Name = '`tagName`'; Value = '`tagValue`'}`
-
-```yaml
-Type: Hashtable
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
 ### -ApiVersion
-Specifies the version of the resource provider API to use.
-If you do not specify a version, this cmdlet uses the latest available version.
+When set, indicates the version of the resource provider API to use.
+If not specified, the API version is automatically determined as the latest available.
 
 ```yaml
 Type: String
@@ -92,7 +86,7 @@ Accept wildcard characters: False
 ```
 
 ### -Pre
-Indicates that this cmdlet considers pre-release API versions when it automatically determines which version to use.
+When set, indicates that the cmdlet should use pre-release API versions when automatically determining which version to use.
 
 ```yaml
 Type: SwitchParameter
@@ -106,6 +100,22 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
+### -Tag
+The tag filter for the OData query.
+The expected format is @{Name = 'tagName'} or @{Name = 'tagName'; Value = 'tagValue'}.
+
+```yaml
+Type: Hashtable
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
 ### CommonParameters
 This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
 
@@ -116,5 +126,4 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-
 

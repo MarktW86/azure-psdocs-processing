@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.Azure.Commands.Insights.dll-Help.xml
+ms.assetid: 7B6E8604-1BF0-4256-A37F-889743FE9FCD
 online version:
 schema: 2.0.0
-ms.assetid: 7B6E8604-1BF0-4256-A37F-889743FE9FCD
-updated_at: 11/01/2016 22:11 PM
-ms.date: 11/01/2016
+updated_at: 05/01/2017 21:05 PM
+ms.date: 05/01/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Insights/v1.0.12/Get-AzureRmMetric.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Insights/v1.0.12/Get-AzureRmMetric.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0589fbf53d27e39e0cf445261d29c64fb0859d62
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -164,42 +164,12 @@ This command gets detailed output for the Requests metric.
 
 ## PARAMETERS
 
-### -ResourceId
-Specifies the resource ID of the metric.
+### -DetailedOutput
+Indicates that this cmdlet displays detailed output.
+By default, output is summarized.
 
 ```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: True
-Position: 0
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -TimeGrain
-Specifies the time grain of the metric as a **TimeSpan** object in the format hh:mm:ss.
-
-```yaml
-Type: TimeSpan
-Parameter Sets: (All)
-Aliases: 
-
-Required: True
-Position: 1
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -StartTime
-Specifies the start time of the query in local time.
-The default is the current local time minus one hour.
-
-```yaml
-Type: DateTime
+Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
 
@@ -241,17 +211,47 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -DetailedOutput
-Indicates that this cmdlet displays detailed output.
-By default, output is summarized.
+### -ResourceId
+Specifies the resource ID of the metric.
 
 ```yaml
-Type: SwitchParameter
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: 0
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -StartTime
+Specifies the start time of the query in local time.
+The default is the current local time minus one hour.
+
+```yaml
+Type: DateTime
 Parameter Sets: (All)
 Aliases: 
 
 Required: False
 Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -TimeGrain
+Specifies the time grain of the metric as a **TimeSpan** object in the format hh:mm:ss.
+
+```yaml
+Type: TimeSpan
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: 1
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False

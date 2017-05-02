@@ -2,11 +2,11 @@
 external help file: Microsoft.AzureStack.Commands.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 04/20/2017 23:04 PM
-ms.date: 04/20/2017
+updated_at: 05/02/2017 19:05 PM
+ms.date: 05/02/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/New-AzureRMTenantSubscription.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/New-AzureRMTenantSubscription.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d4f2539c40b2f09416fa3e1d384a0a1f0183fb5e
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/64ea21b6f9d300bac04d2df45c463f94a5e389b4
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -19,7 +19,7 @@ ms.service: azure-stack
 # New-AzureRMTenantSubscription
 
 ## SYNOPSIS
-The cmdlet New-AzureRMTenantSubscription creates a subscription as a tenant for the specified offer
+Creates a tenant subscription to an offer.
 
 ## SYNTAX
 
@@ -29,32 +29,29 @@ New-AzureRMTenantSubscription -OfferId <String> [-DisplayName <String>] [-Inform
 ```
 
 ## DESCRIPTION
+The **New-AzureRMTenantSubscription** cmdlet creates a tenant subscription to an offer.
 
 ## EXAMPLES
 
-### Example 1:
+### Example 1: Create a tenant subscription to specific offers
 ```
+$Offer =  Get-AzureRMOffer -Provider "default" | Where-Object name -eq "ComputeOffer"
 New-AzureRmTenantSubscription  -OfferId $offer.Id -DisplayName "Compute Subscription"
 ```
 
-Description
-
------------
-
-The example creates a subscription for the logged in tenant user
-
-            $Offer =  Get-AzureRMOffer -Provider "default" | Where-Object name -eq "ComputeOffer"
-            New-AzureRmTenantSubscription  -OfferId $offer.Id -DisplayName "Compute Subscription"
+This example creates a subscription for the logged-in tenant user to all offers named "ComputeOffer".
+The first command gets all Azure resource manager offers that are named "ComputeOffer" and stores the offers in the $Offer variable.
+The second command uses the information stored in the $Offer variable to create a subscription for the logged-in tenant user.
 
 ## PARAMETERS
 
 ### -DisplayName
-@{Text=}
+Specifies the name of the tenant subscription.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -64,9 +61,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-Not Specified
-
-The following values are permitted for this object type.
+Specifies how this cmdlet responds to an information event.
 
 ```yaml
 Type: ActionPreference
@@ -82,7 +77,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-Not Specified
+Specifies a variable that is used for storing an informational message.
 
 ```yaml
 Type: String
@@ -97,12 +92,12 @@ Accept wildcard characters: False
 ```
 
 ### -OfferId
-Specifies the Id of the offer to which the tenant subscribes to create a new subscription
+Specifies the ID of the offer to which the tenant is subscribing.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -112,7 +107,7 @@ Accept wildcard characters: False
 ```
 
 ### -PipelineVariable
-Not Specified
+Specifies a variable that stores the value of the current pipeline element.
 
 ```yaml
 Type: String
@@ -131,6 +126,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## INPUTS
 
+### None
+
 ## OUTPUTS
 
 ### Microsoft.AzureStack.Management.Models.SubscriptionDefinition
@@ -138,4 +135,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-

@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.Azure.Commands.ResourceManager.Cmdlets.dll-Help.xml
+ms.assetid: D7DB21FB-6169-4EAB-BA5E-9BB2E582549C
 online version:
 schema: 2.0.0
-ms.assetid: D7DB21FB-6169-4EAB-BA5E-9BB2E582549C
-updated_at: 01/09/2017 23:01 PM
-ms.date: 01/09/2017
+updated_at: 05/01/2017 21:05 PM
+ms.date: 05/01/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.1.0/Stop-AzureRmResourceGroupDeployment.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.1.0/Stop-AzureRmResourceGroupDeployment.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/909020b7dbd03ec23a61b4fe16ccd2762277084c
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0589fbf53d27e39e0cf445261d29c64fb0859d62
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -52,7 +52,6 @@ If you omit the *Name* parameter, **Stop-AzureRmResourceGroupDeployment** search
 If the cmdlet finds more than one running deployment, the command fails.
 
 ## EXAMPLES
-
 
 ## PARAMETERS
 

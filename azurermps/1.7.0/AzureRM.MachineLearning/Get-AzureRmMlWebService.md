@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.Azure.Commands.MachineLearning.dll-Help.xml
+ms.assetid: B7102DEF-4D56-4B89-A786-A8D311D37938
 online version:
 schema: 2.0.0
-ms.assetid: B7102DEF-4D56-4B89-A786-A8D311D37938
-updated_at: 11/11/2016 23:11 PM
-ms.date: 11/11/2016
+updated_at: 05/01/2017 21:05 PM
+ms.date: 05/01/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.MachineLearning/v0.9.2.1/Get-AzureRmMlWebService.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.MachineLearning/v0.9.2.1/Get-AzureRmMlWebService.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0589fbf53d27e39e0cf445261d29c64fb0859d62
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -75,8 +75,8 @@ This command gets all web services in the current subscription that belong to th
 
 ## PARAMETERS
 
-### -ResourceGroupName
-Specifies the name of the resource group that the web service resource or resources belong to.
+### -Name
+Specifies the name of the specific web service resource details that this cmdlet gets.
 
 ```yaml
 Type: String
@@ -90,8 +90,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Name
-Specifies the name of the specific web service resource details that this cmdlet gets.
+### -ResourceGroupName
+Specifies the name of the resource group that the web service resource or resources belong to.
 
 ```yaml
 Type: String

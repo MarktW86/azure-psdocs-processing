@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
+ms.assetid: 0E8C28A9-614B-4756-B035-5F2F47ED070E
 online version:
 schema: 2.0.0
-ms.assetid: 0E8C28A9-614B-4756-B035-5F2F47ED070E
-updated_at: 11/01/2016 22:11 PM
-ms.date: 11/01/2016
+updated_at: 05/01/2017 21:05 PM
+ms.date: 05/01/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v1.0.13/New-AzureRmApplicationGatewayBackendAddressPool.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v1.0.13/New-AzureRmApplicationGatewayBackendAddressPool.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0589fbf53d27e39e0cf445261d29c64fb0859d62
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -53,23 +53,8 @@ This command creates a back-end address pool named Pool02 by using the IP addres
 
 ## PARAMETERS
 
-### -Name
-Specifies the name of the back-end server pool that this cmdlet creates.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -BackendIPAddresses
-Specifies a list of back-end IP addresses that this cmdlet associates with the back-end server pool.
+### -BackendFqdns
+Specifies a list of back-end FQDNs that this cmdlet associates with the back-end server pool.
 
 ```yaml
 Type: System.Collections.Generic.List`1[System.String]
@@ -83,8 +68,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -BackendFqdns
-Specifies a list of back-end FQDNs that this cmdlet associates with the back-end server pool.
+### -BackendIPAddresses
+Specifies a list of back-end IP addresses that this cmdlet associates with the back-end server pool.
 
 ```yaml
 Type: System.Collections.Generic.List`1[System.String]
@@ -131,6 +116,21 @@ Parameter Sets: (All)
 Aliases: iv
 
 Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -Name
+Specifies the name of the back-end server pool that this cmdlet creates.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
 Position: Named
 Default value: None
 Accept pipeline input: False

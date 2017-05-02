@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.ResourceManager.Cmdlets.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 03/23/2017 23:03 PM
-ms.date: 03/23/2017
+updated_at: 05/02/2017 17:05 PM
+ms.date: 05/02/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v1.0.4.3/Remove-AzureRmPolicyAssignment.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v1.0.4.3/Remove-AzureRmPolicyAssignment.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/280872fa529e03be2466fa2252957a2060a9dfe4
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/fdff926f5dd35f9020f210f87b450464ba162edc
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -19,38 +19,56 @@ ms.service: azure-resource-manager
 # Remove-AzureRmPolicyAssignment
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+Removes the specified policy assignment
 
 ## SYNTAX
 
 ### The policy assignment name parameter set. (Default)
 ```
 Remove-AzureRmPolicyAssignment -Name <String> -Scope <String> [-Force] [-ApiVersion <String>] [-Pre]
- [<CommonParameters>]
+ [-InformationAction <ActionPreference>] [-InformationVariable <String>] [<CommonParameters>]
 ```
 
 ### The policy assignment Id parameter set.
 ```
-Remove-AzureRmPolicyAssignment -Id <String> [-Force] [-ApiVersion <String>] [-Pre] [<CommonParameters>]
+Remove-AzureRmPolicyAssignment -Id <String> [-Force] [-ApiVersion <String>] [-Pre]
+ [-InformationAction <ActionPreference>] [-InformationVariable <String>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+Removes the specified policy assignment
 
 ## EXAMPLES
 
-### Example 1
+### --------------------------  Remove policy assignment by name and scope  --------------------------
+@{paragraph=PS C:\\\>}
+
+
+
 ```
-PS C:\> {{ Add example code here }}
+$rg = Get-AzureRmResourceGroup -Name testGroup
+Remove-AzureRmPolicyAssignment -Name myPolicyAssignment -Scope $rg.ResourceId -Force
 ```
 
-{{ Add example description here }}
+Removes the policy assignment 'myPolicyAssignment' assigned at the specified resource group level scope
+
+### --------------------------  Remove policy assignment by Id  --------------------------
+@{paragraph=PS C:\\\>}
+
+
+
+```
+$rg = Get-AzureRmResourceGroup -Name testGroup
+$policyAssignment = Get-AzureRmPolicyAssignment -Name 'myAssignment' -Scope $rg.ResourceId
+Remove-AzureRmPolicyAssignment -Id $policyAssignment.ResourceId -Force
+```
+
+Removes the policy assignment identified by the Id
 
 ## PARAMETERS
 
 ### -ApiVersion
-When set, indicates the version of the resource provider API to use.
-If not specified, the API version is automatically determined as the latest available.
+@{Text=}
 
 ```yaml
 Type: String
@@ -65,7 +83,7 @@ Accept wildcard characters: False
 ```
 
 ### -Force
-Do not ask for confirmation.
+Do not ask for confirmation
 
 ```yaml
 Type: SwitchParameter
@@ -80,9 +98,7 @@ Accept wildcard characters: False
 ```
 
 ### -Id
-The fully qualified policy assignment Id, including the subscription.
-e.g.
-/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}
+The fully qualified resource Id for the policy assignment
 
 ```yaml
 Type: String
@@ -96,8 +112,38 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
+### -InformationAction
+@{Text=}
+
+```yaml
+Type: ActionPreference
+Parameter Sets: (All)
+Aliases: infa
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -InformationVariable
+@{Text=}
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: iv
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
 ### -Name
-The policy assignment name.
+The policy assignment name
 
 ```yaml
 Type: String
@@ -112,7 +158,7 @@ Accept wildcard characters: False
 ```
 
 ### -Pre
-When set, indicates that the cmdlet should use pre-release API versions when automatically determining which version to use.
+@{Text=}
 
 ```yaml
 Type: SwitchParameter
@@ -127,7 +173,7 @@ Accept wildcard characters: False
 ```
 
 ### -Scope
-The policy assignment name.
+The scope at which the policy assignment is applied
 
 ```yaml
 Type: String
@@ -146,11 +192,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## INPUTS
 
-### System.String
-
 ## OUTPUTS
-
-### System.Boolean
 
 ## NOTES
 

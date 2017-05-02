@@ -2,11 +2,11 @@
 external help file: Microsoft.AzureStack.Commands.dll-help.xml
 online version:
 schema: 2.0.0
-updated_at: 04/20/2017 23:04 PM
-ms.date: 04/20/2017
+updated_at: 05/02/2017 19:05 PM
+ms.date: 05/02/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/Add-AzureRMGalleryItem.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/Add-AzureRMGalleryItem.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d4f2539c40b2f09416fa3e1d384a0a1f0183fb5e
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/64ea21b6f9d300bac04d2df45c463f94a5e389b4
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -29,33 +29,26 @@ Add-AzureRMGalleryItem -GalleryItemUri <String> [-InformationAction <ActionPrefe
 ```
 
 ## DESCRIPTION
-The **Add-AzureRMGalleryItem** cmdlet adds the gallery item package.
-The gallery item uri needs to be a http/https uri accessible to the gallery service. 
-Typically .azpkg file is uploaded to a publicly accessible blob container and its uri is provided as the GallelryItemUri parameter
+
+The **Add-AzureRMGalleryItem** cmdlet adds the gallery item package. Typically a .azpkg file is uploaded to a publicly accessible blob container and its URI is provided as the **GallelryItemUri** parameter.
 
 ## EXAMPLES
 
-### Example 1:
+### Example 1: Upload and register a gallery package with the gallery service
 ```
-Add-AzureRMGalleryItem -ApiVersion 2015-04-01 -GalleryItemUri "http://127.0.0.1:10000/devstoreaccount1/sqlrpgallery/Microsoft.SqlDatabase.0.1.0.azpkg"
+Add-AzureRMGalleryItem -GalleryItemUri "http://127.0.0.1:10000/devstoreaccount1/sqlrpgallery/Microsoft.SqlDatabase.0.1.0.azpkg"
 ```
-
-Description
-
------------
-
-The example uploads and registers the gallery package with the gallery service
+This example uploads and registers the gallery package that is at the URI specified by the **GalleryItemUri** parameter.
 
 ## PARAMETERS
 
 ### -GalleryItemUri
-The http/https uri containing the .azpkg file.
-The Uri should be accessible to the gallery service
+Specifies the http/https URI of the publicly accessible blob that contains the .azpkg file and is accessible to the gallery service.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -65,9 +58,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-Not Specified
-
-The following values are permitted for this object type.
+Specifies how this cmdlet responds to an information event.
 
 ```yaml
 Type: ActionPreference
@@ -83,7 +74,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-Not Specified
+Specifies a variable that is used for storing an informational message.
 
 ```yaml
 Type: String
@@ -98,7 +89,7 @@ Accept wildcard characters: False
 ```
 
 ### -PipelineVariable
-Not Specified
+Specifies a variable that stores the value of the current pipeline element.
 
 ```yaml
 Type: String
@@ -116,6 +107,8 @@ Accept wildcard characters: False
 This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
+
+### None
 
 ## OUTPUTS
 

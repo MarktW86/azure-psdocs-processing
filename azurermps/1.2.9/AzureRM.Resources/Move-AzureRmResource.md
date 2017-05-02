@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.ResourceManager.Cmdlets.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 03/23/2017 23:03 PM
-ms.date: 03/23/2017
+updated_at: 05/02/2017 17:05 PM
+ms.date: 05/02/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v1.0.4.3/Move-AzureRmResource.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v1.0.4.3/Move-AzureRmResource.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/280872fa529e03be2466fa2252957a2060a9dfe4
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/fdff926f5dd35f9020f210f87b450464ba162edc
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -19,7 +19,6 @@ ms.service: azure-resource-manager
 # Move-AzureRmResource
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
 
 ## SYNTAX
 
@@ -29,7 +28,6 @@ Move-AzureRmResource -DestinationResourceGroupName <String> [-DestinationSubscri
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
 
 ## EXAMPLES
 
@@ -59,7 +57,7 @@ Accept wildcard characters: False
 ```
 
 ### -DestinationResourceGroupName
-The name of the resource group into which the resources are to be moved.
+@{Text=}
 
 ```yaml
 Type: String
@@ -74,7 +72,7 @@ Accept wildcard characters: False
 ```
 
 ### -DestinationSubscriptionId
-The Id of the subscription to move the resources into.
+@{Text=}
 
 ```yaml
 Type: Guid
@@ -89,7 +87,7 @@ Accept wildcard characters: False
 ```
 
 ### -Force
-Do not ask for confirmation.
+@{Text=}
 
 ```yaml
 Type: SwitchParameter
@@ -119,7 +117,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceId
-The Ids of the resources to move.
+@{Text=}
 
 ```yaml
 Type: String[]
@@ -134,7 +132,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-Prompts you for confirmation before running the cmdlet.
+@{Text=}
 
 ```yaml
 Type: SwitchParameter
@@ -149,8 +147,7 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-Shows what would happen if the cmdlet runs.
-The cmdlet is not run.
+@{Text=}
 
 ```yaml
 Type: SwitchParameter
@@ -169,12 +166,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## INPUTS
 
-### System.Nullable`1[[System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
-System.String[]
-
 ## OUTPUTS
-
-### System.Boolean
 
 ## NOTES
 

@@ -2,12 +2,11 @@
 Module Name: AzureRM.MachineLearning
 Module Guid: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
 Locale: en-US
-ms.assetid: 660FF3F6-4D9A-45E3-83F6-62F56AC4B9D1
-updated_at: 11/11/2016 23:11 PM
-ms.date: 11/11/2016
+updated_at: 05/01/2017 21:05 PM
+ms.date: 05/01/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.MachineLearning/v0.9.2.1/AzureRM.MachineLearning.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.MachineLearning/v0.9.2.1/AzureRM.MachineLearning.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0589fbf53d27e39e0cf445261d29c64fb0859d62
 ms.topic: conceptual
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -27,35 +26,27 @@ _isModulePage: true
 
 # AzureRM.MachineLearning Module
 ## Description
-This topic displays help topics for the Machine Learning web service feature in Azure App Service cmdlets. 
+This topic displays help topics for the Machine Learning web service feature in Azure App Service cmdlets.
 
 ## AzureRM.MachineLearning Cmdlets
-### [Export-AzureRmMlWebService](./Export-AzureRmMlWebService.md)
+### [Export-AzureRmMlWebService](Export-AzureRmMlWebService.md)
 Exports a web service definition object as JSON.
 
-
-### [Get-AzureRmMlWebServiceKeys](./Get-AzureRmMlWebServiceKeys.md)
-Gets the web service keys from a web service.
-
-
-### [Get-AzureRmMlWebService](./Get-AzureRmMlWebService.md)
+### [Get-AzureRmMlWebService](Get-AzureRmMlWebService.md)
 Gets summary information about one or more web services.
 
+### [Get-AzureRmMlWebServiceKeys](Get-AzureRmMlWebServiceKeys.md)
+Gets the web service keys from a web service.
 
-### [Import-AzureRmMlWebService](./Import-AzureRmMlWebService.md)
+### [Import-AzureRmMlWebService](Import-AzureRmMlWebService.md)
 Imports a web service definition to an object instance.
 
-
-### [New-AzureRmMlWebService](./New-AzureRmMlWebService.md)
+### [New-AzureRmMlWebService](New-AzureRmMlWebService.md)
 Creates a web service resource.
 
-
-### [Remove-AzureRmMlWebService](./Remove-AzureRmMlWebService.md)
+### [Remove-AzureRmMlWebService](Remove-AzureRmMlWebService.md)
 Removes an Azure Machine Learning web service resource.
 
-
-### [Update-AzureRmMlWebService](./Update-AzureRmMlWebService.md)
+### [Update-AzureRmMlWebService](Update-AzureRmMlWebService.md)
 Updates properties of an existing web service resource.
-
-
 

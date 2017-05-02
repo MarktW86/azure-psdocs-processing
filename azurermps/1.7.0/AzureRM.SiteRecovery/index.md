@@ -2,12 +2,11 @@
 Module Name: AzureRM.SiteRecovery
 Module Guid: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
 Locale: en-US
-ms.assetid: 1E2B537A-9E3B-4C59-A805-03DDA6462562
-updated_at: 11/11/2016 23:11 PM
-ms.date: 11/11/2016
+updated_at: 05/01/2017 21:05 PM
+ms.date: 05/01/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v1.1.11/AzureRM.SiteRecovery.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v1.1.11/AzureRM.SiteRecovery.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0589fbf53d27e39e0cf445261d29c64fb0859d62
 ms.topic: conceptual
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -15,51 +14,51 @@ keywords: powershell, cmdlet
 manager: erickson-doug
 open_to_public_contributors: true
 ms.service: site-recovery
-Edit-AzureRmSiteRecoveryRecoveryPlan: Recovery
-Get-AzureRmSiteRecoveryJob: Recovery
-Get-AzureRmSiteRecoveryNetwork: Recovery
-Get-AzureRmSiteRecoveryNetworkMapping: Recovery
-Get-AzureRmSiteRecoveryPolicy: Policies
-Get-AzureRmSiteRecoveryProtectionContainer: Recovery
-Get-AzureRmSiteRecoveryProtectionEntity: Recovery
-Get-AzureRmSiteRecoveryRecoveryPlan: Recovery
-Get-AzureRmSiteRecoveryServer: Recovery
-Get-AzureRmSiteRecoverySite: Recovery
-Get-AzureRmSiteRecoveryStorageClassification: Recovery
-Get-AzureRmSiteRecoveryStorageClassificationMapping: Recovery
-Get-AzureRmSiteRecoveryVault: Recovery
-Get-AzureRmSiteRecoveryVaultSettings: Recovery
-Get-AzureRmSiteRecoveryVaultSettingsFile: Recovery
-Get-AzureRmSiteRecoveryVM: Recovery
-Import-AzureRmSiteRecoveryVaultSettingsFile: Recovery
-New-AzureRmSiteRecoveryNetworkMapping: Recovery
-New-AzureRmSiteRecoveryPolicy: Policies
-New-AzureRmSiteRecoveryRecoveryPlan: Recovery
-New-AzureRmSiteRecoverySite: Recovery
-New-AzureRmSiteRecoveryStorageClassificationMapping: Recovery
-New-AzureRmSiteRecoveryVault: Recovery
-Remove-AzureRmSiteRecoveryNetworkMapping: Recovery
-Remove-AzureRmSiteRecoveryPolicy: Policies
-Remove-AzureRmSiteRecoveryRecoveryPlan: Recovery
-Remove-AzureRmSiteRecoveryServer: Recovery
-Remove-AzureRmSiteRecoverySite: Recovery
-Remove-AzureRmSiteRecoveryStorageClassificationMapping: Recovery
-Remove-AzureRmSiteRecoveryVault: Recovery
-Restart-AzureRmSiteRecoveryJob: Recovery
-Resume-AzureRmSiteRecoveryJob: Recovery
-Set-AzureRmSiteRecoveryProtectionEntity: Recovery
-Set-AzureRmSiteRecoveryVaultSettings: Recovery
-Set-AzureRmSiteRecoveryVM: Recovery
-Start-AzureRmSiteRecoveryCommitFailoverJob: Recovery
-Start-AzureRmSiteRecoveryPlannedFailoverJob: Recovery
-Start-AzureRmSiteRecoveryPolicyAssociationJob: Policies
-Start-AzureRmSiteRecoveryPolicyDissociationJob: Policies
-Start-AzureRmSiteRecoveryTestFailoverJob: Recovery
-Start-AzureRmSiteRecoveryUnplannedFailoverJob: Recovery
-Stop-AzureRmSiteRecoveryJob: Recovery
-Update-AzureRmSiteRecoveryProtectionDirection: Recovery
-Update-AzureRmSiteRecoveryRecoveryPlan: Recovery
-Update-AzureRmSiteRecoveryServer: Recovery
+Edit-AzureRmSiteRecoveryRecoveryPlan: Site Recovery
+Get-AzureRmSiteRecoveryJob: Site Recovery
+Get-AzureRmSiteRecoveryNetwork: Site Recovery
+Get-AzureRmSiteRecoveryNetworkMapping: Site Recovery
+Get-AzureRmSiteRecoveryPolicy: Site Recovery
+Get-AzureRmSiteRecoveryProtectionContainer: Site Recovery
+Get-AzureRmSiteRecoveryProtectionEntity: Site Recovery
+Get-AzureRmSiteRecoveryRecoveryPlan: Site Recovery
+Get-AzureRmSiteRecoveryServer: Site Recovery
+Get-AzureRmSiteRecoverySite: Site Recovery
+Get-AzureRmSiteRecoveryStorageClassification: Site Recovery
+Get-AzureRmSiteRecoveryStorageClassificationMapping: Site Recovery
+Get-AzureRmSiteRecoveryVault: Site Recovery
+Get-AzureRmSiteRecoveryVaultSettings: Site Recovery
+Get-AzureRmSiteRecoveryVaultSettingsFile: Site Recovery
+Get-AzureRmSiteRecoveryVM: Site Recovery
+Import-AzureRmSiteRecoveryVaultSettingsFile: Site Recovery
+New-AzureRmSiteRecoveryNetworkMapping: Site Recovery
+New-AzureRmSiteRecoveryPolicy: Site Recovery
+New-AzureRmSiteRecoveryRecoveryPlan: Site Recovery
+New-AzureRmSiteRecoverySite: Site Recovery
+New-AzureRmSiteRecoveryStorageClassificationMapping: Site Recovery
+New-AzureRmSiteRecoveryVault: Site Recovery
+Remove-AzureRmSiteRecoveryNetworkMapping: Site Recovery
+Remove-AzureRmSiteRecoveryPolicy: Site Recovery
+Remove-AzureRmSiteRecoveryRecoveryPlan: Site Recovery
+Remove-AzureRmSiteRecoveryServer: Site Recovery
+Remove-AzureRmSiteRecoverySite: Site Recovery
+Remove-AzureRmSiteRecoveryStorageClassificationMapping: Site Recovery
+Remove-AzureRmSiteRecoveryVault: Site Recovery
+Restart-AzureRmSiteRecoveryJob: Site Recovery
+Resume-AzureRmSiteRecoveryJob: Site Recovery
+Set-AzureRmSiteRecoveryProtectionEntity: Site Recovery
+Set-AzureRmSiteRecoveryVaultSettings: Site Recovery
+Set-AzureRmSiteRecoveryVM: Site Recovery
+Start-AzureRmSiteRecoveryCommitFailoverJob: Site Recovery
+Start-AzureRmSiteRecoveryPlannedFailoverJob: Site Recovery
+Start-AzureRmSiteRecoveryPolicyAssociationJob: Site Recovery
+Start-AzureRmSiteRecoveryPolicyDissociationJob: Site Recovery
+Start-AzureRmSiteRecoveryTestFailoverJob: Site Recovery
+Start-AzureRmSiteRecoveryUnplannedFailoverJob: Site Recovery
+Stop-AzureRmSiteRecoveryJob: Site Recovery
+Update-AzureRmSiteRecoveryProtectionDirection: Site Recovery
+Update-AzureRmSiteRecoveryRecoveryPlan: Site Recovery
+Update-AzureRmSiteRecoveryServer: Site Recovery
 _isModulePage: true
 ---
 
@@ -68,169 +67,138 @@ _isModulePage: true
 This topic displays help topics for the Azure Site Recovery Cmdlets.
 
 ## AzureRM.SiteRecovery Cmdlets
-### [Edit-AzureRmSiteRecoveryRecoveryPlan](./Edit-AzureRmSiteRecoveryRecoveryPlan.md)
+### [Edit-AzureRmSiteRecoveryRecoveryPlan](Edit-AzureRmSiteRecoveryRecoveryPlan.md)
 Edits a Site Recovery plan.
 
-### [Get-AzureRmSiteRecoveryJob](./Get-AzureRmSiteRecoveryJob.md)
+### [Get-AzureRmSiteRecoveryJob](Get-AzureRmSiteRecoveryJob.md)
 Gets the operation information for the current Site Recovery vault.
 
-
-### [Get-AzureRmSiteRecoveryNetworkMapping](./Get-AzureRmSiteRecoveryNetworkMapping.md)
-Gets information about Site Recovery network mappings for the current vault.
-
-
-### [Get-AzureRmSiteRecoveryNetwork](./Get-AzureRmSiteRecoveryNetwork.md)
+### [Get-AzureRmSiteRecoveryNetwork](Get-AzureRmSiteRecoveryNetwork.md)
 Gets information about the networks managed by Site Recovery for the current vault.
 
+### [Get-AzureRmSiteRecoveryNetworkMapping](Get-AzureRmSiteRecoveryNetworkMapping.md)
+Gets information about Site Recovery network mappings for the current vault.
 
-### [Get-AzureRmSiteRecoveryPolicy](./Get-AzureRmSiteRecoveryPolicy.md)
+### [Get-AzureRmSiteRecoveryPolicy](Get-AzureRmSiteRecoveryPolicy.md)
 Gets Site Recovery protection policies.
 
-### [Get-AzureRmSiteRecoveryProtectionContainer](./Get-AzureRmSiteRecoveryProtectionContainer.md)
+### [Get-AzureRmSiteRecoveryProtectionContainer](Get-AzureRmSiteRecoveryProtectionContainer.md)
 Gets protection containers for the current Site Recovery vault.
 
-
-### [Get-AzureRmSiteRecoveryProtectionEntity](./Get-AzureRmSiteRecoveryProtectionEntity.md)
+### [Get-AzureRmSiteRecoveryProtectionEntity](Get-AzureRmSiteRecoveryProtectionEntity.md)
 Gets a list of protectable or protected entities in the current Site Recovery vault.
 
-
-### [Get-AzureRmSiteRecoveryRecoveryPlan](./Get-AzureRmSiteRecoveryRecoveryPlan.md)
+### [Get-AzureRmSiteRecoveryRecoveryPlan](Get-AzureRmSiteRecoveryRecoveryPlan.md)
 Gets a recovery plan in Site Recovery.
 
-### [Get-AzureRmSiteRecoveryServer](./Get-AzureRmSiteRecoveryServer.md)
+### [Get-AzureRmSiteRecoveryServer](Get-AzureRmSiteRecoveryServer.md)
 Gets information about Site Recovery servers registered to the current vault.
 
-### [Get-AzureRmSiteRecoverySite](./Get-AzureRmSiteRecoverySite.md)
+### [Get-AzureRmSiteRecoverySite](Get-AzureRmSiteRecoverySite.md)
 Gets the Hyper-V sites from the Site Recovery vault.
 
-
-### [Get-AzureRmSiteRecoveryStorageClassificationMapping](./Get-AzureRmSiteRecoveryStorageClassificationMapping.md)
-Gets a storage classification mapping in Site Recovery.
-
-
-### [Get-AzureRmSiteRecoveryStorageClassification](./Get-AzureRmSiteRecoveryStorageClassification.md)
+### [Get-AzureRmSiteRecoveryStorageClassification](Get-AzureRmSiteRecoveryStorageClassification.md)
 Gets storage classifications in Site Recovery.
 
+### [Get-AzureRmSiteRecoveryStorageClassificationMapping](Get-AzureRmSiteRecoveryStorageClassificationMapping.md)
+Gets a storage classification mapping in Site Recovery.
 
-### [Get-AzureRmSiteRecoveryVaultSettingsFile](./Get-AzureRmSiteRecoveryVaultSettingsFile.md)
-Gets the Site Recovery vault settings file.
-
-
-### [Get-AzureRmSiteRecoveryVaultSettings](./Get-AzureRmSiteRecoveryVaultSettings.md)
-Gets settings information for the current Site Recovery vault.
-
-
-### [Get-AzureRmSiteRecoveryVault](./Get-AzureRmSiteRecoveryVault.md)
+### [Get-AzureRmSiteRecoveryVault](Get-AzureRmSiteRecoveryVault.md)
 Gets Site Recovery vaults from the current subscription.
 
+### [Get-AzureRmSiteRecoveryVaultSettings](Get-AzureRmSiteRecoveryVaultSettings.md)
+Gets settings information for the current Site Recovery vault.
 
-### [Get-AzureRmSiteRecoveryVM](./Get-AzureRmSiteRecoveryVM.md)
+### [Get-AzureRmSiteRecoveryVaultSettingsFile](Get-AzureRmSiteRecoveryVaultSettingsFile.md)
+Gets the Site Recovery vault settings file.
+
+### [Get-AzureRmSiteRecoveryVM](Get-AzureRmSiteRecoveryVM.md)
 Gets information about Site Recovery-managed virtual machines.
 
-
-### [Import-AzureRmSiteRecoveryVaultSettingsFile](./Import-AzureRmSiteRecoveryVaultSettingsFile.md)
+### [Import-AzureRmSiteRecoveryVaultSettingsFile](Import-AzureRmSiteRecoveryVaultSettingsFile.md)
 Imports a Site Recovery vault settings file.
 
-### [New-AzureRmSiteRecoveryNetworkMapping](./New-AzureRmSiteRecoveryNetworkMapping.md)
+### [New-AzureRmSiteRecoveryNetworkMapping](New-AzureRmSiteRecoveryNetworkMapping.md)
 Creates a mapping between virtual networks.
 
-
-### [New-AzureRmSiteRecoveryPolicy](./New-AzureRmSiteRecoveryPolicy.md)
+### [New-AzureRmSiteRecoveryPolicy](New-AzureRmSiteRecoveryPolicy.md)
 Creates a Site Recovery replication policy.
 
-### [New-AzureRmSiteRecoveryRecoveryPlan](./New-AzureRmSiteRecoveryRecoveryPlan.md)
+### [New-AzureRmSiteRecoveryRecoveryPlan](New-AzureRmSiteRecoveryRecoveryPlan.md)
 Creates a site recovery plan in Site Recovery.
 
-### [New-AzureRmSiteRecoverySite](./New-AzureRmSiteRecoverySite.md)
+### [New-AzureRmSiteRecoverySite](New-AzureRmSiteRecoverySite.md)
 Creates a Site Recovery site.
 
-
-### [New-AzureRmSiteRecoveryStorageClassificationMapping](./New-AzureRmSiteRecoveryStorageClassificationMapping.md)
+### [New-AzureRmSiteRecoveryStorageClassificationMapping](New-AzureRmSiteRecoveryStorageClassificationMapping.md)
 Creates a storage classification mapping in Site Recovery.
 
-
-### [New-AzureRmSiteRecoveryVault](./New-AzureRmSiteRecoveryVault.md)
+### [New-AzureRmSiteRecoveryVault](New-AzureRmSiteRecoveryVault.md)
 Creates a Site Recovery services vault.
 
-### [Remove-AzureRmSiteRecoveryNetworkMapping](./Remove-AzureRmSiteRecoveryNetworkMapping.md)
+### [Remove-AzureRmSiteRecoveryNetworkMapping](Remove-AzureRmSiteRecoveryNetworkMapping.md)
 Removes a network mapping from the current Site Recovery vault.
 
-
-### [Remove-AzureRmSiteRecoveryPolicy](./Remove-AzureRmSiteRecoveryPolicy.md)
+### [Remove-AzureRmSiteRecoveryPolicy](Remove-AzureRmSiteRecoveryPolicy.md)
 Removes a Site Recovery replication policy.
 
-### [Remove-AzureRmSiteRecoveryRecoveryPlan](./Remove-AzureRmSiteRecoveryRecoveryPlan.md)
+### [Remove-AzureRmSiteRecoveryRecoveryPlan](Remove-AzureRmSiteRecoveryRecoveryPlan.md)
 Removes a site recovery plan from Site Recovery.
 
-### [Remove-AzureRmSiteRecoveryServer](./Remove-AzureRmSiteRecoveryServer.md)
+### [Remove-AzureRmSiteRecoveryServer](Remove-AzureRmSiteRecoveryServer.md)
 Removes a Site Recovery server from the current vault.
 
-### [Remove-AzureRmSiteRecoverySite](./Remove-AzureRmSiteRecoverySite.md)
+### [Remove-AzureRmSiteRecoverySite](Remove-AzureRmSiteRecoverySite.md)
 Removes a Site Recovery site from the current vault.
 
-
-### [Remove-AzureRmSiteRecoveryStorageClassificationMapping](./Remove-AzureRmSiteRecoveryStorageClassificationMapping.md)
+### [Remove-AzureRmSiteRecoveryStorageClassificationMapping](Remove-AzureRmSiteRecoveryStorageClassificationMapping.md)
 Removes a storage classification mapping from Site Recovery.
 
-
-### [Remove-AzureRmSiteRecoveryVault](./Remove-AzureRmSiteRecoveryVault.md)
+### [Remove-AzureRmSiteRecoveryVault](Remove-AzureRmSiteRecoveryVault.md)
 Removes a Site Recovery vault.
 
-
-### [Restart-AzureRmSiteRecoveryJob](./Restart-AzureRmSiteRecoveryJob.md)
+### [Restart-AzureRmSiteRecoveryJob](Restart-AzureRmSiteRecoveryJob.md)
 Restarts an Azure Site Recovery job.
 
-
-### [Resume-AzureRmSiteRecoveryJob](./Resume-AzureRmSiteRecoveryJob.md)
+### [Resume-AzureRmSiteRecoveryJob](Resume-AzureRmSiteRecoveryJob.md)
 Resumes a suspended Site Recovery job.
 
-
-### [Set-AzureRmSiteRecoveryProtectionEntity](./Set-AzureRmSiteRecoveryProtectionEntity.md)
+### [Set-AzureRmSiteRecoveryProtectionEntity](Set-AzureRmSiteRecoveryProtectionEntity.md)
 Sets the state for a Site Recovery protection entity.
 
-### [Set-AzureRmSiteRecoveryVaultSettings](./Set-AzureRmSiteRecoveryVaultSettings.md)
+### [Set-AzureRmSiteRecoveryVaultSettings](Set-AzureRmSiteRecoveryVaultSettings.md)
 Set the Site Recovery vault context for further operations.
 
-
-### [Set-AzureRmSiteRecoveryVM](./Set-AzureRmSiteRecoveryVM.md)
+### [Set-AzureRmSiteRecoveryVM](Set-AzureRmSiteRecoveryVM.md)
 Sets the recovery-side options for a Site Recovery protection entity.
 
-### [Start-AzureRmSiteRecoveryCommitFailoverJob](./Start-AzureRmSiteRecoveryCommitFailoverJob.md)
+### [Start-AzureRmSiteRecoveryCommitFailoverJob](Start-AzureRmSiteRecoveryCommitFailoverJob.md)
 Starts the commit failover action for a Site Recovery object.
 
-
-### [Start-AzureRmSiteRecoveryPlannedFailoverJob](./Start-AzureRmSiteRecoveryPlannedFailoverJob.md)
+### [Start-AzureRmSiteRecoveryPlannedFailoverJob](Start-AzureRmSiteRecoveryPlannedFailoverJob.md)
 Starts a Site Recovery planned failover operation.
 
-
-### [Start-AzureRmSiteRecoveryPolicyAssociationJob](./Start-AzureRmSiteRecoveryPolicyAssociationJob.md)
+### [Start-AzureRmSiteRecoveryPolicyAssociationJob](Start-AzureRmSiteRecoveryPolicyAssociationJob.md)
 Starts a Site Recovery replication policy association job.
 
-
-### [Start-AzureRmSiteRecoveryPolicyDissociationJob](./Start-AzureRmSiteRecoveryPolicyDissociationJob.md)
+### [Start-AzureRmSiteRecoveryPolicyDissociationJob](Start-AzureRmSiteRecoveryPolicyDissociationJob.md)
 Starts a dissociation job on a replication policy associated with a Site Recovery protection container.
 
-
-### [Start-AzureRmSiteRecoveryTestFailoverJob](./Start-AzureRmSiteRecoveryTestFailoverJob.md)
+### [Start-AzureRmSiteRecoveryTestFailoverJob](Start-AzureRmSiteRecoveryTestFailoverJob.md)
 Starts a test failover for a Site Recovery protection entity.
 
-
-### [Start-AzureRmSiteRecoveryUnplannedFailoverJob](./Start-AzureRmSiteRecoveryUnplannedFailoverJob.md)
+### [Start-AzureRmSiteRecoveryUnplannedFailoverJob](Start-AzureRmSiteRecoveryUnplannedFailoverJob.md)
 Starts the unplanned failover for a Site Recovery protection entity or recovery plan.
 
-
-### [Stop-AzureRmSiteRecoveryJob](./Stop-AzureRmSiteRecoveryJob.md)
+### [Stop-AzureRmSiteRecoveryJob](Stop-AzureRmSiteRecoveryJob.md)
 Stops a Site Recovery job.
 
-### [Update-AzureRmSiteRecoveryProtectionDirection](./Update-AzureRmSiteRecoveryProtectionDirection.md)
+### [Update-AzureRmSiteRecoveryProtectionDirection](Update-AzureRmSiteRecoveryProtectionDirection.md)
 Updates the source and target server for the protection of a Site Recovery object.
 
-
-### [Update-AzureRmSiteRecoveryRecoveryPlan](./Update-AzureRmSiteRecoveryRecoveryPlan.md)
+### [Update-AzureRmSiteRecoveryRecoveryPlan](Update-AzureRmSiteRecoveryRecoveryPlan.md)
 Updates a recovery plan in Site Recovery.
 
-
-### [Update-AzureRmSiteRecoveryServer](./Update-AzureRmSiteRecoveryServer.md)
+### [Update-AzureRmSiteRecoveryServer](Update-AzureRmSiteRecoveryServer.md)
 Refreshes a Site Recovery server.
-
 

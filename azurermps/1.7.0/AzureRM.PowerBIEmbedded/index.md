@@ -2,12 +2,11 @@
 Module Name: AzureRM.PowerBIEmbedded
 Module Guid: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
 Locale: en-US
-ms.assetid: E41EDE67-E5B9-4FE3-A36B-D55E9E1F23F3
-updated_at: 11/11/2016 23:11 PM
-ms.date: 11/11/2016
+updated_at: 05/01/2017 21:05 PM
+ms.date: 05/01/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.PowerBIEmbedded/v1.0.1/AzureRM.PowerBIEmbedded.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.PowerBIEmbedded/v1.0.1/AzureRM.PowerBIEmbedded.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0589fbf53d27e39e0cf445261d29c64fb0859d62
 ms.topic: conceptual
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -26,31 +25,24 @@ _isModulePage: true
 
 # AzureRM.PowerBIEmbedded Module
 ## Description
-This topic displays help topics for the Azure Power BI Embedded Cmdlets. 
+This topic displays help topics for the Azure Power BI Embedded Cmdlets.
 
 ## AzureRM.PowerBIEmbedded Cmdlets
-### [Get-AzureRmPowerBIWorkspaceCollectionAccessKeys](./Get-AzureRmPowerBIWorkspaceCollectionAccessKeys.md)
-Gets the current access keys associated with a Power BI workspace collection.
-
-
-### [Get-AzureRmPowerBIWorkspaceCollection](./Get-AzureRmPowerBIWorkspaceCollection.md)
-Gets Power BI workspace collections.
-
-
-### [Get-AzureRmPowerBIWorkspace](./Get-AzureRmPowerBIWorkspace.md)
+### [Get-AzureRmPowerBIWorkspace](Get-AzureRmPowerBIWorkspace.md)
 Gets the workspaces in a Power BI workspace collection.
 
+### [Get-AzureRmPowerBIWorkspaceCollection](Get-AzureRmPowerBIWorkspaceCollection.md)
+Gets Power BI workspace collections.
 
-### [New-AzureRmPowerBIWorkspaceCollection](./New-AzureRmPowerBIWorkspaceCollection.md)
+### [Get-AzureRmPowerBIWorkspaceCollectionAccessKeys](Get-AzureRmPowerBIWorkspaceCollectionAccessKeys.md)
+Gets the current access keys associated with a Power BI workspace collection.
+
+### [New-AzureRmPowerBIWorkspaceCollection](New-AzureRmPowerBIWorkspaceCollection.md)
 Creates a Power BI workspace collection.
 
-
-### [Remove-AzureRmPowerBIWorkspaceCollection](./Remove-AzureRmPowerBIWorkspaceCollection.md)
+### [Remove-AzureRmPowerBIWorkspaceCollection](Remove-AzureRmPowerBIWorkspaceCollection.md)
 Removes a Power BI workspace collection.
 
-
-### [Reset-AzureRmPowerBIWorkspaceCollectionAccessKeys](./Reset-AzureRmPowerBIWorkspaceCollectionAccessKeys.md)
+### [Reset-AzureRmPowerBIWorkspaceCollectionAccessKeys](Reset-AzureRmPowerBIWorkspaceCollectionAccessKeys.md)
 Resets the specified access key.
-
-
 

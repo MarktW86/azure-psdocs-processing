@@ -2,12 +2,11 @@
 external help file: Microsoft.Azure.Commands.HDInsight.dll-Help.xml
 online version:
 schema: 2.0.0
-ms.assetid: 3819D202-5D7D-4E2D-B378-119378131276
-updated_at: 11/01/2016 22:11 PM
-ms.date: 11/01/2016
+updated_at: 05/02/2017 17:05 PM
+ms.date: 05/02/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v1.1.4/Invoke-AzureRmHDInsightHiveJob.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v1.1.4/Invoke-AzureRmHDInsightHiveJob.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/fdff926f5dd35f9020f210f87b450464ba162edc
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -32,41 +31,45 @@ Invoke-AzureRmHDInsightHiveJob [-Arguments <String[]>] [-Files <String[]>] [-Sta
 ```
 
 ## DESCRIPTION
-The **Invoke-AzureRmHDInsightHiveJob** cmdlet submits a Hive query to an Azure HDInsight cluster and retrieves query results in one operation.
-Use the Use-AzureRmHDInsightCluster cmdlet before calling **Invoke-AzureRmHDInsightHiveJob** to specify which cluster will be used for the query.
+The Invoke-AzureRmHDInsightHiveJob cmdlet submits a Hive query to an Azure HDInsight cluster and retrieves query results in one operation.
+Use the Use-AzureRmHDInsightCluster cmdlet before calling Invoke-AzureRmHDInsightHiveJob to specify which cluster will be used for the query.
 
 ## EXAMPLES
 
-### Example 1: Submit a Hive query to an Azure HDInsight cluster
+### --------------------------  Example 1: Submit a Hive query to an Azure HDInsight cluster  --------------------------
+@{paragraph=PS C:\\\>}
+
+
+
 ```
-PS C:\># Primary storage account info
-PS C:\> $storageAccountResourceGroupName = "Group"
-PS C:\> $storageAccountName = "yourstorageacct001"
-PS C:\> $storageAccountKey = (Get-AzureRmStorageAccountKey -ResourceGroupName $storageAccountResourceGroupName -Name $storageAccountName)[0].value
+PS C:\&gt; # Primary storage account info
+        $storageAccountResourceGroupName = "Group"
+        $storageAccountName = "yourstorageacct001"
+        $storageAccountKey = Get-AzureStorageAccountKey `
+            -ResourceGroupName $storageAccountResourceGroupName `
+            -Name $storageAccountName | %{ $_.Key1 }
+        $storageContainer = "container001"
 
+        # Cluster info
+        $clusterName = "your-hadoop-001"
+        $clusterCreds = Get-Credential
 
-PS C:\> $storageContainer = "container001"
+         # Hive job details
+        $statusFolder = "tempStatusFolder/"
+        $query = "SHOW TABLES"
 
-# Cluster info
-PS C:\> $clusterName = "your-hadoop-001"
-PS C:\> $clusterCreds = Get-Credential
-
-# Hive job details
-PS C:\> $statusFolder = "tempStatusFolder/"
-PS C:\> $query = "SHOW TABLES"
-
-PS C:\> Use-AzureRmHDInsightCluster `
+        Use-AzureRmHDInsightCluster 
             -ClusterCredential $clusterCreds `
             -ClusterName $clusterName
 
-PS C:\> Invoke-AzureRmHDInsightHiveJob -StatusFolder $statusFolder `
+        Invoke-AzureRmHDInsightHiveJob -StatusFolder $statusFolder `
             -Query $query `
             -DefaultContainer $storageAccountContainer `
             -DefaultStorageAccountName "$storageAccountName.blob.core.windows.net" `
             -DefaultStorageAccountKey $storageAccountKey
 ```
 
-This command submits the query SHOW TABLES to the cluster named your-hadoop-001.
+This command submits the query SHOW TABLES to the cluster named 'your-hadoop-001'.
 
 ## PARAMETERS
 
@@ -86,11 +89,11 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Files
-Specifies a collection of files that are required for a Hive job.
+### -DefaultContainer
+Specifies the name of the default container in the default Azure storage account that an HDInsight cluster uses.
 
 ```yaml
-Type: String[]
+Type: String
 Parameter Sets: (All)
 Aliases: 
 
@@ -101,8 +104,23 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -StatusFolder
-Specifies the location of the folder that contains standard outputs and error outputs for a job.
+### -DefaultStorageAccountKey
+Specifies the account key for the default storage account that the HDInsight cluster uses.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -DefaultStorageAccountName
+Specifies the name of the default storage account that the HDInsight cluster uses.
 
 ```yaml
 Type: String
@@ -133,12 +151,57 @@ Accept wildcard characters: False
 
 ### -File
 Specifies the path to a file in Azure Storage that contains the query to run.
-You can use this parameter instead of the *Query* parameter.
+You can use this parameter instead of the Query parameter.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
 Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -Files
+Specifies a collection of files that are required for a Hive job.
+
+```yaml
+Type: String[]
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -InformationAction
+@{Text=}
+
+```yaml
+Type: ActionPreference
+Parameter Sets: (All)
+Aliases: infa
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -InformationVariable
+@{Text=}
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: iv
 
 Required: False
 Position: Named
@@ -196,82 +259,13 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -DefaultContainer
-Specifies the name of the default container in the default Azure Storage account that an HDInsight cluster uses.
+### -StatusFolder
+Specifies the location of the folder that contains standard outputs and error outputs for a job.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
 Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -DefaultStorageAccountName
-Specifies the name of the default storage account that the HDInsight cluster uses.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -DefaultStorageAccountKey
-Specifies the account key for the default storage account that the HDInsight cluster uses.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -InformationAction
-Specifies how this cmdlet responds to an information event.
-
-The acceptable values for this parameter are:
-
-- Continue
-- Ignore
-- Inquire
-- SilentlyContinue
-- Stop
-- Suspend
-
-```yaml
-Type: ActionPreference
-Parameter Sets: (All)
-Aliases: infa
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -InformationVariable
-Specifies an information variable.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: iv
 
 Required: False
 Position: Named
@@ -288,9 +282,9 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## OUTPUTS
 
 ## NOTES
+Keywords: azure, azurerm, arm, resource, management, manager, hadoop, hdinsight, hd, insight
 
 ## RELATED LINKS
 
-[Use-AzureRmHDInsightCluster](./Use-AzureRmHDInsightCluster.md)
-
+[Use-AzureRmHDInsightCluster]()
 

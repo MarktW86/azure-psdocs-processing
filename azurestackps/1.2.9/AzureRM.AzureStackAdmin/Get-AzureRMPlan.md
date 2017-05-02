@@ -2,11 +2,11 @@
 external help file: Microsoft.AzureStack.Commands.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 04/20/2017 23:04 PM
-ms.date: 04/20/2017
+updated_at: 05/02/2017 19:05 PM
+ms.date: 05/02/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/Get-AzureRMPlan.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/Get-AzureRMPlan.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d4f2539c40b2f09416fa3e1d384a0a1f0183fb5e
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/64ea21b6f9d300bac04d2df45c463f94a5e389b4
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -19,7 +19,7 @@ ms.service: azure-stack
 # Get-AzureRMPlan
 
 ## SYNOPSIS
-The Get-AzureRmPlan cmdlet gets the plan details
+Gets the details of a plan.
 
 ## SYNTAX
 
@@ -42,27 +42,22 @@ Get-AzureRMPlan [-Name <String>] -ResourceGroup <String> [-Managed] [-Informatio
 ```
 
 ## DESCRIPTION
-The Get-AzureRmPlan cmdlet gets the plan details
+The **Get-AzureRmPlan** cmdlet gets the details of a plan. This cmdlet can be executed as a service administrator or as a tenant user.
 
 ## EXAMPLES
 
-### Example 1:
+### Example 1: Run the cmdlet as a service administrator to get the details of the specified plan
 ```
 Get-AzureRMPlan -Name "ComputePlan" -ResourceGroup "PlanGroup" -Managed
 ```
 
-Description
-
------------
-
-The example gets the plan named 'ComputePlan'
+This example gets the details of the plan named "ComputePlan" and created in the resource group "PlanGroup".
+The presence of the **Managed** parameter runs the cmdlet as a service administrator.
 
 ## PARAMETERS
 
 ### -InformationAction
-Not Specified
-
-The following values are permitted for this object type.
+Specifies how this cmdlet responds to an information event.
 
 ```yaml
 Type: ActionPreference
@@ -78,7 +73,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-Not Specified
+Specifies a variable that is used for storing an informational message.
 
 ```yaml
 Type: String
@@ -93,12 +88,12 @@ Accept wildcard characters: False
 ```
 
 ### -Managed
-@{Text=}
+Indicates whether the operation is being executed as a service administrator.
 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Admin
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -108,12 +103,12 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-Specifies the name of the plan
+Specifies the name of the plan.
 
 ```yaml
 Type: String
 Parameter Sets: TenantGet
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -125,7 +120,7 @@ Accept wildcard characters: False
 ```yaml
 Type: String
 Parameter Sets: Admin
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -135,7 +130,7 @@ Accept wildcard characters: False
 ```
 
 ### -PipelineVariable
-Not Specified
+Specifies a variable that stores the value of the current pipeline element.
 
 ```yaml
 Type: String
@@ -150,12 +145,12 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroup
-Specifies the resource group name
+Specifies name of the resource group where the plan was created.
 
 ```yaml
 Type: String
 Parameter Sets: Admin
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -169,6 +164,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## INPUTS
 
+### None
+
 ## OUTPUTS
 
 ### Microsoft.AzureStack.Management.Models.AdminPlanModel
@@ -176,4 +173,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-

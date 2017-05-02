@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.Azure.Commands.Compute.dll-Help.xml
+ms.assetid: BF0BCB7F-9C46-45BB-9324-5C8EB29CECC1
 online version:
 schema: 2.0.0
-ms.assetid: BF0BCB7F-9C46-45BB-9324-5C8EB29CECC1
-updated_at: 11/01/2016 22:11 PM
-ms.date: 11/01/2016
+updated_at: 05/01/2017 21:05 PM
+ms.date: 05/01/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Add-AzureRmVmssAdditionalUnattendContent.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Add-AzureRmVmssAdditionalUnattendContent.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0589fbf53d27e39e0cf445261d29c64fb0859d62
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -45,38 +45,6 @@ This command adds information to the unattended Windows Setup answer file.
 
 ## PARAMETERS
 
-### -VirtualMachineScaleSet
-Specify the virtual machine **Scale Set** object.
-You can use the New-AzureRmVmssConfig cmdlet to create the object.
-
-```yaml
-Type: VirtualMachineScaleSet
-Parameter Sets: (All)
-Aliases: 
-
-Required: True
-Position: 0
-Default value: None
-Accept pipeline input: True (ByPropertyName, ByValue)
-Accept wildcard characters: False
-```
-
-### -PassName
-Specifies the name of the pass that the content applies to.
-The only allowable value is oobeSystem.
-
-```yaml
-Type: PassNames
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: 1
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
 ### -ComponentName
 Specifies the name of the component to configure with the added content.
 The only allowable value is Microsoft-Windows-Shell-Setup.
@@ -88,25 +56,6 @@ Aliases:
 
 Required: False
 Position: 2
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -SettingName
-Specifies the name of the setting to which the content applies.
-psdx_paramvalues:
-
-- FirstLogonCommands
-- AutoLogon
-
-```yaml
-Type: SettingNames
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: 3
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
@@ -163,6 +112,57 @@ Required: False
 Position: Named
 Default value: None
 Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -PassName
+Specifies the name of the pass that the content applies to.
+The only allowable value is oobeSystem.
+
+```yaml
+Type: PassNames
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: 1
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -SettingName
+Specifies the name of the setting to which the content applies.
+psdx_paramvalues:
+
+- FirstLogonCommands
+- AutoLogon
+
+```yaml
+Type: SettingNames
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: 3
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -VirtualMachineScaleSet
+Specify the virtual machine **Scale Set** object.
+You can use the New-AzureRmVmssConfig cmdlet to create the object.
+
+```yaml
+Type: VirtualMachineScaleSet
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: 0
+Default value: None
+Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
 ```
 

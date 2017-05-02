@@ -2,11 +2,11 @@
 external help file: Microsoft.AzureStack.AzureConsistentStorage.Commands.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 04/26/2017 00:04 AM
-ms.date: 04/26/2017
+updated_at: 05/02/2017 20:05 PM
+ms.date: 05/02/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Get-ACSQueueServiceMetric.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Get-ACSQueueServiceMetric.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/6ec3f30a81fcea3164edc82f2757ecfc1f9403c6
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/13ec13c1a9baa09b68c680eedfd83bb954580446
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -19,7 +19,7 @@ ms.service: azure-stack
 # Get-ACSQueueServiceMetric
 
 ## SYNOPSIS
-Retrieve the metrics of Queue service
+Gets the metrics of Queue service.
 
 ## SYNTAX
 
@@ -31,21 +31,14 @@ Get-ACSQueueServiceMetric [-FarmName] <String> [-ResourceGroupName] <String> [-T
 ```
 
 ## DESCRIPTION
-Retrieve the metrics of Queue service
+The **Get-ACSQueueServiceMetric** cmdlet gets the metrics of Queue service.
 
 ## EXAMPLES
-
-### Example 1
-```
-PS C:\> {{ Add example code here }}
-```
-
-{{ Add example description here }}
 
 ## PARAMETERS
 
 ### -AdminUri
-
+Specifies the link, as a URI, to the service admin.
 
 ```yaml
 Type: Uri
@@ -60,7 +53,7 @@ Accept wildcard characters: False
 ```
 
 ### -DetailedOutput
-{{Fill DetailedOutput Description}}
+Indicates the cmdlet gets the detailed metric information from the ACS Queue service.
 
 ```yaml
 Type: SwitchParameter
@@ -75,7 +68,7 @@ Accept wildcard characters: False
 ```
 
 ### -EndTimeInUtc
-{{Fill EndTimeInUtc Description}}
+
 
 ```yaml
 Type: DateTime
@@ -90,7 +83,7 @@ Accept wildcard characters: False
 ```
 
 ### -FarmName
-
+Specifies the name of the ACS farm that this cmdlet gets the queue service metric information from.
 
 ```yaml
 Type: String
@@ -144,7 +137,7 @@ Accept wildcard characters: False
 ```
 
 ### -MetricNames
-
+Specifies a string array of metric names that this cmdlet gets.
 
 ```yaml
 Type: String[]
@@ -159,7 +152,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-
+Specifies the name of the resource group that contains the ACS farm.
 
 ```yaml
 Type: String
@@ -174,7 +167,7 @@ Accept wildcard characters: False
 ```
 
 ### -SkipCertificateValidation
-
+Indicates that the cmdlet does not validate the certificate.
 
 ```yaml
 Type: SwitchParameter
@@ -189,7 +182,7 @@ Accept wildcard characters: False
 ```
 
 ### -StartTimeInUtc
-{{Fill StartTimeInUtc Description}}
+
 
 ```yaml
 Type: DateTime
@@ -204,7 +197,7 @@ Accept wildcard characters: False
 ```
 
 ### -SubscriptionId
-
+Specifies the subscription ID.
 
 ```yaml
 Type: String
@@ -264,3 +257,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+
+[Get-ACSQueueService](./Get-ACSBlobService.md)
+
+[Get-ACSQueueServiceMetricDefinition](./Get-ACSBlobServiceMetricDefinition.md)
