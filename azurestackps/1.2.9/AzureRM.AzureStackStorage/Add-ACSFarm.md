@@ -2,11 +2,11 @@
 external help file: Microsoft.AzureStack.AzureConsistentStorage.Commands.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 04/26/2017 18:04 PM
-ms.date: 04/26/2017
+updated_at: 04/28/2017 21:04 PM
+ms.date: 04/28/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Add-ACSFarm.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Add-ACSFarm.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/51953647469adcc8031e9f92fbb62504cafc3aa8
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/75431b1f2193df6595896df8a0c0bb66ae1d12ac
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -31,7 +31,7 @@ Add-ACSFarm [-ResourceGroupName] <String> [-FarmName] <String> [-SettingAccessSt
 ```
 
 ## DESCRIPTION
-The **Add-ACSFarm** cmdlet registers a provisioned Access Control Server (ASS) farm.
+The **Add-ACSFarm** cmdlet registers a provisioned Azure Consistent Storage (ACS) farm.
 Service Admin uses the cmdlet to registered that farm to Service Resource Provider (SRP).
 
 ## EXAMPLES

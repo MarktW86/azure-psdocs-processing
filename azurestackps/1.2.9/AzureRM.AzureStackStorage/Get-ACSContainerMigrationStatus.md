@@ -2,11 +2,11 @@
 external help file: Microsoft.AzureStack.AzureConsistentStorage.Commands.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 04/27/2017 13:04 PM
-ms.date: 04/27/2017
+updated_at: 05/02/2017 20:05 PM
+ms.date: 05/02/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Get-ACSContainerMigrationStatus.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Get-ACSContainerMigrationStatus.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/9a4c46f4a899f4d01966831d3cc84fd5672d8b5d
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/13ec13c1a9baa09b68c680eedfd83bb954580446
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -19,7 +19,7 @@ ms.service: azure-stack
 # Get-ACSContainerMigrationStatus
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+Gets the ACS container migration status.
 
 ## SYNTAX
 
@@ -30,16 +30,9 @@ Get-ACSContainerMigrationStatus [-ResourceGroupName] <String> [-FarmName] <Strin
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+The **Get-ACSContainerMigrationStatus** cmdlet gets the Azure Consistent Storage (ACS) container migration status.
 
 ## EXAMPLES
-
-### Example 1
-```
-PS C:\> {{ Add example code here }}
-```
-
-{{ Add example description here }}
 
 ## PARAMETERS
 
@@ -59,7 +52,7 @@ Accept wildcard characters: False
 ```
 
 ### -FarmName
-{{Fill FarmName Description}}
+Specifies the name of the server farm.
 
 ```yaml
 Type: String
@@ -74,7 +67,7 @@ Accept wildcard characters: False
 ```
 
 ### -JobId
-{{Fill JobId Description}}
+Specifies the ACS container migration status Job ID.
 
 ```yaml
 Type: String
@@ -89,7 +82,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-{{Fill ResourceGroupName Description}}
+Specifies the name of the resource group that contains the ACS container.
 
 ```yaml
 Type: String
@@ -104,7 +97,7 @@ Accept wildcard characters: False
 ```
 
 ### -SkipCertificateValidation
-{{Fill SkipCertificateValidation Description}}
+Indicates that the cmdlet does not validate the certificate.
 
 ```yaml
 Type: SwitchParameter
@@ -119,7 +112,7 @@ Accept wildcard characters: False
 ```
 
 ### -SubscriptionId
-{{Fill SubscriptionId Description}}
+Specifies the subscription ID.
 
 ```yaml
 Type: String
@@ -134,7 +127,7 @@ Accept wildcard characters: False
 ```
 
 ### -Token
-{{Fill Token Description}}
+
 
 ```yaml
 Type: String
@@ -164,3 +157,4 @@ System.Uri
 
 ## RELATED LINKS
 
+[Get-ACSContainer](./Get-ACSContainer.md)
