@@ -2,11 +2,11 @@
 external help file: Microsoft.AzureStack.Commands.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 04/25/2017 19:04 PM
-ms.date: 04/25/2017
+updated_at: 05/02/2017 19:05 PM
+ms.date: 05/02/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/Get-AzureRMOffer.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/Get-AzureRMOffer.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/c4315559410058943d9b4bbae2b76e607f21de95
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/64ea21b6f9d300bac04d2df45c463f94a5e389b4
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -19,7 +19,7 @@ ms.service: azure-stack
 # Get-AzureRMOffer
 
 ## SYNOPSIS
-Gets an offer.
+Gets an offer as an administrator or as a tenant user.
 
 ## SYNTAX
 
@@ -46,24 +46,24 @@ The **Get-AzureRMOffer** cmdlet gets an offer. This cmdlet can be executed as a 
 
 ## EXAMPLES
 
-### Example 1:
+### Example 1: Run the cmdlet as a service administrator to get the specified offer
 ```
 Get-AzureRMOffer -Name "ComputeOffer" -ResourceGroup "OfferGroup" -Managed
 ```
 
-This command gets the offer named "ComputeOffer" and created in the "OfferGroup" resource group. This command is being executed as a service administrator.
+This example gets the offer named "ComputeOffer" and created in the "OfferGroup" resource group. The presence of the **Managed** parameter runs the cmdlet as a service administrator.
 
-### Example 2:
+### Example 2: Run the cmdlet as a tenant user to get a list of offers
 ```
 Get-AzureRMOffer -Provider "default" | Where-Object name -eq "ComputeOffer"
 ```
 
-This command gets the list of public offers. The command is being executed as a tenant user.
+This example gets a list of public offers and then pipes the list to the **Where-Object** cmdlet to filter out all offers except the ones named "ComputeOffer".
 
 ## PARAMETERS
 
 ### -InformationAction
-Not Specified.
+Specifies how this cmdlet responds to an information event.
 
 ```yaml
 Type: ActionPreference
@@ -79,7 +79,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-Not Specified.
+Specifies a variable that is used for storing an informational message.
 
 ```yaml
 Type: String
@@ -139,7 +139,7 @@ Accept wildcard characters: False
 ```
 
 ### -PipelineVariable
-Not Specified.
+Specifies a variable that stores the value of the current pipeline element.
 
 ```yaml
 Type: String

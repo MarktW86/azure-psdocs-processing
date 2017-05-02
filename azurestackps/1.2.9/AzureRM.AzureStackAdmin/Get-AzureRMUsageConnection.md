@@ -2,11 +2,11 @@
 external help file: Microsoft.AzureStack.Commands.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 04/25/2017 18:04 PM
-ms.date: 04/25/2017
+updated_at: 05/02/2017 19:05 PM
+ms.date: 05/02/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/Get-AzureRMUsageConnection.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/Get-AzureRMUsageConnection.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/9c6c7ffcf11db099b87d00d6019bdaf3d4e13521
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/64ea21b6f9d300bac04d2df45c463f94a5e389b4
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -33,17 +33,17 @@ The **Get-AzureRMUsageConnection** cmdlet gets information about a usage connect
 
 ## EXAMPLES
 
-### Example 1
+### Example 1: Get information about the specified usage connection
 ```
 Get-AzureRMUsageConnection -Name "sqlrpusageconnection" -ResourceGroup "UsageConnectionRG"
 ```
 
-This command gets information for the "sqlrpusageconnection" usage connection in the "UsageConnectionRG" resource group.
+This example gets information for the "sqlrpusageconnection" usage connection in the "UsageConnectionRG" resource group.
 
 ## PARAMETERS
 
 ### -InformationAction
-Not Specified.
+Specifies how this cmdlet responds to an information event.
 
 ```yaml
 Type: ActionPreference
@@ -59,7 +59,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-Not Specified.
+Specifies a variable that is used for storing an informational message.
 
 ```yaml
 Type: String
@@ -89,7 +89,7 @@ Accept wildcard characters: False
 ```
 
 ### -PipelineVariable
-Not Specified.
+Specifies a variable that stores the value of the current pipeline element.
 
 ```yaml
 Type: String

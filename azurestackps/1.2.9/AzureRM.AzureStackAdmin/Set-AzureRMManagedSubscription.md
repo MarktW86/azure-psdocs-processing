@@ -2,11 +2,11 @@
 external help file: Microsoft.AzureStack.Commands.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 04/25/2017 18:04 PM
-ms.date: 04/25/2017
+updated_at: 05/02/2017 19:05 PM
+ms.date: 05/02/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/Set-AzureRMManagedSubscription.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/Set-AzureRMManagedSubscription.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/9c6c7ffcf11db099b87d00d6019bdaf3d4e13521
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/64ea21b6f9d300bac04d2df45c463f94a5e389b4
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -19,7 +19,7 @@ ms.service: azure-stack
 # Set-AzureRMManagedSubscription
 
 ## SYNOPSIS
-Updates the subscription of any tenant user.
+Modifies the subscription of any tenant user.
 
 ## SYNTAX
 
@@ -30,23 +30,25 @@ Set-AzureRMManagedSubscription -Subscription <AdminSubscriptionDefinition>
 ```
 
 ## DESCRIPTION
-The **Set-AzureRMManagedSubscription** cmdlet updates the subscription of any tenant user. The user must be logged in as a service administrator before issuing this cmdlet.
+The **Set-AzureRMManagedSubscription** cmdlet modifies the subscription of any tenant user. The user must be logged in as a service administrator before issuing this cmdlet.
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1: Change a property of a target subscription
 ```
-$subscriptionUpdated = Get-AzureRMManagedSubscription -TargetSubscriptionId "2fff214f-8589-4d25-b468-dc99320724bc"
-$subscriptionUpdated.OfferId = "Abc123"
-Set-AzureRMManagedSubscription -Subscription $subscriptionUpdated
+$subscriptionToUpdate = Get-AzureRMManagedSubscription -TargetSubscriptionId "2fff214f-8589-4d25-b468-dc99320724bc"
+$subscriptionToUpdate.OfferId = "Abc123"
+Set-AzureRMManagedSubscription -Subscription $subscriptionToUpdate
 ```
 
-This example modifies the **OfferId** property of a **SubscriptionDefinition** object and then passes the object in the **Subscription** parameter of the ** Set-AzureRMManagedSubscription** cmdlet.
+This example modifies the **OfferId** property of the target subscription that has the subscription ID "2fff214f-8589-4d25-b468-dc99320724bc".
+The first statement gets the subscription and stores the object in the $subscriptionToUpdate variable.
+After the **OfferId** property is changed, the updated object is passed in the **Subscription** parameter of the **Set-AzureRMManagedSubscription** cmdlet.
 
 ## PARAMETERS
 
 ### -InformationAction
-Not specified.
+Specifies how this cmdlet responds to an information event.
 
 ```yaml
 Type: ActionPreference
@@ -62,7 +64,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-Not specified.
+Specifies a variable that is used for storing an informational message.
 
 ```yaml
 Type: String
@@ -77,7 +79,7 @@ Accept wildcard characters: False
 ```
 
 ### -PipelineVariable
-Not specified.
+Specifies a variable that stores the value of the current pipeline element.
 
 ```yaml
 Type: String

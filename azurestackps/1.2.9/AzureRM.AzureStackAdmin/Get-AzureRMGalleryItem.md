@@ -2,11 +2,11 @@
 external help file: Microsoft.AzureStack.Commands.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 04/25/2017 19:04 PM
-ms.date: 04/25/2017
+updated_at: 05/02/2017 19:05 PM
+ms.date: 05/02/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/Get-AzureRMGalleryItem.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/Get-AzureRMGalleryItem.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/c4315559410058943d9b4bbae2b76e607f21de95
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/64ea21b6f9d300bac04d2df45c463f94a5e389b4
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -19,7 +19,7 @@ ms.service: azure-stack
 # Get-AzureRMGalleryItem
 
 ## SYNOPSIS
-Gets the gallery item.
+Gets a gallery item.
 
 ## SYNTAX
 
@@ -29,21 +29,21 @@ Get-AzureRMGalleryItem [-Name <String>] [-InformationAction <ActionPreference>] 
 ```
 
 ## DESCRIPTION
-The **Get-AzureRmGalleryItem** cmdlet gets the gallery item.
+The **Get-AzureRmGalleryItem** cmdlet gets a gallery item.
 
 ## EXAMPLES
 
-### Example 1:
+### Example 1: Get the gallery item having the specified name
 ```
-Get-AzureRMGalleryItem -Name "Microsoft.SqlDatabase.0.1.0" -ApiVersion "2015-04-01"
+Get-AzureRMGalleryItem -Name "Microsoft.SqlDatabase.0.1.0"
 ```
 
-This command gets the gallery item named 'Microsoft.SqlDatabase.0.1.0'.
+This example gets the gallery item named "Microsoft.SqlDatabase.0.1.0".
 
 ## PARAMETERS
 
 ### -InformationAction
-Not Specified.
+Specifies how this cmdlet responds to an information event.
 
 ```yaml
 Type: ActionPreference
@@ -59,7 +59,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-Not Specified.
+Specifies a variable that is used for storing an informational message.
 
 ```yaml
 Type: String
@@ -89,7 +89,7 @@ Accept wildcard characters: False
 ```
 
 ### -PipelineVariable
-Not Specified.
+Specifies a variable that stores the value of the current pipeline element.
 
 ```yaml
 Type: String
