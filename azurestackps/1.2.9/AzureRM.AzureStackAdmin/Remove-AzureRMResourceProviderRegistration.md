@@ -2,11 +2,11 @@
 external help file: Microsoft.AzureStack.Commands.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 04/25/2017 19:04 PM
-ms.date: 04/25/2017
+updated_at: 05/02/2017 19:05 PM
+ms.date: 05/02/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/Remove-AzureRMResourceProviderRegistration.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/Remove-AzureRMResourceProviderRegistration.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/c4315559410058943d9b4bbae2b76e607f21de95
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/64ea21b6f9d300bac04d2df45c463f94a5e389b4
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -19,7 +19,7 @@ ms.service: azure-stack
 # Remove-AzureRMResourceProviderRegistration
 
 ## SYNOPSIS
-Removes the resource provider manifest.
+Removes a resource provider manifest.
 
 ## SYNTAX
 
@@ -30,21 +30,21 @@ Remove-AzureRMResourceProviderRegistration -Name <String> -ResourceGroup <String
 ```
 
 ## DESCRIPTION
-The **Remove-ResourceProviderRegistration** cmdlet removes the resource provider manifest.
+The **Remove-ResourceProviderRegistration** cmdlet removes a resource provider manifest.
 
 ## EXAMPLES
 
-### Example 1:
+### Example 1: Remove the specified resource provider manifest
 ```
 Remove-ResourceProviderRegistration -Name "Microsoft.Sql.Admin" -ResourceGroup "system"
 ```
 
-This command removes the resource provider manifest named "Microsoft.Sql.Admin" that is in the "system" resource group.
+This example removes the resource provider manifest named "Microsoft.Sql.Admin" that is in the "system" resource group.
 
 ## PARAMETERS
 
 ### -InformationAction
-Not specified.
+Specifies how this cmdlet responds to an information event.
 
 ```yaml
 Type: ActionPreference
@@ -60,7 +60,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-Not specified.
+Specifies a variable that is used for storing an informational message.
 
 ```yaml
 Type: String
@@ -90,7 +90,7 @@ Accept wildcard characters: False
 ```
 
 ### -PipelineVariable
-Not specified.
+Specifies a variable that stores the value of the current pipeline element.
 
 ```yaml
 Type: String

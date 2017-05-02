@@ -2,11 +2,11 @@
 external help file: Microsoft.AzureStack.Commands.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 04/25/2017 19:04 PM
-ms.date: 04/25/2017
+updated_at: 05/02/2017 19:05 PM
+ms.date: 05/02/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/New-AzureRMManagedLocation.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/New-AzureRMManagedLocation.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/c4315559410058943d9b4bbae2b76e607f21de95
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/64ea21b6f9d300bac04d2df45c463f94a5e389b4
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -30,16 +30,16 @@ New-AzureRMManagedLocation -Name <String> -DisplayName <String> -Latitude <Doubl
 ```
 
 ## DESCRIPTION
-The **New-AzureRmManagedLocation** cmdlet creates a new location managed by the Azure stack Resource Manager. The resource providers can be deployed in the new location.
+The **New-AzureRmManagedLocation** cmdlet creates a new location managed by the Azure stack resource manager. The resource providers can be deployed in the new location.
 
 ## EXAMPLES
 
-### Example 1:
+### Example 1: Create a managed location
 ```
 New-AzureRMManagedLocation -Name "LocationName" -DisplayName "LocationName" -Latitude 80.5 -Longitude -45.5
 ```
 
-This command creates a new location named "LocationName".
+This example creates a new location named "LocationName" with latitude of 80.5 degrees and longitude of -45.5 degrees.
 
 ## PARAMETERS
 
@@ -59,7 +59,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-Not Specified.
+Specifies how this cmdlet responds to an information event.
 
 ```yaml
 Type: ActionPreference
@@ -75,7 +75,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-Not Specified.
+Specifies a variable that is used for storing an informational message.
 
 ```yaml
 Type: String
@@ -135,7 +135,7 @@ Accept wildcard characters: False
 ```
 
 ### -PipelineVariable
-Not Specified.
+Specifies a variable that stores the value of the current pipeline element.
 
 ```yaml
 Type: String

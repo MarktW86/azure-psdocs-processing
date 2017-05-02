@@ -2,11 +2,11 @@
 external help file: Microsoft.AzureStack.Commands.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 04/25/2017 19:04 PM
-ms.date: 04/25/2017
+updated_at: 05/02/2017 19:05 PM
+ms.date: 05/02/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/Add-AzureRMUsageConnection.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/Add-AzureRMUsageConnection.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/c4315559410058943d9b4bbae2b76e607f21de95
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/64ea21b6f9d300bac04d2df45c463f94a5e389b4
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -36,7 +36,7 @@ The **Add-AzureRMUsageConnection** cmdlet adds usage connection details for a re
 
 ## EXAMPLES
 
-### Example 1:
+### Example 1: Add usage connection details for the resource provider in the specified resource group
 ```
 $usageConnectionId = "sqlrpusageconnection"
 $location = "local"
@@ -53,9 +53,8 @@ $usageReportingTable = "sqlrpusagetable"
 $errorReportingQueue = "sqlrpusageerrorqueue"
 $errorReportingTable = "sqlrpusageerrortable"
 
-# Create Storage Account If Other than DevStorage
+# Create storage account if other than DevStorage
 $storageConnectionString = "UseDevelopmentStorage=true"
-
 
 $usageConnectionParams = @{
 Name = $usageConnectionId
@@ -68,18 +67,17 @@ UsageReportingQueue = $usageReportingQueue
 UsageReportingTable = $usageReportingTable
 ErrorReportingQueue = $errorReportingQueue
 ErrorReportingTable = $errorReportingTable
-ApiVersion = "2015-06-01-preview"
 }
 
 Add-AzureRmUsageConnection @usageConnectionParams
 ```
 
-This example registers the usage connection information of a resource provider to usage service.
+This example creates a resource group named "UsageConnectionRG" and adds usage connection details for the resource provider in this resource group.
 
 ## PARAMETERS
 
 ### -ArmLocation
-Specifies the location of the resource manager instance in the Azure Stack installation.
+Specifies the location of the resource manager in the Azure Stack.
 
 ```yaml
 Type: String
@@ -124,7 +122,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-Not Specified.
+Specifies how this cmdlet responds to an information event.
 
 ```yaml
 Type: ActionPreference
@@ -140,7 +138,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-Not Specified.
+Specifies a variable that is used for storing an informational message.
 
 ```yaml
 Type: String
@@ -170,7 +168,7 @@ Accept wildcard characters: False
 ```
 
 ### -PipelineVariable
-Not Specified.
+Specifies a variable that stores the value of the current pipeline element.
 
 ```yaml
 Type: String
