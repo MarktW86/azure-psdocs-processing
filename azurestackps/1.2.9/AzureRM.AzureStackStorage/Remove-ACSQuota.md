@@ -2,11 +2,11 @@
 external help file: Microsoft.AzureStack.AzureConsistentStorage.Commands.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 05/02/2017 20:05 PM
+updated_at: 05/02/2017 22:05 PM
 ms.date: 05/02/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/Graham71305/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Remove-ACSQuota.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/Graham71305/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Remove-ACSQuota.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/13ec13c1a9baa09b68c680eedfd83bb954580446
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/8be3c27a59771ebd9a10c0f704e4d42f41811531
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -19,7 +19,7 @@ ms.service: azure-stack
 # Remove-ACSQuota
 
 ## SYNOPSIS
-Removes the Storage quota resource
+Removes the Storage quota resource.
 
 ## SYNTAX
 
@@ -30,14 +30,11 @@ Remove-ACSQuota [-Location] <String> [-Name] <String> [[-SubscriptionId] <String
 ```
 
 ## DESCRIPTION
-The Remove-ACSQuota cmdlet removes the Storage Quota resource created by the admins.
+The **Remove-ACSQuota** cmdlet removes the Storage Quota resource.
 
 ## EXAMPLES
 
 ### Example 1:
-@{paragraph=PS C:\\\>}
-
-
 
 ```
 $ResourceGroup = "System"
