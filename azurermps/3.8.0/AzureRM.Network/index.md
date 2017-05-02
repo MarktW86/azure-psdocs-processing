@@ -25,8 +25,8 @@ Add-AzureRmApplicationGatewayProbeConfig: Application Gateway
 Add-AzureRmApplicationGatewayRequestRoutingRule: Application Gateway
 Add-AzureRmApplicationGatewaySslCertificate: Application Gateway
 Add-AzureRmApplicationGatewayUrlPathMapConfig: Application Gateway
-Add-AzureRmExpressRouteCircuitAuthorization: ExpressRoute
-Add-AzureRmExpressRouteCircuitPeeringConfig: ExpressRoute
+Add-AzureRmExpressRouteCircuitAuthorization: Route
+Add-AzureRmExpressRouteCircuitPeeringConfig: Route
 Add-AzureRmLoadBalancerBackendAddressPoolConfig: Load Balancer
 Add-AzureRmLoadBalancerFrontendIpConfig: Load Balancer
 Add-AzureRmLoadBalancerInboundNatPoolConfig: Load Balancer
@@ -63,14 +63,14 @@ Get-AzureRmApplicationGatewayWebApplicationFirewallConfiguration: Application Ga
 Get-AzureRmBgpServiceCommunity: Networking
 Get-AzureRmEffectiveNetworkSecurityGroup: Networking
 Get-AzureRmEffectiveRouteTable: Route
-Get-AzureRmExpressRouteCircuit: ExpressRoute
-Get-AzureRmExpressRouteCircuitARPTable: ExpressRoute
-Get-AzureRmExpressRouteCircuitAuthorization: ExpressRoute
-Get-AzureRmExpressRouteCircuitPeeringConfig: ExpressRoute
-Get-AzureRmExpressRouteCircuitRouteTable: ExpressRoute
-Get-AzureRmExpressRouteCircuitRouteTableSummary: ExpressRoute
-Get-AzureRmExpressRouteCircuitStats: ExpressRoute
-Get-AzureRmExpressRouteServiceProvider: ExpressRoute
+Get-AzureRmExpressRouteCircuit: Route
+Get-AzureRmExpressRouteCircuitARPTable: Route
+Get-AzureRmExpressRouteCircuitAuthorization: Route
+Get-AzureRmExpressRouteCircuitPeeringConfig: Route
+Get-AzureRmExpressRouteCircuitRouteTable: Route
+Get-AzureRmExpressRouteCircuitRouteTableSummary: Route
+Get-AzureRmExpressRouteCircuitStats: Route
+Get-AzureRmExpressRouteServiceProvider: Route
 Get-AzureRmLoadBalancer: Load Balancer
 Get-AzureRmLoadBalancerBackendAddressPoolConfig: Load Balancer
 Get-AzureRmLoadBalancerFrontendIpConfig: Load Balancer
@@ -107,7 +107,7 @@ Get-AzureRmVirtualNetworkSubnetConfig: Virtual Network
 Get-AzureRmVpnClientPackage: VPN
 Get-AzureRmVpnClientRevokedCertificate: VPN
 Get-AzureRmVpnClientRootCertificate: VPN
-Move-AzureRmExpressRouteCircuit: ExpressRoute
+Move-AzureRmExpressRouteCircuit: Route
 New-AzureRmApplicationGateway: Application Gateway
 New-AzureRmApplicationGatewayAuthenticationCertificate: Application Gateway
 New-AzureRmApplicationGatewayBackendAddressPool: Application Gateway
@@ -126,9 +126,9 @@ New-AzureRmApplicationGatewaySslCertificate: Application Gateway
 New-AzureRmApplicationGatewaySslPolicy: Application Gateway
 New-AzureRmApplicationGatewayUrlPathMapConfig: Application Gateway
 New-AzureRmApplicationGatewayWebApplicationFirewallConfiguration: Application Gateway
-New-AzureRmExpressRouteCircuit: ExpressRoute
-New-AzureRmExpressRouteCircuitAuthorization: ExpressRoute
-New-AzureRmExpressRouteCircuitPeeringConfig: ExpressRoute
+New-AzureRmExpressRouteCircuit: Route
+New-AzureRmExpressRouteCircuitAuthorization: Route
+New-AzureRmExpressRouteCircuitPeeringConfig: Route
 New-AzureRmIpsecPolicy: Networking
 New-AzureRmLoadBalancer: Load Balancer
 New-AzureRmLoadBalancerBackendAddressPoolConfig: Load Balancer
@@ -171,9 +171,9 @@ Remove-AzureRmApplicationGatewayRequestRoutingRule: Application Gateway
 Remove-AzureRmApplicationGatewaySslCertificate: Application Gateway
 Remove-AzureRmApplicationGatewaySslPolicy: Application Gateway
 Remove-AzureRmApplicationGatewayUrlPathMapConfig: Application Gateway
-Remove-AzureRmExpressRouteCircuit: ExpressRoute
-Remove-AzureRmExpressRouteCircuitAuthorization: ExpressRoute
-Remove-AzureRmExpressRouteCircuitPeeringConfig: ExpressRoute
+Remove-AzureRmExpressRouteCircuit: Route
+Remove-AzureRmExpressRouteCircuitAuthorization: Route
+Remove-AzureRmExpressRouteCircuitPeeringConfig: Route
 Remove-AzureRmLoadBalancer: Load Balancer
 Remove-AzureRmLoadBalancerBackendAddressPoolConfig: Load Balancer
 Remove-AzureRmLoadBalancerFrontendIpConfig: Load Balancer
@@ -221,8 +221,8 @@ Set-AzureRmApplicationGatewaySslCertificate: Application Gateway
 Set-AzureRmApplicationGatewaySslPolicy: Application Gateway
 Set-AzureRmApplicationGatewayUrlPathMapConfig: Application Gateway
 Set-AzureRmApplicationGatewayWebApplicationFirewallConfiguration: Application Gateway
-Set-AzureRmExpressRouteCircuit: ExpressRoute
-Set-AzureRmExpressRouteCircuitPeeringConfig: ExpressRoute
+Set-AzureRmExpressRouteCircuit: Route
+Set-AzureRmExpressRouteCircuitPeeringConfig: Route
 Set-AzureRmLoadBalancer: Load Balancer
 Set-AzureRmLoadBalancerFrontendIpConfig: Load Balancer
 Set-AzureRmLoadBalancerInboundNatPoolConfig: Load Balancer
@@ -246,7 +246,7 @@ Set-AzureRmVirtualNetworkGateway: Virtual Network
 Set-AzureRmVirtualNetworkGatewayConnection: Virtual Network
 Set-AzureRmVirtualNetworkGatewayConnectionSharedKey: Virtual Network
 Set-AzureRmVirtualNetworkGatewayDefaultSite: Virtual Network
-Set-AzureRmVirtualNetworkGatewayVpnClientConfig: Virtual Network
+Set-AzureRmVirtualNetworkGatewayVpnClientConfig: VPN
 Set-AzureRmVirtualNetworkPeering: Virtual Network
 Set-AzureRmVirtualNetworkSubnetConfig: Virtual Network
 Start-AzureRmApplicationGateway: Application Gateway

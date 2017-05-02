@@ -33,7 +33,7 @@ Get-AzureRmProviderOperation: Resources
 Get-AzureRmResource: Resources
 Get-AzureRmResourceGroup: Resources
 Get-AzureRmResourceGroupDeployment: Resources
-Get-AzureRmResourceGroupDeploymentOperation: Resources
+Get-AzureRmResourceGroupDeploymentOperation: Active Directory
 Get-AzureRmResourceLock: Resources
 Get-AzureRmResourceProvider: Resources
 Get-AzureRmRoleAssignment: Resources

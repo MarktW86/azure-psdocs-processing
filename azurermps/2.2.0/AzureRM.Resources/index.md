@@ -66,9 +66,9 @@ Remove-AzureRmResource: Resources
 Remove-AzureRmResourceGroup: Resources
 Remove-AzureRmResourceGroupDeployment: Resources
 Remove-AzureRmResourceLock: Resources
-Remove-AzureRmRoleAssignment: Resources
+Remove-AzureRmRoleAssignment: Active Directory
 Remove-AzureRmRoleDefinition: Resources
-Save-AzureRmResourceGroupDeploymentTemplate: Resources
+Save-AzureRmResourceGroupDeploymentTemplate: Active Directory
 Set-AzureRmADApplication: Active Directory
 Set-AzureRmADServicePrincipal: Active Directory
 Set-AzureRmADUser: Active Directory

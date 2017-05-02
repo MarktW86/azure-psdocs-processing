@@ -30,7 +30,7 @@ Get-AzureRmPolicyAssignment: Policies
 Get-AzureRmPolicyDefinition: Policies
 Get-AzureRmProviderFeature: Resources
 Get-AzureRmProviderOperation: Resources
-Get-AzureRmResource: Resources
+Get-AzureRmResource: Policies
 Get-AzureRmResourceGroup: Resources
 Get-AzureRmResourceGroupDeployment: Resources
 Get-AzureRmResourceGroupDeploymentOperation: Resources

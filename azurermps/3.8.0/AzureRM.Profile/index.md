@@ -23,8 +23,8 @@ Get-AzureRmEnvironment: Profile
 Get-AzureRmSubscription: Profile
 Get-AzureRmTenant: Profile
 Remove-AzureRmEnvironment: Profile
-Save-AzureRmProfile: Profile
-Select-AzureRmProfile: Profile
+Save-AzureRmProfile: Others
+Select-AzureRmProfile: Others
 Set-AzureRmContext: Profile
 Set-AzureRmEnvironment: Profile
 _isModulePage: true
