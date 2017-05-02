@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.Azure.Commands.ResourceManager.Cmdlets.dll-Help.xml
+ms.assetid: F5A16912-11C5-40D3-8068-CF598DB80309
 online version:
 schema: 2.0.0
-ms.assetid: F5A16912-11C5-40D3-8068-CF598DB80309
-updated_at: 01/09/2017 23:01 PM
-ms.date: 01/09/2017
+updated_at: 05/01/2017 21:05 PM
+ms.date: 05/01/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.1.0/Get-AzureRmLocation.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.1.0/Get-AzureRmLocation.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/909020b7dbd03ec23a61b4fe16ccd2762277084c
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0589fbf53d27e39e0cf445261d29c64fb0859d62
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -83,5 +83,4 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-
 

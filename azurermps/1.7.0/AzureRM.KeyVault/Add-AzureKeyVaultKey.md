@@ -1,13 +1,13 @@
 ---
-external help file: Microsoft.Azure.Commands.KeyVault.dll-Help.xml
+external help file: Microsoft.Azure.Commands.KeyVault.dll-help.xml
+ms.assetid: 689E8B24-DB5A-42CD-94B7-B3089D04B55D
 online version:
 schema: 2.0.0
-ms.assetid: 689E8B24-DB5A-42CD-94B7-B3089D04B55D
-updated_at: 11/11/2016 23:11 PM
-ms.date: 11/11/2016
+updated_at: 05/01/2017 21:05 PM
+ms.date: 05/01/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v1.1.11/Add-AzureKeyVaultKey.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v1.1.11/Add-AzureKeyVaultKey.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0589fbf53d27e39e0cf445261d29c64fb0859d62
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub

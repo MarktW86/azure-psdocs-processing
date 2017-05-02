@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.Azure.Commands.ServerManagement.dll-Help.xml
+ms.assetid: D91AAA87-9458-44A9-B332-DF8BA0322290
 online version:
 schema: 2.0.0
-ms.assetid: D91AAA87-9458-44A9-B332-DF8BA0322290
-updated_at: 11/01/2016 22:11 PM
-ms.date: 11/01/2016
+updated_at: 05/01/2017 21:05 PM
+ms.date: 05/01/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.ServerManagement/v1.0.3/Invoke-AzureRmServerManagementPowerShellCommand.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.ServerManagement/v1.0.3/Invoke-AzureRmServerManagementPowerShellCommand.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0589fbf53d27e39e0cf445261d29c64fb0859d62
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -50,51 +50,6 @@ The **Invoke-AzureRmServerManagementPowerShellCommand** cmdlet executes a wps_2 
 
 ## PARAMETERS
 
-### -ResourceGroupName
-Specifies the name of the resource group that the node belongs to.
-
-```yaml
-Type: String
-Parameter Sets: ByName
-Aliases: 
-
-Required: True
-Position: 0
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -NodeName
-Specifies the name of the node to run the script block on.
-
-```yaml
-Type: String
-Parameter Sets: ByName
-Aliases: 
-
-Required: True
-Position: 1
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -SessionName
-Specifies the name of the session to manage the node.
-
-```yaml
-Type: String
-Parameter Sets: ByName
-Aliases: 
-
-Required: True
-Position: 2
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
 ### -Command
 Specifies the script block to run on the target node.
 
@@ -105,36 +60,6 @@ Aliases:
 
 Required: True
 Position: 3
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -PowerShellSessionName
-Specifies the name of the wps_2 run space on the target node.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -RawOutput
-Indicates that the cmdlet returns the complete object that contains the output from the node.
-
-```yaml
-Type: SwitchParameter
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -179,6 +104,66 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
+### -NodeName
+Specifies the name of the node to run the script block on.
+
+```yaml
+Type: String
+Parameter Sets: ByName
+Aliases: 
+
+Required: True
+Position: 1
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -PowerShellSessionName
+Specifies the name of the wps_2 run space on the target node.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -RawOutput
+Indicates that the cmdlet returns the complete object that contains the output from the node.
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -ResourceGroupName
+Specifies the name of the resource group that the node belongs to.
+
+```yaml
+Type: String
+Parameter Sets: ByName
+Aliases: 
+
+Required: True
+Position: 0
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
 ### -Session
 Specifies the **Session** object that this cmdlet uses to connect to the target node.
 
@@ -193,6 +178,21 @@ Required: True
 Position: 0
 Default value: None
 Accept pipeline input: True (ByValue)
+Accept wildcard characters: False
+```
+
+### -SessionName
+Specifies the name of the session to manage the node.
+
+```yaml
+Type: String
+Parameter Sets: ByName
+Aliases: 
+
+Required: True
+Position: 2
+Default value: None
+Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 

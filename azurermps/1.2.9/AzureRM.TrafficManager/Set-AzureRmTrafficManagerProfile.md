@@ -13,7 +13,7 @@ ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
 open_to_public_contributors: true
-ms.service: tyraffic-manager
+ms.service: traffic-manager
 ---
 
 # Set-AzureRmTrafficManagerProfile

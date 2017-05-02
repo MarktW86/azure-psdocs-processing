@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.Azure.Commands.Compute.dll-Help.xml
+ms.assetid: 3D100FA6-2AAE-45EB-B246-368B5538B6CE
 online version:
 schema: 2.0.0
-ms.assetid: 3D100FA6-2AAE-45EB-B246-368B5538B6CE
-updated_at: 11/11/2016 23:11 PM
-ms.date: 11/11/2016
+updated_at: 05/01/2017 21:05 PM
+ms.date: 05/01/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.1.0/Restart-AzureRmVM.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.1.0/Restart-AzureRmVM.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0589fbf53d27e39e0cf445261d29c64fb0859d62
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -26,12 +26,14 @@ Restarts an Azure virtual machine.
 
 ### ResourceGroupNameParameterSetName (Default)
 ```
-Restart-AzureRmVM [-Name] <String> [-ResourceGroupName] <String> [<CommonParameters>]
+Restart-AzureRmVM [-Name] <String> [-ResourceGroupName] <String> [-InformationAction <ActionPreference>]
+ [-InformationVariable <String>] [<CommonParameters>]
 ```
 
 ### IdParameterSetName
 ```
-Restart-AzureRmVM [-Name] <String> [-Id] <String> [<CommonParameters>]
+Restart-AzureRmVM [-Name] <String> [-Id] <String> [-InformationAction <ActionPreference>]
+ [-InformationVariable <String>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -48,21 +50,6 @@ This command restarts the virtual machine named VirtualMachine07 in ResourceGrou
 
 ## PARAMETERS
 
-### -Id
-Specifies an ID.
-
-```yaml
-Type: String
-Parameter Sets: IdParameterSetName
-Aliases: 
-
-Required: True
-Position: 1
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
 ### -Name
 Specifies the name of the virtual machine to restart.
 
@@ -72,7 +59,7 @@ Parameter Sets: (All)
 Aliases: 
 
 Required: True
-Position: 2
+Position: 1
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
@@ -87,7 +74,48 @@ Parameter Sets: ResourceGroupNameParameterSetName
 Aliases: 
 
 Required: True
-Position: 1
+Position: 0
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -InformationAction
+@{Text=}```yaml
+Type: ActionPreference
+Parameter Sets: (All)
+Aliases: infa
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -InformationVariable
+@{Text=}```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: iv
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -Id
+Specifies an ID.
+
+```yaml
+Type: String
+Parameter Sets: IdParameterSetName
+Aliases: 
+
+Required: True
+Position: 0
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False

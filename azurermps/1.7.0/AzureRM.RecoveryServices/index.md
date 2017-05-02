@@ -2,12 +2,11 @@
 Module Name: AzureRM.RecoveryServices
 Module Guid: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
 Locale: en-US
-ms.assetid: D868331A-74BC-4CE5-BF52-27B87B76C6D1
-updated_at: 11/11/2016 23:11 PM
-ms.date: 11/11/2016
+updated_at: 05/01/2017 21:05 PM
+ms.date: 05/01/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices/v1.1.4/AzureRM.RecoveryServices.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices/v1.1.4/AzureRM.RecoveryServices.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0589fbf53d27e39e0cf445261d29c64fb0859d62
 ms.topic: conceptual
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -15,13 +14,13 @@ keywords: powershell, cmdlet
 manager: erickson-doug
 open_to_public_contributors: true
 ms.service: backup
-Get-AzureRmRecoveryServicesBackupProperties: Backup
-Get-AzureRmRecoveryServicesVault: Recovery
-Get-AzureRmRecoveryServicesVaultSettingsFile: Recovery
-New-AzureRmRecoveryServicesVault: Recovery
-Remove-AzureRmRecoveryServicesVault: Recovery
-Set-AzureRmRecoveryServicesBackupProperties: Backup
-Set-AzureRmRecoveryServicesVaultContext: Recovery
+Get-AzureRmRecoveryServicesBackupProperties: Recovery Services
+Get-AzureRmRecoveryServicesVault: Recovery Services
+Get-AzureRmRecoveryServicesVaultSettingsFile: Recovery Services
+New-AzureRmRecoveryServicesVault: Recovery Services
+Remove-AzureRmRecoveryServicesVault: Recovery Services
+Set-AzureRmRecoveryServicesBackupProperties: Recovery Services
+Set-AzureRmRecoveryServicesVaultContext: Recovery Services
 _isModulePage: true
 ---
 
@@ -30,32 +29,24 @@ _isModulePage: true
 This topic displays help topics for the Azure Recovery Services cmdlets.
 
 ## AzureRM.RecoveryServices Cmdlets
-### [Get-AzureRmRecoveryServicesBackupProperties](./Get-AzureRmRecoveryServicesBackupProperties.md)
+### [Get-AzureRmRecoveryServicesBackupProperties](Get-AzureRmRecoveryServicesBackupProperties.md)
 Gets Backup properties.
 
-
-### [Get-AzureRmRecoveryServicesVaultSettingsFile](./Get-AzureRmRecoveryServicesVaultSettingsFile.md)
-Gets the Azure Site Recovery vault settings file.
-
-
-### [Get-AzureRmRecoveryServicesVault](./Get-AzureRmRecoveryServicesVault.md)
+### [Get-AzureRmRecoveryServicesVault](Get-AzureRmRecoveryServicesVault.md)
 Gets a list of Recovery Services vaults.
 
+### [Get-AzureRmRecoveryServicesVaultSettingsFile](Get-AzureRmRecoveryServicesVaultSettingsFile.md)
+Gets the Azure Site Recovery vault settings file.
 
-### [New-AzureRmRecoveryServicesVault](./New-AzureRmRecoveryServicesVault.md)
+### [New-AzureRmRecoveryServicesVault](New-AzureRmRecoveryServicesVault.md)
 Creates a new Recovery Services vault.
 
-
-### [Remove-AzureRmRecoveryServicesVault](./Remove-AzureRmRecoveryServicesVault.md)
+### [Remove-AzureRmRecoveryServicesVault](Remove-AzureRmRecoveryServicesVault.md)
 Deletes a Recovery Services vault.
 
-
-### [Set-AzureRmRecoveryServicesBackupProperties](./Set-AzureRmRecoveryServicesBackupProperties.md)
+### [Set-AzureRmRecoveryServicesBackupProperties](Set-AzureRmRecoveryServicesBackupProperties.md)
 Sets the properties for backup management.
 
-
-### [Set-AzureRmRecoveryServicesVaultContext](./Set-AzureRmRecoveryServicesVaultContext.md)
+### [Set-AzureRmRecoveryServicesVaultContext](Set-AzureRmRecoveryServicesVaultContext.md)
 Sets vault context.
-
-
 

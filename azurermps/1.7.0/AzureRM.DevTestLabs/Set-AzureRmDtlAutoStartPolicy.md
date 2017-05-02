@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.Azure.Commands.DevTestLabs.dll-Help.xml
+ms.assetid: 37C19EB7-0CF8-4D50-8437-31CB6FBDBC07
 online version:
 schema: 2.0.0
-ms.assetid: 37C19EB7-0CF8-4D50-8437-31CB6FBDBC07
-updated_at: 11/22/2016 20:11 PM
-ms.date: 11/22/2016
+updated_at: 05/01/2017 21:05 PM
+ms.date: 05/01/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.DevTestLabs/v1.0.3/Set-AzureRmDtlAutoStartPolicy.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.DevTestLabs/v1.0.3/Set-AzureRmDtlAutoStartPolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0cedc8f73bc96cf5ac4c69144e17b3de601fd3cc
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0589fbf53d27e39e0cf445261d29c64fb0859d62
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -51,21 +51,6 @@ The cmdlet uses the specified resource group and name of the lab to set the poli
 
 ## PARAMETERS
 
-### -Time
-Specifies the time when the virtual machines of the lab must be started.
-
-```yaml
-Type: DateTime
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: 4
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
 ### -Days
 Specifies, as an array, the days of the week for when the virtual machines of the lab must be started.
 
@@ -76,6 +61,21 @@ Aliases:
 
 Required: False
 Position: 5
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -Disable
+Indicates that this cmdlet disables the policy for the virtual machines in the lab.
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: Disable
+Aliases: 
+
+Required: True
+Position: 3
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -93,36 +93,6 @@ Required: False
 Position: 2
 Default value: None
 Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -LabName
-Specifies the name of the lab for which this cmdlet sets the automatic start policy.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: True
-Position: 0
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -ResourceGroupName
-Specifies the name of the resource group that the lab belongs to.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: True
-Position: 1
-Default value: None
-Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
@@ -165,16 +135,46 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Disable
-Indicates that this cmdlet disables the policy for the virtual machines in the lab.
+### -LabName
+Specifies the name of the lab for which this cmdlet sets the automatic start policy.
 
 ```yaml
-Type: SwitchParameter
-Parameter Sets: Disable
+Type: String
+Parameter Sets: (All)
 Aliases: 
 
 Required: True
-Position: 3
+Position: 0
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -ResourceGroupName
+Specifies the name of the resource group that the lab belongs to.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: 1
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -Time
+Specifies the time when the virtual machines of the lab must be started.
+
+```yaml
+Type: DateTime
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: 4
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False

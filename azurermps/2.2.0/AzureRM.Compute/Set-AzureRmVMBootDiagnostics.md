@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.Azure.Commands.Compute.dll-Help.xml
+ms.assetid: A6798D07-1581-4377-AC5A-504FB006FB22
 online version:
 schema: 2.0.0
-ms.assetid: A6798D07-1581-4377-AC5A-504FB006FB22
-updated_at: 11/11/2016 23:11 PM
-ms.date: 11/11/2016
+updated_at: 05/01/2017 21:05 PM
+ms.date: 05/01/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.1.0/Set-AzureRmVMBootDiagnostics.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.1.0/Set-AzureRmVMBootDiagnostics.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0589fbf53d27e39e0cf445261d29c64fb0859d62
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -27,12 +27,14 @@ Modifies boot diagnostics properties of a virtual machine.
 ### EnableBootDiagnostics
 ```
 Set-AzureRmVMBootDiagnostics [-VM] <PSVirtualMachine> [-Enable] [-ResourceGroupName] <String>
- [[-StorageAccountName] <String>] [<CommonParameters>]
+ [[-StorageAccountName] <String>] [-InformationAction <ActionPreference>] [-InformationVariable <String>]
+ [<CommonParameters>]
 ```
 
 ### DisableBootDiagnostics
 ```
-Set-AzureRmVMBootDiagnostics [-VM] <PSVirtualMachine> [-Disable] [<CommonParameters>]
+Set-AzureRmVMBootDiagnostics [-VM] <PSVirtualMachine> [-Disable] [-InformationAction <ActionPreference>]
+ [-InformationVariable <String>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -54,18 +56,19 @@ Diagnostics data is stored in the specified account.
 
 ## PARAMETERS
 
-### -Disable
-Indicates that this cmdlet disables the boot diagnostics for the virtual machine.
+### -VM
+Specifies the virtual machine for which this cmdlet changes boot diagnostics.
+To obtain a virtual machine object, use the Get-AzureRmVM cmdlet.
 
 ```yaml
-Type: SwitchParameter
-Parameter Sets: DisableBootDiagnostics
-Aliases: 
+Type: PSVirtualMachine
+Parameter Sets: (All)
+Aliases: VMProfile
 
 Required: True
-Position: 2
+Position: 0
 Default value: None
-Accept pipeline input: False
+Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
 ```
 
@@ -78,7 +81,7 @@ Parameter Sets: EnableBootDiagnostics
 Aliases: 
 
 Required: True
-Position: 2
+Position: 1
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -93,7 +96,7 @@ Parameter Sets: EnableBootDiagnostics
 Aliases: 
 
 Required: True
-Position: 3
+Position: 2
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
@@ -108,25 +111,50 @@ Parameter Sets: EnableBootDiagnostics
 Aliases: 
 
 Required: False
-Position: 4
+Position: 3
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -VM
-Specifies the virtual machine for which this cmdlet changes boot diagnostics.
-To obtain a virtual machine object, use the Get-AzureRmVM cmdlet.
+### -InformationAction
+@{Text=}```yaml
+Type: ActionPreference
+Parameter Sets: (All)
+Aliases: infa
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -InformationVariable
+@{Text=}```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: iv
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -Disable
+Indicates that this cmdlet disables the boot diagnostics for the virtual machine.
 
 ```yaml
-Type: PSVirtualMachine
-Parameter Sets: (All)
-Aliases: VMProfile
+Type: SwitchParameter
+Parameter Sets: DisableBootDiagnostics
+Aliases: 
 
 Required: True
 Position: 1
 Default value: None
-Accept pipeline input: True (ByPropertyName, ByValue)
+Accept pipeline input: False
 Accept wildcard characters: False
 ```
 

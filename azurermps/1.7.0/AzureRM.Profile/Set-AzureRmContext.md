@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.Azure.Commands.Profile.dll-Help.xml
+ms.assetid: 79BF6173-959C-45AC-B006-07D0D389C321
 online version:
 schema: 2.0.0
-ms.assetid: 79BF6173-959C-45AC-B006-07D0D389C321
-updated_at: 11/01/2016 22:11 PM
-ms.date: 11/01/2016
+updated_at: 05/01/2017 21:05 PM
+ms.date: 05/01/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Profile/v1.0.12/Set-AzureRmContext.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Profile/v1.0.12/Set-AzureRmContext.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0589fbf53d27e39e0cf445261d29c64fb0859d62
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -62,12 +62,43 @@ This example uses placeholder values for the subscription ID and tenant ID.
 
 ## PARAMETERS
 
+### -Context
+Specifies context for the current session as a **PSAzureContext** object.
+To obtain context information, use the Get-AzureRmContext cmdlet.
+
+```yaml
+Type: PSAzureContext
+Parameter Sets: Context
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: True (ByValue)
+Accept wildcard characters: False
+```
+
 ### -SubscriptionId
 Specifies the subscription ID for the context that this cmdlet sets for the current session.
 
 ```yaml
 Type: String
 Parameter Sets: SubscriptionId
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -SubscriptionName
+Specifies the subscription name for the context that this cmdlet sets for the current session.
+
+```yaml
+Type: String
+Parameter Sets: SubscriptionName
 Aliases: 
 
 Required: False
@@ -104,37 +135,6 @@ Required: False
 Position: Named
 Default value: False
 Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -Context
-Specifies context for the current session as a **PSAzureContext** object.
-To obtain context information, use the Get-AzureRmContext cmdlet.
-
-```yaml
-Type: PSAzureContext
-Parameter Sets: Context
-Aliases: 
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByValue)
-Accept wildcard characters: False
-```
-
-### -SubscriptionName
-Specifies the subscription name for the context that this cmdlet sets for the current session.
-
-```yaml
-Type: String
-Parameter Sets: SubscriptionName
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 

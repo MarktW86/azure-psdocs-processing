@@ -14,25 +14,25 @@ keywords: powershell, cmdlet
 manager: erickson-doug
 open_to_public_contributors: true
 ms.service: notification-hubs
-Get-AzureRmNotificationHub: Notification Hub
-Get-AzureRmNotificationHubAuthorizationRules: Notification Hub
-Get-AzureRmNotificationHubListKeys: Notification Hub
-Get-AzureRmNotificationHubPNSCredentials: Notification Hub
-Get-AzureRmNotificationHubsNamespace: Notification Hub
-Get-AzureRmNotificationHubsNamespaceAuthorizationRules: Notification Hub
-Get-AzureRmNotificationHubsNamespaceListKeys: Notification Hub
-New-AzureRmNotificationHub: Notification Hub
-New-AzureRmNotificationHubAuthorizationRules: Notification Hub
-New-AzureRmNotificationHubsNamespace: Notification Hub
-New-AzureRmNotificationHubsNamespaceAuthorizationRules: Notification Hub
-Remove-AzureRmNotificationHub: Notification Hub
-Remove-AzureRmNotificationHubAuthorizationRules: Notification Hub
-Remove-AzureRmNotificationHubsNamespace: Notification Hub
-Remove-AzureRmNotificationHubsNamespaceAuthorizationRules: Notification Hub
-Set-AzureRmNotificationHub: Notification Hub
-Set-AzureRmNotificationHubAuthorizationRules: Notification Hub
-Set-AzureRmNotificationHubsNamespace: Notification Hub
-Set-AzureRmNotificationHubsNamespaceAuthorizationRules: Notification Hub
+Get-AzureRmNotificationHub: Notification Hubs
+Get-AzureRmNotificationHubAuthorizationRules: Notification Hubs
+Get-AzureRmNotificationHubListKeys: Notification Hubs
+Get-AzureRmNotificationHubPNSCredentials: Notification Hubs
+Get-AzureRmNotificationHubsNamespace: Notification Hubs
+Get-AzureRmNotificationHubsNamespaceAuthorizationRules: Notification Hubs
+Get-AzureRmNotificationHubsNamespaceListKeys: Notification Hubs
+New-AzureRmNotificationHub: Notification Hubs
+New-AzureRmNotificationHubAuthorizationRules: Notification Hubs
+New-AzureRmNotificationHubsNamespace: Notification Hubs
+New-AzureRmNotificationHubsNamespaceAuthorizationRules: Notification Hubs
+Remove-AzureRmNotificationHub: Notification Hubs
+Remove-AzureRmNotificationHubAuthorizationRules: Notification Hubs
+Remove-AzureRmNotificationHubsNamespace: Notification Hubs
+Remove-AzureRmNotificationHubsNamespaceAuthorizationRules: Notification Hubs
+Set-AzureRmNotificationHub: Notification Hubs
+Set-AzureRmNotificationHubAuthorizationRules: Notification Hubs
+Set-AzureRmNotificationHubsNamespace: Notification Hubs
+Set-AzureRmNotificationHubsNamespaceAuthorizationRules: Notification Hubs
 _isModulePage: true
 ---
 

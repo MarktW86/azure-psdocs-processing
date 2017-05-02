@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.Azure.Commands.Compute.dll-Help.xml
+ms.assetid: 8C993655-9460-4E2F-85C0-840C8C88550E
 online version:
 schema: 2.0.0
-ms.assetid: 8C993655-9460-4E2F-85C0-840C8C88550E
-updated_at: 11/11/2016 23:11 PM
-ms.date: 11/11/2016
+updated_at: 05/01/2017 21:05 PM
+ms.date: 05/01/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.1.0/New-AzureRmAvailabilitySet.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.1.0/New-AzureRmAvailabilitySet.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0589fbf53d27e39e0cf445261d29c64fb0859d62
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -26,7 +26,8 @@ Creates an Azure availability set.
 
 ```
 New-AzureRmAvailabilitySet [-ResourceGroupName] <String> [-Name] <String> [-Location] <String>
- [[-PlatformUpdateDomainCount] <Int32>] [[-PlatformFaultDomainCount] <Int32>] [<CommonParameters>]
+ [[-PlatformUpdateDomainCount] <Int32>] [[-PlatformFaultDomainCount] <Int32>]
+ [-InformationAction <ActionPreference>] [-InformationVariable <String>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -43,8 +44,8 @@ This command creates an availability set named AvailablitySet03 in the resource 
 
 ## PARAMETERS
 
-### -Location
-Specifies the location for the availability set.
+### -ResourceGroupName
+Specifies the name of a resource group.
 
 ```yaml
 Type: String
@@ -52,7 +53,7 @@ Parameter Sets: (All)
 Aliases: 
 
 Required: True
-Position: 3
+Position: 0
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
@@ -67,22 +68,22 @@ Parameter Sets: (All)
 Aliases: ResourceName, AvailabilitySetName
 
 Required: True
-Position: 2
+Position: 1
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -PlatformFaultDomainCount
-Specifies the platform fault domain count.
+### -Location
+Specifies the location for the availability set.
 
 ```yaml
-Type: Int32
+Type: String
 Parameter Sets: (All)
 Aliases: 
 
-Required: False
-Position: 5
+Required: True
+Position: 2
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
@@ -97,24 +98,50 @@ Parameter Sets: (All)
 Aliases: 
 
 Required: False
+Position: 3
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -PlatformFaultDomainCount
+Specifies the platform fault domain count.
+
+```yaml
+Type: Int32
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
 Position: 4
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ResourceGroupName
-Specifies the name of a resource group.
+### -InformationAction
+@{Text=}```yaml
+Type: ActionPreference
+Parameter Sets: (All)
+Aliases: infa
 
-```yaml
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -InformationVariable
+@{Text=}```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases: iv
 
-Required: True
-Position: 1
+Required: False
+Position: Named
 Default value: None
-Accept pipeline input: True (ByPropertyName)
+Accept pipeline input: False
 Accept wildcard characters: False
 ```
 

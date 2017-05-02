@@ -2,12 +2,11 @@
 external help file: Microsoft.Azure.Commands.LogicApp.dll-Help.xml
 online version:
 schema: 2.0.0
-ms.assetid: B531615B-228F-4C28-859B-6D0D4F86894B
-updated_at: 11/01/2016 22:11 PM
-ms.date: 11/01/2016
+updated_at: 05/02/2017 17:05 PM
+ms.date: 05/02/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/v1.0.8/Remove-AzureRmIntegrationAccountAgreement.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/v1.0.8/Remove-AzureRmIntegrationAccountAgreement.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/fdff926f5dd35f9020f210f87b450464ba162edc
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -20,7 +19,7 @@ ms.service: app-service-logic
 # Remove-AzureRmIntegrationAccountAgreement
 
 ## SYNOPSIS
-Removes an integration account agreement.
+Removes the integration account agreement from the specified Azure resource group.
 
 ## SYNTAX
 
@@ -31,58 +30,32 @@ Remove-AzureRmIntegrationAccountAgreement -ResourceGroupName <String> -Name <Str
 ```
 
 ## DESCRIPTION
-The **Remove-AzureRmIntegrationAccountAgreement** cmdlet removes an integration account agreement from an Azure resource group.
-Specify the integration account name, resource group name, and agreement name.
+This is the Description section
 
-This module supports dynamic parameters.
-To use a dynamic parameter, type it in the command.
-To discover the names of dynamic parameters, type a hyphen (-) after the cmdlet name, and then press the Tab key repeatedly to cycle through the available parameters.
-If you omit a required template parameter, the cmdlet prompts you for the value.
+The Remove-AzureRmIntegrationAccountAgreement cmdlet removes the integration account agreement from the Azure resource group.
+Use this cmdlet to remove integration account agreement from specified resource group.
+You can remove a integration account agreement by specifying the integration account name, resource group name and agreement name.
+To use the dynamic parameters, just type them in the command, or type a hyphen sign(-) to indicate a parameter name and then press the TAB key repeatedly to cycle through the available parameters.
+If you miss a required template parameter, the cmdlet prompts you for the value.
 
 ## EXAMPLES
 
-### Example 1: Remove an integration account agreement by name
+### --------------------------  Example 1 : Remove the integration account agreement by name.  --------------------------
+@{paragraph=PS C:\\\>}
+
+
+
 ```
-PS C:\>Remove-AzureRmIntegrationAccountAgreement -ResourceGroupName "ResourceGroup11" -Name "IntegrationAccount31" -AgreementName "IntegrationAccountAgreement06" -Force
+Remove-AzureRmIntegrationAccountAgreement -ResourceGroupName "ResourceGroup1" -Name "IntegrationAccount1" -AgreementName "IntegrationAccountAgreement1" -Force
 ```
 
-This command removes the integration account agreement named IntegrationAccountAgreement06.
-The command does not prompt you for confirmation.
+This command removes the integration account agreement by name.
 
 ## PARAMETERS
 
-### -ResourceGroupName
-Specifies the name of a resource group.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -Name
-Specifies the name of an integration account.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
 ### -AgreementName
-Specifies the name of the integration account agreement.
+Specifies a name for the integration account agreement.
+This parameter is required.
 
 ```yaml
 Type: String
@@ -97,7 +70,7 @@ Accept wildcard characters: False
 ```
 
 ### -Force
-ps_force
+Optional switch parameter to force the remove operation without prompt.
 
 ```yaml
 Type: SwitchParameter
@@ -112,16 +85,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-Specifies how this cmdlet responds to an information event.
-
-The acceptable values for this parameter are:
-
-- Continue
-- Ignore
-- Inquire
-- SilentlyContinue
-- Stop
-- Suspend
+@{Text=}
 
 ```yaml
 Type: ActionPreference
@@ -136,7 +100,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-Specifies an information variable.
+@{Text=}
 
 ```yaml
 Type: String
@@ -150,6 +114,38 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
+### -Name
+Specifies a name for the integration account.
+This parameter is required.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -ResourceGroupName
+Specifies a name for the resource group.
+This parameter is required.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
 ### -Confirm
 Prompts you for confirmation before running the cmdlet.
 
@@ -160,7 +156,7 @@ Aliases: cf
 
 Required: False
 Position: Named
-Default value: False
+Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
@@ -176,7 +172,7 @@ Aliases: wi
 
 Required: False
 Position: Named
-Default value: False
+Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
@@ -192,10 +188,9 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmIntegrationAccountAgreement](./Get-AzureRmIntegrationAccountAgreement.md)
+[Get-AzureRmIntegrationAccountAgreement]()
 
-[New-AzureRmIntegrationAccountAgreement](./New-AzureRmIntegrationAccountAgreement.md)
+[Set-AzureRmIntegrationAccountAgreement]()
 
-[Set-AzureRmIntegrationAccountAgreement](./Set-AzureRmIntegrationAccountAgreement.md)
-
+[New-AzureRmIntegrationAccountAgreement]()
 

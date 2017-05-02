@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.Azure.Commands.Insights.dll-Help.xml
+ms.assetid: 599C971C-F864-48F1-B85A-FE8D7E3F85DB
 online version:
 schema: 2.0.0
-ms.assetid: 599C971C-F864-48F1-B85A-FE8D7E3F85DB
-updated_at: 11/01/2016 22:11 PM
-ms.date: 11/01/2016
+updated_at: 05/01/2017 21:05 PM
+ms.date: 05/01/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Insights/v1.0.12/Get-AzureRmAutoscaleSetting.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Insights/v1.0.12/Get-AzureRmAutoscaleSetting.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0589fbf53d27e39e0cf445261d29c64fb0859d62
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -212,15 +212,15 @@ This command gets the Autoscale setting named DefaultServerFarm-Default-Web-East
 
 ## PARAMETERS
 
-### -ResourceGroup
-Specifies the name of the resource group.
+### -DetailedOutput
+Indicates that this operation displays full details in the output.
 
 ```yaml
-Type: String
+Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
 
-Required: True
+Required: False
 Position: Named
 Default value: None
 Accept pipeline input: True (ByPropertyName)
@@ -242,15 +242,15 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -DetailedOutput
-Indicates that this operation displays full details in the output.
+### -ResourceGroup
+Specifies the name of the resource group.
 
 ```yaml
-Type: SwitchParameter
+Type: String
 Parameter Sets: (All)
 Aliases: 
 
-Required: False
+Required: True
 Position: Named
 Default value: None
 Accept pipeline input: True (ByPropertyName)

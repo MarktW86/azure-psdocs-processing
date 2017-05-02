@@ -2,12 +2,11 @@
 external help file: Microsoft.Azure.Commands.HDInsight.dll-Help.xml
 online version:
 schema: 2.0.0
-ms.assetid: 4F1B47BE-1740-4B58-A5EE-7FD535AB612D
-updated_at: 11/01/2016 22:11 PM
-ms.date: 11/01/2016
+updated_at: 05/02/2017 17:05 PM
+ms.date: 05/02/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v1.1.4/New-AzureRmHDInsightStreamingMapReduceJobDefinition.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v1.1.4/New-AzureRmHDInsightStreamingMapReduceJobDefinition.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/fdff926f5dd35f9020f210f87b450464ba162edc
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -32,23 +31,27 @@ New-AzureRmHDInsightStreamingMapReduceJobDefinition [-Arguments <String[]>] [-Fi
 ```
 
 ## DESCRIPTION
-The **New-AzureRmHDInsightStreamingMapReduceJobDefinition** cmdlet defines a Streaming MapReduce job object for use with an Azure HDInsight cluster.
+The New-AzureRmHDInsightStreamingMapReduceJobDefinition cmdlet defines a Streaming MapReduce job object for use with an Azure HDInsight cluster.
 
 ## EXAMPLES
 
-### Example 1: Create a Streaming MapReduce job definition
+### --------------------------  Example 1: Create a Streaming MapReduce job definition  --------------------------
+@{paragraph=PS C:\\\>}
+
+
+
 ```
-PS C:\># Cluster info
-PS C:\>$clusterName = "your-hadoop-001"
-PS C:\>$clusterCreds = Get-Credential
+PS C:\&gt; # Cluster info
+        $clusterName = "your-hadoop-001"
+        $clusterCreds = Get-Credential
 
-# Streaming MapReduce job details
-PS C:\>$statusFolder = "tempStatusFolder/"
-PS C:\>$query = "SHOW TABLES"
+        # Streaming MapReduce job details
+        $statusFolder = "tempStatusFolder/"
+        $query = "SHOW TABLES"
 
-PS C:\>New-AzureRmHDInsightStreamingMapReduceJobDefinition -StatusFolder $statusFolder `
+        New-AzureRmHDInsightStreamingMapReduceJobDefinition -StatusFolder $statusFolder `
             -Query $query `
-        | Start-AzureRmHDInsightJob `
+        | Start-AzureRmHDInsightJob 
             -ClusterName $clusterName `
             -ClusterCredential $clusterCreds
 ```
@@ -63,52 +66,6 @@ The arguments are passed as command-line arguments to each task.
 
 ```yaml
 Type: String[]
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -File
-Specifies the path to a file that contains a query to run.
-You can use this parameter instead of the *Query* parameter.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -Files
-Specifies a collection of files that are associated with a Hive job.
-
-```yaml
-Type: String[]
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -StatusFolder
-Specifies the location of the folder that contains standard outputs and error outputs for a job.
-
-```yaml
-Type: String
 Parameter Sets: (All)
 Aliases: 
 
@@ -141,6 +98,67 @@ Specifies Hadoop configuration values to set for when the job runs.
 Type: Hashtable
 Parameter Sets: (All)
 Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -File
+Specifies the path to a file that contains a query to run.
+You can use this parameter instead of the Query parameter.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -Files
+Specifies a collection of files that are associated with a Hive job.
+
+```yaml
+Type: String[]
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -InformationAction
+@{Text=}
+
+```yaml
+Type: ActionPreference
+Parameter Sets: (All)
+Aliases: infa
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -InformationVariable
+@{Text=}
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: iv
 
 Required: False
 Position: Named
@@ -209,37 +227,13 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationAction
-Specifies how this cmdlet responds to an information event.
-
-The acceptable values for this parameter are:
-
-- Continue
-- Ignore
-- Inquire
-- SilentlyContinue
-- Stop
-- Suspend
-
-```yaml
-Type: ActionPreference
-Parameter Sets: (All)
-Aliases: infa
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -InformationVariable
-Specifies an information variable.
+### -StatusFolder
+Specifies the location of the folder that contains standard outputs and error outputs for a job.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: iv
+Aliases: 
 
 Required: False
 Position: Named
@@ -256,9 +250,9 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## OUTPUTS
 
 ## NOTES
+Keywords: azure, azurerm, arm, resource, management, manager, hadoop, hdinsight, hd, insight
 
 ## RELATED LINKS
 
-[Start-AzureRmHDInsightJob](./Start-AzureRmHDInsightJob.md)
-
+[Start-AzureRmHDInsightJob]()
 

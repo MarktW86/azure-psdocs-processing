@@ -2,12 +2,11 @@
 external help file: Microsoft.Azure.Commands.LogicApp.dll-Help.xml
 online version:
 schema: 2.0.0
-ms.assetid: 929A1E7D-0455-4FB4-A8C6-4B6F463AF2C5
-updated_at: 11/01/2016 22:11 PM
-ms.date: 11/01/2016
+updated_at: 05/02/2017 17:05 PM
+ms.date: 05/02/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/v1.0.8/New-AzureRmIntegrationAccountCertificate.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/v1.0.8/New-AzureRmIntegrationAccountCertificate.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/fdff926f5dd35f9020f210f87b450464ba162edc
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -20,7 +19,7 @@ ms.service: app-service-logic
 # New-AzureRmIntegrationAccountCertificate
 
 ## SYNOPSIS
-Creates an integration account certificate.
+Creates a new integration account certificate in the azure resource group.
 
 ## SYNTAX
 
@@ -32,71 +31,46 @@ New-AzureRmIntegrationAccountCertificate -ResourceGroupName <String> -Name <Stri
 ```
 
 ## DESCRIPTION
-The **New-AzureRmIntegrationAccountCertificate** cmdlet creates an integration account certificate.
-This cmdlet returns an object that represents the integration account certificate.
-Specify the integration account name, resource group name, certificate name, key name, key version, and key vault ID.
-Template parameter file values that you specify at the command line take precedence over template parameter values in a template parameter object.
+This is the Description section
 
-This module supports dynamic parameters.
-To use a dynamic parameter, type it in the command.
-To discover the names of dynamic parameters, type a hyphen (-) after the cmdlet name, and then press the Tab key repeatedly to cycle through the available parameters.
-If you omit a required template parameter, the cmdlet prompts you for the value.
+The New-AzureRmIntegrationAccountCertificate cmdlet creates an integration account certificate and returns an object that represents the integration account certificate .
+Use this cmdlet to create a new integration account certificate.
+You can create an integration account by specifying the integration account name, resource group name, certificate name, key name,key version and key vault ID.
+To use the dynamic parameters, just type them in the command, or type a hyphen sign(-) to indicate a parameter name and then press the TAB key repeatedly to cycle through the available parameters.
+If you miss a required template parameter, the cmdlet prompts you for the value.
+Template parameter file values that you specify at the command line take precedence over template parameter values in a template parameter object.
 
 ## EXAMPLES
 
-### Example 1: Create an integration account certificate
+### --------------------------  Example 1 : Create the integration account certificate in the specified resource group.  --------------------------
+@{paragraph=PS C:\\\>}
+
+
+
 ```
-PS C:\>New-AzureRmIntegrationAccountCertificate -ResourceGroupName "ResourceGroup11" -Name "IntegrationAccount31" -CertificateName "IntegrationAccountCertificate01" -KeyName "TestKey" -KeyVersion "1.0" -KeyVaultId "/subscriptions/<subscriptionId>/resourcegroups/ResourceGroup11/providers/microsoft.keyvault/vaults/keyvault" -PublicCertificateFilePath "c:\temp\Certificate.cer"
-Id                : /subscriptions/<SusbcriptionId>/resourceGroups/ResourceGroup11/providers/Microsoft.Logic/integrationAccounts/IntegartionAccount31/certificates/IntegrationAccountCertificate01
-Name              : IntegrationAccountCertificate01
+New-AzureRmIntegrationAccountCertificate -ResourceGroupName "ResourceGroup1" -Name "IntegartionAccount1" -CertificateName "IntegrationAccountCertificate1" -KeyName "TestKey" -KeyVersion "1.0" -KeyVaultId "/subscriptions/<subscriptionId>/resourcegroups/ResourceGroup1/providers/microsoft.keyvault/vaults/keyvault" -PublicCertificateFilePath "c:\temp\Certificate.cer"
+```
+
+This command creates the integration account certificate in the specified resource group.
+
+Id                : /subscriptions/\<SusbcriptionId\>/resourceGroups/ResourceGroup1/providers/Microsoft.Logic/integrationAccounts/IntegartionAccount1/certificates/IntegrationAccountCertificate1
+Name              : IntegrationAccountCertificate1
 Type              : Microsoft.Logic/integrationAccounts/certificates
 CreatedTime       : 3/26/2016 6:59:07 PM
 ChangedTime       : 3/26/2016 6:59:07 PM
 KeyName           : TestKey
 KeyVersion        : 1.0
-KeyVaultId        : /subscriptions/<SusbcriptionId>/resourcegroups/ResourceGroup11/providers/microsoft.keyvault/vaults/<name>
+KeyVaultId        : /subscriptions/\<SusbcriptionId/resourcegroups/ResourceGroup1/providers/microsoft.keyvault/vaults/\<name\>
 KeyVaultName      : testkeyvault
 KeyVaultName      : testkeyvault
-PublicCertificate : 
+PublicCertificate :
 MetaData          :
-```
-
-This command creates the integration account certificate in the specified resource group.
 
 ## PARAMETERS
 
-### -ResourceGroupName
-Specifies the name of a resource group.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -Name
-Specifies the name of an integration account.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
 ### -CertificateName
-Specifies a name for the integration account certificate.
+Specifies a name for the integration account certifcate.
+This parameter is required.
 
 ```yaml
 Type: String
@@ -107,95 +81,11 @@ Required: True
 Position: Named
 Default value: None
 Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -KeyName
-Specifies the name of the certificate key in the key vault.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -KeyVersion
-Specifies the version of the certificate key in the key vault.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -KeyVaultId
-Specifies a key vault ID.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -PublicCertificateFilePath
-Specifies the path of a public certificate (.cer) file.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -Metadata
-Specifies a metadata object for the certificate.
-
-```yaml
-Type: Object
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
 ### -InformationAction
-Specifies how this cmdlet responds to an information event.
-
-The acceptable values for this parameter are:
-
-- Continue
-- Ignore
-- Inquire
-- SilentlyContinue
-- Stop
-- Suspend
+@{Text=}
 
 ```yaml
 Type: ActionPreference
@@ -210,7 +100,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-Specifies an information variable.
+@{Text=}
 
 ```yaml
 Type: String
@@ -224,6 +114,117 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
+### -KeyName
+Specifies a name for the certificate key in key vault.
+This parameter is required.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -KeyVaultId
+Specifies the key vault ID.
+This parameter is required.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -KeyVersion
+Specifies the version for the certificate key in key vault.
+This parameter is required.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -Metadata
+Specifies the metadata object for the certificate.
+This parameter is optional.
+
+```yaml
+Type: Object
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -Name
+Specifies a name for the integration account.
+This parameter is required.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -PublicCertificateFilePath
+Specifies the public certificate (.cer) file path.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -ResourceGroupName
+Specifies a name for the resource group.
+This parameter is required.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
 ### -Confirm
 Prompts you for confirmation before running the cmdlet.
 
@@ -234,7 +235,7 @@ Aliases: cf
 
 Required: False
 Position: Named
-Default value: False
+Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
@@ -250,7 +251,7 @@ Aliases: wi
 
 Required: False
 Position: Named
-Default value: False
+Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
@@ -268,10 +269,9 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmIntegrationAccountCertificate](./Get-AzureRmIntegrationAccountCertificate.md)
+[Get-AzureRmIntegrationAccountCertificate]()
 
-[Remove-AzureRmIntegrationAccountCertificate](./Remove-AzureRmIntegrationAccountCertificate.md)
+[Set-AzureRmIntegrationAccountCertificate]()
 
-[Set-AzureRmIntegrationAccountCertificate](./Set-AzureRmIntegrationAccountCertificate.md)
-
+[Remove-AzureRmIntegrationAccountCertificate]()
 

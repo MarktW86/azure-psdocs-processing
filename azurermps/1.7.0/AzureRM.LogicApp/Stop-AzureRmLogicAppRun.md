@@ -2,12 +2,11 @@
 external help file: Microsoft.Azure.Commands.LogicApp.dll-Help.xml
 online version:
 schema: 2.0.0
-ms.assetid: 3DE8B74A-E1CA-4603-8FB9-6BA46CEC946A
-updated_at: 11/01/2016 22:11 PM
-ms.date: 11/01/2016
+updated_at: 05/02/2017 17:05 PM
+ms.date: 05/02/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/v1.0.8/Stop-AzureRmLogicAppRun.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/v1.0.8/Stop-AzureRmLogicAppRun.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/fdff926f5dd35f9020f210f87b450464ba162edc
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -20,7 +19,7 @@ ms.service: app-service-logic
 # Stop-AzureRmLogicAppRun
 
 ## SYNOPSIS
-Cancels a run of a logic app.
+Cancels the specified run of a Logic App present in the Azure resource group.
 
 ## SYNTAX
 
@@ -31,81 +30,46 @@ Stop-AzureRmLogicAppRun -ResourceGroupName <String> -Name <String> -RunName <Str
 ```
 
 ## DESCRIPTION
-The **Stop-AzureRmLogicAppRun** cmdlet cancels a run of a logic app.
-Specify the logic app, resource group, and run.
+This is the Description section
 
-This module supports dynamic parameters.
-To use a dynamic parameter, type it in the command.
-To discover the names of dynamic parameters, type a hyphen (-) after the cmdlet name, and then press the Tab key repeatedly to cycle through the available parameters.
-If you omit a required template parameter, the cmdlet prompts you for the value.
+The Stop-AzureRmLogicAppRun cmdlet cancels the run of the Azure Logic App.
+Use this cmdlet to cancel the specified run of a Logic App.
+You can cancel the run of a Logic App by specifying the Logic App name, resource group name and run name.
+To use the dynamic parameters, just type them in the command, or type a hyphen sign(-) to indicate a parameter name and then press the TAB key repeatedly to cycle through the available parameters.
+If you miss a required template parameter, the cmdlet prompts you for the value.
 
 ## EXAMPLES
 
-### Example 1: Cancel a run of a logic app
+### --------------------------  Example 1 : Cancels the specified run of the Logic App present in an Azure resource group.  --------------------------
+@{paragraph=PS C:\\\>}
+
+
+
 ```
-PS C:\>Get-AzureRmLogicApp -ResourceGroupName "ResourceGroup11" -Name "LogicApp03" -RunName "08587489104702792076"
+PS C:\>Get-AzureRmLogicApp -ResourceGroupName "ResourceGroup1" -Name "LogicApp1" -RunName "Run1"
 ```
 
-This command cancels a run of the logic app named LogicApp03.
+This command cancels the specified run of the Logic App present in an Azure resource group.
 
 ## PARAMETERS
 
-### -ResourceGroupName
-Specifies the name for a resource group in which this cmdlet cancels a run.
+### -Force
+Do not ask for confirmation.
 
 ```yaml
-Type: String
+Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
 
-Required: True
+Required: False
 Position: Named
 Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -Name
-Specifies the name of a logic app for which this cmdlet cancels a run.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -RunName
-Specifies the name of a logic app run that this cmdlet cancels.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
+Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
 ### -InformationAction
-Specifies how this cmdlet responds to an information event.
-
-The acceptable values for this parameter are:
-
-- Continue
-- Ignore
-- Inquire
-- SilentlyContinue
-- Stop
-- Suspend
+@{Text=}
 
 ```yaml
 Type: ActionPreference
@@ -120,7 +84,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-Specifies an information variable.
+@{Text=}
 
 ```yaml
 Type: String
@@ -134,6 +98,54 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
+### -Name
+Specifies the name of the Logic App.
+This parameter is required.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -ResourceGroupName
+Specifies a name for the resource group.
+This parameter is required.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -RunName
+Specifies the name of the Logic App run.
+This parameter is required.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
 ### -Confirm
 Prompts you for confirmation before running the cmdlet.
 
@@ -141,21 +153,6 @@ Prompts you for confirmation before running the cmdlet.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: cf
-
-Required: False
-Position: Named
-Default value: False
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -Force
-ps_force
-
-```yaml
-Type: SwitchParameter
-Parameter Sets: (All)
-Aliases: 
 
 Required: False
 Position: Named
@@ -175,7 +172,7 @@ Aliases: wi
 
 Required: False
 Position: Named
-Default value: False
+Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
@@ -191,6 +188,5 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Start-AzureRmLogicApp](./Start-AzureRmLogicApp.md)
-
+[Start-AzureRmLogicApp]()
 

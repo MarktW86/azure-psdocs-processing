@@ -25,11 +25,11 @@ New-AzureRmRedisCacheKey: Redis Cache
 New-AzureRmRedisCachePatchSchedule: Redis Cache
 New-AzureRmRedisCacheScheduleEntry: Redis Cache
 Remove-AzureRmRedisCache: Redis Cache
-Remove-AzureRmRedisCacheDiagnostics: Monitoring
+Remove-AzureRmRedisCacheDiagnostics: Redis Cache
 Remove-AzureRmRedisCachePatchSchedule: Redis Cache
 Reset-AzureRmRedisCache: Redis Cache
 Set-AzureRmRedisCache: Redis Cache
-Set-AzureRmRedisCacheDiagnostics: Monitoring
+Set-AzureRmRedisCacheDiagnostics: Redis Cache
 _isModulePage: true
 ---
 

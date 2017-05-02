@@ -2,12 +2,11 @@
 external help file: Microsoft.Azure.Commands.LogicApp.dll-Help.xml
 online version:
 schema: 2.0.0
-ms.assetid: 5B830040-15AA-4D82-B60E-CAE00458010B
-updated_at: 11/01/2016 22:11 PM
-ms.date: 11/01/2016
+updated_at: 05/02/2017 17:05 PM
+ms.date: 05/02/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/v1.0.8/New-AzureRmLogicApp.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/v1.0.8/New-AzureRmLogicApp.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/fdff926f5dd35f9020f210f87b450464ba162edc
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -20,7 +19,7 @@ ms.service: app-service-logic
 # New-AzureRmLogicApp
 
 ## SYNOPSIS
-Creates a logic app in a resource group.
+Creates a new Logic App in the azure resource group.
 
 ## SYNTAX
 
@@ -51,168 +50,151 @@ New-AzureRmLogicApp -ResourceGroupName <String> -Name <String> -AppServicePlan <
 ```
 
 ## DESCRIPTION
-The **New-AzureRmLogicApp** cmdlet creates a logic app by using the Logic Apps feature.
-A logic app is a collection of actions or triggers defined in Logic App definition.
-This cmdlet returns a **Workflow** object.
+This is the Description section
 
-You can create a logic app by specifying a name, location, Logic App definition, resource group, and plan.
-A Logic App definition and parameters are formatted in JavaScript Object Notation (JSON).
-You can use a logic app as a template for definition and parameters.
-
-This module supports dynamic parameters.
-To use a dynamic parameter, type it in the command.
-To discover the names of dynamic parameters, type a hyphen (-) after the cmdlet name, and then press the Tab key repeatedly to cycle through the available parameters.
-If you omit a required template parameter, the cmdlet prompts you for the value.
+The New-AzureRmLogicApp cmdlet creates an Azure Logic App and returns an object that represents the Workflow.
+Use this cmdlet to create a new Logic App.
+A Logic App is a collection of actions or triggers defined in Logic App definition.
+You can create a Logic App with a name, location, Logic App definition, resource group name and App Service Plan name .
+However, typically, you use a Logic App template for definition and parameters which is a JSON-based model.
+To create a Logic App, you can specify definition as DefinitionFilePath or DefinitionLinkUri parameters or as a Definition object(string).
+To specify values for the Logic App template parameters, use a JSON-formatted parameter file (-ParameterFilePath) or a HashTable of parameter names and values (-Parameters) or ParametersLinkUri parameters.
+To use the dynamic parameters, just type them in the command, or type a hyphen sign(-) to indicate a parameter name and then press the TAB key repeatedly to cycle through the available parameters.
+If you miss a required template parameter, the cmdlet prompts you for the value.
 Template parameter file values that you specify at the command line take precedence over template parameter values in a template parameter object.
 
 ## EXAMPLES
 
-### Example 1: Create a logic app by using definition and parameter file paths
+### --------------------------  Example 1 : Creates a Logic App with definition and parameter template file path  --------------------------
+@{paragraph=PS C:\\\>}
+
+
+
 ```
-PS C:\>New-AzureRmLogicApp -ResourceGroupName "ResourceGroup11" -Name "LogicApp03" -State "Enabled" -AppServicePlan "ServicePlan01" -DefinitionFilePath "d:\workflows\Definition03.json" -ParameterFilePath "d:\workflows\Parameters03.json"
-Id                           : /subscriptions/57b7034d-72d4-433d-ace2-a7460aed6a99/resourceGroups/LogicAppCmdletTest/providers/Microsoft.Logic/workflows/LogicApp03
-Name                         : LogicApp03
+PS C:\>New-AzureRmLogicApp -ResourceGroupName "ResourceGroup1" -Name "LogicApp1" -State "Enabled" -AppServicePlan "ServicePlan1" -DefinitionFilePath "d:\workflows\Definition.json" -ParameterFilePath "d:\workflows\Parameters.json"
+```
+
+This command creates a new Logic App in the specified resource group.
+
+Id                           : /subscriptions/57b7034d-72d4-433d-ace2-a7460aed6a99/resourceGroups/LogicAppCmdletTest/providers/Microsoft.Logic/workflows/LogicApp1
+Name                         : LogicApp1
 Type                         : Microsoft.Logic/workflows
 Location                     : westus
 ChangedTime                  : 1/13/2016 2:41:39 PM
 CreatedTime                  : 1/13/2016 2:41:39 PM
-AccessEndpoint               : https://westus.logic.azure.com:443/subscriptions/57b7034d-72d4-433d-ace2-a7460aed6a99/resourcegroups/ResourceGroup1/providers/Microsoft.Logic/workflows/LogicApp1
+AccessEndpoint               : https://\<baseurl\>/subscriptions/57b7034d-72d4-433d-ace2-a7460aed6a99/resourcegroups/ResourceGroup1/providers/Microsoft.Logic/workflows/LogicApp1
 State                        : Enabled
 DefinitionLinkUri            : 
 DefinitionLinkContentVersion : 
-Definition                   : {$schema, contentVersion, parameters, triggers...} 
+Definition                   : {$schema, contentVersion, parameters, triggers...}
 ParametersLinkUri            : 
 ParametersLinkContentVersion : 
-Parameters                   : {[destinationUri, Microsoft.Azure.Management.Logic.Models.WorkflowParameter]} 
-SkuName                      : Standard
-PlanName                     : ServicePlan01
-PlanType                     : Microsoft.Web/ServerFarms
-PlanId                       : /subscriptions/57b7034d-72d4-433d-ace2-a7460aed6a99/resourceGroups/ResourceGroup11/providers/Microsoft.Web/serverfarms/ServicePlan1
-Version                      : 08587489107859952120
-```
-
-This command creates a logic app in the specified resource group.
-The logic app includes the definition and parameters specified by file paths.
-
-### Example 2: Create a logic app by using definition and parameter objects
-```
-PS C:\>New-AzureRmLogicApp -ResourceGroupName "ResourceGroup11" -Name "LogicApp05" -Location "westus" -State "Enabled" -AppServicePlan "ServicePlan01" -Definition [IO.File]::ReadAllText("d:\Workflows\Definition.json") -Parameters @{name1="value1", name2="value2"}
-Id                           : /subscriptions/57b7034d-72d4-433d-ace2-a7460aed6a99/resourceGroups/LogicAppCmdletTest/providers/Microsoft.Logic/workflows/LogicApp05
-Name                         : LogicApp05
-Type                         : Microsoft.Logic/workflows
-Location                     : westus
-ChangedTime                  : 1/13/2016 2:41:39 PM
-CreatedTime                  : 1/13/2016 2:41:39 PM
-AccessEndpoint               : https://westus.logic.azure.com:443/subscriptions/57b7034d-72d4-433d-ace2-a7460aed6a99/resourcegroups/ResourceGroup11/providers/Microsoft.Logic/workflows/LogicApp05
-State                        : Enabled
-DefinitionLinkUri            : 
-DefinitionLinkContentVersion : 
-Definition                   : {$schema, contentVersion, parameters, triggers...} 
-ParametersLinkUri            : 
-ParametersLinkContentVersion : 
-Parameters                   : {[destinationUri, Microsoft.Azure.Management.Logic.Models.WorkflowParameter]} 
+Parameters                   : {\[destinationUri, Microsoft.Azure.Management.Logic.Models.WorkflowParameter\]}
 SkuName                      : Standard
 PlanName                     : ServicePlan1
 PlanType                     : Microsoft.Web/ServerFarms
-PlanId                       : /subscriptions/57b7034d-72d4-433d-ace2-a7460aed6a99/resourceGroups/ResourceGroup11/providers/Microsoft.Web/serverfarms/ServicePlan1
+PlanId                       : /subscriptions/57b7034d-72d4-433d-ace2-a7460aed6a99/resourceGroups/ResourceGroup1/providers/Microsoft.Web/serverfarms/ServicePlan1
 Version                      : 08587489107859952120
+
+### --------------------------  Example 2 : Creates a Logic App with definition and parameter objects  --------------------------
+@{paragraph=PS C:\\\>}
+
+
+
+```
+PS C:\>New-AzureRmLogicApp -ResourceGroupName "ResourceGroup1" -Name "LogicApp1" -Location "westus" -State "Enabled" -AppServicePlan "ServicePlan1" -Definition [IO.File]::ReadAllText("d:\Workflows\Definition.json") -Parameters @{name1="value1", name2="value2"}
 ```
 
-This command creates a logic app in the specified resource group resource group.
+This command creates a new Logic App in the targeted resource group.
 
-### Example 3: Create a logic app by using the pipeline to specify the resource group
-```
-PS C:\>Get-AzureRmResourceGroup -ResourceGroupName "ResourceGroup11" | New-AzureRmLogicApp -Name "LogicApp11" -State "Enabled" -AppServicePlan "ServicePlan01" -DefinitionFilePath "d:\Workflow\Definition.json" -ParameterFilePath "d:\Workflow\Parameters.json"
-Id                           : /subscriptions/57b7034d-72d4-433d-ace2-a7460aed6a99/resourceGroups/LogicAppCmdletTest/providers/Microsoft.Logic/workflows/LogicApp11
-Name                         : LogicApp11
+Id                           : /subscriptions/57b7034d-72d4-433d-ace2-a7460aed6a99/resourceGroups/LogicAppCmdletTest/providers/Microsoft.Logic/workflows/LogicApp1
+Name                         : LogicApp1
 Type                         : Microsoft.Logic/workflows
 Location                     : westus
 ChangedTime                  : 1/13/2016 2:41:39 PM
 CreatedTime                  : 1/13/2016 2:41:39 PM
-AccessEndpoint               : https://westus.logic.azure.com:443/subscriptions/57b7034d-72d4-433d-ace2-a7460aed6a99/resourcegroups/ResourceGroup11/providers/Microsoft.Logic/workflows/LogicApp11
+AccessEndpoint               : https://\<baseurl\>/subscriptions/57b7034d-72d4-433d-ace2-a7460aed6a99/resourcegroups/ResourceGroup1/providers/Microsoft.Logic/workflows/LogicApp1
 State                        : Enabled
 DefinitionLinkUri            : 
 DefinitionLinkContentVersion : 
-Definition                   : {$schema, contentVersion, parameters, triggers...} 
+Definition                   : {$schema, contentVersion, parameters, triggers...}
 ParametersLinkUri            : 
 ParametersLinkContentVersion : 
-Parameters                   : {[destinationUri, Microsoft.Azure.Management.Logic.Models.WorkflowParameter]} 
+Parameters                   : {\[destinationUri, Microsoft.Azure.Management.Logic.Models.WorkflowParameter\]}
 SkuName                      : Standard
-PlanName                     : ServicePlan01
+PlanName                     : ServicePlan1
 PlanType                     : Microsoft.Web/ServerFarms
-PlanId                       : /subscriptions/57b7034d-72d4-433d-ace2-a7460aed6a99/resourceGroups/ResourceGroup11/providers/Microsoft.Web/serverfarms/ServicePlan01
+PlanId                       : /subscriptions/57b7034d-72d4-433d-ace2-a7460aed6a99/resourceGroups/ResourceGroup1/providers/Microsoft.Web/serverfarms/ServicePlan1
 Version                      : 08587489107859952120
+
+### --------------------------  Example 3 : Creates a Logic App using ResourceGroup pipe input  --------------------------
+@{paragraph=PS C:\\\>}
+
+
+
+```
+PS C:\>Get-AzureRmResourceGroup -ResourceGroupName "ResourceGroup1" | New-AzureRmLogicApp -Name "LogicApp1" -State "Enabled" -AppServicePlan "ServicePlan1" -DefinitionFilePath "d:\Workflow\Definition.json" -ParameterFilePath "d:\Workflow\Parameters.json"
 ```
 
-This command gets the resource group named ResourceGroup11 by using the Get-AzureRmResourceGroup cmdlet.
-The command passes that resource group to the current cmdlet by using the pipeline operator.
-The current cmdlet creates a logic app in that resource group.
-The logic app includes the definition and parameters specified by file paths.
+This command creates a new Logic App in the specified resource group using the pipe input from the resource group object.
 
-### Example 4: Create a logic app based on an existing logic app
-```
-PS C:\>$Workflow = Get-AzureRmLogicApp -ResourceGroupName "ResourceGroup11" -Name "LogicApp03"
-PS C:\> New-AzureRmLogicApp -ResourceGroupName "ResourceGroup11" -Name "LogicApp13" -State "Enabled" -AppServicePlan "ServicePlan01" -Definition $Workflow.Definition -Parameters $Workflow.Parameters
-Id                           : /subscriptions/57b7034d-72d4-433d-ace2-a7460aed6a99/resourceGroups/LogicAppCmdletTest/providers/Microsoft.Logic/workflows/LogicApp13
-Name                         : LogicApp13
+Id                           : /subscriptions/57b7034d-72d4-433d-ace2-a7460aed6a99/resourceGroups/LogicAppCmdletTest/providers/Microsoft.Logic/workflows/LogicApp1
+Name                         : LogicApp1
 Type                         : Microsoft.Logic/workflows
 Location                     : westus
 ChangedTime                  : 1/13/2016 2:41:39 PM
 CreatedTime                  : 1/13/2016 2:41:39 PM
-AccessEndpoint               : https://westus.logic.azure.com:443/subscriptions/57b7034d-72d4-433d-ace2-a7460aed6a99/resourcegroups/ResourceGroup11/providers/Microsoft.Logic/workflows/LogicApp13
+AccessEndpoint               : https://\<baseurl\>/subscriptions/57b7034d-72d4-433d-ace2-a7460aed6a99/resourcegroups/ResourceGroup1/providers/Microsoft.Logic/workflows/LogicApp1
 State                        : Enabled
 DefinitionLinkUri            : 
 DefinitionLinkContentVersion : 
-Definition                   : {$schema, contentVersion, parameters, triggers...} 
+Definition                   : {$schema, contentVersion, parameters, triggers...}
 ParametersLinkUri            : 
 ParametersLinkContentVersion : 
-Parameters                   : {[destinationUri, Microsoft.Azure.Management.Logic.Models.WorkflowParameter]} 
+Parameters                   : {\[destinationUri, Microsoft.Azure.Management.Logic.Models.WorkflowParameter\]}
 SkuName                      : Standard
-PlanName                     : ServicePlan01
+PlanName                     : ServicePlan1
 PlanType                     : Microsoft.Web/ServerFarms
-PlanId                       : /subscriptions/57b7034d-72d4-433d-ace2-a7460aed6a99/resourceGroups/ResourceGroup11/providers/Microsoft.Web/serverfarms/ServicePlan01
+PlanId                       : /subscriptions/57b7034d-72d4-433d-ace2-a7460aed6a99/resourceGroups/ResourceGroup1/providers/Microsoft.Web/serverfarms/ServicePlan1
 Version                      : 08587489107859952120
+
+### --------------------------  Example 4 : Creates a Logic App using existing Logic App.  --------------------------
+@{paragraph=PS C:\\\>}
+
+
+
+```
+PS C:\>New-AzureRmLogicApp -ResourceGroupName "ResourceGroup1" -Name "LogicApp1" -State "Enabled" -AppServicePlan "ServicePlan1" -Definition $workflow.Definition -Parameters $workflow.Parameters
 ```
 
-The first command gets the logic app named LogicApp03 by using the Get-AzureRmLogicApp cmdlet.
-The command stores the logic app in the $Workflow variable.
+This command creates a new Logic App in the targeted resource group.
+In this example, definition and parameters of existing Logic App is used to create new Logic App.
 
-The second command creates a new logic app that uses the definition and parameters of the logic app stored in $Workflow.
+Id                           : /subscriptions/57b7034d-72d4-433d-ace2-a7460aed6a99/resourceGroups/LogicAppCmdletTest/providers/Microsoft.Logic/workflows/LogicApp1
+Name                         : LogicApp1
+Type                         : Microsoft.Logic/workflows
+Location                     : westus
+ChangedTime                  : 1/13/2016 2:41:39 PM
+CreatedTime                  : 1/13/2016 2:41:39 PM
+AccessEndpoint               : https://\<baseurl\>/subscriptions/57b7034d-72d4-433d-ace2-a7460aed6a99/resourcegroups/ResourceGroup1/providers/Microsoft.Logic/workflows/LogicApp1
+State                        : Enabled
+DefinitionLinkUri            : 
+DefinitionLinkContentVersion : 
+Definition                   : {$schema, contentVersion, parameters, triggers...}
+ParametersLinkUri            : 
+ParametersLinkContentVersion : 
+Parameters                   : {\[destinationUri, Microsoft.Azure.Management.Logic.Models.WorkflowParameter\]}
+SkuName                      : Standard
+PlanName                     : ServicePlan1
+PlanType                     : Microsoft.Web/ServerFarms
+PlanId                       : /subscriptions/57b7034d-72d4-433d-ace2-a7460aed6a99/resourceGroups/ResourceGroup1/providers/Microsoft.Web/serverfarms/ServicePlan1
+Version                      : 08587489107859952120
 
 ## PARAMETERS
 
-### -ResourceGroupName
-Specifies the name of a resource group.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -Name
-Specifies the name for the logic app.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
 ### -AppServicePlan
-Specifies the name of the App Service Plan. This parameter is required.
+Specifies the name of the App Service Plan.
+This parameter is required.
 
 ```yaml
 Type: String
@@ -226,30 +208,13 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Location
-Specifies the location of the logic app.
-Enter an Azure data center location, such as West US or Southeast Asia.
-You can place a logic app in any location.
+### -Definition
+Definition of the Logic App.
+Expected type object or JSON-formatted string.
 
 ```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -State
-Specifies the state of the logic app.
-psdx_paramvalues Enabled and Disabled.
-
-```yaml
-Type: String
-Parameter Sets: (All)
+Type: Object
+Parameter Sets: LogicAppWithDefinitionParameterSet
 Aliases: 
 
 Required: False
@@ -259,12 +224,12 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -DefinitionLinkUri
-Specifies Definition link Uri of the Logic App. If DefinitionLinkUri is provided as parameter then user must provide the "DefinitionLinkContentVersion" parameter.
+### -DefinitionFilePath
+Path of a JSON-formatted definition file.
 
 ```yaml
 Type: String
-Parameter Sets: LogicAppWithDefinitionLinkParameterSet
+Parameter Sets: LogicAppWithDefinitionFileParameterSet
 Aliases: 
 
 Required: False
@@ -289,8 +254,88 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ParameterLinkUri
-Specifies parameter link Uri of the Logic App. If ParameterLinkUri is provided as parameter then user must provide the "ParameterLinkContentVersion" parameter.
+### -DefinitionLinkUri
+Specifies Definition link Uri of the Logic App.
+If DefinitionLinkUri is provided as parameter then user must provide the "DefinitionLinkContentVersion" parameter.
+
+```yaml
+Type: String
+Parameter Sets: LogicAppWithDefinitionLinkParameterSet
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -InformationAction
+@{Text=}
+
+```yaml
+Type: ActionPreference
+Parameter Sets: (All)
+Aliases: infa
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -InformationVariable
+@{Text=}
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: iv
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -Location
+Specifies the location of the Logic App.
+This parameter is required.
+Enter an Azure data center location, such as "West US" or "Southeast Asia".
+You can place a Logic App in any location.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -Name
+Specifies the name of the Logic App.
+This parameter is required.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -ParameterFilePath
+Path of a JSON-formatted parameter file.
 
 ```yaml
 Type: String
@@ -319,9 +364,25 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
+### -ParameterLinkUri
+Specifies parameter link Uri of the Logic App.
+If ParameterLinkUri is provided as parameter then user must provide the "ParameterLinkContentVersion" parameter.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
 ### -Parameters
-Specifies a parameters collection object for the Logic App.
-Specify a hash table, Dictionary\<string\>, or Dictionary\<string, WorkflowParameter\>.
+Parameters collection object of the Logic App.
+Expected Type HashTable or Dictionary\<string,\> or Dictionary\<string, WorkflowParameter\>.
 
 ```yaml
 Type: Object
@@ -335,8 +396,26 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ParameterFilePath
-Specifies the path of a JSON formatted parameter file.
+### -ResourceGroupName
+Specifies a name for the resource group.
+This parameter is required.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -State
+Specifies a state of the Logic App.
+Expected values e.g.
+Enabled, Disabled
 
 ```yaml
 Type: String
@@ -345,76 +424,7 @@ Aliases:
 
 Required: False
 Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -InformationAction
-Specifies how this cmdlet responds to an information event.
-
-The acceptable values for this parameter are:
-
-- Continue
-- Ignore
-- Inquire
-- SilentlyContinue
-- Stop
-- Suspend
-
-```yaml
-Type: ActionPreference
-Parameter Sets: (All)
-Aliases: infa
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -InformationVariable
-Specifies an information variable.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: iv
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -Definition
-Specifies the definition for your logic app as an object or a string in JavaScript Object Notataion (JSON) format.
-
-```yaml
-Type: Object
-Parameter Sets: LogicAppWithDefinitionParameterSet
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -DefinitionFilePath
-Specifies the definition of a logic app as the path of a definition file in JSON format.
-
-```yaml
-Type: String
-Parameter Sets: LogicAppWithDefinitionFileParameterSet
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
+Default value: Enabled
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
@@ -429,7 +439,7 @@ Aliases: cf
 
 Required: False
 Position: Named
-Default value: False
+Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
@@ -445,7 +455,7 @@ Aliases: wi
 
 Required: False
 Position: Named
-Default value: False
+Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
@@ -465,12 +475,9 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRmLogicApp](./Get-AzureRmLogicApp.md)
+[Get-AzureRmLogicApp]()
 
-[Remove-AzureRmLogicApp](./Remove-AzureRmLogicApp.md)
+[Set-AzureRmLogicApp]()
 
-[Set-AzureRmLogicApp](./Set-AzureRmLogicApp.md)
-
-[Start-AzureRmLogicApp](./Start-AzureRmLogicApp.md)
-
+[Remove-AzureRmLogicApp]()
 

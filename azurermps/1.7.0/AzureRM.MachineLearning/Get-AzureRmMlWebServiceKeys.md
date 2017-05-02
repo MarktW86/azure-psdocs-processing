@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.Azure.Commands.MachineLearning.dll-Help.xml
+ms.assetid: A8A73CAD-0239-4802-AFC3-FA0B2CA18B66
 online version:
 schema: 2.0.0
-ms.assetid: A8A73CAD-0239-4802-AFC3-FA0B2CA18B66
-updated_at: 11/11/2016 23:11 PM
-ms.date: 11/11/2016
+updated_at: 05/01/2017 21:05 PM
+ms.date: 05/01/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.MachineLearning/v0.9.2.1/Get-AzureRmMlWebServiceKeys.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.MachineLearning/v0.9.2.1/Get-AzureRmMlWebServiceKeys.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0589fbf53d27e39e0cf445261d29c64fb0859d62
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -74,18 +74,18 @@ This command gets the access keys for the web service instance that is defined i
 
 ## PARAMETERS
 
-### -ResourceGroupName
-Specifies the resource group that the web service belongs to.
+### -MlWebService
+Specifies the name of the web service for which this cmdlet gets access keys.
 
 ```yaml
-Type: String
-Parameter Sets: Get an Azure ML web service's access keys given its name and resource group.
+Type: WebService
+Parameter Sets: Get the access kesy for the given web service instance.
 Aliases: 
 
 Required: True
 Position: Named
 Default value: None
-Accept pipeline input: False
+Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
@@ -104,18 +104,18 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -MlWebService
-Specifies the name of the web service for which this cmdlet gets access keys.
+### -ResourceGroupName
+Specifies the resource group that the web service belongs to.
 
 ```yaml
-Type: WebService
-Parameter Sets: Get the access kesy for the given web service instance.
+Type: String
+Parameter Sets: Get an Azure ML web service's access keys given its name and resource group.
 Aliases: 
 
 Required: True
 Position: Named
 Default value: None
-Accept pipeline input: True (ByValue)
+Accept pipeline input: False
 Accept wildcard characters: False
 ```
 

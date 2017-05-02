@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.Resources.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 03/23/2017 23:03 PM
-ms.date: 03/23/2017
+updated_at: 05/02/2017 17:05 PM
+ms.date: 05/02/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v1.0.4.3/Get-AzureRmRoleDefinition.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v1.0.4.3/Get-AzureRmRoleDefinition.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/280872fa529e03be2466fa2252957a2060a9dfe4
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/fdff926f5dd35f9020f210f87b450464ba162edc
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -19,41 +19,60 @@ ms.service: azure-resource-manager
 # Get-AzureRmRoleDefinition
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+Lists all Azure RBAC roles that are available for assignment.
 
 ## SYNTAX
 
 ### RoleDefinitionNameParameterSet
 ```
-Get-AzureRmRoleDefinition [[-Name] <String>] [-Scope <String>] [-AtScopeAndBelow] [<CommonParameters>]
+Get-AzureRmRoleDefinition [-Name <String>] [-Scope <String>] [-AtScopeAndBelow]
+ [-InformationAction <ActionPreference>] [-InformationVariable <String>] [<CommonParameters>]
 ```
 
 ### RoleDefinitionIdParameterSet
 ```
-Get-AzureRmRoleDefinition -Id <Guid> [-Scope <String>] [<CommonParameters>]
+Get-AzureRmRoleDefinition -Id <Guid> [-Scope <String>] [-InformationAction <ActionPreference>]
+ [-InformationVariable <String>] [<CommonParameters>]
 ```
 
 ### RoleDefinitionCustomParameterSet
 ```
-Get-AzureRmRoleDefinition [-Scope <String>] [-Custom] [-AtScopeAndBelow] [<CommonParameters>]
+Get-AzureRmRoleDefinition [-Scope <String>] [-Custom] [-AtScopeAndBelow]
+ [-InformationAction <ActionPreference>] [-InformationVariable <String>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+Use the Get-AzureRmRoleDefinition command with a particular role name to view its details.
+To inspect individual operations that a role grants access to, review the Actions and NotActions properties of the role.
 
 ## EXAMPLES
 
-### Example 1
+### --------------------------  Example 1  --------------------------
+@{paragraph=PS C:\\\>}
+
+
+
 ```
-PS C:\> {{ Add example code here }}
+PS C:\> Get-AzureRmRoleDefinition -Name Reader
 ```
 
-{{ Add example description here }}
+Get the Reader role definition
+
+### --------------------------  Example 2  --------------------------
+@{paragraph=PS C:\\\>}
+
+
+
+```
+PS C:\> Get-AzureRmRoleDefinition
+```
+
+Lists all RBAC role definitions
 
 ## PARAMETERS
 
 ### -AtScopeAndBelow
-If specified, displays the the roles at and below scope.
+If specified, displays all role definitions.
 
 ```yaml
 Type: SwitchParameter
@@ -83,7 +102,7 @@ Accept wildcard characters: False
 ```
 
 ### -Id
-Role definition id.
+Role definition Id.
 
 ```yaml
 Type: Guid
@@ -94,6 +113,36 @@ Required: True
 Position: Named
 Default value: None
 Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -InformationAction
+@{Text=}
+
+```yaml
+Type: ActionPreference
+Parameter Sets: (All)
+Aliases: infa
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -InformationVariable
+@{Text=}
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: iv
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
@@ -108,14 +157,14 @@ Parameter Sets: RoleDefinitionNameParameterSet
 Aliases: 
 
 Required: False
-Position: 0
+Position: Named
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
 ### -Scope
-Scope of the existing role definition.
+Role definition scope.
 
 ```yaml
 Type: String
@@ -134,15 +183,18 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## INPUTS
 
-### System.String
-System.Guid
-System.Management.Automation.SwitchParameter
-
 ## OUTPUTS
 
-### System.Collections.Generic.List`1[[Microsoft.Azure.Commands.Resources.Models.Authorization.PSRoleDefinition, Microsoft.Azure.Commands.Resources, Version=1.0.4.3, Culture=neutral, PublicKeyToken=31bf3856ad364e35]]
-
 ## NOTES
+Keywords: azure, azurerm, arm, resource, management, manager, resource, group, template, deployment
 
 ## RELATED LINKS
+
+[New-AzureRmRoleAssignment]()
+
+[Get-AzureRmRoleAssignment]()
+
+[New-AzureRmRoleDefinition]()
+
+[Remove-AzureRmRoleDefinition]()
 

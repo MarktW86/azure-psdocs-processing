@@ -1,13 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.ResourceManager.Cmdlets.dll-Help.xml
-online version:
+online version: http://go.microsoft.com/fwlink/?LinkID=393049
 schema: 2.0.0
-ms.assetid: D06217F8-48CC-4F15-BA7C-20C3489C7F64
-updated_at: 11/01/2016 22:11 PM
-ms.date: 11/01/2016
+updated_at: 05/02/2017 17:05 PM
+ms.date: 05/02/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v2.0.3/Remove-AzureRmResourceGroupDeployment.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v2.0.3/Remove-AzureRmResourceGroupDeployment.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/fdff926f5dd35f9020f210f87b450464ba162edc
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -20,7 +19,7 @@ ms.service: azure-resource-manager
 # Remove-AzureRmResourceGroupDeployment
 
 ## SYNOPSIS
-Removes a resource group deployment and any associated operations.
+Removes the specified resource group deployment.
 
 ## SYNTAX
 
@@ -37,44 +36,38 @@ Remove-AzureRmResourceGroupDeployment -Id <String> [-Force] [-ApiVersion <String
 ```
 
 ## DESCRIPTION
-The **Remove-AzureRmResourceGroupDeployment** cmdlet removes an Azure resource group deployment and any associated operations.
+The Remove-AzureRmResourceGroupDeployment removes the specified deployment.
+
+If you find an issue with this cmdlet, please create an issue on https://github.com/Azure/azure-powershell/issues, with a lable "ResourceManager".
 
 ## EXAMPLES
 
-### 1:
-```
+### --------------------------  Example 1: Remove an existing deployment  --------------------------
+@{paragraph=PS C:\\\>}
+
+
 
 ```
+PS C:\>Remove-AzureRmResourceGroupDeployment -ResourceGroupName ContosoEngineering -Name contosoDeployment
+```
+
+This command removes the deployment 'contosoDeployment' from 'ContosoEngineering' resource group.
 
 ## PARAMETERS
 
-### -Name
-Specifies the name of the resource group deployment to remove.
+### -ApiVersion
+When set, indicates the version of the resource provider API to use.
+If not specified, the API version is automatically determined as the latest available.
 
 ```yaml
 Type: String
-Parameter Sets: The deployment name parameter set.
-Aliases: DeploymentName
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -ResourceGroupName
-Specifies the name of the resource group to remove.
-
-```yaml
-Type: String
-Parameter Sets: The deployment name parameter set.
+Parameter Sets: (All)
 Aliases: 
 
-Required: True
+Required: False
 Position: Named
 Default value: None
-Accept pipeline input: True (ByPropertyName)
+Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
@@ -93,39 +86,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ApiVersion
-Specifies the API version that is supported by the resource Provider.
-You can specify a different version than the default version.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -Confirm
-Prompts you for confirmation before running the cmdlet.
-
-```yaml
-Type: SwitchParameter
-Parameter Sets: (All)
-Aliases: cf
-
-Required: False
-Position: Named
-Default value: False
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
 ### -Id
-Specifies the ID of the resource group deployment to remove.
+The fully qualified resource Id of the deployment.
+example: /subscriptions/{subId}/resourceGroups/{rgName}/providers/Microsoft.Resources/deployments/{deploymentName}
 
 ```yaml
 Type: String
@@ -139,13 +102,61 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
+### -Name
+The deployment name.
+Use -Name or its alias -DeploymentName.
+
+```yaml
+Type: String
+Parameter Sets: The deployment name parameter set.
+Aliases: DeploymentName
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
 ### -Pre
-Indicates that this cmdlet considers pre-release API versions when it automatically determines which version to use.
+When set, indicates that the cmdlet should use pre-release API versions when automatically determining which version to use.
 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -ResourceGroupName
+Specifies the name of the resource group under which the deployment exists.
+This parameter is required.
+If the resource group does not exist, the command fails.
+
+```yaml
+Type: String
+Parameter Sets: The deployment name parameter set.
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -Confirm
+Prompts you for confirmation before running the cmdlet.
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: (All)
+Aliases: cf
 
 Required: False
 Position: Named
@@ -165,7 +176,7 @@ Aliases: wi
 
 Required: False
 Position: Named
-Default value: False
+Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
@@ -175,18 +186,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## INPUTS
 
+### None
+
 ## OUTPUTS
 
 ## NOTES
+Keywords: azure, azurerm, arm, resource, management, manager, resource, group, template, deployment
 
 ## RELATED LINKS
-
-[Get-AzureRmResourceGroupDeployment](./Get-AzureRmResourceGroupDeployment.md)
-
-[New-AzureRmResourceGroupDeployment](./New-AzureRmResourceGroupDeployment.md)
-
-[Stop-AzureRmResourceGroupDeployment](./Stop-AzureRmResourceGroupDeployment.md)
-
-[Test-AzureRmResourceGroupDeployment](./Test-AzureRmResourceGroupDeployment.md)
-
 

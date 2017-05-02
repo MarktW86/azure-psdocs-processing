@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.Azure.Commands.DataFactories.dll-Help.xml
+ms.assetid: 506D8C77-9CC1-46CD-8A62-3ABD3FC3698F
 online version:
 schema: 2.0.0
-ms.assetid: 506D8C77-9CC1-46CD-8A62-3ABD3FC3698F
-updated_at: 10/24/2016 23:10 PM
-ms.date: 10/24/2016
+updated_at: 05/01/2017 21:05 PM
+ms.date: 05/01/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.DataFactories/v1.0.12/Save-AzureRmDataFactoryLog.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.DataFactories/v1.0.12/Save-AzureRmDataFactoryLog.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0589fbf53d27e39e0cf445261d29c64fb0859d62
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub

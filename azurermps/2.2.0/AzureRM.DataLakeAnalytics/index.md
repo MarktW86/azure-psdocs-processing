@@ -17,24 +17,24 @@ keywords: powershell, cmdlet
 manager: erickson-doug
 open_to_public_contributors: true
 ms.service: data-lake-analytics
-Add-AzureRmDataLakeAnalyticsDataSource: Data Lake
-Get-AzureRmDataLakeAnalyticsAccount: Data Lake
-Get-AzureRmDataLakeAnalyticsCatalogItem: Data Lake
-Get-AzureRmDataLakeAnalyticsDataSource: Data Lake
-Get-AzureRmDataLakeAnalyticsJob: Data Lake
-New-AzureRmDataLakeAnalyticsAccount: Data Lake
-New-AzureRmDataLakeAnalyticsCatalogSecret: Data Lake
-Remove-AzureRmDataLakeAnalyticsAccount: Data Lake
-Remove-AzureRmDataLakeAnalyticsCatalogSecret: Data Lake
-Remove-AzureRmDataLakeAnalyticsDataSource: Data Lake
-Set-AzureRmDataLakeAnalyticsAccount: Data Lake
-Set-AzureRmDataLakeAnalyticsCatalogSecret: Data Lake
-Set-AzureRmDataLakeAnalyticsDataSource: Data Lake
-Stop-AzureRmDataLakeAnalyticsJob: Data Lake
-Submit-AzureRmDataLakeAnalyticsJob: Data Lake
-Test-AzureRmDataLakeAnalyticsAccount: Data Lake
-Test-AzureRmDataLakeAnalyticsCatalogItem: Data Lake
-Wait-AzureRmDataLakeAnalyticsJob: Data Lake
+Add-AzureRmDataLakeAnalyticsDataSource: Data Lake Analytics
+Get-AzureRmDataLakeAnalyticsAccount: Data Lake Analytics
+Get-AzureRmDataLakeAnalyticsCatalogItem: Data Lake Analytics
+Get-AzureRmDataLakeAnalyticsDataSource: Data Lake Analytics
+Get-AzureRmDataLakeAnalyticsJob: Data Lake Analytics
+New-AzureRmDataLakeAnalyticsAccount: Data Lake Analytics
+New-AzureRmDataLakeAnalyticsCatalogSecret: Data Lake Analytics
+Remove-AzureRmDataLakeAnalyticsAccount: Data Lake Analytics
+Remove-AzureRmDataLakeAnalyticsCatalogSecret: Data Lake Analytics
+Remove-AzureRmDataLakeAnalyticsDataSource: Data Lake Analytics
+Set-AzureRmDataLakeAnalyticsAccount: Data Lake Analytics
+Set-AzureRmDataLakeAnalyticsCatalogSecret: Data Lake Analytics
+Set-AzureRmDataLakeAnalyticsDataSource: Data Lake Analytics
+Stop-AzureRmDataLakeAnalyticsJob: Data Lake Analytics
+Submit-AzureRmDataLakeAnalyticsJob: Data Lake Analytics
+Test-AzureRmDataLakeAnalyticsAccount: Data Lake Analytics
+Test-AzureRmDataLakeAnalyticsCatalogItem: Data Lake Analytics
+Wait-AzureRmDataLakeAnalyticsJob: Data Lake Analytics
 _isModulePage: true
 ---
 

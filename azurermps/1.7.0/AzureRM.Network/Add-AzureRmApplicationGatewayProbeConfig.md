@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
+ms.assetid: 31FC5898-6BC5-420B-82A9-2C2761580AC5
 online version:
 schema: 2.0.0
-ms.assetid: 31FC5898-6BC5-420B-82A9-2C2761580AC5
-updated_at: 11/01/2016 22:11 PM
-ms.date: 11/01/2016
+updated_at: 05/01/2017 21:05 PM
+ms.date: 05/01/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v1.0.13/Add-AzureRmApplicationGatewayProbeConfig.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v1.0.13/Add-AzureRmApplicationGatewayProbeConfig.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0589fbf53d27e39e0cf445261d29c64fb0859d62
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -61,110 +61,11 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-### -Name
-Specifies the name of the probe.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -Protocol
-Specifies the protocol used to send probe.
-This cmdlet supports HTTP only.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
 ### -HostName
 Specifies the host name that this cmdlet sends the probe to.
 
 ```yaml
 Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -Path
-Specifies the relative path of probe.
-Valid path start with the slash character (/).
-The probe is sent to \<Protocol\>://\<host\>:\<port\>\<path\>.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -Interval
-Specifies the probe interval in seconds.
-This is the time interval between two consecutive probes.
-This value is between 1 second and 86400 seconds.
-
-```yaml
-Type: UInt32
-Parameter Sets: (All)
-Aliases: 
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -Timeout
-Specifies the probe timeout in seconds.
-This cmdlet marks the probe as failed if a valid response is not received with this timeout period.
-Valid values are between 1 second and 86400 seconds.
-
-```yaml
-Type: UInt32
-Parameter Sets: (All)
-Aliases: 
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -UnhealthyThreshold
-Specifies the probe retry count.
-The backend server is marked down after consecutive probe failure count reaches the unhealthy threshold.
-Valid values are between 1 second and 20 seconds.
-
-```yaml
-Type: UInt32
 Parameter Sets: (All)
 Aliases: 
 
@@ -208,6 +109,105 @@ Parameter Sets: (All)
 Aliases: iv
 
 Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -Interval
+Specifies the probe interval in seconds.
+This is the time interval between two consecutive probes.
+This value is between 1 second and 86400 seconds.
+
+```yaml
+Type: UInt32
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -Name
+Specifies the name of the probe.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -Path
+Specifies the relative path of probe.
+Valid path start with the slash character (/).
+The probe is sent to \<Protocol\>://\<host\>:\<port\>\<path\>.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -Protocol
+Specifies the protocol used to send probe.
+This cmdlet supports HTTP only.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -Timeout
+Specifies the probe timeout in seconds.
+This cmdlet marks the probe as failed if a valid response is not received with this timeout period.
+Valid values are between 1 second and 86400 seconds.
+
+```yaml
+Type: UInt32
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -UnhealthyThreshold
+Specifies the probe retry count.
+The backend server is marked down after consecutive probe failure count reaches the unhealthy threshold.
+Valid values are between 1 second and 20 seconds.
+
+```yaml
+Type: UInt32
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
 Position: Named
 Default value: None
 Accept pipeline input: False

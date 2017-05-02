@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.Azure.Commands.Compute.dll-Help.xml
+ms.assetid: 72EC6786-33C7-4A00-BDEF-A4C71EE4422B
 online version:
 schema: 2.0.0
-ms.assetid: 72EC6786-33C7-4A00-BDEF-A4C71EE4422B
-updated_at: 11/01/2016 22:11 PM
-ms.date: 11/01/2016
+updated_at: 05/01/2017 21:05 PM
+ms.date: 05/01/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Set-AzureRmVMExtension.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Set-AzureRmVMExtension.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0589fbf53d27e39e0cf445261d29c64fb0859d62
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -75,16 +75,16 @@ The command specifies other required information that includes the publisher and
 
 ## PARAMETERS
 
-### -Publisher
-Specifies the name of the extension publisher.
-The publisher provides a name when the publisher registers an extension.
+### -DisableAutoUpgradeMinorVersion
+Indicates that this cmdlet prevents the Azure guest agent from automatically updating the extensions to a newer minor version.
+By default, this cmdlet enables the guest agent to update the extensions.
 
 ```yaml
-Type: String
+Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
 
-Required: True
+Required: False
 Position: Named
 Default value: None
 Accept pipeline input: True (ByPropertyName)
@@ -100,130 +100,6 @@ Parameter Sets: (All)
 Aliases: Type
 
 Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -Settings
-Specifies public configuration for the extension, as a hash table.
-This cmdlet does not encrypt public configuration.
-
-```yaml
-Type: Hashtable
-Parameter Sets: Settings
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -ProtectedSettings
-Specifies private configuration for the extension, as a hash table.
-This cmdlet encrypts the private configuration.
-
-```yaml
-Type: Hashtable
-Parameter Sets: Settings
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -ResourceGroupName
-Specifies the name of the resource group of the virtual machine.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: True
-Position: 0
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -VMName
-Specifies the name of a virtual machine.
-This cmdlet modifies extensions for the virtual machine that this parameter specifies.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: ResourceName
-
-Required: True
-Position: 1
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -Name
-Specifies the name of an extension.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: ExtensionName
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -TypeHandlerVersion
-Specifies the version of the extension to use for this virtual machine.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: HandlerVersion, Version
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -Location
-Specifies the location of the virtual machine.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -DisableAutoUpgradeMinorVersion
-Indicates that this cmdlet prevents the Azure guest agent from automatically updating the extensions to a newer minor version.
-By default, this cmdlet enables the guest agent to update the extensions.
-
-```yaml
-Type: SwitchParameter
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
 Position: Named
 Default value: None
 Accept pipeline input: True (ByPropertyName)
@@ -287,13 +163,43 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -SettingString
-Specifies public configuration for the extension, as a string.
-This cmdlet does not encrypt public configuration.
+### -Location
+Specifies the location of the virtual machine.
 
 ```yaml
 Type: String
-Parameter Sets: SettingString
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -Name
+Specifies the name of an extension.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: ExtensionName
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -ProtectedSettings
+Specifies private configuration for the extension, as a hash table.
+This cmdlet encrypts the private configuration.
+
+```yaml
+Type: Hashtable
+Parameter Sets: Settings
 Aliases: 
 
 Required: False
@@ -314,6 +220,100 @@ Aliases:
 
 Required: False
 Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -Publisher
+Specifies the name of the extension publisher.
+The publisher provides a name when the publisher registers an extension.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -ResourceGroupName
+Specifies the name of the resource group of the virtual machine.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: 0
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -Settings
+Specifies public configuration for the extension, as a hash table.
+This cmdlet does not encrypt public configuration.
+
+```yaml
+Type: Hashtable
+Parameter Sets: Settings
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -SettingString
+Specifies public configuration for the extension, as a string.
+This cmdlet does not encrypt public configuration.
+
+```yaml
+Type: String
+Parameter Sets: SettingString
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -TypeHandlerVersion
+Specifies the version of the extension to use for this virtual machine.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: HandlerVersion, Version
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -VMName
+Specifies the name of a virtual machine.
+This cmdlet modifies extensions for the virtual machine that this parameter specifies.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: ResourceName
+
+Required: True
+Position: 1
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False

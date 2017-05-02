@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.Azure.Commands.Compute.dll-Help.xml
+ms.assetid: 975161A1-B1B4-446A-B499-0EA209F02F78
 online version:
 schema: 2.0.0
-ms.assetid: 975161A1-B1B4-446A-B499-0EA209F02F78
-updated_at: 11/01/2016 22:11 PM
-ms.date: 11/01/2016
+updated_at: 05/01/2017 21:05 PM
+ms.date: 05/01/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Add-AzureRmVmssSecret.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Add-AzureRmVmssSecret.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0589fbf53d27e39e0cf445261d29c64fb0859d62
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -54,55 +54,6 @@ The fourth command adds a secret to the VMSS using the vault secret using the ke
 
 ## PARAMETERS
 
-### -VirtualMachineScaleSet
-Specifies the VMSS object.
-You can use the New-AzureRmVmssConfig cmdlet to create this object.
-
-```yaml
-Type: VirtualMachineScaleSet
-Parameter Sets: (All)
-Aliases: 
-
-Required: True
-Position: 0
-Default value: None
-Accept pipeline input: True (ByPropertyName, ByValue)
-Accept wildcard characters: False
-```
-
-### -SourceVaultId
-Specifies the resource ID of the Key Vault that contains the certificates that you can add to the virtual machine.
-This value also acts as the key for adding multiple certificates.
-This means that you can use the same value for the *SourceVaultId* parameter when you add multiple certificates from the same Key Vault.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: 1
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -VaultCertificate
-Specifies the Vault **Certificate** object that contains the certificate URL and certificate name.
-You can use the New-AzureRmVmssVaultCertificateConfig cmdlet to create this object.
-
-```yaml
-Type: VaultCertificate[]
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: 2
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
 ### -InformationAction
 Specifies how this cmdlet responds to an information event.
 
@@ -139,6 +90,55 @@ Required: False
 Position: Named
 Default value: None
 Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -SourceVaultId
+Specifies the resource ID of the Key Vault that contains the certificates that you can add to the virtual machine.
+This value also acts as the key for adding multiple certificates.
+This means that you can use the same value for the *SourceVaultId* parameter when you add multiple certificates from the same Key Vault.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: 1
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -VaultCertificate
+Specifies the Vault **Certificate** object that contains the certificate URL and certificate name.
+You can use the New-AzureRmVmssVaultCertificateConfig cmdlet to create this object.
+
+```yaml
+Type: VaultCertificate[]
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: 2
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -VirtualMachineScaleSet
+Specifies the VMSS object.
+You can use the New-AzureRmVmssConfig cmdlet to create this object.
+
+```yaml
+Type: VirtualMachineScaleSet
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: 0
+Default value: None
+Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
 ```
 

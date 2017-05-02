@@ -3,11 +3,11 @@ Module Name: AzureRM.DNS
 Module Guid: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
 Locale: en-US
 ms.assetid: 81574D24-6FD4-4A2B-AE87-C938DEDB57DF
-content_git_url: https://github.com/Azure/azure-powershell/blob/v3.8.0-April2017/src/ResourceManager/Dns/Commands.Dns/help/AzureRM.DNS.md
-original_content_git_url: https://github.com/Azure/azure-powershell/blob/v3.8.0-April2017/src/ResourceManager/Dns/Commands.Dns/help/AzureRM.DNS.md
+content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/Dns/Commands.Dns/help/AzureRM.DNS.md
+original_content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/Dns/Commands.Dns/help/AzureRM.DNS.md
 gitcommit: https://github.com/Azure/azure-powershell/blob/94e42834e29c78cafba9e3f1e99e14af92561036
-updated_at: 04/26/2017 07:04 AM
-ms.date: 04/26/2017
+updated_at: 04/28/2017 07:04 AM
+ms.date: 04/28/2017
 ms.topic: conceptual
 author: erickson-doug
 ms.author: PowerShellHelpPub

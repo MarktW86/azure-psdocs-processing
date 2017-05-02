@@ -2,12 +2,11 @@
 external help file: Microsoft.Azure.Commands.HDInsight.dll-Help.xml
 online version:
 schema: 2.0.0
-ms.assetid: D1A5EF0F-AA03-41E5-AEA5-DA02D8AAF619
-updated_at: 11/01/2016 22:11 PM
-ms.date: 11/01/2016
+updated_at: 05/02/2017 17:05 PM
+ms.date: 05/02/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v1.1.4/Grant-AzureRmHDInsightHttpServicesAccess.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v1.1.4/Grant-AzureRmHDInsightHttpServicesAccess.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/fdff926f5dd35f9020f210f87b450464ba162edc
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -31,22 +30,26 @@ Grant-AzureRmHDInsightHttpServicesAccess [-ClusterName] <String> [-HttpCredentia
 ```
 
 ## DESCRIPTION
-The **Grant-AzureRmHDInsightHttpServicesAccess** cmdlet grants HTTP access to an Azure HDInsight cluster using ODBC, Ambari, Oozie and web services.
+The Grant-AzureRmHDInsightHttpServicesAccess cmdlet grants HTTP access to an Azure HDInsight cluster using ODBC, Ambari, Oozie and web services.
 
 ## EXAMPLES
 
-### Example 1: Grant HTTP access to an Azure HDInsight cluster
-```
-PS C:\># Cluster info
-PS C:\> $clusterName = "your-hadoop-001"
-PS C:\> $clusterCreds = Get-Credential
+### --------------------------  Example 1: Grant HTTP access to an Azure HDInsight cluster  --------------------------
+@{paragraph=PS C:\\\>}
 
-PS C:\> Grant-AzureRmHDInsightHttpServicesAccess `
+
+
+```
+PS C:\&gt; # Cluster info
+        $clusterName = "your-hadoop-001"
+        $clusterCreds = Get-Credential
+
+        Grant-AzureRmHDInsightHttpServicesAccess 
             -ClusterName $clusterName `
             -HttpCredential $newClusterCreds
 ```
 
-This command grants HTTP access to the cluster named your-hadoop-001.
+This command grants HTTP access to the cluster named 'your-hadoop-001'.
 
 ## PARAMETERS
 
@@ -80,32 +83,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ResourceGroupName
-Specifies the name of the resource group.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
 ### -InformationAction
-Specifies how this cmdlet responds to an information event.
-
-The acceptable values for this parameter are:
-
-- Continue
-- Ignore
-- Inquire
-- SilentlyContinue
-- Stop
-- Suspend
+@{Text=}
 
 ```yaml
 Type: ActionPreference
@@ -120,12 +99,27 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-Specifies an information variable.
+@{Text=}
 
 ```yaml
 Type: String
 Parameter Sets: (All)
 Aliases: iv
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -ResourceGroupName
+Specifies the name of the resource group.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
 
 Required: False
 Position: Named
@@ -142,9 +136,9 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## OUTPUTS
 
 ## NOTES
+Keywords: azure, azurerm, arm, resource, management, manager, hadoop, hdinsight, hd, insight
 
 ## RELATED LINKS
 
-[Revoke-AzureRmHDInsightHttpServicesAccess](./Revoke-AzureRmHDInsightHttpServicesAccess.md)
-
+[Revoke-AzureRmHDInsightHttpServicesAccess]()
 

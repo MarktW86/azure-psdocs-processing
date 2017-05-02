@@ -2,12 +2,11 @@
 external help file: Microsoft.Azure.Commands.HDInsight.dll-Help.xml
 online version:
 schema: 2.0.0
-ms.assetid: 8ACEF132-C795-405B-8A1C-90D35E744272
-updated_at: 11/01/2016 22:11 PM
-ms.date: 11/01/2016
+updated_at: 05/02/2017 17:05 PM
+ms.date: 05/02/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v1.1.4/Get-AzureRmHDInsightJobOutput.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v1.1.4/Get-AzureRmHDInsightJobOutput.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/fdff926f5dd35f9020f210f87b450464ba162edc
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -32,31 +31,35 @@ Get-AzureRmHDInsightJobOutput [-ClusterName] <String> [-JobId] <String> [[-Defau
 ```
 
 ## DESCRIPTION
-The **Get-AzureRmHDInsightJobOutput** cmdlet gets the log output for a job from the Storage account associated with an Azure HDInsight cluster.
+The Get-AzureRmHDInsightJobOutput cmdlet gets the log output for a job from the storage account associated with an Azure HDInsight cluster.
 
 ## EXAMPLES
 
-### Example 1: Get the log output for a job
+### --------------------------  Example 1: Get the log output for a job  --------------------------
+@{paragraph=PS C:\\\>}
+
+
+
 ```
-PS C:\># Cluster info
-PS C:\> $clusterName = "your-hadoop-001"
-PS C:\> $clusterCreds = Get-Credential
+PS C:\> # Cluster info
+        $clusterName = "your-hadoop-001"
+        $clusterCreds = Get-Credential
 
-# Hive job details
-PS C:\> $statusFolder = "<status folder>"
-PS C:\> $query = "<query here>"
+        # Hive job details
+        $statusFolder = "<status folder>"
+        $query = "<query here>"
 
-PS C:\> New-AzureRmHDInsightHiveJobDefinition -StatusFolder $statusFolder `
+        New-AzureRmHDInsightHiveJobDefinition -StatusFolder $statusFolder `
             -Query $query `
-        | Start-AzureRmHDInsightJob `
+        | Start-AzureRmHDInsightJob 
             -ClusterName $clusterName `
             -ClusterCredential $clusterCreds `
-        | Get-AzureRmHDInsightJobOutput `
+        | Get-AzureRmHDInsightJobOutput 
             -ClusterName $clusterName `
             -ClusterCredential $clusterCreds
 ```
 
-This command gets the log output from the cluster named your-hadoop-001.
+This command gets the log output from the cluster named 'your-hadoop-001'.
 
 ## PARAMETERS
 
@@ -70,21 +73,6 @@ Aliases:
 
 Required: True
 Position: 0
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -JobId
-Specifies the job ID of the job whose output will be fetched.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: True
-Position: 1
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -105,8 +93,23 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
+### -DefaultStorageAccountKey
+Specifies the default storage account key.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: 4
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
 ### -DefaultStorageAccountName
-Specifies the default Storage account name.
+Specifies the default storage account name.
 
 ```yaml
 Type: String
@@ -120,16 +123,17 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -DefaultStorageAccountKey
-Specifies the default Storage account key.
+### -DisplayOutputType
+Specifies the job output type being requested.
+Options are: StandardOutput, StandardError, TaskSummary
 
 ```yaml
-Type: String
+Type: JobDisplayOutputType
 Parameter Sets: (All)
 Aliases: 
 
 Required: False
-Position: 4
+Position: Named
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -150,51 +154,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ResourceGroupName
-Specifies the name of the resource group.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -DisplayOutputType
-Specifies the job output type being requested.
-psdx_paramvalues
-
-- StandardOutput
-- StandardError
-
-```yaml
-Type: JobDisplayOutputType
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
 ### -InformationAction
-Specifies how this cmdlet responds to an information event.
-
-The acceptable values for this parameter are:
-
-- Continue
-- Ignore
-- Inquire
-- SilentlyContinue
-- Stop
-- Suspend
+@{Text=}
 
 ```yaml
 Type: ActionPreference
@@ -209,12 +170,42 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-Specifies an information variable.
+@{Text=}
 
 ```yaml
 Type: String
 Parameter Sets: (All)
 Aliases: iv
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -JobId
+Specifies the job ID of the job whose output will be fetched.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: 1
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -ResourceGroupName
+Specifies the name of the resource group.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
 
 Required: False
 Position: Named
@@ -231,11 +222,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## OUTPUTS
 
 ## NOTES
+Keywords: azure, azurerm, arm, resource, management, manager, hadoop, hdinsight, hd, insight
 
 ## RELATED LINKS
-
-[New-AzureRmHDInsightHiveJobDefinition](./New-AzureRmHDInsightHiveJobDefinition.md)
-
-[Start-AzureRmHDInsightJob](./Start-AzureRmHDInsightJob.md)
-
 

@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
+ms.assetid: E0C70DB1-A911-4C93-BA73-00275C6D73BC
 online version:
 schema: 2.0.0
-ms.assetid: E0C70DB1-A911-4C93-BA73-00275C6D73BC
-updated_at: 11/01/2016 22:11 PM
-ms.date: 11/01/2016
+updated_at: 05/01/2017 21:05 PM
+ms.date: 05/01/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v1.0.13/Set-AzureRmVirtualNetworkGatewayDefaultSite.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v1.0.13/Set-AzureRmVirtualNetworkGatewayDefaultSite.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0589fbf53d27e39e0cf445261d29c64fb0859d62
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -56,24 +56,6 @@ The second command then creates an object reference to the virtual network gatew
 The third command uses the **Set-AzureRmVirtualNetworkGatewayDefaultSite** cmdlet to assign the default site to ContosoVirtualGateway.
 
 ## PARAMETERS
-
-### -VirtualNetworkGateway
-Specifies an object reference to the virtual network gateway where the default site will be assigned.
-You can create an object reference to a virtual network gateway by using the **Get-AzureRmVirtualNetworkGateway** and specifying the name of the gateway.
-
-The variable $VirtualGateway can then be used as the parameter value for the *VirtualNetworkGateway* parameter:
-
-```yaml
-Type: PSVirtualNetworkGateway
-Parameter Sets: (All)
-Aliases: 
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByValue)
-Accept wildcard characters: False
-```
 
 ### -GatewayDefaultSite
 Specifies an object reference to the local network gateway to be assigned as the default site for the specified virtual network.
@@ -127,6 +109,24 @@ Required: False
 Position: Named
 Default value: None
 Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -VirtualNetworkGateway
+Specifies an object reference to the virtual network gateway where the default site will be assigned.
+You can create an object reference to a virtual network gateway by using the **Get-AzureRmVirtualNetworkGateway** and specifying the name of the gateway.
+
+The variable $VirtualGateway can then be used as the parameter value for the *VirtualNetworkGateway* parameter:
+
+```yaml
+Type: PSVirtualNetworkGateway
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 

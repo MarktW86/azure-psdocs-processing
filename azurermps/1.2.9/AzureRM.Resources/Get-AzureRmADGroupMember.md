@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.Resources.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 03/23/2017 23:03 PM
-ms.date: 03/23/2017
+updated_at: 05/02/2017 17:05 PM
+ms.date: 05/02/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v1.0.4.3/Get-AzureRmADGroupMember.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v1.0.4.3/Get-AzureRmADGroupMember.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/280872fa529e03be2466fa2252957a2060a9dfe4
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/fdff926f5dd35f9020f210f87b450464ba162edc
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -19,7 +19,7 @@ ms.service: azure-resource-manager
 # Get-AzureRmADGroupMember
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+Get a group members.
 
 ## SYNTAX
 
@@ -28,21 +28,27 @@ Get-AzureRmADGroupMember [-GroupObjectId <String>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+This is the Description section
+
+Get a group members.
 
 ## EXAMPLES
 
-### Example 1
+### --------------------------  Filters group members using group object id  --------------------------
+@{paragraph=PS C:\\\>}
+
+
+
 ```
-PS C:\> {{ Add example code here }}
+PS C:\> Get-AzureRmADGroupMember -GroupObjectId 85F89C90-780E-4AA6-9F4F-6F268D322EEE
 ```
 
-{{ Add example description here }}
+Gets group members with 85F89C90-780E-4AA6-9F4F-6F268D322EEE id
 
 ## PARAMETERS
 
 ### -GroupObjectId
-The user email address.
+Object id of the group.
 
 ```yaml
 Type: String
@@ -61,13 +67,15 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## INPUTS
 
-### System.String
-
 ## OUTPUTS
-
-### System.Collections.Generic.List`1[[Microsoft.Azure.Commands.Resources.Models.ActiveDirectory.PSADObject, Microsoft.Azure.Commands.Resources, Version=1.0.4.3, Culture=neutral, PublicKeyToken=31bf3856ad364e35]]
 
 ## NOTES
 
 ## RELATED LINKS
+
+[Get-AzureRmADUser]()
+
+[Get-AzureRmADServicePrincipal]()
+
+[Get-AzureRmADGroupMemberMember]()
 

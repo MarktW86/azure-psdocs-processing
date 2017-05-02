@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.Azure.Commands.Cdn.dll-Help.xml
+ms.assetid: 165682E9-26DC-4829-B816-8C983DC2D020
 online version:
 schema: 2.0.0
-ms.assetid: 165682E9-26DC-4829-B816-8C983DC2D020
-updated_at: 11/01/2016 22:11 PM
-ms.date: 11/01/2016
+updated_at: 05/01/2017 21:05 PM
+ms.date: 05/01/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Cdn/v1.0.6/Publish-AzureRmCdnEndpointContent.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Cdn/v1.0.6/Publish-AzureRmCdnEndpointContent.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0589fbf53d27e39e0cf445261d29c64fb0859d62
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -49,38 +49,23 @@ The **Publish-AzureRmCdnEndpointContent** cmdlet loads content from an origin se
 
 ## PARAMETERS
 
+### -CdnEndpoint
+Sepcifies the CDN endpoint.
+
+```yaml
+Type: PSEndpoint
+Parameter Sets: Parameter Set for object parameters
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: True (ByValue)
+Accept wildcard characters: False
+```
+
 ### -EndpointName
 Specifies the name of the endpoint.
-
-```yaml
-Type: String
-Parameter Sets: Parameter Set for fields parameters
-Aliases: 
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -ProfileName
-Specifies the name of the profile to which the origin server belongs.
-
-```yaml
-Type: String
-Parameter Sets: Parameter Set for fields parameters
-Aliases: 
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -ResourceGroupName
-Specifies the name of the resource group to which the origin server belongs.
 
 ```yaml
 Type: String
@@ -148,21 +133,6 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -CdnEndpoint
-Sepcifies the CDN endpoint.
-
-```yaml
-Type: PSEndpoint
-Parameter Sets: Parameter Set for object parameters
-Aliases: 
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByValue)
-Accept wildcard characters: False
-```
-
 ### -PassThru
 passthru
 
@@ -175,6 +145,36 @@ Required: False
 Position: Named
 Default value: None
 Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -ProfileName
+Specifies the name of the profile to which the origin server belongs.
+
+```yaml
+Type: String
+Parameter Sets: Parameter Set for fields parameters
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -ResourceGroupName
+Specifies the name of the resource group to which the origin server belongs.
+
+```yaml
+Type: String
+Parameter Sets: Parameter Set for fields parameters
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: False
 Accept wildcard characters: False
 ```
 

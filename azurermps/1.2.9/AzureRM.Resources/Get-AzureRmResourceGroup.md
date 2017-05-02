@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Resources.dll-Help.xml
-online version:
+online version: http://go.microsoft.com/fwlink/?LinkID=393047
 schema: 2.0.0
-updated_at: 03/23/2017 23:03 PM
-ms.date: 03/23/2017
+updated_at: 05/02/2017 17:05 PM
+ms.date: 05/02/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v1.0.4.3/Get-AzureRmResourceGroup.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v1.0.4.3/Get-AzureRmResourceGroup.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/280872fa529e03be2466fa2252957a2060a9dfe4
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/fdff926f5dd35f9020f210f87b450464ba162edc
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -19,7 +19,7 @@ ms.service: azure-resource-manager
 # Get-AzureRmResourceGroup
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+Gets Azure resource groups
 
 ## SYNTAX
 
@@ -34,16 +34,117 @@ Get-AzureRmResourceGroup [-Location <String>] [-Id <String>] [<CommonParameters>
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+This is the Description section
+
+The Get-AzureRmResourceGroup cmdlet gets the Azure resource groups in your subscription.
+You can use the Name parameter to select resource groups by name.
+The default is all resource groups.An Azure resource is a user-managed Azure entity, such as a database server, database, or web site.
+An Azure resource group is a collection of Azure resources that are deployed as a unit.
 
 ## EXAMPLES
 
-### Example 1
+### --------------------------  Example 1: Get all resource groups and their details  --------------------------
+@{paragraph=PS C:\\\>}
+
+
+
 ```
-PS C:\> {{ Add example code here }}
+PS C:\>Get-AzureRmResourceGroup -Detailed
+Name:      Contoso
+Location:  West US
+Resources: 
+           Name             Type                     Location
+           ===============  =======================  ========
+           ConstosoWebSite  Microsoft.Web/sites      West US
+           sqlsvr03         Microsoft.Sql/servers    West US
+           sqldb01          Microsoft.Sql/databases  West US
+
+Name:      EngineerBlog
+Location:  East US
+Resources: 
+           Name             Type                     Location
+           ===============  =======================  ========
+           EngineerBlog     Microsoft.Web/sites      West US
+           EngSvr01         Microsoft.Sql/servers    West US
+           EngDB02          Microsoft.Sql/databases  West US
 ```
 
-{{ Add example description here }}
+This command gets all resource groups in the subscription.
+
+### --------------------------  Example 2: Get resource groups by name  --------------------------
+@{paragraph=PS C:\\\>}
+
+
+
+```
+PS C:\>Get-AzureRmResourceGroup -Name EngineerBlog
+Name:      EngineerBlog
+Location:  East US
+Resources: 
+           Name             Type                     Location
+           ===============  =======================  ========
+           EngineerBlog     Microsoft.Web/sites      West US
+           EngSvr01         Microsoft.Sql/servers    West US
+           EngDB02          Microsoft.Sql/databases  West US
+```
+
+This command gets Azure resource groups in your subscription that have names that begin with "eng".
+
+### --------------------------  Example 3: Get resource groups by other properties  --------------------------
+@{paragraph=PS C:\\\>}
+
+
+
+```
+PS C:\>Get-AzureRmResourceGroup -Detailed | Where-Object {$_.Resources.Type -like "*serverFarms*"} | Select-Object -Property ResourceGroupName
+Contoso
+EngineerBlog
+```
+
+The command uses the Where-Object, ForEach-Object, and Select-Object cmdlets to get the names of resource groups that include Azure database server farms.
+You can use commands like this one to find resource groups with resources or properties of interest.
+
+The command uses the Get-AzureRmResourceGroup cmdlet to get all resource groups in the subscription.
+It pipes the resource groups to the Where-Object cmdlet, which returns only the resource groups that include server farm resources.
+The command pipes those resource groups to the Select-Object cmdlet, which returns only the value of the ResourceGroupName property of each resource group.
+
+### --------------------------  Example 4: Get resource groups by tag  --------------------------
+@{paragraph=PS C:\\\>}
+
+
+
+```
+PS C:\>Get-AzureRmResourceGroup -Tag @{Name="CostCenter";Value="Development"}
+
+PS C:\>Get-AzureRmResourceGroup -Tag @{Name="CostCenter"}
+```
+
+These commands get resource groups by tag.
+The first command gets resource groups that have a "CostCenter" tag with a value of "Development".
+The second command gets all resource groups that have a "CostCenter" tag, regardless of its value.
+
+### --------------------------  Example 5: Get all tags of a resource group  --------------------------
+@{paragraph=PS C:\\\>}
+
+
+
+```
+PS C:\>Get-AzureRmResourceGroup -Name ContosoRG
+
+PS C:\>(Get-AzureRmResourceGroup -Name ContosoRG).Tags
+
+Tags: 
+
+      Name        Value
+      ====        ======
+      Department  IT
+      Status      Approved
+      FY2016
+```
+
+These commands get all tags of the ContosoRG  resource group. 
+The first command gets the resource group by name with all of its properties.
+The second command, which uses the Tags property of the output object, gets only the tags.
 
 ## PARAMETERS
 
@@ -97,13 +198,18 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## INPUTS
 
-### System.String
+### None
 
 ## OUTPUTS
 
-### System.Collections.Generic.List`1[[Microsoft.Azure.Commands.Resources.Models.PSResourceGroup, Microsoft.Azure.Commands.Resources, Version=1.0.4.3, Culture=neutral, PublicKeyToken=31bf3856ad364e35]]
+### Microsoft.Azure.Commands.ResourceManagement.PSResourceGroup
 
 ## NOTES
+Keywords: azure, azurerm, arm, resource, management, manager, resource, group, template, deployment
 
 ## RELATED LINKS
+
+[New-AzureRmResourceGroup]()
+
+[Remove-AzureRmResourceGroup]()
 

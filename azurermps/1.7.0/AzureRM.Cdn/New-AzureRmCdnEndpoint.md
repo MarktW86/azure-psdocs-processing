@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.Azure.Commands.Cdn.dll-Help.xml
+ms.assetid: 9AD628ED-BC70-4984-9F20-24EA08069857
 online version:
 schema: 2.0.0
-ms.assetid: 9AD628ED-BC70-4984-9F20-24EA08069857
-updated_at: 11/01/2016 22:11 PM
-ms.date: 11/01/2016
+updated_at: 05/01/2017 21:05 PM
+ms.date: 05/01/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Cdn/v1.0.6/New-AzureRmCdnEndpoint.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Cdn/v1.0.6/New-AzureRmCdnEndpoint.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0589fbf53d27e39e0cf445261d29c64fb0859d62
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -45,6 +45,21 @@ The **New-AzureRmCdnEndpoint** cmdlet creates an Azure Content Delivery Network 
 
 ## PARAMETERS
 
+### -ContentTypesToCompress
+Specifies an array of content types to compress from the edge node to the client.
+
+```yaml
+Type: String[]
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
 ### -EndpointName
 Specifies the name of the endpoint.
 
@@ -60,30 +75,30 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ProfileName
-Specifies the name of the profile.
+### -HttpPort
+Specifies the HTTP port number on the origin server.
 
 ```yaml
-Type: String
+Type: Int32
 Parameter Sets: (All)
 Aliases: 
 
-Required: True
+Required: False
 Position: Named
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ResourceGroupName
-Specifies the name of the resource group to which this endpoint belongs.
+### -HttpsPort
+Specifies the HTTPS port number on the origin server.
 
 ```yaml
-Type: String
+Type: Int32
 Parameter Sets: (All)
 Aliases: 
 
-Required: True
+Required: False
 Position: Named
 Default value: None
 Accept pipeline input: False
@@ -121,66 +136,6 @@ Specifies an information variable.
 Type: String
 Parameter Sets: (All)
 Aliases: iv
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -Location
-Specifies the resource location of the endpoint.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -OriginHostHeader
-Specifies the origin host head of the endpoint.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -OriginPath
-Specifies the path of the origin server.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -ContentTypesToCompress
-Specifies an array of content types to compress from the edge node to the client.
-
-```yaml
-Type: String[]
-Parameter Sets: (All)
-Aliases: 
 
 Required: False
 Position: Named
@@ -234,23 +189,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -QueryStringCachingBehavior
-Specifies the behavior of CDN endpoint when a query string is in the request URL.
-
-```yaml
-Type: PSQueryStringCachingBehavior
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -OriginName
-Specifies the resource name of the origin server.
+### -Location
+Specifies the resource location of the endpoint.
 
 ```yaml
 Type: String
@@ -258,6 +198,21 @@ Parameter Sets: (All)
 Aliases: 
 
 Required: True
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -OriginHostHeader
+Specifies the origin host head of the endpoint.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
 Position: Named
 Default value: None
 Accept pipeline input: False
@@ -279,11 +234,26 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -HttpPort
-Specifies the HTTP port number on the origin server.
+### -OriginName
+Specifies the resource name of the origin server.
 
 ```yaml
-Type: Int32
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -OriginPath
+Specifies the path of the origin server.
+
+```yaml
+Type: String
 Parameter Sets: (All)
 Aliases: 
 
@@ -294,15 +264,45 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -HttpsPort
-Specifies the HTTPS port number on the origin server.
+### -ProfileName
+Specifies the name of the profile.
 
 ```yaml
-Type: Int32
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -QueryStringCachingBehavior
+Specifies the behavior of CDN endpoint when a query string is in the request URL.
+
+```yaml
+Type: PSQueryStringCachingBehavior
 Parameter Sets: (All)
 Aliases: 
 
 Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -ResourceGroupName
+Specifies the name of the resource group to which this endpoint belongs.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
 Position: Named
 Default value: None
 Accept pipeline input: False

@@ -3,11 +3,11 @@ Module Name: AzureRM.RecoveryServices
 Module Guid: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
 Locale: en-US
 ms.assetid: DC5E0ECC-BFFA-4030-8BCB-BD180CAD77B8
-content_git_url: https://github.com/Azure/azure-powershell/blob/v3.8.0-April2017/src/ResourceManager/RecoveryServices/Commands.RecoveryServices/help/AzureRM.RecoveryServices.md
-original_content_git_url: https://github.com/Azure/azure-powershell/blob/v3.8.0-April2017/src/ResourceManager/RecoveryServices/Commands.RecoveryServices/help/AzureRM.RecoveryServices.md
+content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/RecoveryServices/Commands.RecoveryServices/help/AzureRM.RecoveryServices.md
+original_content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/RecoveryServices/Commands.RecoveryServices/help/AzureRM.RecoveryServices.md
 gitcommit: https://github.com/Azure/azure-powershell/blob/94e42834e29c78cafba9e3f1e99e14af92561036
-updated_at: 04/26/2017 07:04 AM
-ms.date: 04/26/2017
+updated_at: 04/28/2017 07:04 AM
+ms.date: 04/28/2017
 ms.topic: conceptual
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -15,13 +15,13 @@ keywords: powershell, cmdlet
 manager: erickson-doug
 open_to_public_contributors: true
 ms.service: backup
-Get-AzureRmRecoveryServicesBackupProperties: Recovery
-Get-AzureRmRecoveryServicesVault: Recovery
-Get-AzureRmRecoveryServicesVaultSettingsFile: Recovery
-New-AzureRmRecoveryServicesVault: Recovery
-Remove-AzureRmRecoveryServicesVault: Recovery
-Set-AzureRmRecoveryServicesBackupProperties: Recovery
-Set-AzureRmRecoveryServicesVaultContext: Recovery
+Get-AzureRmRecoveryServicesBackupProperties: Recovery Services
+Get-AzureRmRecoveryServicesVault: Recovery Services
+Get-AzureRmRecoveryServicesVaultSettingsFile: Recovery Services
+New-AzureRmRecoveryServicesVault: Recovery Services
+Remove-AzureRmRecoveryServicesVault: Recovery Services
+Set-AzureRmRecoveryServicesBackupProperties: Recovery Services
+Set-AzureRmRecoveryServicesVaultContext: Recovery Services
 _isModulePage: true
 ---
 

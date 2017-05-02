@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.Azure.Commands.RecoveryServices.Backup.dll-Help.xml
+ms.assetid: 0B4106D1-90BD-4FC3-B5CA-D97278B119C3
 online version:
 schema: 2.0.0
-ms.assetid: 0B4106D1-90BD-4FC3-B5CA-D97278B119C3
-updated_at: 11/01/2016 22:11 PM
-ms.date: 11/01/2016
+updated_at: 05/01/2017 21:05 PM
+ms.date: 05/01/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices.Backup/v1.0.4/Get-AzureRmRecoveryServicesBackupItem.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices.Backup/v1.0.4/Get-AzureRmRecoveryServicesBackupItem.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0589fbf53d27e39e0cf445261d29c64fb0859d62
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -62,81 +62,41 @@ The second command gets the Backup item named V2VM in $Container, and then store
 
 ## PARAMETERS
 
-### -Name
-Specifies the name of the container.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: 2
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -ProtectionStatus
-Specifies the overall protection status of an item in the container.
-psdx_paramvalues
-
-- Healthy
-- Unhealthy
-
-```yaml
-Type: ItemProtectionStatus
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: 3
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -ProtectionState
-Specifies the state of protection.
-psdx_paramvalues
-
-- IRPending.
-Initial synchronization has not started and there is no recovery point yet. 
-- Protected.
-Protection is ongoing. 
-- ProtectionError.
-There is a protection error.
-- ProtectionStopped.
-Protection is disabled.
-
-```yaml
-Type: ItemProtectionState
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: 4
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -WorkloadType
-Specifies the workload type. 
+### -BackupManagementType
+Specifies the Backup management type.
 psdx_paramvalues
 
 - AzureVM 
-- AzureSQLDatabase
+- MARS 
+- SCDPM 
+- AzureBackupServer 
+ AzureSQL
 
 ```yaml
-Type: WorkloadType
-Parameter Sets: (All)
+Type: BackupManagementType
+Parameter Sets: GetItemsForVault
 Aliases: 
 
 Required: True
-Position: 5
+Position: 1
 Default value: None
 Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -Container
+Specifies a container object from which this cmdlet gets backup items.
+To obtain an **AzureRmRecoveryServicesBackupContainer**, use the Get-AzureRmRecoveryServicesBackupContainer cmdlet.
+
+```yaml
+Type: ContainerBase
+Parameter Sets: GetItemsForContainer
+Aliases: 
+
+Required: True
+Position: 1
+Default value: None
+Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
@@ -179,41 +139,81 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -BackupManagementType
-Specifies the Backup management type.
-psdx_paramvalues
-
-- AzureVM 
-- MARS 
-- SCDPM 
-- AzureBackupServer 
- AzureSQL
+### -Name
+Specifies the name of the container.
 
 ```yaml
-Type: BackupManagementType
-Parameter Sets: GetItemsForVault
+Type: String
+Parameter Sets: (All)
 Aliases: 
 
-Required: True
-Position: 1
+Required: False
+Position: 2
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Container
-Specifies a container object from which this cmdlet gets backup items.
-To obtain an **AzureRmRecoveryServicesBackupContainer**, use the Get-AzureRmRecoveryServicesBackupContainer cmdlet.
+### -ProtectionState
+Specifies the state of protection.
+psdx_paramvalues
+
+- IRPending.
+Initial synchronization has not started and there is no recovery point yet. 
+- Protected.
+Protection is ongoing. 
+- ProtectionError.
+There is a protection error.
+- ProtectionStopped.
+Protection is disabled.
 
 ```yaml
-Type: ContainerBase
-Parameter Sets: GetItemsForContainer
+Type: ItemProtectionState
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: 4
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -ProtectionStatus
+Specifies the overall protection status of an item in the container.
+psdx_paramvalues
+
+- Healthy
+- Unhealthy
+
+```yaml
+Type: ItemProtectionStatus
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: 3
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -WorkloadType
+Specifies the workload type. 
+psdx_paramvalues
+
+- AzureVM 
+- AzureSQLDatabase
+
+```yaml
+Type: WorkloadType
+Parameter Sets: (All)
 Aliases: 
 
 Required: True
-Position: 1
+Position: 5
 Default value: None
-Accept pipeline input: True (ByPropertyName)
+Accept pipeline input: False
 Accept wildcard characters: False
 ```
 

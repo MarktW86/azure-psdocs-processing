@@ -17,15 +17,15 @@ ms.service: sql-database
 Get-AzureRmSqlCapability: SQL
 Get-AzureRmSqlDatabase: SQL
 Get-AzureRmSqlDatabaseActivity: SQL
-Get-AzureRmSqlDatabaseAuditingPolicy: Policies
-Get-AzureRmSqlDatabaseDataMaskingPolicy: Policies
+Get-AzureRmSqlDatabaseAuditingPolicy: SQL
+Get-AzureRmSqlDatabaseDataMaskingPolicy: SQL
 Get-AzureRmSqlDatabaseDataMaskingRule: SQL
 Get-AzureRmSqlDatabaseExpanded: SQL
 Get-AzureRmSqlDatabaseIndexRecommendations: SQL
 Get-AzureRmSqlDatabaseReplicationLink: SQL
 Get-AzureRmSqlDatabaseRestorePoints: SQL
-Get-AzureRmSqlDatabaseSecureConnectionPolicy: Policies
-Get-AzureRmSqlDatabaseThreatDetectionPolicy: Policies
+Get-AzureRmSqlDatabaseSecureConnectionPolicy: SQL
+Get-AzureRmSqlDatabaseThreatDetectionPolicy: SQL
 Get-AzureRmSqlDatabaseTransparentDataEncryption: SQL
 Get-AzureRmSqlDatabaseTransparentDataEncryptionActivity: SQL
 Get-AzureRmSqlDatabaseUpgradeHint: SQL
@@ -35,7 +35,7 @@ Get-AzureRmSqlElasticPoolDatabase: SQL
 Get-AzureRmSqlElasticPoolRecommendation: SQL
 Get-AzureRmSqlServer: SQL
 Get-AzureRmSqlServerActiveDirectoryAdministrator: SQL
-Get-AzureRmSqlServerAuditingPolicy: Policies
+Get-AzureRmSqlServerAuditingPolicy: SQL
 Get-AzureRmSqlServerCommunicationLink: SQL
 Get-AzureRmSqlServerFirewallRule: SQL
 Get-AzureRmSqlServerServiceObjective: SQL
@@ -53,7 +53,7 @@ Remove-AzureRmSqlDatabase: SQL
 Remove-AzureRmSqlDatabaseAuditing: SQL
 Remove-AzureRmSqlDatabaseDataMaskingRule: SQL
 Remove-AzureRmSqlDatabaseSecondary: SQL
-Remove-AzureRmSqlDatabaseThreatDetectionPolicy: Policies
+Remove-AzureRmSqlDatabaseThreatDetectionPolicy: SQL
 Remove-AzureRmSqlElasticPool: SQL
 Remove-AzureRmSqlServer: SQL
 Remove-AzureRmSqlServerActiveDirectoryAdministrator: SQL
@@ -62,16 +62,16 @@ Remove-AzureRmSqlServerCommunicationLink: SQL
 Remove-AzureRmSqlServerFirewallRule: SQL
 Resume-AzureRmSqlDatabase: SQL
 Set-AzureRmSqlDatabase: SQL
-Set-AzureRmSqlDatabaseAuditingPolicy: Policies
-Set-AzureRmSqlDatabaseDataMaskingPolicy: Policies
+Set-AzureRmSqlDatabaseAuditingPolicy: SQL
+Set-AzureRmSqlDatabaseDataMaskingPolicy: SQL
 Set-AzureRmSqlDatabaseDataMaskingRule: SQL
 Set-AzureRmSqlDatabaseSecondary: SQL
-Set-AzureRmSqlDatabaseThreatDetectionPolicy: Policies
+Set-AzureRmSqlDatabaseThreatDetectionPolicy: SQL
 Set-AzureRmSqlDatabaseTransparentDataEncryption: SQL
 Set-AzureRmSqlElasticPool: SQL
 Set-AzureRmSqlServer: SQL
 Set-AzureRmSqlServerActiveDirectoryAdministrator: SQL
-Set-AzureRmSqlServerAuditingPolicy: Policies
+Set-AzureRmSqlServerAuditingPolicy: SQL
 Set-AzureRmSqlServerCommunicationLink: SQL
 Set-AzureRmSqlServerFirewallRule: SQL
 Start-AzureRmSqlDatabaseExecuteIndexRecommendation: SQL
@@ -79,7 +79,7 @@ Start-AzureRmSqlServerUpgrade: SQL
 Stop-AzureRmSqlDatabaseExecuteIndexRecommendation: SQL
 Stop-AzureRmSqlServerUpgrade: SQL
 Suspend-AzureRmSqlDatabase: SQL
-Use-AzureRmSqlServerAuditingPolicy: Policies
+Use-AzureRmSqlServerAuditingPolicy: SQL
 _isModulePage: true
 ---
 

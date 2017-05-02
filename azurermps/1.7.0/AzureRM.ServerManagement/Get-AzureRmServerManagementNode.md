@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.Azure.Commands.ServerManagement.dll-Help.xml
+ms.assetid: 9123BD8A-E7DC-4905-9EEA-DF7654AB76BF
 online version:
 schema: 2.0.0
-ms.assetid: 9123BD8A-E7DC-4905-9EEA-DF7654AB76BF
-updated_at: 11/01/2016 22:11 PM
-ms.date: 11/01/2016
+updated_at: 05/01/2017 21:05 PM
+ms.date: 05/01/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.ServerManagement/v1.0.3/Get-AzureRmServerManagementNode.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.ServerManagement/v1.0.3/Get-AzureRmServerManagementNode.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0589fbf53d27e39e0cf445261d29c64fb0859d62
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -47,36 +47,6 @@ The **Get-AzureRmServerManagementNode** cmdlet gets one or more Azure Server Man
 ```
 
 ## PARAMETERS
-
-### -ResourceGroupName
-Specifies the name of the resource group in which the nodes belong to.
-
-```yaml
-Type: String
-Parameter Sets: ByNodeName
-Aliases: 
-
-Required: False
-Position: 0
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -NodeName
-Specifies the name of the node for which this cmdlet gets.
-
-```yaml
-Type: String
-Parameter Sets: ByNodeName
-Aliases: 
-
-Required: False
-Position: 1
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
 
 ### -InformationAction
 Specifies how this cmdlet responds to an information event.
@@ -129,6 +99,36 @@ Required: True
 Position: 0
 Default value: None
 Accept pipeline input: True (ByValue)
+Accept wildcard characters: False
+```
+
+### -NodeName
+Specifies the name of the node for which this cmdlet gets.
+
+```yaml
+Type: String
+Parameter Sets: ByNodeName
+Aliases: 
+
+Required: False
+Position: 1
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -ResourceGroupName
+Specifies the name of the resource group in which the nodes belong to.
+
+```yaml
+Type: String
+Parameter Sets: ByNodeName
+Aliases: 
+
+Required: False
+Position: 0
+Default value: None
+Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 

@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.Azure.Commands.RedisCache.dll-Help.xml
+ms.assetid: 99D4203F-6E3A-4B21-B5FA-F72F8955C161
 online version:
 schema: 2.0.0
-ms.assetid: 99D4203F-6E3A-4B21-B5FA-F72F8955C161
-updated_at: 10/31/2016 21:10 PM
-ms.date: 10/31/2016
+updated_at: 05/01/2017 21:05 PM
+ms.date: 05/01/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v1.1.10/Remove-AzureRmRedisCacheDiagnostics.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v1.1.10/Remove-AzureRmRedisCacheDiagnostics.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/70d99f0e924efe152eb73454f7898f92d5a5db64
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0589fbf53d27e39e0cf445261d29c64fb0859d62
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -45,6 +45,21 @@ This disables diagnostics for all Azure Redis Caches in the same region for the 
 
 ## PARAMETERS
 
+### -Force
+When the Force parameter is provided, diagnostics will be disables without any confirmation prompts.
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
 ### -Name
 Specifies the name of the cache.
 
@@ -72,21 +87,6 @@ Required: True
 Position: Named
 Default value: None
 Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -Force
-When the Force parameter is provided, diagnostics will be disables without any confirmation prompts.
-
-```yaml
-Type: SwitchParameter
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
 Accept wildcard characters: False
 ```
 

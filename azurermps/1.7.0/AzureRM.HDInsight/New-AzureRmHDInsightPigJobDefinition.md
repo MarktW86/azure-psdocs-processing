@@ -2,12 +2,11 @@
 external help file: Microsoft.Azure.Commands.HDInsight.dll-Help.xml
 online version:
 schema: 2.0.0
-ms.assetid: 53C1A4D8-AE0F-422D-A069-D765E4407310
-updated_at: 11/01/2016 22:11 PM
-ms.date: 11/01/2016
+updated_at: 05/02/2017 17:05 PM
+ms.date: 05/02/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v1.1.4/New-AzureRmHDInsightPigJobDefinition.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v1.1.4/New-AzureRmHDInsightPigJobDefinition.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/fdff926f5dd35f9020f210f87b450464ba162edc
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -31,23 +30,27 @@ New-AzureRmHDInsightPigJobDefinition [-Arguments <String[]>] [-Files <String[]>]
 ```
 
 ## DESCRIPTION
-The **New-AzureRmHDInsightPigJobDefinition** cmdlet defines a Pig job object for use with an Azure HDInsight cluster.
+The New-AzureRmHDInsightPigJobDefinition cmdlet defines a Pig job object for use with an Azure HDInsight cluster.
 
 ## EXAMPLES
 
-### Example 1: Create a Pig job definition
+### --------------------------  Example 1: Create a Pig job definition  --------------------------
+@{paragraph=PS C:\\\>}
+
+
+
 ```
-PS C:\># Cluster info
-PS C:\>$clusterName = "your-hadoop-001"
-PS C:\>$clusterCreds = Get-Credential
+PS C:\&gt; # Cluster info
+        $clusterName = "your-hadoop-001"
+        $clusterCreds = Get-Credential
 
-# Pig job details
-PS C:\>$statusFolder = "tempStatusFolder/"
-PS C:\>$query = "SHOW TABLES"
+        # Pig job details
+        $statusFolder = "tempStatusFolder/"
+        $query = "SHOW TABLES"
 
-PS C:\>New-AzureRmHDInsightPigJobDefinition -StatusFolder $statusFolder `
+        New-AzureRmHDInsightPigJobDefinition -StatusFolder $statusFolder `
             -Query $query `
-        | Start-AzureRmHDInsightJob `
+        | Start-AzureRmHDInsightJob 
             -ClusterName $clusterName `
             -ClusterCredential $clusterCreds
 ```
@@ -62,6 +65,22 @@ The arguments are passed as command-line arguments to each task.
 
 ```yaml
 Type: String[]
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -File
+Specifies the path to a file that contains a query to run.
+You can use this parameter instead of the Query parameter.
+
+```yaml
+Type: String
 Parameter Sets: (All)
 Aliases: 
 
@@ -87,13 +106,13 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -StatusFolder
-Specifies the location of the folder that contains standard outputs and error outputs for a job.
+### -InformationAction
+@{Text=}
 
 ```yaml
-Type: String
+Type: ActionPreference
 Parameter Sets: (All)
-Aliases: 
+Aliases: infa
 
 Required: False
 Position: Named
@@ -102,15 +121,13 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -File
-Specifies the path to a file that contains the query to run.
-The file must be available on the storage account associated with the cluster.
-You can use this parameter instead of the *Query* parameter.
+### -InformationVariable
+@{Text=}
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases: iv
 
 Required: False
 Position: Named
@@ -134,37 +151,13 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationAction
-Specifies how this cmdlet responds to an information event.
-
-The acceptable values for this parameter are:
-
-- Continue
-- Ignore
-- Inquire
-- SilentlyContinue
-- Stop
-- Suspend
-
-```yaml
-Type: ActionPreference
-Parameter Sets: (All)
-Aliases: infa
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -InformationVariable
-Specifies an information variable.
+### -StatusFolder
+Specifies the location of the folder that contains standard outputs and error outputs for a job.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: iv
+Aliases: 
 
 Required: False
 Position: Named
@@ -181,9 +174,9 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## OUTPUTS
 
 ## NOTES
+Keywords: azure, azurerm, arm, resource, management, manager, hadoop, hdinsight, hd, insight
 
 ## RELATED LINKS
 
-[Start-AzureRmHDInsightJob](./Start-AzureRmHDInsightJob.md)
-
+[Start-AzureRmHDInsightJob]()
 

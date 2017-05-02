@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.ResourceManager.Cmdlets.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 03/23/2017 23:03 PM
-ms.date: 03/23/2017
+updated_at: 05/02/2017 17:05 PM
+ms.date: 05/02/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v1.0.4.3/Find-AzureRmResource.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v1.0.4.3/Find-AzureRmResource.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/280872fa529e03be2466fa2252957a2060a9dfe4
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/fdff926f5dd35f9020f210f87b450464ba162edc
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -19,7 +19,7 @@ ms.service: azure-resource-manager
 # Find-AzureRmResource
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+Searches for resources using the specified parameters.
 
 ## SYNTAX
 
@@ -28,34 +28,50 @@ ms.service: azure-resource-manager
 Find-AzureRmResource [-ResourceNameContains <String>] [-ResourceType <String>]
  [-ExtensionResourceType <String>] [-Top <Int32>] [-ODataQuery <String>] [-TagName <String>]
  [-TagValue <String>] [-ResourceGroupNameContains <String>] [-ExpandProperties] [-ApiVersion <String>] [-Pre]
- [<CommonParameters>]
+ [-InformationAction <ActionPreference>] [-InformationVariable <String>] [<CommonParameters>]
 ```
 
 ### Lists the resources based on the specified scope at the tenant level.
 ```
 Find-AzureRmResource [-ResourceNameContains <String>] -ResourceType <String> [-ExtensionResourceType <String>]
  [-Top <Int32>] [-ODataQuery <String>] [-ExpandProperties] [-TenantLevel] [-ApiVersion <String>] [-Pre]
- [<CommonParameters>]
+ [-InformationAction <ActionPreference>] [-InformationVariable <String>] [<CommonParameters>]
 ```
 
 ### Get a resources using a multi-subscription query.
 ```
 Find-AzureRmResource [-ResourceNameContains <String>] -ResourceType <String> [-ExtensionResourceType <String>]
  [-Top <Int32>] [-ODataQuery <String>] [-TagName <String>] [-TagValue <String>]
- [-ResourceGroupNameContains <String>] [-ExpandProperties] [-ApiVersion <String>] [-Pre] [<CommonParameters>]
+ [-ResourceGroupNameContains <String>] [-ExpandProperties] [-ApiVersion <String>] [-Pre]
+ [-InformationAction <ActionPreference>] [-InformationVariable <String>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+Searches for resources using the specified parameters.
 
 ## EXAMPLES
 
-### Example 1
+### --------------------------  FindByType  --------------------------
+@{paragraph=PS C:\\\>}
+
+
+
 ```
-PS C:\> {{ Add example code here }}
+Find-AzureRmResource -ResourceType microsoft.web/sites -ResourceGroupNameContains resourceGroup
 ```
 
-{{ Add example description here }}
+Finds resources of type microsoft.web/sites under resource groups that match the string 'resourceGroup'
+
+### --------------------------  FindByType2  --------------------------
+@{paragraph=PS C:\\\>}
+
+
+
+```
+Find-AzureRmResource -ResourceType microsoft.web/sites -ResourceNameContains test
+```
+
+Finds all resources of type microsoft.web/sites whose resource name contains 'test'
 
 ## PARAMETERS
 
@@ -93,7 +109,7 @@ Accept wildcard characters: False
 ### -ExtensionResourceType
 The extension resource type.
 e.g.
-Microsoft.Sql/Servers/{serverName}/Databases/myDatabase.
+Microsoft.Sql/Servers/Databases.
 
 ```yaml
 Type: String
@@ -104,6 +120,36 @@ Required: False
 Position: Named
 Default value: None
 Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -InformationAction
+@{Text=}
+
+```yaml
+Type: ActionPreference
+Parameter Sets: (All)
+Aliases: infa
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -InformationVariable
+@{Text=}
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: iv
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
@@ -155,7 +201,7 @@ Accept wildcard characters: False
 ### -ResourceNameContains
 The resource name substring.
 e.g.
-if your resource name is testResource, you can specify test.
+if the resource name is 'testResource', you can specify 'test'.
 
 ```yaml
 Type: String
@@ -229,7 +275,7 @@ Accept wildcard characters: False
 ```
 
 ### -TenantLevel
-Indicates that this is a tenant level operation.
+@{Text=}
 
 ```yaml
 Type: SwitchParameter
@@ -263,13 +309,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## INPUTS
 
-### System.String
-
 ## OUTPUTS
 
-### System.Management.Automation.PSObject
-
 ## NOTES
+Keywords: azure, azurerm, arm, resource, management, manager, resource, group, template, deployment
 
 ## RELATED LINKS
 

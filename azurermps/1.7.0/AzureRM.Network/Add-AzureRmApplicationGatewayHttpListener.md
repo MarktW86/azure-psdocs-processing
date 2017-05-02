@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
+ms.assetid: 666BD93B-69D0-4CAE-BCD3-1496EB60FD65
 online version:
 schema: 2.0.0
-ms.assetid: 666BD93B-69D0-4CAE-BCD3-1496EB60FD65
-updated_at: 11/01/2016 22:11 PM
-ms.date: 11/01/2016
+updated_at: 05/01/2017 21:05 PM
+ms.date: 05/01/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v1.0.13/Add-AzureRmApplicationGatewayHttpListener.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v1.0.13/Add-AzureRmApplicationGatewayHttpListener.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0589fbf53d27e39e0cf445261d29c64fb0859d62
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -80,15 +80,15 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-### -Name
-Specifies the name of the front-end port that this command adds.
+### -FrontendIPConfiguration
+Specifies the application gateway front-end IP resource object.
 
 ```yaml
-Type: String
-Parameter Sets: (All)
+Type: PSApplicationGatewayFrontendIPConfiguration
+Parameter Sets: SetByResource
 Aliases: 
 
-Required: True
+Required: False
 Position: Named
 Default value: None
 Accept pipeline input: False
@@ -101,6 +101,21 @@ Specifies the application gateway front-end IP ID.
 ```yaml
 Type: String
 Parameter Sets: SetByResourceId
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -FrontendPort
+Specifies the application gateway front-end port object.
+
+```yaml
+Type: PSApplicationGatewayFrontendPort
+Parameter Sets: SetByResource
 Aliases: 
 
 Required: False
@@ -125,22 +140,6 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -SslCertificateId
-Specifies the SSL certificate ID of the HTTP listener.
-Must be specified if HTTPS is chosen as listener protocol.
-
-```yaml
-Type: String
-Parameter Sets: SetByResourceId
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
 ### -HostName
 Specifies the host name that this cmdlet adds a HTTP listener to.
 
@@ -150,36 +149,6 @@ Parameter Sets: (All)
 Aliases: 
 
 Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -RequireServerNameIndication
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -Protocol
-Specifies the protocol of the HTTP listener.
-Both HTTP and HTTPS are supported.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: True
 Position: Named
 Default value: None
 Accept pipeline input: False
@@ -225,27 +194,41 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -FrontendIPConfiguration
-Specifies the application gateway front-end IP resource object.
+### -Name
+Specifies the name of the front-end port that this command adds.
 
 ```yaml
-Type: PSApplicationGatewayFrontendIPConfiguration
-Parameter Sets: SetByResource
+Type: String
+Parameter Sets: (All)
 Aliases: 
 
-Required: False
+Required: True
 Position: Named
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -FrontendPort
-Specifies the application gateway front-end port object.
+### -Protocol
+Specifies the protocol of the HTTP listener.
+Both HTTP and HTTPS are supported.
 
 ```yaml
-Type: PSApplicationGatewayFrontendPort
-Parameter Sets: SetByResource
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -RequireServerNameIndication
+```yaml
+Type: String
+Parameter Sets: (All)
 Aliases: 
 
 Required: False
@@ -262,6 +245,22 @@ Must be specified if HTTPS is chosen as listener protocol.
 ```yaml
 Type: PSApplicationGatewaySslCertificate
 Parameter Sets: SetByResource
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -SslCertificateId
+Specifies the SSL certificate ID of the HTTP listener.
+Must be specified if HTTPS is chosen as listener protocol.
+
+```yaml
+Type: String
+Parameter Sets: SetByResourceId
 Aliases: 
 
 Required: False

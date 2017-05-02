@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.Azure.Commands.ApiManagement.dll-Help.xml
+ms.assetid: E067DED3-A2E3-4D53-8628-0EBBAFA62721
 online version:
 schema: 2.0.0
-ms.assetid: E067DED3-A2E3-4D53-8628-0EBBAFA62721
-updated_at: 01/12/2017 01:01 AM
-ms.date: 01/12/2017
+updated_at: 05/01/2017 21:05 PM
+ms.date: 05/01/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v1.1.4/Get-AzureRmApiManagement.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v1.1.4/Get-AzureRmApiManagement.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/744a3daf267d93d9084ba9f20bf25d56439bcc7f
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0589fbf53d27e39e0cf445261d29c64fb0859d62
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -63,36 +63,6 @@ This command gets all API Management service by name.
 
 ## PARAMETERS
 
-### -ResourceGroupName
-Specifies the name of the resource group under in which this cmdlet gets the API Management service.
-
-```yaml
-Type: String
-Parameter Sets: Specific API Management Service, All In Resource Group
-Aliases: 
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -Name
-Specifies the name of API Management service.
-
-```yaml
-Type: String
-Parameter Sets: Specific API Management Service
-Aliases: 
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
 ### -InformationAction
 Specifies how this cmdlet responds to an information event.
 
@@ -129,6 +99,36 @@ Required: False
 Position: Named
 Default value: None
 Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -Name
+Specifies the name of API Management service.
+
+```yaml
+Type: String
+Parameter Sets: Specific API Management Service
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -ResourceGroupName
+Specifies the name of the resource group under in which this cmdlet gets the API Management service.
+
+```yaml
+Type: String
+Parameter Sets: Specific API Management Service, All In Resource Group
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 

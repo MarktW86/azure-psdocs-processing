@@ -2,12 +2,11 @@
 external help file: Microsoft.Azure.Commands.HDInsight.dll-Help.xml
 online version:
 schema: 2.0.0
-ms.assetid: 09EA7925-4ACA-41C9-AFA0-61F6DAD071DF
-updated_at: 11/01/2016 22:11 PM
-ms.date: 11/01/2016
+updated_at: 05/02/2017 17:05 PM
+ms.date: 05/02/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v1.1.4/Set-AzureRmHDInsightDefaultStorage.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v1.1.4/Set-AzureRmHDInsightDefaultStorage.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/fdff926f5dd35f9020f210f87b450464ba162edc
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -20,7 +19,7 @@ ms.service: hdinsight
 # Set-AzureRmHDInsightDefaultStorage
 
 ## SYNOPSIS
-Sets the default Storage account setting in a cluster configuration object.
+Sets the default storage account setting in a cluster configuration object.
 
 ## SYNTAX
 
@@ -31,31 +30,35 @@ Set-AzureRmHDInsightDefaultStorage [-Config] <AzureHDInsightConfig> [-StorageAcc
 ```
 
 ## DESCRIPTION
-The **Set-AzureRmHDInsightDefaultStorage** cmdlet sets the default Storage account setting in the Azure HDInsight cluster configuration object created by the New-AzureRmHDInsightClusterConfig cmdlet.
+The Set-AzureRmHDInsightDefaultStorage cmdlet sets the default storage account setting in the Azure HDInsight cluster configuration object created by the New-AzureRmHDInsightClusterConfig cmdlet.
 
 ## EXAMPLES
 
-### Example 1: Set the default storage account for the cluster configuration object
+### --------------------------  Example 1: Set the default storage account for the in the cluster configuration object  --------------------------
+@{paragraph=PS C:\\\>}
+
+
+
 ```
-PS C:\># Primary storage account info
-PS C:\> $storageAccountResourceGroupName = "Group"
-PS C:\> $storageAccountName = "yourstorageacct001"
-PS C:\> $storageAccountKey = (Get-AzureRmStorageAccountKey -ResourceGroupName $storageAccountResourceGroupName -Name $storageAccountName)[0].value
+PS C:\&gt; # Primary storage account info
+        $storageAccountResourceGroupName = "Group"
+        $storageAccountName = "yourstorageacct001"
+        $storageAccountKey = Get-AzureStorageAccountKey `
+            -ResourceGroupName $storageAccountResourceGroupName `
+            -Name $storageAccountName | %{ $_.Key1 }
+        $storageContainer = "container002"
 
+        # Cluster configuration info
+        $location = "East US 2"
+        $clusterResourceGroupName = "Group"
+        $clusterName = "your-hadoop-002"
+        $clusterCreds = Get-Credential
 
-PS C:\>$storageContainer = "container002"
+        # If the cluster's resource group doesn't exist yet, run:
+        #   New-AzureRMResourceGroup -Name $clusterResourceGroupName -Location $location
 
-# Cluster configuration info
-PS C:\> $location = "East US 2"
-PS C:\> $clusterResourceGroupName = "Group"
-PS C:\> $clusterName = "your-hadoop-002"
-PS C:\> $clusterCreds = Get-Credential
-
-# If the cluster's resource group doesn't exist yet, run:
-#   New-AzureRMResourceGroup -Name $clusterResourceGroupName -Location $location
-
-# Create the cluster
-PS C:\> New-AzureRmHDInsightClusterConfig `
+        # Create the cluster
+        New-AzureRmHDInsightClusterConfig `
             | Set-AzureRmHDInsightDefaultStorage `
                 -StorageAccountName "$secondStorageAccountName.blob.core.contoso.net" `
                 -StorageAccountKey $key2 `
@@ -70,13 +73,11 @@ PS C:\> New-AzureRmHDInsightClusterConfig `
                 -Location $location
 ```
 
-This command sets the default Storage account for a cluster configuration object.
-
 ## PARAMETERS
 
 ### -Config
 Specifies the HDInsight cluster configuration object that this cmdlet modifies.
-This object is created by the **New-AzureRmHDInsightClusterConfig** cmdlet.
+This object is created by the New-AzureRmHDInsightClusterConfig cmdlet.
 
 ```yaml
 Type: AzureHDInsightConfig
@@ -87,6 +88,51 @@ Required: True
 Position: 0
 Default value: None
 Accept pipeline input: True (ByValue)
+Accept wildcard characters: False
+```
+
+### -InformationAction
+@{Text=}
+
+```yaml
+Type: ActionPreference
+Parameter Sets: (All)
+Aliases: infa
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -InformationVariable
+@{Text=}
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: iv
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -StorageAccountKey
+Specifies the account key for the default Azure storage account that the HDInsight cluster will use.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: 2
+Default value: None
+Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
@@ -105,60 +151,6 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -StorageAccountKey
-Specifies the account key for the default Azure Storage account that the HDInsight cluster will use.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: True
-Position: 2
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -InformationAction
-Specifies how this cmdlet responds to an information event.
-
-The acceptable values for this parameter are:
-
-- Continue
-- Ignore
-- Inquire
-- SilentlyContinue
-- Stop
-- Suspend
-
-```yaml
-Type: ActionPreference
-Parameter Sets: (All)
-Aliases: infa
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -InformationVariable
-Specifies an information variable.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: iv
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
 ### CommonParameters
 This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
 
@@ -167,7 +159,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## OUTPUTS
 
 ## NOTES
+Keywords: azure, azurerm, arm, resource, management, manager, hadoop, hdinsight, hd, insight
 
 ## RELATED LINKS
-
 

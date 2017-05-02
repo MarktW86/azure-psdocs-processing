@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.ResourceManager.Cmdlets.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 03/23/2017 23:03 PM
-ms.date: 03/23/2017
+updated_at: 05/02/2017 17:05 PM
+ms.date: 05/02/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v1.0.4.3/Get-AzureRmPolicyDefinition.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v1.0.4.3/Get-AzureRmPolicyDefinition.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/280872fa529e03be2466fa2252957a2060a9dfe4
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/fdff926f5dd35f9020f210f87b450464ba162edc
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -19,42 +19,57 @@ ms.service: azure-resource-manager
 # Get-AzureRmPolicyDefinition
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+Gets a list of all the policy definitions or a specific policy definition identified by Name
 
 ## SYNTAX
 
 ### The list all policy definitions parameter set. (Default)
 ```
-Get-AzureRmPolicyDefinition [-ApiVersion <String>] [-Pre] [<CommonParameters>]
+Get-AzureRmPolicyDefinition [-ApiVersion <String>] [-Pre] [-InformationAction <ActionPreference>]
+ [-InformationVariable <String>] [<CommonParameters>]
 ```
 
 ### The policy definition name parameter set.
 ```
-Get-AzureRmPolicyDefinition -Name <String> [-ApiVersion <String>] [-Pre] [<CommonParameters>]
+Get-AzureRmPolicyDefinition -Name <String> [-ApiVersion <String>] [-Pre]
+ [-InformationAction <ActionPreference>] [-InformationVariable <String>] [<CommonParameters>]
 ```
 
 ### The policy definition Id parameter set.
 ```
-Get-AzureRmPolicyDefinition -Id <String> [-ApiVersion <String>] [-Pre] [<CommonParameters>]
+Get-AzureRmPolicyDefinition -Id <String> [-ApiVersion <String>] [-Pre] [-InformationAction <ActionPreference>]
+ [-InformationVariable <String>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+Gets a list of all the policy definitions or a specific policy definition identified by Name
 
 ## EXAMPLES
 
-### Example 1
+### --------------------------  Get all policy definition  --------------------------
+@{paragraph=PS C:\\\>}
+
+
+
 ```
-PS C:\> {{ Add example code here }}
+Get-AzureRmPolicyDefinition
 ```
 
-{{ Add example description here }}
+Gets all the policy definitions
+
+### --------------------------  Get policy definition by name  --------------------------
+@{paragraph=PS C:\\\>}
+
+
+
+```
+Get-AzureRmPolicyDefinition -Name myPolicy
+```
 
 ## PARAMETERS
 
 ### -ApiVersion
-When set, indicates the version of the resource provider API to use.
-If not specified, the API version is automatically determined as the latest available.
+@{Text=}
 
 ```yaml
 Type: String
@@ -69,9 +84,7 @@ Accept wildcard characters: False
 ```
 
 ### -Id
-The fully qualified policy definition Id, including the subscription.
-e.g.
-/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}
+The fully qualified resource Id of the policy definition
 
 ```yaml
 Type: String
@@ -85,8 +98,38 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
+### -InformationAction
+@{Text=}
+
+```yaml
+Type: ActionPreference
+Parameter Sets: (All)
+Aliases: infa
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -InformationVariable
+@{Text=}
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: iv
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
 ### -Name
-The policy definition name.
+The policy definition name
 
 ```yaml
 Type: String
@@ -101,7 +144,7 @@ Accept wildcard characters: False
 ```
 
 ### -Pre
-When set, indicates that the cmdlet should use pre-release API versions when automatically determining which version to use.
+@{Text=}
 
 ```yaml
 Type: SwitchParameter
@@ -120,11 +163,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## INPUTS
 
-### System.String
-
 ## OUTPUTS
-
-### System.Management.Automation.PSObject
 
 ## NOTES
 

@@ -2,12 +2,11 @@
 external help file: Microsoft.Azure.Commands.LogicApp.dll-Help.xml
 online version:
 schema: 2.0.0
-ms.assetid: E56CB6EC-1965-46CC-9ED9-FE130E7EBB83
-updated_at: 11/01/2016 22:11 PM
-ms.date: 11/01/2016
+updated_at: 05/02/2017 17:05 PM
+ms.date: 05/02/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/v1.0.8/Get-AzureRmLogicApp.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/v1.0.8/Get-AzureRmLogicApp.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/fdff926f5dd35f9020f210f87b450464ba162edc
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -20,7 +19,7 @@ ms.service: app-service-logic
 # Get-AzureRmLogicApp
 
 ## SYNOPSIS
-Gets a logic app from a resource group.
+Gets the specified Logic App from the Azure resource group.
 
 ## SYNTAX
 
@@ -30,85 +29,51 @@ Get-AzureRmLogicApp -ResourceGroupName <String> -Name <String> [-InformationActi
 ```
 
 ## DESCRIPTION
-The **Get-AzureRmLogicApp** cmdlet gets a logic app.
-This cmdlet returns a **Workflow** object.
+This is the Description section
 
-This module supports dynamic parameters.
-To use a dynamic parameter, type it in the command.
-To discover the names of dynamic parameters, type a hyphen (-) after the cmdlet name, and then press the Tab key repeatedly to cycle through the available parameters.
-If you omit a required template parameter, the cmdlet prompts you for the value.
+The Get-AzureRmLogicApp cmdlet retrieves Azure Logic App from the Azure resource group and returns an object that represents the Workflow.
+Use this cmdlet to get a Logic App from specified resource group.
+You can get a Logic App by specifying the Logic App name and resource group name.
+To use the dynamic parameters, just type them in the command, or type a hyphen sign (-) to indicate a parameter name and then press the TAB key repeatedly to cycle through the available parameters.
+If you miss a required template parameter, the cmdlet prompts you for the value.
 
 ## EXAMPLES
 
-### Example 1: Get a logic app from a resource group
+### --------------------------  Example 1 : Get a Logic App from specified Azure resource group.  --------------------------
+@{paragraph=PS C:\\\>}
+
+
+
 ```
-PS C:\>Get-AzureRmLogicApp -ResourceGroupName "ResourceGroup11" -Name "LogicApp03"
-Id                           : /subscriptions/57b7034d-72d4-433d-ace2-a7460aed6a99/resourceGroups/LogicAppCmdletTest/providers/Microsoft.Logic/workflows/LogicApp03
-Name                         : LogicApp03
+PS C:\>Get-AzureRmLogicApp -ResourceGroupName "ResourceGroup1" -Name "LogicApp1"
+```
+
+This command gets a Logic App from the specified Azure resource group.
+
+Id                           : /subscriptions/\<subscriptionid\>/resourceGroups/\<ResourceGroup\>/providers/Microsoft.Logic/workflows/LogicApp1
+Name                         : LogicApp1
 Type                         : Microsoft.Logic/workflows
 Location                     : westus
 ChangedTime                  : 1/13/2016 2:41:39 PM
 CreatedTime                  : 1/13/2016 2:41:39 PM
-AccessEndpoint               : https://westus.logic.azure.com:443/subscriptions/57b7034d-72d4-433d-ace2-a7460aed6a99/resourcegroups/ResourceGroup11/providers/Microsoft.Logic/workflows/LogicApp03
+AccessEndpoint               : https://\<baseurl\>/subscriptions/\<susbcriptionid\>/resourcegroups/\<ResourceGroup\>/providers/Microsoft.Logic/workflows/LogicApp1
 State                        : Enabled
 DefinitionLinkUri            : 
 DefinitionLinkContentVersion : 
-Definition                   : {$schema, contentVersion, parameters, triggers...} 
+Definition                   : {$schema, contentVersion, parameters, triggers...}
 ParametersLinkUri            : 
 ParametersLinkContentVersion : 
-Parameters                   : {[destinationUri, Microsoft.Azure.Management.Logic.Models.WorkflowParameter]} 
+Parameters                   : {\[destinationUri, Microsoft.Azure.Management.Logic.Models.WorkflowParameter\]}
 SkuName                      : Standard
 PlanName                     : StandardServicePlan
 PlanType                     : Microsoft.Web/ServerFarms
-PlanId                       : /subscriptions/57b7034d-72d4-433d-ace2-a7460aed6a99/resourceGroups/ResourceGroup11/providers/Microsoft.Web/serverfarms/StandardServicePlan
+PlanId                       : /subscriptions/\<subscriptionid\>/resourceGroups/\<ResourceGroup\>/providers/Microsoft.Web/serverfarms/StandardServicePlan
 Version                      : 08587489107859952120
-```
-
-This command gets a logic app from the resource group named ResourceGroup11.
 
 ## PARAMETERS
 
-### -ResourceGroupName
-Specifies the name for a resource group in which this cmdlet gets a logic app.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -Name
-Specifies the name of the logic app that this cmdlet gets.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
 ### -InformationAction
-Specifies how this cmdlet responds to an information event.
-
-The acceptable values for this parameter are:
-
-- Continue
-- Ignore
-- Inquire
-- SilentlyContinue
-- Stop
-- Suspend
+@{Text=}
 
 ```yaml
 Type: ActionPreference
@@ -123,7 +88,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-Specifies an information variable.
+@{Text=}
 
 ```yaml
 Type: String
@@ -134,6 +99,38 @@ Required: False
 Position: Named
 Default value: None
 Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -Name
+Specifies the name of the Logic App.
+This parameter is required.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -ResourceGroupName
+Specifies a name for the resource group.
+This parameter is required.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
@@ -150,12 +147,9 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureRmLogicApp](./New-AzureRmLogicApp.md)
+[New-AzureRmLogicApp]()
 
-[Remove-AzureRmLogicApp](./Remove-AzureRmLogicApp.md)
+[Set-AzureRmLogicApp]()
 
-[Set-AzureRmLogicApp](./Set-AzureRmLogicApp.md)
-
-[Start-AzureRmLogicApp](./Start-AzureRmLogicApp.md)
-
+[Remove-AzureRmLogicApp]()
 

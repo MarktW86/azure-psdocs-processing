@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.Azure.Commands.Compute.dll-Help.xml
+ms.assetid: 5BB0612A-B4B9-4C5A-99AD-0EE219D7C832
 online version:
 schema: 2.0.0
-ms.assetid: 5BB0612A-B4B9-4C5A-99AD-0EE219D7C832
-updated_at: 11/01/2016 22:11 PM
-ms.date: 11/01/2016
+updated_at: 05/01/2017 21:05 PM
+ms.date: 05/01/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Update-AzureRmVM.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Update-AzureRmVM.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0589fbf53d27e39e0cf445261d29c64fb0859d62
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -54,46 +54,12 @@ To obtain a virtual machine object, use the **Get-AzureRmVM** cmdlet.
 
 ## PARAMETERS
 
-### -VM
-Specifies a local virtual machine object.
-To obtain a virtual machine object, use the Get-AzureRmVM cmdlet.
-This virtual machine object contains the updated state for the virtual machine.
-
-```yaml
-Type: PSVirtualMachine
-Parameter Sets: (All)
-Aliases: VMProfile
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName, ByValue)
-Accept wildcard characters: False
-```
-
-### -Tags
-Specifies the resources and resource groups can be tagged with a set of name-value pairs.
-Adding tags to resources enables you to group resources together across resource groups and to create your own views.
-Each resource or resource group can have a maximum of 15 tags.
-
-```yaml
-Type: Hashtable[]
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -ResourceGroupName
-Specifies the name of the resource group of the virtual machine.
+### -Id
+Specifies the Resource ID of the virtual machine.
 
 ```yaml
 Type: String
-Parameter Sets: ResourceGroupNameParameterSetName
+Parameter Sets: IdParameterSetName
 Aliases: 
 
 Required: True
@@ -142,18 +108,52 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Id
-Specifies the Resource ID of the virtual machine.
+### -ResourceGroupName
+Specifies the name of the resource group of the virtual machine.
 
 ```yaml
 Type: String
-Parameter Sets: IdParameterSetName
+Parameter Sets: ResourceGroupNameParameterSetName
 Aliases: 
 
 Required: True
 Position: 0
 Default value: None
 Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -Tags
+Specifies the resources and resource groups can be tagged with a set of name-value pairs.
+Adding tags to resources enables you to group resources together across resource groups and to create your own views.
+Each resource or resource group can have a maximum of 15 tags.
+
+```yaml
+Type: Hashtable[]
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -VM
+Specifies a local virtual machine object.
+To obtain a virtual machine object, use the Get-AzureRmVM cmdlet.
+This virtual machine object contains the updated state for the virtual machine.
+
+```yaml
+Type: PSVirtualMachine
+Parameter Sets: (All)
+Aliases: VMProfile
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
 ```
 

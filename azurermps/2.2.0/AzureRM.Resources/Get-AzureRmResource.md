@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.Azure.Commands.ResourceManager.Cmdlets.dll-Help.xml
+ms.assetid: 3EE2394F-B4B5-48AB-8A0E-F4114F16A078
 online version:
 schema: 2.0.0
-ms.assetid: 3EE2394F-B4B5-48AB-8A0E-F4114F16A078
-updated_at: 01/09/2017 23:01 PM
-ms.date: 01/09/2017
+updated_at: 05/01/2017 21:05 PM
+ms.date: 05/01/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.1.0/Get-AzureRmResource.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.1.0/Get-AzureRmResource.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/909020b7dbd03ec23a61b4fe16ccd2762277084c
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0589fbf53d27e39e0cf445261d29c64fb0859d62
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -93,7 +93,6 @@ This command gets a resource of the type microsoft.web/sites, named ContosoWebsi
 ## PARAMETERS
 
 ### -ResourceGroupName
-
 ```yaml
 Type: String
 Parameter Sets: Get resource by name and group
@@ -131,7 +130,6 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceType
-
 ```yaml
 Type: String
 Parameter Sets: Lists the resources based on the specified scope at the tenant level., Get a resource by name and type.
@@ -169,7 +167,6 @@ Accept wildcard characters: False
 ```
 
 ### -ApiVersion
-
 ```yaml
 Type: String
 Parameter Sets: (All)
@@ -183,7 +180,6 @@ Accept wildcard characters: False
 ```
 
 ### -ExpandProperties
-
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
@@ -197,7 +193,6 @@ Accept wildcard characters: False
 ```
 
 ### -ExtensionResourceName
-
 ```yaml
 Type: String
 Parameter Sets: Get resource by name and group, Lists the resources based on the specified scope at the tenant level., Get a single resource at the tenant level., Get a resource by name and type., Get resource by name, group and type
@@ -211,7 +206,6 @@ Accept wildcard characters: False
 ```
 
 ### -ExtensionResourceType
-
 ```yaml
 Type: String
 Parameter Sets: Get resource by name and group, Lists the resources based on the specified scope at the tenant level., Get a single resource at the tenant level., Get a resource by name and type., Get resource by name, group and type
@@ -237,7 +231,6 @@ Accept wildcard characters: False
 ```
 
 ### -IsCollection
-
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Get resource by name and group, Lists the resources based on the specified scope at the tenant level., Get a single resource at the tenant level., Get a resource by name and type., Get resource collection
@@ -251,7 +244,6 @@ Accept wildcard characters: False
 ```
 
 ### -ODataQuery
-
 ```yaml
 Type: String
 Parameter Sets: (All)
@@ -265,7 +257,6 @@ Accept wildcard characters: False
 ```
 
 ### -Pre
-
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
@@ -298,7 +289,6 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceName
-
 ```yaml
 Type: String
 Parameter Sets: Get resource by name and group, Lists the resources based on the specified scope at the tenant level., Get a resource by name and type.
@@ -339,7 +329,6 @@ Accept wildcard characters: False
 ```
 
 ### -Top
-
 ```yaml
 Type: Int32
 Parameter Sets: Lists the resources based on the specified scope at the tenant level.

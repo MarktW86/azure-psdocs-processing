@@ -14,29 +14,29 @@ keywords: powershell, cmdlet
 manager: erickson-doug
 open_to_public_contributors: true
 ms.service: data-lake-store
-Add-AzureRmDataLakeStoreItemContent: Data Lake
-Export-AzureRmDataLakeStoreItem: Data Lake
-Get-AzureRmDataLakeStoreAccount: Data Lake
-Get-AzureRmDataLakeStoreChildItem: Data Lake
-Get-AzureRmDataLakeStoreItem: Data Lake
-Get-AzureRmDataLakeStoreItemAcl: Data Lake
-Get-AzureRmDataLakeStoreItemContent: Data Lake
-Get-AzureRmDataLakeStoreItemOwner: Data Lake
-Import-AzureRmDataLakeStoreItem: Data Lake
-Join-AzureRmDataLakeStoreItem: Data Lake
-Move-AzureRmDataLakeStoreItem: Data Lake
-New-AzureRmDataLakeStoreAccount: Data Lake
-New-AzureRmDataLakeStoreItem: Data Lake
-Remove-AzureRmDataLakeStoreAccount: Data Lake
-Remove-AzureRmDataLakeStoreItem: Data Lake
-Remove-AzureRmDataLakeStoreItemAcl: Data Lake
-Remove-AzureRmDataLakeStoreItemAclEntry: Data Lake
-Set-AzureRmDataLakeStoreAccount: Data Lake
-Set-AzureRmDataLakeStoreItemAcl: Data Lake
-Set-AzureRmDataLakeStoreItemAclEntry: Data Lake
-Set-AzureRmDataLakeStoreItemOwner: Data Lake
-Test-AzureRmDataLakeStoreAccount: Data Lake
-Test-AzureRmDataLakeStoreItem: Data Lake
+Add-AzureRmDataLakeStoreItemContent: Data Lake Store
+Export-AzureRmDataLakeStoreItem: Data Lake Store
+Get-AzureRmDataLakeStoreAccount: Data Lake Store
+Get-AzureRmDataLakeStoreChildItem: Data Lake Store
+Get-AzureRmDataLakeStoreItem: Data Lake Store
+Get-AzureRmDataLakeStoreItemAcl: Data Lake Store
+Get-AzureRmDataLakeStoreItemContent: Data Lake Store
+Get-AzureRmDataLakeStoreItemOwner: Data Lake Store
+Import-AzureRmDataLakeStoreItem: Data Lake Store
+Join-AzureRmDataLakeStoreItem: Data Lake Store
+Move-AzureRmDataLakeStoreItem: Data Lake Store
+New-AzureRmDataLakeStoreAccount: Data Lake Store
+New-AzureRmDataLakeStoreItem: Data Lake Store
+Remove-AzureRmDataLakeStoreAccount: Data Lake Store
+Remove-AzureRmDataLakeStoreItem: Data Lake Store
+Remove-AzureRmDataLakeStoreItemAcl: Data Lake Store
+Remove-AzureRmDataLakeStoreItemAclEntry: Data Lake Store
+Set-AzureRmDataLakeStoreAccount: Data Lake Store
+Set-AzureRmDataLakeStoreItemAcl: Data Lake Store
+Set-AzureRmDataLakeStoreItemAclEntry: Data Lake Store
+Set-AzureRmDataLakeStoreItemOwner: Data Lake Store
+Test-AzureRmDataLakeStoreAccount: Data Lake Store
+Test-AzureRmDataLakeStoreItem: Data Lake Store
 _isModulePage: true
 ---
 

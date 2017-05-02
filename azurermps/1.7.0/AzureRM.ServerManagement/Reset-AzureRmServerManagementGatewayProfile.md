@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.Azure.Commands.ServerManagement.dll-Help.xml
+ms.assetid: 807E8C40-E28F-4CED-9753-D9A849DFBA08
 online version:
 schema: 2.0.0
-ms.assetid: 807E8C40-E28F-4CED-9753-D9A849DFBA08
-updated_at: 11/01/2016 22:11 PM
-ms.date: 11/01/2016
+updated_at: 05/01/2017 21:05 PM
+ms.date: 05/01/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.ServerManagement/v1.0.3/Reset-AzureRmServerManagementGatewayProfile.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.ServerManagement/v1.0.3/Reset-AzureRmServerManagementGatewayProfile.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0589fbf53d27e39e0cf445261d29c64fb0859d62
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -50,18 +50,20 @@ You will need to use the Save-AzureRmServerManagementGatewayProfile cmdlet to do
 
 ## PARAMETERS
 
-### -ResourceGroupName
-Specifies the name of the resource group that the gateway belongs to.
+### -Gateway
+Specifies the gateway for which the cmdlet resets the profile for.
+
+May be specified instead of ResourceGoupName and GatewayName
 
 ```yaml
-Type: String
-Parameter Sets: ByName
+Type: Gateway
+Parameter Sets: ByObject
 Aliases: 
 
 Required: True
 Position: 0
 Default value: None
-Accept pipeline input: True (ByPropertyName)
+Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
@@ -119,20 +121,18 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Gateway
-Specifies the gateway for which the cmdlet resets the profile for.
-
-May be specified instead of ResourceGoupName and GatewayName
+### -ResourceGroupName
+Specifies the name of the resource group that the gateway belongs to.
 
 ```yaml
-Type: Gateway
-Parameter Sets: ByObject
+Type: String
+Parameter Sets: ByName
 Aliases: 
 
 Required: True
 Position: 0
 Default value: None
-Accept pipeline input: True (ByValue)
+Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 

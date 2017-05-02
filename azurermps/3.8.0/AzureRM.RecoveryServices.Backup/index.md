@@ -3,11 +3,11 @@ Module Name: AzureRM.RecoveryServices.Backup
 Module Guid: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
 Locale: en-US
 ms.assetid: B7D23254-41E4-4851-94D8-31A669E7F52E
-content_git_url: https://github.com/Azure/azure-powershell/blob/v3.8.0-April2017/src/ResourceManager/RecoveryServices.Backup/Commands.RecoveryServices.Backup/help/AzureRM.RecoveryServices.Backup.md
-original_content_git_url: https://github.com/Azure/azure-powershell/blob/v3.8.0-April2017/src/ResourceManager/RecoveryServices.Backup/Commands.RecoveryServices.Backup/help/AzureRM.RecoveryServices.Backup.md
+content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/RecoveryServices.Backup/Commands.RecoveryServices.Backup/help/AzureRM.RecoveryServices.Backup.md
+original_content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/RecoveryServices.Backup/Commands.RecoveryServices.Backup/help/AzureRM.RecoveryServices.Backup.md
 gitcommit: https://github.com/Azure/azure-powershell/blob/94e42834e29c78cafba9e3f1e99e14af92561036
-updated_at: 04/26/2017 07:04 AM
-ms.date: 04/26/2017
+updated_at: 04/28/2017 07:04 AM
+ms.date: 04/28/2017
 ms.topic: conceptual
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -15,26 +15,26 @@ keywords: powershell, cmdlet
 manager: erickson-doug
 open_to_public_contributors: true
 ms.service: backup
-Backup-AzureRmRecoveryServicesBackupItem: Recovery
-Disable-AzureRmRecoveryServicesBackupProtection: Recovery
-Enable-AzureRmRecoveryServicesBackupProtection: Recovery
-Get-AzureRmRecoveryServicesBackupContainer: Recovery
-Get-AzureRmRecoveryServicesBackupItem: Recovery
-Get-AzureRmRecoveryServicesBackupJob: Recovery
-Get-AzureRmRecoveryServicesBackupJobDetails: Recovery
-Get-AzureRmRecoveryServicesBackupManagementServer: Recovery
-Get-AzureRmRecoveryServicesBackupProtectionPolicy: Recovery
-Get-AzureRmRecoveryServicesBackupRecoveryPoint: Recovery
-Get-AzureRmRecoveryServicesBackupRetentionPolicyObject: Recovery
-Get-AzureRmRecoveryServicesBackupSchedulePolicyObject: Recovery
-New-AzureRmRecoveryServicesBackupProtectionPolicy: Recovery
-Remove-AzureRmRecoveryServicesBackupProtectionPolicy: Recovery
-Restore-AzureRmRecoveryServicesBackupItem: Recovery
-Set-AzureRmRecoveryServicesBackupProtectionPolicy: Recovery
-Stop-AzureRmRecoveryServicesBackupJob: Recovery
-Unregister-AzureRmRecoveryServicesBackupContainer: Recovery
-Unregister-AzureRmRecoveryServicesBackupManagementServer: Recovery
-Wait-AzureRmRecoveryServicesBackupJob: Recovery
+Backup-AzureRmRecoveryServicesBackupItem: Backup
+Disable-AzureRmRecoveryServicesBackupProtection: Backup
+Enable-AzureRmRecoveryServicesBackupProtection: Backup
+Get-AzureRmRecoveryServicesBackupContainer: Backup
+Get-AzureRmRecoveryServicesBackupItem: Backup
+Get-AzureRmRecoveryServicesBackupJob: Backup
+Get-AzureRmRecoveryServicesBackupJobDetails: Backup
+Get-AzureRmRecoveryServicesBackupManagementServer: Backup
+Get-AzureRmRecoveryServicesBackupProtectionPolicy: Backup
+Get-AzureRmRecoveryServicesBackupRecoveryPoint: Backup
+Get-AzureRmRecoveryServicesBackupRetentionPolicyObject: Backup
+Get-AzureRmRecoveryServicesBackupSchedulePolicyObject: Backup
+New-AzureRmRecoveryServicesBackupProtectionPolicy: Backup
+Remove-AzureRmRecoveryServicesBackupProtectionPolicy: Backup
+Restore-AzureRmRecoveryServicesBackupItem: Backup
+Set-AzureRmRecoveryServicesBackupProtectionPolicy: Backup
+Stop-AzureRmRecoveryServicesBackupJob: Backup
+Unregister-AzureRmRecoveryServicesBackupContainer: Backup
+Unregister-AzureRmRecoveryServicesBackupManagementServer: Backup
+Wait-AzureRmRecoveryServicesBackupJob: Backup
 _isModulePage: true
 ---
 

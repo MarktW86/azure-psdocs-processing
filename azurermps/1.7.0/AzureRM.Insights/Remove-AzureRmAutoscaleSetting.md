@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.Azure.Commands.Insights.dll-Help.xml
+ms.assetid: B1291145-7F00-4675-B928-1BCDFF1962E6
 online version:
 schema: 2.0.0
-ms.assetid: B1291145-7F00-4675-B928-1BCDFF1962E6
-updated_at: 11/01/2016 22:11 PM
-ms.date: 11/01/2016
+updated_at: 05/01/2017 21:05 PM
+ms.date: 05/01/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Insights/v1.0.12/Remove-AzureRmAutoscaleSetting.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Insights/v1.0.12/Remove-AzureRmAutoscaleSetting.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0589fbf53d27e39e0cf445261d29c64fb0859d62
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -41,8 +41,8 @@ You must specify the name of the setting and the name of the resource group to w
 
 ## PARAMETERS
 
-### -ResourceGroup
-Specifies the name of the resource group.
+### -Name
+Specifies the name of the Autoscale setting to remove.
 
 ```yaml
 Type: String
@@ -56,8 +56,8 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Name
-Specifies the name of the Autoscale setting to remove.
+### -ResourceGroup
+Specifies the name of the resource group.
 
 ```yaml
 Type: String

@@ -2,12 +2,11 @@
 external help file: Microsoft.Azure.Commands.LogicApp.dll-Help.xml
 online version:
 schema: 2.0.0
-ms.assetid: 3D9EC718-D366-46C9-8486-4CFECFA14C79
-updated_at: 11/01/2016 22:11 PM
-ms.date: 11/01/2016
+updated_at: 05/02/2017 17:05 PM
+ms.date: 05/02/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/v1.0.8/Get-AzureRmIntegrationAccountSchema.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/v1.0.8/Get-AzureRmIntegrationAccountSchema.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/fdff926f5dd35f9020f210f87b450464ba162edc
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -20,7 +19,7 @@ ms.service: app-service-logic
 # Get-AzureRmIntegrationAccountSchema
 
 ## SYNOPSIS
-Gets integration account schemas.
+Gets the specified integration account schema from the Azure resource group.
 
 ## SYNTAX
 
@@ -30,112 +29,66 @@ Get-AzureRmIntegrationAccountSchema [-ResourceGroupName <String>] [-Name <String
 ```
 
 ## DESCRIPTION
-The **Get-AzureRmIntegrationAccountSchema** cmdlet gets integration account schemas.
-Specifying the integration account name, resource group name, and schema name.
+This is the Description section
 
-This module supports dynamic parameters.
-To use a dynamic parameter, type it in the command.
-To discover the names of dynamic parameters, type a hyphen (-) after the cmdlet name, and then press the Tab key repeatedly to cycle through the available parameters.
-If you omit a required template parameter, the cmdlet prompts you for the value.
+The Get-AzureRmIntegrationAccountSchema cmdlet retrieves integration account schema from the Azure resource group and returns an object that represents the integration account schema.
+Use this cmdlet to get the integration account schema from specified resource group.
+You can get the integration account schema by specifying the integration account name, resource group name and schema name.
+To use the dynamic parameters, just type them in the command, or type a hyphen sign (-) to indicate a parameter name and then press the TAB key repeatedly to cycle through the available parameters.
+If you miss a required template parameter, the cmdlet prompts you for the value.
 
 ## EXAMPLES
 
-### Example 1: Get an integration account schema
+### --------------------------  Example 1 : Get the integration account schema by name.  --------------------------
+@{paragraph=PS C:\\\>}
+
+
+
 ```
-PS C:\>Get-AzureRmIntegrationAccountSchema -ResourceGroupName "ResourceGroup11" -Name "IntegrationAccount31" -SchemaName "IntegrationAccountSchema43"
-Id                   : /subscriptions/<SubscriptionId>/resourceGroups/ResourceGroup11/providers/Microsoft.Logic/integrationAccounts/IntegrationAccount31/schemas/IntegrationAccountSchema43
-Name                 : IntegrationAccountSchema43
+Get-AzureRmIntegrationAccountSchema -ResourceGroupName "ResourceGroup1" -Name "IntegrationAccount1" -SchemaName "IntegrationAccountSchema1"
+```
+
+This commands gets the integration account schema by name.
+
+Id                   : /subscriptions/\<SubscriptionId\>/resourceGroups/ResourceGroup1/providers/Microsoft.Logic/integrationAccounts/IntegrationAccount1/schemas/IntegrationAccountSchema1
+Name                 : IntegrationAccountSchema1
 Type                 : Microsoft.Logic/integrationAccounts/schemas
 CreatedTime          : 3/25/2016 5:42:58 PM
 ChangedTime          : 3/25/2016 5:42:58 PM
 SchemaType           : Xml
 ContentType          : 
-ContentLink          : https://<baseurl>/integrationaccounts469af4f3cf4047b7ac3a08c87948ec5f/3839E_XML_INTEGRATIONACCOUNTSCHEMA43-5A86631F61F
-                       14513AA1185A52C6B2874?sv=2014-02-14&sr=b&sig=<value>
+ContentLink          : https://\<baseurl\>/integrationaccounts469af4f3cf4047b7ac3a08c87948ec5f/3839E_XML_INTEGRATIONACCOUNTSCHEMA1-5A86631F61F
+                       14513AA1185A52C6B2874?sv=2014-02-14&sr=b&sig=\<value\>
 ContentSize          : 7901
 MetaData             :
+
+### --------------------------  Example 2 : Get the integration account schemas by resource group name.  --------------------------
+@{paragraph=PS C:\\\>}
+
+
+
+```
+Get-AzureRmIntegrationAccountSchema -ResourceGroupName "ResourceGroup1" -Name "IntegrationAccount1"
 ```
 
-This command gets the integration account schema named IntegrationAccountSchema43.
+This command gets the integration account schemas by resource group name.
 
-### Example 2: Get integration account schemas for a resource group
-```
-PS C:\>Get-AzureRmIntegrationAccountSchema -ResourceGroupName "ResourceGroup11" -Name "IntegrationAccount31"
-Id                   : /subscriptions/<SubscriptionId>/resourceGroups/ResourceGroup11/providers/Microsoft.Logic/integrationAccounts/IntegrationAccount31/schemas/IntegrationAccountSchema43
-Name                 : IntegrationAccountSchema43
+Id                   : /subscriptions/\<SubscriptionId\>/resourceGroups/ResourceGroup1/providers/Microsoft.Logic/integrationAccounts/IntegrationAccount1/schemas/IntegrationAccountSchema1
+Name                 : IntegrationAccountSchema1
 Type                 : Microsoft.Logic/integrationAccounts/schemas
 CreatedTime          : 3/25/2016 5:42:58 PM
 ChangedTime          : 3/25/2016 5:42:58 PM
 SchemaType           : Xml
 ContentType          : 
-ContentLink          : https://<baseurl>/integrationaccounts469af4f3cf4047b7ac3a08c87948ec5f/3839E_XML_INTEGRATIONACCOUNTSCHEMA43-5A86631F61F
-                       14513AA1185A52C6B2874?sv=2014-02-14&sr=b&sig=<value>
+ContentLink          : https://\<baseurl\>/integrationaccounts469af4f3cf4047b7ac3a08c87948ec5f/3839E_XML_INTEGRATIONACCOUNTSCHEMA1-5A86631F61F
+                       14513AA1185A52C6B2874?sv=2014-02-14&sr=b&sig=\<value\>
 ContentSize          : 7901
 MetaData             :
-```
-
-This command gets the integration account schemas for the resource group named ResourceGroup11.
 
 ## PARAMETERS
 
-### -ResourceGroupName
-Specifies the name of a resource group.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -Name
-Specifies the name of an integration account.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -SchemaName
-Specifies the name of an integration account schema.
-Specifies the name of a schema.
-.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
 ### -InformationAction
-Specifies how this cmdlet responds to an information event.
-
-The acceptable values for this parameter are:
-
-- Continue
-- Ignore
-- Inquire
-- SilentlyContinue
-- Stop
-- Suspend
+@{Text=}
 
 ```yaml
 Type: ActionPreference
@@ -150,12 +103,60 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-Specifies an information variable.
+@{Text=}
 
 ```yaml
 Type: String
 Parameter Sets: (All)
 Aliases: iv
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -Name
+Specifies a name for the integration account.
+This parameter is optional.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -ResourceGroupName
+Specifies a name for the resource group.
+This parameter is required.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -SchemaName
+Specifies a name for the schema.
+This parameter is optional.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
 
 Required: False
 Position: Named
@@ -177,10 +178,9 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureRmIntegrationAccountSchema](./New-AzureRmIntegrationAccountSchema.md)
+[Set-AzureRmIntegrationAccountSchema]()
 
-[Remove-AzureRmIntegrationAccountSchema](./Remove-AzureRmIntegrationAccountSchema.md)
+[New-AzureRmIntegrationAccountSchema]()
 
-[Set-AzureRmIntegrationAccountSchema](./Set-AzureRmIntegrationAccountSchema.md)
-
+[Remove-AzureRmIntegrationAccountSchema]()
 

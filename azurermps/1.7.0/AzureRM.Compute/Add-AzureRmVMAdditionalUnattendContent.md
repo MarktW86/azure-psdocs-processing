@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.Azure.Commands.Compute.dll-Help.xml
+ms.assetid: C4F0EE47-E31F-4474-8E5D-0EF8DABB3433
 online version:
 schema: 2.0.0
-ms.assetid: C4F0EE47-E31F-4474-8E5D-0EF8DABB3433
-updated_at: 11/01/2016 22:11 PM
-ms.date: 11/01/2016
+updated_at: 05/01/2017 21:05 PM
+ms.date: 05/01/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Add-AzureRmVMAdditionalUnattendContent.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Add-AzureRmVMAdditionalUnattendContent.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0589fbf53d27e39e0cf445261d29c64fb0859d62
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -65,23 +65,6 @@ The final command adds the content stored in $AucContent to the unattend.xml fil
 
 ## PARAMETERS
 
-### -VM
-Specifies the virtual machine object that this cmdlet modifies.
-To obtain a virtual machine object, use the Get-AzureRmVM cmdlet.
-Create a virtual machine object by using the New-AzureRmVMConfig cmdlet.
-
-```yaml
-Type: PSVirtualMachine
-Parameter Sets: (All)
-Aliases: VMProfile
-
-Required: True
-Position: 0
-Default value: None
-Accept pipeline input: True (ByPropertyName, ByValue)
-Accept wildcard characters: False
-```
-
 ### -Content
 Specifies base 64 encoded XML formatted content.
 This cmdlet adds the content to the unattend.xml file.
@@ -94,25 +77,6 @@ Aliases:
 
 Required: False
 Position: 1
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -SettingName
-Specifies the name of the setting to which the content applies.
-psdx_paramvalues
-
-- FirstLogonCommands
-- AutoLogon
-
-```yaml
-Type: SettingNames
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: 2
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
@@ -154,6 +118,42 @@ Required: False
 Position: Named
 Default value: None
 Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -SettingName
+Specifies the name of the setting to which the content applies.
+psdx_paramvalues
+
+- FirstLogonCommands
+- AutoLogon
+
+```yaml
+Type: SettingNames
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: 2
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -VM
+Specifies the virtual machine object that this cmdlet modifies.
+To obtain a virtual machine object, use the Get-AzureRmVM cmdlet.
+Create a virtual machine object by using the New-AzureRmVMConfig cmdlet.
+
+```yaml
+Type: PSVirtualMachine
+Parameter Sets: (All)
+Aliases: VMProfile
+
+Required: True
+Position: 0
+Default value: None
+Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
 ```
 

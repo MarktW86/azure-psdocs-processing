@@ -1,12 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.Resources.dll-Help.xml
-online version:
+online version: http://go.microsoft.com/fwlink/?LinkID=393045
 schema: 2.0.0
-updated_at: 03/23/2017 23:03 PM
-ms.date: 03/23/2017
+updated_at: 05/02/2017 17:05 PM
+ms.date: 05/02/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v1.0.4.3/New-AzureRmResourceGroupDeployment.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v1.0.4.3/New-AzureRmResourceGroupDeployment.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/280872fa529e03be2466fa2252957a2060a9dfe4
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/fdff926f5dd35f9020f210f87b450464ba162edc
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -19,7 +19,7 @@ ms.service: azure-resource-manager
 # New-AzureRmResourceGroupDeployment
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+Add an Azure deployment to a resource group.
 
 ## SYNTAX
 
@@ -78,16 +78,38 @@ New-AzureRmResourceGroupDeployment [-Name <String>] -ResourceGroupName <String> 
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+This is the Description section
+
+The New-AzureRmResourceGroupDeployment cmdlet adds a deployment to an existing resource group, including the resources that the deployment requires.
+This cmdlet is similar to the New-AzureRmResourceGroup cmdlet, but it works on existing resource groups, instead of new ones.
+To add resources to a resource group without using a template, use the New-AzureRmResource cmdlet.An Azure resource is a user-managed Azure entity, such as a database server, database, website, virtual machine, or storage account.
+An Azure resource group is a collection of Azure resources that are deployed as a unit, such as the web site, database server, and databases that are required for a financial web site.
+A deployment uses a resource group template to add resource to a resource group and publish them so they are available in Azure.To add a resource group deployment, specify the name of an existing resource group and a resource group template, which is a JSON string that represents of a resource group for a complex cloud-based service, such as a web portal.
+The template includes parameter (placeholders) for required resources and configurable property values, likes names and sizes.
+You can find many templates in the Azure template gallery and you can create your own templates.To find a gallery template, use the Get-AzureRmResourceGroupGalleryTemplate template cmdlet.
+To use a gallery template, use the GalleryTemplateIdentity parameter of New-AzureRmResourceGroupDeployment to specify the template identity.
+Or, use the Save-AzureRmResourceGalleryTemplate cmdlet to save the gallery template as a JSON file, and then use the TemplateFile or TemplateUri parameters to provide the name and location of the file.You can also create a custom resource group template, either by typing in a text file  or by editing a gallery template.
+To use a custom template to create a resource group, use TemplateFile or TemplateUri parameters to supply the location and file name.Each template has different parameters for configurable properties.
+To specify values for the template parameters, use a JSON-formatted parameter file (TemplateParameterFile parameter) or a hash table of parameter names and values (TemplateParameterObject parameter).
+Or, use the template parameters that are added to the command dynamically as soon as you specify a template.
+To use the dynamic parameters, just type them in the command, or type a minus sign to indicate a parameter name (-) and then press the TAB key repeatedly to cycle through the available parameters.
+If you miss a required parameter, the cmdlet prompts you for the value.
+Template parameter values that are typed at the command line take precedence over values in a template parameter object or file.
 
 ## EXAMPLES
 
-### Example 1
+### --------------------------  Example 1: Use a custom template and parameter file  --------------------------
+@{paragraph=PS C:\\\>}
+
+
+
 ```
-PS C:\> {{ Add example code here }}
+PS C:\>New-AzureRmResourceGroupDeployment -ResourceGroupName ContosoEngineering -TemplateFile D:\Azure\Templates\EngineeringSite.json -TemplateParameterFile D:\Azure\Templates\EngSiteParms.json -TemplateVersion "2.1"
 ```
 
-{{ Add example description here }}
+This command creates a new deployment by using a custom template and a template file on disk.
+The command uses the TemplateFile parameter to specify the template and the TemplateParameterFile to specify a file of parameters and parameter values.
+It uses the TemplateVersion parameter to specify a particular version of the template.
 
 ## PARAMETERS
 
@@ -113,7 +135,6 @@ The deployment mode.
 Type: DeploymentMode
 Parameter Sets: (All)
 Aliases: 
-Accepted values: Incremental, Complete
 
 Required: False
 Position: Named
@@ -123,9 +144,10 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-The name of the deployment it's going to create.
-Only valid when a template is used.
-When a template is used, if the user doesn't specify a deployment name, use the current time, like "20131223140835".
+Specifies the name of the deployment project for the resource group.
+Use -Name or its alias -DeploymentName.
+This parameter is optional.
+The default value is the template name without the .json file name extension.
 
 ```yaml
 Type: String
@@ -140,7 +162,9 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-The resource group name.
+Specifies the name of the resource group to which this deployment is added.
+This parameter is required.
+If the resource group does not exist, the command fails.
 
 ```yaml
 Type: String
@@ -155,7 +179,11 @@ Accept wildcard characters: False
 ```
 
 ### -TemplateFile
-Local path to the template file.
+Specifies the path and file name of a JSON template file on disk.
+This can be a custom template or a gallery template that is saved to disk as a JSON file, such as by using the Save-AzureRmResourceGroupGalleryTemplate cmdlet.To use this parameter, the subscription must include a storage account where the cmdlet can save the template.
+By default, this cmdlet uses the current storage account in the subscription, but you can use the StorageAccountName parameter to specify an alternate storage account.
+If you do not specify a storage account and the subscription does not have a storage account that is designated as "current," the command fails.To create a storage account, use the Switch-AzureMode cmdlet to switch to the Azure module, and then use the New-AzureRmStorageAccount cmdlet.
+To make the a storage account the "current storage account" for the subscription, use the CurrentStorageAccountName parameter of the Set-AzureRmSubscription cmdlet.
 
 ```yaml
 Type: String
@@ -170,7 +198,11 @@ Accept wildcard characters: False
 ```
 
 ### -TemplateParameterFile
-A file that has the template parameters.
+Specifies the path and name of a JSON file with the names and values of the template parameters.
+This parameter is optional.If a template has parameters, you must specify parameter values, but you can use this parameter or the TemplateParameterObject parameter.
+Also, the template parameters are added to the command dynamically when you specify a template.
+To use the dynamic parameters, just type them in the command, or type a minus sign to indicate a parameter name (-) and then press the TAB key repeatedly to cycle through the available parameters.
+If you miss a required parameter, the cmdlet prompts you for the value.
 
 ```yaml
 Type: String
@@ -185,7 +217,12 @@ Accept wildcard characters: False
 ```
 
 ### -TemplateParameterObject
-A hash table which represents the parameters.
+Specifies a hash table of template parameter names and values.
+This parameter is optional.
+For help with hash tables in Windows PowerShell, type: Get-Help about_Hash_Tables.If a template has parameters, you must specify parameter values, but you can use this parameter or the TemplateParameterObject parameter.
+Also, the template parameters are added to the command dynamically when you specify a template.
+To use the dynamic parameters, just type them in the command, or type a minus sign to indicate a parameter name (-) and then press the TAB key repeatedly to cycle through the available parameters.
+If you miss a required parameter, the cmdlet prompts you for the value.
 
 ```yaml
 Type: Hashtable
@@ -215,7 +252,8 @@ Accept wildcard characters: False
 ```
 
 ### -TemplateUri
-Uri to the template file.
+Specifies the URI of a JSON template file.
+This file can be a custom template or a gallery template that is saved as a JSON file, such as by using the Save-AzureRmResourceGroupGalleryTemplate cmdlet.
 
 ```yaml
 Type: String
@@ -234,15 +272,14 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## INPUTS
 
-### System.String
-Microsoft.Azure.Management.Resources.Models.DeploymentMode
-System.Collections.Hashtable
+### None
 
 ## OUTPUTS
 
-### Microsoft.Azure.Commands.Resources.Models.PSResourceGroupDeployment
+### Microsoft.Azure.Commands.ResourceManager.Models.PSResourceGroupDeployment
 
 ## NOTES
+Keywords: azure, azurerm, arm, resource, management, manager, resource, group, template, deployment
 
 ## RELATED LINKS
 

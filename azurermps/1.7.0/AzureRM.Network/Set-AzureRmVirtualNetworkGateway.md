@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
+ms.assetid: C00221C2-6925-4F48-9A4C-75A2094848C1
 online version:
 schema: 2.0.0
-ms.assetid: C00221C2-6925-4F48-9A4C-75A2094848C1
-updated_at: 11/01/2016 22:11 PM
-ms.date: 11/01/2016
+updated_at: 05/01/2017 21:05 PM
+ms.date: 05/01/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v1.0.13/Set-AzureRmVirtualNetworkGateway.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v1.0.13/Set-AzureRmVirtualNetworkGateway.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0589fbf53d27e39e0cf445261d29c64fb0859d62
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -52,32 +52,11 @@ The command also sets the ASN to 1337.
 
 ## PARAMETERS
 
-### -VirtualNetworkGateway
-Specifies the virtual network gateway object to base modifications off of.
-You can use the Get-AzureRmVirtualNetworkGateway cmdlet to get the virtual network gateway object.
+### -Asn
+Specifies the virtual network gateway Autonomous System Number (ASN) that is used to set up Border Gateway Protocol (BGP) sessions inside IPsec tunnels.
 
 ```yaml
-Type: PSVirtualNetworkGateway
-Parameter Sets: (All)
-Aliases: 
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByValue)
-Accept wildcard characters: False
-```
-
-### -GatewaySku
-Specifies the stock keeping unit (SKU) of the virtual network gateway.
-psdx_paramvalues
-
-- Basic
-- Standard
-- HighPerformance
-
-```yaml
-Type: String
+Type: UInt32
 Parameter Sets: (All)
 Aliases: 
 
@@ -104,74 +83,16 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -VpnClientAddressPool
-Specifies the address space that this cmdlet uses to allocate VPN client IP addresses from.
-This should not overlap with virtual network or on-premise ranges.
+### -GatewaySku
+Specifies the stock keeping unit (SKU) of the virtual network gateway.
+psdx_paramvalues
+
+- Basic
+- Standard
+- HighPerformance
 
 ```yaml
-Type: System.Collections.Generic.List`1[System.String]
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -VpnClientRootCertificates
-Specifies a list of VPN client root certificates to use for VPN client authentication.
-Connecting VPN clients must present certificates generated from one of these root certificates.
-
-```yaml
-Type: System.Collections.Generic.List`1[Microsoft.Azure.Commands.Network.Models.PSVpnClientRootCertificate]
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -VpnClientRevokedCertificates
-Specifies a list of revoked VPN client certificates.
-A VPN client presenting a certificate that matches one of these is removed.
-
-```yaml
-Type: System.Collections.Generic.List`1[Microsoft.Azure.Commands.Network.Models.PSVpnClientRevokedCertificate]
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -Asn
-Specifies the virtual network gateway Autonomous System Number (ASN) that is used to set up Border Gateway Protocol (BGP) sessions inside IPsec tunnels.
-
-```yaml
-Type: UInt32
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -PeerWeight
-Specifies the weight added to routes learned over BGP from this virtual network gateway
-
-```yaml
-Type: Int32
+Type: String
 Parameter Sets: (All)
 Aliases: 
 
@@ -218,6 +139,85 @@ Required: False
 Position: Named
 Default value: None
 Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -PeerWeight
+Specifies the weight added to routes learned over BGP from this virtual network gateway
+
+```yaml
+Type: Int32
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -VirtualNetworkGateway
+Specifies the virtual network gateway object to base modifications off of.
+You can use the Get-AzureRmVirtualNetworkGateway cmdlet to get the virtual network gateway object.
+
+```yaml
+Type: PSVirtualNetworkGateway
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: True (ByValue)
+Accept wildcard characters: False
+```
+
+### -VpnClientAddressPool
+Specifies the address space that this cmdlet uses to allocate VPN client IP addresses from.
+This should not overlap with virtual network or on-premise ranges.
+
+```yaml
+Type: System.Collections.Generic.List`1[System.String]
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -VpnClientRevokedCertificates
+Specifies a list of revoked VPN client certificates.
+A VPN client presenting a certificate that matches one of these is removed.
+
+```yaml
+Type: System.Collections.Generic.List`1[Microsoft.Azure.Commands.Network.Models.PSVpnClientRevokedCertificate]
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -VpnClientRootCertificates
+Specifies a list of VPN client root certificates to use for VPN client authentication.
+Connecting VPN clients must present certificates generated from one of these root certificates.
+
+```yaml
+Type: System.Collections.Generic.List`1[Microsoft.Azure.Commands.Network.Models.PSVpnClientRootCertificate]
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 

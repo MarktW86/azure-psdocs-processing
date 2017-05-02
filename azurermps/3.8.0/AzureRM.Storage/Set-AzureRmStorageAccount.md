@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Management.Storage.dll-Help.xml
 ms.assetid: 4D7EEDD7-89D4-4B1E-A9A1-B301E759CE72
 online version:
 schema: 2.0.0
-content_git_url: https://github.com/Azure/azure-powershell/blob/v3.8.0-April2017/src/ResourceManager/Storage/Commands.Management.Storage/help/Set-AzureRmStorageAccount.md
-original_content_git_url: https://github.com/Azure/azure-powershell/blob/v3.8.0-April2017/src/ResourceManager/Storage/Commands.Management.Storage/help/Set-AzureRmStorageAccount.md
+content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/Storage/Commands.Management.Storage/help/Set-AzureRmStorageAccount.md
+original_content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/Storage/Commands.Management.Storage/help/Set-AzureRmStorageAccount.md
 gitcommit: https://github.com/Azure/azure-powershell/blob/4c282f9c660e8b80d84536a72ddbf9c3de3000a4
-updated_at: 04/26/2017 07:04 AM
-ms.date: 04/26/2017
+updated_at: 04/28/2017 07:04 AM
+ms.date: 04/28/2017
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
