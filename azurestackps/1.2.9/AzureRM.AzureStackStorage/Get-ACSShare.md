@@ -2,11 +2,11 @@
 external help file: Microsoft.AzureStack.AzureConsistentStorage.Commands.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 04/26/2017 00:04 AM
-ms.date: 04/26/2017
+updated_at: 05/02/2017 20:05 PM
+ms.date: 05/02/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/Graham71305/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Get-ACSShare.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/Graham71305/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Get-ACSShare.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/6ec3f30a81fcea3164edc82f2757ecfc1f9403c6
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/13ec13c1a9baa09b68c680eedfd83bb954580446
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -19,7 +19,7 @@ ms.service: azure-stack
 # Get-ACSShare
 
 ## SYNOPSIS
-Get list of SMB shares used in the Azure Consistent Storage system.
+Get a list of SMB shares used in the Azure Consistent Storage system.
 
 ## SYNTAX
 
@@ -30,27 +30,24 @@ Get-ACSShare [-ResourceGroupName] <String> -FarmName <String> [-ShareName <Strin
 ```
 
 ## DESCRIPTION
-Get list of SMB shares used in the Azure Consistent Storage system.
+The **Get-ACSShare** cmdlet gets a list of Server Message Block (SMB) shares used in the Azure Consistent Storage (ACS) system.
 
 ## EXAMPLES
 
 ### Example 1:
-@{paragraph=PS C:\\\>}
-
-
 
 ```
-$resourceGroup = 'System' 
+PS C:\> $ResourceGroup = "System" 
 
-$farm = Get-ACSFarm -ResourceGroupName $resourceGroup
+PS C:\> $Farm = Get-ACSFarm -ResourceGroupName $ResourceGroup
 
-Get-ACSShare -ResourceGroupName $resourceGroup -FarmName $farm.Name -ShareName 'YourShareName'
+PS C:\> Get-ACSShare -ResourceGroupName $ResourceGroup -FarmName $Farm.Name -ShareName "Share002"
 ```
 
 ## PARAMETERS
 
 ### -AdminUri
-
+Specifies the link, as a URI, to the service admin.
 
 ```yaml
 Type: Uri
@@ -149,7 +146,7 @@ Accept wildcard characters: False
 ```
 
 ### -SkipCertificateValidation
-
+Indicates that the cmdlet does not validate the certificate.
 
 ```yaml
 Type: SwitchParameter
@@ -164,7 +161,7 @@ Accept wildcard characters: False
 ```
 
 ### -SubscriptionId
-
+Specifies the subscription ID.
 
 ```yaml
 Type: String

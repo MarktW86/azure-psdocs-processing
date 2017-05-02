@@ -2,11 +2,11 @@
 external help file: Microsoft.AzureStack.AzureConsistentStorage.Commands.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 04/28/2017 21:04 PM
-ms.date: 04/28/2017
+updated_at: 05/02/2017 20:05 PM
+ms.date: 05/02/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/Graham71305/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Start-ACSContainerMigration.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/Graham71305/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Start-ACSContainerMigration.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/75431b1f2193df6595896df8a0c0bb66ae1d12ac
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/13ec13c1a9baa09b68c680eedfd83bb954580446
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -119,7 +119,7 @@ Accept wildcard characters: False
 ```
 
 ### -SkipCertificateValidation
-
+Indicates that the cmdlet does not validate the certificate.
 
 ```yaml
 Type: SwitchParameter
@@ -134,7 +134,7 @@ Accept wildcard characters: False
 ```
 
 ### -SubscriptionId
-
+Specifies the subscription ID.
 
 ```yaml
 Type: String
@@ -179,4 +179,3 @@ System.Uri
 ## NOTES
 
 ## RELATED LINKS
-

@@ -2,11 +2,11 @@
 external help file: Microsoft.AzureStack.AzureConsistentStorage.Commands.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 04/26/2017 00:04 AM
-ms.date: 04/26/2017
+updated_at: 05/02/2017 20:05 PM
+ms.date: 05/02/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/Graham71305/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Get-ACSQueueService.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/Graham71305/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Get-ACSQueueService.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/6ec3f30a81fcea3164edc82f2757ecfc1f9403c6
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/13ec13c1a9baa09b68c680eedfd83bb954580446
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -19,7 +19,7 @@ ms.service: azure-stack
 # Get-ACSQueueService
 
 ## SYNOPSIS
-Retrieve status and settings of Queue service
+Gets the status and settings of a queue service.
 
 ## SYNTAX
 
@@ -30,27 +30,31 @@ Get-ACSQueueService [-ResourceGroupName] <String> [-FarmName] <String> [[-Subscr
 ```
 
 ## DESCRIPTION
-Retrieve the status and settings of Queue service
+The **Get-ACSQueueService** cmdlet gets the status and settings of an Azure Consistent Storage (ACS) queue service.
 
 ## EXAMPLES
 
-### Example 1:
-@{paragraph=PS C:\\\>}
-
-
+### Example 1: Get the status and settings of an ACS queue service
 
 ```
-$resourceGroup = 'System' 
+PS C:\> $ResourceGroup = "System" 
 
-$farm = Get-ACSFarm -ResourceGroupName $resourceGroup
+PS C:\> $Farm = Get-ACSFarm -ResourceGroupName $ResourceGroup
 
-Get-ACSQueueService -ResourceGroupName $resourceGroup -FarmName $farm.Name | fl
+PS C:\> Get-ACSQueueService -ResourceGroupName $ResourceGroup -FarmName $Farm.Name | fl
 ```
+
+The first command sets the variable named $ResourceGroup to the value of System.
+
+The second command gets the ACS farm that is located in the resource group stored in the $ResourceGroup variable and stores the result in the variable named $Farm.
+
+The third command gets the settings and status of the ACS queue service located in the ACS farm stored in the $Farm variable.
+
 
 ## PARAMETERS
 
 ### -AdminUri
-
+Specifies the link, as a URI, to the service admin.
 
 ```yaml
 Type: Uri
@@ -65,7 +69,7 @@ Accept wildcard characters: False
 ```
 
 ### -FarmName
-
+Specifies the name of the ACS farm that the cmdlet gets the queue service from.
 
 ```yaml
 Type: String
@@ -119,7 +123,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-
+Specifies the name of the resource group that contains the ACS queue service.
 
 ```yaml
 Type: String
@@ -134,7 +138,7 @@ Accept wildcard characters: False
 ```
 
 ### -SkipCertificateValidation
-
+Indicates that the cmdlet does not validate the certificate.
 
 ```yaml
 Type: SwitchParameter
@@ -149,7 +153,7 @@ Accept wildcard characters: False
 ```
 
 ### -SubscriptionId
-
+Specifies the subscription ID.
 
 ```yaml
 Type: String
@@ -192,3 +196,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+
+[Get-ACSQueueServiceMetric](./Get-ACSBlobServiceMetric.md)
+
+[Get-ACSQueueServiceMetricDefinition](./Get-ACSBlobServiceMetricDefinition.md)

@@ -2,11 +2,11 @@
 external help file: Microsoft.AzureStack.AzureConsistentStorage.Commands.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 04/27/2017 14:04 PM
-ms.date: 04/27/2017
+updated_at: 05/02/2017 20:05 PM
+ms.date: 05/02/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/Graham71305/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Get-ACSFarmMetric.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/Graham71305/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Get-ACSFarmMetric.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/52d25abe0edad89ed790b8a506784596116b809e
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/13ec13c1a9baa09b68c680eedfd83bb954580446
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -19,7 +19,7 @@ ms.service: azure-stack
 # Get-ACSFarmMetric
 
 ## SYNOPSIS
-Retrieve the metrics of ACS farm
+Gets the metrics of an ACS farm.
 
 ## SYNTAX
 
@@ -31,21 +31,14 @@ Get-ACSFarmMetric [-FarmName] <String> [-ResourceGroupName] <String> [-TimeGrain
 ```
 
 ## DESCRIPTION
-Retrieve the metrics of ACS farm
+The **Get-ACSFarmMetric** cmdlet gets the metrics of an Azure Consistent Storage (ACS) farm.
 
 ## EXAMPLES
-
-### Example 1
-```
-PS C:\> {{ Add example code here }}
-```
-
-{{ Add example description here }}
 
 ## PARAMETERS
 
 ### -AdminUri
-
+Specifies the link, as a URI, to the service admin.
 
 ```yaml
 Type: Uri
@@ -60,7 +53,7 @@ Accept wildcard characters: False
 ```
 
 ### -DetailedOutput
-
+Indicates that the cmdlet gets detailed information from the output.
 
 ```yaml
 Type: SwitchParameter
@@ -90,7 +83,7 @@ Accept wildcard characters: False
 ```
 
 ### -FarmName
-
+Specifies the name of the ACS farm that this cmdlet gets metrics.
 
 ```yaml
 Type: String
@@ -144,7 +137,7 @@ Accept wildcard characters: False
 ```
 
 ### -MetricNames
-
+Specifies an array of metric names that this cmdlet gets.
 
 ```yaml
 Type: String[]
@@ -159,7 +152,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-
+Specifies the name of the resource group that contains the ACS farm.
 
 ```yaml
 Type: String
@@ -174,7 +167,7 @@ Accept wildcard characters: False
 ```
 
 ### -SkipCertificateValidation
-
+Indicates that the cmdlet does not validate the certificate.
 
 ```yaml
 Type: SwitchParameter
@@ -204,7 +197,7 @@ Accept wildcard characters: False
 ```
 
 ### -SubscriptionId
-
+Specifies the subscription ID.
 
 ```yaml
 Type: String
@@ -264,3 +257,5 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+
+[Get-ACSFarmMetricDefinition](./Get-ACSFarmMetricDefinition.md)
