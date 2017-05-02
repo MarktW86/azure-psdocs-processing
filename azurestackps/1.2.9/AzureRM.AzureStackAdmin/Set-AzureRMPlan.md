@@ -2,11 +2,11 @@
 external help file: Microsoft.AzureStack.Commands.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 04/25/2017 19:04 PM
-ms.date: 04/25/2017
+updated_at: 05/02/2017 19:05 PM
+ms.date: 05/02/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/Set-AzureRMPlan.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/Set-AzureRMPlan.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/c4315559410058943d9b4bbae2b76e607f21de95
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/64ea21b6f9d300bac04d2df45c463f94a5e389b4
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -33,18 +33,21 @@ The **Set-AzureRMPlan** cmdlet updates the existing plan with the given modified
 
 ## EXAMPLES
 
-### Example 1:
+### Example 1: Change a property of an existing plan
 ```
-$planUpdated = Get-AzureRMPlan -Name "ComputePlan" -ResourceGroup "PlanGroup" -Managed
-Set-AzureRMPlan -Plan $planUpdated -ResourceGroup "PlanGroup"
+$planToUpdate = Get-AzureRMPlan -Name "ComputePlan" -ResourceGroup "PlanGroup" -Managed
+$planToUpdate.DisplayName = "Plan A"
+Set-AzureRMPlan -Plan $planToUpdate -ResourceGroup "PlanGroup"
 ```
 
-This example gets a plan, modifies the plan object, and then updates the plan.
+This example modifies the **DisplayName** property of the plan named "ComputePlan" in the "PlanGroup" resource group.
+The first statement gets the plan and stores the object in the $planToUpdate variable.
+After the **DisplayName** property of the plan is changed, the updated object is passed in the **Plan** parameter of the **Set-AzureRMPlan** cmdlet.
 
 ## PARAMETERS
 
 ### -InformationAction
-Not specified.
+Specifies how this cmdlet responds to an information event.
 
 ```yaml
 Type: ActionPreference
@@ -60,7 +63,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-Not specified.
+Specifies a variable that is used for storing an informational message.
 
 ```yaml
 Type: String
@@ -75,7 +78,7 @@ Accept wildcard characters: False
 ```
 
 ### -PipelineVariable
-Not specified.
+Specifies a variable that stores the value of the current pipeline element.
 
 ```yaml
 Type: String
