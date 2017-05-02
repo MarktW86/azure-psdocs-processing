@@ -1498,39 +1498,6 @@
           href: AzureRM.NotificationHubs/Set-AzureRmNotificationHubsNamespace.md
         - name: Set-AzureRmNotificationHubsNamespaceAuthorizationRules
           href: AzureRM.NotificationHubs/Set-AzureRmNotificationHubsNamespaceAuthorizationRules.md
-    - name: Others
-      href: 'AzureRM.HDInsight/index.md#others'
-      items:
-        - name: New-AzureHDInsightClusterIdentity
-          href: AzureRM.HDInsight/New-AzureHDInsightClusterIdentity.md
-        - name: Get-AzureRmLogicAppTriggerCallbackUrl
-          href: AzureRM.LogicApp/Get-AzureRmLogicAppTriggerCallbackUrl.md
-        - name: Get-AzureRmLogicAppUpgradedDefinition
-          href: AzureRM.LogicApp/Get-AzureRmLogicAppUpgradedDefinition.md
-        - name: Test-AzureRmLogicApp
-          href: AzureRM.LogicApp/Test-AzureRmLogicApp.md
-        - name: Get-AzureRmADAppCredential
-          href: AzureRM.Resources/Get-AzureRmADAppCredential.md
-        - name: Get-AzureRmADSpCredential
-          href: AzureRM.Resources/Get-AzureRmADSpCredential.md
-        - name: New-AzureRmADAppCredential
-          href: AzureRM.Resources/New-AzureRmADAppCredential.md
-        - name: New-AzureRmADSpCredential
-          href: AzureRM.Resources/New-AzureRmADSpCredential.md
-        - name: New-AzureRmADUser
-          href: AzureRM.Resources/New-AzureRmADUser.md
-        - name: Remove-AzureRmADAppCredential
-          href: AzureRM.Resources/Remove-AzureRmADAppCredential.md
-        - name: Remove-AzureRmADSpCredential
-          href: AzureRM.Resources/Remove-AzureRmADSpCredential.md
-        - name: Remove-AzureRmADUser
-          href: AzureRM.Resources/Remove-AzureRmADUser.md
-        - name: Set-AzureRmADApplication
-          href: AzureRM.Resources/Set-AzureRmADApplication.md
-        - name: Set-AzureRmADServicePrincipal
-          href: AzureRM.Resources/Set-AzureRmADServicePrincipal.md
-        - name: Set-AzureRmADUser
-          href: AzureRM.Resources/Set-AzureRmADUser.md
     - name: Policies
       href: 'AzureRM.Resources/index.md#policies'
       items:

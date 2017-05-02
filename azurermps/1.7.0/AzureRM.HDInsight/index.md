@@ -28,7 +28,6 @@ Get-AzureRmHDInsightScriptActionHistory: HD Insights
 Grant-AzureRmHDInsightHttpServicesAccess: HD Insights
 Grant-AzureRmHDInsightRdpServicesAccess: HD Insights
 Invoke-AzureRmHDInsightHiveJob: HD Insights
-New-AzureHDInsightClusterIdentity: Others
 New-AzureRmHDInsightCluster: HD Insights
 New-AzureRmHDInsightClusterConfig: HD Insights
 New-AzureRmHDInsightHiveJobDefinition: HD Insights

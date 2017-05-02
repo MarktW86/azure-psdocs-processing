@@ -26,9 +26,7 @@ Get-AzureRmLogicAppAccessKey: Logic Apps
 Get-AzureRmLogicAppRunAction: Logic Apps
 Get-AzureRmLogicAppRunHistory: Logic Apps
 Get-AzureRmLogicAppTrigger: Logic Apps
-Get-AzureRmLogicAppTriggerCallbackUrl: Others
 Get-AzureRmLogicAppTriggerHistory: Logic Apps
-Get-AzureRmLogicAppUpgradedDefinition: Others
 New-AzureRmIntegrationAccount: Logic Apps
 New-AzureRmIntegrationAccountAgreement: Logic Apps
 New-AzureRmIntegrationAccountCertificate: Logic Apps
@@ -53,7 +51,6 @@ Set-AzureRmLogicApp: Logic Apps
 Set-AzureRmLogicAppAccessKey: Logic Apps
 Start-AzureRmLogicApp: Logic Apps
 Stop-AzureRmLogicAppRun: Logic Apps
-Test-AzureRmLogicApp: Others
 _isModulePage: true
 ---
 
