@@ -1,13 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.ResourceManager.Cmdlets.dll-Help.xml
-ms.assetid: 011574C2-C1A3-4EE6-8BC5-FCDD10E0E5D5
 online version:
 schema: 2.0.0
-updated_at: 05/01/2017 21:05 PM
-ms.date: 05/01/2017
+updated_at: 05/02/2017 17:05 PM
+ms.date: 05/02/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v2.0.3/Get-AzureRmPolicyAssignment.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v2.0.3/Get-AzureRmPolicyAssignment.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0589fbf53d27e39e0cf445261d29c64fb0859d62
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/fdff926f5dd35f9020f210f87b450464ba162edc
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -20,7 +19,7 @@ ms.service: azure-resource-manager
 # Get-AzureRmPolicyAssignment
 
 ## SYNOPSIS
-Gets policy assignments.
+Gets a list of all policy assignments or a particular assignment identified by name and scope or by Id
 
 ## SYNTAX
 
@@ -44,34 +43,39 @@ Get-AzureRmPolicyAssignment -Id <String> [-PolicyDefinitionId <String>] [-ApiVer
 ```
 
 ## DESCRIPTION
-The **Get-AzureRmPolicyAssignment** cmdlet gets all policy assignments or particular assignments.
-Identify a policy assignment to get by name and scope or by ID.
+Gets a list of all policy assignments or a particular assignment identified by name and scope or by Id
+
+If you find an issue with this cmdlet, please create an issue on https://github.com/Azure/azure-powershell/issues, with a lable "ResourceManager".
 
 ## EXAMPLES
 
-### Example 1: Get all policy assignments
-```
-PS C:\>Get-AzureRmPolicyAssignment
-```
+### --------------------------  Get all policy assignments  --------------------------
+@{paragraph=PS C:\\\>}
 
-This command gets all the policy assignments.
 
-### Example 2: Get a specific policy assignment
+
 ```
-PS C:\>$ResourceGroup = Get-AzureRmResourceGroup -Name "ResourceGroup11"
-PS C:\> Get-AzureRmPolicyAssignment -Name "PolicyAssignment07" -Scope $ResourceGroup.ResourceId
+Get-AzureRmPolicyAssignment
 ```
 
-The first command gets a resource group named ResourceGroup11 by using the Get-AzureRMResourceGroup cmdlet.
-The command stores that object in the $ResourceGroup variable.
+Gets all the policy assignments
 
-The second command get the policy assignment named PolicyAssignment07 for the scope that the **ResourceId** property of $ResourceGroup identifies.
+### --------------------------  Get a specific policy assignment by name and scope  --------------------------
+@{paragraph=PS C:\\\>}
+
+
+
+```
+$rg = Get-AzureRmResourceGroup -Name testGroup
+          Get-AzureRmPolicyAssignment -Name myPolicyAssignment -Scope $rg.ResourceId
+```
+
+Gets a specific policy assignment identified by name and scope at which it is applied
 
 ## PARAMETERS
 
 ### -ApiVersion
-Specifies the version of the resource provider API to use.
-If you do not specify a version, this cmdlet uses the latest available version.
+@{Text=}
 
 ```yaml
 Type: String
@@ -85,32 +89,23 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Pre
-Indicates that this cmdlet considers pre-release API versions when it automatically determines which version to use.
+### -Id
+The fully qualified resource Id of the policy assignment
 
 ```yaml
-Type: SwitchParameter
-Parameter Sets: (All)
-Aliases: 
+Type: String
+Parameter Sets: The policy assignment Id parameter set.
+Aliases: ResourceId
 
-Required: False
+Required: True
 Position: Named
 Default value: None
-Accept pipeline input: False
+Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
 ### -InformationAction
-Specifies how this cmdlet responds to an information event.
-
-The acceptable values for this parameter are:
-
-- Continue
-- Ignore
-- Inquire
-- SilentlyContinue
-- Stop
-- Suspend
+@{Text=}
 
 ```yaml
 Type: ActionPreference
@@ -125,7 +120,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-Specifies an information variable.
+@{Text=}
 
 ```yaml
 Type: String
@@ -140,7 +135,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-Specifies the name of the policy assignment that this cmdlet gets.
+The policy assignment name
 
 ```yaml
 Type: String
@@ -154,23 +149,8 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Scope
-Specifies the scope at which the policy is applied for the assignment that this cmdlet gets.
-
-```yaml
-Type: String
-Parameter Sets: The policy assignment name parameter set.
-Aliases: 
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
 ### -PolicyDefinitionId
-Specifies the ID of the policy definition of the policy assignments that this cmdlet gets.
+The policy assignment policy definition Id value
 
 ```yaml
 Type: String
@@ -184,13 +164,28 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Id
-Specifies the fully qualified resource ID for the policy assignment that this cmdlet gets.
+### -Pre
+When set, indicates that the cmdlet should use pre-release API versions when automatically determining which version to use.
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -Scope
+The scope at which the policy assignment is applied
 
 ```yaml
 Type: String
-Parameter Sets: The policy assignment Id parameter set.
-Aliases: ResourceId
+Parameter Sets: The policy assignment name parameter set.
+Aliases: 
 
 Required: True
 Position: Named
@@ -209,11 +204,4 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-
-[New-AzureRmPolicyAssignment](./New-AzureRmPolicyAssignment.md)
-
-[Remove-AzureRmPolicyAssignment](./Remove-AzureRmPolicyAssignment.md)
-
-[Set-AzureRmPolicyAssignment](./Set-AzureRmPolicyAssignment.md)
-
 

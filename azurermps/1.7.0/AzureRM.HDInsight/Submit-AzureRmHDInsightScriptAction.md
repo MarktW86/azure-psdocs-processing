@@ -1,13 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.HDInsight.dll-Help.xml
-ms.assetid: 329B1D1F-4B65-45A1-97E0-71A0F905F0C0
 online version:
 schema: 2.0.0
-updated_at: 05/01/2017 21:05 PM
-ms.date: 05/01/2017
+updated_at: 05/02/2017 17:05 PM
+ms.date: 05/02/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v1.1.4/Submit-AzureRmHDInsightScriptAction.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v1.1.4/Submit-AzureRmHDInsightScriptAction.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0589fbf53d27e39e0cf445261d29c64fb0859d62
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/fdff926f5dd35f9020f210f87b450464ba162edc
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -32,27 +31,43 @@ Submit-AzureRmHDInsightScriptAction [-ClusterName] <String> [-Name] <String> [-U
 ```
 
 ## DESCRIPTION
-The **Submit-AzureRmHDInsightScriptAction** cmdlet submits a new script action to an Azure HDInsight cluster.
-Use *PersistOnSuccess* to have the script action run each time the cluster is scaled up, as long as the script action initially succeeds.
+The Submit-AzureRmHDInsightScriptAction cmdlet submits a new script action to an Azure HDInsight cluster.
+Use PersistOnSuccess to have the script action run each time the cluster is scaled up, as long as the script action initially succeeds.
 
 ## EXAMPLES
 
-### Example 1: Submit a new script action to a running HDInsight cluster
+### --------------------------  Example 1: Submit a new script action to a running HDInsight cluster  --------------------------
+@{paragraph=PS C:\\\>}
+
+
+
 ```
-PS C:\>Submit-AzureRmHDInsightScriptAction `
+PS C:\> Submit-AzureRmHDInsightScriptAction `
             -ClusterName "your-hadoop-001" `
             -Name "scriptaction" `
             -Uri "<script action URI>" `
             -NodeTypes Worker -PersistOnSuccess
 ```
 
-This command submits a script action to a running HDInsight cluster.
+### --------------------------  Example 2: Submit a new script action on a running HDInsight cluster with app installed  --------------------------
+@{paragraph=PS C:\\\>}
+
+
+
+```
+PS C:\> Submit-AzureRmHDInsightScriptAction `
+            -ClusterName "your-hadoop-001" `
+            -Name "scriptaction" `
+            -Uri "<script action URI>" `
+            -ApplicationName "<app name>"`
+            -NodeTypes edgenode
+```
 
 ## PARAMETERS
 
 ### -ApplicationName
 Specifies the application name for the script action.
-When *ApplicationName* is specified, *PersistOnSuccess* should be set to False, nodes must contain only edgenode, and script action count should equal 1.
+When application name is specified, persist on success should be set to 'False', nodes must contain only 'edgenode' and script action count should equal 1.
 
 ```yaml
 Type: String
@@ -82,16 +97,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-Specifies how this cmdlet responds to an information event.
-
-The acceptable values for this parameter are:
-
-- Continue
-- Ignore
-- Inquire
-- SilentlyContinue
-- Stop
-- Suspend
+@{Text=}
 
 ```yaml
 Type: ActionPreference
@@ -106,7 +112,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-Specifies an information variable.
+@{Text=}
 
 ```yaml
 Type: String
@@ -219,9 +225,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## OUTPUTS
 
 ## NOTES
+Keywords: azure, azurerm, arm, resource, management, manager, hadoop, hdinsight, hd, insight
 
 ## RELATED LINKS
-
-[Add-AzureRmHDInsightScriptAction](./Add-AzureRmHDInsightScriptAction.md)
-
 

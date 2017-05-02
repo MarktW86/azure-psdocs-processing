@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.Resources.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 05/01/2017 21:05 PM
-ms.date: 05/01/2017
+updated_at: 05/02/2017 17:05 PM
+ms.date: 05/02/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v2.0.3/Get-AzureRmProviderOperation.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v2.0.3/Get-AzureRmProviderOperation.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0589fbf53d27e39e0cf445261d29c64fb0859d62
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/fdff926f5dd35f9020f210f87b450464ba162edc
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -44,20 +44,12 @@ Use Get-AzureRmProviderOperation Microsoft.Compute/* to get all operations of Mi
 
 
 
-
-
-
-
 ```
 PS C:\> Get-AzureRmProviderOperation *
 ```
 
 ### --------------------------  Get actions for a particular resource provider  --------------------------
 @{paragraph=PS C:\\\>}
-
-
-
-
 
 
 
@@ -70,30 +62,11 @@ PS C:\> Get-AzureRmProviderOperation Microsoft.Insights/*
 
 
 
-
-
-
-
 ```
 PS C:\> Get-AzureRmProviderOperation */virtualMachines/*
 ```
 
 ## PARAMETERS
-
-### -OperationSearchString
-The operation search string (with possible wildcard (*) characters)
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: True
-Position: 0
-Default value: None
-Accept pipeline input: True (ByValue)
-Accept wildcard characters: False
-```
 
 ### -InformationAction
 @{Text=}
@@ -122,6 +95,21 @@ Required: False
 Position: Named
 Default value: None
 Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -OperationSearchString
+The operation search string (with possible wildcard (*) characters)
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: 0
+Default value: None
+Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 

@@ -21,7 +21,6 @@ Add-AzureRmVMDataDisk: Virtual Machines
 Add-AzureRmVMNetworkInterface: Virtual Machines
 Add-AzureRmVMSecret: Virtual Machines
 Add-AzureRmVmssAdditionalUnattendContent: VM Scale Sets
-Add-AzureRmVmssDiagnosticsExtension: Others
 Add-AzureRmVmssExtension: VM Scale Sets
 Add-AzureRmVMSshPublicKey: Virtual Machines
 Add-AzureRmVmssNetworkInterfaceConfiguration: VM Scale Sets
@@ -86,7 +85,6 @@ Remove-AzureRmVMExtension: VM Extensions
 Remove-AzureRmVMNetworkInterface: Virtual Machines
 Remove-AzureRMVMSqlServerExtension: VM Extensions
 Remove-AzureRmVmss: VM Scale Sets
-Remove-AzureRmVmssDiagnosticsExtension: Others
 Remove-AzureRmVmssExtension: VM Scale Sets
 Remove-AzureRmVmssNetworkInterfaceConfiguration: VM Scale Sets
 Restart-AzureRmVM: Virtual Machines

@@ -1666,15 +1666,6 @@
           href: AzureRM.NotificationHubs/Set-AzureRmNotificationHubsNamespace.md
         - name: Set-AzureRmNotificationHubsNamespaceAuthorizationRules
           href: AzureRM.NotificationHubs/Set-AzureRmNotificationHubsNamespaceAuthorizationRules.md
-    - name: Others
-      href: 'AzureRM.Compute/index.md#others'
-      items:
-        - name: Add-AzureRmVmssDiagnosticsExtension
-          href: AzureRM.Compute/Add-AzureRmVmssDiagnosticsExtension.md
-        - name: Remove-AzureRmVmssDiagnosticsExtension
-          href: AzureRM.Compute/Remove-AzureRmVmssDiagnosticsExtension.md
-        - name: Get-AzureRmAuthorizationChangeLog
-          href: AzureRM.Resources/Get-AzureRmAuthorizationChangeLog.md
     - name: Policies
       href: 'AzureRM.Resources/index.md#policies'
       items:
@@ -1738,6 +1729,8 @@
           href: AzureRM.Profile/Set-AzureRmContext.md
         - name: Set-AzureRmEnvironment
           href: AzureRM.Profile/Set-AzureRmEnvironment.md
+        - name: Get-AzureRmAuthorizationChangeLog
+          href: AzureRM.Resources/Get-AzureRmAuthorizationChangeLog.md
     - name: Recovery Services
       href: 'AzureRM.RecoveryServices/index.md#recovery_services'
       items:

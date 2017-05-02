@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.Resources.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 05/01/2017 21:05 PM
-ms.date: 05/01/2017
+updated_at: 05/02/2017 17:05 PM
+ms.date: 05/02/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v2.0.3/New-AzureRmADApplication.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v2.0.3/New-AzureRmADApplication.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0589fbf53d27e39e0cf445261d29c64fb0859d62
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/fdff926f5dd35f9020f210f87b450464ba162edc
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -25,41 +25,32 @@ Creates a new azure active directory application.
 
 ### ApplicationWithoutCredentialParameterSet (Default)
 ```
-New-AzureRmADApplication -DisplayName <String> -IdentifierUris <String[]> [-HomePage <String>]
- [-ReplyUrls <String[]>] [-AvailableToOtherTenants <Boolean>] [-InformationAction <ActionPreference>]
- [-InformationVariable <String>] [-WhatIf] [-Confirm] [<CommonParameters>]
+New-AzureRmADApplication -DisplayName <String> -HomePage <String> -IdentifierUris <String[]>
+ [<CommonParameters>]
 ```
 
 ### ApplicationWithPasswordPlainParameterSet
 ```
-New-AzureRmADApplication -DisplayName <String> -IdentifierUris <String[]> [-HomePage <String>]
- [-ReplyUrls <String[]>] [-AvailableToOtherTenants <Boolean>] -Password <String> [-StartDate <DateTime>]
- [-EndDate <DateTime>] [-InformationAction <ActionPreference>] [-InformationVariable <String>] [-WhatIf]
- [-Confirm] [<CommonParameters>]
-```
-
-### ApplicationWithKeyCredentialParameterSet
-```
-New-AzureRmADApplication -DisplayName <String> -IdentifierUris <String[]> [-HomePage <String>]
- [-ReplyUrls <String[]>] [-AvailableToOtherTenants <Boolean>] -KeyCredentials <PSADKeyCredential[]>
- [-InformationAction <ActionPreference>] [-InformationVariable <String>] [-WhatIf] [-Confirm]
- [<CommonParameters>]
+New-AzureRmADApplication -DisplayName <String> -HomePage <String> -IdentifierUris <String[]> -Password <String>
+ [-StartDate <DateTime>] [-EndDate <DateTime>] [<CommonParameters>]
 ```
 
 ### ApplicationWithPasswordCredentialParameterSet
 ```
-New-AzureRmADApplication -DisplayName <String> -IdentifierUris <String[]> [-HomePage <String>]
- [-ReplyUrls <String[]>] [-AvailableToOtherTenants <Boolean>] -PasswordCredentials <PSADPasswordCredential[]>
- [-InformationAction <ActionPreference>] [-InformationVariable <String>] [-WhatIf] [-Confirm]
- [<CommonParameters>]
+New-AzureRmADApplication -DisplayName <String> -HomePage <String> -IdentifierUris <String[]>
+ -PasswordCredentials <PSADPasswordCredential[]> [<CommonParameters>]
 ```
 
 ### ApplicationWithKeyPlainParameterSet
 ```
-New-AzureRmADApplication -DisplayName <String> -IdentifierUris <String[]> [-HomePage <String>]
- [-ReplyUrls <String[]>] [-AvailableToOtherTenants <Boolean>] -CertValue <String> [-StartDate <DateTime>]
- [-EndDate <DateTime>] [-InformationAction <ActionPreference>] [-InformationVariable <String>] [-WhatIf]
- [-Confirm] [<CommonParameters>]
+New-AzureRmADApplication -DisplayName <String> -HomePage <String> -IdentifierUris <String[]> -KeyValue <String>
+ [-KeyType <String>] [-KeyUsage <String>] [-StartDate <DateTime>] [-EndDate <DateTime>] [<CommonParameters>]
+```
+
+### ApplicationWithKeyCredentialParameterSet
+```
+New-AzureRmADApplication -DisplayName <String> -HomePage <String> -IdentifierUris <String[]>
+ -KeyCredentials <PSADKeyCredential[]> [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -69,10 +60,6 @@ Creates a new azure active directory application.
 
 ### --------------------------  Create new AAD application.  --------------------------
 @{paragraph=PS C:\\\>}
-
-
-
-
 
 
 
@@ -109,10 +96,6 @@ AppPermissions          : {{
 
 ### --------------------------  Create new AAD application with password.  --------------------------
 @{paragraph=PS C:\\\>}
-
-
-
-
 
 
 
@@ -165,6 +148,36 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
+### -EndDate
+@{Text=}
+
+```yaml
+Type: DateTime
+Parameter Sets: ApplicationWithPasswordPlainParameterSet, ApplicationWithKeyPlainParameterSet
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -HomePage
+@{Text=}
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
 ### -IdentifierUris
 @{Text=}
 
@@ -180,12 +193,27 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -HomePage
+### -KeyCredentials
+@{Text=}
+
+```yaml
+Type: PSADKeyCredential[]
+Parameter Sets: ApplicationWithKeyCredentialParameterSet
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -KeyType
 @{Text=}
 
 ```yaml
 Type: String
-Parameter Sets: (All)
+Parameter Sets: ApplicationWithKeyPlainParameterSet
 Aliases: 
 
 Required: False
@@ -195,81 +223,33 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ReplyUrls
-The application reply urls.```yaml
-Type: String[]
-Parameter Sets: (All)
-Aliases: 
+### -KeyUsage
+@{Text=}
 
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -AvailableToOtherTenants
-The value specifying whether the application is a single tenant or a multi-tenant.```yaml
-Type: Boolean
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -InformationAction
-@{Text=}```yaml
-Type: ActionPreference
-Parameter Sets: (All)
-Aliases: infa
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -InformationVariable
-@{Text=}```yaml
+```yaml
 Type: String
-Parameter Sets: (All)
-Aliases: iv
+Parameter Sets: ApplicationWithKeyPlainParameterSet
+Aliases: 
 
 Required: False
 Position: Named
 Default value: None
-Accept pipeline input: False
+Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -WhatIf
-@{Text=}```yaml
-Type: SwitchParameter
-Parameter Sets: (All)
-Aliases: wi
+### -KeyValue
+@{Text=}
 
-Required: False
+```yaml
+Type: String
+Parameter Sets: ApplicationWithKeyPlainParameterSet
+Aliases: 
+
+Required: True
 Position: Named
 Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -Confirm
-@{Text=}```yaml
-Type: SwitchParameter
-Parameter Sets: (All)
-Aliases: cf
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
+Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
@@ -282,36 +262,6 @@ Parameter Sets: ApplicationWithPasswordPlainParameterSet
 Aliases: 
 
 Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -StartDate
-@{Text=}
-
-```yaml
-Type: DateTime
-Parameter Sets: ApplicationWithPasswordPlainParameterSet, ApplicationWithKeyPlainParameterSet
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -EndDate
-@{Text=}
-
-```yaml
-Type: DateTime
-Parameter Sets: ApplicationWithPasswordPlainParameterSet, ApplicationWithKeyPlainParameterSet
-Aliases: 
-
-Required: False
 Position: Named
 Default value: None
 Accept pipeline input: True (ByPropertyName)
@@ -333,28 +283,15 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -CertValue
-The value of the "asymmetric" credential type. It represents the base 64 encoded certificate.```yaml
-Type: String
-Parameter Sets: ApplicationWithKeyPlainParameterSet
-Aliases: 
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -KeyCredentials
+### -StartDate
 @{Text=}
 
 ```yaml
-Type: PSADKeyCredential[]
-Parameter Sets: ApplicationWithKeyCredentialParameterSet
+Type: DateTime
+Parameter Sets: ApplicationWithPasswordPlainParameterSet, ApplicationWithKeyPlainParameterSet
 Aliases: 
 
-Required: True
+Required: False
 Position: Named
 Default value: None
 Accept pipeline input: True (ByPropertyName)

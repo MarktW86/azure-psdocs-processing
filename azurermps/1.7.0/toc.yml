@@ -1513,8 +1513,6 @@
           href: AzureRM.Resources/Get-AzureRmADAppCredential.md
         - name: Get-AzureRmADSpCredential
           href: AzureRM.Resources/Get-AzureRmADSpCredential.md
-        - name: Get-AzureRmAuthorizationChangeLog
-          href: AzureRM.Resources/Get-AzureRmAuthorizationChangeLog.md
         - name: New-AzureRmADAppCredential
           href: AzureRM.Resources/New-AzureRmADAppCredential.md
         - name: New-AzureRmADSpCredential
@@ -1596,6 +1594,8 @@
           href: AzureRM.Profile/Set-AzureRmContext.md
         - name: Set-AzureRmEnvironment
           href: AzureRM.Profile/Set-AzureRmEnvironment.md
+        - name: Get-AzureRmAuthorizationChangeLog
+          href: AzureRM.Resources/Get-AzureRmAuthorizationChangeLog.md
     - name: Recovery Services
       href: 'AzureRM.RecoveryServices/index.md#recovery_services'
       items:

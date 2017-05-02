@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.Resources.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 05/01/2017 21:05 PM
-ms.date: 05/01/2017
+updated_at: 05/02/2017 17:05 PM
+ms.date: 05/02/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v2.0.3/Get-AzureRmRoleDefinition.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v2.0.3/Get-AzureRmRoleDefinition.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0589fbf53d27e39e0cf445261d29c64fb0859d62
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/fdff926f5dd35f9020f210f87b450464ba162edc
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -25,7 +25,7 @@ Lists all Azure RBAC roles that are available for assignment.
 
 ### RoleDefinitionNameParameterSet
 ```
-Get-AzureRmRoleDefinition [[-Name] <String>] [-Scope <String>] [-AtScopeAndBelow]
+Get-AzureRmRoleDefinition [-Name <String>] [-Scope <String>] [-AtScopeAndBelow]
  [-InformationAction <ActionPreference>] [-InformationVariable <String>] [<CommonParameters>]
 ```
 
@@ -52,10 +52,6 @@ To inspect individual operations that a role grants access to, review the Action
 
 
 
-
-
-
-
 ```
 PS C:\> Get-AzureRmRoleDefinition -Name Reader
 ```
@@ -67,10 +63,6 @@ Get the Reader role definition
 
 
 
-
-
-
-
 ```
 PS C:\> Get-AzureRmRoleDefinition
 ```
@@ -78,38 +70,6 @@ PS C:\> Get-AzureRmRoleDefinition
 Lists all RBAC role definitions
 
 ## PARAMETERS
-
-### -Name
-Role definition name.
-For e.g.
-Reader, Contributor, Virtual Machine Contributor.
-
-```yaml
-Type: String
-Parameter Sets: RoleDefinitionNameParameterSet
-Aliases: 
-
-Required: False
-Position: 0
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -Scope
-Role definition scope.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: True (ByValue)
-Accept wildcard characters: False
-```
 
 ### -AtScopeAndBelow
 If specified, displays all role definitions.
@@ -120,6 +80,36 @@ Parameter Sets: RoleDefinitionNameParameterSet, RoleDefinitionCustomParameterSet
 Aliases: 
 
 Required: False
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -Custom
+If specified, only displays the custom created roles in the directory.
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: RoleDefinitionCustomParameterSet
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -Id
+Role definition Id.
+
+```yaml
+Type: Guid
+Parameter Sets: RoleDefinitionIdParameterSet
+Aliases: 
+
+Required: True
 Position: Named
 Default value: None
 Accept pipeline input: True (ByPropertyName)
@@ -156,33 +146,35 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Id
-Role definition Id.
+### -Name
+Role definition name.
+For e.g.
+Reader, Contributor, Virtual Machine Contributor.
 
 ```yaml
-Type: Guid
-Parameter Sets: RoleDefinitionIdParameterSet
+Type: String
+Parameter Sets: RoleDefinitionNameParameterSet
 Aliases: 
 
-Required: True
+Required: False
 Position: Named
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Custom
-If specified, only displays the custom created roles in the directory.
+### -Scope
+Role definition scope.
 
 ```yaml
-Type: SwitchParameter
-Parameter Sets: RoleDefinitionCustomParameterSet
+Type: String
+Parameter Sets: (All)
 Aliases: 
 
-Required: True
+Required: False
 Position: Named
 Default value: None
-Accept pipeline input: True (ByPropertyName)
+Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 

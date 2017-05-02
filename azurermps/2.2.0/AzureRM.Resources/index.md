@@ -24,7 +24,7 @@ Get-AzureRmADGroupMember: Active Directory
 Get-AzureRmADServicePrincipal: Active Directory
 Get-AzureRmADSpCredential: Active Directory
 Get-AzureRmADUser: Active Directory
-Get-AzureRmAuthorizationChangeLog: Others
+Get-AzureRmAuthorizationChangeLog: Profile
 Get-AzureRmLocation: Resources
 Get-AzureRmPolicyAssignment: Policies
 Get-AzureRmPolicyDefinition: Policies

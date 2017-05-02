@@ -1,13 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.HDInsight.dll-Help.xml
-ms.assetid: 611ECB41-1C2F-4E02-9CAC-0D7D1323F79B
 online version:
 schema: 2.0.0
-updated_at: 05/01/2017 21:05 PM
-ms.date: 05/01/2017
+updated_at: 05/02/2017 17:05 PM
+ms.date: 05/02/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v1.1.4/Remove-AzureRmHDInsightPersistedScriptAction.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v1.1.4/Remove-AzureRmHDInsightPersistedScriptAction.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0589fbf53d27e39e0cf445261d29c64fb0859d62
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/fdff926f5dd35f9020f210f87b450464ba162edc
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -31,19 +30,21 @@ Remove-AzureRmHDInsightPersistedScriptAction [-ClusterName] <String> [-Name] <St
 ```
 
 ## DESCRIPTION
-The **Remove-AzureRmHDInsightPersistedScriptAction** cmdlet removes a persisted script action from the specified Azure HDInsight cluster's list of persisted script actions.
+The Remove-AzureRmHDInsightPersistedScriptAction cmdlet removes a persisted script action from the specified Azure HDInsight cluster's list of persisted script actions.
 The removed script will no longer be executed when the cluster is scaled up.
 
 ## EXAMPLES
 
-### Example 1: Remove a script action from the list of persisted script actions on a cluster
-```
-PS C:\>Remove-AzureRmHDInsightPersistedScriptAction `
-            -ClusterName "your-hadoop-001" `
-            -Name "Scriptaction"
-```
+### --------------------------  Example 1: Removes a script action from the list of persisted script actions on a cluster.  --------------------------
+@{paragraph=PS C:\\\>}
 
-This command removes the script action named Scriptaction from the list of persisted script actions on the specified cluster.
+
+
+```
+PS C:\> Remove-AzureRmHDInsightPersistedScriptAction `
+            -ClusterName "your-hadoop-001" `
+            -Name "scriptaction"
+```
 
 ## PARAMETERS
 
@@ -63,16 +64,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-Specifies how this cmdlet responds to an information event.
-
-The acceptable values for this parameter are:
-
-- Continue
-- Ignore
-- Inquire
-- SilentlyContinue
-- Stop
-- Suspend
+@{Text=}
 
 ```yaml
 Type: ActionPreference
@@ -87,7 +79,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-Specifies an information variable.
+@{Text=}
 
 ```yaml
 Type: String
@@ -139,11 +131,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## OUTPUTS
 
 ## NOTES
+Keywords: azure, azurerm, arm, resource, management, manager, hadoop, hdinsight, hd, insight
 
 ## RELATED LINKS
-
-[Get-AzureRmHDInsightPersistedScriptAction](./Get-AzureRmHDInsightPersistedScriptAction.md)
-
-[Set-AzureRmHDInsightPersistedScriptAction](./Set-AzureRmHDInsightPersistedScriptAction.md)
-
 

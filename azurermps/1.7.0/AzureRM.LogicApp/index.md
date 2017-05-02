@@ -1,12 +1,12 @@
 ---
-Module Name: AzureRM.LogicApp
-Module Guid: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
+Module Name: AzureRM.logicapp
+Module Guid: 8a7d44bb-e747-4265-8f22-b3937961d709
 Locale: en-US
-updated_at: 05/01/2017 21:05 PM
-ms.date: 05/01/2017
+updated_at: 05/02/2017 17:05 PM
+ms.date: 05/02/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/v1.0.8/AzureRM.LogicApp.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/v1.0.8/AzureRM.LogicApp.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0589fbf53d27e39e0cf445261d29c64fb0859d62
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/fdff926f5dd35f9020f210f87b450464ba162edc
 ms.topic: conceptual
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -57,113 +57,119 @@ Test-AzureRmLogicApp: Others
 _isModulePage: true
 ---
 
-# AzureRM.LogicApp Module
+# AzureRM.logicapp Module
 ## Description
-This topic displays help topics for the Logic Apps cmdlets.
+{{Manually Enter Description Here}}
 
-## AzureRM.LogicApp Cmdlets
+## AzureRM.logicapp Cmdlets
 ### [Get-AzureRmIntegrationAccount](Get-AzureRmIntegrationAccount.md)
-Gets integration accounts.
+Gets the specified integration account from the Azure resource group.
 
 ### [Get-AzureRmIntegrationAccountAgreement](Get-AzureRmIntegrationAccountAgreement.md)
-Gets an integration account agreement.
+Gets the specified integration account agreement from the Azure resource group.
 
 ### [Get-AzureRmIntegrationAccountCallbackUrl](Get-AzureRmIntegrationAccountCallbackUrl.md)
-Gets an integration account callback URL.
+Gets the specified integration account callback URL from the Azure resource group.
 
 ### [Get-AzureRmIntegrationAccountCertificate](Get-AzureRmIntegrationAccountCertificate.md)
-Gets integration account certificates from a resource group.
+Gets the specified integration account certificate from the Azure resource group.
 
 ### [Get-AzureRmIntegrationAccountMap](Get-AzureRmIntegrationAccountMap.md)
-Gets an integration account map.
+Gets the specified integration account map from the Azure resource group.
 
 ### [Get-AzureRmIntegrationAccountPartner](Get-AzureRmIntegrationAccountPartner.md)
-Gets integration account partners.
+Gets the specified integration account partner from the Azure resource group.
 
 ### [Get-AzureRmIntegrationAccountSchema](Get-AzureRmIntegrationAccountSchema.md)
-Gets integration account schemas.
+Gets the specified integration account schema from the Azure resource group.
 
 ### [Get-AzureRmLogicApp](Get-AzureRmLogicApp.md)
-Gets a logic app from a resource group.
+Gets the specified Logic App from the Azure resource group.
+
+### [Get-AzureRmLogicAppAccessKey](Get-AzureRmLogicAppAccessKey.md)
+Gets the access keys of a specified Logic App.
 
 ### [Get-AzureRmLogicAppRunAction](Get-AzureRmLogicAppRunAction.md)
-Gets an action from a logic app run.
+Gets the specified action from the Logic App run.
 
 ### [Get-AzureRmLogicAppRunHistory](Get-AzureRmLogicAppRunHistory.md)
-Gets the run history of a logic app.
+Gets the Logic App run history.
 
 ### [Get-AzureRmLogicAppTrigger](Get-AzureRmLogicAppTrigger.md)
-Gets the triggers of a logic app.
+Gets the specified trigger of the logic app.
 
 ### [Get-AzureRmLogicAppTriggerHistory](Get-AzureRmLogicAppTriggerHistory.md)
-Gets the history of triggers in a logic app.
+Gets the trigger history of the specified trigger in the Logic App.
 
 ### [New-AzureRmIntegrationAccount](New-AzureRmIntegrationAccount.md)
-Creates an integration account.
+Creates a new integration account in the azure resource group.
 
 ### [New-AzureRmIntegrationAccountAgreement](New-AzureRmIntegrationAccountAgreement.md)
-Creates an integration account agreement.
+Creates a new integration account agreement in the azure resource group.
 
 ### [New-AzureRmIntegrationAccountCertificate](New-AzureRmIntegrationAccountCertificate.md)
-Creates an integration account certificate.
+Creates a new integration account certificate in the azure resource group.
 
 ### [New-AzureRmIntegrationAccountMap](New-AzureRmIntegrationAccountMap.md)
-Creates an integration account map.
+Creates a new integration account map in the azure resource group.
 
 ### [New-AzureRmIntegrationAccountPartner](New-AzureRmIntegrationAccountPartner.md)
-Creates an integration account partner.
+Creates a new integration account partner in the azure resource group.
 
 ### [New-AzureRmIntegrationAccountSchema](New-AzureRmIntegrationAccountSchema.md)
-Creates an integration account schema.
+Creates a new integration account schema in the azure resource group.
 
 ### [New-AzureRmLogicApp](New-AzureRmLogicApp.md)
-Creates a logic app in a resource group.
+Creates a new Logic App in the azure resource group.
 
 ### [Remove-AzureRmIntegrationAccount](Remove-AzureRmIntegrationAccount.md)
-Removes an integration account.
+Removes the integration account from the specified Azure resource group.
 
 ### [Remove-AzureRmIntegrationAccountAgreement](Remove-AzureRmIntegrationAccountAgreement.md)
-Removes an integration account agreement.
+Removes the integration account agreement from the specified Azure resource group.
 
 ### [Remove-AzureRmIntegrationAccountCertificate](Remove-AzureRmIntegrationAccountCertificate.md)
-Removes an integration account certificate from a resource group.
+Removes the integration account certificate from the specified Azure resource group.
 
 ### [Remove-AzureRmIntegrationAccountMap](Remove-AzureRmIntegrationAccountMap.md)
-Removes an integration account map.
+Removes the integration account map from the specified Azure resource group.
 
 ### [Remove-AzureRmIntegrationAccountPartner](Remove-AzureRmIntegrationAccountPartner.md)
-Removes an integration account partner.
+Removes the integration account partner from the specified Azure resource group.
 
 ### [Remove-AzureRmIntegrationAccountSchema](Remove-AzureRmIntegrationAccountSchema.md)
-Removes an integration account schema.
+Removes the integration account schema from the specified Azure resource group.
 
 ### [Remove-AzureRmLogicApp](Remove-AzureRmLogicApp.md)
-Removes a logic app from a resource group.
+Removes the specified Logic App from the specified Azure resource group.
 
 ### [Set-AzureRmIntegrationAccount](Set-AzureRmIntegrationAccount.md)
-Modifies an integration account.
+Updates a integration account in the azure resource group.
 
 ### [Set-AzureRmIntegrationAccountAgreement](Set-AzureRmIntegrationAccountAgreement.md)
-Modifies an integration account agreement.
+Updates the integration account agreement in the azure resource group.
 
 ### [Set-AzureRmIntegrationAccountCertificate](Set-AzureRmIntegrationAccountCertificate.md)
-Modifies an integration account certificate.
+Updates the integration account certificate in the azure resource group.
 
 ### [Set-AzureRmIntegrationAccountMap](Set-AzureRmIntegrationAccountMap.md)
-Modifies an integration account map.
+Updates an integration account map in the azure resource group.
 
 ### [Set-AzureRmIntegrationAccountPartner](Set-AzureRmIntegrationAccountPartner.md)
-Modifies an integration account partner.
+Updates an integration account partner in the azure resource group.
 
 ### [Set-AzureRmIntegrationAccountSchema](Set-AzureRmIntegrationAccountSchema.md)
-Modifies an integration account schema.
+Updates an integration account schema in the azure resource group.
 
 ### [Set-AzureRmLogicApp](Set-AzureRmLogicApp.md)
-Modifies a logic app in a resource group.
+Updates a new Logic App in an azure resource group.
+
+### [Set-AzureRmLogicAppAccessKey](Set-AzureRmLogicAppAccessKey.md)
+Updates the access keys of a specified Logic App.
 
 ### [Start-AzureRmLogicApp](Start-AzureRmLogicApp.md)
-Runs a logic app in a resource group.
+Runs the specified Logic App in the Azure resource group.
 
 ### [Stop-AzureRmLogicAppRun](Stop-AzureRmLogicAppRun.md)
-Cancels a run of a logic app.
+Cancels the specified run of a Logic App present in the Azure resource group.
 

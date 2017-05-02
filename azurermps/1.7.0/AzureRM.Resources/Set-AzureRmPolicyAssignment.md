@@ -1,13 +1,12 @@
 ---
 external help file: Microsoft.Azure.Commands.ResourceManager.Cmdlets.dll-Help.xml
-ms.assetid: 330C7EDD-F185-4FC4-87B6-C8840C2FCAD0
 online version:
 schema: 2.0.0
-updated_at: 05/01/2017 21:05 PM
-ms.date: 05/01/2017
+updated_at: 05/02/2017 17:05 PM
+ms.date: 05/02/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v2.0.3/Set-AzureRmPolicyAssignment.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v2.0.3/Set-AzureRmPolicyAssignment.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0589fbf53d27e39e0cf445261d29c64fb0859d62
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/fdff926f5dd35f9020f210f87b450464ba162edc
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -20,7 +19,7 @@ ms.service: azure-resource-manager
 # Set-AzureRmPolicyAssignment
 
 ## SYNOPSIS
-Modifies a policy assignment.
+Updates existing policy assignment
 
 ## SYNTAX
 
@@ -37,60 +36,44 @@ Set-AzureRmPolicyAssignment -Id <String> [-DisplayName <String>] [-ApiVersion <S
 ```
 
 ## DESCRIPTION
-The **Set-AzureRmPolicyAssignment** cmdlet modifies a policy assignment.
-Specify an assignment by ID or by name and scope.
+Updates existing policy assignment
+
+If you find an issue with this cmdlet, please create an issue on https://github.com/Azure/azure-powershell/issues, with a lable "ResourceManager".
 
 ## EXAMPLES
 
-### Example 1: Update the display name
+### --------------------------  Update the display name on an existing policy assignment  --------------------------
+@{paragraph=PS C:\\\>}
+
+
+
 ```
-PS C:\>$ResourceGroup = Get-AzureRmResourceGroup -Name "ResourceGroup11"
-PS C:\> $PolicyAssignment = Get-AzureRmPolicyAssignment -Name "PolicyAssignment" -Scope $ResourceGroup.ResourceId
-PS C:\> Set-AzureRmPolicyAssignment -Id $PolicyAssignment.ResourceId -DisplayName "Do not allow VM creation"
+$rg = Get-AzureRmResourceGroup -Name testGroup
+          $policyAssignment = Get-AzureRmPolicyAssignment -Name myPolicyAssignment -Scope $rg.ResourceId
+          Set-AzureRmPolicyAssignment -Id $policyAssignment.ResourceId -DisplayName "Do not allow VM creation"
 ```
 
-The first command gets a resource group named ResourceGroup11 by using the Get-AzureRMResourceGroup cmdlet.
-The command stores that object in the $ResourceGroup variable.
-
-The second command gets the policy assignment named PolicyAssignment by using the Get-AzureRmPolicyAssignment cmdlet.
-The command stores that object in the $PolicyAssignment variable.
-
-The final command updates the display name on the policy assignment identified by the **ResourceId** property of $PolicyAssignment.
+Updates the display name on an existing policy assignment
 
 ## PARAMETERS
 
-### -Name
-Specifies the name of the policy assignment that this cmdlet modifies.
+### -ApiVersion
+@{Text=}
 
 ```yaml
 Type: String
-Parameter Sets: The policy assignment name parameter set.
+Parameter Sets: (All)
 Aliases: 
 
-Required: True
+Required: False
 Position: Named
 Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -Scope
-Specifies the scope at which the policy is applied.
-
-```yaml
-Type: String
-Parameter Sets: The policy assignment name parameter set.
-Aliases: 
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
+Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
 ### -DisplayName
-Specifies a new display name for the policy assignment.
+The display name for policy assignment
 
 ```yaml
 Type: String
@@ -104,48 +87,23 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ApiVersion
-Specifies the version of the resource provider API to use.
-If you do not specify a version, this cmdlet uses the latest available version.
+### -Id
+The fully qualified resource Id for the policy assignment
 
 ```yaml
 Type: String
-Parameter Sets: (All)
-Aliases: 
+Parameter Sets: The policy assignment Id parameter set.
+Aliases: ResourceId
 
-Required: False
+Required: True
 Position: Named
 Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -Pre
-Indicates that this cmdlet considers pre-release API versions when it automatically determines which version to use.
-
-```yaml
-Type: SwitchParameter
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
+Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
 ### -InformationAction
-Specifies how this cmdlet responds to an information event.
-
-The acceptable values for this parameter are:
-
-- Continue
-- Ignore
-- Inquire
-- SilentlyContinue
-- Stop
-- Suspend
+@{Text=}
 
 ```yaml
 Type: ActionPreference
@@ -160,7 +118,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-Specifies an information variable.
+@{Text=}
 
 ```yaml
 Type: String
@@ -174,13 +132,43 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Id
-Specifies the fully qualified resource ID for the policy assignment that this cmdlet modifies.
+### -Name
+The policy assignment name
 
 ```yaml
 Type: String
-Parameter Sets: The policy assignment Id parameter set.
-Aliases: ResourceId
+Parameter Sets: The policy assignment name parameter set.
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -Pre
+When set, indicates that the cmdlet should use pre-release API versions when automatically determining which version to use.
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -Scope
+The scope at which the policy assignment is applied
+
+```yaml
+Type: String
+Parameter Sets: The policy assignment name parameter set.
+Aliases: 
 
 Required: True
 Position: Named
@@ -199,11 +187,4 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-
-[Get-AzureRmPolicyAssignment](./Get-AzureRmPolicyAssignment.md)
-
-[New-AzureRmPolicyAssignment](./New-AzureRmPolicyAssignment.md)
-
-[Remove-AzureRmPolicyAssignment](./Remove-AzureRmPolicyAssignment.md)
-
 
