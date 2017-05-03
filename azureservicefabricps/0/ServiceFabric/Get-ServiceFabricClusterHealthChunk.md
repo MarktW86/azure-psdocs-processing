@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 7EE2AE48-02B7-4A75-B20F-75AA942A4C96
 online version:
 schema: 2.0.0
-updated_at: 05/01/2017 01:05 AM
-ms.date: 05/01/2017
+updated_at: 05/03/2017 21:05 PM
+ms.date: 05/03/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricClusterHealthChunk.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricClusterHealthChunk.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/60c71a33c5a4b3bbea7534c51da9c50ec7482f0e
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/50b4a1d8c941cfe43b0ae98efc047bbdc78270fd
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -286,3 +286,9 @@ This cmdlet returns a **System.Fabric.Health.ClusterHealthChunk** object that re
 ## NOTES
 
 ## RELATED LINKS
+
+[Get-ServiceFabricClusterHealth](./Get-ServiceFabricClusterHealth.md)
+
+[Get-ServiceFabricClusterLoadInformation](./Get-ServiceFabricClusterLoadInformation.md)
+
+[Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md)
