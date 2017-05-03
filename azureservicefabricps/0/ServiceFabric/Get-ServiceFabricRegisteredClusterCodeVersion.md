@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: D1A0F338-F89D-40F0-8C1A-AF5453E61092
 online version:
 schema: 2.0.0
-updated_at: 04/13/2017 18:04 PM
-ms.date: 04/13/2017
+updated_at: 05/01/2017 02:05 AM
+ms.date: 05/01/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/V5.6_Updates/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricRegisteredClusterCodeVersion.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/V5.6_Updates/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricRegisteredClusterCodeVersion.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/e4666c66ecad8bb641483d243bfac15b26f72282
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/c1db739ad23640707fd1a866359d21a54788350d
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -76,7 +76,7 @@ Accept wildcard characters: False
 ```
 
 ### CommonParameters
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see [about_CommonParameters](http://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 
@@ -86,7 +86,7 @@ This cmdlet accepts the version of a Service Fabric cluster code as a string.
 ## OUTPUTS
 
 ### System.Object
-This cmdlet returns a list of [System.Fabric.Query.ProvisionedFabricCodeVersion] (https://docs.microsoft.com/dotnet/api/system.fabric.query.provisionedfabriccodeversion) objects that represent registered cluster code versions.
+This cmdlet returns a list of [System.Fabric.Query.ProvisionedFabricCodeVersion](https://docs.microsoft.com/dotnet/api/system.fabric.query.provisionedfabriccodeversion) objects that represent registered cluster code versions.
 
 ## NOTES
 
