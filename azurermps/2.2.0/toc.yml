@@ -1,6 +1,8 @@
 - name: Azure PowerShell
-  href: ../conceptual/2.2.0/v2.md
+  href: ../conceptual/2.2.0/overview.md
   items:
+    - name: v2.0
+      href: ../conceptual/2.2.0/v2.md
     - name: Install
       href: ../conceptual/2.2.0/install-azurerm-ps.md
     - name: Get started
