@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 9D63C467-E643-4DCD-B8AD-70C741D39377
 online version:
 schema: 2.0.0
-updated_at: 04/27/2017 02:04 AM
-ms.date: 04/27/2017
+updated_at: 05/03/2017 00:05 AM
+ms.date: 05/03/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/Graham71141/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricApplicationHealth.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/Graham71141/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricApplicationHealth.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/df0999df1d4841a9b73be457339bfafe2f964b24
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/0ac58226476502c15cbfd11862ca9b1a752d4003
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -84,7 +84,7 @@ Accept wildcard characters: False
 ```
 
 ### -ConsiderWarningAsError
-Indicates whether to treat a warning health report as error during health evaluation.
+Indicates whether this cmdlet considers a warning health report as an error during health evaluation.
 
 ```yaml
 Type: Boolean
@@ -100,7 +100,7 @@ Accept wildcard characters: False
 
 ### -DeployedApplicationsFilter
 Specifies the filter for **DeployedApplicationHealthState** children based on health state.
-The value can be obtained from members or bitwise operations on members of **HealthStateFilter**.
+The value is obtained from members or bitwise operations on members of **HealthStateFilter**.
 Only children that match the filter are returned.
 All children are used to evaluate the application aggregated health state.
 If not specified, all entries are returned.
