@@ -2,11 +2,11 @@
 external help file: Microsoft.AzureStack.AzureConsistentStorage.Commands.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 05/02/2017 20:05 PM
+updated_at: 05/02/2017 22:05 PM
 ms.date: 05/02/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Get-ACSTableService.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Get-ACSTableService.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/13ec13c1a9baa09b68c680eedfd83bb954580446
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/8be3c27a59771ebd9a10c0f704e4d42f41811531
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -19,7 +19,7 @@ ms.service: azure-stack
 # Get-ACSTableService
 
 ## SYNOPSIS
-Get status and settings of Table service.
+Gets the status and settings of a Table service.
 
 ## SYNTAX
 
@@ -30,22 +30,26 @@ Get-ACSTableService [-ResourceGroupName] <String> [-FarmName] <String> [[-Subscr
 ```
 
 ## DESCRIPTION
-Get status and settings of Table service.
+The **Get-ACSTableService** cmdlet gets the status and settings of a Table service.
 
 ## EXAMPLES
 
-### Example 1:
-@{paragraph=PS C:\\\>}
-
-
+### Example 1: Get the settings of a Table service
 
 ```
-$resourceGroup = 'System' 
+$ResourceGroup = "System"
 
-$farm = Get-ACSFarm -ResourceGroupName $resourceGroup
+$Farm = Get-ACSFarm -ResourceGroupName $ResourceGroup
 
-Get-ACSTableService -ResourceGroupName $resourceGroup -FarmName $farm.Name
+Get-ACSTableService -ResourceGroupName $ResourceGroup -FarmName $Farm.Name
 ```
+
+The first command stores the value named System in the variable named $ResourceGroup.
+
+The second command uses the [Get-ACSFarm](,/Get-ACSFarm,md) cmdlet to get the farm that is contained in the resource group specified in the $ResourceGroup variable. 
+The command stores the result in the variable named $Farm.
+
+The third command uses the **Get-ACSTableService** cmdlet to get the Table service that is contained in the farm specified in the $Farm variable.
 
 ## PARAMETERS
 
@@ -65,7 +69,7 @@ Accept wildcard characters: False
 ```
 
 ### -FarmName
-
+Specifies the name of the ACS farm that this cmdlet gets the table service from.
 
 ```yaml
 Type: String
@@ -119,7 +123,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-
+Specifies the name of the resource group that contains the ACS table service.
 
 ```yaml
 Type: String
@@ -192,3 +196,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+
+[Get-ACSTableServiceMetric](./Get-ACSTableServiceMetric.md)
+
+[Get-ACSTableServiceMetricDefinition](./Get-ACSTableServiceMetricDefinition.md)

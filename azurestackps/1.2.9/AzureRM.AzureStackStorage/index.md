@@ -2,11 +2,11 @@
 Module Name: AzureRM.AzureStackstorage
 Module Guid: da5816b5-97a6-4301-9aa0-72cc68c79f20
 Locale: en-US
-updated_at: 04/28/2017 21:04 PM
-ms.date: 04/28/2017
+updated_at: 05/02/2017 22:05 PM
+ms.date: 05/02/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/AzureRM.AzureStackstorage.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/AzureRM.AzureStackstorage.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/75431b1f2193df6595896df8a0c0bb66ae1d12ac
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/8be3c27a59771ebd9a10c0f704e4d42f41811531
 ms.topic: conceptual
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -109,7 +109,7 @@ Gets the metrics of a share.
 Gets the metric definitions of share.
 
 ### [Get-ACSSharesForMigration](Get-ACSSharesForMigration.md)
-{{Fill in the Synopsis}}
+Gets a list of SMB shares that are to be migrated.
 
 ### [Get-ACSStorageAccount](Get-ACSStorageAccount.md)
 Gets a list of the tenant storage accounts based on the tenant subscription ID, account name (or part of the account name) , account status or based on a account ID.

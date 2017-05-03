@@ -2,11 +2,11 @@
 external help file: Microsoft.AzureStack.AzureConsistentStorage.Commands.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 05/02/2017 20:05 PM
+updated_at: 05/02/2017 22:05 PM
 ms.date: 05/02/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Get-ACSShareMetric.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Get-ACSShareMetric.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/13ec13c1a9baa09b68c680eedfd83bb954580446
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/8be3c27a59771ebd9a10c0f704e4d42f41811531
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -19,7 +19,7 @@ ms.service: azure-stack
 # Get-ACSShareMetric
 
 ## SYNOPSIS
-Retrieve the metrics of a share
+Gets the metrics of an ACS share.
 
 ## SYNTAX
 
@@ -32,16 +32,9 @@ Get-ACSShareMetric [-FarmName] <String> [-ShareName] <String> [-ResourceGroupNam
 ```
 
 ## DESCRIPTION
-Retrieve the metrics of a share
+The **Get-ACSShareMetric** cmdlet gets the metrics of an Azure Consistent Storage (ACS) share.
 
 ## EXAMPLES
-
-### Example 1
-```
-PS C:\> {{ Add example code here }}
-```
-
-{{ Add example description here }}
 
 ## PARAMETERS
 
@@ -61,7 +54,7 @@ Accept wildcard characters: False
 ```
 
 ### -DetailedOutput
-
+Indicates the cmdlet gets the detailed metric information from the ACS Share.
 
 ```yaml
 Type: SwitchParameter
@@ -91,7 +84,7 @@ Accept wildcard characters: False
 ```
 
 ### -FarmName
-
+Specifies the name of the ACS farm that this cmdlet gets share metrics.
 
 ```yaml
 Type: String
@@ -160,7 +153,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-
+Specifies the name of the resource group that contains the ACS farm.
 
 ```yaml
 Type: String
@@ -175,7 +168,7 @@ Accept wildcard characters: False
 ```
 
 ### -ShareName
-
+Specifies the name of the ACS share that this cmdlet gets share metrics from.
 
 ```yaml
 Type: String
@@ -280,3 +273,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+
+[Get-ACSShare](./Get-ACSShare.md)
+
+[Get-ACSShareMetricDefinition](./Get-ACSShareMetricDefinition.md)

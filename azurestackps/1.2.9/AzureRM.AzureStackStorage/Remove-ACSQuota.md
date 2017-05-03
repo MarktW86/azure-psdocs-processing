@@ -2,11 +2,11 @@
 external help file: Microsoft.AzureStack.AzureConsistentStorage.Commands.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 05/02/2017 20:05 PM
+updated_at: 05/02/2017 23:05 PM
 ms.date: 05/02/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Remove-ACSQuota.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Remove-ACSQuota.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/13ec13c1a9baa09b68c680eedfd83bb954580446
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/56ae6fc5453be408270d29705b63683c123226e0
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -19,7 +19,7 @@ ms.service: azure-stack
 # Remove-ACSQuota
 
 ## SYNOPSIS
-Removes the Storage quota resource
+Removes the Storage quota resource.
 
 ## SYNTAX
 
@@ -30,21 +30,21 @@ Remove-ACSQuota [-Location] <String> [-Name] <String> [[-SubscriptionId] <String
 ```
 
 ## DESCRIPTION
-The Remove-ACSQuota cmdlet removes the Storage Quota resource created by the admins.
+The **Remove-ACSQuota** cmdlet removes the Storage Quota resource.
 
 ## EXAMPLES
 
-### Example 1:
-@{paragraph=PS C:\\\>}
-
-
+### Example 1: Remove the specified storage quota resource
 
 ```
-$ResourceGroup = "System"
-$Location = "Redmond"
-// Remove quota resource named 'BasicStorage_Quota'
-Remove-ACSQuota -Location $Location -Name "BasicStorage_Quota"
+PS C:\> $ResourceGroup = "System"
+
+PS C:\> Remove-ACSQuota -Location "Redmond" -Name "BasicStorage_Quota"
 ```
+
+The first command stores the value named System in the variable named $ResourceGroup.
+
+The second command removes the quota resource named BasicStorage_Quota from the geolocation named Redmond.
 
 ## PARAMETERS
 
@@ -103,7 +103,7 @@ Accept wildcard characters: False
 ```
 
 ### -Location
-
+Specifies the geolocation of the ACS quota resource that this cmdlet removes.
 
 ```yaml
 Type: String
@@ -118,7 +118,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-
+Specifies the name of the ACS quota resource that this cmdlet removes.
 
 ```yaml
 Type: String
@@ -178,7 +178,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -193,7 +193,8 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
 
 ```yaml
 Type: SwitchParameter
@@ -219,3 +220,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+
+[Get-ACSQuota](./Get-ACSQuota.md)
+
+[Set-ACSQuota](./Set-ACSQuota.md)
