@@ -2,11 +2,11 @@
 external help file: Microsoft.AzureStack.AzureConsistentStorage.Commands.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 05/02/2017 20:05 PM
+updated_at: 05/02/2017 23:05 PM
 ms.date: 05/02/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Set-ACSFarm.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Set-ACSFarm.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/13ec13c1a9baa09b68c680eedfd83bb954580446
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/56ae6fc5453be408270d29705b63683c123226e0
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -19,7 +19,7 @@ ms.service: azure-stack
 # Set-ACSFarm
 
 ## SYNOPSIS
-Change the setting of service configuration on ACS Farm
+Changes the settings of the service configuration on an ACS Farm.
 
 ## SYNTAX
 
@@ -51,22 +51,27 @@ Set-ACSFarm [-ResourceGroupName] <String> [-FarmName] <String> [-SettingsPolling
 ```
 
 ## DESCRIPTION
-Change the setting of service configuration on ACS Farm
+The **Set-ACSFarm** cmdlet changes the settings of the service configuration on an Azure Consistent Storage (ACS) Farm.
 
 ## EXAMPLES
 
-### Example 1:
-@{paragraph=PS C:\\\>}
-
-
+### Example 1: Modify the settings of an existing farm
 
 ```
-$resourceGroup = 'System' 
+$ResourceGroup = "System"
 
-$farm = Get-ACSFarm -ResourceGroupName $resourceGroup
+$Farm = Get-ACSFarm -ResourceGroupName $ResourceGroup
 
-Set-ACSFarm -ResourceGroupName $resourceGroup -FarmName $farm.Name -SettingPollingIntervalInSeconds 45
+Set-ACSFarm -ResourceGroupName $ResourceGroup -FarmName $Farm.Name -SettingPollingIntervalInSeconds 45
 ```
+
+The first command stores the value named System in the variable named $ResourceGroup.
+
+The second command uses the [Get-ACSFarm](,/Get-ACSFarm,md) cmdlet to get the farm that is contained in the resource group specified in the $ResourceGroup variable. 
+The command stores the result in the variable named $Farm.
+
+The third command uses the **Set-ACSFarm** cmdlet to modify the Farm stored in the $Farm variable.
+
 
 ## PARAMETERS
 
@@ -251,7 +256,7 @@ Accept wildcard characters: False
 ```
 
 ### -FarmName
-
+Specifies the name of the ACS farm that this cmdlet modifies.
 
 ```yaml
 Type: String
@@ -605,7 +610,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-
+Specifies the name of the resource group that contains the ACS farm.
 
 ```yaml
 Type: String
@@ -817,7 +822,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -832,7 +837,8 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
 
 ```yaml
 Type: SwitchParameter
@@ -860,3 +866,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+
+[Add-ACSFarm](./Add-ACSFarm.md)
+
+[Get-ACSFarm](./Get-ACSFarm.md)

@@ -2,11 +2,11 @@
 external help file: Microsoft.AzureStack.AzureConsistentStorage.Commands.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 05/02/2017 22:05 PM
+updated_at: 05/02/2017 23:05 PM
 ms.date: 05/02/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/New-ACSQuota.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/New-ACSQuota.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/8be3c27a59771ebd9a10c0f704e4d42f41811531
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/56ae6fc5453be408270d29705b63683c123226e0
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -39,12 +39,13 @@ The **New-ACSQuota** cmdlet creates a storage quota resource.
 
 ```
 PS C:\> $ResourceGroup = "System"
-PS C:\> $Location = "Redmond"
 
-PS C:\> New-ACSQuota -Location $location -QuotaName "BasicStorage_Quota" -NumberOfStorageAccounts 20  -CapacityInGB 500
+PS C:\> New-ACSQuota -Location "Redmond" -QuotaName "BasicStorage_Quota" -NumberOfStorageAccounts 20  -CapacityInGB 500
 ```
 
-This command creates a quota resource named BasicStorage_Quota.
+The first command stores the value named System in the variable named $ResourceGroup.
+
+The second command command creates a quota resource named BasicStorage_Quota from the geolocation named Redmond.
 
 ## PARAMETERS
 

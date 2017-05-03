@@ -2,11 +2,11 @@
 external help file: Microsoft.AzureStack.AzureConsistentStorage.Commands.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 05/02/2017 22:05 PM
+updated_at: 05/02/2017 23:05 PM
 ms.date: 05/02/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Remove-ACSQuota.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Remove-ACSQuota.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/8be3c27a59771ebd9a10c0f704e4d42f41811531
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/56ae6fc5453be408270d29705b63683c123226e0
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -34,14 +34,17 @@ The **Remove-ACSQuota** cmdlet removes the Storage Quota resource.
 
 ## EXAMPLES
 
-### Example 1:
+### Example 1: Remove the specified storage quota resource
 
 ```
-$ResourceGroup = "System"
-$Location = "Redmond"
-// Remove quota resource named 'BasicStorage_Quota'
-Remove-ACSQuota -Location $Location -Name "BasicStorage_Quota"
+PS C:\> $ResourceGroup = "System"
+
+PS C:\> Remove-ACSQuota -Location "Redmond" -Name "BasicStorage_Quota"
 ```
+
+The first command stores the value named System in the variable named $ResourceGroup.
+
+The second command removes the quota resource named BasicStorage_Quota from the geolocation named Redmond.
 
 ## PARAMETERS
 
@@ -100,7 +103,7 @@ Accept wildcard characters: False
 ```
 
 ### -Location
-
+Specifies the geolocation of the ACS quota resource that this cmdlet removes.
 
 ```yaml
 Type: String
@@ -115,7 +118,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-
+Specifies the name of the ACS quota resource that this cmdlet removes.
 
 ```yaml
 Type: String
@@ -175,7 +178,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -190,7 +193,8 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
 
 ```yaml
 Type: SwitchParameter
@@ -216,3 +220,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+
+[Get-ACSQuota](./Get-ACSQuota.md)
+
+[Set-ACSQuota](./Set-ACSQuota.md)
