@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: CF581EAB-D109-4C2A-AD37-A142B63D79FD
 online version:
 schema: 2.0.0
-updated_at: 05/01/2017 01:05 AM
-ms.date: 05/01/2017
+updated_at: 05/03/2017 20:05 PM
+ms.date: 05/03/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricApplicationManifest.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricApplicationManifest.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/82faa6e8fbaafcf1f7f76f83e63bd850491af573
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/3c7b83770f6f084535de0e321552c02127940d2b
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -33,7 +33,7 @@ The **Get-ServiceFabricApplicationManifest** cmdlet gets the manifest for a Serv
 
 Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the [Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md) cmdlet.
 
-To understand the Service Fabric application model, see [Model an application in Service Fabric](https://docs.microsoft.com/azure/service-fabric/service-fabric-application-model)
+To understand the Service Fabric application model, see [Model an application in Service Fabric](https://docs.microsoft.com/azure/service-fabric/service-fabric-application-model).
 
 ## EXAMPLES
 

@@ -2,11 +2,11 @@
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 05/01/2017 01:05 AM
-ms.date: 05/01/2017
+updated_at: 05/03/2017 20:05 PM
+ms.date: 05/03/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricApplicationName.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricApplicationName.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/48eafcce0962ebd3d2f3467719b949e8151d5eaf
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/3c7b83770f6f084535de0e321552c02127940d2b
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -32,7 +32,7 @@ The **Get-ServiceFabricApplicationName** cmdlet gets the name of the application
 
 The output of **Get-ServiceFabricApplicationName** contains the following information:
 
---Application Name: The name of the application corresponding to the given service.
+-Application Name: The name of the application corresponding to the given service.
 
 ## EXAMPLES
 

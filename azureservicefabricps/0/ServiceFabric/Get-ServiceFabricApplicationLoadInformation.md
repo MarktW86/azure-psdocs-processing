@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 5960F91D-BFD2-4297-B7BE-5A325BCDEA0A
 online version:
 schema: 2.0.0
-updated_at: 05/01/2017 01:05 AM
-ms.date: 05/01/2017
+updated_at: 05/03/2017 20:05 PM
+ms.date: 05/03/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricApplicationLoadInformation.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricApplicationLoadInformation.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/f2546ed64050d14c869349cdcb1f8f69c2a2f423
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/3c7b83770f6f084535de0e321552c02127940d2b
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -34,10 +34,10 @@ The **Get-ServiceFabricApplicationLoadInformation** cmdlet gets application capa
 
 The output of **Get-ServiceFabricApplicationLoadInformation** contains the following information: 
 
-- Minimum Nodes: Minimum number of nodes specified for this application (from **Application Capacity** parameters). 
-- Maximum Nodes: Maximum number of nodes specified for this application (from **Application Capacity** parameters). 
+- Minimum Nodes: Minimum number of nodes specified for this application (from *Application Capacity* parameters). 
+- Maximum Nodes: Maximum number of nodes specified for this application (from *Application Capacity* parameters). 
 - Node Count: Number of nodes currently spanned by the application's child replicas. 
-- Application Load Metric Information: Load information for each metric defined in **Application Capacity** parameters. 
+- Application Load Metric Information: Load information for each metric defined in *Application Capacity* parameters. 
 For each metric that is defined, the output contains the following information: 
 - Metric Name: Name of the metric. 
 - Reservation Capacity: Cluster capacity that is reserved in the cluster for this application. 
@@ -103,5 +103,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Get-ServiceFabricNodeLoadInformation](./Get-ServiceFabricNodeLoadInformation.md)
 
 [Get-ServiceFabricPartitionLoadInformation](./Get-ServiceFabricPartitionLoadInformation.md)
-
-

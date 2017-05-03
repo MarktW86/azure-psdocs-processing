@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 254DBEA6-4651-47EA-B023-74D74B0251E2
 online version:
 schema: 2.0.0
-updated_at: 05/01/2017 01:05 AM
-ms.date: 05/01/2017
+updated_at: 05/03/2017 20:05 PM
+ms.date: 05/03/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricClusterHealth.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricClusterHealth.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/e2eea3ea2103a5bb306047c3572a61e44ea09c0a
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/3c7b83770f6f084535de0e321552c02127940d2b
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -90,7 +90,7 @@ The remaining applications are evaluated using 20% maximum percent unhealthy.
 ## PARAMETERS
 
 ### -ApplicationHealthPolicyMap
-Specifies the **ApplicationHealthPolicyMap** that includes custom health policies for some or all of the applications.
+Specifies the **ApplicationHealthPolicyMap** object that includes custom health policies for some or all of the applications.
 If you do not specify this parameter, the health evaluation uses the application health policies defined in the application manifest or the default health policy.
 
 ```yaml
@@ -110,7 +110,7 @@ Specifies the filter for **ApplicationHealthState** children based on health sta
 The value can be obtained from members or bitwise operations on members of **HealthStateFilter**.
 Only children that match the filter are returned.
 All children will be used to evaluate the entity aggregated health state.
-If not specified, all entries will be returned.
+If not specified, all entries are returned.
 
 ```yaml
 Type: HealthStateFilter
