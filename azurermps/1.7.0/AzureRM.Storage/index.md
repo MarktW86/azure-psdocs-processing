@@ -4,8 +4,8 @@ Module Guid: da67eaa7-4cb1-4bfa-a194-8bf3faae8ac5
 Locale: en-US
 updated_at: 03/23/2017 22:03 PM
 ms.date: 03/23/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Storage/v1.1.3/AzureRM.Storage.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Storage/v1.1.3/AzureRM.Storage.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/qinezh-conceptual/azureps-cmdlets-docs/ResourceManager/AzureRM.Storage/v1.1.3/AzureRM.Storage.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/qinezh-conceptual/azureps-cmdlets-docs/ResourceManager/AzureRM.Storage/v1.1.3/AzureRM.Storage.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/535e2e74f053db46eadf4681f4a95ece9f189378
 ms.topic: conceptual
 author: erickson-doug

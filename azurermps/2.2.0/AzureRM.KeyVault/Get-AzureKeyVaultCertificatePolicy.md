@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: 7C8270BF-B498-4DE6-A966-0DA43B187AC6
 updated_at: 11/01/2016 22:11 PM
 ms.date: 11/01/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.1.0/Get-AzureKeyVaultCertificatePolicy.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.1.0/Get-AzureKeyVaultCertificatePolicy.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/qinezh-conceptual/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.1.0/Get-AzureKeyVaultCertificatePolicy.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/qinezh-conceptual/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.1.0/Get-AzureKeyVaultCertificatePolicy.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed
 ms.topic: reference
 author: erickson-doug

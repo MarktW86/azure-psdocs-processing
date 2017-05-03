@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: A456A7FC-1395-430E-A15E-BA18D0B54030
 updated_at: 11/11/2016 23:11 PM
 ms.date: 11/11/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/v2.1.0/Get-AzureRmLogicAppRunAction.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/v2.1.0/Get-AzureRmLogicAppRunAction.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/qinezh-conceptual/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/v2.1.0/Get-AzureRmLogicAppRunAction.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/qinezh-conceptual/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/v2.1.0/Get-AzureRmLogicAppRunAction.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf
 ms.topic: reference
 author: erickson-doug

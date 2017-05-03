@@ -11,9 +11,9 @@ ms.service: azure-resource-manager
 ms.devlang: powershell
 ms.topic: conceptual
 ms.date: 03/30/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/docs-conceptual/create-azure-service-principal-azureps.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/docs-conceptual/create-azure-service-principal-azureps.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/cc455cefbae6cd065e57739272541fd2d80c3ffb
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/qinezh-conceptual/azureps-cmdlets-docs/ResourceManager/docs-conceptual/2.2.0/create-azure-service-principal-azureps.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/qinezh-conceptual/azureps-cmdlets-docs/ResourceManager/docs-conceptual/2.2.0/create-azure-service-principal-azureps.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/
 open_to_public_contributors: true
 ---
 

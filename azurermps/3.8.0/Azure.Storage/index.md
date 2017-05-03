@@ -5,8 +5,8 @@ Download Help Link: ./Azure.Storage.md
 Locale: en-US
 updated_at: 04/07/2017 20:04 PM
 ms.date: 04/07/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/Azure.Storage/v2.8.0/Azure.Storage.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/Azure.Storage/v2.8.0/Azure.Storage.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/qinezh-conceptual/azureps-cmdlets-docs/ResourceManager/Azure.Storage/v2.8.0/Azure.Storage.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/qinezh-conceptual/azureps-cmdlets-docs/ResourceManager/Azure.Storage/v2.8.0/Azure.Storage.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/6022ef8f656b7401464afe5843360445370e30aa
 ms.topic: conceptual
 author: erickson-doug

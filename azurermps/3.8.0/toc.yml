@@ -1,5 +1,5 @@
 - name: Azure PowerShell
-  href: ../conceptual/3.8.0/overview.md
+  href: ../conceptual/3.8.0/v38.md
   items:
     - name: Install
       href: ../conceptual/3.8.0/install-azurerm-ps.md

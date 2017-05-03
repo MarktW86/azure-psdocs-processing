@@ -4,8 +4,8 @@ Module Guid: 3fd1475f-cb23-4ffb-bf08-33d94b7d1acb
 Locale: en-US
 updated_at: 03/23/2017 23:03 PM
 ms.date: 03/23/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v1.0.5.3/AzureRM.HDInsight.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v1.0.5.3/AzureRM.HDInsight.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/qinezh-conceptual/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v1.0.5.3/AzureRM.HDInsight.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/qinezh-conceptual/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v1.0.5.3/AzureRM.HDInsight.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/280872fa529e03be2466fa2252957a2060a9dfe4
 ms.topic: conceptual
 author: erickson-doug

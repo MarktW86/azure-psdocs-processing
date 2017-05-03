@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: 155166CB-7E2D-4E06-8638-E9C57AEBDB6C
 updated_at: 11/11/2016 23:11 PM
 ms.date: 11/11/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.PowerBIEmbedded/v2.1.0/Get-AzureRmPowerBIWorkspace.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.PowerBIEmbedded/v2.1.0/Get-AzureRmPowerBIWorkspace.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/qinezh-conceptual/azureps-cmdlets-docs/ResourceManager/AzureRM.PowerBIEmbedded/v2.1.0/Get-AzureRmPowerBIWorkspace.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/qinezh-conceptual/azureps-cmdlets-docs/ResourceManager/AzureRM.PowerBIEmbedded/v2.1.0/Get-AzureRmPowerBIWorkspace.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf
 ms.topic: reference
 author: erickson-doug

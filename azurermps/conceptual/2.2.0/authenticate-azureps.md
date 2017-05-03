@@ -10,9 +10,9 @@ ms.service: powershell
 ms.devlang: powershell
 ms.topic: conceptual
 ms.date: 03/30/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/docs-conceptual/authenticate-azureps.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/docs-conceptual/authenticate-azureps.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4b15e54aa341e097fe7649d10ab0009de75bea12
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/qinezh-conceptual/azureps-cmdlets-docs/ResourceManager/docs-conceptual/2.2.0/authenticate-azureps.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/qinezh-conceptual/azureps-cmdlets-docs/ResourceManager/docs-conceptual/2.2.0/authenticate-azureps.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/
 open_to_public_contributors: true
 ---
 
