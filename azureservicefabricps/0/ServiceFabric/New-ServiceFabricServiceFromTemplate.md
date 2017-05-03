@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 0A8D8356-C8A1-4EA7-9E0C-3C7A483EB72E
 online version:
 schema: 2.0.0
-updated_at: 04/28/2017 17:04 PM
-ms.date: 04/28/2017
+updated_at: 05/01/2017 23:05 PM
+ms.date: 05/01/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/V5.6_Updates/Service-Fabric-cmdlets/ServiceFabric/vlatest/New-ServiceFabricServiceFromTemplate.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/V5.6_Updates/Service-Fabric-cmdlets/ServiceFabric/vlatest/New-ServiceFabricServiceFromTemplate.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/4837102948363e7eb7cd3f5ccda1f176ed954ec6
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/ad10060856cf8c0cc7c2aad3761110294d3c26ad
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -26,8 +26,8 @@ If the application manifest has defined a service templates section, then this c
 
 ```
 New-ServiceFabricServiceFromTemplate [-ApplicationName] <Uri> [-ServiceName] <Uri> [-ServiceTypeName] <String>
- [-Force] [-ServicePackageActivationMode <ServicePackageActivationMode>] [-TimeoutSec <Int32>]
- [<CommonParameters>]
+ [-Force] [-ServicePackageActivationMode <ServicePackageActivationMode>] [-ServiceDnsName <String>]
+ [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -41,6 +41,8 @@ Before you perform any operation on a Service Fabric cluster, establish a connec
 
 ### Example 1: Create a service from a service template
 Given the following application and service manifests:
+
+
 
 
 
@@ -112,6 +114,21 @@ Forces the command to run without asking for user confirmation.
 
 ```yaml
 Type: SwitchParameter
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -ServiceDnsName
+{{Fill ServiceDnsName Description}}
+
+```yaml
+Type: String
 Parameter Sets: (All)
 Aliases: 
 

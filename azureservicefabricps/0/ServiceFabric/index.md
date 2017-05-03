@@ -4,11 +4,11 @@ Module Guid: ServiceFabric_d2c42633-5254-4a82-a31
 Download Help Link: http://go.microsoft.com/fwlink/?LinkID=521412
 Help Version: 2.0.14.0
 Locale: en-US
-updated_at: 04/06/2017 14:04 PM
-ms.date: 04/06/2017
+updated_at: 05/01/2017 23:05 PM
+ms.date: 05/01/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/V5.6_Updates/Service-Fabric-cmdlets/ServiceFabric/vlatest/ServiceFabric.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/V5.6_Updates/Service-Fabric-cmdlets/ServiceFabric/vlatest/ServiceFabric.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/8cc7df560eb5276f5793b86a2b9d29aa7dfc34dd
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/ad10060856cf8c0cc7c2aad3761110294d3c26ad
 ms.topic: conceptual
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -170,8 +170,7 @@ _isModulePage: true
 
 # ServiceFabric Module
 ## Description
-This topic displays help topics for the Azure Service Fabric Cmdlets. Service Fabric is a distributed systems platform that makes it easy to package, deploy, and manage scalable and reliable microservices and addresses the significant challenges in developing and managing cloud applications. By using Service Fabric, developers and administrators can avoid solving complex infrastructure problems and focus instead on implementing mission-critical, demanding workloads knowing that they are scalable, reliable, and manageable. Service Fabric represents the next-generation middleware platform for building and managing these enterprise-class, Tier-1 cloud-scale applications. With Azure Service Fabric, you can do the following: * Simplify microservice-based application development and lifecycle management
-* Deliver low-latency performance and efficiency at massive scale
+This topic displays help topics for the Azure Service Fabric Cmdlets. Service Fabric is a distributed systems platform that makes it easy to package, deploy, and manage scalable and reliable microservices and addresses the significant challenges in developing and managing cloud applications. By using Service Fabric, developers and administrators can avoid solving complex infrastructure problems and focus instead on implementing mission-critical, demanding workloads knowing that they are scalable, reliable, and manageable. Service Fabric represents the next-generation middleware platform for building and managing these enterprise-class, Tier-1 cloud-scale applications. With Azure Service Fabric, you can do the following: * Simplify microservice-based application development and lifecycle management * Deliver low-latency performance and efficiency at massive scale
 * Proven platform used by Azure and other Microsoft services
 * Run in Azure, on-premises, or in other clouds
 
@@ -374,6 +373,9 @@ Gets all the Service Fabric service types for the given application type or a sp
 ### [Get-ServiceFabricTestCommandStatusList](Get-ServiceFabricTestCommandStatusList.md)
 Gets the list of all the fault operations triggered in the cluster and their status
 
+### [Get-ServiceFabricUnplacedReplicaInformation](Get-ServiceFabricUnplacedReplicaInformation.md)
+{{Fill in the Synopsis}}
+
 ### [Invoke-ServiceFabricChaosTestScenario](Invoke-ServiceFabricChaosTestScenario.md)
 This cmdlet is **Obsolete**. Please use [Start-ServiceFabricChaos](./Start-ServiceFabricChaos.md).
 
@@ -412,6 +414,9 @@ Moves the Service Fabric secondary replica of a stateful service.
 
 ### [New-ServiceFabricApplication](New-ServiceFabricApplication.md)
 Creates a Service Fabric application.
+
+### [New-ServiceFabricCluster](New-ServiceFabricCluster.md)
+Creates a Service Fabric cluster.
 
 ### [New-ServiceFabricNodeConfiguration](New-ServiceFabricNodeConfiguration.md)
 Configures a node to join a Service Fabric cluster. Works for development clusters and Azure clusters.
@@ -526,6 +531,9 @@ Sends a health report on a Service Fabric replica.
 
 ### [Send-ServiceFabricServiceHealthReport](Send-ServiceFabricServiceHealthReport.md)
 Sends a health report on a Service Fabric service.
+
+### [Set-ServiceFabricReplicaPlacementHealthReporting](Set-ServiceFabricReplicaPlacementHealthReporting.md)
+{{Fill in the Synopsis}}
 
 ### [Start-ServiceFabricApplicationRollback](Start-ServiceFabricApplicationRollback.md)
 Starts rolling back a Service Fabric application upgrade.

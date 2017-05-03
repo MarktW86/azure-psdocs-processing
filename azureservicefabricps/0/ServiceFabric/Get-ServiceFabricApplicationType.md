@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 377D093A-8D81-4CDA-842B-EF8A9FF2585C
 online version:
 schema: 2.0.0
-updated_at: 04/13/2017 18:04 PM
-ms.date: 04/13/2017
+updated_at: 05/01/2017 23:05 PM
+ms.date: 05/01/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/V5.6_Updates/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricApplicationType.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/V5.6_Updates/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricApplicationType.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/e4666c66ecad8bb641483d243bfac15b26f72282
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/ad10060856cf8c0cc7c2aad3761110294d3c26ad
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -25,7 +25,8 @@ Gets the Service Fabric application types registered on the Service Fabric clust
 ## SYNTAX
 
 ```
-Get-ServiceFabricApplicationType [[-ApplicationTypeName] <String>] [-TimeoutSec <Int32>] [<CommonParameters>]
+Get-ServiceFabricApplicationType [[-ApplicationTypeName] <String>] [-ExcludeApplicationParameters]
+ [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -65,6 +66,21 @@ Required: False
 Position: 1
 Default value: None
 Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -ExcludeApplicationParameters
+{{Fill ExcludeApplicationParameters Description}}
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
 Accept wildcard characters: False
 ```
 

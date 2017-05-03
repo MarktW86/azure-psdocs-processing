@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 156B7382-5026-423F-8570-969F11C4BD5F
 online version:
 schema: 2.0.0
-updated_at: 04/28/2017 17:04 PM
-ms.date: 04/28/2017
+updated_at: 05/01/2017 23:05 PM
+ms.date: 05/01/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/V5.6_Updates/Service-Fabric-cmdlets/ServiceFabric/vlatest/Copy-ServiceFabricServicePackageToNode.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/V5.6_Updates/Service-Fabric-cmdlets/ServiceFabric/vlatest/Copy-ServiceFabricServicePackageToNode.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/0bb6363c16973306c98ebe34d1884cb8bef9db63
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/ad10060856cf8c0cc7c2aad3761110294d3c26ad
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -47,7 +47,7 @@ PS C:\> $sharingPolicy = new-ServiceFabricPackageSharingPolicy -PackageName Calc
 
 This command generates a package share policy by using [New-ServiceFabricPackageSharingPolicy](.\New-ServiceFabricPackageSharingPolicy.md) cmdlet and assigns it to the variable named $sharingPolicy.
 
-### Example 2: Copy a service package 
+### Example 2: Copy a service package
 ```
 PS C:\> Copy-ServiceFabricServicePackageToNode -ServiceManifestName CalcService5 -ApplicationTypeName CalcServiceApp -ApplicationTypeVersion 5.0 -NodeName Node4 -PackageSharingPolicies $sharingPolicy -TimeoutSec 600 -Verbose
 ```

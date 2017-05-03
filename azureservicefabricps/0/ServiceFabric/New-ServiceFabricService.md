@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 3C647305-B5A8-4CB7-8655-CC7695736CE0
 online version:
 schema: 2.0.0
-updated_at: 04/28/2017 17:04 PM
-ms.date: 04/28/2017
+updated_at: 05/01/2017 23:05 PM
+ms.date: 05/01/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/V5.6_Updates/Service-Fabric-cmdlets/ServiceFabric/vlatest/New-ServiceFabricService.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/V5.6_Updates/Service-Fabric-cmdlets/ServiceFabric/vlatest/New-ServiceFabricService.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/4837102948363e7eb7cd3f5ccda1f176ed954ec6
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/ad10060856cf8c0cc7c2aad3761110294d3c26ad
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -29,7 +29,8 @@ Creates a Service Fabric service.
 New-ServiceFabricService [-Stateless] [-PartitionSchemeSingleton] [-ApplicationName] <Uri> [-ServiceName] <Uri>
  [-ServiceTypeName] <String> -InstanceCount <Int32> [-PlacementConstraint <String>] [-Metric <String[]>]
  [-Correlation <String[]>] [-PlacementPolicy <String[]>] [-DefaultMoveCost <String>]
- [-ServicePackageActivationMode <ServicePackageActivationMode>] [-TimeoutSec <Int32>] [<CommonParameters>]
+ [-ServicePackageActivationMode <ServicePackageActivationMode>] [-ServiceDnsName <String>]
+ [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
 ### Stateful Singleton Non-Adhoc
@@ -39,7 +40,8 @@ New-ServiceFabricService [-Stateful] [-PartitionSchemeSingleton] [-ApplicationNa
  [-ReplicaRestartWaitDuration <TimeSpan>] [-QuorumLossWaitDuration <TimeSpan>]
  [-StandByReplicaKeepDuration <TimeSpan>] [-PlacementConstraint <String>] [-Metric <String[]>]
  [-Correlation <String[]>] [-PlacementPolicy <String[]>] [-DefaultMoveCost <String>]
- [-ServicePackageActivationMode <ServicePackageActivationMode>] [-TimeoutSec <Int32>] [<CommonParameters>]
+ [-ServicePackageActivationMode <ServicePackageActivationMode>] [-ServiceDnsName <String>]
+ [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
 ### Stateful UniformInt64 Non-Adhoc
@@ -50,7 +52,8 @@ New-ServiceFabricService [-Stateful] [-PartitionSchemeUniformInt64] [-Applicatio
  [-ReplicaRestartWaitDuration <TimeSpan>] [-QuorumLossWaitDuration <TimeSpan>]
  [-StandByReplicaKeepDuration <TimeSpan>] [-PlacementConstraint <String>] [-Metric <String[]>]
  [-Correlation <String[]>] [-PlacementPolicy <String[]>] [-DefaultMoveCost <String>]
- [-ServicePackageActivationMode <ServicePackageActivationMode>] [-TimeoutSec <Int32>] [<CommonParameters>]
+ [-ServicePackageActivationMode <ServicePackageActivationMode>] [-ServiceDnsName <String>]
+ [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
 ### Stateful Named Non-Adhoc
@@ -60,7 +63,8 @@ New-ServiceFabricService [-Stateful] [-PartitionSchemeNamed] [-ApplicationName] 
  -MinReplicaSetSize <Int32> [-ReplicaRestartWaitDuration <TimeSpan>] [-QuorumLossWaitDuration <TimeSpan>]
  [-StandByReplicaKeepDuration <TimeSpan>] [-PlacementConstraint <String>] [-Metric <String[]>]
  [-Correlation <String[]>] [-PlacementPolicy <String[]>] [-DefaultMoveCost <String>]
- [-ServicePackageActivationMode <ServicePackageActivationMode>] [-TimeoutSec <Int32>] [<CommonParameters>]
+ [-ServicePackageActivationMode <ServicePackageActivationMode>] [-ServiceDnsName <String>]
+ [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
 ### Stateful Singleton Adhoc
@@ -70,7 +74,8 @@ New-ServiceFabricService [-Stateful] [-PartitionSchemeSingleton] [-Adhoc] [-Serv
  [-ReplicaRestartWaitDuration <TimeSpan>] [-QuorumLossWaitDuration <TimeSpan>]
  [-StandByReplicaKeepDuration <TimeSpan>] [-PlacementConstraint <String>] [-Metric <String[]>]
  [-Correlation <String[]>] [-PlacementPolicy <String[]>] [-DefaultMoveCost <String>]
- [-ServicePackageActivationMode <ServicePackageActivationMode>] [-TimeoutSec <Int32>] [<CommonParameters>]
+ [-ServicePackageActivationMode <ServicePackageActivationMode>] [-ServiceDnsName <String>]
+ [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
 ### Stateful UniformInt64 Adhoc
@@ -80,7 +85,8 @@ New-ServiceFabricService [-Stateful] [-PartitionSchemeUniformInt64] [-Adhoc] [-S
  -TargetReplicaSetSize <Int32> -MinReplicaSetSize <Int32> [-ReplicaRestartWaitDuration <TimeSpan>]
  [-QuorumLossWaitDuration <TimeSpan>] [-StandByReplicaKeepDuration <TimeSpan>] [-PlacementConstraint <String>]
  [-Metric <String[]>] [-Correlation <String[]>] [-PlacementPolicy <String[]>] [-DefaultMoveCost <String>]
- [-ServicePackageActivationMode <ServicePackageActivationMode>] [-TimeoutSec <Int32>] [<CommonParameters>]
+ [-ServicePackageActivationMode <ServicePackageActivationMode>] [-ServiceDnsName <String>]
+ [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
 ### Stateful Named Adhoc
@@ -90,7 +96,8 @@ New-ServiceFabricService [-Stateful] [-PartitionSchemeNamed] [-Adhoc] [-ServiceN
  -MinReplicaSetSize <Int32> [-ReplicaRestartWaitDuration <TimeSpan>] [-QuorumLossWaitDuration <TimeSpan>]
  [-StandByReplicaKeepDuration <TimeSpan>] [-PlacementConstraint <String>] [-Metric <String[]>]
  [-Correlation <String[]>] [-PlacementPolicy <String[]>] [-DefaultMoveCost <String>]
- [-ServicePackageActivationMode <ServicePackageActivationMode>] [-TimeoutSec <Int32>] [<CommonParameters>]
+ [-ServicePackageActivationMode <ServicePackageActivationMode>] [-ServiceDnsName <String>]
+ [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
 ### Stateless UniformInt64 Non-Adhoc
@@ -99,7 +106,8 @@ New-ServiceFabricService [-Stateless] [-PartitionSchemeUniformInt64] [-Applicati
  [-ServiceName] <Uri> [-ServiceTypeName] <String> -PartitionCount <Int32> -LowKey <Int64> -HighKey <Int64>
  -InstanceCount <Int32> [-PlacementConstraint <String>] [-Metric <String[]>] [-Correlation <String[]>]
  [-PlacementPolicy <String[]>] [-DefaultMoveCost <String>]
- [-ServicePackageActivationMode <ServicePackageActivationMode>] [-TimeoutSec <Int32>] [<CommonParameters>]
+ [-ServicePackageActivationMode <ServicePackageActivationMode>] [-ServiceDnsName <String>]
+ [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
 ### Stateless Named Non-Adhoc
@@ -107,7 +115,8 @@ New-ServiceFabricService [-Stateless] [-PartitionSchemeUniformInt64] [-Applicati
 New-ServiceFabricService [-Stateless] [-PartitionSchemeNamed] [-ApplicationName] <Uri> [-ServiceName] <Uri>
  [-ServiceTypeName] <String> -PartitionNames <String[]> -InstanceCount <Int32> [-PlacementConstraint <String>]
  [-Metric <String[]>] [-Correlation <String[]>] [-PlacementPolicy <String[]>] [-DefaultMoveCost <String>]
- [-ServicePackageActivationMode <ServicePackageActivationMode>] [-TimeoutSec <Int32>] [<CommonParameters>]
+ [-ServicePackageActivationMode <ServicePackageActivationMode>] [-ServiceDnsName <String>]
+ [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
 ### Stateless Singleton Adhoc
@@ -115,7 +124,8 @@ New-ServiceFabricService [-Stateless] [-PartitionSchemeNamed] [-ApplicationName]
 New-ServiceFabricService [-Stateless] [-PartitionSchemeSingleton] [-Adhoc] [-ServiceName] <Uri>
  [-ServiceTypeName] <String> -InstanceCount <Int32> [-PlacementConstraint <String>] [-Metric <String[]>]
  [-Correlation <String[]>] [-PlacementPolicy <String[]>] [-DefaultMoveCost <String>]
- [-ServicePackageActivationMode <ServicePackageActivationMode>] [-TimeoutSec <Int32>] [<CommonParameters>]
+ [-ServicePackageActivationMode <ServicePackageActivationMode>] [-ServiceDnsName <String>]
+ [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
 ### Stateless UniformInt64 Adhoc
@@ -124,7 +134,7 @@ New-ServiceFabricService [-Stateless] [-PartitionSchemeUniformInt64] [-Adhoc] [-
  [-ServiceTypeName] <String> -PartitionCount <Int32> -LowKey <Int64> -HighKey <Int64> -InstanceCount <Int32>
  [-PlacementConstraint <String>] [-Metric <String[]>] [-Correlation <String[]>] [-PlacementPolicy <String[]>]
  [-DefaultMoveCost <String>] [-ServicePackageActivationMode <ServicePackageActivationMode>]
- [-TimeoutSec <Int32>] [<CommonParameters>]
+ [-ServiceDnsName <String>] [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
 ### Stateless Named Adhoc
@@ -132,7 +142,8 @@ New-ServiceFabricService [-Stateless] [-PartitionSchemeUniformInt64] [-Adhoc] [-
 New-ServiceFabricService [-Stateless] [-PartitionSchemeNamed] [-Adhoc] [-ServiceName] <Uri>
  [-ServiceTypeName] <String> -PartitionNames <String[]> -InstanceCount <Int32> [-PlacementConstraint <String>]
  [-Metric <String[]>] [-Correlation <String[]>] [-PlacementPolicy <String[]>] [-DefaultMoveCost <String>]
- [-ServicePackageActivationMode <ServicePackageActivationMode>] [-TimeoutSec <Int32>] [<CommonParameters>]
+ [-ServicePackageActivationMode <ServicePackageActivationMode>] [-ServiceDnsName <String>]
+ [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -492,6 +503,21 @@ To obtain a **TimeSpan** object, use the [New-TimeSpan](http://go.microsoft.com/
 ```yaml
 Type: TimeSpan
 Parameter Sets: Stateful Singleton Non-Adhoc, Stateful UniformInt64 Non-Adhoc, Stateful Named Non-Adhoc, Stateful Singleton Adhoc, Stateful UniformInt64 Adhoc, Stateful Named Adhoc
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -ServiceDnsName
+{{Fill ServiceDnsName Description}}
+
+```yaml
+Type: String
+Parameter Sets: (All)
 Aliases: 
 
 Required: False
