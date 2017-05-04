@@ -1,7 +1,7 @@
 ---
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/docs-conceptual/Recovering-deleted-data.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/docs-conceptual/Recovering-deleted-data.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/13d2382fc027235a32b4ab16c77e36e56e1d0617
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/bfc01fdddf9a83dd18766b85a7580087e22ec75a
 ---
 # Recovering deleted data
 If you have accidentally deleted data from your directory there may be some options for recovering the lost data using PowerShell. You can recover deleted Applications and deleted Unified Groups in the first 30 days after deletion. This article describes how to do that.
@@ -37,6 +37,11 @@ Id                                   DisplayName     Description
 --                                   -----------     -----------
 822cda93-4d5b-4c60-86d9-5d395e37afb4 XSpeedTest1996A XSpeedTest1996A
 ```
+To recover all deleted Unified Groups you would use
+```powershell
+Get-AzureADMSDeletedGroup | Restore-AzureADMSDeletedDirectoryObject
+```
+The first cmdlet will retrieve the deleted unified groups in your directory, the second cmdlet will be executed for each deleted group and will restore the deleted groups.
 
 If you want to recover a deleted application object, you can use
 
