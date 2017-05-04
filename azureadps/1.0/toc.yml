@@ -51,6 +51,8 @@
   items:
     - name: Manage dynamic groups with PowerShell
       href: 'https://channel9.msdn.com/Series/Azure-Active-Directory-Videos-Demos/Managing-dynamic-groups-with-Azure-AD-PowerShell'
+    - name: Managing applications with PowerShell
+      href: 'https://channel9.msdn.com/Series/Azure-Active-Directory-Videos-Demos/ManageAppsAzureADPowerShell'
 - name: Read more
   items:
     - name: Getting started with PowerShell
