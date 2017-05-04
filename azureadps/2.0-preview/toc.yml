@@ -11,6 +11,8 @@
       items:
         - name: Importing Data
           href: ../conceptual/2.0-preview/importing-data.md
+        - name: Recovering deleted data
+          href: ../conceptual/2.0-preview/recovering-deleted-data.md
     - name: Directory Features
       items:
         - name: Managing groups in Azure AD
