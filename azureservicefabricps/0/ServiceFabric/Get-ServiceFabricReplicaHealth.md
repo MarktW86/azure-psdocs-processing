@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 03B1C1AE-DF27-4EA0-8423-7224A9174AA3
 online version:
 schema: 2.0.0
-updated_at: 05/01/2017 01:05 AM
-ms.date: 05/01/2017
+updated_at: 05/05/2017 00:05 AM
+ms.date: 05/05/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricReplicaHealth.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricReplicaHealth.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/29e49c221596172cb5a0d4210ccfe9cafa317623
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/ab74e7f5446fc433a7adae0e8e813ba2b1651adb
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -53,8 +53,8 @@ The third command gets the health of a service partition replica by using the **
 
 ### Example 2: Query the health of a service replica using custom health policy and return filters
 ```
-PS C:\> $replicaList = Get-ServiceFabricPartition -ServiceName fabric:/myapp/persistenttodolist/svc1PS | Get-ServiceFabricReplica
-PS C:\> Get-ServiceFabricReplicaHealth -PartitionId $replicaList[0].PartitionId -ReplicaOrInstanceId $replicaList[0].ReplicaId -ConsiderWarningAsError $True -EventsFilter Error
+PS C:\> $ReplicaList = Get-ServiceFabricPartition -ServiceName fabric:/myapp/persistenttodolist/svc1PS | Get-ServiceFabricReplica
+PS C:\> Get-ServiceFabricReplicaHealth -PartitionId $ReplicaList[0].PartitionId -ReplicaOrInstanceId $ReplicaList[0].ReplicaId -ConsiderWarningAsError $True -EventsFilter Error
 ```
 
 This example queries the health of the service replica.

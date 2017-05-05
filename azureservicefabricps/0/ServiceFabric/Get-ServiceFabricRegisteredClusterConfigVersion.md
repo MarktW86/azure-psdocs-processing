@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: FE81372C-DE58-4921-95AC-35D523C5300D
 online version:
 schema: 2.0.0
-updated_at: 05/01/2017 00:05 AM
-ms.date: 05/01/2017
+updated_at: 05/05/2017 00:05 AM
+ms.date: 05/05/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricRegisteredClusterConfigVersion.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricRegisteredClusterConfigVersion.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/ac78e5c5a8be5f060590ffa2ef9aff508980eb48
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/2088556d830e5d208d18af34b3910218b6e681f2
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -20,7 +20,7 @@ ms.service: service-fabric
 # Get-ServiceFabricRegisteredClusterConfigVersion
 
 ## SYNOPSIS
-Gets provisioned fabric config versions in a Service Fabric cluster.
+Gets provisioned fabric configuration versions in a Service Fabric cluster.
 
 ## SYNTAX
 
@@ -30,21 +30,23 @@ Get-ServiceFabricRegisteredClusterConfigVersion [[-ConfigVersion] <String>] [-Ti
 ```
 
 ## DESCRIPTION
-The **Get-ServiceFabricRegisteredClusterConfigVersion** cmdlet gets provisioned fabric config versions in a Service Fabric cluster.
+The **Get-ServiceFabricRegisteredClusterConfigVersion** cmdlet gets provisioned fabric configuration versions in a Service Fabric cluster.
 
 Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the [Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md) cmdlet.
 
 ## EXAMPLES
 
-### Example 1:
+### Example 1: Get all provisioned fabric configuration versions
 ```
 PS C:\> Get-ServiceFabricRegisteredClusterConfigVersion
 ```
 
+This command gets all provisioned favric configuration versions.
+
 ## PARAMETERS
 
 ### -ConfigVersion
-Specifies a config version.
+Specifies a configuration version.
 This cmdlet gets only the provisioned fabric config versions that match the config version that this parameter specifies.
 
 ```yaml

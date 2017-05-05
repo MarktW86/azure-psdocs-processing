@@ -2,11 +2,11 @@
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 03/06/2017 22:03 PM
-ms.date: 03/06/2017
+updated_at: 05/05/2017 00:05 AM
+ms.date: 05/05/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricRuntimeSupportedVersion.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricRuntimeSupportedVersion.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/f316a90f932ebcb7312c516e5fc173dc4b1bc762
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/ab74e7f5446fc433a7adae0e8e813ba2b1651adb
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -32,9 +32,9 @@ The **Get-ServiceFabricRuntimeSupportedVersion** cmdlet gets details about all c
 
 The output of **Get-ServiceFabricRuntimeSupportedVersion** contains the following information:
 
---Version: The service fabric runtime version.
---SupportExpiryDate : The date when the version goes out of support.      
---TargetPackageLocation : The link to download the runtime package.
+-Version: The service fabric runtime version.
+-SupportExpiryDate : The date when the version goes out of support.      
+-TargetPackageLocation : The link to download the runtime package.
 
 ## EXAMPLES
 
