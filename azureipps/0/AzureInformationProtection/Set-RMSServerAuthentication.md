@@ -3,11 +3,11 @@ external help file: AIP.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=841549
 schema: 2.0.0
 ms.assetid: 83B4D09E-ADAE-4DF9-9924-132A9FE47DFF
-updated_at: 02/14/2017 17:02 PM
-ms.date: 02/14/2017
+updated_at: 05/05/2017 18:05 PM
+ms.date: 05/05/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AzureInformationProtection/vlatest/Set-RMSServerAuthentication.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AzureInformationProtection/vlatest/Set-RMSServerAuthentication.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/d1c5d3878715c0a5dd9195e1d580532ba3f2c68a
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/c937cb5494a0323ea2b12815fbda3351e572e7a3
 ms.topic: reference
 author: cabailey
 ms.author: PowerShellHelpPub
@@ -103,4 +103,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 [Get-RMSServerAuthentication](./Get-RMSServerAuthentication.md)
 
-[Using PowerShell with the Azure Information Protection client](https://docs.microsoft.com/information-protection/rms-client/client-admin-guide-powershell)

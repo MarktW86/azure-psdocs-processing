@@ -2,11 +2,11 @@
 Module Name: AzureRM.AzureStackstorage
 Module Guid: da5816b5-97a6-4301-9aa0-72cc68c79f20
 Locale: en-US
-updated_at: 05/02/2017 22:05 PM
-ms.date: 05/02/2017
+updated_at: 05/03/2017 00:05 AM
+ms.date: 05/03/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/AzureRM.AzureStackstorage.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/AzureRM.AzureStackstorage.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/8be3c27a59771ebd9a10c0f704e4d42f41811531
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/1b1f65c3c0d4679af027f9576236919af044769d
 ms.topic: conceptual
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -76,7 +76,7 @@ Gets the metric definitions of Blob service.
 Gets the ACS container.
 
 ### [Get-ACSContainerMigrationStatus](Get-ACSContainerMigrationStatus.md)
-{{Fill in the Synopsis}}
+Gets the ACS container migration status.
 
 ### [Get-ACSFarm](Get-ACSFarm.md)
 Gets the Azure-consistent Storage Farm and its properties and settings.
@@ -139,13 +139,13 @@ Changes the setting of service configuration on ACS Farm.
 Updates an existing Storage quota resource.
 
 ### [Start-ACSContainerMigration](Start-ACSContainerMigration.md)
-{{Fill in the Synopsis}}
+Starts the ACS container migration.
 
 ### [Stop-ACSContainerMigration](Stop-ACSContainerMigration.md)
-{{Fill in the Synopsis}}
+Stops the ACS container migration.
 
 ### [Sync-ACSStorageAccount](Sync-ACSStorageAccount.md)
 Synchronizes the account status of the tenant storage accounts from backend to frontend cache.
 
 ### [Undo-ACSStorageAccountDeletion](Undo-ACSStorageAccountDeletion.md)
-Undo a tenant storage account.
+Undeletes a tenant storage account.

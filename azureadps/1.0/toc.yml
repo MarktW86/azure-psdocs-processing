@@ -7,24 +7,32 @@
       href: ../conceptual/1.0/install-msonlinev1.md
 - name: Using Azure AD PowerShell
   items:
-    - name: Managing groups in Azure AD
-      href: 'https://docs.microsoft.com/en-us/azure/active-directory/active-directory-accessmanagement-groups-settings-v2-cmdlets'
-    - name: Managing Unified Groups settings using Powershell
-      href: 'https://docs.microsoft.com/en-us/azure/active-directory/active-directory-accessmanagement-groups-settings-cmdlets'
-    - name: Managing Role Based Access Control (RBAC)
-      href: 'https://docs.microsoft.com/en-us/azure/active-directory/role-based-access-control-manage-access-powershell'
-    - name: Using extension attributes
-      href: ../conceptual/1.0/using-extension-attributes-sample.md
-    - name: Working with Administrative Units
-      href: ../conceptual/1.0/Working-with-Administrative-Units.md
-    - name: Inviting guests in B2B
-      href: 'https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-code-samples#powershell-example'
-    - name: Creating a new user and setting the password
-      href: ../conceptual/1.0/new-user-sample.md
-    - name: Assigning licenses to a user
-      href: ../conceptual/1.0/Enabling-licenses-sample.md
-    - name: Connecting an Azure AD Powershell session with Service Principal credentials
-      href: ../conceptual/1.0/signing-in-service-principal.md
+    - name: PowerShell Scenarios
+      items:
+        - name: Importing Data
+          href: ../conceptual/1.0/importing-data.md
+        - name: Recovering deleted data
+          href: ../conceptual/1.0/recovering-deleted-data.md
+    - name: Directory Features
+      items:
+        - name: Managing groups in Azure AD
+          href: 'https://docs.microsoft.com/en-us/azure/active-directory/active-directory-accessmanagement-groups-settings-v2-cmdlets'
+        - name: Managing Unified Groups settings using Powershell
+          href: 'https://docs.microsoft.com/en-us/azure/active-directory/active-directory-accessmanagement-groups-settings-cmdlets'
+        - name: Managing Role Based Access Control (RBAC)
+          href: 'https://docs.microsoft.com/en-us/azure/active-directory/role-based-access-control-manage-access-powershell'
+        - name: Using extension attributes
+          href: ../conceptual/1.0/using-extension-attributes-sample.md
+        - name: Working with Administrative Units
+          href: ../conceptual/1.0/Working-with-Administrative-Units.md
+        - name: Inviting guests in B2B
+          href: 'https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-code-samples#powershell-example'
+        - name: Creating a new user and setting the password
+          href: ../conceptual/1.0/new-user-sample.md
+        - name: Assigning licenses to a user
+          href: ../conceptual/1.0/Enabling-licenses-sample.md
+        - name: Connecting an Azure AD Powershell session with Service Principal credentials
+          href: ../conceptual/1.0/signing-in-service-principal.md
 - name: Frequently asked questions
   items:
     - name: Where can I find the PowerShell log file?
@@ -43,6 +51,8 @@
   items:
     - name: Manage dynamic groups with PowerShell
       href: 'https://channel9.msdn.com/Series/Azure-Active-Directory-Videos-Demos/Managing-dynamic-groups-with-Azure-AD-PowerShell'
+    - name: Managing applications with PowerShell
+      href: 'https://channel9.msdn.com/Series/Azure-Active-Directory-Videos-Demos/ManageAppsAzureADPowerShell'
 - name: Read more
   items:
     - name: Getting started with PowerShell

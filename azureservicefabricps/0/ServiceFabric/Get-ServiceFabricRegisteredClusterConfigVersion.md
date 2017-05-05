@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: FE81372C-DE58-4921-95AC-35D523C5300D
 online version:
 schema: 2.0.0
-updated_at: 04/13/2017 18:04 PM
-ms.date: 04/13/2017
+updated_at: 05/05/2017 00:05 AM
+ms.date: 05/05/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricRegisteredClusterConfigVersion.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricRegisteredClusterConfigVersion.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/e4666c66ecad8bb641483d243bfac15b26f72282
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/2088556d830e5d208d18af34b3910218b6e681f2
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -20,7 +20,7 @@ ms.service: service-fabric
 # Get-ServiceFabricRegisteredClusterConfigVersion
 
 ## SYNOPSIS
-Gets provisioned fabric config versions in a Service Fabric cluster.
+Gets provisioned fabric configuration versions in a Service Fabric cluster.
 
 ## SYNTAX
 
@@ -30,21 +30,23 @@ Get-ServiceFabricRegisteredClusterConfigVersion [[-ConfigVersion] <String>] [-Ti
 ```
 
 ## DESCRIPTION
-The **Get-ServiceFabricRegisteredClusterConfigVersion** cmdlet gets provisioned fabric config versions in a Service Fabric cluster.
+The **Get-ServiceFabricRegisteredClusterConfigVersion** cmdlet gets provisioned fabric configuration versions in a Service Fabric cluster.
 
 Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the [Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md) cmdlet.
 
 ## EXAMPLES
 
-### Example 1:
+### Example 1: Get all provisioned fabric configuration versions
 ```
 PS C:\> Get-ServiceFabricRegisteredClusterConfigVersion
 ```
 
+This command gets all provisioned favric configuration versions.
+
 ## PARAMETERS
 
 ### -ConfigVersion
-Specifies a config version.
+Specifies a configuration version.
 This cmdlet gets only the provisioned fabric config versions that match the config version that this parameter specifies.
 
 ```yaml
@@ -75,7 +77,7 @@ Accept wildcard characters: False
 ```
 
 ### CommonParameters
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see [about_CommonParameters](http://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 
@@ -85,7 +87,7 @@ This cmdlet accepts the config version of a Service Fabric cluster as a string.
 ## OUTPUTS
 
 ### System.Object
-This cmdlet returns a list of [System.Fabric.Query.ProvisionedFabricConfigVersion] (https://docs.microsoft.com/dotnet/api/system.fabric.query.provisionedfabricconfigversion) objects that represents registered Service Fabric cluster config versions.
+This cmdlet returns a list of [System.Fabric.Query.ProvisionedFabricConfigVersion](https://docs.microsoft.com/dotnet/api/system.fabric.query.provisionedfabricconfigversion) objects that represents registered Service Fabric cluster config versions.
 
 ## NOTES
 

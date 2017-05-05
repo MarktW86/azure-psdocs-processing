@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 9D63C467-E643-4DCD-B8AD-70C741D39377
 online version:
 schema: 2.0.0
-updated_at: 04/27/2017 02:04 AM
-ms.date: 04/27/2017
+updated_at: 05/03/2017 05:05 AM
+ms.date: 05/03/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricApplicationHealth.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricApplicationHealth.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/df0999df1d4841a9b73be457339bfafe2f964b24
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/664908a8fab893346c0349eb97c945e899547b17
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -84,7 +84,7 @@ Accept wildcard characters: False
 ```
 
 ### -ConsiderWarningAsError
-Indicates whether to treat a warning health report as error during health evaluation.
+Indicates whether this cmdlet considers a warning health report as an error during health evaluation.
 
 ```yaml
 Type: Boolean
@@ -100,7 +100,7 @@ Accept wildcard characters: False
 
 ### -DeployedApplicationsFilter
 Specifies the filter for **DeployedApplicationHealthState** children based on health state.
-The value can be obtained from members or bitwise operations on members of **HealthStateFilter**.
+The value is obtained from members or bitwise operations on members of **HealthStateFilter**.
 Only children that match the filter are returned.
 All children are used to evaluate the application aggregated health state.
 If not specified, all entries are returned.
@@ -134,7 +134,7 @@ Accept wildcard characters: False
 ```
 
 ### -EventsFilter
-Specifies the filter for the collection of **HealthEvents** reported on the application based on health state.
+Specifies the filter for the collection of **HealthEvent** objects reported on the application based on health state.
 The value can be obtained from members or bitwise operations on members of **HealthStateFilter**.
 Only events that match the filter are returned.
 All events are used to evaluate the application aggregated health state.
@@ -287,7 +287,7 @@ Accept wildcard characters: False
 ```
 
 ### CommonParameters
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see [about_CommonParameters](http://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 
