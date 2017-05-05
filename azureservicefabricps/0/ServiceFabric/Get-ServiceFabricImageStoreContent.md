@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: DD60B18E-5ED7-41B6-B9D4-38BD726DCFF2
 online version:
 schema: 2.0.0
-updated_at: 05/03/2017 21:05 PM
-ms.date: 05/03/2017
+updated_at: 05/05/2017 00:05 AM
+ms.date: 05/05/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/Graham71141/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricImageStoreContent.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/Graham71141/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricImageStoreContent.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/50b4a1d8c941cfe43b0ae98efc047bbdc78270fd
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/ab74e7f5446fc433a7adae0e8e813ba2b1651adb
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -38,7 +38,7 @@ Get-ServiceFabricImageStoreContent [-Path] [-RemoteRelativePath <String>] -Image
 ```
 
 ## DESCRIPTION
-The Get-ServiceFabricImageStoreContent cmdlet gets information about image store content being orgornized either within the given image store relative path or belong to the specified application type/version.
+The **Get-ServiceFabricImageStoreContent** cmdlet gets information about image store content being organized either within the given image store relative path or belong to the specified application type/version.
 
 ## EXAMPLES
 
