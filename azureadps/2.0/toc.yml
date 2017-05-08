@@ -47,6 +47,10 @@
       items:
         - name: 'I get an error "\[your account] isn''t in our system"'
           href: ../conceptual/2.0/account-not-in-system-error.md
+    - name: '[Execution errors]'
+      items:
+        - name: I'm looking for a user or a group but PowerShell does not return the object
+          href: ../conceptual/2.0/Cannot-find-object.md
 - name: Videos
   items:
     - name: Manage dynamic groups with PowerShell
