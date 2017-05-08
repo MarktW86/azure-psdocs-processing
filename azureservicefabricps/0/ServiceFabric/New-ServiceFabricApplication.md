@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 5CF5310E-E6BC-4F08-858A-DC9CF5FC0493
 online version:
 schema: 2.0.0
-updated_at: 05/03/2017 21:05 PM
-ms.date: 05/03/2017
+updated_at: 05/08/2017 21:05 PM
+ms.date: 05/08/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/Graham71141/Service-Fabric-cmdlets/ServiceFabric/vlatest/New-ServiceFabricApplication.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/Graham71141/Service-Fabric-cmdlets/ServiceFabric/vlatest/New-ServiceFabricApplication.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/50b4a1d8c941cfe43b0ae98efc047bbdc78270fd
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/276357553b35ff65a24694f725d4dbdd6add4950
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -137,7 +137,7 @@ Accept wildcard characters: False
 
 ### -Metrics
 Specifies an array of metrics. These metrics are used by Service Fabric Cluster Resource Manager to manage resources in the cluster. For more information about metrics and resource management in Service Fabric, see [Service Fabric Cluster Resource Manager Introduction](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-resource-manager-introduction).
-Each metric can follow the pattern MetricName,NodeReservationCapacity,MaximumNodeCapacity,TotalApplicationCapacity, or can specify MetricName and use parameter names NodeReservationCapacity,MaximumNodeCapacity,TotalApplicationCapacity followed by a parameter value, and separated with a colon.
+Each metric can follow the pattern MetricName, NodeReservationCapacity, MaximumNodeCapacity, TotalApplicationCapacity, or can specify MetricName and use parameter names *NodeReservationCapacity*, *MaximumNodeCapacity*, or *TotalApplicationCapacity* followed by a parameter value, and separated with a colon.
 Each parameter **name:value** pair can appear at most once.
 
 - MetricName.
