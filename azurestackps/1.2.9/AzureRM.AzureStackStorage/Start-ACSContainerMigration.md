@@ -2,11 +2,11 @@
 external help file: Microsoft.AzureStack.AzureConsistentStorage.Commands.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 05/02/2017 20:05 PM
-ms.date: 05/02/2017
+updated_at: 05/03/2017 00:05 AM
+ms.date: 05/03/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Start-ACSContainerMigration.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Start-ACSContainerMigration.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/13ec13c1a9baa09b68c680eedfd83bb954580446
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/1b1f65c3c0d4679af027f9576236919af044769d
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -19,7 +19,7 @@ ms.service: azure-stack
 # Start-ACSContainerMigration
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+Starts the ACS container migration.
 
 ## SYNTAX
 
@@ -30,21 +30,14 @@ Start-ACSContainerMigration [-ResourceGroupName] <String> [-FarmName] <String>
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+The **Start-ACSContainerMigration** cmdlet starts the Azure Consistent Storage (ACS) container migration.
 
 ## EXAMPLES
-
-### Example 1
-```
-PS C:\> {{ Add example code here }}
-```
-
-{{ Add example description here }}
 
 ## PARAMETERS
 
 ### -AdminUri
-Specifies the link, as a URI, to the service admin.
+Specifies the link, as a URI, to the service administrator.
 
 ```yaml
 Type: Uri
@@ -59,7 +52,7 @@ Accept wildcard characters: False
 ```
 
 ### -ContainerToMigrate
-{{Fill ContainerToMigrate Description}}
+Specifies the ACS container that this cmdlet migrates.
 
 ```yaml
 Type: Container
@@ -74,7 +67,7 @@ Accept wildcard characters: False
 ```
 
 ### -DestinationShareUncPath
-{{Fill DestinationShareUncPath Description}}
+
 
 ```yaml
 Type: String
@@ -89,7 +82,7 @@ Accept wildcard characters: False
 ```
 
 ### -FarmName
-
+Specifies the name of the ACS farm.
 
 ```yaml
 Type: String
@@ -104,7 +97,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-
+Specifies the name of the resource group that contains the ACS farm.
 
 ```yaml
 Type: String
@@ -179,3 +172,5 @@ System.Uri
 ## NOTES
 
 ## RELATED LINKS
+
+[Stop-ACSContainerMigration](./Stop-ACSContainerMigration.md)

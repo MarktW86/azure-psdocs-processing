@@ -2,11 +2,11 @@
 external help file: Microsoft.AzureStack.AzureConsistentStorage.Commands.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 05/02/2017 20:05 PM
-ms.date: 05/02/2017
+updated_at: 05/03/2017 00:05 AM
+ms.date: 05/03/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Undo-ACSStorageAccountDeletion.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Undo-ACSStorageAccountDeletion.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/13ec13c1a9baa09b68c680eedfd83bb954580446
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/1b1f65c3c0d4679af027f9576236919af044769d
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -19,7 +19,7 @@ ms.service: azure-stack
 # Undo-ACSStorageAccountDeletion
 
 ## SYNOPSIS
-Undelete a tenant storage account.
+Undeletes a tenant storage account.
 
 ## SYNTAX
 
@@ -32,27 +32,32 @@ Undo-ACSStorageAccountDeletion [-ResourceGroupName] <String> [-FarmName] <String
 ```
 
 ## DESCRIPTION
-Service admin can use the cmdlet to recover a a storage account deleted by tenant admin.
+The **Undo-ACSStorageAccountDeletion** cmdlet undeletes a tenant storage account. 
+The service administrator can use this cmdlet to recover a storage account deleted by a tenant administrator.
 
 ## EXAMPLES
 
-### Example 1:
-@{paragraph=PS C:\\\>}
-
-
+### Example 1: Recover a storage account
 
 ```
-$resourceGroup = 'System' 
+PS C:\> $ResourceGroup = "System" 
 
-$farm = Get-ACSFarm -ResourceGroupName $resourceGroup
+PS C:\> $Farm = Get-ACSFarm -ResourceGroupName $ResourceGroup
 
-Undo-ACSStorageAccountDeletion -ResourceGroupName $resourceGroup -FarmName $farm.Name -AccountId <AccountId>
+PS C:\> Undo-ACSStorageAccountDeletion -ResourceGroupName $ResourceGroup -FarmName $Farm.Name -AccountId <AccountId>
 ```
+
+The first command stores the value named System in the variable named $ResourceGroup.
+
+The second command uses the [Get-ACSFarm](,/Get-ACSFarm,md) cmdlet to get the farm that is contained in the resource group specified in the $ResourceGroup variable. 
+The command stores the result in the variable named $Farm.
+
+The third command uses the **Undo-ACSStorageAccountDeletion** cmdlet to restore the storage account for the specified in the *AccountID* parameter.
 
 ## PARAMETERS
 
 ### -AccountId
-
+Specifies the account ID in which this cmdlet recovers the storage account.
 
 ```yaml
 Type: String
@@ -67,7 +72,7 @@ Accept wildcard characters: False
 ```
 
 ### -AdminUri
-Specifies the link, as a URI, to the service admin.
+Specifies the link, as a URI, to the service administrator.
 
 ```yaml
 Type: Uri
@@ -82,7 +87,7 @@ Accept wildcard characters: False
 ```
 
 ### -FarmName
-
+Specifies the name of the Azure Consistent Storage (ACS) farm.
 
 ```yaml
 Type: String
@@ -136,7 +141,7 @@ Accept wildcard characters: False
 ```
 
 ### -NewAccountName
-
+Specifies the new account name of the storage account.
 
 ```yaml
 Type: String
@@ -151,7 +156,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceAdminApiVersion
-API version of Resource.Admin
+API version of Resource.Admin.
 
 ```yaml
 Type: String
@@ -166,7 +171,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-
+Specifies the name of the resource group that contains the ACS farm.
 
 ```yaml
 Type: String
@@ -196,7 +201,7 @@ Accept wildcard characters: False
 ```
 
 ### -StorageAccountApiVersion
-
+Specifies the API version of the storage account for which this cmdlet recovers.
 
 ```yaml
 Type: String
@@ -241,7 +246,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -256,7 +261,8 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
 
 ```yaml
 Type: SwitchParameter
@@ -284,3 +290,11 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+
+[Clear-ACSStorageAccount](./Clear-ACSStorageAccount.md)
+
+[Get-ACSStorageAccount](./Get-ACSStorageAccount.md)
+
+[Set-ACSStorageAccount](./Set-ACSStorageAccount.md)
+
+[Get-ACSFarm](./Get-ACSFarm.md)

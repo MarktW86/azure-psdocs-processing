@@ -2,11 +2,11 @@
 external help file: Microsoft.AzureStack.AzureConsistentStorage.Commands.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 05/02/2017 20:05 PM
-ms.date: 05/02/2017
+updated_at: 05/03/2017 00:05 AM
+ms.date: 05/03/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/New-ACSQuota.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/New-ACSQuota.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/13ec13c1a9baa09b68c680eedfd83bb954580446
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/1b1f65c3c0d4679af027f9576236919af044769d
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -19,7 +19,7 @@ ms.service: azure-stack
 # New-ACSQuota
 
 ## SYNOPSIS
-Create a new storage quota resource
+Creates a storage quota resource.
 
 ## SYNTAX
 
@@ -31,26 +31,26 @@ New-ACSQuota [-Location] <String> [-Name] <String> -NumberOfStorageAccounts <Int
 ```
 
 ## DESCRIPTION
-Service admin can use New-ACSQuota cmdlet to create a new Storage Quota resource
+The **New-ACSQuota** cmdlet creates a storage quota resource.
 
 ## EXAMPLES
 
-### Example 1:
-@{paragraph=PS C:\\\>}
-
-
+### Example 1: Create a quota resource
 
 ```
-$ResourceGroup = "System"
-$Location = "Redmond"
-// Create a new quota resource named 'BasicStorage_Quota'
-New-ACSQuota -Location $location -QuotaName "BasicStorage_Quota" -NumberOfStorageAccounts 20  -CapacityInGB 500
+PS C:\> $ResourceGroup = "System"
+
+PS C:\> New-ACSQuota -Location "Redmond" -QuotaName "BasicStorage_Quota" -NumberOfStorageAccounts 20  -CapacityInGB 500
 ```
+
+The first command stores the value named System in the variable named $ResourceGroup.
+
+The second command command creates a quota resource named BasicStorage_Quota from the geolocation named Redmond.
 
 ## PARAMETERS
 
 ### -AdminUri
-Specifies the link, as a URI, to the service admin.
+Specifies the link, as a URI, to the service administrator.
 
 ```yaml
 Type: Uri
@@ -119,7 +119,7 @@ Accept wildcard characters: False
 ```
 
 ### -Location
-
+Specifies the geolocation of the quota resource.
 
 ```yaml
 Type: String
@@ -134,7 +134,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-Specifies the name of the quota resource
+Specifies the name of the quota resource that this cmdlet creates.
 
 ```yaml
 Type: String
@@ -209,7 +209,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-
+Prompts you for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -224,7 +224,8 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
 
 ```yaml
 Type: SwitchParameter
@@ -250,3 +251,5 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+
+[Get-ACSQuota](./Get-ACSQuota.md)

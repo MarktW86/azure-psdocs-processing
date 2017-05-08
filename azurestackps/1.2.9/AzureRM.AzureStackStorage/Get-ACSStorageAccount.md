@@ -2,11 +2,11 @@
 external help file: Microsoft.AzureStack.AzureConsistentStorage.Commands.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 05/02/2017 20:05 PM
-ms.date: 05/02/2017
+updated_at: 05/03/2017 00:05 AM
+ms.date: 05/03/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Get-ACSStorageAccount.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Get-ACSStorageAccount.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/13ec13c1a9baa09b68c680eedfd83bb954580446
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/1b1f65c3c0d4679af027f9576236919af044769d
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -19,7 +19,7 @@ ms.service: azure-stack
 # Get-ACSStorageAccount
 
 ## SYNOPSIS
-Retrieve a list of the tenant storage accounts based on the tenant subscription ID, account name (or part of the account name) , account status or based on a account ID.
+Gets a list of the tenant storage accounts based on the tenant subscription ID, account name, account status, or an account ID.
 
 ## SYNTAX
 
@@ -39,27 +39,30 @@ Get-ACSStorageAccount [-ResourceGroupName] <String> [-FarmName] <String> [-Accou
 ```
 
 ## DESCRIPTION
-Retrieve a list of the tenant storage accounts based on the tenant subscription ID, account name (or part of the account name) , account status or based on a account ID.
+The **Get-ACSStorageAccount** cmdlet gets a list of the tenant storage accounts based on the tenant subscription ID, account name (or part of the account name) ,account status, account ID.
 
 ## EXAMPLES
 
-### Example 1:
-@{paragraph=PS C:\\\>}
-
-
-
+### Example 1: Get a list of tenant storage account
 ```
-$resourceGroup = 'System' 
+$ResourceGroup = "System" 
 
-$farm = Get-ACSFarm -ResourceGroupName $resourceGroup
+$Farm = Get-ACSFarm -ResourceGroupName $ResourceGroup
 
-Get-ACSStorageAccount -ResourceGroupName $resourceGroup -FarmName $farm.Name -PartialAccountName 'YourStorageAccountName'
+Get-ACSStorageAccount -ResourceGroupName $ResourceGroup -FarmName $Farm.Name -PartialAccountName "Account002"
 ```
+
+The first command stores the value named System in the variable named $ResourceGroup.
+
+The second command uses the [Get-ACSFarm](,/Get-ACSFarm,md) cmdlet to get the farm that is contained in the resource group specified in the $ResourceGroup variable. 
+The command stores the result in the variable named $Farm.
+
+The third command uses the **Get-ACSStorageAccount** cmdlet to get the storage account named Account002.
 
 ## PARAMETERS
 
 ### -AccountId
-
+Specifies the Account ID that the cmdlet uses to get the storage account.
 
 ```yaml
 Type: String
@@ -74,7 +77,7 @@ Accept wildcard characters: False
 ```
 
 ### -AdminUri
-Specifies the link, as a URI, to the service admin.
+Specifies the link, as a URI, to the service administrator.
 
 ```yaml
 Type: Uri
@@ -104,7 +107,7 @@ Accept wildcard characters: False
 ```
 
 ### -FarmName
-
+Specifies the name of the ACS farm that this cmdlet gets the storage account from.
 
 ```yaml
 Type: String
@@ -158,7 +161,7 @@ Accept wildcard characters: False
 ```
 
 ### -PartialAccountName
-
+Specifies a partial account name that the cmdlet uses to search for storage accounts.
 
 ```yaml
 Type: String
@@ -173,7 +176,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-
+Specifies the resource group 
 
 ```yaml
 Type: String
@@ -203,7 +206,7 @@ Accept wildcard characters: False
 ```
 
 ### -StorageAccountStatus
-
+Specifies the status of the storage account that this cmdlet gets.
 
 ```yaml
 Type: Int32
@@ -233,7 +236,7 @@ Accept wildcard characters: False
 ```
 
 ### -TenantSubscriptionId
-
+Specifies the tenant subscription ID that this cmdlet uses to get the storage account.
 
 ```yaml
 Type: String
@@ -276,3 +279,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+
+[Clear-ACSStorageAccount](./Clear-ACSStorageAccount.md)
+
+[Sync-ACSStorageAccount](./Sync-ACSStorageAccount.md)

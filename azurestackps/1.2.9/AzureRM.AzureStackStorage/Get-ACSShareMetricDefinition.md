@@ -2,11 +2,11 @@
 external help file: Microsoft.AzureStack.AzureConsistentStorage.Commands.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 05/02/2017 20:05 PM
-ms.date: 05/02/2017
+updated_at: 05/03/2017 00:05 AM
+ms.date: 05/03/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Get-ACSShareMetricDefinition.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Get-ACSShareMetricDefinition.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/13ec13c1a9baa09b68c680eedfd83bb954580446
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/1b1f65c3c0d4679af027f9576236919af044769d
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -19,7 +19,7 @@ ms.service: azure-stack
 # Get-ACSShareMetricDefinition
 
 ## SYNOPSIS
-Retrieve the metric definitions of share
+Gets the metric definitions of share.
 
 ## SYNTAX
 
@@ -31,21 +31,14 @@ Get-ACSShareMetricDefinition -FarmName <String> -ShareName <String> [-ResourceGr
 ```
 
 ## DESCRIPTION
-Retrieve the metric definitions of share
+The **Get-ACSShareMetricDefinition** cmdlet gets the metric definitions of share.
 
 ## EXAMPLES
-
-### Example 1
-```
-PS C:\> {{ Add example code here }}
-```
-
-{{ Add example description here }}
 
 ## PARAMETERS
 
 ### -AdminUri
-Specifies the link, as a URI, to the service admin.
+Specifies the link, as a URI, to the service administrator.
 
 ```yaml
 Type: Uri
@@ -60,7 +53,7 @@ Accept wildcard characters: False
 ```
 
 ### -DetailedOutput
-
+Indicates the cmdlet gets the detailed metric definitions from the ACS Share.
 
 ```yaml
 Type: SwitchParameter
@@ -75,7 +68,7 @@ Accept wildcard characters: False
 ```
 
 ### -FarmName
-
+Specifies the name of the ACS farm for which this cmdlet gets metric definitions.
 
 ```yaml
 Type: String
@@ -144,7 +137,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-
+Specifies the name of the resource group that contains the ACS farm.
 
 ```yaml
 Type: String
@@ -159,7 +152,7 @@ Accept wildcard characters: False
 ```
 
 ### -ShareName
-
+Specifies the name of the ACS share that this cmdlet gets.
 
 ```yaml
 Type: String
@@ -234,3 +227,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+
+[Get-ACSShare](./Get-ACSShare.md)
+
+[Get-ACSShareMetric](./Get-ACSShareMetric.md)
