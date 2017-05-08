@@ -5,8 +5,8 @@ Download Help Link: ./Azure.Storage.md
 Locale: en-US
 updated_at: 03/29/2017 02:03 AM
 ms.date: 03/29/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Storage/v2.7.0/Azure.Storage.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Storage/v2.7.0/Azure.Storage.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/DuncanmaMSFT-patch-1/azureps-cmdlets-docs/ServiceManagement/Azure.Storage/v2.7.0/Azure.Storage.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/DuncanmaMSFT-patch-1/azureps-cmdlets-docs/ServiceManagement/Azure.Storage/v2.7.0/Azure.Storage.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/828e5b8648af6bdf3119ffe0cd409647f00de183
 ms.topic: conceptual
 author: erickson-doug
