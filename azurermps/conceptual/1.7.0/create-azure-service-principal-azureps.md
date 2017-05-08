@@ -11,9 +11,9 @@ ms.service: azure-resource-manager
 ms.devlang: powershell
 ms.topic: conceptual
 ms.date: 03/30/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/docs-conceptual/create-azure-service-principal-azureps.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/docs-conceptual/create-azure-service-principal-azureps.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/cc455cefbae6cd065e57739272541fd2d80c3ffb
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/DuncanmaMSFT-patch-1/azureps-cmdlets-docs/ResourceManager/docs-conceptual/create-azure-service-principal-azureps.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/DuncanmaMSFT-patch-1/azureps-cmdlets-docs/ResourceManager/docs-conceptual/create-azure-service-principal-azureps.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/8593182110c945e3101b674e674c80df3cc9cc4e
 open_to_public_contributors: true
 ---
 
@@ -23,9 +23,8 @@ If you plan to manage your app or service with Azure PowerShell, you should run 
 Active Directory (AAD) service principal, rather than your own credentials. This topic steps you
 through creating a security principal with Azure PowerShell.
 
-> [!NOTE] > You can also create a service principal through the Azure portal. Read
-[Use portal to create Active Directory application and service principal that can access resources](/azure/azure-resource-manager/resource-group-create-service-principal-portal)
-for more details.
+> [!NOTE] 
+> You can also create a service principal through the Azure portal. Read [Use portal to create Active Directory application and service principal that can access resources](/azure/azure-resource-manager/resource-group-create-service-principal-portal) for more details.
 
 ## What is a 'service principal'?
 
@@ -132,10 +131,7 @@ permissions of the service principal.
 ## Managing roles
 
 > [!NOTE]
-> Azure Role-Based Access Control (RBAC) is a model for defining and managing roles for user and
-service principals. Roles have sets of permissions associated with them, which determine the
-resources a principal can read, access, write, or manage. For more information on RBAC and roles,
-see [RBAC: Built-in roles](/azure/active-directory/role-based-access-built-in-roles).
+> Azure Role-Based Access Control (RBAC) is a model for defining and managing roles for user and service principals. Roles have sets of permissions associated with them, which determine the resources a principal can read, access, write, or manage. For more information on RBAC and roles, see [RBAC: Built-in roles](/azure/active-directory/role-based-access-built-in-roles).
 
 Azure PowerShell provides the following cmdlets to manage role assignments:
 
