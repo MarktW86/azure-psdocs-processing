@@ -5,11 +5,11 @@ Download Help Link: NA
 Help Version: NA
 Locale: en-US
 ms.assetid: 35D99F89-BD73-457E-95C7-73857656FB59
-updated_at: 05/05/2017 18:05 PM
-ms.date: 05/05/2017
+updated_at: 05/08/2017 16:05 PM
+ms.date: 05/08/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/release-ipclient/Azure%20Information%20Protection/AzureInformationProtection/vlatest/AIP.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/release-ipclient/Azure%20Information%20Protection/AzureInformationProtection/vlatest/AIP.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/c937cb5494a0323ea2b12815fbda3351e572e7a3
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/0648e31930a406dfaa919d33b6e5e3496b34da6d
 ms.topic: conceptual
 author: cabailey
 ms.author: PowerShellHelpPub
@@ -38,7 +38,7 @@ The following list contains links to the help topics for the Microsoft Azure Inf
 
 These cmdlets can be used with the Azure Information Protection service, the Azure Rights Management service (Azure RMS), and Active Directory Rights Management Services (AD RMS). 
 
-The current version of the AzureInformationProtection module is **1.4.21.0**. If you have previously installed this module, run the following command to check the version: `(Get-Module AzureInformationProtection -ListAvailable).Version`.
+The current version of the AzureInformationProtection module is **1.7.204.0**. If you have previously installed this module, run the following command to check the version: `(Get-Module AzureInformationProtection -ListAvailable).Version`.
 
 For instructions to use these cmdlets, any current limitations, prerequisites, and scenario examples, see the following documentation from the Azure Information Protection client administrator guide: 
 
@@ -77,6 +77,10 @@ Creates an ad-hoc rights policy for RMS protection.
 
 ### [Protect-RMSFile](./Protect-RMSFile.md)
 Protects a specified file or the files in a specified folder by using RMS.
+
+
+### [Set-AIPFileClassification](./Set-AIPFileClassification)
+Scans a file to automatically set an Azure Information Protection label for a file, according to conditions that are configured in the policy.
 
 
 ### [Set-AIPFileLabel](./Set-AIPFileLabel)
