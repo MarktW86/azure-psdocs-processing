@@ -3,11 +3,11 @@ external help file: AIP.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=841547
 schema: 2.0.0
 ms.assetid: 031B84B2-E380-4989-8FD9-45CC777FE017
-updated_at: 02/14/2017 17:02 PM
-ms.date: 02/14/2017
+updated_at: 05/05/2017 18:05 PM
+ms.date: 05/05/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/release-ipclient/Azure%20Information%20Protection/AzureInformationProtection/vlatest/New-RMSProtectionLicense.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/release-ipclient/Azure%20Information%20Protection/AzureInformationProtection/vlatest/New-RMSProtectionLicense.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/d1c5d3878715c0a5dd9195e1d580532ba3f2c68a
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/c937cb5494a0323ea2b12815fbda3351e572e7a3
 ms.topic: reference
 author: cabailey
 ms.author: PowerShellHelpPub
@@ -101,9 +101,9 @@ Accept wildcard characters: False
 ```
 
 ### -OwnerEmail
-Specifies the Rights Management owner of the rights policy by email address, which can be a single account or a group account (distribution list or emailed-enabled security group). You can use this parameter to set an owner other than yourself.
+Specifies the Rights Management owner of the rights policy by email address. You can use this parameter to set a Rights Management owner other than yourself.
 
-The Rights Management owner has all rights (Full Control) for the file. The  Rights Management owner is independent from the Windows file system owner. 
+By default, the account running this cmdlet is both the Rights Management issuer and the Rights Management owner of the protected file. This parameter lets you assign a different Rights Management owner to the protected file so that the specified account has all usage rights (Full Control) for the file and can always access it. The Rights Management owner is independent from the Windows file system owner. For more information, see [Rights Management issuer and Rights Management owner](https://docs.microsoft.com/information-protection/deploy-use/configure-usage-rights#rights-management-issuer-and-rights-management-owner).
 
 If you do not specify a value, the cmdlet will use your email address to identify you as the Rights Management owner of this ad-hoc rights policy.
 
@@ -120,8 +120,7 @@ Accept wildcard characters: False
 ```
 
 ### -Permission
-Specifies the usage rights for the ad-hoc policy.
-Use this parameter and the *UserEmail* parameter to grant rights to specified users.
+Specifies the usage rights for the ad-hoc policy. Use this parameter and the *UserEmail* parameter to grant rights to specified users.
 
 The acceptable values for this parameter:
 - VIEW

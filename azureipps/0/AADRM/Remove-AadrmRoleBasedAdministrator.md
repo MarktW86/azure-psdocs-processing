@@ -3,11 +3,11 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkId=400620
 schema: 2.0.0
 ms.assetid: C019DD8B-8C2C-487C-B730-38E50A170180
-updated_at: 04/11/2017 21:04 PM
-ms.date: 04/11/2017
+updated_at: 05/01/2017 16:05 PM
+ms.date: 05/01/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/release-ipclient/Azure%20Information%20Protection/AADRM/vlatest/Remove-AadrmRoleBasedAdministrator.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/release-ipclient/Azure%20Information%20Protection/AADRM/vlatest/Remove-AadrmRoleBasedAdministrator.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/5c9a32d3338744ea1dfb2e9f3a06cf42d59847a0
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/64e9c474de8ba424ec88327ada5252d3a5907d98
 ms.topic: reference
 author: cabailey
 ms.author: PowerShellHelpPub
@@ -40,17 +40,11 @@ Remove-AadrmRoleBasedAdministrator [-EmailAddress <String>] [-Role <Role>] [<Com
 ```
 
 ## DESCRIPTION
-The **Remove-AadrmRoleBasedAdministrator** cmdlet removes administrative rights for a user or group from Azure Rights Management for your organization.
+The **Remove-AadrmRoleBasedAdministrator** cmdlet removes administrative rights to your organization's Azure Rights Management service, so that administrators you have previously delegated to configure this service can no longer do so by using PowerShell commands.
 
 You must use PowerShell to configure delegated administrative control for the Azure Rights Management service; you cannot do this configuration by using a management portal.
 
-Note: One of the parameters for this cmdlet uses the ObjectId (also known as a GUID). Because the Office 365 admin center and the Azure classic portal does not display the GUIDs that are used to identify specific user or groups objects, you can use the following two steps to find the values that you need to specify the GUIDs. Or, you can use the Azure portal to find these values.
-
-1. If you have not already done so, download and install a PowerShell module for Azure AD. Connect to the service and get details of the security group that you want to specify. For example, connect to the service by running **Connect-MsolService**, and then run **Get-MsolGroup**. 
-
-Tip: If you have many groups, use the **Where-Object** cmdlet in Windows PowerShell to filter results. For example, you might enter the following cmdlet to filter and return only groups that start with "Rights": **Get-MsolGroup | where {$_.DisplayName -like "Rights*" }**
-
-2. From the output of the cmdlet, copy the GUID value that was returned and use (paste) that value into the value of the *ObjectId* parameter when you run the **Add-RoleBased Administrator** or [Remove-AadrmRoleBasedAdministrator](./Remove-AadrmRoleBasedAdministrator) cmdlet.
+To see the full list of delegated administrators for the Azure Rights Management service, use [Get-AadrmRoleBasedAdministrator](./Get-AadrmRoleBasedAdministrator.md). Run the Remove-AadrmRoleBasedAdministrator cmdlet for each user or group that you want to remove from the list. 
 
 ## EXAMPLES
 
@@ -59,21 +53,20 @@ Tip: If you have many groups, use the **Where-Object** cmdlet in Windows PowerSh
 PS C:\>Remove-AadrmRoleBasedAdministrator -SecurityGroupDisplayName "Finance Employees"
 ```
 
-This command removes Azure Rights Management administrative rights from the group named Finance Employees.
+This command removes administrative rights to the Azure Rights Management service for the group that has a display name of "Finance Employees".
 
 ### Example 2: Remove administrative rights by using an email address
 ```
 PS C:\>Remove-AadrmRoleBasedAdministrator -EmailAddress "EvanNarvaez@Contoso.com"
 ```
 
-This command removes Azure Rights Management administrative rights from the group that has the specified email address.
+This command removes administrative rights to the Azure Rights Management service for the user who has an email address of "EvanNarvaez@Contoso.com".
+
 
 ## PARAMETERS
 
 ### -EmailAddress
-Specifies the email address of a user or group.
-
-The cmdlet removes Azure Rights Management administrative rights for the user or group identified by the email address that you specify.
+Specifies the email address of a user or group to remove administrative rights for the Azure Rights Management service. If the user has no email address, specify the user's Universal Principal Name.
 
 ```yaml
 Type: String
@@ -88,9 +81,7 @@ Accept wildcard characters: False
 ```
 
 ### -ObjectId
-Specifies the GUID of a user or group.
-
-The cmdlet removes Azure Rights Management administrative rights for the user or group identified by GUID that you specify.
+Specifies the GUID of a user or group to remove administrative rights for the Azure Rights Management service.
 
 ```yaml
 Type: Guid
@@ -128,9 +119,7 @@ Accept wildcard characters: False
 ```
 
 ### -SecurityGroupDisplayName
-Specifies the display name of a user or group. 
-
-The cmdlet removes Azure Rights Management administrative rights for the user or group identified by the name that you specify.
+Specifies the display name of a user or group that should no longer have administrative rights for the Azure Rights Management service.
 
 ```yaml
 Type: String

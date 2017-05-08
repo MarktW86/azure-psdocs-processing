@@ -3,11 +3,11 @@ external help file: AIP.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=841550
 schema: 2.0.0
 ms.assetid: 3A19FD31-4FAF-4B6F-B470-5054FCF05F9C
-updated_at: 03/07/2017 01:03 AM
-ms.date: 03/07/2017
+updated_at: 04/20/2017 18:04 PM
+ms.date: 04/20/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/release-ipclient/Azure%20Information%20Protection/AzureInformationProtection/vlatest/Unprotect-RMSFile.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/release-ipclient/Azure%20Information%20Protection/AzureInformationProtection/vlatest/Unprotect-RMSFile.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/4d9d712bafa7bc7afe919525d8c32cdc0f754140
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/ac82c149bc94d83b9068e89295b83de5a319517f
 ms.topic: reference
 author: cabailey
 ms.author: PowerShellHelpPub
@@ -35,9 +35,13 @@ The **Unprotect-RMSFile** cmdlet removes Rights Management (RMS) protection from
 If you are unprotecting a container file, each child is recursively extracted, unprotected, and repackaged. Supported container file types are .zip, .rar, .7z, .msg, and .pst.
 
 When you run this cmdlet, you have the following options:
+
 - The file is unprotected in the same folder so that the original protected file and the new unprotected file co-exist.
+
 - The original file remains protected and an unprotected version of the file is created in another location.
+
 - All files in the specified folder are unprotected in the current location, replacing the original files that were protected.
+
 - All files in the specified folder remains protected and an unprotected version of each file is created in another location.
 
 You can run this command concurrently when you specify a different path for the *LogFile* parameter for each command that runs in parallel. If you do not specify a different log file path and the previous command has not finished, the new command will fail.
@@ -136,9 +140,12 @@ Accept wildcard characters: False
 
 ### -LogFile
 Specifies the path for log files that list the files that are successfully or unsuccessfully unprotected. Three log files are created: 
-- Success
-- Failure
-- Debug
+
+- **Success**
+
+- **Failure**
+
+- **Debug**
 
 For container files, these log files also include nested files.
 

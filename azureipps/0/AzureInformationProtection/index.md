@@ -1,15 +1,15 @@
 ---
-Module Name: AzureInformationProtectionn
+Module Name: AzureInformationProtection
 Module Guid: NA
 Download Help Link: NA
 Help Version: NA
 Locale: en-US
 ms.assetid: 35D99F89-BD73-457E-95C7-73857656FB59
-updated_at: 03/15/2017 16:03 PM
-ms.date: 03/15/2017
+updated_at: 05/05/2017 18:05 PM
+ms.date: 05/05/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/release-ipclient/Azure%20Information%20Protection/AzureInformationProtection/vlatest/AIP.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/release-ipclient/Azure%20Information%20Protection/AzureInformationProtection/vlatest/AIP.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/62402f84aad1fec5db98297b866b737224d97a84
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/c937cb5494a0323ea2b12815fbda3351e572e7a3
 ms.topic: conceptual
 author: cabailey
 ms.author: PowerShellHelpPub

@@ -2,8 +2,8 @@
 external help file: AIP.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=845215
 schema: 2.0.0
-content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/docs-conceptual/Set-AIPFileClassification.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/docs-conceptual/Set-AIPFileClassification.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/release-ipclient/Azure%20Information%20Protection/docs-conceptual/Set-AIPFileClassification.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/release-ipclient/Azure%20Information%20Protection/docs-conceptual/Set-AIPFileClassification.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/e55c0c62c40f90211cdd94f07ae07bfcf4344df0
 open_to_public_contributors: false
 ---
