@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: F4B3017C-09C6-4423-ADC0-9F49F3F8AFB7
 online version:
 schema: 2.0.0
-updated_at: 05/03/2017 06:05 AM
-ms.date: 05/03/2017
+updated_at: 05/09/2017 23:05 PM
+ms.date: 05/09/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricDeployedServicePackageHealth.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricDeployedServicePackageHealth.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/40385fc07259a8f5f0d2cec04a231e9cd42fcff3
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a90f497e71b8b945255c38b1957de0521f008fdb
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -217,6 +217,3 @@ This cmdlet returns a **System.Fabric.Health.DeployedServicePackageHealth** obje
 [Get-ServiceFabricClusterConnection](./Get-ServiceFabricClusterConnection.md)
 
 [Get-ServiceFabricDeployedServicePackage](./Get-ServiceFabricDeployedServicePackage.md)
-
-<!--Link references--In actual articles, you only need a single period before the slash-->
-[1]: /azure/service-fabric/service-fabric-hosting-model

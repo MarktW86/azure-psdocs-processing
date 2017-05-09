@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 0A8D8356-C8A1-4EA7-9E0C-3C7A483EB72E
 online version:
 schema: 2.0.0
-updated_at: 05/09/2017 21:05 PM
+updated_at: 05/09/2017 23:05 PM
 ms.date: 05/09/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/New-ServiceFabricServiceFromTemplate.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/New-ServiceFabricServiceFromTemplate.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/c1b7792bfa7505252a5e7b377993086efa446f5b
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a90f497e71b8b945255c38b1957de0521f008fdb
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -227,6 +227,3 @@ This cmdlet returns the status of the operation as a string.
 [Remove-ServiceFabricService](./Remove-ServiceFabricService.md)
 
 [Update-ServiceFabricService](./Update-ServiceFabricService.md)
-
-<!--Link references--In actual articles, you only need a single period before the slash-->
-[1]: /azure/service-fabric/service-fabric-hosting-model
