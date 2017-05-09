@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 31BD0C1D-F4E0-40B2-B902-06B660D633D9
 online version:
 schema: 2.0.0
-updated_at: 05/01/2017 01:05 AM
-ms.date: 05/01/2017
+updated_at: 05/09/2017 20:05 PM
+ms.date: 05/09/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Restart-ServiceFabricNode.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Restart-ServiceFabricNode.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/13efd9995b1c1c9b4745bccd4872e700b292496b
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/1bb897cdf15d7149a6e9522f350507684ba544a8
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -158,14 +158,14 @@ Restart-ServiceFabricNode [-CommandCompletionMode <CompletionMode>] [-CreateFabr
 ## DESCRIPTION
 The **Restart-ServiceFabricNode** cmdlet restarts a Service Fabric node by restarting the Fabric.exe process that hosts the node.
 This cmdlet simulates Service Fabric node failures in the cluster, which tests the failover recovery paths of your service.
-For more information, see [Using test actions](https://docs.microsoft.com/azure/service-fabric/service-fabric-testability-actions).
+For more information, see [Using test actions](https://docs.microsoft.com/azure/service-fabric/service-fabric-testability-actions) (https://docs.microsoft.com/azure/service-fabric/service-fabric-testability-actions).
 
 The Service Fabric node to be restarted can specified in the following ways:
 - Specify node name and optionally the node instance ID.
 - Specify a stateful service replica or stateless service instance and let the cmdlet identify and restart the node that hosts it. The folowing implicit behaviors for replica/instance selection are worth noting:
-  - If the service does not use a Singleton partition and neither the **PartitionId** nor **PartitionKey** parameter is specified, then the cmdlet picks a partition randomly.
-  - If the service is a stateful service and none of the **Primary**, **RandomSecondary** and **ReplicaOrInstanceId** parameters are specified, then the cmdlet randomly picks a replica, regardless of its role.
-  - If the service is a stateless service and the **ReplicaOrInstanceId** parameter is not specified, then the cmdlet randomly picks an instance.
+  - If the service does not use a Singleton partition and neither the *PartitionId* nor *PartitionKey* parameter is specified, then the cmdlet picks a partition randomly.
+  - If the service is a stateful service and none of the *Primary*, *RandomSecondary* and *ReplicaOrInstanceId* parameters are specified, then the cmdlet randomly picks a replica, regardless of its role.
+  - If the service is a stateless service and the *ReplicaOrInstanceId* parameter is not specified, then the cmdlet randomly picks an instance.
 
 If you specify a non-zero value for the *NodeInstanceId* parameter, that ID is compared with the active node ID.
 If the IDs do not match, the process is not restarted and an error occurs.

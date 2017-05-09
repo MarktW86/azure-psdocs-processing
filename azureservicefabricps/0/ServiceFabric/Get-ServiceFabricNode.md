@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 27D58E8F-73CC-4FCE-90BD-449F86127385
 online version:
 schema: 2.0.0
-updated_at: 05/05/2017 00:05 AM
-ms.date: 05/05/2017
+updated_at: 05/09/2017 20:05 PM
+ms.date: 05/09/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricNode.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricNode.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/ab74e7f5446fc433a7adae0e8e813ba2b1651adb
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/1bb897cdf15d7149a6e9522f350507684ba544a8
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -70,7 +70,7 @@ Accept wildcard characters: False
 ### -StatusFilter
 Specifies the node status filter as a **[System.Fabric.Query.NodeStatusFilter](https://docs.microsoft.com/en-us/dotnet/api/system.fabric.query.nodestatusfilter)** object.
 
-Only nodes with status matching this filter will be returned in the results.
+Only nodes with status matching this filter is returned in the results.
 
 ```yaml
 Type: NodeStatusFilter

@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 9C765157-6B48-4AC8-A4D5-C26C098CFC17
 online version:
 schema: 2.0.0
-updated_at: 05/01/2017 01:05 AM
-ms.date: 05/01/2017
+updated_at: 05/09/2017 20:05 PM
+ms.date: 05/09/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricApplicationUpgrade.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricApplicationUpgrade.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/bc639dcc51c41995d05cc182fc17333fdf4d1541
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/fb65657f206b282950a0dc7c88cef3d2ca153f27
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -60,7 +60,7 @@ Use the [Register-ServiceFabricApplicationType](./Register-ServiceFabricApplicat
 
 This cmdlet starts the upgrade on the cluster. To check the status of the upgrade, run [Get-ServiceFabricApplicationUpgrade](./Get-ServiceFabricApplicationPackage.md) cmdlet.
 
-For more information on Service Fabric application upgrades, see the [conceptual documentation](https://docs.microsoft.com/azure/service-fabric/service-fabric-application-upgrade-tutorial-powershell)
+For more information on Service Fabric application upgrades, see the [conceptual documentation](https://docs.microsoft.com/azure/service-fabric/service-fabric-application-upgrade-tutorial-powershell) (https://docs.microsoft.com/azure/service-fabric/service-fabric-application-upgrade-tutorial-powershell).
 
 Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the [Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md) cmdlet.
 
@@ -77,7 +77,7 @@ The first command uses the [Copy-ServiceFabricApplicationPackage](./Copy-Service
 
 The second command uses the [Register-ServiceFabricApplicationType](./Register-ServiceFabricApplicationType) cmdlet to register the updated application type.
 
-The final command upgrades the application.
+The third command upgrades the application.
 The command performs an unmonitored manual upgrade, which includes a restart of the server that hosts the application.
 
 ## PARAMETERS

@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 83AFB00A-7A9E-4DCB-9000-720D3FCDB31C
 online version:
 schema: 2.0.0
-updated_at: 05/01/2017 01:05 AM
-ms.date: 05/01/2017
+updated_at: 05/09/2017 20:05 PM
+ms.date: 05/09/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Send-ServiceFabricDeployedApplicationHealthReport.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Send-ServiceFabricDeployedApplicationHealthReport.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/1312cdfafe390b430e84b53e2616321db2045d46
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/1bb897cdf15d7149a6e9522f350507684ba544a8
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -173,7 +173,7 @@ Accept wildcard characters: False
 ### -SequenceNumber
 Specifies the sequence number associated with the health report.
 If you do not specify a value for this parameter, the sequence number is set automatically.
-If you specify a sequence number, that value must be higher than any previous sequence number set on the same *SourceId* and *HealthProperty*, or the report will be rejected due to staleness.
+If you specify a sequence number, that value must be higher than any previous sequence number set on the same *SourceId* and *HealthProperty*, or the report is rejected due to staleness.
 
 ```yaml
 Type: Int64

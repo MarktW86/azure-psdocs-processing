@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 6DB6444E-9271-42D4-8EC9-73CA6A799369
 online version:
 schema: 2.0.0
-updated_at: 05/01/2017 01:05 AM
-ms.date: 05/01/2017
+updated_at: 05/09/2017 20:05 PM
+ms.date: 05/09/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Copy-ServiceFabricClusterPackage.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Copy-ServiceFabricClusterPackage.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/96a45eae1dcfb3f805c2e021d208ac11800a394a
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/1bb897cdf15d7149a6e9522f350507684ba544a8
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -58,7 +58,7 @@ Before you perform any operation on a Service Fabric cluster, establish a connec
 PS C:\> Copy-ServiceFabricClusterPackage -ClusterManifestPath "\\configStore\ClusterManifests\CH1\ClusterManifest_123.xml" -CodePackagePath "\\codeStore\MsiFiles\ServiceFabric.2.0.59.0.msi" -ImageStoreConnectionString "fabric:ImageStore"
 ```
 
-This command copies the specified MSI and cluster manifest file to the image store. When the *CodePackagePathInImageStore* or *ClusterManifestPathInImageStore* parameters are not provided, the file name will be used by default.
+This command copies the specified MSI and cluster manifest file to the image store. When the *CodePackagePathInImageStore* or *ClusterManifestPathInImageStore* parameters are not provided, the file name is used by default.
 
 ### Example 2: Copy only cluster manifest to the image store
 ```
