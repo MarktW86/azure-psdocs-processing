@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 80D9F43B-395B-4295-8D5B-CE56BB0B6FA2
 online version:
 schema: 2.0.0
-updated_at: 05/03/2017 21:05 PM
-ms.date: 05/03/2017
+updated_at: 05/09/2017 20:05 PM
+ms.date: 05/09/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/Graham71141/Service-Fabric-cmdlets/ServiceFabric/vlatest/Remove-ServiceFabricReplica.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/Graham71141/Service-Fabric-cmdlets/ServiceFabric/vlatest/Remove-ServiceFabricReplica.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/50b4a1d8c941cfe43b0ae98efc047bbdc78270fd
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/1bb897cdf15d7149a6e9522f350507684ba544a8
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -167,11 +167,11 @@ This cmdlet tests the replica state removal path, and simulates the report fault
 
 In order to specify the replica to be removed we can start either with the node name or the service name. 
 
-Then we need to specify the partition to which the replica belongs. We can specify the partition either by specifying the pair (naming scheme, partition key) or by specifying the partition ID. For more details on Microsoft Azure Service Fabric partitioning, please refer to the [Partition Service Fabric reliable services](/azure/service-fabric/service-fabric-concepts-partitioning) article.  
+Then we need to specify the partition to which the replica belongs. We can specify the partition either by specifying the pair (naming scheme, partition key) or by specifying the partition ID. For more details on Microsoft Azure Service Fabric partitioning, please refer to the [Partition Service Fabric reliable services](/azure/service-fabric/service-fabric-concepts-partitioning)  (/azure/service-fabric/service-fabric-concepts-partitioning) article.  
 
 Lastly, we may need to specify which replica of the partition we are referring to and that can be done either by specifying the replica role (primary or secondary replica) or by specifying the replica ID.
 
-Note, sometimes the user may - instead of exactly specifying the replica - want to remove say one of the secondaries of a particular partition of a particular service; that is why, some of the forms of the Remove-ServiceFabricReplica cmdlet intentionally leaves some ambiguity about which replica the user is referring -- in these cases, the cmdlet makes some random choices for the user. For example, if the user only provides the service name to the cmdlet, the Remove-ServiceFabricReplica cmdlet will assume that the user means to remove any one of the replicas from any one of the partitions belonging to the service; so it will choose one of the partitions of the service at random and will choose one of the replicas (could be primary or secondary) of the chosen partition at random and will remove that replica.
+Note, sometimes the user may - instead of exactly specifying the replica - want to remove say one of the secondaries of a particular partition of a particular service; that is why, some of the forms of the **Remove-ServiceFabricReplica** cmdlet intentionally leaves some ambiguity about which replica the user is referring -- in these cases, the cmdlet makes some random choices for the user. For example, if the user only provides the service name to the cmdlet, the **Remove-ServiceFabricReplica** cmdlet will assume that the user means to remove any one of the replicas from any one of the partitions belonging to the service; so it will choose one of the partitions of the service at random and will choose one of the replicas (could be primary or secondary) of the chosen partition at random and will remove that replica.
 
 
 ## EXAMPLES

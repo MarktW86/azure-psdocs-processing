@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 3C647305-B5A8-4CB7-8655-CC7695736CE0
 online version:
 schema: 2.0.0
-updated_at: 05/03/2017 21:05 PM
-ms.date: 05/03/2017
+updated_at: 05/09/2017 20:05 PM
+ms.date: 05/09/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/Graham71141/Service-Fabric-cmdlets/ServiceFabric/vlatest/New-ServiceFabricService.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/Graham71141/Service-Fabric-cmdlets/ServiceFabric/vlatest/New-ServiceFabricService.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/50b4a1d8c941cfe43b0ae98efc047bbdc78270fd
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/1bb897cdf15d7149a6e9522f350507684ba544a8
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -224,7 +224,7 @@ Accept wildcard characters: False
 
 ### -Correlation
 Correlation is a control that is provided mainly to help ease the transition of larger monolithic applications into the cloud and microservices world.
-For more information, see [Managing resource consumption and load in Service Fabric with metrics](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-resource-manager-advanced-placement-rules-affinity).
+For more information, see [Managing resource consumption and load in Service Fabric with metrics](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-resource-manager-advanced-placement-rules-affinity) (https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-resource-manager-advanced-placement-rules-affinity) .
 
 ```yaml
 Type: String[]
@@ -248,7 +248,7 @@ Valid values are:
 - Medium
 - High
 
-For more information, see [Managing resource consumption and load in Service Fabric with metrics](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-resource-manager-movement-cost).
+For more information, see [Managing resource consumption and load in Service Fabric with metrics](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-resource-manager-movement-cost) (https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-resource-manager-movement-cost).
 
 ```yaml
 Type: String
@@ -328,7 +328,7 @@ Accept wildcard characters: False
 ### -Metric
 Metrics are the set of resources that a given named service instance needs. A service's metric configuration includes how much of that resource each stateful replica or stateless instance of that service consumes by default. Metrics also include a weight that indicates how important balancing that metric is to that service, in case tradeoffs are necessary.
 
-For more information, see [Managing resource consumption and load in Service Fabric with metrics](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-resource-manager-metrics).
+For more information, see [Managing resource consumption and load in Service Fabric with metrics](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-resource-manager-metrics) (https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-resource-manager-metrics).
 
 ```yaml
 Type: String[]
@@ -436,7 +436,7 @@ Accept wildcard characters: False
 
 ### -PlacementConstraint
 Placement Constraints are Boolean statements which allow services to select for particular node properties (and the values of those properties) in order to control where it is legal to place them.
-For more information, see [Placement constraints and node properties](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-resource-manager-cluster-description#placement-constraints-and-node-properties).
+For more information, see [Placement constraints and node properties](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-resource-manager-cluster-description#placement-constraints-and-node-properties) (https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-resource-manager-cluster-description#placement-constraints-and-node-properties).
 
 ```yaml
 Type: String
@@ -452,7 +452,7 @@ Accept wildcard characters: False
 
 ### -PlacementPolicy
 Placement Policies are used to for a given service to always run or never run in certain regions, similarly to try to place the Primary in a certain region to minimize end-user latency.
-For more information, see [Placement policies for service fabric services](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-resource-manager-advanced-placement-rules-placement-policies).
+For more information, see [Placement policies for service fabric services](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-resource-manager-advanced-placement-rules-placement-policies) (https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-resource-manager-advanced-placement-rules-placement-policies).
 
 ```yaml
 Type: String[]

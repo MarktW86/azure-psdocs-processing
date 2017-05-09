@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: D081C4DD-6311-46E4-9162-C32BDD48FF32
 online version:
 schema: 2.0.0
-updated_at: 05/03/2017 21:05 PM
-ms.date: 05/03/2017
+updated_at: 05/09/2017 20:05 PM
+ms.date: 05/09/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/Graham71141/Service-Fabric-cmdlets/ServiceFabric/vlatest/Remove-ServiceFabricService.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/Graham71141/Service-Fabric-cmdlets/ServiceFabric/vlatest/Remove-ServiceFabricService.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/50b4a1d8c941cfe43b0ae98efc047bbdc78270fd
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/1bb897cdf15d7149a6e9522f350507684ba544a8
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -51,7 +51,7 @@ PS C:\> Remove-ServiceFabricService -ServiceName fabric:/myapp/persistenttodolis
 ```
 
 This command force removes the specified Service Fabric service.
-Because the command includes the *Confirm* parameter, the cmdlet will prompt you to confirm if it is the intended service name you want to execute the operation on. After the confirmation, the service will be removed ungracefully because of the *ForceRemove* parameter.
+Because the command includes the *Confirm* parameter, the cmdlet will prompt you to confirm if it is the intended service name you want to execute the operation on. After the confirmation, the service is removed ungracefully because of the *ForceRemove* parameter.
 
 ### Example 3: ForceRemove a service fabric service with Timeout
 ```
@@ -80,7 +80,7 @@ Accept wildcard characters: False
 
 ### -ForceRemove
 Indicates that this command forces removal of the Service Fabric service. This should be used only if the removal of the service is timing out.
-For example: IF Remove-ServiceFabricService is timing out and the replicas of the service are still present then, this means that the service is stuck in ChangeRole/Close and the shutdown sequence cannot complete. By using -ForceRemove, we skip the service shutdown sequence and the service is removed ungracefully. To check if replicas are present, use [Get-ServiceFabricReplica](./Get-ServiceFabricReplica.md).
+For example: If **Remove-ServiceFabricService** is timing out and the replicas of the service are still present then, this means that the service is stuck in ChangeRole/Close and the shutdown sequence cannot complete. By using *ForceRemove*, we skip the service shutdown sequence and the service is removed ungracefully. To check if replicas are present, use [Get-ServiceFabricReplica](./Get-ServiceFabricReplica.md).
 
 ```yaml
 Type: SwitchParameter
@@ -141,7 +141,7 @@ Accept wildcard characters: False
 
 ### -WhatIf
 Shows what would happen if the cmdlet runs.
-The cmdlet is not run and no permanent changes will be made.
+The cmdlet is not run and no permanent changes are made.
 
 ```yaml
 Type: SwitchParameter

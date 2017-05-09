@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 6777C2BF-2F6C-4C1D-86E2-E21A069AC766
 online version:
 schema: 2.0.0
-updated_at: 05/03/2017 21:05 PM
-ms.date: 05/03/2017
+updated_at: 05/09/2017 20:05 PM
+ms.date: 05/09/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/Graham71141/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricChaos.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/Graham71141/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricChaos.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/50b4a1d8c941cfe43b0ae98efc047bbdc78270fd
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/1bb897cdf15d7149a6e9522f350507684ba544a8
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -52,7 +52,7 @@ PS C:\> $context = @{"k1" = "v1";"k2" = "v2"}
 PS C:\> Start-ServiceFabricChaos -TimeToRunMinute 60 -MaxConcurrentFaults 3 -MaxClusterStabilizationTimeoutSec 60 -WaitTimeBetweenIterationsSec 30 -WaitTimeBetweenFaultsSec 5 -EnableMoveReplicaFaults -Context $context -ClusterHealthPolicy $clusterHealthPolicy
 ```
 
-This command starts a Chaos run in the cluster. In this run, iterations will be spaced at 30 second boundary. Within each iteration, chaos induces maximum of three faults. These faults will be started at a gap of five seconds. This run, unless stopped by another method, will stop in 60 minutes.
+This command starts a Chaos run in the cluster. In this run, iterations are spaced at 30 second boundary. Within each iteration, chaos induces maximum of three faults. These faults are started at a gap of five seconds. This run, unless stopped by another method, will stop in 60 minutes.
 
 If Chaos was already running, issuing this cmdlet has no effect.
 

@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 51657577-F2A0-4D22-822C-3586F0A70B04
 online version:
 schema: 2.0.0
-updated_at: 05/03/2017 21:05 PM
-ms.date: 05/03/2017
+updated_at: 05/09/2017 20:05 PM
+ms.date: 05/09/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/Graham71141/Service-Fabric-cmdlets/ServiceFabric/vlatest/Copy-ServiceFabricApplicationPackage.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/Graham71141/Service-Fabric-cmdlets/ServiceFabric/vlatest/Copy-ServiceFabricApplicationPackage.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/50b4a1d8c941cfe43b0ae98efc047bbdc78270fd
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/1bb897cdf15d7149a6e9522f350507684ba544a8
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -127,7 +127,7 @@ Accept wildcard characters: False
 ```
 
 ### -CompressPackage
-Specifies to compresses all sub-directories under the service directory (code/config/data packages) in the application package. If *SkipCopy* is not specified, the folders will be compressed before copying the application package to the image store.
+Specifies to compresses all sub-directories under the service directory (code/config/data packages) in the application package. If *SkipCopy* is not specified, the folders is compressed before copying the application package to the image store.
 
 ```yaml
 Type: SwitchParameter
