@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: D3EBED16-23D5-4F21-8917-21E36A6ADD78
 online version:
 schema: 2.0.0
-updated_at: 05/01/2017 01:05 AM
-ms.date: 05/01/2017
+updated_at: 05/03/2017 06:05 AM
+ms.date: 05/03/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricClusterManifest.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricClusterManifest.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/5cf54dbcd70ba1776dc569f2d0989a998e4153a4
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/40385fc07259a8f5f0d2cec04a231e9cd42fcff3
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -26,7 +26,7 @@ Cluster manifest includes default configurations for the cluster such as [Reliab
 ## SYNTAX
 
 ```
-Get-ServiceFabricClusterManifest [-TimeoutSec <Int32>] [<CommonParameters>]
+Get-ServiceFabricClusterManifest [-ClusterManifestVersion <String>] [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -45,13 +45,28 @@ This command gets the cluster manifest for the current Service Fabric connection
 
 ## PARAMETERS
 
+### -ClusterManifestVersion
+{{Fill ClusterManifestVersion Description}}
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
 ### -TimeoutSec
 Specifies the time-out period, in seconds, for the operation.
 
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named

@@ -2,11 +2,11 @@
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 05/09/2017 21:05 PM
-ms.date: 05/09/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricPackageDebugParameters.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricPackageDebugParameters.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/c1b7792bfa7505252a5e7b377993086efa446f5b
+updated_at: 05/01/2017 23:05 PM
+ms.date: 05/01/2017
+content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Set-ServiceFabricReplicaPlacementHealthReporting.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Set-ServiceFabricReplicaPlacementHealthReporting.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/ad10060856cf8c0cc7c2aad3761110294d3c26ad
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -16,42 +16,49 @@ open_to_public_contributors: false
 ms.service: service-fabric
 ---
 
-# Get-ServiceFabricPackageDebugParameters
+# Set-ServiceFabricReplicaPlacementHealthReporting
 
 ## SYNOPSIS
-
+{{Fill in the Synopsis}}
 
 ## SYNTAX
 
 ```
-Get-ServiceFabricPackageDebugParameters [-DebugParameters] <CodePackageDebugParameters[]> [-TimeoutSec <Int32>]
+Set-ServiceFabricReplicaPlacementHealthReporting [-Enabled] <Boolean> [-TimeoutSec <Int32>]
  [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-
+{{Fill in the Description}}
 
 ## EXAMPLES
 
+### Example 1
+```
+PS C:\> {{ Add example code here }}
+```
+
+{{ Add example description here }}
+
 ## PARAMETERS
 
-### -DebugParameters
-
+### -Enabled
+{{Fill Enabled Description}}
 
 ```yaml
-Type: CodePackageDebugParameters[]
+Type: Boolean
 Parameter Sets: (All)
 Aliases: 
 
 Required: True
 Position: 0
 Default value: None
-Accept pipeline input: False
+Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
 ### -TimeoutSec
-
+{{Fill TimeoutSec Description}}
 
 ```yaml
 Type: Int32
@@ -70,7 +77,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## INPUTS
 
-### None
+### System.Boolean
 
 ## OUTPUTS
 
@@ -79,3 +86,4 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+

@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: C312AB4D-6C4F-404B-8335-A911EFFBD6E0
 online version:
 schema: 2.0.0
-updated_at: 05/01/2017 01:05 AM
-ms.date: 05/01/2017
+updated_at: 05/03/2017 06:05 AM
+ms.date: 05/03/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Invoke-ServiceFabricPartitionQuorumLoss.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Invoke-ServiceFabricPartitionQuorumLoss.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/95eefd91bf9748f8220abdd2a199e8dc13681867
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/40385fc07259a8f5f0d2cec04a231e9cd42fcff3
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -30,6 +30,12 @@ Invoke-ServiceFabricPartitionQuorumLoss -QuorumLossMode <QuorumLossMode> -Quorum
  -PartitionId <Guid> -ServiceName <Uri> [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
+### ServiceNameRandomPartition
+```
+Invoke-ServiceFabricPartitionQuorumLoss -QuorumLossMode <QuorumLossMode> -QuorumLossDurationInSeconds <Int32>
+ -ServiceName <Uri> [-TimeoutSec <Int32>] [<CommonParameters>]
+```
+
 ### ServiceNamePartitionSingleton
 ```
 Invoke-ServiceFabricPartitionQuorumLoss -QuorumLossMode <QuorumLossMode> -QuorumLossDurationInSeconds <Int32>
@@ -42,12 +48,6 @@ Invoke-ServiceFabricPartitionQuorumLoss -QuorumLossMode <QuorumLossMode> -Quorum
  -ServiceName <Uri> [-PartitionKindNamed] -PartitionKey <String> [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
-### ServiceNameRandomPartition
-```
-Invoke-ServiceFabricPartitionQuorumLoss -QuorumLossMode <QuorumLossMode> -QuorumLossDurationInSeconds <Int32>
- -ServiceName <Uri> [-TimeoutSec <Int32>] [<CommonParameters>]
-```
-
 ### ServiceNamePartitionUniformedInt
 ```
 Invoke-ServiceFabricPartitionQuorumLoss -QuorumLossMode <QuorumLossMode> -QuorumLossDurationInSeconds <Int32>
@@ -57,6 +57,8 @@ Invoke-ServiceFabricPartitionQuorumLoss -QuorumLossMode <QuorumLossMode> -Quorum
 
 ## DESCRIPTION
 The **Invoke-ServiceFabricPartitionQuorumLoss** cmdlet induces quorum loss in a Service Fabric partition for a specified amount of time.
+
+## EXAMPLES
 
 ## PARAMETERS
 
@@ -211,6 +213,8 @@ Represents the name of a Service Fabric service.
 
 ### System.Object
 This cmdlet returns a **System.Fabric.Testability.InvokeQuorumLossResult** object that represents the operation result.
+
+## NOTES
 
 ## RELATED LINKS
 

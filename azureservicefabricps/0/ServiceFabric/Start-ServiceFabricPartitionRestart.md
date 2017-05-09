@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 2E71980D-7493-4C14-BA4A-1AB48398594A
 online version:
 schema: 2.0.0
-updated_at: 05/01/2017 02:05 AM
-ms.date: 05/01/2017
+updated_at: 05/03/2017 06:05 AM
+ms.date: 05/03/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricPartitionRestart.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricPartitionRestart.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/ba17d5ca32268bd126aa13029456fdec3c3aedf4
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/40385fc07259a8f5f0d2cec04a231e9cd42fcff3
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -30,6 +30,12 @@ Start-ServiceFabricPartitionRestart -OperationId <Guid> -RestartPartitionMode <R
  -PartitionId <Guid> -ServiceName <Uri> [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
+### ServiceNameRandomPartition
+```
+Start-ServiceFabricPartitionRestart -OperationId <Guid> -RestartPartitionMode <RestartPartitionMode>
+ -ServiceName <Uri> [-TimeoutSec <Int32>] [<CommonParameters>]
+```
+
 ### ServiceNamePartitionSingleton
 ```
 Start-ServiceFabricPartitionRestart -OperationId <Guid> -RestartPartitionMode <RestartPartitionMode>
@@ -40,12 +46,6 @@ Start-ServiceFabricPartitionRestart -OperationId <Guid> -RestartPartitionMode <R
 ```
 Start-ServiceFabricPartitionRestart -OperationId <Guid> -RestartPartitionMode <RestartPartitionMode>
  -ServiceName <Uri> [-PartitionKindNamed] -PartitionKey <String> [-TimeoutSec <Int32>] [<CommonParameters>]
-```
-
-### ServiceNameRandomPartition
-```
-Start-ServiceFabricPartitionRestart -OperationId <Guid> -RestartPartitionMode <RestartPartitionMode>
- -ServiceName <Uri> [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
 ### ServiceNamePartitionUniformedInt

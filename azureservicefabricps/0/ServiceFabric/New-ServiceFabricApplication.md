@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 5CF5310E-E6BC-4F08-858A-DC9CF5FC0493
 online version:
 schema: 2.0.0
-updated_at: 05/08/2017 21:05 PM
-ms.date: 05/08/2017
+updated_at: 05/09/2017 21:05 PM
+ms.date: 05/09/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/New-ServiceFabricApplication.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/New-ServiceFabricApplication.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/276357553b35ff65a24694f725d4dbdd6add4950
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/c1b7792bfa7505252a5e7b377993086efa446f5b
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -51,8 +51,6 @@ PS C:\> New-ServiceFabricApplication -ApplicationName fabric:/myapp/persistentto
 ```
 
 This command creates an application of the type PersistentToDoListApp and version 1.0 with overridden values for parameters CustomParameter1 and CustomParameter2. These parameter names must exist in the application manifest of the application package that was used when registering the application using [Register-ServiceFabricApplicationType](.\Register-ServiceFabricApplicationType.md) cmdlet.
-
-
 
 ## PARAMETERS
 

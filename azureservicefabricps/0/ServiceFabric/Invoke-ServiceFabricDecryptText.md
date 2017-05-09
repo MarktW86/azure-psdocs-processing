@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 73384750-6F54-4B7D-AD7D-BE53426132A4
 online version:
 schema: 2.0.0
-updated_at: 05/08/2017 21:05 PM
-ms.date: 05/08/2017
+updated_at: 05/09/2017 21:05 PM
+ms.date: 05/09/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Invoke-ServiceFabricDecryptText.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Invoke-ServiceFabricDecryptText.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/276357553b35ff65a24694f725d4dbdd6add4950
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/c1b7792bfa7505252a5e7b377993086efa446f5b
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -46,7 +46,6 @@ PS C:\windows\system32> $EncryptedText = Invoke-ServiceFabricEncryptText -Text "
 
 PS C:\windows\system32> Invoke-ServiceFabricDecryptText -CipherText $EncryptedText -StoreLocation "LocalMachine"
 hello world
-
 ```
 
 The first command encrypts text using the **Invoke-ServiceFabricEncryptText** cmdlet and stores the result in the variable named $EncryptedText.

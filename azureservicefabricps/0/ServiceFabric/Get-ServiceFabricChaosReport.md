@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: D4F9D188-FFB3-4D93-870C-6C6076CBA6AE
 online version:
 schema: 2.0.0
-updated_at: 05/09/2017 20:05 PM
+updated_at: 05/09/2017 21:05 PM
 ms.date: 05/09/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricChaosReport.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricChaosReport.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/1bb897cdf15d7149a6e9522f350507684ba544a8
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/c1b7792bfa7505252a5e7b377993086efa446f5b
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -36,7 +36,6 @@ If there are a large number of Chaos events, the data is reported in batches. Ea
 
 For more information about Chaos, see the article [Inducing Chaos](https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-controlled-chaos).
 
-
 ## EXAMPLES
 
 ### Example 1: View Chaos report
@@ -46,6 +45,7 @@ $EndTime = $Now.ToUniversalTime()
 $StartTime = $EndTime.AddMinutes(-2)
 Get-ServiceFabricChaosReport -StartTimeUtc $StartTime -EndTimeUtc $EndTime -Verbose
 ```
+
 This command returns the Chaos events from the previous two minutes.
 
 ## PARAMETERS

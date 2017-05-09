@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 26459CBC-9296-4B65-A298-E6B31EF65865
 online version:
 schema: 2.0.0
-updated_at: 05/08/2017 21:05 PM
-ms.date: 05/08/2017
+updated_at: 05/09/2017 21:05 PM
+ms.date: 05/09/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricTestCommandStatusList.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricTestCommandStatusList.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/276357553b35ff65a24694f725d4dbdd6add4950
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/c1b7792bfa7505252a5e7b377993086efa446f5b
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -40,6 +40,7 @@ The Operation ID returned can be used to get additional details about the fault 
 | PartitionQuorumLoss | [Get-ServiceFabricPartitionQuorumLossProgress](./Get-ServiceFabricPartitionQuorumLossProgress) |
 | PartitionRestart | [Get-ServiceFabricPartitionRestartProgress](./Get-ServiceFabricPartitionRestartProgress) |
 | NodeTransition | [Get-ServiceFabricNodeTransitionProgress](./Get-ServiceFabricNodeTransitionProgress) |
+
 ## EXAMPLES
 
 ### Example 1: Get status of cancelled test commands

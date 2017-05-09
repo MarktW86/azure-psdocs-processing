@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 298F2C12-F1BE-4341-B5A0-4C45CF45EB52
 online version:
 schema: 2.0.0
-updated_at: 05/01/2017 02:05 AM
-ms.date: 05/01/2017
+updated_at: 05/03/2017 06:05 AM
+ms.date: 05/03/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Unregister-ServiceFabricClusterPackage.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Unregister-ServiceFabricClusterPackage.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/7b12102d27b7c92e57fda9ae5c856cf51d47b689
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/40385fc07259a8f5f0d2cec04a231e9cd42fcff3
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -30,16 +30,16 @@ Unregister-ServiceFabricClusterPackage -CodePackageVersion <String> -ClusterMani
  [-TimeoutSec <Int32>] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
-### Code only
+### Code
 ```
-Unregister-ServiceFabricClusterPackage [-Code] -CodePackageVersion <String>
+Unregister-ServiceFabricClusterPackage [-Code] -CodePackageVersion <String> [-ClusterManifestVersion <String>]
  [-Force] [-TimeoutSec <Int32>] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ### Config
 ```
-Unregister-ServiceFabricClusterPackage [-Config] -ClusterManifestVersion <String> 
-[-Force] [-TimeoutSec <Int32>] [-WhatIf] [-Confirm] [<CommonParameters>]
+Unregister-ServiceFabricClusterPackage [-Config] [-CodePackageVersion <String>]
+ -ClusterManifestVersion <String> [-Force] [-TimeoutSec <Int32>] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ## DESCRIPTION

@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 9B02EBD3-595C-46EF-B5DE-4E65BA60129C
 online version:
 schema: 2.0.0
-updated_at: 05/09/2017 20:05 PM
+updated_at: 05/09/2017 21:05 PM
 ms.date: 05/09/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Send-ServiceFabricDeployedServicePackageHealthReport.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Send-ServiceFabricDeployedServicePackageHealthReport.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/1bb897cdf15d7149a6e9522f350507684ba544a8
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/c1b7792bfa7505252a5e7b377993086efa446f5b
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -26,9 +26,9 @@ Sends a health report on a Service Fabric deployed service package.
 
 ```
 Send-ServiceFabricDeployedServicePackageHealthReport [-ApplicationName] <Uri> [-ServiceManifestName] <String>
- [-NodeName] <String> -HealthState <HealthState> -SourceId <String> -HealthProperty <String>
- [-Description <String>] [-TimeToLiveSec <Int32>] [-RemoveWhenExpired] [-SequenceNumber <Int64>]
- [-TimeoutSec <Int32>] [<CommonParameters>]
+ [-NodeName] <String> [-ServicePackageActivationId <String>] -HealthState <HealthState> -SourceId <String>
+ -HealthProperty <String> [-Description <String>] [-TimeToLiveSec <Int32>] [-RemoveWhenExpired]
+ [-SequenceNumber <Int64>] [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -207,6 +207,23 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
+### -ServicePackageActivationId
+The activation id of the deployed *ServicePackage*. This can be obtained by using the query [Get-ServiceFabricDeployedServicePackage](Get-ServiceFabricDeployedServicePackage.md).
+
+If *ServicePackageActivationMode* specified at the time of creating the service (using [New-ServiceFabricService](New-ServiceFabricService.md)) is *SharedProcess* (or if it is not specfied, in which case it defaults to *SharedProcess*), then value of *ServicePackageActivationId* is always an empty string and need not be specified. To learn more about service package activation id, please see [Service Fabric Hosting Model][1].
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
 ### -SourceId
 Specifies the identifier of the source that triggered the report.
 
@@ -279,3 +296,6 @@ This cmdlet does not return any output.
 [Get-ServiceFabricDeployedApplicationHealth](./Get-ServiceFabricDeployedApplicationHealth.md)
 
 [Get-ServiceFabricClusterConnection](./Get-ServiceFabricClusterConnection.md)
+
+<!--Link references--In actual articles, you only need a single period before the slash-->
+[1]: /azure/service-fabric/service-fabric-hosting-model

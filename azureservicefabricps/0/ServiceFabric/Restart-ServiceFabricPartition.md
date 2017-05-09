@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: C6C8C091-9A47-4AB1-B10B-27D0D6D2F7AE
 online version:
 schema: 2.0.0
-updated_at: 05/01/2017 01:05 AM
-ms.date: 05/01/2017
+updated_at: 05/03/2017 06:05 AM
+ms.date: 05/03/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Restart-ServiceFabricPartition.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Restart-ServiceFabricPartition.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/c9a8515df407a222d8cb9ed07b96af65c8405a01
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/40385fc07259a8f5f0d2cec04a231e9cd42fcff3
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -30,6 +30,12 @@ Restart-ServiceFabricPartition -RestartPartitionMode <RestartPartitionMode> -Par
  -ServiceName <Uri> [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
+### ServiceNameRandomPartition
+```
+Restart-ServiceFabricPartition -RestartPartitionMode <RestartPartitionMode> -ServiceName <Uri>
+ [-TimeoutSec <Int32>] [<CommonParameters>]
+```
+
 ### ServiceNamePartitionSingleton
 ```
 Restart-ServiceFabricPartition -RestartPartitionMode <RestartPartitionMode> -ServiceName <Uri>
@@ -40,12 +46,6 @@ Restart-ServiceFabricPartition -RestartPartitionMode <RestartPartitionMode> -Ser
 ```
 Restart-ServiceFabricPartition -RestartPartitionMode <RestartPartitionMode> -ServiceName <Uri>
  [-PartitionKindNamed] -PartitionKey <String> [-TimeoutSec <Int32>] [<CommonParameters>]
-```
-
-### ServiceNameRandomPartition
-```
-Restart-ServiceFabricPartition -RestartPartitionMode <RestartPartitionMode> -ServiceName <Uri>
- [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
 ### ServiceNamePartitionUniformedInt

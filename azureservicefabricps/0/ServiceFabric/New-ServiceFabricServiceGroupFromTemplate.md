@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 2758DDB2-A3A0-48FF-B704-4BE8FD088B5D
 online version:
 schema: 2.0.0
-updated_at: 05/01/2017 02:05 AM
-ms.date: 05/01/2017
+updated_at: 05/03/2017 06:05 AM
+ms.date: 05/03/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/New-ServiceFabricServiceGroupFromTemplate.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/New-ServiceFabricServiceGroupFromTemplate.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/cab923fdec248eef92d581c805a69c0a129ab36d
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/40385fc07259a8f5f0d2cec04a231e9cd42fcff3
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -26,7 +26,8 @@ Creates a Service Fabric service group from a service template.
 
 ```
 New-ServiceFabricServiceGroupFromTemplate [-ApplicationName] <Uri> [-ServiceName] <Uri>
- [-ServiceTypeName] <String> [-Force] [-TimeoutSec <Int32>] [<CommonParameters>]
+ [-ServiceTypeName] <String> [-Force] [-ServicePackageActivationMode <ServicePackageActivationMode>]
+ [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -92,6 +93,23 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
+### -ServicePackageActivationMode
+Controls the [hosting model][1] to be used for the service. Valid values are **SharedProcess** and **ExclusiveProcess**. The default is **SharedProcess**. 
+
+With **SharedProcess** activation mode, replicas (or instances) of different services of a given *ServiceType* will share same *ServiceHost*. With **ExclusiveProcess** activation mode, each replica or instance of a service will have its own dedicated *ServiceHost*. For more details, please see [Service Fabric Hosting Model][1].
+
+```yaml
+Type: ServicePackageActivationMode
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
 ### -ServiceTypeName
 Specifies the name of a Service Fabric service group type.
 
@@ -142,3 +160,6 @@ This cmdlet returns the status of the operation as a string.
 [Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md)
 
 [New-ServiceFabricServiceGroup](./New-ServiceFabricServiceGroup.md)
+
+<!--Link references--In actual articles, you only need a single period before the slash-->
+[1]: /azure/service-fabric/service-fabric-hosting-model

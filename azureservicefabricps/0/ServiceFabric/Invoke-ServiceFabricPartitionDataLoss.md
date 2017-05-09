@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: D772E7FA-EA9A-494A-913F-584F9891F880
 online version:
 schema: 2.0.0
-updated_at: 05/01/2017 01:05 AM
-ms.date: 05/01/2017
+updated_at: 05/03/2017 06:05 AM
+ms.date: 05/03/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Invoke-ServiceFabricPartitionDataLoss.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Invoke-ServiceFabricPartitionDataLoss.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/8c777c9e2c11342170413dc9180478bed2511abe
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/40385fc07259a8f5f0d2cec04a231e9cd42fcff3
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -30,6 +30,12 @@ Invoke-ServiceFabricPartitionDataLoss -DataLossMode <DataLossMode> -PartitionId 
  [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
+### ServiceNameRandomPartition
+```
+Invoke-ServiceFabricPartitionDataLoss -DataLossMode <DataLossMode> -ServiceName <Uri> [-TimeoutSec <Int32>]
+ [<CommonParameters>]
+```
+
 ### ServiceNamePartitionSingleton
 ```
 Invoke-ServiceFabricPartitionDataLoss -DataLossMode <DataLossMode> -ServiceName <Uri> [-PartitionKindSingleton]
@@ -42,12 +48,6 @@ Invoke-ServiceFabricPartitionDataLoss -DataLossMode <DataLossMode> -ServiceName 
  -PartitionKey <String> [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
-### ServiceNameRandomPartition
-```
-Invoke-ServiceFabricPartitionDataLoss -DataLossMode <DataLossMode> -ServiceName <Uri> [-TimeoutSec <Int32>]
- [<CommonParameters>]
-```
-
 ### ServiceNamePartitionUniformedInt
 ```
 Invoke-ServiceFabricPartitionDataLoss -DataLossMode <DataLossMode> -ServiceName <Uri>
@@ -56,6 +56,8 @@ Invoke-ServiceFabricPartitionDataLoss -DataLossMode <DataLossMode> -ServiceName 
 
 ## DESCRIPTION
 The **Invoke-ServiceFabricPartitionDataLoss** cmdlet induces data loss in a specified Service Fabric partition to test the data recovery path for a service.
+
+## EXAMPLES
 
 ## PARAMETERS
 
@@ -199,6 +201,8 @@ Represents the name of a Service Fabric service.
 
 ### System.Object
 This cmdlet returns a **System.Fabric.Testability.InvokeDataLossResult** object that represents the operation result.
+
+## NOTES
 
 ## RELATED LINKS
 

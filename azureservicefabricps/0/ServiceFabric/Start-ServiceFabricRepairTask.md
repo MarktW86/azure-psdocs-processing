@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 239A882B-8E31-4404-AB35-2A39D8ABC600
 online version:
 schema: 2.0.0
-updated_at: 05/09/2017 20:05 PM
+updated_at: 05/09/2017 21:05 PM
 ms.date: 05/09/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricRepairTask.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricRepairTask.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/1bb897cdf15d7149a6e9522f350507684ba544a8
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/c1b7792bfa7505252a5e7b377993086efa446f5b
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -30,15 +30,15 @@ Start-ServiceFabricRepairTask [-NodeName] <String> [-NodeAction] <SystemNodeRepa
  [-Description <String>] [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
-### NodeManual
-```
-Start-ServiceFabricRepairTask [-NodeNames] <String[]> [-NodeImpact] <NodeImpactLevel> [-TaskId <String>]
- [-Description <String>] [-TimeoutSec <Int32>] [<CommonParameters>]
-```
-
 ### NodeCustomAuto
 ```
 Start-ServiceFabricRepairTask [-NodeNames] <String[]> [-CustomAction] <String> [-TaskId <String>]
+ [-Description <String>] [-TimeoutSec <Int32>] [<CommonParameters>]
+```
+
+### NodeManual
+```
+Start-ServiceFabricRepairTask [-NodeNames] <String[]> [-NodeImpact] <NodeImpactLevel> [-TaskId <String>]
  [-Description <String>] [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
@@ -178,7 +178,7 @@ This cmdlet repairs the nodes that this parameter specifies.
 
 ```yaml
 Type: String[]
-Parameter Sets: NodeManual, NodeCustomAuto
+Parameter Sets: NodeCustomAuto, NodeManual
 Aliases: 
 
 Required: True

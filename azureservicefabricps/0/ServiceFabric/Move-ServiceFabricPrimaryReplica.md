@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 22D597E5-47A6-483C-88C6-DDAC072424DE
 online version:
 schema: 2.0.0
-updated_at: 05/01/2017 01:05 AM
-ms.date: 05/01/2017
+updated_at: 05/03/2017 06:05 AM
+ms.date: 05/03/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Move-ServiceFabricPrimaryReplica.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Move-ServiceFabricPrimaryReplica.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/8351d444035f97845c3441fc8aa1f798909169c2
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/40385fc07259a8f5f0d2cec04a231e9cd42fcff3
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -30,6 +30,12 @@ Move-ServiceFabricPrimaryReplica [-NodeName <String>] [-IgnoreConstraints <Boole
  -ServiceName <Uri> [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
+### ServiceNameRandomPartition
+```
+Move-ServiceFabricPrimaryReplica [-NodeName <String>] [-IgnoreConstraints <Boolean>] -ServiceName <Uri>
+ [-TimeoutSec <Int32>] [<CommonParameters>]
+```
+
 ### ServiceNamePartitionSingleton
 ```
 Move-ServiceFabricPrimaryReplica [-NodeName <String>] [-IgnoreConstraints <Boolean>] -ServiceName <Uri>
@@ -40,12 +46,6 @@ Move-ServiceFabricPrimaryReplica [-NodeName <String>] [-IgnoreConstraints <Boole
 ```
 Move-ServiceFabricPrimaryReplica [-NodeName <String>] [-IgnoreConstraints <Boolean>] -ServiceName <Uri>
  [-PartitionKindNamed] -PartitionKey <String> [-TimeoutSec <Int32>] [<CommonParameters>]
-```
-
-### ServiceNameRandomPartition
-```
-Move-ServiceFabricPrimaryReplica [-NodeName <String>] [-IgnoreConstraints <Boolean>] -ServiceName <Uri>
- [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
 ### ServiceNamePartitionUniformedInt

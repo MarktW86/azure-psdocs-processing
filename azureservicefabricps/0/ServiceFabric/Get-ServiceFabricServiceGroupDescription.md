@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 9226A922-F033-4916-9588-D6BE73ED6F67
 online version:
 schema: 2.0.0
-updated_at: 05/01/2017 01:05 AM
-ms.date: 05/01/2017
+updated_at: 05/03/2017 06:05 AM
+ms.date: 05/03/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricServiceGroupDescription.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricServiceGroupDescription.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/5daf6af064d8376dc6ddb7be13ad1a4bbb2eb14f
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/40385fc07259a8f5f0d2cec04a231e9cd42fcff3
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -45,7 +45,6 @@ PS C:\> Get-ServiceFabricServiceGroupDescription -ServiceName fabric:/CalcApp/Ca
 ```
 
 This command gets the Service Fabric service group description for the service named fabric:/CalcApp/CalcService.
-
 
 ### Example 2: Create, Update and Remove service fabric service groups.
 ```

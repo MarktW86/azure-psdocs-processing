@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 31BD0C1D-F4E0-40B2-B902-06B660D633D9
 online version:
 schema: 2.0.0
-updated_at: 05/09/2017 20:05 PM
+updated_at: 05/09/2017 21:05 PM
 ms.date: 05/09/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Restart-ServiceFabricNode.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Restart-ServiceFabricNode.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/1bb897cdf15d7149a6e9522f350507684ba544a8
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/c1b7792bfa7505252a5e7b377993086efa446f5b
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -36,73 +36,22 @@ Restart-ServiceFabricNode [-CommandCompletionMode <CompletionMode>] [-CreateFabr
  -ServiceName <Uri> [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
-### PartitionIdReplicaRandomSecondary
-```
-Restart-ServiceFabricNode [-CommandCompletionMode <CompletionMode>] [-CreateFabricDump] -PartitionId <Guid>
- -ServiceName <Uri> [-ReplicaKindRandomSecondary] [-TimeoutSec <Int32>] [<CommonParameters>]
-```
-
 ### PartitionIdReplicaPrimary
 ```
 Restart-ServiceFabricNode [-CommandCompletionMode <CompletionMode>] [-CreateFabricDump] -PartitionId <Guid>
  -ServiceName <Uri> [-ReplicaKindPrimary] [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
+### PartitionIdReplicaRandomSecondary
+```
+Restart-ServiceFabricNode [-CommandCompletionMode <CompletionMode>] [-CreateFabricDump] -PartitionId <Guid>
+ -ServiceName <Uri> [-ReplicaKindRandomSecondary] [-TimeoutSec <Int32>] [<CommonParameters>]
+```
+
 ### PartitionIdReplicaId
 ```
 Restart-ServiceFabricNode [-CommandCompletionMode <CompletionMode>] [-CreateFabricDump] -PartitionId <Guid>
  -ServiceName <Uri> -ReplicaOrInstanceId <Int64> [-TimeoutSec <Int32>] [<CommonParameters>]
-```
-
-### ServiceNamePartitionNamedReplicaId
-```
-Restart-ServiceFabricNode [-CommandCompletionMode <CompletionMode>] [-CreateFabricDump] -ServiceName <Uri>
- [-PartitionKindNamed] -PartitionKey <String> -ReplicaOrInstanceId <Int64> [-TimeoutSec <Int32>]
- [<CommonParameters>]
-```
-
-### ServiceNameReplicaPrimary
-```
-Restart-ServiceFabricNode [-CommandCompletionMode <CompletionMode>] [-CreateFabricDump] -ServiceName <Uri>
- [-ReplicaKindPrimary] [-TimeoutSec <Int32>] [<CommonParameters>]
-```
-
-### ServiceNameReplicaRandomSecondary
-```
-Restart-ServiceFabricNode [-CommandCompletionMode <CompletionMode>] [-CreateFabricDump] -ServiceName <Uri>
- [-ReplicaKindRandomSecondary] [-TimeoutSec <Int32>] [<CommonParameters>]
-```
-
-### ServiceNameReplicaId
-```
-Restart-ServiceFabricNode [-CommandCompletionMode <CompletionMode>] [-CreateFabricDump] -ServiceName <Uri>
- -ReplicaOrInstanceId <Int64> [-TimeoutSec <Int32>] [<CommonParameters>]
-```
-
-### ServiceNamePartitionSingletonReplicaId
-```
-Restart-ServiceFabricNode [-CommandCompletionMode <CompletionMode>] [-CreateFabricDump] -ServiceName <Uri>
- [-PartitionKindSingleton] -ReplicaOrInstanceId <Int64> [-TimeoutSec <Int32>] [<CommonParameters>]
-```
-
-### ServiceNamePartitionNamed
-```
-Restart-ServiceFabricNode [-CommandCompletionMode <CompletionMode>] [-CreateFabricDump] -ServiceName <Uri>
- [-PartitionKindNamed] -PartitionKey <String> [-TimeoutSec <Int32>] [<CommonParameters>]
-```
-
-### ServiceNamePartitionUniformedIntReplicaPrimary
-```
-Restart-ServiceFabricNode [-CommandCompletionMode <CompletionMode>] [-CreateFabricDump] -ServiceName <Uri>
- [-PartitionKindUniformInt64] -PartitionKey <String> [-ReplicaKindPrimary] [-TimeoutSec <Int32>]
- [<CommonParameters>]
-```
-
-### ServiceNamePartitionUniformedIntReplicaId
-```
-Restart-ServiceFabricNode [-CommandCompletionMode <CompletionMode>] [-CreateFabricDump] -ServiceName <Uri>
- [-PartitionKindUniformInt64] -PartitionKey <String> -ReplicaOrInstanceId <Int64> [-TimeoutSec <Int32>]
- [<CommonParameters>]
 ```
 
 ### ServiceName
@@ -115,6 +64,12 @@ Restart-ServiceFabricNode [-CommandCompletionMode <CompletionMode>] [-CreateFabr
 ```
 Restart-ServiceFabricNode [-CommandCompletionMode <CompletionMode>] [-CreateFabricDump] -ServiceName <Uri>
  [-PartitionKindSingleton] [-TimeoutSec <Int32>] [<CommonParameters>]
+```
+
+### ServiceNamePartitionNamed
+```
+Restart-ServiceFabricNode [-CommandCompletionMode <CompletionMode>] [-CreateFabricDump] -ServiceName <Uri>
+ [-PartitionKindNamed] -PartitionKey <String> [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
 ### ServiceNamePartitionUniformedInt
@@ -153,6 +108,51 @@ Restart-ServiceFabricNode [-CommandCompletionMode <CompletionMode>] [-CreateFabr
 ```
 Restart-ServiceFabricNode [-CommandCompletionMode <CompletionMode>] [-CreateFabricDump] -ServiceName <Uri>
  [-PartitionKindNamed] -PartitionKey <String> [-ReplicaKindPrimary] [-TimeoutSec <Int32>] [<CommonParameters>]
+```
+
+### ServiceNamePartitionUniformedIntReplicaPrimary
+```
+Restart-ServiceFabricNode [-CommandCompletionMode <CompletionMode>] [-CreateFabricDump] -ServiceName <Uri>
+ [-PartitionKindUniformInt64] -PartitionKey <String> [-ReplicaKindPrimary] [-TimeoutSec <Int32>]
+ [<CommonParameters>]
+```
+
+### ServiceNamePartitionSingletonReplicaId
+```
+Restart-ServiceFabricNode [-CommandCompletionMode <CompletionMode>] [-CreateFabricDump] -ServiceName <Uri>
+ [-PartitionKindSingleton] -ReplicaOrInstanceId <Int64> [-TimeoutSec <Int32>] [<CommonParameters>]
+```
+
+### ServiceNamePartitionNamedReplicaId
+```
+Restart-ServiceFabricNode [-CommandCompletionMode <CompletionMode>] [-CreateFabricDump] -ServiceName <Uri>
+ [-PartitionKindNamed] -PartitionKey <String> -ReplicaOrInstanceId <Int64> [-TimeoutSec <Int32>]
+ [<CommonParameters>]
+```
+
+### ServiceNamePartitionUniformedIntReplicaId
+```
+Restart-ServiceFabricNode [-CommandCompletionMode <CompletionMode>] [-CreateFabricDump] -ServiceName <Uri>
+ [-PartitionKindUniformInt64] -PartitionKey <String> -ReplicaOrInstanceId <Int64> [-TimeoutSec <Int32>]
+ [<CommonParameters>]
+```
+
+### ServiceNameReplicaPrimary
+```
+Restart-ServiceFabricNode [-CommandCompletionMode <CompletionMode>] [-CreateFabricDump] -ServiceName <Uri>
+ [-ReplicaKindPrimary] [-TimeoutSec <Int32>] [<CommonParameters>]
+```
+
+### ServiceNameReplicaRandomSecondary
+```
+Restart-ServiceFabricNode [-CommandCompletionMode <CompletionMode>] [-CreateFabricDump] -ServiceName <Uri>
+ [-ReplicaKindRandomSecondary] [-TimeoutSec <Int32>] [<CommonParameters>]
+```
+
+### ServiceNameReplicaId
+```
+Restart-ServiceFabricNode [-CommandCompletionMode <CompletionMode>] [-CreateFabricDump] -ServiceName <Uri>
+ -ReplicaOrInstanceId <Int64> [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -202,7 +202,7 @@ Specifies whether the action waits for the restart to complete. Specify **Verify
 ```yaml
 Type: CompletionMode
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -217,7 +217,7 @@ Indicates that a process dump should be created for Fabric.exe on specified node
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -235,7 +235,7 @@ For example, for the node N0050, the command `Get-ServiceFabricNode -NodeName "N
 ```yaml
 Type: BigInteger
 Parameter Sets: ByNodeName
-Aliases:
+Aliases: 
 
 Required: False
 Position: 2
@@ -251,7 +251,7 @@ The cmdlet restarts the node that you specify.
 ```yaml
 Type: String
 Parameter Sets: ByNodeName
-Aliases:
+Aliases: 
 
 Required: True
 Position: 1
@@ -265,8 +265,8 @@ Specifies the partition ID of a Service Fabric service partition. The cmdlet res
 
 ```yaml
 Type: Guid
-Parameter Sets: PartitionId, PartitionIdReplicaRandomSecondary, PartitionIdReplicaPrimary, PartitionIdReplicaId
-Aliases:
+Parameter Sets: PartitionId, PartitionIdReplicaPrimary, PartitionIdReplicaRandomSecondary, PartitionIdReplicaId
+Aliases: 
 
 Required: True
 Position: Named
@@ -280,8 +280,8 @@ Specifies a partition key for a Service Fabric service partition. The cmdlet ide
 
 ```yaml
 Type: String
-Parameter Sets: ServiceNamePartitionNamedReplicaId, ServiceNamePartitionNamed, ServiceNamePartitionUniformedIntReplicaPrimary, ServiceNamePartitionUniformedIntReplicaId, ServiceNamePartitionUniformedInt, ServiceNamePartitionNamedReplicaRandomSecondary, ServiceNamePartitionUniformedIntReplicaRandomSecondary, ServiceNamePartitionNamedReplicaPrimary
-Aliases:
+Parameter Sets: ServiceNamePartitionNamed, ServiceNamePartitionUniformedInt, ServiceNamePartitionNamedReplicaRandomSecondary, ServiceNamePartitionUniformedIntReplicaRandomSecondary, ServiceNamePartitionNamedReplicaPrimary, ServiceNamePartitionUniformedIntReplicaPrimary, ServiceNamePartitionNamedReplicaId, ServiceNamePartitionUniformedIntReplicaId
+Aliases: 
 
 Required: True
 Position: Named
@@ -295,8 +295,8 @@ Indicates that the **PartitionKey** parameter specifies a partition key for a se
 
 ```yaml
 Type: SwitchParameter
-Parameter Sets: ServiceNamePartitionNamedReplicaId, ServiceNamePartitionNamed, ServiceNamePartitionNamedReplicaRandomSecondary, ServiceNamePartitionNamedReplicaPrimary
-Aliases:
+Parameter Sets: ServiceNamePartitionNamed, ServiceNamePartitionNamedReplicaRandomSecondary, ServiceNamePartitionNamedReplicaPrimary, ServiceNamePartitionNamedReplicaId
+Aliases: 
 
 Required: True
 Position: Named
@@ -310,8 +310,8 @@ Indicates that the service specified in the **ServiceName** parameter uses a Sin
 
 ```yaml
 Type: SwitchParameter
-Parameter Sets: ServiceNamePartitionSingletonReplicaId, ServiceNamePartitionSingleton, ServiceNamePartitionSingletonReplicaRandomSecondary, ServiceNamePartitionSingletonReplicaPrimary
-Aliases:
+Parameter Sets: ServiceNamePartitionSingleton, ServiceNamePartitionSingletonReplicaRandomSecondary, ServiceNamePartitionSingletonReplicaPrimary, ServiceNamePartitionSingletonReplicaId
+Aliases: 
 
 Required: True
 Position: Named
@@ -325,8 +325,8 @@ Indicates that the **PartitionKey** parameter specifies a partition key for a se
 
 ```yaml
 Type: SwitchParameter
-Parameter Sets: ServiceNamePartitionUniformedIntReplicaPrimary, ServiceNamePartitionUniformedIntReplicaId, ServiceNamePartitionUniformedInt, ServiceNamePartitionUniformedIntReplicaRandomSecondary
-Aliases:
+Parameter Sets: ServiceNamePartitionUniformedInt, ServiceNamePartitionUniformedIntReplicaRandomSecondary, ServiceNamePartitionUniformedIntReplicaPrimary, ServiceNamePartitionUniformedIntReplicaId
+Aliases: 
 
 Required: True
 Position: Named
@@ -340,8 +340,8 @@ Indicates that this cmdlet restarts the node that hosts the primary replica of t
 
 ```yaml
 Type: SwitchParameter
-Parameter Sets: PartitionIdReplicaPrimary, ServiceNameReplicaPrimary, ServiceNamePartitionUniformedIntReplicaPrimary, ServiceNamePartitionSingletonReplicaPrimary, ServiceNamePartitionNamedReplicaPrimary
-Aliases:
+Parameter Sets: PartitionIdReplicaPrimary, ServiceNamePartitionSingletonReplicaPrimary, ServiceNamePartitionNamedReplicaPrimary, ServiceNamePartitionUniformedIntReplicaPrimary, ServiceNameReplicaPrimary
+Aliases: 
 
 Required: True
 Position: Named
@@ -355,8 +355,8 @@ Indicates that this cmdlet restarts the node that hosts a random secondary repli
 
 ```yaml
 Type: SwitchParameter
-Parameter Sets: PartitionIdReplicaRandomSecondary, ServiceNameReplicaRandomSecondary, ServiceNamePartitionSingletonReplicaRandomSecondary, ServiceNamePartitionNamedReplicaRandomSecondary, ServiceNamePartitionUniformedIntReplicaRandomSecondary
-Aliases:
+Parameter Sets: PartitionIdReplicaRandomSecondary, ServiceNamePartitionSingletonReplicaRandomSecondary, ServiceNamePartitionNamedReplicaRandomSecondary, ServiceNamePartitionUniformedIntReplicaRandomSecondary, ServiceNameReplicaRandomSecondary
+Aliases: 
 
 Required: True
 Position: Named
@@ -370,8 +370,8 @@ Specifies a Service Fabric service replica or instance ID. The cmdlet restarts t
 
 ```yaml
 Type: Int64
-Parameter Sets: PartitionIdReplicaId, ServiceNamePartitionNamedReplicaId, ServiceNameReplicaId, ServiceNamePartitionSingletonReplicaId, ServiceNamePartitionUniformedIntReplicaId
-Aliases:
+Parameter Sets: PartitionIdReplicaId, ServiceNamePartitionSingletonReplicaId, ServiceNamePartitionNamedReplicaId, ServiceNamePartitionUniformedIntReplicaId, ServiceNameReplicaId
+Aliases: 
 
 Required: True
 Position: Named
@@ -385,8 +385,8 @@ Specifies the name of a Service Fabric service. The cmdlet restarts a node that 
 
 ```yaml
 Type: Uri
-Parameter Sets: PartitionId, PartitionIdReplicaRandomSecondary, PartitionIdReplicaPrimary, PartitionIdReplicaId, ServiceNamePartitionNamedReplicaId, ServiceNameReplicaPrimary, ServiceNameReplicaRandomSecondary, ServiceNameReplicaId, ServiceNamePartitionSingletonReplicaId, ServiceNamePartitionNamed, ServiceNamePartitionUniformedIntReplicaPrimary, ServiceNamePartitionUniformedIntReplicaId, ServiceName, ServiceNamePartitionSingleton, ServiceNamePartitionUniformedInt, ServiceNamePartitionSingletonReplicaRandomSecondary, ServiceNamePartitionNamedReplicaRandomSecondary, ServiceNamePartitionUniformedIntReplicaRandomSecondary, ServiceNamePartitionSingletonReplicaPrimary, ServiceNamePartitionNamedReplicaPrimary
-Aliases:
+Parameter Sets: PartitionId, PartitionIdReplicaPrimary, PartitionIdReplicaRandomSecondary, PartitionIdReplicaId, ServiceName, ServiceNamePartitionSingleton, ServiceNamePartitionNamed, ServiceNamePartitionUniformedInt, ServiceNamePartitionSingletonReplicaRandomSecondary, ServiceNamePartitionNamedReplicaRandomSecondary, ServiceNamePartitionUniformedIntReplicaRandomSecondary, ServiceNamePartitionSingletonReplicaPrimary, ServiceNamePartitionNamedReplicaPrimary, ServiceNamePartitionUniformedIntReplicaPrimary, ServiceNamePartitionSingletonReplicaId, ServiceNamePartitionNamedReplicaId, ServiceNamePartitionUniformedIntReplicaId, ServiceNameReplicaPrimary, ServiceNameReplicaRandomSecondary, ServiceNameReplicaId
+Aliases: 
 
 Required: True
 Position: Named
@@ -401,7 +401,7 @@ Specifies the time-out period, in seconds, for the operation.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named

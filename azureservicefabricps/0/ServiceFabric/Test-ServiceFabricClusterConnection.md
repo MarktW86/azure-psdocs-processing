@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 701917EF-185C-433D-A0B2-A63DEE0E96C3
 online version:
 schema: 2.0.0
-updated_at: 05/01/2017 02:05 AM
-ms.date: 05/01/2017
+updated_at: 05/03/2017 06:05 AM
+ms.date: 05/03/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Test-ServiceFabricClusterConnection.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Test-ServiceFabricClusterConnection.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/01224147d43ae77be9cec8795e9053e212570eec
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/40385fc07259a8f5f0d2cec04a231e9cd42fcff3
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -38,12 +38,14 @@ The **Test-ServiceFabricClusterConnection** cmdlet tests whether a connection to
 PS C:\> Test-ServiceFabricClusterConnection
 True
 ```
+
 This command verifies that a current connection to a Service Fabric cluster exists.
 
 ### Example 2: Test that a current connection to a cluster exists
 ```
 PS C:\> Test-ServiceFabricClusterConnection
 ```
+
 Test-ServiceFabricClusterConnection : Cluster connection instance is null
 
 In this case, a current connection to a Service Fabric cluster does not exist and has to be set up using the [Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md) cmdlet.
