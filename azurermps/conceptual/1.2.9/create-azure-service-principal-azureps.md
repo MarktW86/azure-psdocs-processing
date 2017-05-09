@@ -13,7 +13,7 @@ ms.topic: conceptual
 ms.date: 03/30/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/docs-conceptual/create-azure-service-principal-azureps.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/docs-conceptual/create-azure-service-principal-azureps.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/8593182110c945e3101b674e674c80df3cc9cc4e
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4b4e25168221f6f890cd534a0c9436800949ab0d
 open_to_public_contributors: true
 ---
 
@@ -77,6 +77,7 @@ ReplyUrls               : {}
 The `New-AzureRmADServicePrincipal` cmdlet is used to create the service principal.
 
 ```powershell
+Add-Type -Assembly System.Web
 $password = [System.Web.Security.Membership]::GeneratePassword(16,3)
 New-AzureRmADServicePrincipal -ApplicationId 00c01aaa-1603-49fc-b6df-b78c4e5138b4 -Password $password
 ```
