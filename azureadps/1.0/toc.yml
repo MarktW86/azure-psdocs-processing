@@ -9,15 +9,15 @@
   items:
     - name: PowerShell Scenarios
       items:
-        - name: Importing Data
+        - name: Importing data
           href: ../conceptual/1.0/importing-data.md
         - name: Recovering deleted data
           href: ../conceptual/1.0/recovering-deleted-data.md
     - name: Directory Features
       items:
-        - name: Managing groups in Azure AD
+        - name: Managing groups
           href: 'https://docs.microsoft.com/en-us/azure/active-directory/active-directory-accessmanagement-groups-settings-v2-cmdlets'
-        - name: Managing Unified Groups settings using Powershell
+        - name: Managing Unified Groups settings
           href: 'https://docs.microsoft.com/en-us/azure/active-directory/active-directory-accessmanagement-groups-settings-cmdlets'
         - name: Managing Role Based Access Control (RBAC)
           href: 'https://docs.microsoft.com/en-us/azure/active-directory/role-based-access-control-manage-access-powershell'
