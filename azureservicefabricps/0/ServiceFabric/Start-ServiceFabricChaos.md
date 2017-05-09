@@ -7,7 +7,7 @@ updated_at: 05/09/2017 20:05 PM
 ms.date: 05/09/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/Graham71141/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricChaos.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/Graham71141/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricChaos.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/1bb897cdf15d7149a6e9522f350507684ba544a8
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/fb65657f206b282950a0dc7c88cef3d2ca153f27
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -105,7 +105,7 @@ Accept wildcard characters: False
 ```
 
 ### -MaxClusterStabilizationTimeoutSec
-Specifies the maximum number of seconds that Chaos waits for the cluster to get to healthy state. If cluster is not healthy, a [ValidationFailedEvent](/dotnet/api/system.fabric.chaos.datastructures.validationfailedevent) is logged in Chaos report. This value cannot exceed the total seconds in [TimeSpan.MaxValue](https://msdn.microsoft.com/library/system.timespan.maxvalue(v=vs.110).aspx).
+Specifies the maximum number of seconds that Chaos waits for the cluster to get to healthy state. If cluster is not healthy, a [ValidationFailedEvent](/dotnet/api/system.fabric.chaos.datastructures.validationfailedevent) (/dotnet/api/system.fabric.chaos.datastructures.validationfailedevent) is logged in Chaos report. This value cannot exceed the total seconds in [TimeSpan.MaxValue](https://msdn.microsoft.com/library/system.timespan.maxvalue(v=vs.110.aspx) (https://msdn.microsoft.com/library/system.timespan.maxvalue(v=vs.110.aspx).
 
 ```yaml
 Type: UInt32
