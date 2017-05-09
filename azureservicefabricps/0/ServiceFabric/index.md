@@ -31,7 +31,6 @@ Get-ServiceFabricApplicationLoadInformation: ServiceFabric
 Get-ServiceFabricApplicationManifest: ServiceFabric
 Get-ServiceFabricApplicationName: ServiceFabric
 Get-ServiceFabricApplicationType: ServiceFabric
-Get-ServiceFabricApplicationTypePaged: ServiceFabric
 Get-ServiceFabricApplicationUpgrade: ServiceFabric
 Get-ServiceFabricChaosReport: ServiceFabric
 Get-ServiceFabricClusterConfiguration: ServiceFabric

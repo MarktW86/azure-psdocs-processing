@@ -35,8 +35,6 @@
           href: ServiceFabric/Get-ServiceFabricApplicationName.md
         - name: Get-ServiceFabricApplicationType
           href: ServiceFabric/Get-ServiceFabricApplicationType.md
-        - name: Get-ServiceFabricApplicationTypePaged
-          href: ServiceFabric/Get-ServiceFabricApplicationTypePaged.md
         - name: Get-ServiceFabricApplicationUpgrade
           href: ServiceFabric/Get-ServiceFabricApplicationUpgrade.md
         - name: Get-ServiceFabricChaosReport

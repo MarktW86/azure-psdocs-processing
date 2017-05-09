@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 33F6BE97-3BE8-4DE7-BACD-F2B0FA09E313
 online version:
 schema: 2.0.0
-updated_at: 05/01/2017 02:05 AM
-ms.date: 05/01/2017
+updated_at: 05/05/2017 00:05 AM
+ms.date: 05/05/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/V5.6_Updates/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricDeployedServiceType.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/V5.6_Updates/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricDeployedServiceType.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/3fd6874df77f2d3110426c859c03fa3e6726af53
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/ab74e7f5446fc433a7adae0e8e813ba2b1651adb
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -40,14 +40,9 @@ Get-ServiceFabricDeployedServiceType [-NodeName] <String> [-Adhoc] [[-ServiceMan
 The **Get-ServiceFabricDeployedServiceType** cmdlet gets the Service Fabric service types deployed on a specified node.
 You can specify which types to get by using parameters.
 
-Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the Connect-ServiceFabricCluster cmdlet.
+Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the [Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md) cmdlet.
 
 ## EXAMPLES
-
-### Example 1:
-```
-
-```
 
 ## PARAMETERS
 
@@ -168,5 +163,3 @@ This cmdlet returns **System.Fabric.Query.DeployedServiceType** objects that rep
 [Get-ServiceFabricClusterConnection](./Get-ServiceFabricClusterConnection.md)
 
 [Get-ServiceFabricService](./Get-ServiceFabricService.md)
-
-

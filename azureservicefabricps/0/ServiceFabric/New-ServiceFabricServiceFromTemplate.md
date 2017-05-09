@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 0A8D8356-C8A1-4EA7-9E0C-3C7A483EB72E
 online version:
 schema: 2.0.0
-updated_at: 05/03/2017 06:05 AM
-ms.date: 05/03/2017
+updated_at: 05/09/2017 21:05 PM
+ms.date: 05/09/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/V5.6_Updates/Service-Fabric-cmdlets/ServiceFabric/vlatest/New-ServiceFabricServiceFromTemplate.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/V5.6_Updates/Service-Fabric-cmdlets/ServiceFabric/vlatest/New-ServiceFabricServiceFromTemplate.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/40385fc07259a8f5f0d2cec04a231e9cd42fcff3
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/c1b7792bfa7505252a5e7b377993086efa446f5b
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -87,7 +87,7 @@ The following command creates a Service Fabric service using the service templat
 PS C:\> New-ServiceFabricServiceFromTemplate -ApplicationName fabric:/myapp -ServiceName fabric:/myapp/myservice1 -ServiceTypeName MyServiceType 
 
 
-Multiple service instances can be created using the same service template. After additionally running the following command, there will be two singleton stateless services of type **MyServiceType**:
+Multiple service instances can be created using the same service template. After additionally running the following command, there is two singleton stateless services of type **MyServiceType**:
 
 
 PS C:\> New-ServiceFabricServiceFromTemplate -ApplicationName fabric:/myapp -ServiceName fabric:/myapp/myservice2 -ServiceTypeName MyServiceType 

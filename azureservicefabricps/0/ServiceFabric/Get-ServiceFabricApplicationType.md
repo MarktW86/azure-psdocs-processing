@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 377D093A-8D81-4CDA-842B-EF8A9FF2585C
 online version:
 schema: 2.0.0
-updated_at: 05/03/2017 06:05 AM
-ms.date: 05/03/2017
+updated_at: 05/05/2017 14:05 PM
+ms.date: 05/05/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/V5.6_Updates/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricApplicationType.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/V5.6_Updates/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricApplicationType.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/40385fc07259a8f5f0d2cec04a231e9cd42fcff3
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/536e749b7b27d9c98913497fc405b02f2510de10
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -20,7 +20,7 @@ ms.service: service-fabric
 # Get-ServiceFabricApplicationType
 
 ## SYNOPSIS
-Gets the Service Fabric application types registered on the Service Fabric cluster.
+Gets the Service Fabric application types registered on the Service Fabric cluster which match the provided filters.
 
 ## SYNTAX
 
@@ -30,7 +30,7 @@ Get-ServiceFabricApplicationType [[-ApplicationTypeName] <String>] [-ExcludeAppl
 ```
 
 ## DESCRIPTION
-The **Get-ServiceFabricApplicationType** cmdlet gets the Service Fabric application types registered on the Service Fabric cluster.
+The **Get-ServiceFabricApplicationType** cmdlet gets the Service Fabric application types registered on the Service Fabric cluster which match the provided filters. Each version of an application type is returned as an individual result in the result array. If no application types are found matching the provided parameters, this query does not return any results.
 
 Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the [Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md) cmdlet.
 
@@ -41,21 +41,29 @@ Before you perform any operation on a Service Fabric cluster, establish a connec
 PS C:\> Get-ServiceFabricApplicationType
 ```
 
-This command gets all registered application types.
+This command gets all registered application types.	
 
 ### Example 2: Get registered application type with specified type names
 ```
+PS C:\> # Scenario: multiple application types are provisioned in the cluster, including TestApp versions 1 and 2, as well as TestApp2 version 1.
 PS C:\> Get-ServiceFabricApplicationType -ApplicationTypeName "TestApp"
 ```
 
-This command gets the application types registered with the application type name "TestApp".
+This command gets all the versions of the application type "TestApp". This does not get the application type "TestApp2" because the application type name is not an exact match.
+
+### Example 3: Get all registered application types without default application parameters
+```
+PS C:\>Get-ServiceFabricApplicationType -ExcludeApplicationParameters
+```
+
+This command gets all registered application types. The returned [System.Fabric.Query.ApplicationType](/dotnet/api/system.fabric.query.applicationtype) object(s) have an unpopulated DefaultParameters property, regardless of whether the application type has default application parameters.
 
 ## PARAMETERS
 
 ### -ApplicationTypeName
-Specifies the name of a Service Fabric application type.
-The cmdlet gets the application type that you specify.
-If you do not specify this parameter, this cmdlet gets all application types.
+Specifies the name of a Service Fabric application type. The cmdlet gets all versions of the application type that you specify.
+
+If you do not specify this parameter, this cmdlet gets all application types. This parameter matches against the case sensitive exact application type names defined in the application manifest of all provisioned or provisioning application types. For example, the value "Test" does not match "TestApp" because it is only a partial match. This value should not contain the version of the application type, and matches all versions of the same application type name.
 
 ```yaml
 Type: String
@@ -70,7 +78,9 @@ Accept wildcard characters: False
 ```
 
 ### -ExcludeApplicationParameters
-{{Fill ExcludeApplicationParameters Description}}
+Specifies whether to exclude default application parameters from the query result. 
+
+If set, the default application parameters field is still visible, but is not populated.
 
 ```yaml
 Type: SwitchParameter
@@ -110,10 +120,10 @@ This cmdlet accepts a string that represents the application type name filter.
 ## OUTPUTS
 
 ### System.Array
-An Object[] with each object being a [System.Fabric.Query.ApplicationType](https://msdn.microsoft.com/library/system.fabric.query.applicationtype.aspx) object that represents the Service Fabric application types in case of multiple registered application types.
+An Object[] with each object being a [System.Fabric.Query.ApplicationType](/dotnet/api/system.fabric.query.applicationtype) object that represents the Service Fabric application types in case of multiple returned application types.
 
 ### System.Object
-A [System.Fabric.Query.ApplicationType](https://msdn.microsoft.com/library/system.fabric.query.applicationtype.aspx) object in case of a single registered application type.
+A [System.Fabric.Query.ApplicationType](/dotnet/api/system.fabric.query.applicationtype) object in case of a single returned application type.
 
 ## NOTES
 

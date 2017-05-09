@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: EF6C08E7-6811-4F74-84FB-D4FCE4D6FAFD
 online version:
 schema: 2.0.0
-updated_at: 05/01/2017 00:05 AM
-ms.date: 05/01/2017
+updated_at: 05/09/2017 20:05 PM
+ms.date: 05/09/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/V5.6_Updates/Service-Fabric-cmdlets/ServiceFabric/vlatest/Approve-ServiceFabricRepairTask.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/V5.6_Updates/Service-Fabric-cmdlets/ServiceFabric/vlatest/Approve-ServiceFabricRepairTask.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/d1dcfd46e75c51316a69b8401b8b2c10d7b8f19d
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/1bb897cdf15d7149a6e9522f350507684ba544a8
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -37,7 +37,7 @@ Evaluate the potential impact of this operation before you use this cmdlet.
 This cmdlet supports the Service Fabric platform.
 Do not run this cmdlet directly.
 
-If you approve a repair task by force, then the **ForcedApproval** flag will be set on that task.
+If you approve a repair task by force, then the **ForcedApproval** flag is set on that task.
 
 This cmdlet requires that you connect to the cluster with credentials that are granted administrator access to the cluster.
 Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the [Connect-ServiceFabricCluster](.\Connect-ServiceFabricCluster) cmdlet.

@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 9D63C467-E643-4DCD-B8AD-70C741D39377
 online version:
 schema: 2.0.0
-updated_at: 05/03/2017 05:05 AM
-ms.date: 05/03/2017
+updated_at: 05/09/2017 21:05 PM
+ms.date: 05/09/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/V5.6_Updates/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricApplicationHealth.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/V5.6_Updates/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricApplicationHealth.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/664908a8fab893346c0349eb97c945e899547b17
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/de75e36005c888c968e3d5009fb90abc271f1673
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -240,7 +240,7 @@ Accept wildcard characters: False
 Specifies the filter for **ServiceHealthState** children based on health state.
 The value can be obtained from members or bitwise operations on members of **HealthStateFilter**.
 Only children that match the filter are returned.
-All children will be used to evaluate the application aggregated health state.
+All children is used to evaluate the application aggregated health state.
 If not specified, all entries are returned.
 
 ```yaml

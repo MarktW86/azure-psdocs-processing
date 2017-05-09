@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: B61E78F9-61C8-4D0F-897C-1495877A07FB
 online version:
 schema: 2.0.0
-updated_at: 05/01/2017 01:05 AM
-ms.date: 05/01/2017
+updated_at: 05/08/2017 21:05 PM
+ms.date: 05/08/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/V5.6_Updates/Service-Fabric-cmdlets/ServiceFabric/vlatest/Invoke-ServiceFabricInfrastructureCommand.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/V5.6_Updates/Service-Fabric-cmdlets/ServiceFabric/vlatest/Invoke-ServiceFabricInfrastructureCommand.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/9cd0c5c56305fd8f1f50b9f86e3936c2d31d5d35
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/276357553b35ff65a24694f725d4dbdd6add4950
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -42,11 +42,6 @@ This cmdlet requires that you connect to the cluster with credentials that are g
 Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the [Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md) cmdlet.
 
 ## EXAMPLES
-
-### Example 1:
-```
-
-```
 
 ## PARAMETERS
 

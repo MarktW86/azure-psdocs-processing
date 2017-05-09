@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: D1A0F338-F89D-40F0-8C1A-AF5453E61092
 online version:
 schema: 2.0.0
-updated_at: 05/01/2017 02:05 AM
-ms.date: 05/01/2017
+updated_at: 05/05/2017 00:05 AM
+ms.date: 05/05/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/V5.6_Updates/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricRegisteredClusterCodeVersion.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/V5.6_Updates/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricRegisteredClusterCodeVersion.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/c1db739ad23640707fd1a866359d21a54788350d
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/2088556d830e5d208d18af34b3910218b6e681f2
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -37,10 +37,12 @@ Before you perform any operation on a Service Fabric cluster, establish a connec
 
 ## EXAMPLES
 
-### Example 1:
+### Example 1: Get all provisioned fabric code versions
 ```
 PS C:\> Get-ServiceFabricRegisteredClusterCodeVersion
 ```
+
+This command gets all provisioned fabric code versions in a Service Fabric Cluster.
 
 ## PARAMETERS
 

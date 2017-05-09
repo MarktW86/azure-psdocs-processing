@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: C8EDDC0C-C129-4D69-A269-A27B9FB5EB90
 online version:
 schema: 2.0.0
-updated_at: 05/01/2017 02:05 AM
-ms.date: 05/01/2017
+updated_at: 05/05/2017 00:05 AM
+ms.date: 05/05/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/V5.6_Updates/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricDeployedReplicaDetail.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/V5.6_Updates/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricDeployedReplicaDetail.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/faac440455f7e2438bddffe90c763accef357974
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/ab74e7f5446fc433a7adae0e8e813ba2b1651adb
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -48,7 +48,7 @@ This command gets details about a replica running on a node from the service hos
 PS C:\> Get-ServiceFabricDeployedReplicaDetail -NodeName "DB.41" -PartitionId 7B7D6D73-3D41-42A9-B7DF-B9D93A386BFF -ReplicaOrInstanceId 130705747836122602 -ReplicatorDetail
 ```
 
-This command gets details about the replica and replicator running on a node from the service host process. It also returns additional information from the Service Fabric replicator about the progress of the replica. See [here](https://docs.microsoft.com/dotnet/api/system.fabric.query.replicatorstatus) for more information.
+This command gets details about the replica and replicator running on a node from the service host process. It also returns additional information from the Service Fabric replicator about the progress of the replica. See [Replicator​Status Class](https://docs.microsoft.com/dotnet/api/system.fabric.query.replicatorstatus) (https://docs.microsoft.com/dotnet/api/system.fabric.query.replicatorstatus) for more information.
 
 ## PARAMETERS
 
@@ -100,7 +100,7 @@ Accept wildcard characters: False
 ```
 
 ### -ReplicatorDetail
-Indicates that this cmdlet gets information from the Service Fabric replicator. See [here](https://docs.microsoft.com/dotnet/api/system.fabric.query.remotereplicatorstatus) for details regarding the additional returned information. 
+Indicates that this cmdlet gets information from the Service Fabric replicator. See [Remote​Replicator​Status Class](https://docs.microsoft.com/dotnet/api/system.fabric.query.remotereplicatorstatus) (https://docs.microsoft.com/dotnet/api/system.fabric.query.remotereplicatorstatus) for details regarding the additional returned information. 
 
 ```yaml
 Type: SwitchParameter
@@ -140,7 +140,7 @@ This parameter accepts a string that represents a Service Fabric node name, or t
 ## OUTPUTS
 
 ### System.Object
-This cmdlet returns a [DeployedServiceReplicaDetail](https://docs.microsoft.com/dotnet/api/system.fabric.query.deployedservicereplicadetail) object that contains information about a Service Fabric replica.
+This cmdlet returns a [DeployedServiceReplicaDetail](https://docs.microsoft.com/dotnet/api/system.fabric.query.deployedservicereplicadetail) (https://docs.microsoft.com/dotnet/api/system.fabric.query.deployedservicereplicadetail) object that contains information about a Service Fabric replica.
 
 ## NOTES
 
@@ -151,3 +151,7 @@ This cmdlet returns a [DeployedServiceReplicaDetail](https://docs.microsoft.com/
 [Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md)
 
 [Get-ServiceFabricClusterConnection](./Get-ServiceFabricClusterConnection.md)
+
+[Replicator​Status Class](https://docs.microsoft.com/dotnet/api/system.fabric.query.replicatorstatus)
+
+[Remote​Replicator​Status Class](https://docs.microsoft.com/dotnet/api/system.fabric.query.remotereplicatorstatus)
