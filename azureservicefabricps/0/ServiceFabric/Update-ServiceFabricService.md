@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: DDD8A281-FDC8-49B1-9546-7E58FA7ADFB7
 online version:
 schema: 2.0.0
-updated_at: 05/03/2017 21:05 PM
-ms.date: 05/03/2017
+updated_at: 05/09/2017 22:05 PM
+ms.date: 05/09/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/Graham71141/Service-Fabric-cmdlets/ServiceFabric/vlatest/Update-ServiceFabricService.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/Graham71141/Service-Fabric-cmdlets/ServiceFabric/vlatest/Update-ServiceFabricService.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/50b4a1d8c941cfe43b0ae98efc047bbdc78270fd
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/c4aad11cd4bf8ba0c01d6d6e16bce715a7c25e99
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -47,7 +47,7 @@ can get current properties of your service using [Get-ServiceFabricServiceDescri
 
 Please note that updating the properties of a running service is different than upgrading your service using [Start-ServiceFabricApplicationUpgrade](./Start-ServiceFabricApplicationUpgrade.md).
 Upgrading your service (i.e. application) is a long running background task that involves moving your application, from one version to another, one upgrade domain at a time. Please see
-[Service Fabric Application Upgrade](https://docs.microsoft.com/azure/service-fabric/service-fabric-application-upgrade) for more details.
+[Service Fabric Application Upgrade](https://docs.microsoft.com/azure/service-fabric/service-fabric-application-upgrade) (https://docs.microsoft.com/azure/service-fabric/service-fabric-application-upgrade) for more details.
 
 Before you perform any operation on a Service Fabric cluster, establish a connection to the cluster by using the [Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md) cmdlet.
 
@@ -101,8 +101,9 @@ This command updates the service correlation.
 ## PARAMETERS
 
 ### -Correlation
-Specifies an updated array of correlation constraints for this service. To learn more about service correlation, please see 
-[Configuring and using service affinity in Service Fabric](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-resource-manager-advanced-placement-rules-affinity)
+Specifies an updated array of correlation constraints for this service. To learn more about service correlation, see 
+[Configuring and using service affinity in Service Fabric](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-resource-manager-advanced-placement-rules-affinity) 
+(https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-resource-manager-advanced-placement-rules-affinity).
 
 ```yaml
 Type: String[]
@@ -125,7 +126,7 @@ The acceptable values for this parameter are:
 - Medium
 - High
 
-For more details about move cost, please see [Service movement cost for influencing Cluster Resource Manager choices](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-resource-manager-movement-cost)
+For more details about move cost, see [Service movement cost for influencing Cluster Resource Manager choices](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-resource-manager-movement-cost) (https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-resource-manager-movement-cost).
 
 ```yaml
 Type: String
@@ -172,8 +173,8 @@ Accept wildcard characters: False
 ```
 
 ### -Metric
-Specifies the updated array of metrics that the service reports. To learn more about metrics, please see 
-[Managing resource consumption and load in Service Fabric with metrics](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-resource-manager-metrics)
+Specifies the updated array of metrics that the service reports. To learn more about metrics, see 
+[Managing resource consumption and load in Service Fabric with metrics](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-resource-manager-metrics) (https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-resource-manager-metrics).
 
 ```yaml
 Type: String[]
@@ -188,8 +189,8 @@ Accept wildcard characters: False
 ```
 
 ### -MinReplicaSetSize
-Specifies the updated minimum replica set size for the Service Fabric stateful service. The value must be less than the *TargetReplicaSetSize* of this service. For more details, please see
-[StatefulServiceDescription.MinReplicaSetSize](https://docs.microsoft.com/dotnet/api/system.fabric.description.statefulservicedescription#System_Fabric_Description_StatefulServiceDescription_MinReplicaSetSize)
+Specifies the updated minimum replica set size for the Service Fabric stateful service. The value must be less than the *TargetReplicaSetSize* of this service. For more details, see
+[StatefulServiceDescription.MinReplicaSetSize](https://docs.microsoft.com/dotnet/api/system.fabric.description.statefulservicedescription#System_Fabric_Description_StatefulServiceDescription_MinReplicaSetSize) (https://docs.microsoft.com/dotnet/api/system.fabric.description.statefulservicedescription#System_Fabric_Description_StatefulServiceDescription_MinReplicaSetSize).
 
 Do not specify this parameter for stateless services.
 
@@ -206,8 +207,8 @@ Accept wildcard characters: False
 ```
 
 ### -PlacementConstraints
-Specifies the updated placement constraint for the service. To learn more about placement constraints, please see 
-[Placement constraints and node properties](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-resource-manager-cluster-description#placement-constraints-and-node-properties).
+Specifies the updated placement constraint for the service. To learn more about placement constraints, see 
+[Placement constraints and node properties](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-resource-manager-cluster-description#placement-constraints-and-node-properties) (https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-resource-manager-cluster-description#placement-constraints-and-node-properties).
 
 ```yaml
 Type: String
@@ -222,8 +223,8 @@ Accept wildcard characters: False
 ```
 
 ### -PlacementPolicy
-Specifies an updated array of placement policies for a service. To learn more about PlacementPolicy, please see
-[Placement policies for service fabric services](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-resource-manager-advanced-placement-rules-placement-policies).
+Specifies an updated array of placement policies for a service. To learn more about PlacementPolicy, see
+[Placement policies for service fabric services](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-resource-manager-advanced-placement-rules-placement-policies) (https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-resource-manager-advanced-placement-rules-placement-policies).
 
 ```yaml
 Type: String[]
@@ -243,8 +244,8 @@ Specifies the updated duration, as a **TimeSpan** object, that Service Fabric wa
 To obtain a **TimeSpan** object, use the [New-TimeSpan](http://go.microsoft.com/fwlink/?LinkID=113360) cmdlet.
 For more information, type `Get-Help New-TimeSpan`.
 
-To learn more about the QuorumLossWaitDuration parameter, please see
-[StatefulServiceDescription.QuorumLossWaitDuration](https://docs.microsoft.com/dotnet/api/system.fabric.description.statefulservicedescription#System_Fabric_Description_StatefulServiceDescription_QuorumLossWaitDuration).
+To learn more about the QuorumLossWaitDuration parameter, see
+[StatefulServiceDescription.QuorumLossWaitDuration](https://docs.microsoft.com/dotnet/api/system.fabric.description.statefulservicedescription#System_Fabric_Description_StatefulServiceDescription_QuorumLossWaitDuration) (https://docs.microsoft.com/dotnet/api/system.fabric.description.statefulservicedescription#System_Fabric_Description_StatefulServiceDescription_QuorumLossWaitDuration).
 
 ```yaml
 Type: TimeSpan
@@ -262,8 +263,8 @@ Accept wildcard characters: False
 Specifies the updated interval, as a **TimeSpan** object, that Service Fabric waits for the replica to restart before it creates a replacement replica.
 To obtain a **TimeSpan** object, use the **New-TimeSpan** cmdlet.
 
-To learn more about QuorumLossWaitDuration, please see
-[StatefulServiceDescription.ReplicaRestartWaitDuration](https://docs.microsoft.com/dotnet/api/system.fabric.description.statefulservicedescription#System_Fabric_Description_StatefulServiceDescription_ReplicaRestartWaitDuration)
+To learn more about QuorumLossWaitDuration, see
+[StatefulServiceDescription.ReplicaRestartWaitDuration](https://docs.microsoft.com/dotnet/api/system.fabric.description.statefulservicedescription#System_Fabric_Description_StatefulServiceDescription_ReplicaRestartWaitDuration) (https://docs.microsoft.com/dotnet/api/system.fabric.description.statefulservicedescription#System_Fabric_Description_StatefulServiceDescription_ReplicaRestartWaitDuration).
 
 ```yaml
 Type: TimeSpan
@@ -295,8 +296,8 @@ Accept wildcard characters: False
 ### -StandByReplicaKeepDuration
 Specifies the updated stand-by replica keep duration as a **TimeSpan** object.
 
-To learn more about QuorumLossWaitDuration, please see
-[StatefulServiceDescription.StandByReplicaKeepDuration](https://docs.microsoft.com/dotnet/api/system.fabric.description.statefulservicedescription#System_Fabric_Description_StatefulServiceDescription_StandByReplicaKeepDuration)
+To learn more about QuorumLossWaitDuration, see
+[StatefulServiceDescription.StandByReplicaKeepDuration](https://docs.microsoft.com/dotnet/api/system.fabric.description.statefulservicedescription#System_Fabric_Description_StatefulServiceDescription_StandByReplicaKeepDuration) (https://docs.microsoft.com/dotnet/api/system.fabric.description.statefulservicedescription#System_Fabric_Description_StatefulServiceDescription_StandByReplicaKeepDuration).
 
 ```yaml
 Type: TimeSpan
@@ -341,8 +342,8 @@ Accept wildcard characters: False
 ```
 
 ### -TargetReplicaSetSize
-Specifies the updated target replica set size for a Service Fabric stateful service. For more details, please see 
-[StatefulServiceDescription.TargetReplicaSetSize](https://docs.microsoft.com/dotnet/api/system.fabric.description.statefulservicedescription#System_Fabric_Description_StatefulServiceDescription_TargetReplicaSetSize)
+Specifies the updated target replica set size for a Service Fabric stateful service. For more details, see 
+[StatefulServiceDescription.TargetReplicaSetSize](https://docs.microsoft.com/dotnet/api/system.fabric.description.statefulservicedescription#System_Fabric_Description_StatefulServiceDescription_TargetReplicaSetSize) (https://docs.microsoft.com/dotnet/api/system.fabric.description.statefulservicedescription#System_Fabric_Description_StatefulServiceDescription_TargetReplicaSetSize).
 
 Do not specify this parameter for a stateless service.
 

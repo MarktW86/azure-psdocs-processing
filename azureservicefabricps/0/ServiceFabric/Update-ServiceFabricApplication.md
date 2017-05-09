@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 38C23E3E-4A54-4C9A-B349-A338006A12DE
 online version:
 schema: 2.0.0
-updated_at: 05/03/2017 21:05 PM
-ms.date: 05/03/2017
+updated_at: 05/09/2017 22:05 PM
+ms.date: 05/09/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/Graham71141/Service-Fabric-cmdlets/ServiceFabric/vlatest/Update-ServiceFabricApplication.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/Graham71141/Service-Fabric-cmdlets/ServiceFabric/vlatest/Update-ServiceFabricApplication.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/50b4a1d8c941cfe43b0ae98efc047bbdc78270fd
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/c4aad11cd4bf8ba0c01d6d6e16bce715a7c25e99
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -110,7 +110,7 @@ Accept wildcard characters: False
 ```
 
 ### -Metrics
-Specifies an array of metrics. These metrics are used by Service Fabric Cluster Resource Manager to manage resources in the cluster. For more information about metrics and resource managent in Service Fabric, see [Service Fabric Cluster Resource Manager Introduction](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-resource-manager-introduction).
+Specifies an array of metrics. These metrics are used by Service Fabric Cluster Resource Manager to manage resources in the cluster. For more information about metrics and resource managent in Service Fabric, see [Service Fabric Cluster Resource Manager Introduction](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-resource-manager-introduction) (https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-resource-manager-introduction).
 Each metric can follow the pattern MetricName,NodeReservationCapacity,MaximumNodeCapacity,TotalApplicationCapacity, or can specify MetricName and use parameter names NodeReservationCapacity,MaximumNodeCapacity,TotalApplicationCapacity followed by a parameter value separated with a colon.
 Each parameter **name:value** pair can appear at most once.
 
