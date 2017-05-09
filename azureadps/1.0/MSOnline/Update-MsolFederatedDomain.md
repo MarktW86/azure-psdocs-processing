@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: 3433FAB9-DA26-483D-BE3C-406FD0C0F746
 updated_at: 11/08/2016 21:11 PM
 ms.date: 11/08/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Update-MsolFederatedDomain.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Update-MsolFederatedDomain.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/Rodejo-5-9/Azure%20AD%20Cmdlets/MSOnline/v1/Update-MsolFederatedDomain.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/Rodejo-5-9/Azure%20AD%20Cmdlets/MSOnline/v1/Update-MsolFederatedDomain.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/2c57f1e6f7b36ad296f1b569969f9c974ec0e0c3
 ms.topic: reference
 author: erickson-doug

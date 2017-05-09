@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: ACEA9C06-7619-4EAE-967D-280F982ECE7A
 updated_at: 11/14/2016 21:11 PM
 ms.date: 11/14/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/New-MsolServicePrincipalAddresses.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/New-MsolServicePrincipalAddresses.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/Rodejo-5-9/Azure%20AD%20Cmdlets/MSOnline/v1/New-MsolServicePrincipalAddresses.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/Rodejo-5-9/Azure%20AD%20Cmdlets/MSOnline/v1/New-MsolServicePrincipalAddresses.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/2fc7c934766545163d747d78fd2431e341b5bd4f
 ms.topic: reference
 author: erickson-doug

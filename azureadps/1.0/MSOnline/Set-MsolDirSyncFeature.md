@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: E4C5910F-B006-43F5-8765-E1185A9D0BBE
 updated_at: 03/10/2017 12:03 PM
 ms.date: 03/10/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Set-MsolDirSyncFeature.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Set-MsolDirSyncFeature.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/Rodejo-5-9/Azure%20AD%20Cmdlets/MSOnline/v1/Set-MsolDirSyncFeature.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/Rodejo-5-9/Azure%20AD%20Cmdlets/MSOnline/v1/Set-MsolDirSyncFeature.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/6ff0592cd35f292072ec632a016095dee163c644
 ms.topic: reference
 author: erickson-doug

@@ -5,8 +5,8 @@ online version:
 schema: 2.0.0
 updated_at: 12/01/2016 17:12 PM
 ms.date: 12/01/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADTrustedCertificateAuthority.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADTrustedCertificateAuthority.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/Rodejo-5-9/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADTrustedCertificateAuthority.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/Rodejo-5-9/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADTrustedCertificateAuthority.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/8f658f99458e2c236d5f4be363030b6f24cacc4c
 ms.topic: reference
 author: erickson-doug
