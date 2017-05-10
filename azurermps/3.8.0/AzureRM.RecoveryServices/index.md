@@ -2,11 +2,12 @@
 Module Name: AzureRM.RecoveryServices
 Module Guid: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
 Locale: en-US
+ms.assetid: DC5E0ECC-BFFA-4030-8BCB-BD180CAD77B8
 content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/RecoveryServices/Commands.RecoveryServices/help/AzureRM.RecoveryServices.md
 original_content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/RecoveryServices/Commands.RecoveryServices/help/AzureRM.RecoveryServices.md
-gitcommit: https://github.com/Azure/azure-powershell/blob/0b4ecb51495cc4a808ac05ad5254511b7140362b
-updated_at: 05/10/2017 17:05 PM
-ms.date: 05/10/2017
+gitcommit: https://github.com/Azure/azure-powershell/blob/94e42834e29c78cafba9e3f1e99e14af92561036
+updated_at: 04/28/2017 07:04 AM
+ms.date: 04/28/2017
 ms.topic: conceptual
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -15,7 +16,6 @@ manager: erickson-doug
 open_to_public_contributors: true
 ms.service: backup
 Get-AzureRmRecoveryServicesBackupProperties: Recovery Services
-Get-AzureRmRecoveryServicesBackupProperty: Others
 Get-AzureRmRecoveryServicesVault: Recovery Services
 Get-AzureRmRecoveryServicesVaultSettingsFile: Recovery Services
 New-AzureRmRecoveryServicesVault: Recovery Services
@@ -30,7 +30,7 @@ _isModulePage: true
 This topic displays help topics for the Azure Recovery Services cmdlets.
 
 ## AzureRM.RecoveryServices Cmdlets
-### [Get-AzureRmRecoveryServicesBackupProperty](Get-AzureRmRecoveryServicesBackupProperty.md)
+### [Get-AzureRmRecoveryServicesBackupProperties](Get-AzureRmRecoveryServicesBackupProperties.md)
 Gets Backup properties.
 
 ### [Get-AzureRmRecoveryServicesVault](Get-AzureRmRecoveryServicesVault.md)

@@ -5,9 +5,9 @@ online version:
 schema: 2.0.0
 content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/RedisCache/Commands.RedisCache/help/Get-AzureRmRedisCache.md
 original_content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/RedisCache/Commands.RedisCache/help/Get-AzureRmRedisCache.md
-gitcommit: https://github.com/Azure/azure-powershell/blob/8810c0614b76be8d014616888a4ae7733a452af9
-updated_at: 05/10/2017 17:05 PM
-ms.date: 05/10/2017
+gitcommit: https://github.com/Azure/azure-powershell/blob/94e42834e29c78cafba9e3f1e99e14af92561036
+updated_at: 04/28/2017 07:04 AM
+ms.date: 04/28/2017
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -29,14 +29,14 @@ Gets a Redis Cache.
 Get-AzureRmRedisCache [<CommonParameters>]
 ```
 
-### All In Resource Group
-```
-Get-AzureRmRedisCache -ResourceGroupName <String> [<CommonParameters>]
-```
-
 ### Specific Redis Cache
 ```
 Get-AzureRmRedisCache -ResourceGroupName <String> -Name <String> [<CommonParameters>]
+```
+
+### All In Resource Group
+```
+Get-AzureRmRedisCache -ResourceGroupName <String> [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -190,7 +190,7 @@ If you specify only the *ResourceGroupName* parameter, this operation gets every
 
 ```yaml
 Type: String
-Parameter Sets: All In Resource Group, Specific Redis Cache
+Parameter Sets: Specific Redis Cache, All In Resource Group
 Aliases: 
 
 Required: True

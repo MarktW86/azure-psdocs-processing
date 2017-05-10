@@ -5,9 +5,9 @@ online version:
 schema: 2.0.0
 content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/Resources/Commands.Resources/help/Get-AzureRmResource.md
 original_content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/Resources/Commands.Resources/help/Get-AzureRmResource.md
-gitcommit: https://github.com/Azure/azure-powershell/blob/8810c0614b76be8d014616888a4ae7733a452af9
-updated_at: 05/10/2017 17:05 PM
-ms.date: 05/10/2017
+gitcommit: https://github.com/Azure/azure-powershell/blob/94e42834e29c78cafba9e3f1e99e14af92561036
+updated_at: 04/28/2017 07:04 AM
+ms.date: 04/28/2017
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -36,18 +36,11 @@ Get-AzureRmResource -ResourceId <String> [-ExpandProperties] [-ODataQuery <Strin
  [-Pre] [<CommonParameters>]
 ```
 
-### Get a single resource at the tenant level.
+### Get resource by name, group and type
 ```
 Get-AzureRmResource -ResourceName <String> -ResourceType <String> [-ExtensionResourceName <String>]
- [-ExtensionResourceType <String>] [-ExpandProperties] [-IsCollection] [-ODataQuery <String>] [-TenantLevel]
+ [-ExtensionResourceType <String>] [-ExpandProperties] [-ODataQuery <String>] -ResourceGroupName <String>
  [-ApiVersion <String>] [-Pre] [<CommonParameters>]
-```
-
-### Lists the resources based on the specified scope at the tenant level.
-```
-Get-AzureRmResource [-ResourceName <String>] [-ResourceType <String>] [-ExtensionResourceName <String>]
- [-ExtensionResourceType <String>] [-ExpandProperties] [-IsCollection] [-Top <Int32>] [-ODataQuery <String>]
- [-TenantLevel] [-ApiVersion <String>] [-Pre] [<CommonParameters>]
 ```
 
 ### Get resource by name and group
@@ -64,10 +57,17 @@ Get-AzureRmResource [-ResourceName <String>] [-ResourceType <String>] [-Extensio
  [-ApiVersion <String>] [-Pre] [<CommonParameters>]
 ```
 
-### Get resource by name, group and type
+### Lists the resources based on the specified scope at the tenant level.
+```
+Get-AzureRmResource [-ResourceName <String>] [-ResourceType <String>] [-ExtensionResourceName <String>]
+ [-ExtensionResourceType <String>] [-ExpandProperties] [-IsCollection] [-Top <Int32>] [-ODataQuery <String>]
+ [-TenantLevel] [-ApiVersion <String>] [-Pre] [<CommonParameters>]
+```
+
+### Get a single resource at the tenant level.
 ```
 Get-AzureRmResource -ResourceName <String> -ResourceType <String> [-ExtensionResourceName <String>]
- [-ExtensionResourceType <String>] [-ExpandProperties] [-ODataQuery <String>] -ResourceGroupName <String>
+ [-ExtensionResourceType <String>] [-ExpandProperties] [-IsCollection] [-ODataQuery <String>] [-TenantLevel]
  [-ApiVersion <String>] [-Pre] [<CommonParameters>]
 ```
 
@@ -91,6 +91,80 @@ PS C:\>Get-AzureRmResource -ResourceType "microsoft.web/sites" -ResourceGroupNam
 This command gets a resource of the type microsoft.web/sites, named ContosoWebsite under ResourceGroup11.
 
 ## PARAMETERS
+
+### -ResourceGroupName
+```yaml
+Type: String
+Parameter Sets: Get resource by name, group and type
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+```yaml
+Type: String
+Parameter Sets: Get resource by name and group
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+```yaml
+Type: String
+Parameter Sets: Get resource collection
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -ResourceType
+```yaml
+Type: String
+Parameter Sets: Get resource by name, group and type, Get a single resource at the tenant level.
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+```yaml
+Type: String
+Parameter Sets: Get a resource by name and type., Lists the resources based on the specified scope at the tenant level.
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+```yaml
+Type: String
+Parameter Sets: Get resource collection
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
 
 ### -ApiVersion
 ```yaml
@@ -121,7 +195,7 @@ Accept wildcard characters: False
 ### -ExtensionResourceName
 ```yaml
 Type: String
-Parameter Sets: Get a single resource at the tenant level., Lists the resources based on the specified scope at the tenant level., Get resource by name and group, Get a resource by name and type., Get resource by name, group and type
+Parameter Sets: Get resource by name, group and type, Get resource by name and group, Get a resource by name and type., Lists the resources based on the specified scope at the tenant level., Get a single resource at the tenant level.
 Aliases: 
 
 Required: False
@@ -134,7 +208,7 @@ Accept wildcard characters: False
 ### -ExtensionResourceType
 ```yaml
 Type: String
-Parameter Sets: Get a single resource at the tenant level., Lists the resources based on the specified scope at the tenant level., Get resource by name and group, Get a resource by name and type., Get resource by name, group and type
+Parameter Sets: Get resource by name, group and type, Get resource by name and group, Get a resource by name and type., Lists the resources based on the specified scope at the tenant level., Get a single resource at the tenant level.
 Aliases: 
 
 Required: False
@@ -159,7 +233,7 @@ Accept wildcard characters: False
 ### -IsCollection
 ```yaml
 Type: SwitchParameter
-Parameter Sets: Get a single resource at the tenant level., Lists the resources based on the specified scope at the tenant level., Get resource by name and group, Get a resource by name and type., Get resource collection
+Parameter Sets: Get resource by name and group, Get a resource by name and type., Lists the resources based on the specified scope at the tenant level., Get a single resource at the tenant level., Get resource collection
 Aliases: 
 
 Required: False
@@ -195,43 +269,6 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ResourceGroupName
-```yaml
-Type: String
-Parameter Sets: Get resource by name and group
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-```yaml
-Type: String
-Parameter Sets: Get resource by name, group and type
-Aliases: 
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-```yaml
-Type: String
-Parameter Sets: Get resource collection
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
 ### -ResourceId
 Specifies the fully qualified resource ID, including the subscription, as in the following example: 
 
@@ -254,7 +291,7 @@ Accept wildcard characters: False
 ### -ResourceName
 ```yaml
 Type: String
-Parameter Sets: Get a single resource at the tenant level., Get resource by name, group and type
+Parameter Sets: Get resource by name, group and type, Get a single resource at the tenant level.
 Aliases: Name
 
 Required: True
@@ -266,45 +303,8 @@ Accept wildcard characters: False
 
 ```yaml
 Type: String
-Parameter Sets: Lists the resources based on the specified scope at the tenant level., Get resource by name and group, Get a resource by name and type.
+Parameter Sets: Get resource by name and group, Get a resource by name and type., Lists the resources based on the specified scope at the tenant level.
 Aliases: Name
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -ResourceType
-```yaml
-Type: String
-Parameter Sets: Get a single resource at the tenant level., Get resource by name, group and type
-Aliases: 
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-```yaml
-Type: String
-Parameter Sets: Lists the resources based on the specified scope at the tenant level., Get a resource by name and type.
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-```yaml
-Type: String
-Parameter Sets: Get resource collection
-Aliases: 
 
 Required: False
 Position: Named
@@ -318,7 +318,7 @@ Indicates that this cmdlet operates at the tenant level.
 
 ```yaml
 Type: SwitchParameter
-Parameter Sets: Get a single resource at the tenant level., Lists the resources based on the specified scope at the tenant level.
+Parameter Sets: Lists the resources based on the specified scope at the tenant level., Get a single resource at the tenant level.
 Aliases: 
 
 Required: True

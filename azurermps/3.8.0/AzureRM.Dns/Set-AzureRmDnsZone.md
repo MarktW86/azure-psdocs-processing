@@ -5,9 +5,9 @@ online version:
 schema: 2.0.0
 content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/Dns/Commands.Dns/help/Set-AzureRmDnsZone.md
 original_content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/Dns/Commands.Dns/help/Set-AzureRmDnsZone.md
-gitcommit: https://github.com/Azure/azure-powershell/blob/8810c0614b76be8d014616888a4ae7733a452af9
-updated_at: 05/10/2017 17:05 PM
-ms.date: 05/10/2017
+gitcommit: https://github.com/Azure/azure-powershell/blob/94e42834e29c78cafba9e3f1e99e14af92561036
+updated_at: 04/28/2017 07:04 AM
+ms.date: 04/28/2017
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -76,7 +76,7 @@ Specifies the name of the DNS zone to update.
 ```yaml
 Type: String
 Parameter Sets: Fields
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -93,7 +93,7 @@ You can suppress this behavior with the *Overwrite* parameter, which updates the
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Object
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -111,7 +111,7 @@ Alternatively, you can specify the zone using a DnsZone object with the *Zone* p
 ```yaml
 Type: String
 Parameter Sets: Fields
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -144,7 +144,7 @@ Alternatively, you can specify the zone using the *ZoneName* and *ResourceGroupN
 ```yaml
 Type: DnsZone
 Parameter Sets: Object
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -202,6 +202,7 @@ By default, the cmdlet prompts you for confirmation if the $ConfirmPreference Wi
 
 If you specify *Confirm* or *Confirm:$True*, this cmdlet prompts you for confirmation before it runs.
 If you specify *Confirm:$False*, the cmdlet does not prompt you for confirmation. 
+
 
 ## RELATED LINKS
 

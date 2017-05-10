@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.Azure.Commands.ApiManagement.ServiceManagement.dll-Help.xml
-ms.assetid: 45B96AB0-ACE3-4754-B162-88027AC8CA41
+ms.assetid: 3753701D-EB3A-4AAC-A35F-82896084BD7B
 online version:
 schema: 2.0.0
 content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/ApiManagement/Commands.ApiManagement/help/New-AzureRmApiManagementAuthorizationServer.md
 original_content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/ApiManagement/Commands.ApiManagement/help/New-AzureRmApiManagementAuthorizationServer.md
-gitcommit: https://github.com/Azure/azure-powershell/blob/8810c0614b76be8d014616888a4ae7733a452af9
-updated_at: 05/10/2017 17:05 PM
-ms.date: 05/10/2017
+gitcommit: https://github.com/Azure/azure-powershell/blob/94e42834e29c78cafba9e3f1e99e14af92561036
+updated_at: 04/28/2017 07:04 AM
+ms.date: 04/28/2017
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -33,7 +33,8 @@ New-AzureRmApiManagementAuthorizationServer -Context <PsApiManagementContext> [-
  -ClientAuthenticationMethods <PsApiManagementClientAuthenticationMethod[]> [-TokenBodyParameters <Hashtable>]
  [-SupportState <Boolean>] [-DefaultScope <String>]
  -AccessTokenSendingMethods <PsApiManagementAccessTokenSendingMethod[]> [-ResourceOwnerUsername <String>]
- [-ResourceOwnerPassword <String>] [<CommonParameters>]
+ [-ResourceOwnerPassword <String>] [-InformationAction <ActionPreference>] [-InformationVariable <String>]
+ [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -50,15 +51,73 @@ This command creates an authorization server.
 
 ## PARAMETERS
 
-### -AccessTokenSendingMethods
-Specifies an array of methods to send an access token.
-psdx_paramvalues AuthorizationHeader and Query.
+### -Context
+Specifies a **PsApiManagementContext** object.
 
 ```yaml
-Type: PsApiManagementAccessTokenSendingMethod[]
+Type: PsApiManagementContext
 Parameter Sets: (All)
 Aliases: 
-Accepted values: AuthorizationHeader, Query
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -ServerId
+Specifies the ID of the authorization server to create.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -Name
+Specifies the name of the authorization server to create.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -Description
+Specifies a description for an authorization server.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -ClientRegistrationPageUrl
+Specifies the client registration endpoint to register clients with the authorization server and obtain client credentials.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
 
 Required: True
 Position: Named
@@ -82,43 +141,8 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -AuthorizationRequestMethods
-Specifies an array of authorization request methods.
-Valid values are: GET, POST.
-The default value is GET.
-
-```yaml
-Type: PsApiManagementAuthorizationRequestMethod[]
-Parameter Sets: (All)
-Aliases: 
-Accepted values: Get, Post
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -ClientAuthenticationMethods
-Specifies an array of client authentication methods.
-psdx_paramvalues Basic and Body.
-
-```yaml
-Type: PsApiManagementClientAuthenticationMethod[]
-Parameter Sets: (All)
-Aliases: 
-Accepted values: Basic, Body
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -ClientId
-Specifies the client ID of the developer console that is the client application.
+### -TokenEndpointUrl
+Specifies the token endpoint URL that is used by clients to obtain access tokens in exchange for presenting authorization grants or refresh tokens.
 
 ```yaml
 Type: String
@@ -132,8 +156,8 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ClientRegistrationPageUrl
-Specifies the client registration endpoint to register clients with the authorization server and obtain client credentials.
+### -ClientId
+Specifies the client ID of the developer console that is the client application.
 
 ```yaml
 Type: String
@@ -162,41 +186,13 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Context
-Specifies a **PsApiManagementContext** object.
+### -AuthorizationRequestMethods
+Specifies an array of authorization request methods.
+Valid values are: GET, POST.
+The default value is GET.
 
 ```yaml
-Type: PsApiManagementContext
-Parameter Sets: (All)
-Aliases: 
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -DefaultScope
-Specifies the default scope for the authorization server.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -Description
-Specifies a description for an authorization server.
-
-```yaml
-Type: String
+Type: PsApiManagementAuthorizationRequestMethod[]
 Parameter Sets: (All)
 Aliases: 
 
@@ -209,7 +205,7 @@ Accept wildcard characters: False
 
 ### -GrantTypes
 Specifies an array of grant types.
-psdx_paramvalues
+The acceptable values for this parameter are:
 
 - AuthorizationCode
 - ClientCredentials 
@@ -220,7 +216,6 @@ psdx_paramvalues
 Type: PsApiManagementGrantType[]
 Parameter Sets: (All)
 Aliases: 
-Accepted values: AuthorizationCode, Implicit, ResourceOwnerPassword, ClientCredentials
 
 Required: True
 Position: Named
@@ -229,11 +224,12 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Name
-Specifies the name of the authorization server to create.
+### -ClientAuthenticationMethods
+Specifies an array of client authentication methods.
+The acceptable values for this parameter are: Basic and Body.
 
 ```yaml
-Type: String
+Type: PsApiManagementClientAuthenticationMethod[]
 Parameter Sets: (All)
 Aliases: 
 
@@ -244,43 +240,11 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ResourceOwnerPassword
-Specifies the resource owner password.
-You must specify this parameter is required if ResourceOwnerPassword is specified by the *GrantTypes* parameter.
+### -TokenBodyParameters
+Specifies additional body parameters using **application/x-www-form-urlencoded** format.
 
 ```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -ResourceOwnerUsername
-Specifies the resource owner user name.
-You must specify this parameter if ResourceOwnerPassword is specified by the *GrantTypes* parameter.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -ServerId
-Specifies the ID of the authorization server to create.
-
-```yaml
-Type: String
+Type: Hashtable
 Parameter Sets: (All)
 Aliases: 
 
@@ -306,11 +270,11 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -TokenBodyParameters
-Specifies additional body parameters using **application/x-www-form-urlencoded** format.
+### -DefaultScope
+Specifies the default scope for the authorization server.
 
 ```yaml
-Type: Hashtable
+Type: String
 Parameter Sets: (All)
 Aliases: 
 
@@ -321,11 +285,12 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -TokenEndpointUrl
-Specifies the token endpoint URL that is used by clients to obtain access tokens in exchange for presenting authorization grants or refresh tokens.
+### -AccessTokenSendingMethods
+Specifies an array of methods to send an access token.
+The acceptable values for this parameter are: AuthorizationHeader and Query.
 
 ```yaml
-Type: String
+Type: PsApiManagementAccessTokenSendingMethod[]
 Parameter Sets: (All)
 Aliases: 
 
@@ -333,6 +298,77 @@ Required: True
 Position: Named
 Default value: None
 Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -ResourceOwnerUsername
+Specifies the resource owner user name.
+You must specify this parameter if ResourceOwnerPassword is specified by the *GrantTypes* parameter.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -ResourceOwnerPassword
+Specifies the resource owner password.
+You must specify this parameter is required if ResourceOwnerPassword is specified by the *GrantTypes* parameter.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -InformationAction
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
+
+```yaml
+Type: ActionPreference
+Parameter Sets: (All)
+Aliases: infa
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -InformationVariable
+Specifies an information variable.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: iv
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
 Accept wildcard characters: False
 ```
 

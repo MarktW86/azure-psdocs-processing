@@ -4,9 +4,9 @@ online version:
 schema: 2.0.0
 content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/Sql/Commands.Sql/help/Get-AzureRmSqlDatabaseFailoverGroup.md
 original_content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/Sql/Commands.Sql/help/Get-AzureRmSqlDatabaseFailoverGroup.md
-gitcommit: https://github.com/Azure/azure-powershell/blob/6271d6cb55184b73b34a02f4cfc1b3d65bdadc25
-updated_at: 05/10/2017 17:05 PM
-ms.date: 05/10/2017
+gitcommit: https://github.com/Azure/azure-powershell/blob/c7f39003a0e9914b1fdc763e3655d3a188c3dfee
+updated_at: 04/28/2017 07:04 AM
+ms.date: 04/28/2017
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -19,40 +19,32 @@ ms.service: sql-database
 # Get-AzureRmSqlDatabaseFailoverGroup
 
 ## SYNOPSIS
-Gets or lists Azure SQL Database Failover Groups.
+Cmdlet to get the Azure SQL Failover Group Object
 
 ## SYNTAX
 
 ```
-Get-AzureRmSqlDatabaseFailoverGroup [-ServerName] <String> [[-FailoverGroupName] <String>]
+Get-AzureRmSqlDatabaseFailoverGroup [[-FailoverGroupName] <String>] [-ServerName] <String>
  [-ResourceGroupName] <String> [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-Gets a specific Azure SQL Database Failover Group or lists the Failover Groups on a server.
-
-Either server in the Failover Group may be used to execute the command. The returned values will reflect the state of the specified server with respect to the Failover Group.
+Cmdlet to get the Azure SQL Failover Group Object
 
 ## EXAMPLES
 
 ### Example 1
 ```
-PS C:\> $failoverGroups = Get-AzureRMSqlDatabaseFailoverGroup -ResourceGroupName rg -ServerName server
+PS C:\> $myFG = Get-AzureRMSqlDatabaseFailoverGroup -ResourceGroupName "myrg" -ServerName "myserver"  
+
 ```
 
-Lists all Failover Groups on a server.
-
-### Example 2
-```
-PS C:\> $failoverGroup = Get-AzureRMSqlDatabaseFailoverGroup -ResourceGroupName rg -ServerName server -FailoverGroupName fg
-```
-
-Get a specific Failover Group.
+{{ Add example description here }}
 
 ## PARAMETERS
 
 ### -FailoverGroupName
-The name of the Azure SQL Database Failover Group to retrieve.
+The name of the Azure SQL Failover Group to retrieve.
 
 ```yaml
 Type: String
@@ -82,7 +74,7 @@ Accept wildcard characters: False
 ```
 
 ### -ServerName
-The name of the Azure SQL Database Server from which to retrieve the Failover Group.
+The name of the Azure SQL Server the Failover Group is in.
 
 ```yaml
 Type: String
@@ -111,14 +103,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureRmSqlDatabaseFailoverGroup](./New-AzureRmSqlDatabaseFailoverGroup.md)
-
-[Set-AzureRmSqlDatabaseFailoverGroup](./Set-AzureRmSqlDatabaseFailoverGroup.md)
-
-[Add-AzureRmSqlDatabaseToFailoverGroup](./Add-AzureRmSqlDatabaseToFailoverGroup.md)
-
-[Remove-AzureRmSqlDatabaseFromFailoverGroup](./Remove-AzureRmSqlDatabaseFromFailoverGroup.md)
-
-[Switch-AzureRmSqlDatabaseFailoverGroup](./Switch-AzureRmSqlDatabaseFailoverGroup.md)
-
-[Remove-AzureRmSqlDatabaseFailoverGroup](./Remove-AzureRmSqlDatabaseFailoverGroup.md)

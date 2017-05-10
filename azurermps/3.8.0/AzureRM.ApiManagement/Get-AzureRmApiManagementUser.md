@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.Azure.Commands.ApiManagement.ServiceManagement.dll-Help.xml
-ms.assetid: 638B2BF6-23F8-4038-B20B-1CFABFDBF5D3
+ms.assetid: 6D74A8C9-1894-474C-9E92-1F5810290B07
 online version:
 schema: 2.0.0
 content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/ApiManagement/Commands.ApiManagement/help/Get-AzureRmApiManagementUser.md
 original_content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/ApiManagement/Commands.ApiManagement/help/Get-AzureRmApiManagementUser.md
-gitcommit: https://github.com/Azure/azure-powershell/blob/8810c0614b76be8d014616888a4ae7733a452af9
-updated_at: 05/10/2017 17:05 PM
-ms.date: 05/10/2017
+gitcommit: https://github.com/Azure/azure-powershell/blob/94e42834e29c78cafba9e3f1e99e14af92561036
+updated_at: 04/28/2017 07:04 AM
+ms.date: 04/28/2017
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -26,18 +26,21 @@ Gets a user or users.
 
 ### Get all users (Default)
 ```
-Get-AzureRmApiManagementUser -Context <PsApiManagementContext> [<CommonParameters>]
+Get-AzureRmApiManagementUser -Context <PsApiManagementContext> [-InformationAction <ActionPreference>]
+ [-InformationVariable <String>] [<CommonParameters>]
 ```
 
 ### Get user by ID
 ```
-Get-AzureRmApiManagementUser -Context <PsApiManagementContext> [-UserId <String>] [<CommonParameters>]
+Get-AzureRmApiManagementUser -Context <PsApiManagementContext> [-UserId <String>]
+ [-InformationAction <ActionPreference>] [-InformationVariable <String>] [<CommonParameters>]
 ```
 
 ### Find users
 ```
 Get-AzureRmApiManagementUser -Context <PsApiManagementContext> [-FirstName <String>] [-LastName <String>]
- [-State <PsApiManagementUserState>] [-Email <String>] [-GroupId <String>] [<CommonParameters>]
+ [-State <PsApiManagementUserState>] [-Email <String>] [-GroupId <String>]
+ [-InformationAction <ActionPreference>] [-InformationVariable <String>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -98,14 +101,14 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Email
-Specifies the email address of the user.
-If this parameter is specified, this cmdlet finds a user by email.
+### -UserId
+Specifies a user ID.
+If specified, this cmdlet finds the user by this identifier.
 This parameter is optional.
 
 ```yaml
 Type: String
-Parameter Sets: Find users
+Parameter Sets: Get user by ID
 Aliases: 
 
 Required: False
@@ -118,23 +121,6 @@ Accept wildcard characters: False
 ### -FirstName
 Specifies the first name of the user.
 If this parameter is specified, this cmdlet finds a user by first name.
-This parameter is optional.
-
-```yaml
-Type: String
-Parameter Sets: Find users
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -GroupId
-Specifies the group identifier.
-If specified, this cmdlet finds all users within the specified group.
 This parameter is optional.
 
 ```yaml
@@ -175,7 +161,6 @@ This parameter is optional.
 Type: PsApiManagementUserState
 Parameter Sets: Find users
 Aliases: 
-Accepted values: Active, Blocked
 
 Required: False
 Position: Named
@@ -184,20 +169,76 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -UserId
-Specifies a user ID.
-If specified, this cmdlet finds the user by this identifier.
+### -Email
+Specifies the email address of the user.
+If this parameter is specified, this cmdlet finds a user by email.
 This parameter is optional.
 
 ```yaml
 Type: String
-Parameter Sets: Get user by ID
+Parameter Sets: Find users
 Aliases: 
 
 Required: False
 Position: Named
 Default value: None
 Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -GroupId
+Specifies the group identifier.
+If specified, this cmdlet finds all users within the specified group.
+This parameter is optional.
+
+```yaml
+Type: String
+Parameter Sets: Find users
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -InformationAction
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
+
+```yaml
+Type: ActionPreference
+Parameter Sets: (All)
+Aliases: infa
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -InformationVariable
+Specifies an information variable.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: iv
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
 Accept wildcard characters: False
 ```
 

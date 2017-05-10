@@ -5,9 +5,9 @@ online version:
 schema: 2.0.0
 content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/SiteRecovery/Commands.SiteRecovery/help/Get-AzureRmSiteRecoveryJob.md
 original_content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/SiteRecovery/Commands.SiteRecovery/help/Get-AzureRmSiteRecoveryJob.md
-gitcommit: https://github.com/Azure/azure-powershell/blob/8810c0614b76be8d014616888a4ae7733a452af9
-updated_at: 05/10/2017 17:05 PM
-ms.date: 05/10/2017
+gitcommit: https://github.com/Azure/azure-powershell/blob/94e42834e29c78cafba9e3f1e99e14af92561036
+updated_at: 04/28/2017 07:04 AM
+ms.date: 04/28/2017
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -48,6 +48,22 @@ You can use this cmdlet to view the operation information for the current Site R
 
 ## PARAMETERS
 
+### -StartTime
+Specifies the start time for the jobs.
+This cmdlet gets all jobs that started after the specified time.
+
+```yaml
+Type: DateTime
+Parameter Sets: ByParam
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
 ### -EndTime
 Specifies the end time for the jobs.
 This cmdlet gets all jobs that started before the specified time.
@@ -66,42 +82,11 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Job
-Specifies the Site Recovery job.
-
-```yaml
-Type: ASRJob
-Parameter Sets: ByObject
-Aliases: 
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByValue)
-Accept wildcard characters: False
-```
-
-### -Name
-Specifies a unique name that identifies the job.
+### -TargetObjectId
+Specifies the ID of the object targeted by the job.
 
 ```yaml
 Type: String
-Parameter Sets: ByName
-Aliases: 
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -StartTime
-Specifies the start time for the jobs.
-This cmdlet gets all jobs that started after the specified time.
-
-```yaml
-Type: DateTime
 Parameter Sets: ByParam
 Aliases: 
 
@@ -129,7 +114,6 @@ The acceptable values for this parameter are:
 Type: String
 Parameter Sets: ByParam
 Aliases: 
-Accepted values: NotStarted, InProgress, Succeeded, Other, Failed, Cancelled, Suspended
 
 Required: False
 Position: Named
@@ -138,18 +122,33 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -TargetObjectId
-Specifies the ID of the object targeted by the job.
+### -Name
+Specifies a unique name that identifies the job.
 
 ```yaml
 Type: String
-Parameter Sets: ByParam
+Parameter Sets: ByName
 Aliases: 
 
-Required: False
+Required: True
 Position: Named
 Default value: None
 Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -Job
+Specifies the Site Recovery job.
+
+```yaml
+Type: ASRJob
+Parameter Sets: ByObject
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 

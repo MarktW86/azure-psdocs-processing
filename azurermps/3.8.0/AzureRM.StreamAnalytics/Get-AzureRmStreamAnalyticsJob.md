@@ -5,9 +5,9 @@ online version:
 schema: 2.0.0
 content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/StreamAnalytics/Commands.StreamAnalytics/help/Get-AzureRmStreamAnalyticsJob.md
 original_content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/StreamAnalytics/Commands.StreamAnalytics/help/Get-AzureRmStreamAnalyticsJob.md
-gitcommit: https://github.com/Azure/azure-powershell/blob/8810c0614b76be8d014616888a4ae7733a452af9
-updated_at: 05/10/2017 17:05 PM
-ms.date: 05/10/2017
+gitcommit: https://github.com/Azure/azure-powershell/blob/94e42834e29c78cafba9e3f1e99e14af92561036
+updated_at: 04/28/2017 07:04 AM
+ms.date: 04/28/2017
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -26,12 +26,13 @@ Gets Stream Analytics jobs information.
 
 ### For stream analytics objects in the given resource group
 ```
-Get-AzureRmStreamAnalyticsJob [-ResourceGroupName] <String> [[-Name] <String>] [-NoExpand] [<CommonParameters>]
+Get-AzureRmStreamAnalyticsJob [-ResourceGroupName] <String> [[-Name] <String>] [-NoExpand]
+ [-PipelineVariable <String>] [<CommonParameters>]
 ```
 
 ### For stream analytics objects in the given subscription
 ```
-Get-AzureRmStreamAnalyticsJob [-NoExpand] [<CommonParameters>]
+Get-AzureRmStreamAnalyticsJob [-NoExpand] [-PipelineVariable <String>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -61,6 +62,21 @@ PS C:\>Get-AzureRmStreamAnalyticsJob -ResourceGroupName "StreamAnalytics-Default
 This command returns information about the Stream Analytics job StreamingJob in the resource group StreamAnalytics-Default-West-US.
 
 ## PARAMETERS
+
+### -ResourceGroupName
+Specifies the name of the resource group to which the Azure Stream Analytics job belongs.
+
+```yaml
+Type: String
+Parameter Sets: For stream analytics objects in the given resource group
+Aliases: 
+
+Required: True
+Position: 0
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
 
 ### -Name
 Specifies the name of the Azure Stream Analytics job to retrieve.
@@ -92,18 +108,18 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ResourceGroupName
-Specifies the name of the resource group to which the Azure Stream Analytics job belongs.
+### -PipelineVariable
+Not Specified
 
 ```yaml
 Type: String
-Parameter Sets: For stream analytics objects in the given resource group
-Aliases: 
+Parameter Sets: (All)
+Aliases: pv
 
-Required: True
-Position: 0
+Required: False
+Position: Named
 Default value: None
-Accept pipeline input: True (ByPropertyName)
+Accept pipeline input: False
 Accept wildcard characters: False
 ```
 

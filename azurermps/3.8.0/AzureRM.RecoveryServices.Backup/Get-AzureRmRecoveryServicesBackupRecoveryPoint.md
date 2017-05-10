@@ -5,9 +5,9 @@ online version:
 schema: 2.0.0
 content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/RecoveryServices.Backup/Commands.RecoveryServices.Backup/help/Get-AzureRmRecoveryServicesBackupRecoveryPoint.md
 original_content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/RecoveryServices.Backup/Commands.RecoveryServices.Backup/help/Get-AzureRmRecoveryServicesBackupRecoveryPoint.md
-gitcommit: https://github.com/Azure/azure-powershell/blob/8810c0614b76be8d014616888a4ae7733a452af9
-updated_at: 05/10/2017 17:05 PM
-ms.date: 05/10/2017
+gitcommit: https://github.com/Azure/azure-powershell/blob/94e42834e29c78cafba9e3f1e99e14af92561036
+updated_at: 04/28/2017 07:04 AM
+ms.date: 04/28/2017
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -26,19 +26,22 @@ Gets the recovery points for a backed up item.
 
 ### NoFilterParameterSet (Default)
 ```
-Get-AzureRmRecoveryServicesBackupRecoveryPoint [-Item] <ItemBase> [<CommonParameters>]
+Get-AzureRmRecoveryServicesBackupRecoveryPoint [-Item] <ItemBase> [-InformationAction <ActionPreference>]
+ [-InformationVariable <String>] [<CommonParameters>]
 ```
 
 ### DateTimeFilter
 ```
 Get-AzureRmRecoveryServicesBackupRecoveryPoint [[-StartDate] <DateTime>] [[-EndDate] <DateTime>]
- [-Item] <ItemBase> [<CommonParameters>]
+ [-Item] <ItemBase> [-InformationAction <ActionPreference>] [-InformationVariable <String>]
+ [<CommonParameters>]
 ```
 
 ### RecoveryPointId
 ```
 Get-AzureRmRecoveryServicesBackupRecoveryPoint [-Item] <ItemBase> [-RecoveryPointId] <String>
- [[-KeyFileDownloadLocation] <String>] [<CommonParameters>]
+ [-KeyFileDownloadLocation <String>] [-InformationAction <ActionPreference>] [-InformationVariable <String>]
+ [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -70,6 +73,21 @@ The last command gets an array of recovery points for the item in $BackupItem, a
 
 ## PARAMETERS
 
+### -StartDate
+Specifies the start of the date range.
+
+```yaml
+Type: DateTime
+Parameter Sets: DateTimeFilter
+Aliases: 
+
+Required: False
+Position: 0
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
 ### -EndDate
 Specifies the end of the date range.
 
@@ -79,6 +97,60 @@ Parameter Sets: DateTimeFilter
 Aliases: 
 
 Required: False
+Position: 1
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -InformationAction
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
+
+```yaml
+Type: ActionPreference
+Parameter Sets: (All)
+Aliases: infa
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -InformationVariable
+Specifies an information variable.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: iv
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -RecoveryPointId
+Specifies the recovery point ID.
+
+```yaml
+Type: String
+Parameter Sets: RecoveryPointId
+Aliases: 
+
+Required: True
 Position: 1
 Default value: None
 Accept pipeline input: False
@@ -110,37 +182,7 @@ Parameter Sets: RecoveryPointId
 Aliases: 
 
 Required: False
-Position: 2
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -RecoveryPointId
-Specifies the recovery point ID.
-
-```yaml
-Type: String
-Parameter Sets: RecoveryPointId
-Aliases: 
-
-Required: True
-Position: 1
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -StartDate
-Specifies the start of the date range.
-
-```yaml
-Type: DateTime
-Parameter Sets: DateTimeFilter
-Aliases: 
-
-Required: False
-Position: 0
+Position: Named
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
