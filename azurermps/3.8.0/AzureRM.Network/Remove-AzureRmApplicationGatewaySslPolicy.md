@@ -5,9 +5,9 @@ online version:
 schema: 2.0.0
 content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/Network/Commands.Network/help/Remove-AzureRmApplicationGatewaySslPolicy.md
 original_content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/Network/Commands.Network/help/Remove-AzureRmApplicationGatewaySslPolicy.md
-gitcommit: https://github.com/Azure/azure-powershell/blob/39673ed92d863c7fba7fbbdb0d919d03c552b71b
-updated_at: 05/10/2017 17:05 PM
-ms.date: 05/10/2017
+gitcommit: https://github.com/Azure/azure-powershell/blob/394d84a350aee3cd69565f02a032a8bb97116681
+updated_at: 04/28/2017 07:04 AM
+ms.date: 04/28/2017
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -35,6 +35,20 @@ The Remove-AzureRmApplicationGatewaySslPolicy cmdlet removes SSL policy from an 
 ## EXAMPLES
 
 ### --------------------------  Example 1: Remove an SSL policy from an application gateway  --------------------------
+@{paragraph=PS C:\\\>}
+
+
+
+
+
+
+
+
+
+
+
+
+
 ```
 PS C:\>$AppGW = Get-AzureRmApplicationGateway -Name "ApplicationGateway01" -ResourceGroupName "ResourceGroup01"
 PS C:\> $AppGW = Remove-AzureRmApplicationGatewaySslPolicy -ApplicationGateway $AppGW

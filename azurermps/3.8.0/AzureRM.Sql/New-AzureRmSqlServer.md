@@ -5,9 +5,9 @@ online version:
 schema: 2.0.0
 content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/Sql/Commands.Sql/help/New-AzureRmSqlServer.md
 original_content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/Sql/Commands.Sql/help/New-AzureRmSqlServer.md
-gitcommit: https://github.com/Azure/azure-powershell/blob/8810c0614b76be8d014616888a4ae7733a452af9
-updated_at: 05/10/2017 17:05 PM
-ms.date: 05/10/2017
+gitcommit: https://github.com/Azure/azure-powershell/blob/9335d1d97be5302e81a218670737cf6a3d7f95e1
+updated_at: 04/28/2017 07:04 AM
+ms.date: 04/28/2017
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -26,7 +26,8 @@ Creates a SQL Database server.
 
 ```
 New-AzureRmSqlServer -ServerName <String> -SqlAdministratorCredentials <PSCredential> -Location <String>
- [-Tags <Hashtable>] [-ServerVersion <String>] [-ResourceGroupName] <String> [-WhatIf] [-Confirm]
+ [-Tags <Hashtable>] [-ServerVersion <String>] [-ResourceGroupName] <String>
+ [-InformationAction <ActionPreference>] [-InformationVariable <String>] [-WhatIf] [-Confirm]
  [<CommonParameters>]
 ```
 
@@ -51,6 +52,38 @@ This command creates a version 12 Azure SQL Database server.
 
 ## PARAMETERS
 
+### -ServerName
+Specifies the name of the new server.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -SqlAdministratorCredentials
+Specifies the SQL Database server administrator credentials for the new server.
+To obtain a **PSCredential** object, use the Get-Credential cmdlet.
+For more information, type `Get-Help Get-Credential`.
+
+```yaml
+Type: PSCredential
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
 ### -Location
 Specifies the location of the data center where this cmdlet creates the server.
 
@@ -66,30 +99,15 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ResourceGroupName
-Specifies the name of the resource group to which this cmdlet assigns the server.
+### -Tags
+Specifies a dictionary of tags that this cmdlet associates with the new server.
 
 ```yaml
-Type: String
+Type: Hashtable
 Parameter Sets: (All)
-Aliases: 
+Aliases: Tag
 
-Required: True
-Position: 0
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -ServerName
-Specifies the name of the new server.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: True
+Required: False
 Position: Named
 Default value: None
 Accept pipeline input: False
@@ -114,30 +132,52 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -SqlAdministratorCredentials
-Specifies the SQL Database server administrator credentials for the new server.
-To obtain a **PSCredential** object, use the Get-Credential cmdlet.
-For more information, type `Get-Help Get-Credential`.
+### -ResourceGroupName
+Specifies the name of the resource group to which this cmdlet assigns the server.
 
 ```yaml
-Type: PSCredential
+Type: String
 Parameter Sets: (All)
 Aliases: 
 
 Required: True
+Position: 0
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -InformationAction
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
+
+```yaml
+Type: ActionPreference
+Parameter Sets: (All)
+Aliases: infa
+
+Required: False
 Position: Named
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Tags
-Specifies a dictionary of tags that this cmdlet associates with the new server.
+### -InformationVariable
+Specifies an information variable.
 
 ```yaml
-Type: Hashtable
+Type: String
 Parameter Sets: (All)
-Aliases: Tag
+Aliases: iv
 
 Required: False
 Position: Named

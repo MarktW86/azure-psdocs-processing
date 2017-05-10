@@ -5,9 +5,9 @@ online version:
 schema: 2.0.0
 content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/ServerManagement/Commands.ServerManagement/help/Get-AzureRmServerManagementGateway.md
 original_content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/ServerManagement/Commands.ServerManagement/help/Get-AzureRmServerManagementGateway.md
-gitcommit: https://github.com/Azure/azure-powershell/blob/8810c0614b76be8d014616888a4ae7733a452af9
-updated_at: 05/10/2017 17:05 PM
-ms.date: 05/10/2017
+gitcommit: https://github.com/Azure/azure-powershell/blob/94e42834e29c78cafba9e3f1e99e14af92561036
+updated_at: 04/28/2017 07:04 AM
+ms.date: 04/28/2017
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -26,22 +26,26 @@ Gets one or more Server Management Gateways.
 
 ### NoParams (Default)
 ```
-Get-AzureRmServerManagementGateway [<CommonParameters>]
+Get-AzureRmServerManagementGateway [-InformationAction <ActionPreference>] [-InformationVariable <String>]
+ [<CommonParameters>]
 ```
 
 ### Many-ByResourceGroup
 ```
-Get-AzureRmServerManagementGateway [-ResourceGroupName] <String> [<CommonParameters>]
+Get-AzureRmServerManagementGateway [-ResourceGroupName] <String> [-InformationAction <ActionPreference>]
+ [-InformationVariable <String>] [<CommonParameters>]
 ```
 
 ### Single-ByName
 ```
-Get-AzureRmServerManagementGateway [-ResourceGroupName] <String> [-GatewayName] <String> [<CommonParameters>]
+Get-AzureRmServerManagementGateway [-ResourceGroupName] <String> [-GatewayName] <String>
+ [-InformationAction <ActionPreference>] [-InformationVariable <String>] [<CommonParameters>]
 ```
 
 ### Single-ByObject
 ```
-Get-AzureRmServerManagementGateway [-Gateway] <Gateway> [<CommonParameters>]
+Get-AzureRmServerManagementGateway [-Gateway] <Gateway> [-InformationAction <ActionPreference>]
+ [-InformationVariable <String>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -83,22 +87,57 @@ This command gets all instances of a Server Management Gateway named Gateway01 t
 
 ## PARAMETERS
 
-### -Gateway
-Specifies a gateway that this cmdlet gets.
+### -InformationAction
+Specifies how this cmdlet responds to an information event.
 
-The cmdlet uses the *ResourceGroupName* and *GatewayName* parameters through the specified Gateway to perform the action.
+The acceptable values for this parameter are:
 
-When this parameter is specified, this cmdlet will include detailed status for the gateway.
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
-Type: Gateway
-Parameter Sets: Single-ByObject
+Type: ActionPreference
+Parameter Sets: (All)
+Aliases: infa
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -InformationVariable
+Specifies an information variable.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: iv
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -ResourceGroupName
+Specifies the name of the resource group for which this cmdlet gets gateways.
+
+```yaml
+Type: String
+Parameter Sets: Many-ByResourceGroup, Single-ByName
 Aliases: 
 
 Required: True
 Position: 0
 Default value: None
-Accept pipeline input: True (ByValue)
+Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
@@ -119,18 +158,22 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ResourceGroupName
-Specifies the name of the resource group for which this cmdlet gets gateways.
+### -Gateway
+Specifies a gateway that this cmdlet gets.
+
+The cmdlet uses the *ResourceGroupName* and *GatewayName* parameters through the specified Gateway to perform the action.
+
+When this parameter is specified, this cmdlet will include detailed status for the gateway.
 
 ```yaml
-Type: String
-Parameter Sets: Many-ByResourceGroup, Single-ByName
+Type: Gateway
+Parameter Sets: Single-ByObject
 Aliases: 
 
 Required: True
 Position: 0
 Default value: None
-Accept pipeline input: True (ByPropertyName)
+Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 

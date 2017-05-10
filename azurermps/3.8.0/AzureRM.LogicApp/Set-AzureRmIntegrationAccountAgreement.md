@@ -5,9 +5,9 @@ online version:
 schema: 2.0.0
 content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/LogicApp/Commands.LogicApp/help/Set-AzureRmIntegrationAccountAgreement.md
 original_content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/LogicApp/Commands.LogicApp/help/Set-AzureRmIntegrationAccountAgreement.md
-gitcommit: https://github.com/Azure/azure-powershell/blob/8810c0614b76be8d014616888a4ae7733a452af9
-updated_at: 05/10/2017 17:05 PM
-ms.date: 05/10/2017
+gitcommit: https://github.com/Azure/azure-powershell/blob/5324c732bb445fca216d167be1094ff40268ff37
+updated_at: 04/28/2017 07:04 AM
+ms.date: 04/28/2017
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -29,7 +29,8 @@ Set-AzureRmIntegrationAccountAgreement -ResourceGroupName <String> -Name <String
  [-AgreementType <String>] [-GuestPartner <String>] [-HostPartner <String>] [-GuestIdentityQualifier <String>]
  [-GuestIdentityQualifierValue <String>] [-HostIdentityQualifier <String>]
  [-HostIdentityQualifierValue <String>] [-AgreementContent <String>] [-AgreementContentFilePath <String>]
- [-Metadata <Object>] [-Force] [-WhatIf] [-Confirm] [<CommonParameters>]
+ [-Metadata <Object>] [-Force] [-InformationAction <ActionPreference>] [-InformationVariable <String>]
+ [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -70,33 +71,33 @@ This command updates an integration account agreement in the specified Azure res
 
 ## PARAMETERS
 
-### -AgreementContent
-Specifies agreement content, in JavaScript Object Notation (JSON) format, for the agreement.
+### -ResourceGroupName
+Specifies the name of a resource group.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
 Aliases: 
 
-Required: False
+Required: True
 Position: Named
 Default value: None
-Accept pipeline input: False
+Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -AgreementContentFilePath
-Specifies the file path of agreement content for the agreement.
+### -Name
+Specifies the name of an integration account.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases: IntegrationAccountName, ResourceName
 
-Required: False
+Required: True
 Position: Named
 Default value: None
-Accept pipeline input: False
+Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
@@ -127,7 +128,6 @@ The acceptable values for this parameter are:
 Type: String
 Parameter Sets: (All)
 Aliases: 
-Accepted values: X12, AS2, Edifact
 
 Required: False
 Position: Named
@@ -136,11 +136,26 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Force
-Forces the command to run without asking for user confirmation.
+### -GuestPartner
+Specifies the name of the guest partner.
 
 ```yaml
-Type: SwitchParameter
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -HostPartner
+Specifies the name of the host partner.
+
+```yaml
+Type: String
 Parameter Sets: (All)
 Aliases: 
 
@@ -153,34 +168,6 @@ Accept wildcard characters: False
 
 ### -GuestIdentityQualifier
 Specifies a name business identity qualifier for the guest partner.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -GuestIdentityQualifierValue
-The integration account agreement guest identity qualifier value.```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -GuestPartner
-Specifies the name of the guest partner.
 
 ```yaml
 Type: String
@@ -209,8 +196,10 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -HostIdentityQualifierValue
-The integration account agreement host identity qualifier value.```yaml
+### -AgreementContent
+Specifies agreement content, in JavaScript Object Notation (JSON) format, for the agreement.
+
+```yaml
 Type: String
 Parameter Sets: (All)
 Aliases: 
@@ -222,8 +211,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -HostPartner
-Specifies the name of the host partner.
+### -AgreementContentFilePath
+Specifies the file path of agreement content for the agreement.
 
 ```yaml
 Type: String
@@ -252,33 +241,73 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Name
-Specifies the name of an integration account.
+### -Force
+Forces the command to run without asking for user confirmation.
 
 ```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: IntegrationAccountName, ResourceName
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -ResourceGroupName
-Specifies the name of a resource group.
-
-```yaml
-Type: String
+Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
 
-Required: True
+Required: False
 Position: Named
 Default value: None
-Accept pipeline input: True (ByPropertyName)
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -InformationAction
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
+
+```yaml
+Type: ActionPreference
+Parameter Sets: (All)
+Aliases: infa
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -InformationVariable
+Specifies an information variable.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: iv
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -WhatIf
+Shows what would happen if the cmdlet runs.
+The cmdlet is not run.
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: (All)
+Aliases: wi
+
+Required: False
+Position: Named
+Default value: False
+Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
@@ -297,18 +326,28 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -WhatIf
-Shows what would happen if the cmdlet runs.
-The cmdlet is not run.
-
-```yaml
-Type: SwitchParameter
+### -GuestIdentityQualifierValue
+The integration account agreement guest identity qualifier value.```yaml
+Type: String
 Parameter Sets: (All)
-Aliases: wi
+Aliases: 
 
 Required: False
 Position: Named
-Default value: False
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -HostIdentityQualifierValue
+The integration account agreement host identity qualifier value.```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
 ```

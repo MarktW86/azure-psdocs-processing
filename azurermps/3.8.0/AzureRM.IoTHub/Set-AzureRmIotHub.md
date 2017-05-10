@@ -4,7 +4,7 @@ online version:
 schema: 2.0.0
 content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/IotHub/Commands.IotHub/help/Set-AzureRmIotHub.md
 original_content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/IotHub/Commands.IotHub/help/Set-AzureRmIotHub.md
-gitcommit: https://github.com/Azure/azure-powershell/blob/8810c0614b76be8d014616888a4ae7733a452af9
+gitcommit: https://github.com/Azure/azure-powershell/blob/29594b4f5607f73aec031896d1d7902e78edf8cf
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -22,19 +22,19 @@ Updates the properties of an IotHub.
 
 ### UpdateSku (Default)
 ```
-Set-AzureRmIotHub -ResourceGroupName <String> -Name <String> -SkuName <PSIotHubSku> [-Units <Int64>] [-WhatIf]
- [-Confirm] [<CommonParameters>]
+Set-AzureRmIotHub [-ResourceGroupName] <String> [-Name] <String> -SkuName <PSIotHubSku> [-Units <Int64>]
+ [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ### UpdateEventHubEndpointProperties
 ```
-Set-AzureRmIotHub -ResourceGroupName <String> -Name <String> -EventHubRetentionTimeInDays <Int64> [-WhatIf]
+Set-AzureRmIotHub [-ResourceGroupName] <String> [-Name] <String> -EventHubRetentionTimeInDays <Int64> [-WhatIf]
  [-Confirm] [<CommonParameters>]
 ```
 
 ### UpdateFileUploadProperties
 ```
-Set-AzureRmIotHub -ResourceGroupName <String> -Name <String> [-FileUploadStorageConnectionString <String>]
+Set-AzureRmIotHub [-ResourceGroupName] <String> [-Name] <String> [-FileUploadStorageConnectionString <String>]
  [-FileUploadContainerName <String>] [-FileUploadSasUriTtl <TimeSpan>] [-FileUploadNotificationTtl <TimeSpan>]
  [-FileUploadNotificationMaxDeliveryCount <Int32>] -EnableFileUploadNotifications <Boolean> [-WhatIf]
  [-Confirm] [<CommonParameters>]
@@ -42,13 +42,13 @@ Set-AzureRmIotHub -ResourceGroupName <String> -Name <String> [-FileUploadStorage
 
 ### UpdateCloudToDeviceProperties
 ```
-Set-AzureRmIotHub -ResourceGroupName <String> -Name <String> -CloudToDevice <PSCloudToDeviceProperties>
+Set-AzureRmIotHub [-ResourceGroupName] <String> [-Name] <String> -CloudToDevice <PSCloudToDeviceProperties>
  [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ### UpdateOperationsMonitoringProperties
 ```
-Set-AzureRmIotHub -ResourceGroupName <String> -Name <String>
+Set-AzureRmIotHub [-ResourceGroupName] <String> [-Name] <String>
  -OperationsMonitoringProperties <PSOperationsMonitoringProperties> [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
@@ -202,7 +202,7 @@ Parameter Sets: (All)
 Aliases: 
 
 Required: True
-Position: Named
+Position: 1
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
@@ -232,7 +232,7 @@ Parameter Sets: (All)
 Aliases: 
 
 Required: True
-Position: Named
+Position: 0
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False

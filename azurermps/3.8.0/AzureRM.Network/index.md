@@ -4,9 +4,9 @@ Module Guid: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
 Locale: en-US
 content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/Network/Commands.Network/help/AzureRM.Network.md
 original_content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/Network/Commands.Network/help/AzureRM.Network.md
-gitcommit: https://github.com/Azure/azure-powershell/blob/39673ed92d863c7fba7fbbdb0d919d03c552b71b
-updated_at: 05/10/2017 17:05 PM
-ms.date: 05/10/2017
+gitcommit: https://github.com/Azure/azure-powershell/blob/394d84a350aee3cd69565f02a032a8bb97116681
+updated_at: 04/28/2017 07:04 AM
+ms.date: 04/28/2017
 ms.topic: conceptual
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -354,9 +354,6 @@ Gets an application gateway.
 ### [Get-AzureRmApplicationGatewayAuthenticationCertificate](Get-AzureRmApplicationGatewayAuthenticationCertificate.md)
 Gets an authentication certificate for an application gateway.
 
-### [Get-AzureRmApplicationGatewayAvailableWafRuleSets](Get-AzureRmApplicationGatewayAvailableWafRuleSets.md)
-Gets all available web application firewall rule sets.
-
 ### [Get-AzureRmApplicationGatewayBackendAddressPool](Get-AzureRmApplicationGatewayBackendAddressPool.md)
 Gets a back-end address pool for an application gateway.
 
@@ -457,7 +454,7 @@ Gets a probe configuration for a load balancer.
 Gets the rule configuration for a load balancer.
 
 ### [Get-AzureRmLocalNetworkGateway](Get-AzureRmLocalNetworkGateway.md)
-Gets a Local Network Gateway
+{{Manually Enter Get-AzureRmLocalNetworkGateway Description Here}}
 
 ### [Get-AzureRmNetworkInterface](Get-AzureRmNetworkInterface.md)
 Gets a network interface.
@@ -511,7 +508,7 @@ Gets route tables.
 Gets a virtual network in a resource group.
 
 ### [Get-AzureRmVirtualNetworkGateway](Get-AzureRmVirtualNetworkGateway.md)
-Gets a Virtual Network Gateway
+{{Manually Enter Get-AzureRmVirtualNetworkGateway Description Here}}
 
 ### [Get-AzureRmVirtualNetworkGatewayAdvertisedRoute](Get-AzureRmVirtualNetworkGatewayAdvertisedRoute.md)
 Lists routes being advertised by an Azure virtual network gateway
@@ -520,7 +517,7 @@ Lists routes being advertised by an Azure virtual network gateway
 Lists an Azure virtual network gateway's BGP peers
 
 ### [Get-AzureRmVirtualNetworkGatewayConnection](Get-AzureRmVirtualNetworkGatewayConnection.md)
-Gets a Virtual Network Gateway Connection
+{{Manually Enter Get-AzureRmVirtualNetworkGatewayConnection Description Here}}
 
 ### [Get-AzureRmVirtualNetworkGatewayConnectionSharedKey](Get-AzureRmVirtualNetworkGatewayConnectionSharedKey.md)
 {{Manually Enter Get-AzureRmVirtualNetworkGatewayConnectionSharedKey Description Here}}
@@ -560,9 +557,6 @@ Creates back-end HTTP settings for an application gateway.
 
 ### [New-AzureRmApplicationGatewayConnectionDraining](New-AzureRmApplicationGatewayConnectionDraining.md)
 Creates a new connection draining configuration for back-end HTTP settings.
-
-### [New-AzureRmApplicationGatewayFirewallDisabledRuleGroupConfig](New-AzureRmApplicationGatewayFirewallDisabledRuleGroupConfig.md)
-Creates a new disabled rule group configuration.
 
 ### [New-AzureRmApplicationGatewayFrontendIPConfig](New-AzureRmApplicationGatewayFrontendIPConfig.md)
 Creates a front-end IP configuration for an application gateway.
@@ -610,7 +604,7 @@ Creates an ExpressRoute circuit authorization.
 Creates a new peering configuration to be added to an ExpressRoute circuit.
 
 ### [New-AzureRmIpsecPolicy](New-AzureRmIpsecPolicy.md)
-Creates an IPSec Policy.
+Creates an IPSec Policy to be added to a virtual network gateway connection.
 
 ### [New-AzureRmLoadBalancer](New-AzureRmLoadBalancer.md)
 Creates a load balancer.
@@ -634,7 +628,7 @@ Creates a probe configuration for a load balancer.
 Creates a rule configuration for a load balancer.
 
 ### [New-AzureRmLocalNetworkGateway](New-AzureRmLocalNetworkGateway.md)
-Creates a Local Network Gateway
+{{Manually Enter New-AzureRmLocalNetworkGateway Description Here}}
 
 ### [New-AzureRmNetworkInterface](New-AzureRmNetworkInterface.md)
 Creates a network interface.
@@ -676,13 +670,13 @@ Creates a route table.
 Creates a virtual network.
 
 ### [New-AzureRmVirtualNetworkGateway](New-AzureRmVirtualNetworkGateway.md)
-Creates a Virtual Network Gateway
+Creates a new virtual network gateway.
 
 ### [New-AzureRmVirtualNetworkGatewayConnection](New-AzureRmVirtualNetworkGatewayConnection.md)
-{{Manually Enter New-AzureRmVirtualNetworkGatewayConnection Description Here}}
+Creates a new virtual network gateway connection.
 
 ### [New-AzureRmVirtualNetworkGatewayIpConfig](New-AzureRmVirtualNetworkGatewayIpConfig.md)
-Creates an IP Configuration for a Virtual Network Gateway
+Creates a new IP configuration to be added to a virtual network gateway.
 
 ### [New-AzureRmVirtualNetworkSubnetConfig](New-AzureRmVirtualNetworkSubnetConfig.md)
 Creates a virtual network subnet configuration.
@@ -766,7 +760,7 @@ Removes a probe configuration from a load balancer.
 Removes a rule configuration for a load balancer.
 
 ### [Remove-AzureRmLocalNetworkGateway](Remove-AzureRmLocalNetworkGateway.md)
-Deletes a Local Network Gateway
+Removes a local network gateway.
 
 ### [Remove-AzureRmNetworkInterface](Remove-AzureRmNetworkInterface.md)
 Removes a network interface.
@@ -805,10 +799,10 @@ Removes a route table.
 Removes a virtual network.
 
 ### [Remove-AzureRmVirtualNetworkGateway](Remove-AzureRmVirtualNetworkGateway.md)
-Deletes a Virtual Network Gateway
+Removes a virtual network gateway.
 
 ### [Remove-AzureRmVirtualNetworkGatewayConnection](Remove-AzureRmVirtualNetworkGatewayConnection.md)
-Deletes a Virtual Network Gateway Connection
+Removes a virtual network gateway connection.
 
 ### [Remove-AzureRmVirtualNetworkGatewayDefaultSite](Remove-AzureRmVirtualNetworkGatewayDefaultSite.md)
 Removes the default site from a virtual network gateway.

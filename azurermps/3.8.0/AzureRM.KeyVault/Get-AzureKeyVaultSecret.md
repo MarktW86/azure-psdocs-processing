@@ -5,9 +5,9 @@ online version: http://go.microsoft.com/fwlink/?LinkId=690298
 schema: 2.0.0
 content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/KeyVault/Commands.KeyVault/help/Get-AzureKeyVaultSecret.md
 original_content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/KeyVault/Commands.KeyVault/help/Get-AzureKeyVaultSecret.md
-gitcommit: https://github.com/Azure/azure-powershell/blob/be40276d6b3a7d9b15aaf7cb0002f29bdc9e3569
-updated_at: 05/10/2017 17:05 PM
-ms.date: 05/10/2017
+gitcommit: https://github.com/Azure/azure-powershell/blob/94e42834e29c78cafba9e3f1e99e14af92561036
+updated_at: 04/28/2017 07:04 AM
+ms.date: 04/28/2017
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -37,11 +37,6 @@ Get-AzureKeyVaultSecret [-VaultName] <String> [-Name] <String> [[-Version] <Stri
 ### BySecretVersions
 ```
 Get-AzureKeyVaultSecret [-VaultName] <String> [-Name] <String> [-IncludeVersions] [<CommonParameters>]
-```
-
-### ByDeletedSecrets
-```
-Get-AzureKeyVaultSecret [-VaultName] <String> [[-Name] <String>] [-InRemovedState] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -86,21 +81,6 @@ PS C:\> Write-Host "Secret Value is: " $secret.SecretValueText
 
 These commands get the current version of a secret named ITSecret, and then displays the plain text value of that secret.
 
-### Example 6: Get all the keys that have been deleted but not purged for this key vault.
-```
-PS C:\>Get-AzureKeyVaultSecret -VaultName 'Contoso' -InRemovedState
-```
-
-This command gets all the secrets that have been previously deleted, but not purged, in the key vault named Contoso.
-
-### Example 7: Gets the secret ITSecret that has been deleted but not purged for this key vault.
-```
-PS C:\>Get-AzureKeyVaultSecret -VaultName 'Contoso' -KeyName 'ITSecret' -InRemovedState
-```
-
-This command gets the secret ITSecret that has been previously deleted, but not purged, in the key vault named Contoso.
-This command will return metadata such as the deletion date, and the scheduled purging date of this deleted secret.
-
 ## PARAMETERS
 
 ### -IncludeVersions
@@ -122,19 +102,6 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InRemovedState
-Specifies whether to show the previously deleted secrets in the output.```yaml
-Type: SwitchParameter
-Parameter Sets: ByDeletedSecrets
-Aliases: 
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
 ### -Name
 Specifies the name of the secret to get.
 
@@ -144,19 +111,7 @@ Parameter Sets: BySecretName, BySecretVersions
 Aliases: SecretName
 
 Required: True
-Position: 1
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-```yaml
-Type: String
-Parameter Sets: ByDeletedSecrets
-Aliases: SecretName
-
-Required: False
-Position: 1
+Position: 2
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
@@ -172,7 +127,7 @@ Parameter Sets: (All)
 Aliases: 
 
 Required: True
-Position: 0
+Position: 1
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
@@ -188,7 +143,7 @@ Parameter Sets: BySecretName
 Aliases: SecretVersion
 
 Required: False
-Position: 2
+Position: 3
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
@@ -203,15 +158,13 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## OUTPUTS
 
-### List<Microsoft.Azure.Commands.KeyVault.Models.SecretIdentityItem>, Microsoft.Azure.Commands.KeyVault.Models.Secret, List<Microsoft.Azure.Commands.KeyVault.Models.DeletedSecretIdentityItem>, Microsoft.Azure.Commands.KeyVault.Models.DeletedSecret
+### List<Microsoft.Azure.Commands.KeyVault.Models.Secret>, Microsoft.Azure.Commands.KeyVault.Models.Secret
 
 ## NOTES
 
 ## RELATED LINKS
 
 [Remove-AzureKeyVaultSecret](./Remove-AzureKeyVaultSecret.md)
-
-[Undo-AzureKeyVaultSecretRemoval](./Undo-AzureKeyVaultSecretRemoval.md)
 
 [Set-AzureKeyVaultSecret](./Set-AzureKeyVaultSecret.md)
 

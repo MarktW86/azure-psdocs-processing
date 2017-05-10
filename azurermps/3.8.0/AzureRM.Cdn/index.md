@@ -2,11 +2,12 @@
 Module Name: AzureRM.Cdn
 Module Guid: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
 Locale: en-US
+ms.assetid: 67C91A2B-729C-469F-9CB9-FADFA38305DE
 content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/Cdn/Commands.Cdn/help/AzureRM.Cdn.md
 original_content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/Cdn/Commands.Cdn/help/AzureRM.Cdn.md
-gitcommit: https://github.com/Azure/azure-powershell/blob/8810c0614b76be8d014616888a4ae7733a452af9
-updated_at: 05/10/2017 17:05 PM
-ms.date: 05/10/2017
+gitcommit: https://github.com/Azure/azure-powershell/blob/94e42834e29c78cafba9e3f1e99e14af92561036
+updated_at: 04/28/2017 07:04 AM
+ms.date: 04/28/2017
 ms.topic: conceptual
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -15,15 +16,11 @@ manager: erickson-doug
 open_to_public_contributors: true
 ms.service: cdn
 Get-AzureRmCdnCustomDomain: CDN
-Get-AzureRmCdnEdgeNodes: CDN
 Get-AzureRmCdnEndpoint: CDN
 Get-AzureRmCdnEndpointNameAvailability: CDN
-Get-AzureRmCdnEndpointResourceUsage: CDN
 Get-AzureRmCdnOrigin: CDN
 Get-AzureRMCdnProfile: CDN
-Get-AzureRmCdnProfileResourceUsage: CDN
 Get-AzureRmCdnProfileSsoUrl: CDN
-Get-AzureRmCdnSubscriptionResourceUsage: CDN
 New-AzureRmCdnCustomDomain: CDN
 New-AzureRmCdnEndpoint: CDN
 New-AzureRmCdnProfile: CDN
@@ -49,17 +46,11 @@ The topics in this section document the Azure PowerShell cmdlets for Azure Conte
 ### [Get-AzureRmCdnCustomDomain](Get-AzureRmCdnCustomDomain.md)
 Gets a CDN custom domain.
 
-### [Get-AzureRmCdnEdgeNodes](Get-AzureRmCdnEdgeNodes.md)
-{{Fill in the Synopsis}}
-
 ### [Get-AzureRmCdnEndpoint](Get-AzureRmCdnEndpoint.md)
 Gets a CDN endpoint.
 
 ### [Get-AzureRmCdnEndpointNameAvailability](Get-AzureRmCdnEndpointNameAvailability.md)
 Gets availability status of the CDN endpoint.
-
-### [Get-AzureRmCdnEndpointResourceUsage](Get-AzureRmCdnEndpointResourceUsage.md)
-{{Fill in the Synopsis}}
 
 ### [Get-AzureRmCdnOrigin](Get-AzureRmCdnOrigin.md)
 Gets a CDN origin server.
@@ -67,14 +58,8 @@ Gets a CDN origin server.
 ### [Get-AzureRmCdnProfile](Get-AzureRmCdnProfile.md)
 Gets a CDN profile.
 
-### [Get-AzureRmCdnProfileResourceUsage](Get-AzureRmCdnProfileResourceUsage.md)
-{{Fill in the Synopsis}}
-
 ### [Get-AzureRmCdnProfileSsoUrl](Get-AzureRmCdnProfileSsoUrl.md)
 Gets the single sign-on URL of a CDN profile.
-
-### [Get-AzureRmCdnSubscriptionResourceUsage](Get-AzureRmCdnSubscriptionResourceUsage.md)
-{{Fill in the Synopsis}}
 
 ### [New-AzureRmCdnCustomDomain](New-AzureRmCdnCustomDomain.md)
 Creates a custom domain for a CDN endpoint.

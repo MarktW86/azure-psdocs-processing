@@ -5,9 +5,9 @@ online version:
 schema: 2.0.0
 content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/SiteRecovery/Commands.SiteRecovery/help/Set-AzureRmSiteRecoveryProtectionEntity.md
 original_content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/SiteRecovery/Commands.SiteRecovery/help/Set-AzureRmSiteRecoveryProtectionEntity.md
-gitcommit: https://github.com/Azure/azure-powershell/blob/8810c0614b76be8d014616888a4ae7733a452af9
-updated_at: 05/10/2017 17:05 PM
-ms.date: 05/10/2017
+gitcommit: https://github.com/Azure/azure-powershell/blob/94e42834e29c78cafba9e3f1e99e14af92561036
+updated_at: 04/28/2017 07:04 AM
+ms.date: 04/28/2017
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -36,18 +36,18 @@ Set-AzureRmSiteRecoveryProtectionEntity -ProtectionEntity <ASRProtectionEntity> 
  -Policy <ASRPolicy> [-WaitForCompletion] [-Force] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
-### EnterpriseToAzure
-```
-Set-AzureRmSiteRecoveryProtectionEntity -ProtectionEntity <ASRProtectionEntity> -Protection <String>
- -Policy <ASRPolicy> -RecoveryAzureStorageAccountId <String> [-WaitForCompletion] [-Force] [-WhatIf] [-Confirm]
- [<CommonParameters>]
-```
-
 ### HyperVSiteToAzure
 ```
 Set-AzureRmSiteRecoveryProtectionEntity -ProtectionEntity <ASRProtectionEntity> -Protection <String>
  -Policy <ASRPolicy> -RecoveryAzureStorageAccountId <String> -OSDiskName <String> -OS <String>
  [-WaitForCompletion] [-Force] [-WhatIf] [-Confirm] [<CommonParameters>]
+```
+
+### EnterpriseToAzure
+```
+Set-AzureRmSiteRecoveryProtectionEntity -ProtectionEntity <ASRProtectionEntity> -Protection <String>
+ -Policy <ASRPolicy> -RecoveryAzureStorageAccountId <String> [-WaitForCompletion] [-Force] [-WhatIf] [-Confirm]
+ [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -56,91 +56,6 @@ The **Set-AzureRmSiteRecoveryProtectionEntity** cmdlet enables or disables prote
 ## EXAMPLES
 
 ## PARAMETERS
-
-### -Force
-Forces the command to run without asking for user confirmation.
-
-```yaml
-Type: SwitchParameter
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -OS
-Specifies the operating system type.
-The acceptable values for this parameter are:
-
-- Windows
-- Linux
-
-```yaml
-Type: String
-Parameter Sets: HyperVSiteToAzure
-Aliases: 
-Accepted values: Windows, Linux
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -OSDiskName
-Specifies the name of the disk that contains the operating system.
-
-```yaml
-Type: String
-Parameter Sets: HyperVSiteToAzure
-Aliases: 
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -Policy
-Specifies the Site Recovery policy object.
-
-```yaml
-Type: ASRPolicy
-Parameter Sets: EnterpriseToEnterprise, EnterpriseToAzure, HyperVSiteToAzure
-Aliases: 
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -Protection
-Specifies whether protection should be enabled or disabled.
-The acceptable values for this parameter are:
-
-- Enable
-- Disable
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-Accepted values: Enable, Disable
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
 
 ### -ProtectionEntity
 Specifies the protection entity object.
@@ -157,12 +72,16 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-### -RecoveryAzureStorageAccountId
-Specifies the ID of the target Azure Storage account.
+### -Protection
+Specifies whether protection should be enabled or disabled.
+The acceptable values for this parameter are:
+
+- Enable
+- Disable
 
 ```yaml
 Type: String
-Parameter Sets: EnterpriseToAzure, HyperVSiteToAzure
+Parameter Sets: (All)
 Aliases: 
 
 Required: True
@@ -187,17 +106,17 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Confirm
-Prompts you for confirmation before running the cmdlet.
+### -Force
+Forces the command to run without asking for user confirmation.
 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: cf
+Aliases: 
 
 Required: False
 Position: Named
-Default value: False
+Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
@@ -215,6 +134,85 @@ Aliases: wi
 Required: False
 Position: Named
 Default value: False
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -Confirm
+Prompts you for confirmation before running the cmdlet.
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: (All)
+Aliases: cf
+
+Required: False
+Position: Named
+Default value: False
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -Policy
+Specifies the Site Recovery policy object.
+
+```yaml
+Type: ASRPolicy
+Parameter Sets: EnterpriseToEnterprise, HyperVSiteToAzure, EnterpriseToAzure
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -RecoveryAzureStorageAccountId
+Specifies the ID of the target Azure Storage account.
+
+```yaml
+Type: String
+Parameter Sets: HyperVSiteToAzure, EnterpriseToAzure
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -OSDiskName
+Specifies the name of the disk that contains the operating system.
+
+```yaml
+Type: String
+Parameter Sets: HyperVSiteToAzure
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -OS
+Specifies the operating system type.
+The acceptable values for this parameter are:
+
+- Windows
+- Linux
+
+```yaml
+Type: String
+Parameter Sets: HyperVSiteToAzure
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
 ```

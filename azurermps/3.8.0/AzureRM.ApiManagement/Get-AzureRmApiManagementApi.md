@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.Azure.Commands.ApiManagement.ServiceManagement.dll-Help.xml
-ms.assetid: B80389B9-E143-4E24-A222-E95F691DA2E9
+ms.assetid: 55D36D75-46AB-4D66-B3EB-A1DC635D0D4A
 online version:
 schema: 2.0.0
 content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/ApiManagement/Commands.ApiManagement/help/Get-AzureRmApiManagementApi.md
 original_content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/ApiManagement/Commands.ApiManagement/help/Get-AzureRmApiManagementApi.md
-gitcommit: https://github.com/Azure/azure-powershell/blob/8810c0614b76be8d014616888a4ae7733a452af9
-updated_at: 05/10/2017 17:05 PM
-ms.date: 05/10/2017
+gitcommit: https://github.com/Azure/azure-powershell/blob/94e42834e29c78cafba9e3f1e99e14af92561036
+updated_at: 04/28/2017 07:04 AM
+ms.date: 04/28/2017
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -26,22 +26,26 @@ Gets an API.
 
 ### All APIs (Default)
 ```
-Get-AzureRmApiManagementApi -Context <PsApiManagementContext> [<CommonParameters>]
+Get-AzureRmApiManagementApi -Context <PsApiManagementContext> [-InformationAction <ActionPreference>]
+ [-InformationVariable <String>] [<CommonParameters>]
 ```
 
 ### Find by ID
 ```
-Get-AzureRmApiManagementApi -Context <PsApiManagementContext> -ApiId <String> [<CommonParameters>]
+Get-AzureRmApiManagementApi -Context <PsApiManagementContext> -ApiId <String>
+ [-InformationAction <ActionPreference>] [-InformationVariable <String>] [<CommonParameters>]
 ```
 
 ### Find by Name
 ```
-Get-AzureRmApiManagementApi -Context <PsApiManagementContext> -Name <String> [<CommonParameters>]
+Get-AzureRmApiManagementApi -Context <PsApiManagementContext> -Name <String>
+ [-InformationAction <ActionPreference>] [-InformationVariable <String>] [<CommonParameters>]
 ```
 
 ### Find by product ID
 ```
-Get-AzureRmApiManagementApi -Context <PsApiManagementContext> -ProductId <String> [<CommonParameters>]
+Get-AzureRmApiManagementApi -Context <PsApiManagementContext> -ProductId <String>
+ [-InformationAction <ActionPreference>] [-InformationVariable <String>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -72,12 +76,12 @@ This command gets the API with the specified name.
 
 ## PARAMETERS
 
-### -ApiId
-Specifies the ID of the API to get.
+### -Context
+Specifies a **PsApiManagementContext** object.
 
 ```yaml
-Type: String
-Parameter Sets: Find by ID
+Type: PsApiManagementContext
+Parameter Sets: (All)
 Aliases: 
 
 Required: True
@@ -87,12 +91,12 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Context
-Specifies a **PsApiManagementContext** object.
+### -ApiId
+Specifies the ID of the API to get.
 
 ```yaml
-Type: PsApiManagementContext
-Parameter Sets: (All)
+Type: String
+Parameter Sets: Find by ID
 Aliases: 
 
 Required: True
@@ -129,6 +133,45 @@ Required: True
 Position: Named
 Default value: None
 Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -InformationAction
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
+
+```yaml
+Type: ActionPreference
+Parameter Sets: (All)
+Aliases: infa
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -InformationVariable
+Specifies an information variable.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: iv
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
 Accept wildcard characters: False
 ```
 

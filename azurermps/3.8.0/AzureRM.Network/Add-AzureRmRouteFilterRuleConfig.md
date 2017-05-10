@@ -4,9 +4,9 @@ online version:
 schema: 2.0.0
 content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/Network/Commands.Network/help/Add-AzureRmRouteFilterRuleConfig.md
 original_content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/Network/Commands.Network/help/Add-AzureRmRouteFilterRuleConfig.md
-gitcommit: https://github.com/Azure/azure-powershell/blob/8810c0614b76be8d014616888a4ae7733a452af9
-updated_at: 05/10/2017 17:05 PM
-ms.date: 05/10/2017
+gitcommit: https://github.com/Azure/azure-powershell/blob/394d84a350aee3cd69565f02a032a8bb97116681
+updated_at: 04/28/2017 07:04 AM
+ms.date: 04/28/2017
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -25,8 +25,9 @@ Adds a route filter rule to a route filter.
 
 ```
 Add-AzureRmRouteFilterRuleConfig -RouteFilter <PSRouteFilter> [-Force] -Name <String> -Access <String>
- -RouteFilterRuleType <String> -CommunityList <System.Collections.Generic.List`1[System.String]> [-WhatIf]
- [-Confirm] [<CommonParameters>]
+ -RouteFilterRuleType <String> -CommunityList <System.Collections.Generic.List`1[System.String]>
+ [-InformationAction <ActionPreference>] [-InformationVariable <String>] [-WhatIf] [-Confirm]
+ [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -36,6 +37,12 @@ The Add-AzureRmRouteFilterRuleConfig cmdlet adds a route filter rule to an Azure
 
 ### --------------------------  Example 1: Add a route filter rule to a route filter  --------------------------
 @{paragraph=PS C:\\\>}
+
+
+
+
+
+
 
 
 
@@ -58,7 +65,6 @@ Specifies the access of the route filter rule, Valid values are Deny or Allow.
 Type: String
 Parameter Sets: (All)
 Aliases: 
-Accepted values: Allow, Deny
 
 Required: True
 Position: Named
@@ -85,6 +91,36 @@ Do not ask for confirmation if you want to overrite a resource```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -InformationAction
+@{Text=}
+
+```yaml
+Type: ActionPreference
+Parameter Sets: (All)
+Aliases: infa
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -InformationVariable
+@{Text=}
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: iv
 
 Required: False
 Position: Named
@@ -131,7 +167,6 @@ Valid values are: Community
 Type: String
 Parameter Sets: (All)
 Aliases: 
-Accepted values: Community
 
 Required: True
 Position: Named
