@@ -1,6 +1,6 @@
 ---
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/docs-conceptual/Working-with-Administrative-Units.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/docs-conceptual/Working-with-Administrative-Units.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/rodejo5-10/Azure%20AD%20Cmdlets/docs-conceptual/Working-with-Administrative-Units.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/rodejo5-10/Azure%20AD%20Cmdlets/docs-conceptual/Working-with-Administrative-Units.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/8d32acbc63e9fcdc61e4fd51a6c0e09777fa61b0
 ---
 # Working with Administrative Units
