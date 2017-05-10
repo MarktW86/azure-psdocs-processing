@@ -5,9 +5,9 @@ online version:
 schema: 2.0.0
 content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/Automation/Commands.Automation/help/Get-AzureRmAutomationDscCompilationJobOutput.md
 original_content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/Automation/Commands.Automation/help/Get-AzureRmAutomationDscCompilationJobOutput.md
-gitcommit: https://github.com/Azure/azure-powershell/blob/94e42834e29c78cafba9e3f1e99e14af92561036
-updated_at: 04/28/2017 07:04 AM
-ms.date: 04/28/2017
+gitcommit: https://github.com/Azure/azure-powershell/blob/8810c0614b76be8d014616888a4ae7733a452af9
+updated_at: 05/10/2017 17:05 PM
+ms.date: 05/10/2017
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -57,7 +57,7 @@ Parameter Sets: (All)
 Aliases: 
 
 Required: True
-Position: 2
+Position: 1
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
@@ -72,7 +72,7 @@ Parameter Sets: (All)
 Aliases: JobId
 
 Required: True
-Position: 3
+Position: 2
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
@@ -87,7 +87,7 @@ Parameter Sets: (All)
 Aliases: 
 
 Required: True
-Position: 1
+Position: 0
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
@@ -122,7 +122,7 @@ Valid values are:
 Type: CompilationJobStreamType
 Parameter Sets: (All)
 Aliases: 
-Accepted values: Any, Warning, Error, Verbose
+Accepted values: Warning, Error, Verbose, Any
 
 Required: False
 Position: Named

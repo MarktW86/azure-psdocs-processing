@@ -5,9 +5,9 @@ online version:
 schema: 2.0.0
 content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/AzureBatch/Commands.Batch/help/Get-AzureRmBatchLocationQuotas.md
 original_content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/AzureBatch/Commands.Batch/help/Get-AzureRmBatchLocationQuotas.md
-gitcommit: https://github.com/Azure/azure-powershell/blob/94e42834e29c78cafba9e3f1e99e14af92561036
-updated_at: 04/28/2017 07:04 AM
-ms.date: 04/28/2017
+gitcommit: https://github.com/Azure/azure-powershell/blob/8810c0614b76be8d014616888a4ae7733a452af9
+updated_at: 05/10/2017 17:05 PM
+ms.date: 05/10/2017
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -25,7 +25,7 @@ Gets the Batch service quotas for your subscription at the given location.
 ## SYNTAX
 
 ```
-Get-AzureRmBatchLocationQuotas [-Location] <String>
+Get-AzureRmBatchLocationQuotas [-Location] <String> [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -33,8 +33,7 @@ Gets the Batch service quotas for the specified subscription at the given locati
 
 ## EXAMPLES
 
-### Example 1: Get the Batch service quotas for the subscription in the West US region 
-
+### Example 1: Get the Batch service quotas for the subscription in the West US region
 ```
 PS C:\>Get-AzureRmBatchLocationQuotas -Location "westus"
           AccountQuota Location
@@ -63,6 +62,9 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
+### CommonParameters
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
+
 ## INPUTS
 
 ## OUTPUTS
@@ -72,5 +74,4 @@ Accept wildcard characters: False
 ## NOTES
 
 ## RELATED LINKS
-
 

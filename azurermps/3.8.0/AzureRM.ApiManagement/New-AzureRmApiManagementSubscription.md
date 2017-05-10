@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.Azure.Commands.ApiManagement.ServiceManagement.dll-Help.xml
-ms.assetid: 2BF772C7-1392-4552-B733-4B3CA7EF9594
+ms.assetid: B85BF332-503D-41CB-A3B7-221B85B9BE30
 online version:
 schema: 2.0.0
 content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/ApiManagement/Commands.ApiManagement/help/New-AzureRmApiManagementSubscription.md
 original_content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/ApiManagement/Commands.ApiManagement/help/New-AzureRmApiManagementSubscription.md
-gitcommit: https://github.com/Azure/azure-powershell/blob/94e42834e29c78cafba9e3f1e99e14af92561036
-updated_at: 04/28/2017 07:04 AM
-ms.date: 04/28/2017
+gitcommit: https://github.com/Azure/azure-powershell/blob/8810c0614b76be8d014616888a4ae7733a452af9
+updated_at: 05/10/2017 17:05 PM
+ms.date: 05/10/2017
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -27,8 +27,7 @@ Creates a subscription.
 ```
 New-AzureRmApiManagementSubscription -Context <PsApiManagementContext> [-SubscriptionId <String>]
  -Name <String> -UserId <String> -ProductId <String> [-PrimaryKey <String>] [-SecondaryKey <String>]
- [-State <PsApiManagementSubscriptionState>] [-InformationAction <ActionPreference>]
- [-InformationVariable <String>] [<CommonParameters>]
+ [-State <PsApiManagementSubscriptionState>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -60,54 +59,8 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -SubscriptionId
-Specifies the subscription ID.
-This parameter is generated if not specified.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
 ### -Name
 Specifies the subscription name.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -UserId
-Specifies the subscriber ID.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -ProductId
-Specifies the ID of the product to which to subscribe.
 
 ```yaml
 Type: String
@@ -132,6 +85,21 @@ Parameter Sets: (All)
 Aliases: 
 
 Required: False
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -ProductId
+Specifies the ID of the product to which to subscribe.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
 Position: Named
 Default value: None
 Accept pipeline input: True (ByPropertyName)
@@ -163,6 +131,7 @@ The default value is $Null.
 Type: PsApiManagementSubscriptionState
 Parameter Sets: (All)
 Aliases: 
+Accepted values: Suspended, Active, Expired, Submitted, Rejected, Cancelled
 
 Required: False
 Position: Named
@@ -171,42 +140,34 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -InformationAction
-Specifies how this cmdlet responds to an information event.
-
-The acceptable values for this parameter are:
-
-- Continue
-- Ignore
-- Inquire
-- SilentlyContinue
-- Stop
-- Suspend
-
-```yaml
-Type: ActionPreference
-Parameter Sets: (All)
-Aliases: infa
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -InformationVariable
-Specifies an information variable.
+### -SubscriptionId
+Specifies the subscription ID.
+This parameter is generated if not specified.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: iv
+Aliases: 
 
 Required: False
 Position: Named
 Default value: None
-Accept pipeline input: False
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -UserId
+Specifies the subscriber ID.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 

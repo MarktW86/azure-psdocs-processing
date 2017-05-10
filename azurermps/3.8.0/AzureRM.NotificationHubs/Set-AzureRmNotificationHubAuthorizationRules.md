@@ -5,9 +5,9 @@ online version:
 schema: 2.0.0
 content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/NotificationHubs/Commands.NotificationHubs/help/Set-AzureRmNotificationHubAuthorizationRules.md
 original_content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/NotificationHubs/Commands.NotificationHubs/help/Set-AzureRmNotificationHubAuthorizationRules.md
-gitcommit: https://github.com/Azure/azure-powershell/blob/94e42834e29c78cafba9e3f1e99e14af92561036
-updated_at: 04/28/2017 07:04 AM
-ms.date: 04/28/2017
+gitcommit: https://github.com/Azure/azure-powershell/blob/8810c0614b76be8d014616888a4ae7733a452af9
+updated_at: 05/10/2017 17:05 PM
+ms.date: 05/10/2017
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -82,19 +82,33 @@ Instead, that information is found in the input file C:\Configuration\Authorizat
 
 ## PARAMETERS
 
-### -ResourceGroup
-Specifies the resource group to which the notification hub is assigned. 
-Resource groups organize items such as namespaces, notification hubs, and authorization rules in ways that help simply inventory management and Azure administration.
+### -Force
+Do not ask for confirmation.
 
 ```yaml
-Type: String
+Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
 
-Required: True
-Position: 0
+Required: False
+Position: Named
 Default value: None
-Accept pipeline input: True (ByPropertyName)
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -InputFile
+Specifies the path to a JSON file containing configuration information for the new rule.
+
+```yaml
+Type: String
+Parameter Sets: InputFileParameterSet
+Aliases: 
+
+Required: True
+Position: 3
+Default value: None
+Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
@@ -130,27 +144,28 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
+### -ResourceGroup
+Specifies the resource group to which the notification hub is assigned. 
+Resource groups organize items such as namespaces, notification hubs, and authorization rules in ways that help simply inventory management and Azure administration.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: 0
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
 ### -SASRule
 Specifies the **SharedAccessAuthorizationRuleAttributes** object that contains configuration information for the authorization rules that are modified.
 
 ```yaml
 Type: SharedAccessAuthorizationRuleAttributes
 Parameter Sets: SASRuleParameterSet
-Aliases: 
-
-Required: True
-Position: 3
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -InputFile
-Specifies the path to a JSON file containing configuration information for the new rule.
-
-```yaml
-Type: String
-Parameter Sets: InputFileParameterSet
 Aliases: 
 
 Required: True
@@ -167,21 +182,6 @@ Prompts you for confirmation before running the cmdlet.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: cf
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -Force
-Do not ask for confirmation.
-
-```yaml
-Type: SwitchParameter
-Parameter Sets: (All)
-Aliases: 
 
 Required: False
 Position: Named

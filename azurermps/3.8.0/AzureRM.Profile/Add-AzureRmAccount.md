@@ -4,9 +4,9 @@ online version:
 schema: 2.0.0
 content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/Profile/Commands.Profile/help/Add-AzureRmAccount.md
 original_content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/Profile/Commands.Profile/help/Add-AzureRmAccount.md
-gitcommit: https://github.com/Azure/azure-powershell/blob/ef96857354968eb0d7f4b36c5fa0cec6b6263180
-updated_at: 04/28/2017 07:04 AM
-ms.date: 04/28/2017
+gitcommit: https://github.com/Azure/azure-powershell/blob/8810c0614b76be8d014616888a4ae7733a452af9
+updated_at: 05/10/2017 17:05 PM
+ms.date: 05/10/2017
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -25,25 +25,25 @@ Adds an authenticated account to use for Azure Resource Manager cmdlet requests.
 
 ### UserWithSubscriptionId (Default)
 ```
-Add-AzureRmAccount [-Environment <AzureEnvironment>] [-EnvironmentName <String>] [-Credential <PSCredential>]
+Add-AzureRmAccount [-Environment <AzureEnvironment>] [-EnvironmentName <String>] [[-Credential] <PSCredential>]
  [-TenantId <String>] [-SubscriptionId <String>] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ### UserWithSubscriptionName
 ```
-Add-AzureRmAccount [-Environment <AzureEnvironment>] [-EnvironmentName <String>] [-Credential <PSCredential>]
+Add-AzureRmAccount [-Environment <AzureEnvironment>] [-EnvironmentName <String>] [[-Credential] <PSCredential>]
  [-TenantId <String>] -SubscriptionName <String> [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ### ServicePrincipalWithSubscriptionId
 ```
-Add-AzureRmAccount [-Environment <AzureEnvironment>] [-EnvironmentName <String>] -Credential <PSCredential>
+Add-AzureRmAccount [-Environment <AzureEnvironment>] [-EnvironmentName <String>] [-Credential] <PSCredential>
  [-ServicePrincipal] -TenantId <String> [-SubscriptionId <String>] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ### ServicePrincipalWithSubscriptionName
 ```
-Add-AzureRmAccount [-Environment <AzureEnvironment>] [-EnvironmentName <String>] -Credential <PSCredential>
+Add-AzureRmAccount [-Environment <AzureEnvironment>] [-EnvironmentName <String>] [-Credential] <PSCredential>
  [-ServicePrincipal] -TenantId <String> -SubscriptionName <String> [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
@@ -213,7 +213,7 @@ Parameter Sets: UserWithSubscriptionId, UserWithSubscriptionName
 Aliases: 
 
 Required: False
-Position: Named
+Position: 0
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -225,7 +225,7 @@ Parameter Sets: ServicePrincipalWithSubscriptionId, ServicePrincipalWithSubscrip
 Aliases: 
 
 Required: True
-Position: Named
+Position: 0
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False

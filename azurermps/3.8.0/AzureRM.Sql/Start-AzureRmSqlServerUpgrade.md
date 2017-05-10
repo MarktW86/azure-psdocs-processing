@@ -5,9 +5,9 @@ online version:
 schema: 2.0.0
 content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/Sql/Commands.Sql/help/Start-AzureRmSqlServerUpgrade.md
 original_content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/Sql/Commands.Sql/help/Start-AzureRmSqlServerUpgrade.md
-gitcommit: https://github.com/Azure/azure-powershell/blob/94e42834e29c78cafba9e3f1e99e14af92561036
-updated_at: 04/28/2017 07:04 AM
-ms.date: 04/28/2017
+gitcommit: https://github.com/Azure/azure-powershell/blob/8810c0614b76be8d014616888a4ae7733a452af9
+updated_at: 05/10/2017 17:05 PM
+ms.date: 05/10/2017
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -28,8 +28,7 @@ Starts the upgrade of a SQL Database server.
 Start-AzureRmSqlServerUpgrade -ServerVersion <String> [-ScheduleUpgradeAfterUtcDateTime <DateTime>]
  [-DatabaseCollection <RecommendedDatabaseProperties[]>]
  [-ElasticPoolCollection <UpgradeRecommendedElasticPoolProperties[]>] -ServerName <String>
- [-ResourceGroupName] <String> [-InformationAction <ActionPreference>] [-InformationVariable <String>]
- [<CommonParameters>]
+ [-ResourceGroupName] <String> [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -74,39 +73,6 @@ After the upgrade, the database contosodb will be running the Standard edition a
 
 ## PARAMETERS
 
-### -ServerVersion
-Specifies the version to which this cmdlet upgrades the server.
-The only valid value is 12.0.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -ScheduleUpgradeAfterUtcDateTime
-Specifies the earliest time, as a **DateTime** object, to upgrade the server.
-Specify a value in the ISO8601 format, in Coordinated Universal Time (UTC).
-For more information, type `Get-Help Get-Date`.
-
-```yaml
-Type: DateTime
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
 ### -DatabaseCollection
 Specifies an array of **RecommendedDatabaseProperties** objects that this cmdlet uses for the server upgrade.
 
@@ -137,21 +103,6 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ServerName
-Specifies the name of the server that this cmdlet upgrades.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
 ### -ResourceGroupName
 Specifies the name of the resource group to which the server is assigned.
 
@@ -167,22 +118,15 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -InformationAction
-Specifies how this cmdlet responds to an information event.
-
-The acceptable values for this parameter are:
-
-- Continue
-- Ignore
-- Inquire
-- SilentlyContinue
-- Stop
-- Suspend
+### -ScheduleUpgradeAfterUtcDateTime
+Specifies the earliest time, as a **DateTime** object, to upgrade the server.
+Specify a value in the ISO8601 format, in Coordinated Universal Time (UTC).
+For more information, type `Get-Help Get-Date`.
 
 ```yaml
-Type: ActionPreference
+Type: DateTime
 Parameter Sets: (All)
-Aliases: infa
+Aliases: 
 
 Required: False
 Position: Named
@@ -191,15 +135,31 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -InformationVariable
-Specifies an information variable.
+### -ServerName
+Specifies the name of the server that this cmdlet upgrades.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: iv
+Aliases: 
 
-Required: False
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -ServerVersion
+Specifies the version to which this cmdlet upgrades the server.
+The only valid value is 12.0.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
 Position: Named
 Default value: None
 Accept pipeline input: False

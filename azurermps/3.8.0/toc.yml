@@ -356,6 +356,8 @@
           href: AzureRM.Websites/Stop-AzureRmWebApp.md
         - name: Stop-AzureRmWebAppSlot
           href: AzureRM.Websites/Stop-AzureRmWebAppSlot.md
+        - name: Swap-AzureRmWebAppSlot
+          href: AzureRM.Websites/Swap-AzureRmWebAppSlot.md
         - name: Switch-AzureRmWebAppSlot
           href: AzureRM.Websites/Switch-AzureRmWebAppSlot.md
     - name: Application Gateway
@@ -900,16 +902,24 @@
       items:
         - name: Get-AzureRmCdnCustomDomain
           href: AzureRM.Cdn/Get-AzureRmCdnCustomDomain.md
+        - name: Get-AzureRmCdnEdgeNodes
+          href: AzureRM.Cdn/Get-AzureRmCdnEdgeNodes.md
         - name: Get-AzureRmCdnEndpoint
           href: AzureRM.Cdn/Get-AzureRmCdnEndpoint.md
         - name: Get-AzureRmCdnEndpointNameAvailability
           href: AzureRM.Cdn/Get-AzureRmCdnEndpointNameAvailability.md
+        - name: Get-AzureRmCdnEndpointResourceUsage
+          href: AzureRM.Cdn/Get-AzureRmCdnEndpointResourceUsage.md
         - name: Get-AzureRmCdnOrigin
           href: AzureRM.Cdn/Get-AzureRmCdnOrigin.md
         - name: Get-AzureRMCdnProfile
           href: AzureRM.Cdn/Get-AzureRMCdnProfile.md
+        - name: Get-AzureRmCdnProfileResourceUsage
+          href: AzureRM.Cdn/Get-AzureRmCdnProfileResourceUsage.md
         - name: Get-AzureRmCdnProfileSsoUrl
           href: AzureRM.Cdn/Get-AzureRmCdnProfileSsoUrl.md
+        - name: Get-AzureRmCdnSubscriptionResourceUsage
+          href: AzureRM.Cdn/Get-AzureRmCdnSubscriptionResourceUsage.md
         - name: New-AzureRmCdnCustomDomain
           href: AzureRM.Cdn/New-AzureRmCdnCustomDomain.md
         - name: New-AzureRmCdnEndpoint
@@ -1925,6 +1935,23 @@
           href: AzureRM.NotificationHubs/Set-AzureRmNotificationHubsNamespace.md
         - name: Set-AzureRmNotificationHubsNamespaceAuthorizationRules
           href: AzureRM.NotificationHubs/Set-AzureRmNotificationHubsNamespaceAuthorizationRules.md
+    - name: Others
+      href: 'AzureRM.MachineLearning/index.md#others'
+      items:
+        - name: Add-AzureRmMlWebServiceRegionalProperty
+          href: AzureRM.MachineLearning/Add-AzureRmMlWebServiceRegionalProperty.md
+        - name: Get-AzureRmRecoveryServicesBackupProperty
+          href: AzureRM.RecoveryServices/Get-AzureRmRecoveryServicesBackupProperty.md
+        - name: Backup-AzureKeyVaultSecret
+          href: AzureRM.KeyVault/Backup-AzureKeyVaultSecret.md
+        - name: Restore-AzureKeyVaultSecret
+          href: AzureRM.KeyVault/Restore-AzureKeyVaultSecret.md
+        - name: Undo-AzureKeyVaultKeyRemoval
+          href: AzureRM.KeyVault/Undo-AzureKeyVaultKeyRemoval.md
+        - name: Undo-AzureKeyVaultSecretRemoval
+          href: AzureRM.KeyVault/Undo-AzureKeyVaultSecretRemoval.md
+        - name: Undo-AzureRmKeyVaultRemoval
+          href: AzureRM.KeyVault/Undo-AzureRmKeyVaultRemoval.md
     - name: Policies
       href: 'AzureRM.Resources/index.md#policies'
       items:
@@ -1978,8 +2005,12 @@
           href: AzureRM.Profile/Get-AzureRmSubscription.md
         - name: Get-AzureRmTenant
           href: AzureRM.Profile/Get-AzureRmTenant.md
+        - name: Import-AzureRmContext
+          href: AzureRM.Profile/Import-AzureRmContext.md
         - name: Remove-AzureRmEnvironment
           href: AzureRM.Profile/Remove-AzureRmEnvironment.md
+        - name: Save-AzureRmContext
+          href: AzureRM.Profile/Save-AzureRmContext.md
         - name: Save-AzureRmProfile
           href: AzureRM.Profile/Save-AzureRmProfile.md
         - name: Select-AzureRmProfile

@@ -1,12 +1,12 @@
 ---
-external help file: Microsoft.Azure.Commands.AnalysisServices.dll-help.xml
+external help file: Microsoft.Azure.Commands.AnalysisServices.dll-Help.xml
 online version:
 schema: 2.0.0
 content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/AnalysisServices/Commands.AnalysisServices/help/Get-AzureRmAnalysisServicesServer.md
 original_content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/AnalysisServices/Commands.AnalysisServices/help/Get-AzureRmAnalysisServicesServer.md
-gitcommit: https://github.com/Azure/azure-powershell/blob/2526f281fe0af40ef67662068fdbfa4ba9e7db43
-updated_at: 04/28/2017 07:04 AM
-ms.date: 04/28/2017
+gitcommit: https://github.com/Azure/azure-powershell/blob/8810c0614b76be8d014616888a4ae7733a452af9
+updated_at: 05/10/2017 17:05 PM
+ms.date: 05/10/2017
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -23,7 +23,7 @@ Gets the details of an Analysis Services server.
 ## SYNTAX
 
 ```
-Get-AzureRmAnalysisServicesServer [[-ResourceGroupName] <String>] [[-Name] <String>]
+Get-AzureRmAnalysisServicesServer [[-ResourceGroupName] <String>] [[-Name] <String>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -35,16 +35,15 @@ The Get-AzureRmAnalysisServicesServer cmdlet gets the details of an Analysis Ser
 ```
 PS C:\>Get-AzureRmAnalysisServicesServer -ResourceGroupName "ResourceGroup03"
 ```
+
 This command gets all Azure Analysis Services servers in the resource group named ResourceGroup03.
 
 ### Example 2: Get a server
 ```
-
 PS C:\>Get-AzureRmAnalysisServicesServer -ResourceGroupName "ResourceGroup03" -Name "testserver"
 ```
 
 This command gets the Azure Analysis Services server named testserver in the resource group named ResourceGroup03.
-
 
 ## PARAMETERS
 
@@ -78,9 +77,14 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
+### CommonParameters
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
+
 ## INPUTS
 
 ## OUTPUTS
+
+### Microsoft.Azure.Commands.AnalysisServices.Models.AzureAnalysisServicesServer
 
 ## NOTES
 Alias: Get-AzureAs

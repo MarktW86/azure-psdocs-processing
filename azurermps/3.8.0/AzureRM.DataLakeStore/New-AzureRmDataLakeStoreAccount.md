@@ -5,9 +5,9 @@ online version:
 schema: 2.0.0
 content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/DataLakeStore/Commands.DataLakeStore/help/New-AzureRmDataLakeStoreAccount.md
 original_content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/DataLakeStore/Commands.DataLakeStore/help/New-AzureRmDataLakeStoreAccount.md
-gitcommit: https://github.com/Azure/azure-powershell/blob/5043733fc7fcc1e94bbf50b5acab59c521107170
-updated_at: 04/28/2017 07:04 AM
-ms.date: 04/28/2017
+gitcommit: https://github.com/Azure/azure-powershell/blob/8810c0614b76be8d014616888a4ae7733a452af9
+updated_at: 05/10/2017 17:05 PM
+ms.date: 05/10/2017
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -68,13 +68,15 @@ Accept wildcard characters: False
 ```
 
 ### -DisableEncryption
-Indicates that the account will not have any form of encryption applied to it.```yaml
+Indicates that the account will not have any form of encryption applied to it.
+
+```yaml
 Type: SwitchParameter
 Parameter Sets: Disable Encryption
 Aliases: 
 
 Required: False
-Position: Named
+Position: 5
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
@@ -85,6 +87,7 @@ Accept wildcard characters: False
 Type: EncryptionConfigType
 Parameter Sets: User or System assigned encryption
 Aliases: 
+Accepted values: UserManaged, ServiceManaged
 
 Required: False
 Position: 5
@@ -197,10 +200,13 @@ Accept wildcard characters: False
 ```
 
 ### -Tier
-The desired commitment tier for this account to use.```yaml
+The desired commitment tier for this account to use.
+
+```yaml
 Type: TierType
 Parameter Sets: (All)
 Aliases: 
+Accepted values: Consumption, Commitment1TB, Commitment10TB, Commitment100TB, Commitment500TB, Commitment1PB, Commitment5PB
 
 Required: False
 Position: Named

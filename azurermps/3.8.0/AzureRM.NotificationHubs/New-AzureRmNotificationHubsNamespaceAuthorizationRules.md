@@ -5,9 +5,9 @@ online version:
 schema: 2.0.0
 content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/NotificationHubs/Commands.NotificationHubs/help/New-AzureRmNotificationHubsNamespaceAuthorizationRules.md
 original_content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/NotificationHubs/Commands.NotificationHubs/help/New-AzureRmNotificationHubsNamespaceAuthorizationRules.md
-gitcommit: https://github.com/Azure/azure-powershell/blob/94e42834e29c78cafba9e3f1e99e14af92561036
-updated_at: 04/28/2017 07:04 AM
-ms.date: 04/28/2017
+gitcommit: https://github.com/Azure/azure-powershell/blob/8810c0614b76be8d014616888a4ae7733a452af9
+updated_at: 05/10/2017 17:05 PM
+ms.date: 05/10/2017
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -75,23 +75,18 @@ However, you do not need to specify any information about the rule itself: rule 
 
 ## PARAMETERS
 
-### -ResourceGroup
-Specifies the resource group to which the namespace is assigned.
-
-Resource groups organize items such as namespaces, notification hubs, and authorization rules in ways that help simply inventory management and Azure administration.
-
-You must use an existing resource group.
-This cmdlet cannot create a new resource group.
+### -InputFile
+Specifies the path to a JSON file containing configuration information for the new authorization rule.
 
 ```yaml
 Type: String
-Parameter Sets: (All)
+Parameter Sets: InputFileParameterSet
 Aliases: 
 
 Required: True
-Position: 0
+Position: 2
 Default value: None
-Accept pipeline input: True (ByPropertyName)
+Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
@@ -114,27 +109,32 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
+### -ResourceGroup
+Specifies the resource group to which the namespace is assigned.
+
+Resource groups organize items such as namespaces, notification hubs, and authorization rules in ways that help simply inventory management and Azure administration.
+
+You must use an existing resource group.
+This cmdlet cannot create a new resource group.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: 0
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
 ### -SASRule
 Specifies the **SharedAccessAuthorizationRuleAttributes** object containing configuration information for the new rules.
 
 ```yaml
 Type: SharedAccessAuthorizationRuleAttributes
 Parameter Sets: SASRuleParameterSet
-Aliases: 
-
-Required: True
-Position: 2
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -InputFile
-Specifies the path to a JSON file containing configuration information for the new authorization rule.
-
-```yaml
-Type: String
-Parameter Sets: InputFileParameterSet
 Aliases: 
 
 Required: True

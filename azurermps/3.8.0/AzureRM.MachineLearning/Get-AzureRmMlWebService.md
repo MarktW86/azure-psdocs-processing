@@ -4,9 +4,9 @@ online version:
 schema: 2.0.0
 content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/MachineLearning/Commands.MachineLearning/help/Get-AzureRmMlWebService.md
 original_content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/MachineLearning/Commands.MachineLearning/help/Get-AzureRmMlWebService.md
-gitcommit: https://github.com/Azure/azure-powershell/blob/bdd7e3ac15f60206476c802f0aaeae9dfbf4d8bd
-updated_at: 04/28/2017 07:04 AM
-ms.date: 04/28/2017
+gitcommit: https://github.com/Azure/azure-powershell/blob/8810c0614b76be8d014616888a4ae7733a452af9
+updated_at: 05/10/2017 17:05 PM
+ms.date: 05/10/2017
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -24,7 +24,7 @@ Retrieves the summary information for one or more web services.
 ## SYNTAX
 
 ```
-Get-AzureRmMlWebService [-ResourceGroupName <String>] [-Name <String>]
+Get-AzureRmMlWebService [-ResourceGroupName <String>] [-Name <String>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -36,6 +36,8 @@ Depending on the paramenters passed, the cmdlet returns the defintion for a spec
 ### --------------------------  Example 1: Get details of specific web service  --------------------------
 @{paragraph=PS C:\\\>}
 
+
+
 ```
 Get-AzureRmMlWebService -ResourceGroupName "myresourcegroup" -Name "mywebservicename"
 ```
@@ -43,12 +45,16 @@ Get-AzureRmMlWebService -ResourceGroupName "myresourcegroup" -Name "mywebservice
 ### --------------------------  Example 2: Get all web service resources in current subscription  --------------------------
 @{paragraph=PS C:\\\>}
 
+
+
 ```
 Get-AzureRmMlWebService
 ```
 
 ### --------------------------  Example 3: Get all web services in the current subscription and given resource group  --------------------------
 @{paragraph=PS C:\\\>}
+
+
 
 ```
 Get-AzureRmMlWebService -ResourceGroupName "myresourcegroup"
@@ -85,6 +91,9 @@ Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
+
+### CommonParameters
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 

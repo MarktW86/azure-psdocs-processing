@@ -5,9 +5,9 @@ online version:
 schema: 2.0.0
 content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/OperationalInsights/Commands.OperationalInsights/help/Get-AzureRmOperationalInsightsDataSource.md
 original_content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/OperationalInsights/Commands.OperationalInsights/help/Get-AzureRmOperationalInsightsDataSource.md
-gitcommit: https://github.com/Azure/azure-powershell/blob/dfecbc0260b6842da7b12f0bf1bd8eff7f504e9e
-updated_at: 04/28/2017 07:04 AM
-ms.date: 04/28/2017
+gitcommit: https://github.com/Azure/azure-powershell/blob/8810c0614b76be8d014616888a4ae7733a452af9
+updated_at: 05/10/2017 17:05 PM
+ms.date: 05/10/2017
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -24,28 +24,31 @@ Get datasources under Azure Log Analytics workspace.
 
 ## SYNTAX
 
-### ByWorkspaceNameByKind (Default)
+### ByWorkspaceName (Default)
 ```
-Get-AzureRmOperationalInsightsDataSource [[-ResourceGroupName] <String>] [[-WorkspaceName] <String>]
- -Kind <String> [-InformationAction <ActionPreference>] [-InformationVariable <String>] [<CommonParameters>]
+Get-AzureRmOperationalInsightsDataSource [<CommonParameters>]
 ```
 
 ### ByWorkspaceObjectByName
 ```
-Get-AzureRmOperationalInsightsDataSource [-Workspace] <PSWorkspace> [-Name <String>]
- [-InformationAction <ActionPreference>] [-InformationVariable <String>] [<CommonParameters>]
+Get-AzureRmOperationalInsightsDataSource [-Workspace] <PSWorkspace> [[-Name] <String>] [<CommonParameters>]
 ```
 
 ### ByWorkspaceObjectByKind
 ```
-Get-AzureRmOperationalInsightsDataSource [[-Workspace] <PSWorkspace>] [-Kind <String>]
- [-InformationAction <ActionPreference>] [-InformationVariable <String>] [<CommonParameters>]
+Get-AzureRmOperationalInsightsDataSource [[-Workspace] <PSWorkspace>] [[-Kind] <String>] [<CommonParameters>]
 ```
 
 ### ByWorkspaceNameByName
 ```
-Get-AzureRmOperationalInsightsDataSource [-ResourceGroupName] <String> [-WorkspaceName] <String> -Name <String>
- [-InformationAction <ActionPreference>] [-InformationVariable <String>] [<CommonParameters>]
+Get-AzureRmOperationalInsightsDataSource [-ResourceGroupName] <String> [-WorkspaceName] <String>
+ [-Name] <String> [<CommonParameters>]
+```
+
+### ByWorkspaceNameByKind
+```
+Get-AzureRmOperationalInsightsDataSource [[-ResourceGroupName] <String>] [[-WorkspaceName] <String>]
+ [-Kind] <String> [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -62,45 +65,6 @@ You can filter the results based on the kind of data source.
 
 ## PARAMETERS
 
-### -InformationAction
-Specifies how this cmdlet responds to an information event.
-
-The acceptable values for this parameter are:
-
-- Continue
-- Ignore
-- Inquire
-- SilentlyContinue
-- Stop
-- Suspend
-
-```yaml
-Type: ActionPreference
-Parameter Sets: (All)
-Aliases: infa
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -InformationVariable
-Specifies an information variable.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: iv
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
 ### -Kind
 Specifies the kind of data sources to get.
 The acceptable values for this parameter are:
@@ -114,25 +78,27 @@ The acceptable values for this parameter are:
 
 ```yaml
 Type: String
-Parameter Sets: ByWorkspaceNameByKind
+Parameter Sets: ByWorkspaceObjectByKind
 Aliases: 
+Accepted values: AzureAuditLog, AzureActivityLog, CustomLog, LinuxPerformanceObject, LinuxSyslog, WindowsEvent, WindowsPerformanceCounter
 
-Required: True
-Position: Named
+Required: False
+Position: 4
 Default value: None
-Accept pipeline input: True (ByPropertyName)
+Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
 ```yaml
 Type: String
-Parameter Sets: ByWorkspaceObjectByKind
+Parameter Sets: ByWorkspaceNameByKind
 Aliases: 
+Accepted values: AzureAuditLog, AzureActivityLog, CustomLog, LinuxPerformanceObject, LinuxSyslog, WindowsEvent, WindowsPerformanceCounter
 
-Required: False
-Position: Named
+Required: True
+Position: 4
 Default value: None
-Accept pipeline input: True (ByPropertyName)
+Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
@@ -145,7 +111,7 @@ Parameter Sets: ByWorkspaceObjectByName
 Aliases: 
 
 Required: False
-Position: Named
+Position: 3
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -157,7 +123,7 @@ Parameter Sets: ByWorkspaceNameByName
 Aliases: 
 
 Required: True
-Position: Named
+Position: 3
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -168,25 +134,25 @@ Specifies the name of a resource group that contains data sources to get.
 
 ```yaml
 Type: String
-Parameter Sets: ByWorkspaceNameByKind
-Aliases: 
-
-Required: False
-Position: 1
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-```yaml
-Type: String
 Parameter Sets: ByWorkspaceNameByName
 Aliases: 
 
 Required: True
 Position: 1
 Default value: None
-Accept pipeline input: False
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+```yaml
+Type: String
+Parameter Sets: ByWorkspaceNameByKind
+Aliases: 
+
+Required: False
+Position: 1
+Default value: None
+Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
@@ -222,25 +188,25 @@ Specifies the name of a workspace in which this cmdlet operates.
 
 ```yaml
 Type: String
-Parameter Sets: ByWorkspaceNameByKind
-Aliases: 
-
-Required: False
-Position: 2
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-```yaml
-Type: String
 Parameter Sets: ByWorkspaceNameByName
 Aliases: 
 
 Required: True
 Position: 2
 Default value: None
-Accept pipeline input: False
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+```yaml
+Type: String
+Parameter Sets: ByWorkspaceNameByKind
+Aliases: 
+
+Required: False
+Position: 2
+Default value: None
+Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 

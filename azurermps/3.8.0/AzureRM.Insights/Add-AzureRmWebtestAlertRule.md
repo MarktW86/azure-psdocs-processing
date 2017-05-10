@@ -5,9 +5,9 @@ online version:
 schema: 2.0.0
 content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/Insights/Commands.Insights/help/Add-AzureRmWebtestAlertRule.md
 original_content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/Insights/Commands.Insights/help/Add-AzureRmWebtestAlertRule.md
-gitcommit: https://github.com/Azure/azure-powershell/blob/94e42834e29c78cafba9e3f1e99e14af92561036
-updated_at: 04/28/2017 07:04 AM
-ms.date: 04/28/2017
+gitcommit: https://github.com/Azure/azure-powershell/blob/8810c0614b76be8d014616888a4ae7733a452af9
+updated_at: 05/10/2017 17:05 PM
+ms.date: 05/10/2017
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -50,91 +50,15 @@ This command adds or updates a webtest alert rule.
 
 ## PARAMETERS
 
-### -MetricName
-Specifies the name of the metric.
+### -Actions
+Specifies a comma-separated list of actions.
 
 ```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -TargetResourceUri
-Specifies the resource ID of the webtest.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -WindowSize
-Specifies the time window size for the rule to compute its data.
-
-```yaml
-Type: TimeSpan
-Parameter Sets: (All)
-Aliases: 
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -FailedLocationCount
-Specifies the failed location count for the webtest rules.
-This is similar to the threshold in the other types of rules.
-
-```yaml
-Type: Int32
-Parameter Sets: (All)
-Aliases: 
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -MetricNamespace
-Specifies the metric namespace for rule.
-
-```yaml
-Type: String
+Type: System.Collections.Generic.List`1[Microsoft.Azure.Management.Insights.Models.RuleAction]
 Parameter Sets: (All)
 Aliases: 
 
 Required: False
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -Location
-Specifies the location where the rule is defined.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: True
 Position: Named
 Default value: None
 Accept pipeline input: True (ByPropertyName)
@@ -172,8 +96,24 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ResourceGroup
-Specifies the name of the resource group.
+### -FailedLocationCount
+Specifies the failed location count for the webtest rules.
+This is similar to the threshold in the other types of rules.
+
+```yaml
+Type: Int32
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -Location
+Specifies the location where the rule is defined.
 
 ```yaml
 Type: String
@@ -181,6 +121,36 @@ Parameter Sets: (All)
 Aliases: 
 
 Required: True
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -MetricName
+Specifies the name of the metric.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -MetricNamespace
+Specifies the metric namespace for rule.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
 Position: Named
 Default value: None
 Accept pipeline input: True (ByPropertyName)
@@ -202,15 +172,45 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Actions
-Specifies a comma-separated list of actions.
+### -ResourceGroup
+Specifies the name of the resource group.
 
 ```yaml
-Type: System.Collections.Generic.List`1[Microsoft.Azure.Management.Insights.Models.RuleAction]
+Type: String
 Parameter Sets: (All)
 Aliases: 
 
-Required: False
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -TargetResourceUri
+Specifies the resource ID of the webtest.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -WindowSize
+Specifies the time window size for the rule to compute its data.
+
+```yaml
+Type: TimeSpan
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
 Position: Named
 Default value: None
 Accept pipeline input: True (ByPropertyName)

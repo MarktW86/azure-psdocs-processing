@@ -5,9 +5,9 @@ online version:
 schema: 2.0.0
 content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/SiteRecovery/Commands.SiteRecovery/help/Get-AzureRmSiteRecoveryNetwork.md
 original_content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/SiteRecovery/Commands.SiteRecovery/help/Get-AzureRmSiteRecoveryNetwork.md
-gitcommit: https://github.com/Azure/azure-powershell/blob/94e42834e29c78cafba9e3f1e99e14af92561036
-updated_at: 04/28/2017 07:04 AM
-ms.date: 04/28/2017
+gitcommit: https://github.com/Azure/azure-powershell/blob/8810c0614b76be8d014616888a4ae7733a452af9
+updated_at: 05/10/2017 17:05 PM
+ms.date: 05/10/2017
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -29,9 +29,9 @@ Gets information about the networks managed by Site Recovery for the current vau
 Get-AzureRmSiteRecoveryNetwork [<CommonParameters>]
 ```
 
-### ByFriendlyNameLegacy
+### ByServerObject
 ```
-Get-AzureRmSiteRecoveryNetwork -Server <ASRServer> -FriendlyName <String> [<CommonParameters>]
+Get-AzureRmSiteRecoveryNetwork -Server <ASRServer> [<CommonParameters>]
 ```
 
 ### ByNameLegacy
@@ -39,14 +39,14 @@ Get-AzureRmSiteRecoveryNetwork -Server <ASRServer> -FriendlyName <String> [<Comm
 Get-AzureRmSiteRecoveryNetwork -Server <ASRServer> -Name <String> [<CommonParameters>]
 ```
 
-### ByServerObject
+### ByFriendlyNameLegacy
 ```
-Get-AzureRmSiteRecoveryNetwork -Server <ASRServer> [<CommonParameters>]
+Get-AzureRmSiteRecoveryNetwork -Server <ASRServer> -FriendlyName <String> [<CommonParameters>]
 ```
 
-### ByFriendlyName
+### ByFabricObject
 ```
-Get-AzureRmSiteRecoveryNetwork -Fabric <ASRFabric> -FriendlyName <String> [<CommonParameters>]
+Get-AzureRmSiteRecoveryNetwork -Fabric <ASRFabric> [<CommonParameters>]
 ```
 
 ### ByName
@@ -54,9 +54,9 @@ Get-AzureRmSiteRecoveryNetwork -Fabric <ASRFabric> -FriendlyName <String> [<Comm
 Get-AzureRmSiteRecoveryNetwork -Fabric <ASRFabric> -Name <String> [<CommonParameters>]
 ```
 
-### ByFabricObject
+### ByFriendlyName
 ```
-Get-AzureRmSiteRecoveryNetwork -Fabric <ASRFabric> [<CommonParameters>]
+Get-AzureRmSiteRecoveryNetwork -Fabric <ASRFabric> -FriendlyName <String> [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -66,37 +66,10 @@ The **Get-AzureRmSiteRecoveryNetwork** cmdlet gets information about Azure Site 
 
 ## PARAMETERS
 
-### -Server
+### -Fabric
 ```yaml
-Type: ASRServer
-Parameter Sets: ByFriendlyNameLegacy, ByNameLegacy, ByServerObject
-Aliases: 
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByValue)
-Accept wildcard characters: False
-```
-
-### -Name
-Specifies the name of the virtual machine network.
-
-```yaml
-Type: String
-Parameter Sets: ByNameLegacy
-Aliases: 
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByValue)
-Accept wildcard characters: False
-```
-
-```yaml
-Type: String
-Parameter Sets: ByName
+Type: ASRFabric
+Parameter Sets: ByFabricObject, ByName, ByFriendlyName
 Aliases: 
 
 Required: True
@@ -133,10 +106,37 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-### -Fabric
+### -Name
+Specifies the name of the virtual machine network.
+
 ```yaml
-Type: ASRFabric
-Parameter Sets: ByFriendlyName, ByName, ByFabricObject
+Type: String
+Parameter Sets: ByNameLegacy
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: True (ByValue)
+Accept wildcard characters: False
+```
+
+```yaml
+Type: String
+Parameter Sets: ByName
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: True (ByValue)
+Accept wildcard characters: False
+```
+
+### -Server
+```yaml
+Type: ASRServer
+Parameter Sets: ByServerObject, ByNameLegacy, ByFriendlyNameLegacy
 Aliases: 
 
 Required: True

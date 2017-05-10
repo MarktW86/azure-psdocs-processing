@@ -5,9 +5,9 @@ online version:
 schema: 2.0.0
 content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/Websites/Commands.Websites/help/Set-AzureRmWebApp.md
 original_content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/Websites/Commands.Websites/help/Set-AzureRmWebApp.md
-gitcommit: https://github.com/Azure/azure-powershell/blob/94e42834e29c78cafba9e3f1e99e14af92561036
-updated_at: 04/28/2017 07:04 AM
-ms.date: 04/28/2017
+gitcommit: https://github.com/Azure/azure-powershell/blob/8810c0614b76be8d014616888a4ae7733a452af9
+updated_at: 05/10/2017 17:05 PM
+ms.date: 05/10/2017
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -32,14 +32,14 @@ Set-AzureRmWebApp [[-AppServicePlan] <String>] [[-DefaultDocuments] <String[]>]
  [[-ConnectionStrings] <Hashtable>]
  [[-HandlerMappings] <System.Collections.Generic.IList`1[Microsoft.Azure.Management.WebSites.Models.HandlerMapping]>]
  [[-ManagedPipelineMode] <String>] [[-WebSocketsEnabled] <Boolean>] [[-Use32BitWorkerProcess] <Boolean>]
- [-AutoSwapSlotName <String>] [[-HostNames] <String[]>] [-NumberOfWorkers <Int32>]
- [-ResourceGroupName] <String> [-Name] <String>
+ [[-AutoSwapSlotName] <String>] [-HostNames <String[]>] [-NumberOfWorkers <Int32>]
+ [-ResourceGroupName] <String> [-Name] <String> [<CommonParameters>]
 ```
 
 ### S2
 ```
-Set-AzureRmWebApp [[-Use32BitWorkerProcess] <Boolean>] [-AutoSwapSlotName <String>] [-NumberOfWorkers <Int32>]
- [-WebApp] <Site>
+Set-AzureRmWebApp [[-Use32BitWorkerProcess] <Boolean>] [[-AutoSwapSlotName] <String>]
+ [-NumberOfWorkers <Int32>] [-WebApp] <Site> [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -53,7 +53,6 @@ PS C:\> Set-AzureRmWebApp -ResourceGroupName "Default-Web-WestUS" -Name "Contoso
 ```
 
 This command sets HttpLoggingEnabled to true for Web App ContosoWebApp associated with the resource group Default-Web-WestUS
-
 
 ## PARAMETERS
 
@@ -96,7 +95,7 @@ Parameter Sets: (All)
 Aliases: 
 
 Required: False
-Position: Named
+Position: 15
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -171,7 +170,7 @@ Parameter Sets: S1
 Aliases: 
 
 Required: False
-Position: 15
+Position: Named
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -199,6 +198,7 @@ Managed Pipeline Mode Name
 Type: String
 Parameter Sets: S1
 Aliases: 
+Accepted values: Classic, Integrated
 
 Required: False
 Position: 12
@@ -341,6 +341,9 @@ Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
+
+### CommonParameters
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 

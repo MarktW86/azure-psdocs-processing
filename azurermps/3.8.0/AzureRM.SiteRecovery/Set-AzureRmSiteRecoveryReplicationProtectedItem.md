@@ -5,9 +5,9 @@ online version:
 schema: 2.0.0
 content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/SiteRecovery/Commands.SiteRecovery/help/Set-AzureRmSiteRecoveryReplicationProtectedItem.md
 original_content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/SiteRecovery/Commands.SiteRecovery/help/Set-AzureRmSiteRecoveryReplicationProtectedItem.md
-gitcommit: https://github.com/Azure/azure-powershell/blob/94e42834e29c78cafba9e3f1e99e14af92561036
-updated_at: 04/28/2017 07:04 AM
-ms.date: 04/28/2017
+gitcommit: https://github.com/Azure/azure-powershell/blob/8810c0614b76be8d014616888a4ae7733a452af9
+updated_at: 05/10/2017 17:05 PM
+ms.date: 05/10/2017
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -38,18 +38,19 @@ The **Set-AzureRmSiteRecoveryReplicationProtectedItem** cmdlet sets the recovery
 
 ## PARAMETERS
 
-### -ReplicationProtectedItem
-Specifies the Azure Site Recovery Replication Protected Item.
+### -LicenseType
+Specifies the license type selection for Windows Server virtual machines migrated through Hybrid use benefit.
 
 ```yaml
-Type: ASRReplicationProtectedItem
+Type: String
 Parameter Sets: (All)
 Aliases: 
+Accepted values: NoLicenseType, WindowsServer
 
-Required: True
+Required: False
 Position: Named
 Default value: None
-Accept pipeline input: True (ByValue)
+Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
@@ -68,14 +69,15 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Size
-Specifies the recovery virtual machine size.
-The value should be from the set of sizes supported by Azure virtual machines.
+### -NicSelectionType
+Specifies the network interface card (NIC) properties set by user or set by default.
+You can specify NotSelected to go back to the default values.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
 Aliases: 
+Accepted values: NotSelected, SelectedByUser
 
 Required: False
 Position: Named
@@ -114,21 +116,6 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -RecoveryNicSubnetName
-Specifies the name of the Subnet on the recovery Azure virtual network for which this cmdlet recovers the Protected Item.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
 ### -RecoveryNicStaticIPAddress
 Specifies the static IP address that should be assigned to primary NIC on recovery.
 
@@ -144,9 +131,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -NicSelectionType
-Specifies the network interface card (NIC) properties set by user or set by default.
-You can specify NotSelected to go back to the default values.
+### -RecoveryNicSubnetName
+Specifies the name of the Subnet on the recovery Azure virtual network for which this cmdlet recovers the Protected Item.
 
 ```yaml
 Type: String
@@ -160,8 +146,24 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -LicenseType
-Specifies the license type selection for Windows Server virtual machines migrated through Hybrid use benefit.
+### -ReplicationProtectedItem
+Specifies the Azure Site Recovery Replication Protected Item.
+
+```yaml
+Type: ASRReplicationProtectedItem
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: True (ByValue)
+Accept wildcard characters: False
+```
+
+### -Size
+Specifies the recovery virtual machine size.
+The value should be from the set of sizes supported by Azure virtual machines.
 
 ```yaml
 Type: String

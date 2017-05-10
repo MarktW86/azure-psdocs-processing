@@ -5,9 +5,9 @@ online version: http://go.microsoft.com/fwlink/?LinkId=690162
 schema: 2.0.0
 content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/KeyVault/Commands.KeyVault/help/Remove-AzureRmKeyVault.md
 original_content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/KeyVault/Commands.KeyVault/help/Remove-AzureRmKeyVault.md
-gitcommit: https://github.com/Azure/azure-powershell/blob/94e42834e29c78cafba9e3f1e99e14af92561036
-updated_at: 04/28/2017 07:04 AM
-ms.date: 04/28/2017
+gitcommit: https://github.com/Azure/azure-powershell/blob/be40276d6b3a7d9b15aaf7cb0002f29bdc9e3569
+updated_at: 05/10/2017 17:05 PM
+ms.date: 05/10/2017
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -24,8 +24,15 @@ Deletes a key vault.
 
 ## SYNTAX
 
+### ByAvailableVault
 ```
-Remove-AzureRmKeyVault [-VaultName] <String> [[-ResourceGroupName] <String>] [-Force] [-WhatIf] [-Confirm]
+Remove-AzureRmKeyVault [-VaultName] <String> [[-ResourceGroupName] <String>] [-Location <String>] [-Force]
+ [-WhatIf] [-Confirm] [<CommonParameters>]
+```
+
+### ByDeletedVault
+```
+Remove-AzureRmKeyVault [-VaultName] <String> -Location <String> [-Force] [-InRemovedState] [-WhatIf] [-Confirm]
  [<CommonParameters>]
 ```
 
@@ -70,16 +77,54 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
+### -InRemovedState
+Remove the previously deleted vault permanently.```yaml
+Type: SwitchParameter
+Parameter Sets: ByDeletedVault
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -Location
+The location of the deleted vault.```yaml
+Type: String
+Parameter Sets: ByAvailableVault
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+```yaml
+Type: String
+Parameter Sets: ByDeletedVault
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
 ### -ResourceGroupName
 Specifies the name of a resource group.
 
 ```yaml
 Type: String
-Parameter Sets: (All)
+Parameter Sets: ByAvailableVault
 Aliases: 
 
 Required: False
-Position: 2
+Position: 1
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
@@ -94,7 +139,7 @@ Parameter Sets: (All)
 Aliases: 
 
 Required: True
-Position: 1
+Position: 0
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False

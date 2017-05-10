@@ -5,9 +5,9 @@ online version:
 schema: 2.0.0
 content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/Dns/Commands.Dns/help/Get-AzureRmDnsZone.md
 original_content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/Dns/Commands.Dns/help/Get-AzureRmDnsZone.md
-gitcommit: https://github.com/Azure/azure-powershell/blob/94e42834e29c78cafba9e3f1e99e14af92561036
-updated_at: 04/28/2017 07:04 AM
-ms.date: 04/28/2017
+gitcommit: https://github.com/Azure/azure-powershell/blob/8810c0614b76be8d014616888a4ae7733a452af9
+updated_at: 05/10/2017 17:05 PM
+ms.date: 05/10/2017
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -73,7 +73,7 @@ If you also omit the *ResourceGroupName* parameter, this cmdlet gets all DNS zon
 ```yaml
 Type: String
 Parameter Sets: ResourceGroup
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -91,7 +91,7 @@ In this case, this cmdlet gets all DNS zones in the current Azure subscription.
 ```yaml
 Type: String
 Parameter Sets: ResourceGroup
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named

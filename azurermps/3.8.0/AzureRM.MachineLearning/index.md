@@ -5,9 +5,9 @@ Help Version: 1.0.0.0
 Locale: en-US
 content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/MachineLearning/Commands.MachineLearning/help/AzureRM.MachineLearning.md
 original_content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/MachineLearning/Commands.MachineLearning/help/AzureRM.MachineLearning.md
-gitcommit: https://github.com/Azure/azure-powershell/blob/1dfaf7477509cb7498e91a15ba4cd0d1c631645a
-updated_at: 04/28/2017 07:04 AM
-ms.date: 04/28/2017
+gitcommit: https://github.com/Azure/azure-powershell/blob/c5a769e862ae125fd6424a8325774670efa4f075
+updated_at: 05/10/2017 17:05 PM
+ms.date: 05/10/2017
 ms.topic: conceptual
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -15,6 +15,7 @@ keywords: powershell, cmdlet
 manager: erickson-doug
 open_to_public_contributors: true
 ms.service: machine-learning
+Add-AzureRmMlWebServiceRegionalProperty: Others
 Export-AzureRmMlWebService: Machine Learning
 Get-AzureRmMlCommitmentAssociation: Machine Learning
 Get-AzureRmMlCommitmentPlan: Machine Learning
@@ -65,7 +66,11 @@ Moves a commitment association from one commitment plan to another.
 Creates a new commitment plan.
 
 ### [New-AzureRmMlWebService](New-AzureRmMlWebService.md)
-Exports the web service definition object as a JSON formatted string.
+
+Creates a new Azure Machine Learning web service.
+
+### [Add-AzureRmMlWebServiceRegionalProperty](Add-AzureRmMlWebServiceRegionalProperty.md)
+Creates regional web service properties.
 
 ### [Remove-AzureRmMlCommitmentPlan](Remove-AzureRmMlCommitmentPlan.md)
 Deletes a commitment plan.
