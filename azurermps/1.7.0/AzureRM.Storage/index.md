@@ -1,12 +1,12 @@
 ---
 Module Name: AzureRM.Storage
-Module Guid: da67eaa7-4cb1-4bfa-a194-8bf3faae8ac5
+Module Guid: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
 Locale: en-US
-updated_at: 03/23/2017 22:03 PM
-ms.date: 03/23/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Storage/v1.1.3/AzureRM.Storage.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Storage/v1.1.3/AzureRM.Storage.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/535e2e74f053db46eadf4681f4a95ece9f189378
+updated_at: 05/01/2017 21:05 PM
+ms.date: 05/01/2017
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Storage/v1.2.0/AzureRM.Storage.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Storage/v1.2.0/AzureRM.Storage.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0589fbf53d27e39e0cf445261d29c64fb0859d62
 ms.topic: conceptual
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -28,33 +28,33 @@ _isModulePage: true
 
 # AzureRM.Storage Module
 ## Description
-{{Manually Enter Description Here}}
+This topic displays help topics for the Azure Storage Management Cmdlets.
 
 ## AzureRM.Storage Cmdlets
 ### [Get-AzureRmStorageAccount](Get-AzureRmStorageAccount.md)
-Get the properties of a Storage Account
+Gets a Storage account.
 
 ### [Get-AzureRmStorageAccountKey](Get-AzureRmStorageAccountKey.md)
-Get the access keys for an Azure Storage Account
+Gets the access keys for an Azure Storage account.
 
 ### [Get-AzureRmStorageAccountNameAvailability](Get-AzureRmStorageAccountNameAvailability.md)
-Check the availability of a storage account name.
+Checks the availability of a storage account name.
 
 ### [Get-AzureRmStorageUsage](Get-AzureRmStorageUsage.md)
-Get the storage resource usage of current subscription.
+Gets the Storage resource usage of the current subscription.
 
 ### [New-AzureRmStorageAccount](New-AzureRmStorageAccount.md)
-Allows you to create a new Storage Account using the ARM deployment model
+Creates a Storage account.
 
 ### [New-AzureRmStorageAccountKey](New-AzureRmStorageAccountKey.md)
-Regenerates a storage key for an Azure Storage Account.
+Regenerates a storage key for an Azure Storage account.
 
 ### [Remove-AzureRmStorageAccount](Remove-AzureRmStorageAccount.md)
-Remove Storage Account from Azure
+Removes a Storage account from Azure.
 
 ### [Set-AzureRmCurrentStorageAccount](Set-AzureRmCurrentStorageAccount.md)
-Set the Current Azure Storage Account.
+Modifies the current Storage account of the specified subscription.
 
 ### [Set-AzureRmStorageAccount](Set-AzureRmStorageAccount.md)
-Update the Storage Account properties
+Modifies a Storage account.
 

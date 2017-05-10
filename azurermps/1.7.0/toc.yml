@@ -828,6 +828,23 @@
           href: AzureRM.Cdn/Test-AzureRmCdnCustomDomain.md
         - name: Unpublish-AzureRmCdnEndpointContent
           href: AzureRM.Cdn/Unpublish-AzureRmCdnEndpointContent.md
+    - name: Cognitive Services
+      href: 'AzureRM.CognitiveServices/index.md#cognitive_services'
+      items:
+        - name: Get-AzureRmCognitiveServicesAccount
+          href: AzureRM.CognitiveServices/Get-AzureRmCognitiveServicesAccount.md
+        - name: Get-AzureRmCognitiveServicesAccountKey
+          href: AzureRM.CognitiveServices/Get-AzureRmCognitiveServicesAccountKey.md
+        - name: Get-AzureRmCognitiveServicesAccountSkus
+          href: AzureRM.CognitiveServices/Get-AzureRmCognitiveServicesAccountSkus.md
+        - name: New-AzureRmCognitiveServicesAccount
+          href: AzureRM.CognitiveServices/New-AzureRmCognitiveServicesAccount.md
+        - name: New-AzureRmCognitiveServicesAccountKey
+          href: AzureRM.CognitiveServices/New-AzureRmCognitiveServicesAccountKey.md
+        - name: Remove-AzureRmCognitiveServicesAccount
+          href: AzureRM.CognitiveServices/Remove-AzureRmCognitiveServicesAccount.md
+        - name: Set-AzureRmCognitiveServicesAccount
+          href: AzureRM.CognitiveServices/Set-AzureRmCognitiveServicesAccount.md
     - name: Container Service
       href: 'AzureRM.Compute/index.md#container_service'
       items:
@@ -1498,6 +1515,145 @@
           href: AzureRM.NotificationHubs/Set-AzureRmNotificationHubsNamespace.md
         - name: Set-AzureRmNotificationHubsNamespaceAuthorizationRules
           href: AzureRM.NotificationHubs/Set-AzureRmNotificationHubsNamespaceAuthorizationRules.md
+    - name: Others
+      href: 'AzureRM.AzureStackAdmin/index.md#others'
+      items:
+        - name: Add-AzureRMGalleryItem
+          href: AzureRM.AzureStackAdmin/Add-AzureRMGalleryItem.md
+        - name: Add-AzureRMResourceProviderRegistration
+          href: AzureRM.AzureStackAdmin/Add-AzureRMResourceProviderRegistration.md
+        - name: Get-AzureRMGalleryItem
+          href: AzureRM.AzureStackAdmin/Get-AzureRMGalleryItem.md
+        - name: Get-AzureRMManagedLocation
+          href: AzureRM.AzureStackAdmin/Get-AzureRMManagedLocation.md
+        - name: Get-AzureRMManagedSubscription
+          href: AzureRM.AzureStackAdmin/Get-AzureRMManagedSubscription.md
+        - name: Get-AzureRMOffer
+          href: AzureRM.AzureStackAdmin/Get-AzureRMOffer.md
+        - name: Get-AzureRMPlan
+          href: AzureRM.AzureStackAdmin/Get-AzureRMPlan.md
+        - name: Get-AzureRMResourceProviderRegistration
+          href: AzureRM.AzureStackAdmin/Get-AzureRMResourceProviderRegistration.md
+        - name: Get-AzureRMTenantSubscription
+          href: AzureRM.AzureStackAdmin/Get-AzureRMTenantSubscription.md
+        - name: Get-AzureStackToken
+          href: AzureRM.AzureStackAdmin/Get-AzureStackToken.md
+        - name: New-AzureRMManagedLocation
+          href: AzureRM.AzureStackAdmin/New-AzureRMManagedLocation.md
+        - name: New-AzureRMManagedSubscription
+          href: AzureRM.AzureStackAdmin/New-AzureRMManagedSubscription.md
+        - name: New-AzureRMOffer
+          href: AzureRM.AzureStackAdmin/New-AzureRMOffer.md
+        - name: New-AzureRMPlan
+          href: AzureRM.AzureStackAdmin/New-AzureRMPlan.md
+        - name: New-AzureRMTenantSubscription
+          href: AzureRM.AzureStackAdmin/New-AzureRMTenantSubscription.md
+        - name: Remove-AzureRMGalleryItem
+          href: AzureRM.AzureStackAdmin/Remove-AzureRMGalleryItem.md
+        - name: Remove-AzureRMManagedLocation
+          href: AzureRM.AzureStackAdmin/Remove-AzureRMManagedLocation.md
+        - name: Remove-AzureRMManagedSubscription
+          href: AzureRM.AzureStackAdmin/Remove-AzureRMManagedSubscription.md
+        - name: Remove-AzureRMOffer
+          href: AzureRM.AzureStackAdmin/Remove-AzureRMOffer.md
+        - name: Remove-AzureRMPlan
+          href: AzureRM.AzureStackAdmin/Remove-AzureRMPlan.md
+        - name: Remove-AzureRMResourceProviderRegistration
+          href: AzureRM.AzureStackAdmin/Remove-AzureRMResourceProviderRegistration.md
+        - name: Remove-AzureRMTenantSubscription
+          href: AzureRM.AzureStackAdmin/Remove-AzureRMTenantSubscription.md
+        - name: Set-AzureRMManagedLocation
+          href: AzureRM.AzureStackAdmin/Set-AzureRMManagedLocation.md
+        - name: Set-AzureRMManagedSubscription
+          href: AzureRM.AzureStackAdmin/Set-AzureRMManagedSubscription.md
+        - name: Set-AzureRMOffer
+          href: AzureRM.AzureStackAdmin/Set-AzureRMOffer.md
+        - name: Set-AzureRMPlan
+          href: AzureRM.AzureStackAdmin/Set-AzureRMPlan.md
+        - name: Set-AzureRMResourceProviderRegistration
+          href: AzureRM.AzureStackAdmin/Set-AzureRMResourceProviderRegistration.md
+        - name: Set-AzureRMTenantSubscription
+          href: AzureRM.AzureStackAdmin/Set-AzureRMTenantSubscription.md
+        - name: Add-ACSFarm
+          href: AzureRM.AzureStackStorage/Add-ACSFarm.md
+        - name: Disable-ACSNode
+          href: AzureRM.AzureStackStorage/Disable-ACSNode.md
+        - name: Enable-ACSNode
+          href: AzureRM.AzureStackStorage/Enable-ACSNode.md
+        - name: Export-ACSLog
+          href: AzureRM.AzureStackStorage/Export-ACSLog.md
+        - name: Get-ACSBlobService
+          href: AzureRM.AzureStackStorage/Get-ACSBlobService.md
+        - name: Get-ACSBlobServiceMetric
+          href: AzureRM.AzureStackStorage/Get-ACSBlobServiceMetric.md
+        - name: Get-ACSBlobServiceMetricDefinition
+          href: AzureRM.AzureStackStorage/Get-ACSBlobServiceMetricDefinition.md
+        - name: Get-ACSEvent
+          href: AzureRM.AzureStackStorage/Get-ACSEvent.md
+        - name: Get-ACSEventQuery
+          href: AzureRM.AzureStackStorage/Get-ACSEventQuery.md
+        - name: Get-ACSFarm
+          href: AzureRM.AzureStackStorage/Get-ACSFarm.md
+        - name: Get-ACSFarmMetric
+          href: AzureRM.AzureStackStorage/Get-ACSFarmMetric.md
+        - name: Get-ACSFarmMetricDefinition
+          href: AzureRM.AzureStackStorage/Get-ACSFarmMetricDefinition.md
+        - name: Get-ACSFault
+          href: AzureRM.AzureStackStorage/Get-ACSFault.md
+        - name: Get-ACSManagementService
+          href: AzureRM.AzureStackStorage/Get-ACSManagementService.md
+        - name: Get-ACSManagementServiceMetric
+          href: AzureRM.AzureStackStorage/Get-ACSManagementServiceMetric.md
+        - name: Get-ACSManagementServiceMetricDefinition
+          href: AzureRM.AzureStackStorage/Get-ACSManagementServiceMetricDefinition.md
+        - name: Get-ACSNode
+          href: AzureRM.AzureStackStorage/Get-ACSNode.md
+        - name: Get-ACSNodeMetric
+          href: AzureRM.AzureStackStorage/Get-ACSNodeMetric.md
+        - name: Get-ACSNodeMetricDefinition
+          href: AzureRM.AzureStackStorage/Get-ACSNodeMetricDefinition.md
+        - name: Get-ACSRoleInstance
+          href: AzureRM.AzureStackStorage/Get-ACSRoleInstance.md
+        - name: Get-ACSRoleInstanceMetric
+          href: AzureRM.AzureStackStorage/Get-ACSRoleInstanceMetric.md
+        - name: Get-ACSRoleInstanceMetricDefinition
+          href: AzureRM.AzureStackStorage/Get-ACSRoleInstanceMetricDefinition.md
+        - name: Get-ACSShare
+          href: AzureRM.AzureStackStorage/Get-ACSShare.md
+        - name: Get-ACSShareMetric
+          href: AzureRM.AzureStackStorage/Get-ACSShareMetric.md
+        - name: Get-ACSShareMetricDefinition
+          href: AzureRM.AzureStackStorage/Get-ACSShareMetricDefinition.md
+        - name: Get-ACSStorageAccount
+          href: AzureRM.AzureStackStorage/Get-ACSStorageAccount.md
+        - name: Get-ACSTableService
+          href: AzureRM.AzureStackStorage/Get-ACSTableService.md
+        - name: Get-ACSTableServiceMetric
+          href: AzureRM.AzureStackStorage/Get-ACSTableServiceMetric.md
+        - name: Get-ACSTableServiceMetricDefinition
+          href: AzureRM.AzureStackStorage/Get-ACSTableServiceMetricDefinition.md
+        - name: Resolve-ACSFault
+          href: AzureRM.AzureStackStorage/Resolve-ACSFault.md
+        - name: Restart-ACSRoleInstance
+          href: AzureRM.AzureStackStorage/Restart-ACSRoleInstance.md
+        - name: Set-ACSBlobService
+          href: AzureRM.AzureStackStorage/Set-ACSBlobService.md
+        - name: Set-ACSFarm
+          href: AzureRM.AzureStackStorage/Set-ACSFarm.md
+        - name: Set-ACSManagementService
+          href: AzureRM.AzureStackStorage/Set-ACSManagementService.md
+        - name: Set-ACSTableService
+          href: AzureRM.AzureStackStorage/Set-ACSTableService.md
+        - name: Start-ACSBlobServerRoleInstance
+          href: AzureRM.AzureStackStorage/Start-ACSBlobServerRoleInstance.md
+        - name: Stop-ACSBlobServerRoleInstance
+          href: AzureRM.AzureStackStorage/Stop-ACSBlobServerRoleInstance.md
+        - name: Sync-ACSStorageAccount
+          href: AzureRM.AzureStackStorage/Sync-ACSStorageAccount.md
+        - name: Undo-ACSStorageAccountDeletion
+          href: AzureRM.AzureStackStorage/Undo-ACSStorageAccountDeletion.md
+        - name: Update-ACSRoleInstance
+          href: AzureRM.AzureStackStorage/Update-ACSRoleInstance.md
     - name: Policies
       href: 'AzureRM.Resources/index.md#policies'
       items:
@@ -1865,6 +2021,169 @@
           href: AzureRM.SiteRecovery/Update-AzureRmSiteRecoveryRecoveryPlan.md
         - name: Update-AzureRmSiteRecoveryServer
           href: AzureRM.SiteRecovery/Update-AzureRmSiteRecoveryServer.md
+    - name: SQL
+      href: 'AzureRM.Sql/index.md#sql'
+      items:
+        - name: Get-AzureRmSqlCapability
+          href: AzureRM.Sql/Get-AzureRmSqlCapability.md
+        - name: Get-AzureRmSqlDatabase
+          href: AzureRM.Sql/Get-AzureRmSqlDatabase.md
+        - name: Get-AzureRmSqlDatabaseActivity
+          href: AzureRM.Sql/Get-AzureRmSqlDatabaseActivity.md
+        - name: Get-AzureRmSqlDatabaseAuditingPolicy
+          href: AzureRM.Sql/Get-AzureRmSqlDatabaseAuditingPolicy.md
+        - name: Get-AzureRmSqlDatabaseBackupLongTermRetentionPolicy
+          href: AzureRM.Sql/Get-AzureRmSqlDatabaseBackupLongTermRetentionPolicy.md
+        - name: Get-AzureRmSqlDatabaseDataMaskingPolicy
+          href: AzureRM.Sql/Get-AzureRmSqlDatabaseDataMaskingPolicy.md
+        - name: Get-AzureRmSqlDatabaseDataMaskingRule
+          href: AzureRM.Sql/Get-AzureRmSqlDatabaseDataMaskingRule.md
+        - name: Get-AzureRmSqlDatabaseExpanded
+          href: AzureRM.Sql/Get-AzureRmSqlDatabaseExpanded.md
+        - name: Get-AzureRMSqlDatabaseGeoBackup
+          href: AzureRM.Sql/Get-AzureRMSqlDatabaseGeoBackup.md
+        - name: Get-AzureRmSqlDatabaseImportExportStatus
+          href: AzureRM.Sql/Get-AzureRmSqlDatabaseImportExportStatus.md
+        - name: Get-AzureRmSqlDatabaseIndexRecommendations
+          href: AzureRM.Sql/Get-AzureRmSqlDatabaseIndexRecommendations.md
+        - name: Get-AzureRmSqlDatabaseReplicationLink
+          href: AzureRM.Sql/Get-AzureRmSqlDatabaseReplicationLink.md
+        - name: Get-AzureRmSqlDatabaseRestorePoints
+          href: AzureRM.Sql/Get-AzureRmSqlDatabaseRestorePoints.md
+        - name: Get-AzureRmSqlDatabaseSecureConnectionPolicy
+          href: AzureRM.Sql/Get-AzureRmSqlDatabaseSecureConnectionPolicy.md
+        - name: Get-AzureRmSqlDatabaseThreatDetectionPolicy
+          href: AzureRM.Sql/Get-AzureRmSqlDatabaseThreatDetectionPolicy.md
+        - name: Get-AzureRmSqlDatabaseTransparentDataEncryption
+          href: AzureRM.Sql/Get-AzureRmSqlDatabaseTransparentDataEncryption.md
+        - name: Get-AzureRmSqlDatabaseTransparentDataEncryptionActivity
+          href: AzureRM.Sql/Get-AzureRmSqlDatabaseTransparentDataEncryptionActivity.md
+        - name: Get-AzureRmSqlDatabaseUpgradeHint
+          href: AzureRM.Sql/Get-AzureRmSqlDatabaseUpgradeHint.md
+        - name: Get-AzureRMSqlDeletedDatabaseBackup
+          href: AzureRM.Sql/Get-AzureRMSqlDeletedDatabaseBackup.md
+        - name: Get-AzureRmSqlElasticPool
+          href: AzureRM.Sql/Get-AzureRmSqlElasticPool.md
+        - name: Get-AzureRmSqlElasticPoolActivity
+          href: AzureRM.Sql/Get-AzureRmSqlElasticPoolActivity.md
+        - name: Get-AzureRmSqlElasticPoolDatabase
+          href: AzureRM.Sql/Get-AzureRmSqlElasticPoolDatabase.md
+        - name: Get-AzureRmSqlElasticPoolRecommendation
+          href: AzureRM.Sql/Get-AzureRmSqlElasticPoolRecommendation.md
+        - name: Get-AzureRmSqlServer
+          href: AzureRM.Sql/Get-AzureRmSqlServer.md
+        - name: Get-AzureRmSqlServerActiveDirectoryAdministrator
+          href: AzureRM.Sql/Get-AzureRmSqlServerActiveDirectoryAdministrator.md
+        - name: Get-AzureRmSqlServerAuditingPolicy
+          href: AzureRM.Sql/Get-AzureRmSqlServerAuditingPolicy.md
+        - name: Get-AzureRmSqlServerBackupLongTermRetentionVault
+          href: AzureRM.Sql/Get-AzureRmSqlServerBackupLongTermRetentionVault.md
+        - name: Get-AzureRmSqlServerCommunicationLink
+          href: AzureRM.Sql/Get-AzureRmSqlServerCommunicationLink.md
+        - name: Get-AzureRmSqlServerDisasterRecoveryConfiguration
+          href: AzureRM.Sql/Get-AzureRmSqlServerDisasterRecoveryConfiguration.md
+        - name: Get-AzureRmSqlServerDisasterRecoveryConfigurationActivity
+          href: AzureRM.Sql/Get-AzureRmSqlServerDisasterRecoveryConfigurationActivity.md
+        - name: Get-AzureRmSqlServerFirewallRule
+          href: AzureRM.Sql/Get-AzureRmSqlServerFirewallRule.md
+        - name: Get-AzureRmSqlServerServiceObjective
+          href: AzureRM.Sql/Get-AzureRmSqlServerServiceObjective.md
+        - name: Get-AzureRmSqlServerUpgrade
+          href: AzureRM.Sql/Get-AzureRmSqlServerUpgrade.md
+        - name: Get-AzureRmSqlServerUpgradeHint
+          href: AzureRM.Sql/Get-AzureRmSqlServerUpgradeHint.md
+        - name: New-AzureRmSqlDatabase
+          href: AzureRM.Sql/New-AzureRmSqlDatabase.md
+        - name: New-AzureRmSqlDatabaseCopy
+          href: AzureRM.Sql/New-AzureRmSqlDatabaseCopy.md
+        - name: New-AzureRmSqlDatabaseDataMaskingRule
+          href: AzureRM.Sql/New-AzureRmSqlDatabaseDataMaskingRule.md
+        - name: New-AzureRmSqlDatabaseExport
+          href: AzureRM.Sql/New-AzureRmSqlDatabaseExport.md
+        - name: New-AzureRmSqlDatabaseImport
+          href: AzureRM.Sql/New-AzureRmSqlDatabaseImport.md
+        - name: New-AzureRmSqlDatabaseSecondary
+          href: AzureRM.Sql/New-AzureRmSqlDatabaseSecondary.md
+        - name: New-AzureRmSqlElasticPool
+          href: AzureRM.Sql/New-AzureRmSqlElasticPool.md
+        - name: New-AzureRmSqlServer
+          href: AzureRM.Sql/New-AzureRmSqlServer.md
+        - name: New-AzureRmSqlServerCommunicationLink
+          href: AzureRM.Sql/New-AzureRmSqlServerCommunicationLink.md
+        - name: New-AzureRmSqlServerDisasterRecoveryConfiguration
+          href: AzureRM.Sql/New-AzureRmSqlServerDisasterRecoveryConfiguration.md
+        - name: New-AzureRmSqlServerFirewallRule
+          href: AzureRM.Sql/New-AzureRmSqlServerFirewallRule.md
+        - name: Remove-AzureRmSqlDatabase
+          href: AzureRM.Sql/Remove-AzureRmSqlDatabase.md
+        - name: Remove-AzureRmSqlDatabaseAuditing
+          href: AzureRM.Sql/Remove-AzureRmSqlDatabaseAuditing.md
+        - name: Remove-AzureRmSqlDatabaseDataMaskingRule
+          href: AzureRM.Sql/Remove-AzureRmSqlDatabaseDataMaskingRule.md
+        - name: Remove-AzureRmSqlDatabaseSecondary
+          href: AzureRM.Sql/Remove-AzureRmSqlDatabaseSecondary.md
+        - name: Remove-AzureRmSqlDatabaseThreatDetectionPolicy
+          href: AzureRM.Sql/Remove-AzureRmSqlDatabaseThreatDetectionPolicy.md
+        - name: Remove-AzureRmSqlElasticPool
+          href: AzureRM.Sql/Remove-AzureRmSqlElasticPool.md
+        - name: Remove-AzureRmSqlServer
+          href: AzureRM.Sql/Remove-AzureRmSqlServer.md
+        - name: Remove-AzureRmSqlServerActiveDirectoryAdministrator
+          href: AzureRM.Sql/Remove-AzureRmSqlServerActiveDirectoryAdministrator.md
+        - name: Remove-AzureRmSqlServerAuditing
+          href: AzureRM.Sql/Remove-AzureRmSqlServerAuditing.md
+        - name: Remove-AzureRmSqlServerCommunicationLink
+          href: AzureRM.Sql/Remove-AzureRmSqlServerCommunicationLink.md
+        - name: Remove-AzureRmSqlServerDisasterRecoveryConfiguration
+          href: AzureRM.Sql/Remove-AzureRmSqlServerDisasterRecoveryConfiguration.md
+        - name: Remove-AzureRmSqlServerFirewallRule
+          href: AzureRM.Sql/Remove-AzureRmSqlServerFirewallRule.md
+        - name: Restore-AzureRmSqlDatabase
+          href: AzureRM.Sql/Restore-AzureRmSqlDatabase.md
+        - name: Resume-AzureRmSqlDatabase
+          href: AzureRM.Sql/Resume-AzureRmSqlDatabase.md
+        - name: Set-AzureRmSqlDatabase
+          href: AzureRM.Sql/Set-AzureRmSqlDatabase.md
+        - name: Set-AzureRmSqlDatabaseAuditingPolicy
+          href: AzureRM.Sql/Set-AzureRmSqlDatabaseAuditingPolicy.md
+        - name: Set-AzureRmSqlDatabaseBackupLongTermRetentionPolicy
+          href: AzureRM.Sql/Set-AzureRmSqlDatabaseBackupLongTermRetentionPolicy.md
+        - name: Set-AzureRmSqlDatabaseDataMaskingPolicy
+          href: AzureRM.Sql/Set-AzureRmSqlDatabaseDataMaskingPolicy.md
+        - name: Set-AzureRmSqlDatabaseDataMaskingRule
+          href: AzureRM.Sql/Set-AzureRmSqlDatabaseDataMaskingRule.md
+        - name: Set-AzureRmSqlDatabaseSecondary
+          href: AzureRM.Sql/Set-AzureRmSqlDatabaseSecondary.md
+        - name: Set-AzureRmSqlDatabaseThreatDetectionPolicy
+          href: AzureRM.Sql/Set-AzureRmSqlDatabaseThreatDetectionPolicy.md
+        - name: Set-AzureRmSqlDatabaseTransparentDataEncryption
+          href: AzureRM.Sql/Set-AzureRmSqlDatabaseTransparentDataEncryption.md
+        - name: Set-AzureRmSqlElasticPool
+          href: AzureRM.Sql/Set-AzureRmSqlElasticPool.md
+        - name: Set-AzureRmSqlServer
+          href: AzureRM.Sql/Set-AzureRmSqlServer.md
+        - name: Set-AzureRmSqlServerActiveDirectoryAdministrator
+          href: AzureRM.Sql/Set-AzureRmSqlServerActiveDirectoryAdministrator.md
+        - name: Set-AzureRmSqlServerAuditingPolicy
+          href: AzureRM.Sql/Set-AzureRmSqlServerAuditingPolicy.md
+        - name: Set-AzureRmSqlServerBackupLongTermRetentionVault
+          href: AzureRM.Sql/Set-AzureRmSqlServerBackupLongTermRetentionVault.md
+        - name: Set-AzureRmSqlServerDisasterRecoveryConfiguration
+          href: AzureRM.Sql/Set-AzureRmSqlServerDisasterRecoveryConfiguration.md
+        - name: Set-AzureRmSqlServerFirewallRule
+          href: AzureRM.Sql/Set-AzureRmSqlServerFirewallRule.md
+        - name: Start-AzureRmSqlDatabaseExecuteIndexRecommendation
+          href: AzureRM.Sql/Start-AzureRmSqlDatabaseExecuteIndexRecommendation.md
+        - name: Start-AzureRmSqlServerUpgrade
+          href: AzureRM.Sql/Start-AzureRmSqlServerUpgrade.md
+        - name: Stop-AzureRmSqlDatabaseExecuteIndexRecommendation
+          href: AzureRM.Sql/Stop-AzureRmSqlDatabaseExecuteIndexRecommendation.md
+        - name: Stop-AzureRmSqlServerUpgrade
+          href: AzureRM.Sql/Stop-AzureRmSqlServerUpgrade.md
+        - name: Suspend-AzureRmSqlDatabase
+          href: AzureRM.Sql/Suspend-AzureRmSqlDatabase.md
+        - name: Use-AzureRmSqlServerAuditingPolicy
+          href: AzureRM.Sql/Use-AzureRmSqlServerAuditingPolicy.md
     - name: Storage
       href: 'AzureRM.Storage/index.md#storage'
       items:
@@ -2093,6 +2412,11 @@
           href: AzureRM.TrafficManager/Set-AzureRmTrafficManagerEndpoint.md
         - name: Set-AzureRmTrafficManagerProfile
           href: AzureRM.TrafficManager/Set-AzureRmTrafficManagerProfile.md
+    - name: Usage Aggregates
+      href: 'AzureRM.UsageAggregates/index.md#usage_aggregates'
+      items:
+        - name: Get-UsageAggregates
+          href: AzureRM.UsageAggregates/Get-UsageAggregates.md
     - name: Virtual Machines
       href: 'AzureRM.Compute/index.md#virtual_machines'
       items:

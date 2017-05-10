@@ -1,12 +1,13 @@
 ---
 external help file: Microsoft.Azure.Commands.Management.Storage.dll-Help.xml
+ms.assetid: E6A13F25-4565-4AB1-8690-A292C89C9C43
 online version:
 schema: 2.0.0
-updated_at: 03/23/2017 22:03 PM
-ms.date: 03/23/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Storage/v1.1.3/Get-AzureRmStorageAccount.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Storage/v1.1.3/Get-AzureRmStorageAccount.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/535e2e74f053db46eadf4681f4a95ece9f189378
+updated_at: 05/01/2017 21:05 PM
+ms.date: 05/01/2017
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Storage/v1.2.0/Get-AzureRmStorageAccount.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Storage/v1.2.0/Get-AzureRmStorageAccount.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0589fbf53d27e39e0cf445261d29c64fb0859d62
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -19,7 +20,7 @@ ms.service: storage
 # Get-AzureRmStorageAccount
 
 ## SYNOPSIS
-Get the properties of a Storage Account
+Gets a Storage account.
 
 ## SYNTAX
 
@@ -36,44 +37,44 @@ Get-AzureRmStorageAccount [[-ResourceGroupName] <String>] [-InformationAction <A
 ```
 
 ## DESCRIPTION
-This cmdlet allows you to get the properties of a specified Storage Account or all Storage Accounts within a Resource Group or the subscription.
+The **Get-AzureRmStorageAccount** cmdlet gets a specified Storage account or all of the Storage accounts in a resource group or the subscription.
 
 ## EXAMPLES
 
-### --------------------------  Get a specified storage account  --------------------------
-@{paragraph=PS C:\\\>}
-
-
-
+### Example 1: Get a specified storage account
 ```
-PS C:\> #Get one storage account
-          Get-AzureRmStorageAccount -ResourceGroupName "rg1" -AccountName "mystorageaccount"
+PS C:\>Get-AzureRmStorageAccount -ResourceGroupName "RG01" -AccountName "MyStorageAccount"
 ```
 
-### --------------------------  Get all Storage Accounts in a Resource Group  --------------------------
-@{paragraph=PS C:\\\>}
+This command gets the specified Storage account.
 
-
-
+### Example 2: Get all Storage accounts in a resource group
 ```
-PS C:\> # Get all Storage Accounts in a Resource Group
-          Get-AzureRmStorageAccount -ResourceGroupName "rg1"
+PS C:\>Get-AzureRmStorageAccount -ResourceGroupName "RG01"
 ```
 
-### --------------------------  Get all Storage Accounts in the subscription  --------------------------
-@{paragraph=PS C:\\\>}
+This command gets all of the Storage accounts in a resource group.
 
-
-
+### Example 3:  Get all Storage accounts in the subscription
 ```
-PS C:\> # Get all Storage Accounts in the subscription
-          Get-AzureRmStorageAccount
+PS C:\>Get-AzureRmStorageAccount
 ```
+
+This command gets all of the Storage accounts in the subscription.
 
 ## PARAMETERS
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -88,7 +89,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -103,7 +104,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-Name of the Storage Account
+Specifies the name of the Storage account to get.
 
 ```yaml
 Type: String
@@ -118,7 +119,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Name of the Resource Group
+Specifies the name of the resource group that contains the Storage account to get.
 
 ```yaml
 Type: String
@@ -152,7 +153,13 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## OUTPUTS
 
 ## NOTES
-Keywords: azure, azurerm, arm, resource, management, manager, storage, container, account
 
 ## RELATED LINKS
+
+[New-AzureRmStorageAccount](./New-AzureRmStorageAccount.md)
+
+[Remove-AzureRmStorageAccount](./Remove-AzureRmStorageAccount.md)
+
+[Set-AzureRmStorageAccount](./Set-AzureRmStorageAccount.md)
+
 

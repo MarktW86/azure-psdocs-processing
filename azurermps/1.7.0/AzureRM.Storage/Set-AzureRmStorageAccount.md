@@ -1,12 +1,13 @@
 ---
 external help file: Microsoft.Azure.Commands.Management.Storage.dll-Help.xml
+ms.assetid: BEA384E0-C930-442C-A7F9-0FDCE87E7871
 online version:
 schema: 2.0.0
-updated_at: 03/23/2017 22:03 PM
-ms.date: 03/23/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Storage/v1.1.3/Set-AzureRmStorageAccount.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Storage/v1.1.3/Set-AzureRmStorageAccount.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/535e2e74f053db46eadf4681f4a95ece9f189378
+updated_at: 05/01/2017 21:05 PM
+ms.date: 05/01/2017
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Storage/v1.2.0/Set-AzureRmStorageAccount.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Storage/v1.2.0/Set-AzureRmStorageAccount.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0589fbf53d27e39e0cf445261d29c64fb0859d62
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -19,7 +20,7 @@ ms.service: storage
 # Set-AzureRmStorageAccount
 
 ## SYNOPSIS
-Update the Storage Account properties
+Modifies a Storage account.
 
 ## SYNTAX
 
@@ -32,50 +33,42 @@ Set-AzureRmStorageAccount [-ResourceGroupName] <String> [-Name] <String> [[-SkuN
 ```
 
 ## DESCRIPTION
-This cmdlet allows you to update the Storage Account properties.
+The **Set-AzureRmStorageAccount** cmdlet modifies an Azure Storage account.
+You can use this cmdlet to modify the account type, update a customer domain, or set tags on a Storage account.
 
 ## EXAMPLES
 
-### --------------------------  Set Storage SkuName  --------------------------
-@{paragraph=PS C:\\\>}
-
-
-
+### Example 1: Set the Storage account type
 ```
-PS C:\> # Set account type
-              Set-AzureRmStorageAccount -ResourceGroupName "myresourcegroup" -AccountName "mystorageaccount" - SkuName "Standard_RAGRS"
+PS C:\>Set-AzureRmStorageAccount -ResourceGroupName "MyResourceGroup" -AccountName "MyStorageAccount" -Type "Standard_RAGRS"
 ```
 
-### --------------------------  Set Custom Domain  --------------------------
-@{paragraph=PS C:\\\>}
+This command sets the Storage account type to Standard_RAGRS.
 
-
-
+### Example 2: Set a custom domain for a Storage account
 ```
-PS C:\> #Set custom domain
-          Set-AzureRmStorageAccount -ResourceGroupName "myresourcegroup" -AccountName "mystorageaccount" -CustomDomainName "www.domainname.com" -UseSubDomain $true
+PS C:\>Set-AzureRmStorageAccount -ResourceGroupName "MyResourceGroup" -AccountName "MyStorageAccount" -CustomDomainName "www.contoso.com" -UseSubDomain $True
 ```
 
-### --------------------------  Enable Storage Service Encryption and set Access Tier to cool  --------------------------
-@{paragraph=PS C:\\\>}
+This command sets a custom domain for a Storage account.
 
-
-
+### Example 3: Enable encryption and set the access tier value
 ```
-PS C:\> #Enable Storage Service Encryption and set Access Tier to cool
-          Set-AzureRmStorageAccount -ResourceGroupName "myresourcegroup" -AccountName "mycoolstorageaccount" -EnableEncryptionService blob -AccessTier "cool"
+PS C:\>Set-AzureRmStorageAccount -ResourceGroupName "MyResourceGroup" -AccountName "MyStorageAccount" -EnableEncryptionService Blob -AccessTier Cool
 ```
+
+This command enables Storage Service encryption for a Storage account.
+The command also sets the Access Tier type to be cool.
 
 ## PARAMETERS
 
 ### -AccessTier
-Access Tier for Blob Storage Accounts.
-Changing the access tier may result in additional charges.
-See (http://go.microsoft.com/fwlink/?LinkId=786482) to learn more.
-Setting this will fail if Storage Account Kind is equal to Storage.
-Valid values are:
-• Hot
-• Cool
+Specifies the access tier of the Storage account that this cmdlet modifies.
+psdx_paramvalues Hot and Cool.
+
+If you change the access tier, it may result in additional charges.
+For more information, see Azure Blob Storage: Hot and cool storage tiershttp://go.microsoft.com/fwlink/?LinkId=786482 (http://go.microsoft.com/fwlink/?LinkId=786482).
+If the kind of Storage account is Storage, do not specify this parameter.
 
 ```yaml
 Type: String
@@ -90,7 +83,7 @@ Accept wildcard characters: False
 ```
 
 ### -CustomDomainName
-The name of the custom domain.
+Specifies the name of the custom domain.
 
 ```yaml
 Type: String
@@ -105,8 +98,8 @@ Accept wildcard characters: False
 ```
 
 ### -DisableEncryptionService
-This will disable Storage Service Encryption on the specified Azure Storage Service.
-Only the Azure Blob Service is currently supported.
+Indicates whether this cmdlet disables Storage Service encryption on the Storage Service.
+Currently, only the Blob Service is supported.
 
 ```yaml
 Type: EncryptionSupportServiceEnum
@@ -121,8 +114,8 @@ Accept wildcard characters: False
 ```
 
 ### -EnableEncryptionService
-This will enable Storage Service Encryption on the specified Azure Storage Service.
-Only the Azure Blob Service is currently supported.
+Indicates whether this cmdlet enables Storage Service encryption on the Storage Service.
+Currently, only the Blob Service is supported.
 
 ```yaml
 Type: EncryptionSupportServiceEnum
@@ -137,7 +130,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -152,7 +154,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -167,7 +169,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-Name of the Storage Account
+Specifies the name of the Storage account to create.
 
 ```yaml
 Type: String
@@ -182,7 +184,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Name of the Resource Group
+Specifies the name of the resource group in which to modify the Storage account.
 
 ```yaml
 Type: String
@@ -197,15 +199,22 @@ Accept wildcard characters: False
 ```
 
 ### -SkuName
-Specifies the account SkuName of the storage account.
-The available options are:
-• Standard_LRS (Locally-redundant storage)
-• Standard_ZRS (Zone-redundant storage)
-• Standard_GRS (Geo-redundant storage)
-• Standard_RAGRS (Read access geo-redundant storage)
-• Premium_LRS (Premium Locally-redundant storage)
-          
-Note that Standard_ZRS, Premium_LRS accounts cannot be changed to other account types, and other account types cannot be changed to Standard_ZRS, Premium_LRS.
+Specifies the SKU name of the storage account.
+psdx_paramvalues
+
+- Standard_LRS.
+Locally-redundant storage. 
+- Standard_ZRS.
+Zone-redundant storage.
+- Standard_GRS.
+Geo-redundant storage. 
+- Standard_RAGRS.
+Read access geo-redundant storage. 
+- Premium_LRS.
+Premium locally-redundant storage.
+
+You cannot change Standard_ZRS and Premium_LRS types to other account types.
+You cannot change other account types to Standard_ZRS or Premium_LRS.
 
 ```yaml
 Type: String
@@ -220,7 +229,9 @@ Accept wildcard characters: False
 ```
 
 ### -Tag
-Tags to set on the storage account.
+If you specify a value of BlobStorage for the *Kind* parameter of the New-AzureRmStorageAccount cmdlet, you must specify a value for the *AccessTier* parameter.
+
+If you specify a value of Storage for this *Kind* parameter, do not specify the *AccessTier* parameter.
 
 ```yaml
 Type: Hashtable[]
@@ -235,7 +246,7 @@ Accept wildcard characters: False
 ```
 
 ### -UseSubDomain
-Indicates whether or not indirect CName validation is enabled.
+Indicates whether to enable indirect CName validation.
 
 ```yaml
 Type: Boolean
@@ -257,7 +268,13 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## OUTPUTS
 
 ## NOTES
-Keywords: azure, azurerm, arm, resource, management, manager, storage, container, account
 
 ## RELATED LINKS
+
+[Get-AzureRmStorageAccount](./Get-AzureRmStorageAccount.md)
+
+[New-AzureRmStorageAccount](./New-AzureRmStorageAccount.md)
+
+[Remove-AzureRmStorageAccount](./Remove-AzureRmStorageAccount.md)
+
 

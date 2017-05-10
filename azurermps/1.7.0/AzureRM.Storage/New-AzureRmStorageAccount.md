@@ -1,12 +1,13 @@
 ---
 external help file: Microsoft.Azure.Commands.Management.Storage.dll-Help.xml
+ms.assetid: 9E7E963A-22FE-47BD-A9EB-7757C52A3624
 online version:
 schema: 2.0.0
-updated_at: 03/23/2017 22:03 PM
-ms.date: 03/23/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Storage/v1.1.3/New-AzureRmStorageAccount.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Storage/v1.1.3/New-AzureRmStorageAccount.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/535e2e74f053db46eadf4681f4a95ece9f189378
+updated_at: 05/01/2017 21:05 PM
+ms.date: 05/01/2017
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Storage/v1.2.0/New-AzureRmStorageAccount.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Storage/v1.2.0/New-AzureRmStorageAccount.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0589fbf53d27e39e0cf445261d29c64fb0859d62
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -19,7 +20,7 @@ ms.service: storage
 # New-AzureRmStorageAccount
 
 ## SYNOPSIS
-Allows you to create a new Storage Account using the ARM deployment model
+Creates a Storage account.
 
 ## SYNTAX
 
@@ -31,37 +32,34 @@ New-AzureRmStorageAccount [-ResourceGroupName] <String> [-Name] <String> [-SkuNa
 ```
 
 ## DESCRIPTION
-This cmdlet allows you to create a new Storage Account using the ARM deployment model.
+The **New-AzureRmStorageAccount** cmdlet creates an Azure Storage account.
 
 ## EXAMPLES
 
-### --------------------------  Example 1  --------------------------
-@{paragraph=PS C:\\\>}
-
-
-
+### Example 1: Create a Storage account
 ```
-New-AzureRmStorageAccount -ResourceGroupName "myresourcegroup" -AccountName "mystorageaccount" -Location "US West" -SkuName "Standard_GRS" -Kind "Storage"
+PS C:\>New-AzureRmStorageAccount -ResourceGroupName "MyResourceGroup" -AccountName "MyStorageAccount" -Location "US West" -Type "Standard_GRS"
 ```
 
-### --------------------------  Example 2  --------------------------
-@{paragraph=PS C:\\\>}
+This command creates a Storage account for the resource group name MyResourceGroup.
 
-
-
+### Example 2: Create a bBlob Storage account that uses Storage Service encryptionB
 ```
-New-AzureRmStorageAccount -ResourceGroupName "myresourcegroup" -AccountName "mycoolstorageaccount" -Location "US West" -SkuName "Standard_GRS" -EnableEncryptionService blob -Kind "BlobStorage" -AccessTier "hot"
+PS C:\>New-AzureRmStorageAccount -ResourceGroupName "MyResourceGroup" -AccountName "MyStorageAccount" -Location "US West" -SkuName "Standard_GRS" -EnableEncryptionService Blob -Kind "BlobStorage" -AccessTier Hot
 ```
+
+This command creates a Blob Storage account that uses the hot access type.
+The account has enabled Storage Service encryption.
 
 ## PARAMETERS
 
 ### -AccessTier
-Access Tier for Blob Storage Accounts.
-This is mandatory when Storage Account Kind is equal to BlobStorage.
-Setting this will fail if Storage Account Kind is equal to Storage.
-Valid values are:
-• Hot
-• Cool
+Specifies the access tier of the Storage account that this cmdlet creates.
+psdx_paramvalues Hot and Cool.
+
+If you specify a value of BlobStorage for the *Kind* parameter, you must specify a value for the *AccessTier* parameter.
+
+If you specify a value of Storage for this *Kind* parameter, do not specify the *AccessTier* parameter.
 
 ```yaml
 Type: String
@@ -76,7 +74,8 @@ Accept wildcard characters: False
 ```
 
 ### -CustomDomainName
-The name of the custom domain.
+Specifies the name of the custom domain of the Storage account.
+The default value is Storage.
 
 ```yaml
 Type: String
@@ -91,8 +90,8 @@ Accept wildcard characters: False
 ```
 
 ### -EnableEncryptionService
-This will enable Storage Service Encryption on the specified Azure Storage Service.
-Only the Azure Blob Service is currently supported.
+Indicates whether this cmdlet enables Storage Service encryption on the Storage Service.
+Currently, only the Blob Service is supported.
 
 ```yaml
 Type: EncryptionSupportServiceEnum
@@ -107,7 +106,16 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -122,7 +130,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -137,11 +145,17 @@ Accept wildcard characters: False
 ```
 
 ### -Kind
-Kind of Storage Account.
-Valid values are:
-• Storage (General-purpose storage account which supports storing Blobs, Tables, Queues, Files and Disks)
-• BlobStorage (Blob storage account which supports storing Blobs only)
-Default is Storage.
+Specifies the kind of Storage account that this cmdlet creates.
+psdx_paramvalues
+
+- Storage.
+General purpose storage account that supports storage of Blobs, Tables, Queues, Files and Disks.
+ 
+- BlobStorage.
+Blob storage account which supports storage of Blobs only.
+ 
+
+The default value is Storage.
 
 ```yaml
 Type: String
@@ -156,7 +170,7 @@ Accept wildcard characters: False
 ```
 
 ### -Location
-Location of the Storage Account
+Specifies the location of the Storage account to create.
 
 ```yaml
 Type: String
@@ -171,7 +185,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-Name of the Storage Account
+Specifies the name of the Storage account to create.
 
 ```yaml
 Type: String
@@ -186,7 +200,7 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Name of the Resource Group
+Specifies the name of the resource group in which to add the Storage account.
 
 ```yaml
 Type: String
@@ -201,13 +215,19 @@ Accept wildcard characters: False
 ```
 
 ### -SkuName
-SkuName of Storage Account.
-Valid values are 
-• Standard_LRS (Locally-redundant storage)
-• Standard_ZRS (Zone-redundant storage)
-• Standard_GRS (Geo-redundant storage)
-• Standard_RAGRS (Read access geo-redundant storage)
-• Premium_LRS (Premium Locally-redundant storage)
+Specifies the SKU name of the storage account that this cmdlet creates.
+psdx_paramvalues
+
+- Standard_LRS.
+Locally-redundant storage. 
+- Standard_ZRS.
+Zone-redundant storage.
+- Standard_GRS.
+Geo-redundant storage. 
+- Standard_RAGRS.
+Read access geo-redundant storage. 
+- Premium_LRS.
+Premium locally-redundant storage.
 
 ```yaml
 Type: String
@@ -222,7 +242,9 @@ Accept wildcard characters: False
 ```
 
 ### -Tag
-Tags to set on the storage account.
+If you specify a value of BlobStorage for the *Kind* parameter, you must specify a value for the *AccessTier* parameter.
+
+If you specify a value of Storage for this *Kind* parameter, do not specify the *AccessTier* parameter.
 
 ```yaml
 Type: Hashtable[]
@@ -237,7 +259,7 @@ Accept wildcard characters: False
 ```
 
 ### -UseSubDomain
-Indicates whether or not indirect CName validation is enabled.
+Indicates whether to enable indirect CName validation.
 
 ```yaml
 Type: Boolean
@@ -259,7 +281,13 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## OUTPUTS
 
 ## NOTES
-Keywords: azure, azurerm, arm, resource, management, manager, storage, container, account
 
 ## RELATED LINKS
+
+[Get-AzureRmStorageAccount](./Get-AzureRmStorageAccount.md)
+
+[Remove-AzureRmStorageAccount](./Remove-AzureRmStorageAccount.md)
+
+[Set-AzureRmStorageAccount](./Set-AzureRmStorageAccount.md)
+
 

@@ -1,12 +1,13 @@
 ---
 external help file: Microsoft.Azure.Commands.Management.Storage.dll-Help.xml
+ms.assetid: 798D3B87-2A3D-4C5B-9925-031CFE6B5F64
 online version:
 schema: 2.0.0
-updated_at: 03/23/2017 22:03 PM
-ms.date: 03/23/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Storage/v1.1.3/Get-AzureRmStorageUsage.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Storage/v1.1.3/Get-AzureRmStorageUsage.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/535e2e74f053db46eadf4681f4a95ece9f189378
+updated_at: 05/01/2017 21:05 PM
+ms.date: 05/01/2017
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Storage/v1.2.0/Get-AzureRmStorageUsage.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Storage/v1.2.0/Get-AzureRmStorageUsage.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0589fbf53d27e39e0cf445261d29c64fb0859d62
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -19,7 +20,7 @@ ms.service: storage
 # Get-AzureRmStorageUsage
 
 ## SYNOPSIS
-Get the storage resource usage of current subscription.
+Gets the Storage resource usage of the current subscription.
 
 ## SYNTAX
 
@@ -29,23 +30,30 @@ Get-AzureRmStorageUsage [-InformationAction <ActionPreference>] [-InformationVar
 ```
 
 ## DESCRIPTION
-This cmdlet allows you to get the storage resource usage of current subscription.
+The **Get-AzureRmStorageUsage** cmdlet gets the resource usage for Azure Storage for the current subscription.
 
 ## EXAMPLES
 
-### --------------------------  Get the storage resources usage of current subscription  --------------------------
-@{paragraph=PS C:\\\>}
-
-
-
+### Example 1: Get the storage resources usage
+```
+PS C:\>Get-AzureRmStorageUsage
 ```
 
-```
+This command gets the Storage resources usage of the current subscription.
 
 ## PARAMETERS
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -60,7 +68,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies an information variable.
 
 ```yaml
 Type: String
@@ -84,4 +92,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+
+[Azure Storage Manager Cmdlets](./AzureRM.Storage.md)
+
 

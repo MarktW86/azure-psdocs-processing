@@ -1332,42 +1332,42 @@
         - name: Wait-AzureRmHDInsightJob
           href: AzureRM.HDInsight/Wait-AzureRmHDInsightJob.md
     - name: IoT
-      href: 'AzureRM.IoTHub/index.md#iot'
+      href: 'AzureRM.IotHub/index.md#iot'
       items:
         - name: Add-AzureRmIotHubEventHubConsumerGroup
-          href: AzureRM.IoTHub/Add-AzureRmIotHubEventHubConsumerGroup.md
+          href: AzureRM.IotHub/Add-AzureRmIotHubEventHubConsumerGroup.md
         - name: Add-AzureRmIotHubKey
-          href: AzureRM.IoTHub/Add-AzureRmIotHubKey.md
+          href: AzureRM.IotHub/Add-AzureRmIotHubKey.md
         - name: Get-AzureRmIotHub
-          href: AzureRM.IoTHub/Get-AzureRmIotHub.md
+          href: AzureRM.IotHub/Get-AzureRmIotHub.md
         - name: Get-AzureRmIotHubConnectionString
-          href: AzureRM.IoTHub/Get-AzureRmIotHubConnectionString.md
+          href: AzureRM.IotHub/Get-AzureRmIotHubConnectionString.md
         - name: Get-AzureRmIotHubEventHubConsumerGroup
-          href: AzureRM.IoTHub/Get-AzureRmIotHubEventHubConsumerGroup.md
+          href: AzureRM.IotHub/Get-AzureRmIotHubEventHubConsumerGroup.md
         - name: Get-AzureRmIotHubJob
-          href: AzureRM.IoTHub/Get-AzureRmIotHubJob.md
+          href: AzureRM.IotHub/Get-AzureRmIotHubJob.md
         - name: Get-AzureRmIotHubKey
-          href: AzureRM.IoTHub/Get-AzureRmIotHubKey.md
+          href: AzureRM.IotHub/Get-AzureRmIotHubKey.md
         - name: Get-AzureRmIotHubQuotaMetric
-          href: AzureRM.IoTHub/Get-AzureRmIotHubQuotaMetric.md
+          href: AzureRM.IotHub/Get-AzureRmIotHubQuotaMetric.md
         - name: Get-AzureRmIotHubRegistryStatistic
-          href: AzureRM.IoTHub/Get-AzureRmIotHubRegistryStatistic.md
+          href: AzureRM.IotHub/Get-AzureRmIotHubRegistryStatistic.md
         - name: Get-AzureRmIotHubValidSku
-          href: AzureRM.IoTHub/Get-AzureRmIotHubValidSku.md
+          href: AzureRM.IotHub/Get-AzureRmIotHubValidSku.md
         - name: New-AzureRmIotHub
-          href: AzureRM.IoTHub/New-AzureRmIotHub.md
+          href: AzureRM.IotHub/New-AzureRmIotHub.md
         - name: New-AzureRmIotHubExportDevices
-          href: AzureRM.IoTHub/New-AzureRmIotHubExportDevices.md
+          href: AzureRM.IotHub/New-AzureRmIotHubExportDevices.md
         - name: New-AzureRmIotHubImportDevices
-          href: AzureRM.IoTHub/New-AzureRmIotHubImportDevices.md
+          href: AzureRM.IotHub/New-AzureRmIotHubImportDevices.md
         - name: Remove-AzureRmIotHub
-          href: AzureRM.IoTHub/Remove-AzureRmIotHub.md
+          href: AzureRM.IotHub/Remove-AzureRmIotHub.md
         - name: Remove-AzureRmIotHubEventHubConsumerGroup
-          href: AzureRM.IoTHub/Remove-AzureRmIotHubEventHubConsumerGroup.md
+          href: AzureRM.IotHub/Remove-AzureRmIotHubEventHubConsumerGroup.md
         - name: Remove-AzureRmIotHubKey
-          href: AzureRM.IoTHub/Remove-AzureRmIotHubKey.md
+          href: AzureRM.IotHub/Remove-AzureRmIotHubKey.md
         - name: Set-AzureRmIotHub
-          href: AzureRM.IoTHub/Set-AzureRmIotHub.md
+          href: AzureRM.IotHub/Set-AzureRmIotHub.md
     - name: Key Vault
       href: 'AzureRM.KeyVault/index.md#key_vault'
       items:
