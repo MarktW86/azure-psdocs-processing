@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 73384750-6F54-4B7D-AD7D-BE53426132A4
 online version:
 schema: 2.0.0
-updated_at: 05/01/2017 01:05 AM
-ms.date: 05/01/2017
+updated_at: 05/09/2017 21:05 PM
+ms.date: 05/09/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Invoke-ServiceFabricDecryptText.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Invoke-ServiceFabricDecryptText.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/ce1bdb9f86ebde7f4698f6450850080dee6f5ae9
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/c1b7792bfa7505252a5e7b377993086efa446f5b
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -39,15 +39,18 @@ Before you perform any operation on a Service Fabric cluster, establish a connec
 
 ## EXAMPLES
 
-### Example 1:
+### Example 1: Decrypt text
 ```
-PS C:\windows\system32> $encryptedText = Invoke-ServiceFabricEncryptText -Text "hello world" -CertThumbprint $thumbprint
+PS C:\windows\system32> $EncryptedText = Invoke-ServiceFabricEncryptText -Text "hello world" -CertThumbprint $Thumbprint
 -CertStore -StoreLocation LocalMachine -StoreName My
 
-PS C:\windows\system32> Invoke-ServiceFabricDecryptText -CipherText $encryptedText -StoreLocation LocalMachine
+PS C:\windows\system32> Invoke-ServiceFabricDecryptText -CipherText $EncryptedText -StoreLocation "LocalMachine"
 hello world
-
 ```
+
+The first command encrypts text using the **Invoke-ServiceFabricEncryptText** cmdlet and stores the result in the variable named $EncryptedText.
+
+The second command decrypts the text stored in the $EncryptedText variable and saves it to the store location named LocalMachine.
 
 ## PARAMETERS
 

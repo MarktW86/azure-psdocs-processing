@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 0A8D8356-C8A1-4EA7-9E0C-3C7A483EB72E
 online version:
 schema: 2.0.0
-updated_at: 05/01/2017 02:05 AM
-ms.date: 05/01/2017
+updated_at: 05/09/2017 23:05 PM
+ms.date: 05/09/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/New-ServiceFabricServiceFromTemplate.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/New-ServiceFabricServiceFromTemplate.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a81dc7e6b827d14dddcf471be5468c59ec7113c9
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a90f497e71b8b945255c38b1957de0521f008fdb
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -26,7 +26,8 @@ If the application manifest has defined a service templates section, then this c
 
 ```
 New-ServiceFabricServiceFromTemplate [-ApplicationName] <Uri> [-ServiceName] <Uri> [-ServiceTypeName] <String>
- [-Force] [-TimeoutSec <Int32>] [<CommonParameters>]
+ [-Force] [-ServicePackageActivationMode <ServicePackageActivationMode>] [-ServiceDnsName <String>]
+ [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -39,8 +40,11 @@ Before you perform any operation on a Service Fabric cluster, establish a connec
 ## EXAMPLES
 
 ### Example 1: Create a service from a service template
-
 Given the following application and service manifests:
+
+
+
+
 
 ```
 <?xml version="1.0" encoding="utf-8" ?>
@@ -83,11 +87,10 @@ The following command creates a Service Fabric service using the service templat
 PS C:\> New-ServiceFabricServiceFromTemplate -ApplicationName fabric:/myapp -ServiceName fabric:/myapp/myservice1 -ServiceTypeName MyServiceType 
 
 
-Multiple service instances can be created using the same service template. After additionally running the following command, there will be two singleton stateless services of type **MyServiceType**:
+Multiple service instances can be created using the same service template. After additionally running the following command, there is two singleton stateless services of type **MyServiceType**:
 
 
 PS C:\> New-ServiceFabricServiceFromTemplate -ApplicationName fabric:/myapp -ServiceName fabric:/myapp/myservice2 -ServiceTypeName MyServiceType 
-
 
 ## PARAMETERS
 
@@ -121,6 +124,21 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
+### -ServiceDnsName
+{{Fill ServiceDnsName Description}}
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
 ### -ServiceName
 Specifies the URI of a Service Fabric service.
 
@@ -131,6 +149,23 @@ Aliases:
 
 Required: True
 Position: 2
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -ServicePackageActivationMode
+Controls the [hosting model][1] to be used for the service. Valid values are **SharedProcess** and **ExclusiveProcess**. The default is **SharedProcess**. 
+
+With **SharedProcess** activation mode, replicas (or instances) of different services of a given *ServiceType* will share same *ServiceHost*. With **ExclusiveProcess** activation mode, each replica or instance of a service will have its own dedicated *ServiceHost*. For more details, please see [Service Fabric Hosting Model][1].
+
+```yaml
+Type: ServicePackageActivationMode
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -172,13 +207,11 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## INPUTS
 
 ### None
-
 You cannot pipe input to this cmdlet.
 
 ## OUTPUTS
 
 ### System.Object
-
 This cmdlet returns the status of the operation as a string.
 
 ## NOTES

@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: D4F9D188-FFB3-4D93-870C-6C6076CBA6AE
 online version:
 schema: 2.0.0
-updated_at: 05/01/2017 01:05 AM
-ms.date: 05/01/2017
+updated_at: 05/09/2017 21:05 PM
+ms.date: 05/09/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricChaosReport.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricChaosReport.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/9a6ce060eb15038b6cf9705c4df7dcaa9a5d3644
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/c1b7792bfa7505252a5e7b377993086efa446f5b
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -30,12 +30,11 @@ Get-ServiceFabricChaosReport [-StartTimeUtc <DateTime>] [-EndTimeUtc <DateTime>]
 ```
 
 ## DESCRIPTION
-The **Get-ServiceFabricChaosReport** cmdlet gets a report of a Chaos run which includes the current status and history of [Chaos events](https://docs.microsoft.com/en-us/dotnet/api/system.fabric.chaos.datastructures.chaosevent). You can specify a time range and only Chaos events within this range will be reported. If Chaos was never started, the result will report that.
+The **Get-ServiceFabricChaosReport** cmdlet gets a report of a Chaos run which includes the current status and history of [Chaos events](https://docs.microsoft.com/en-us/dotnet/api/system.fabric.chaos.datastructures.chaosevent). You can specify a time range and only Chaos events within this range is reported. If Chaos was never started, the result will report that.
 
 If there are a large number of Chaos events, the data is reported in batches. Each batch contains a maximum of 100 events. In such a case, a continuation token is returned as part of [ChaosReport](https://docs.microsoft.com/en-us/dotnet/api/system.fabric.chaos.datastructures.chaosreport) object. To get data from subsequent batches, this continuation token will need to be supplied.
 
 For more information about Chaos, see the article [Inducing Chaos](https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-controlled-chaos).
-
 
 ## EXAMPLES
 
@@ -46,6 +45,7 @@ $EndTime = $Now.ToUniversalTime()
 $StartTime = $EndTime.AddMinutes(-2)
 Get-ServiceFabricChaosReport -StartTimeUtc $StartTime -EndTimeUtc $EndTime -Verbose
 ```
+
 This command returns the Chaos events from the previous two minutes.
 
 ## PARAMETERS

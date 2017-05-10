@@ -2,11 +2,11 @@
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 03/23/2017 20:03 PM
-ms.date: 03/23/2017
+updated_at: 05/09/2017 21:05 PM
+ms.date: 05/09/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricServiceName.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricServiceName.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/fac2031a80184883cdb99fa4a8c6e1971ab6aaf2
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/c1b7792bfa7505252a5e7b377993086efa446f5b
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -32,7 +32,7 @@ The **Get-ServiceFabricServiceName** cmdlet gets the name of the service for a S
 
 The output of **Get-ServiceFabricServiceName** contains the following information:
 
---Service Name: The name of the service corresponding to the given partition.
+-Service Name: The name of the service corresponding to the given partition.
 
 ## EXAMPLES
 
@@ -48,7 +48,7 @@ This command gets the name of the service by using the PartitionId property of t
 PS C:\> Get-ServiceFabricServiceName -PartitionId $ToDoPartition01.PartitionId | Restart-ServiceFabricReplica
 ```
 
-The **[Restart-ServiceFabricReplica](./Restart-ServiceFabricReplica.md)** cmdlet restarts the replica specified by the given `ServiceName` and `PartitionId`. This example restarts the replica for the `$ToDoPartition01` partition by getting its `ServiceName` using the **Get-ServiceFabricServiceName** cmdlet and piping it, along with its `PartitionId`, to the **Restart-ServiceFabricReplica** cmdlet.
+This command restarts the replica specified by the given ServiceName and PartitionId. This example restarts the replica for the $ToDoPartition01 partition by getting its ServiceName using the **Get-ServiceFabricServiceName** cmdlet and piping it, along with its PartitionId, to the **Restart-ServiceFabricReplica** cmdlet.
 
 ## PARAMETERS
 
@@ -83,7 +83,7 @@ Accept wildcard characters: False
 ```
 
 ### CommonParameters
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see [CommonParameters](http://go.microsoft.com/fwlink/?LinkID=113216).
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 

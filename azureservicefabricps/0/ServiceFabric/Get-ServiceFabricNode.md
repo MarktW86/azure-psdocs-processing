@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 27D58E8F-73CC-4FCE-90BD-449F86127385
 online version:
 schema: 2.0.0
-updated_at: 05/05/2017 00:05 AM
-ms.date: 05/05/2017
+updated_at: 05/09/2017 21:05 PM
+ms.date: 05/09/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricNode.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricNode.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/ab74e7f5446fc433a7adae0e8e813ba2b1651adb
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/c1b7792bfa7505252a5e7b377993086efa446f5b
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -25,7 +25,8 @@ Gets information for the all nodes in a Service Fabric cluster or for a specific
 ## SYNTAX
 
 ```
-Get-ServiceFabricNode [[-NodeName] <String>] [-StatusFilter <NodeStatusFilter>] [-TimeoutSec <Int32>] [<CommonParameters>]
+Get-ServiceFabricNode [[-NodeName] <String>] [-StatusFilter <NodeStatusFilter>] [-TimeoutSec <Int32>]
+ [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -70,7 +71,7 @@ Accept wildcard characters: False
 ### -StatusFilter
 Specifies the node status filter as a **[System.Fabric.Query.NodeStatusFilter](https://docs.microsoft.com/en-us/dotnet/api/system.fabric.query.nodestatusfilter)** object.
 
-Only nodes with status matching this filter will be returned in the results.
+Only nodes with status matching this filter is returned in the results.
 
 ```yaml
 Type: NodeStatusFilter
@@ -103,11 +104,13 @@ Accept wildcard characters: False
 This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see [about_CommonParameters](http://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
-### 
+
+###  
 **Get-ServiceFabricNode** accepts the name of a node as a string.
 
 ## OUTPUTS
-### 
+
+###  
 **Get-ServiceFabricNode** returns instances of the **[System.Fabric.Query.Node](https://docs.microsoft.com/dotnet/api/system.fabric.query.node)**.
 
 ## NOTES

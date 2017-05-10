@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 97D767C4-EAD7-4D19-A085-2BD1F992C099
 online version:
 schema: 2.0.0
-updated_at: 05/01/2017 02:05 AM
-ms.date: 05/01/2017
+updated_at: 05/09/2017 20:05 PM
+ms.date: 05/09/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Stop-ServiceFabricTestCommand.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Stop-ServiceFabricTestCommand.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/51253e5111d2ec9189efe6b2178acab1c7e30859
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/1bb897cdf15d7149a6e9522f350507684ba544a8
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -68,7 +68,7 @@ Accept wildcard characters: False
 
 ### -ForceCancel
 This flag forces the command to be cancelled.
-The use of this parameter may leave state information behind. You can specify *Force* only if the fault operation is already in a state of RollingBack else it will be rejected.
+The use of this parameter may leave state information behind. You can specify *Force* only if the fault operation is already in a state of RollingBack else it is rejected.
 The fault operation can be in a RollingBack state only if you previously ran the Stop-ServiceFabricTestCommand without *Force* specified, or if the fault operation rolls back due to a fatal error.
 
 The final state of the command is ForceCancelled.

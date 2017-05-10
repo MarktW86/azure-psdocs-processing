@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: F4B3017C-09C6-4423-ADC0-9F49F3F8AFB7
 online version:
 schema: 2.0.0
-updated_at: 05/01/2017 02:05 AM
-ms.date: 05/01/2017
+updated_at: 05/09/2017 23:05 PM
+ms.date: 05/09/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricDeployedServicePackageHealth.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricDeployedServicePackageHealth.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/681a429589d11fcbdebc3e4feb2646ac23fa97b7
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a90f497e71b8b945255c38b1957de0521f008fdb
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -27,7 +27,8 @@ Gets the health of a Service Fabric service package.
 ```
 Get-ServiceFabricDeployedServicePackageHealth [-ApplicationName] <Uri> [-ServiceManifestName] <String>
  [-NodeName] <String> [-ConsiderWarningAsError <Boolean>] [-EventsHealthStateFilter <Int64>]
- [-EventsFilter <HealthStateFilter>] [-TimeoutSec <Int32>] [<CommonParameters>]
+ [-EventsFilter <HealthStateFilter>] [-ServicePackageActivationId <String>] [-TimeoutSec <Int32>]
+ [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -159,6 +160,23 @@ Required: True
 Position: 2
 Default value: None
 Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -ServicePackageActivationId
+The activation id of the deployed *ServicePackage*. This can be obtained by using the query [Get-ServiceFabricDeployedServicePackage](Get-ServiceFabricDeployedServicePackage.md).
+
+If *ServicePackageActivationMode* specified at the time of creating the service (using [New-ServiceFabricService](New-ServiceFabricService.md)) is *SharedProcess* (or if it is not specfied, in which case it defaults to *SharedProcess*), then value of *ServicePackageActivationId* is always an empty string and need not be specified. To learn more about service package activation id, please see [Service Fabric Hosting Model][1].
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
 Accept wildcard characters: False
 ```
 

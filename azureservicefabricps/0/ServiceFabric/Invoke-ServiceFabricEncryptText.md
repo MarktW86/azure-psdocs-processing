@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 3DED0AB0-1412-4104-A9A6-94D496E4C054
 online version:
 schema: 2.0.0
-updated_at: 05/01/2017 01:05 AM
-ms.date: 05/01/2017
+updated_at: 05/09/2017 21:05 PM
+ms.date: 05/09/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Invoke-ServiceFabricEncryptText.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Invoke-ServiceFabricEncryptText.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/1195b82b2e21231a1614b2329bffb7afb9f55c94
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/c1b7792bfa7505252a5e7b377993086efa446f5b
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -20,7 +20,7 @@ ms.service: service-fabric
 # Invoke-ServiceFabricEncryptText
 
 ## SYNOPSIS
-Encrypts secrets to include in Service Fabric manifests or configurations.
+Encrypts text to include in Service Fabric manifests or configurations.
 
 ## SYNTAX
 
@@ -37,7 +37,7 @@ Invoke-ServiceFabricEncryptText [-Text] <String> [-AlgorithmOid <String>] [-Cert
 ```
 
 ## DESCRIPTION
-The **Invoke-ServiceFabricEncryptText** cmdlet encrypts secrets to include in the Service Fabric cluster manifest, application manifest, or application configurations.
+The **Invoke-ServiceFabricEncryptText** cmdlet encrypts text to include in the Service Fabric cluster manifest, application manifest, or application configurations.
 > [!NOTE]
 > The certificate used for encrypting text must have Data Encipherment as one of the Key Usage fields.
 
@@ -45,17 +45,17 @@ Before you perform any operation on a Service Fabric cluster, establish a connec
 
 ## EXAMPLES
 
-### Example 1:
+### Example 1: Encrypt text with a Service Fabric manifest
 ```
 $thumbprint="bf 7c 7a 9f 02 6c 60 62 c6 df 65 55 98 b7 44 e3 99 46 f7 27"
 $encryptedText = Invoke-ServiceFabricEncryptText -Text "hello world" -CertThumbprint $thumbprint -CertStore -StoreLocation LocalMachine -StoreName My
-
 ```
 ### Example 2:
-```
-$encryptedText = Invoke-ServiceFabricEncryptText -Text "hello world" -CertFile -Path c:\temp\mycert.cer
 
 ```
+$encryptedText = Invoke-ServiceFabricEncryptText -Text "hello world" -CertFile -Path c:\temp\mycert.cer
+```
+
 ## PARAMETERS
 
 ### -AlgorithmOid

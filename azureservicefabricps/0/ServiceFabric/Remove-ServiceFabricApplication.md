@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 578CAE79-F1FF-470E-91B7-814D9DF0917B
 online version:
 schema: 2.0.0
-updated_at: 05/01/2017 02:05 AM
-ms.date: 05/01/2017
+updated_at: 05/09/2017 20:05 PM
+ms.date: 05/09/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Remove-ServiceFabricApplication.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Remove-ServiceFabricApplication.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/b8232ef185781804094e4c2b4c88569ce2ee2bbd
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/1bb897cdf15d7149a6e9522f350507684ba544a8
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -80,7 +80,7 @@ Accept wildcard characters: False
 ### -ForceRemove
 Indicates that this cmdlet forces removal of the application. This should be used only if removal of the application is timing out.
 It is effectively the same as passing -ForceRemove to each internal remove service call. 
-Refer to -ForceRemove [Remove-ServiceFabricService](./Remove-ServiceFabricService.md) cmdlet for more details about force removing the services.
+Refer to *ForceRemove* [Remove-ServiceFabricService](./Remove-ServiceFabricService.md) cmdlet for more details about force removing the services.
 
 ```yaml
 Type: SwitchParameter
@@ -96,7 +96,7 @@ Accept wildcard characters: False
 
 ### -TimeoutSec
 Specifies the time-out period, in seconds, for the operation. If the operation times out, the state of the application is undetermined.
-Use [Get-ServiceFabricApplicationHealth](./Get-ServiceFabricApplicationHealth.md) to determine the application state or use the -ForceRemove option to forcefully remove the application.
+Use [Get-ServiceFabricApplicationHealth](./Get-ServiceFabricApplicationHealth.md) to determine the application state or use the *ForceRemove* parameter to forcefully remove the application.
 
 ```yaml
 Type: Int32
@@ -127,7 +127,7 @@ Accept wildcard characters: False
 
 ### -WhatIf
 Shows what would happen if the cmdlet runs.
-The cmdlet is not run and no permanent changes will be made.
+The cmdlet is not run and no permanent changes are made.
 
 ```yaml
 Type: SwitchParameter

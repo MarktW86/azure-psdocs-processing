@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 9B02EBD3-595C-46EF-B5DE-4E65BA60129C
 online version:
 schema: 2.0.0
-updated_at: 05/01/2017 01:05 AM
-ms.date: 05/01/2017
+updated_at: 05/09/2017 23:05 PM
+ms.date: 05/09/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Send-ServiceFabricDeployedServicePackageHealthReport.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Send-ServiceFabricDeployedServicePackageHealthReport.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/17e9879c440539853f7879d2b12fac012c16e53b
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a90f497e71b8b945255c38b1957de0521f008fdb
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -26,9 +26,9 @@ Sends a health report on a Service Fabric deployed service package.
 
 ```
 Send-ServiceFabricDeployedServicePackageHealthReport [-ApplicationName] <Uri> [-ServiceManifestName] <String>
- [-NodeName] <String> -HealthState <HealthState> -SourceId <String> -HealthProperty <String>
- [-Description <String>] [-TimeToLiveSec <Int32>] [-RemoveWhenExpired] [-SequenceNumber <Int64>]
- [-TimeoutSec <Int32>] [<CommonParameters>]
+ [-NodeName] <String> [-ServicePackageActivationId <String>] -HealthState <HealthState> -SourceId <String>
+ -HealthProperty <String> [-Description <String>] [-TimeToLiveSec <Int32>] [-RemoveWhenExpired]
+ [-SequenceNumber <Int64>] [-TimeoutSec <Int32>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -177,7 +177,7 @@ Accept wildcard characters: False
 ### -SequenceNumber
 Specifies the sequence number associated with the health report.
 If you do not specify a value for this parameter, the sequence number is set automatically.
-If you specify a sequence number, that value must be higher than any previous sequence number set on the same *SourceId* and *HealthProperty*, or the report will be rejected due to staleness.
+If you specify a sequence number, that value must be higher than any previous sequence number set on the same *SourceId* and *HealthProperty*, or the report is rejected due to staleness.
 
 ```yaml
 Type: Int64
@@ -202,6 +202,23 @@ Aliases:
 
 Required: True
 Position: 2
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -ServicePackageActivationId
+The activation id of the deployed *ServicePackage*. This can be obtained by using the query [Get-ServiceFabricDeployedServicePackage](Get-ServiceFabricDeployedServicePackage.md).
+
+If *ServicePackageActivationMode* specified at the time of creating the service (using [New-ServiceFabricService](New-ServiceFabricService.md)) is *SharedProcess* (or if it is not specfied, in which case it defaults to *SharedProcess*), then value of *ServicePackageActivationId* is always an empty string and need not be specified. To learn more about service package activation id, please see [Service Fabric Hosting Model][1].
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False

@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 7370AD41-FB09-4948-9BB7-8FD67B5E99E4
 online version:
 schema: 2.0.0
-updated_at: 05/01/2017 01:05 AM
-ms.date: 05/01/2017
+updated_at: 05/03/2017 06:05 AM
+ms.date: 05/03/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Connect-ServiceFabricCluster.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Connect-ServiceFabricCluster.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/0b429c0f0e42cd80b317a8b22625192dfceeec11
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/40385fc07259a8f5f0d2cec04a231e9cd42fcff3
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -23,6 +23,37 @@ ms.service: service-fabric
 Creates a connection to a Service Fabric cluster.
 
 ## SYNTAX
+
+### Default
+```
+Connect-ServiceFabricCluster [[-ConnectionEndpoint] <String[]>] [-AllowNetworkConnectionOnly]
+ [-ConnectionInitializationTimeoutInSec <Double>] [-HealthOperationTimeoutInSec <Double>]
+ [-HealthReportSendIntervalInSec <Double>] [-HealthReportRetrySendIntervalInSec <Double>]
+ [-KeepAliveIntervalInSec <Double>] [-ServiceChangePollIntervalInSec <Double>]
+ [-PartitionLocationCacheLimit <Int64>] [-AuthTokenBufferSize <Int64>] [-SkipChecks <Boolean>]
+ [-TimeoutSec <Int32>] [<CommonParameters>]
+```
+
+### Windows
+```
+Connect-ServiceFabricCluster [-ConnectionEndpoint] <String[]> [-AllowNetworkConnectionOnly]
+ [-WindowsCredential] [-ClusterSpn <String>] [-ConnectionInitializationTimeoutInSec <Double>]
+ [-HealthOperationTimeoutInSec <Double>] [-HealthReportSendIntervalInSec <Double>]
+ [-HealthReportRetrySendIntervalInSec <Double>] [-KeepAliveIntervalInSec <Double>]
+ [-ServiceChangePollIntervalInSec <Double>] [-PartitionLocationCacheLimit <Int64>]
+ [-AuthTokenBufferSize <Int64>] [-SkipChecks <Boolean>] [-TimeoutSec <Int32>] [<CommonParameters>]
+```
+
+### X509
+```
+Connect-ServiceFabricCluster [-ConnectionEndpoint] <String[]> [-AllowNetworkConnectionOnly] [-X509Credential]
+ [-ServerCommonName <String[]>] [-ServerCertThumbprint <String[]>] -FindType <X509FindType> -FindValue <String>
+ [-StoreLocation <StoreLocation>] [-StoreName <String>] [-ConnectionInitializationTimeoutInSec <Double>]
+ [-HealthOperationTimeoutInSec <Double>] [-HealthReportSendIntervalInSec <Double>]
+ [-HealthReportRetrySendIntervalInSec <Double>] [-KeepAliveIntervalInSec <Double>]
+ [-ServiceChangePollIntervalInSec <Double>] [-PartitionLocationCacheLimit <Int64>]
+ [-AuthTokenBufferSize <Int64>] [-SkipChecks <Boolean>] [-TimeoutSec <Int32>] [<CommonParameters>]
+```
 
 ### Dsts
 ```
@@ -41,37 +72,6 @@ Connect-ServiceFabricCluster [-ConnectionEndpoint] <String[]> [-AllowNetworkConn
 Connect-ServiceFabricCluster [-ConnectionEndpoint] <String[]> [-AllowNetworkConnectionOnly]
  [-ServerCommonName <String[]>] [-ServerCertThumbprint <String[]>] [-AzureActiveDirectory]
  [-SecurityToken <String>] [-GetMetadata] [-ConnectionInitializationTimeoutInSec <Double>]
- [-HealthOperationTimeoutInSec <Double>] [-HealthReportSendIntervalInSec <Double>]
- [-HealthReportRetrySendIntervalInSec <Double>] [-KeepAliveIntervalInSec <Double>]
- [-ServiceChangePollIntervalInSec <Double>] [-PartitionLocationCacheLimit <Int64>]
- [-AuthTokenBufferSize <Int64>] [-SkipChecks <Boolean>] [-TimeoutSec <Int32>] [<CommonParameters>]
-```
-
-### Default
-```
-Connect-ServiceFabricCluster [[-ConnectionEndpoint] <String[]>] [-AllowNetworkConnectionOnly]
- [-ConnectionInitializationTimeoutInSec <Double>] [-HealthOperationTimeoutInSec <Double>]
- [-HealthReportSendIntervalInSec <Double>] [-HealthReportRetrySendIntervalInSec <Double>]
- [-KeepAliveIntervalInSec <Double>] [-ServiceChangePollIntervalInSec <Double>]
- [-PartitionLocationCacheLimit <Int64>] [-AuthTokenBufferSize <Int64>] [-SkipChecks <Boolean>]
- [-TimeoutSec <Int32>] [<CommonParameters>]
-```
-
-### X509
-```
-Connect-ServiceFabricCluster [-ConnectionEndpoint] <String[]> [-AllowNetworkConnectionOnly] [-X509Credential]
- [-ServerCommonName <String[]>] [-ServerCertThumbprint <String[]>] -FindType <X509FindType> -FindValue <String>
- [-StoreLocation <StoreLocation>] [-StoreName <String>] [-ConnectionInitializationTimeoutInSec <Double>]
- [-HealthOperationTimeoutInSec <Double>] [-HealthReportSendIntervalInSec <Double>]
- [-HealthReportRetrySendIntervalInSec <Double>] [-KeepAliveIntervalInSec <Double>]
- [-ServiceChangePollIntervalInSec <Double>] [-PartitionLocationCacheLimit <Int64>]
- [-AuthTokenBufferSize <Int64>] [-SkipChecks <Boolean>] [-TimeoutSec <Int32>] [<CommonParameters>]
-```
-
-### Windows
-```
-Connect-ServiceFabricCluster [-ConnectionEndpoint] <String[]> [-AllowNetworkConnectionOnly]
- [-WindowsCredential] [-ClusterSpn <String>] [-ConnectionInitializationTimeoutInSec <Double>]
  [-HealthOperationTimeoutInSec <Double>] [-HealthReportSendIntervalInSec <Double>]
  [-HealthReportRetrySendIntervalInSec <Double>] [-KeepAliveIntervalInSec <Double>]
  [-ServiceChangePollIntervalInSec <Double>] [-PartitionLocationCacheLimit <Int64>]
@@ -237,10 +237,10 @@ FQDN:ClientConnectionEndpoint
 
 ```yaml
 Type: String[]
-Parameter Sets: Dsts, Aad, X509, Windows
+Parameter Sets: Default
 Aliases: 
 
-Required: True
+Required: False
 Position: 1
 Default value: None
 Accept pipeline input: False
@@ -249,10 +249,10 @@ Accept wildcard characters: False
 
 ```yaml
 Type: String[]
-Parameter Sets: Default
+Parameter Sets: Windows, X509, Dsts, Aad
 Aliases: 
 
-Required: False
+Required: True
 Position: 1
 Default value: None
 Accept pipeline input: False
@@ -485,7 +485,7 @@ These thumbprints are used to authenticate that the cmdlet connects to the endpo
 
 ```yaml
 Type: String[]
-Parameter Sets: Dsts, Aad, X509
+Parameter Sets: X509, Dsts, Aad
 Aliases: 
 
 Required: False
@@ -501,7 +501,7 @@ These names are used to authenticate that the cmdlet connects to the endpoint of
 
 ```yaml
 Type: String[]
-Parameter Sets: Dsts, Aad, X509
+Parameter Sets: X509, Dsts, Aad
 Aliases: 
 
 Required: False

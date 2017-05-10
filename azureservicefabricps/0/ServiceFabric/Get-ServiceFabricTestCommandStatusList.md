@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 26459CBC-9296-4B65-A298-E6B31EF65865
 online version:
 schema: 2.0.0
-updated_at: 05/01/2017 01:05 AM
-ms.date: 05/01/2017
+updated_at: 05/09/2017 21:05 PM
+ms.date: 05/09/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricTestCommandStatusList.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricTestCommandStatusList.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/250a6547d7c71a69c7fc065c6485b1e6b90e0183
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/c1b7792bfa7505252a5e7b377993086efa446f5b
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -40,6 +40,7 @@ The Operation ID returned can be used to get additional details about the fault 
 | PartitionQuorumLoss | [Get-ServiceFabricPartitionQuorumLossProgress](./Get-ServiceFabricPartitionQuorumLossProgress) |
 | PartitionRestart | [Get-ServiceFabricPartitionRestartProgress](./Get-ServiceFabricPartitionRestartProgress) |
 | NodeTransition | [Get-ServiceFabricNodeTransitionProgress](./Get-ServiceFabricNodeTransitionProgress) |
+
 ## EXAMPLES
 
 ### Example 1: Get status of cancelled test commands
@@ -47,7 +48,7 @@ The Operation ID returned can be used to get additional details about the fault 
 PS C:\> Get-ServiceFabricTestCommandStatusList -StateFilter Cancelled
 OperationId                              State     TestCommandType
 -----------                              -----     ---------------
-a268cc73-2e30-462b-b3df-3a0d30e5b330 Cancelled PartitionQuorumLoss
+a268cc73-2e30-462b-b3df-3a0d30e5b330 Cancelled     PartitionQuorumLoss
 ```
 
 This command gets the status of fault operations that have been cancelled.
@@ -58,12 +59,12 @@ In this example, the result has one fault operation.
 PS C:\> Get-ServiceFabricTestCommandStatusList
 OperationId                              State     TestCommandType
 -----------                              -----     ---------------
-aeaceca9-320d-4f7b-84e8-3cc13c29a974 Completed PartitionQuorumLoss
-0e3fa169-dec0-46d1-8eff-2f1a4a3f5fde Completed    PartitionRestart
-a268cc73-2e30-462b-b3df-3a0d30e5b330 Cancelled PartitionQuorumLoss
-51ed168c-bb22-47d5-97f9-6b74b353bb33 Completed PartitionQuorumLoss
-ebd322c2-b1d3-46a7-b254-3cc42e6ca2d1 Completed    PartitionRestart
-d3f12b09-6a90-4745-a4fc-3f92149a7419 Completed   PartitionDataLoss
+aeaceca9-320d-4f7b-84e8-3cc13c29a974 Completed     PartitionQuorumLoss
+0e3fa169-dec0-46d1-8eff-2f1a4a3f5fde Completed     PartitionRestart
+a268cc73-2e30-462b-b3df-3a0d30e5b330 Cancelled     PartitionQuorumLoss
+51ed168c-bb22-47d5-97f9-6b74b353bb33 Completed     PartitionQuorumLoss
+ebd322c2-b1d3-46a7-b254-3cc42e6ca2d1 Completed     PartitionRestart
+d3f12b09-6a90-4745-a4fc-3f92149a7419 Completed     PartitionDataLoss
 ```
 
 This command gets the status of all fault operations.

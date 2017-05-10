@@ -2,11 +2,11 @@
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 05/01/2017 02:05 AM
-ms.date: 05/01/2017
+updated_at: 05/03/2017 06:05 AM
+ms.date: 05/03/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricNodeTransition.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricNodeTransition.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/fc2bfed4d39cb85cba93b4d4d5a6f86701795839
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/40385fc07259a8f5f0d2cec04a231e9cd42fcff3
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -86,7 +86,7 @@ For example, for the node N0050, the command `Get-ServiceFabricNode -NodeName "N
 ```yaml
 Type: BigInteger
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -102,7 +102,7 @@ To obtain Service Fabric nodes in your cluster, run the [Get-ServiceFabricNode](
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -118,7 +118,7 @@ Use the same value for this cmdlet, which initiates the operation, and **Get-Ser
 ```yaml
 Type: Guid
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -133,7 +133,7 @@ Indicates that this cmdlet starts a stopped node.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Start
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -148,7 +148,7 @@ Indicates that this cmdlet stops a running node.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: Stop
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -170,7 +170,7 @@ You must specify the *Stop* parameter in order to specify a stop duration.
 ```yaml
 Type: Int32
 Parameter Sets: Stop
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -188,7 +188,7 @@ To control how long a node is stopped, use the *StopDurationInSeconds* parameter
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
