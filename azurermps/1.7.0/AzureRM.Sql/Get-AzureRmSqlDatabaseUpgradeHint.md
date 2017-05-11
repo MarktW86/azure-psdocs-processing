@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Sql.dll-Help.xml
 ms.assetid: 706F8347-FF38-4B39-A207-8B72632892F3
 online version:
 schema: 2.0.0
-updated_at: 05/01/2017 21:05 PM
-ms.date: 05/01/2017
+updated_at: 05/11/2017 01:05 AM
+ms.date: 05/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Get-AzureRmSqlDatabaseUpgradeHint.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/Get-AzureRmSqlDatabaseUpgradeHint.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0589fbf53d27e39e0cf445261d29c64fb0859d62
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/05e3e6af398c016caa52517268d3cee57da15cc4
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -176,4 +176,4 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 [Get-AzureRmSqlElasticPoolRecommendation](./Get-AzureRmSqlElasticPoolRecommendation.md)
 
-[Azure SQL Database Cmdlets](./AzureRM.Sql.md)
+

@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Sql.dll-Help.xml
 ms.assetid: 457FD595-D5E1-45C4-9DB8-C3C6C30A0E94
 online version:
 schema: 2.0.0
-updated_at: 03/11/2017 02:03 AM
-ms.date: 03/11/2017
+updated_at: 05/11/2017 01:05 AM
+ms.date: 05/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.7.0/Set-AzureRmSqlDatabaseThreatDetectionPolicy.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.7.0/Set-AzureRmSqlDatabaseThreatDetectionPolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04f63f6e685743ace2c57eb157574e34e8610b1c
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/05e3e6af398c016caa52517268d3cee57da15cc4
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -281,6 +281,6 @@ This cmdlet returns a **Model.DatabaseThreatDetectionPolicyModel** object.
 
 [Remove-AzureRmSqlDatabaseThreatDetectionPolicy](./Remove-AzureRmSqlDatabaseThreatDetectionPolicy.md)
 
-[Azure SQL Database Cmdlets](./AzureRM.Sql.md)
+
 
 

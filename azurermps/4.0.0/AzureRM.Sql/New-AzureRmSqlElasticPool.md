@@ -6,8 +6,8 @@ schema: 2.0.0
 content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/Sql/Commands.Sql/help/New-AzureRmSqlElasticPool.md
 original_content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/Sql/Commands.Sql/help/New-AzureRmSqlElasticPool.md
 gitcommit: https://github.com/Azure/azure-powershell/blob/355e05e3075c4bd2bfca8a734a07598e710e14f7
-updated_at: 05/10/2017 19:05 PM
-ms.date: 05/10/2017
+updated_at: 05/11/2017 01:05 AM
+ms.date: 05/11/2017
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -314,6 +314,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 [Set-AzureRmSqlElasticPool](./Set-AzureRmSqlElasticPool.md)
 
-[Azure SQL Database Cmdlets](./AzureRM.Sql.md)
+
 
 
