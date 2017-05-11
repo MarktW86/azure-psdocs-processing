@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.Profile.dll-Help.xml
 online version:
 schema: 2.0.0
-content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/Profile/Commands.Profile/help/Save-AzureRmContext.md
-original_content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/Profile/Commands.Profile/help/Save-AzureRmContext.md
-gitcommit: https://github.com/Azure/azure-powershell/blob/ed7e02c40bc7b387c6e412cb79fe234ba6da2e04
-updated_at: 05/10/2017 19:05 PM
-ms.date: 05/10/2017
+updated_at: 05/11/2017 18:05 PM
+ms.date: 05/11/2017
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Profile/v3.0.0/Save-AzureRmContext.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Profile/v3.0.0/Save-AzureRmContext.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/a9b160b3b332c6a38589f1828b17cf2391c2454e
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub

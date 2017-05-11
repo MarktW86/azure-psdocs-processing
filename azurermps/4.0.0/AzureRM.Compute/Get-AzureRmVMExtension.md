@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Compute.dll-Help.xml
 ms.assetid: 842652D4-0F1C-4D0D-AB55-0D43D3C5D82A
 online version:
 schema: 2.0.0
-content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/Compute/Commands.Compute/help/Get-AzureRmVMExtension.md
-original_content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/Compute/Commands.Compute/help/Get-AzureRmVMExtension.md
-gitcommit: https://github.com/Azure/azure-powershell/blob/8810c0614b76be8d014616888a4ae7733a452af9
-updated_at: 05/10/2017 19:05 PM
-ms.date: 05/10/2017
+updated_at: 05/11/2017 18:05 PM
+ms.date: 05/11/2017
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v3.0.0/Get-AzureRmVMExtension.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v3.0.0/Get-AzureRmVMExtension.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/a9b160b3b332c6a38589f1828b17cf2391c2454e
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub

@@ -2011,6 +2011,11 @@
           href: AzureRM.OperationalInsights/Set-AzureRmOperationalInsightsStorageInsight.md
         - name: Set-AzureRmOperationalInsightsWorkspace
           href: AzureRM.OperationalInsights/Set-AzureRmOperationalInsightsWorkspace.md
+    - name: Others
+      href: 'AzureRM.Websites/index.md#others'
+      items:
+        - name: Swap-AzureRmWebAppSlot
+          href: AzureRM.Websites/Swap-AzureRmWebAppSlot.md
     - name: Policies
       href: 'AzureRM.Resources/index.md#policies'
       items:

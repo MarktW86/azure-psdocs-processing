@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.DataLakeAnalytics.dll-Help.xml
 ms.assetid: 0B52890D-102F-4C3C-9EF9-017F6ECA3E26
 online version:
 schema: 2.0.0
-content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/DataLakeAnalytics/Commands.DataLakeAnalytics/help/Test-AzureRmDataLakeAnalyticsAccount.md
-original_content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/DataLakeAnalytics/Commands.DataLakeAnalytics/help/Test-AzureRmDataLakeAnalyticsAccount.md
-gitcommit: https://github.com/Azure/azure-powershell/blob/945e7b9cce0fa0730b0544770ab84bd991a9fbe1
-updated_at: 05/10/2017 19:05 PM
-ms.date: 05/10/2017
+updated_at: 05/11/2017 18:05 PM
+ms.date: 05/11/2017
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeAnalytics/v3.0.0/Test-AzureRmDataLakeAnalyticsAccount.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeAnalytics/v3.0.0/Test-AzureRmDataLakeAnalyticsAccount.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/a9b160b3b332c6a38589f1828b17cf2391c2454e
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub

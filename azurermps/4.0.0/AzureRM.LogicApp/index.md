@@ -2,11 +2,11 @@
 Module Name: AzureRM.LogicApp
 Module Guid: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
 Locale: en-US
-content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/LogicApp/Commands.LogicApp/help/AzureRM.LogicApp.md
-original_content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/LogicApp/Commands.LogicApp/help/AzureRM.LogicApp.md
-gitcommit: https://github.com/Azure/azure-powershell/blob/b2425393c84bd6aaa8f95f9cc6ce8af072a1a04c
-updated_at: 05/10/2017 19:05 PM
-ms.date: 05/10/2017
+updated_at: 05/11/2017 18:05 PM
+ms.date: 05/11/2017
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/v3.0.0/AzureRM.LogicApp.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/v3.0.0/AzureRM.LogicApp.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/a9b160b3b332c6a38589f1828b17cf2391c2454e
 ms.topic: conceptual
 author: erickson-doug
 ms.author: PowerShellHelpPub

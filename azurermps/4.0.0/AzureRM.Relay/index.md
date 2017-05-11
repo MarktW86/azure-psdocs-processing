@@ -4,11 +4,11 @@ Module Guid: 5728d353-7ad5-42d8-b00a-46aaecf07b91
 Download Help Link: None_Azure
 Help Version: 4.0.0.0
 Locale: en-US
-content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/Relay/Commands.Relay/help/AzureRM.Relay.md
-original_content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/Relay/Commands.Relay/help/AzureRM.Relay.md
-gitcommit: https://github.com/Azure/azure-powershell/blob/a021621ee8f4e38eef8224fac6c40f4a804aab0a
-updated_at: 05/10/2017 19:05 PM
-ms.date: 05/10/2017
+updated_at: 05/11/2017 18:05 PM
+ms.date: 05/11/2017
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Relay/v0.1.0/AzureRM.Relay.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Relay/v0.1.0/AzureRM.Relay.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/a9b160b3b332c6a38589f1828b17cf2391c2454e
 ms.topic: conceptual
 author: erickson-doug
 ms.author: PowerShellHelpPub
