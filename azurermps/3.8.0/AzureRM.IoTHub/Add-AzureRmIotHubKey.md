@@ -5,6 +5,8 @@ schema: 2.0.0
 content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/IotHub/Commands.IotHub/help/Add-AzureRmIotHubKey.md
 original_content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/IotHub/Commands.IotHub/help/Add-AzureRmIotHubKey.md
 gitcommit: https://github.com/Azure/azure-powershell/blob/5510783dd26f900e94612bd2f46bc35adde27762
+updated_at: 04/28/2017 07:04 AM
+ms.date: 04/28/2017
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub

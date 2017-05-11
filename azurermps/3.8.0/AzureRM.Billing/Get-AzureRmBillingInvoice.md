@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.Billing.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 04/07/2017 09:04 AM
-ms.date: 04/07/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Billing/v2.8.0/Get-AzureRmBillingInvoice.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Billing/v2.8.0/Get-AzureRmBillingInvoice.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/195dcb690a30a5f2c0ecd5606483862547ef544a
+content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/Billing/Commands.Billing/help/Get-AzureRmBillingInvoice.md
+original_content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/Billing/Commands.Billing/help/Get-AzureRmBillingInvoice.md
+gitcommit: https://github.com/Azure/azure-powershell/blob/9c92f0b478aeb988dd13a82904b8dee1e9104a0f
+updated_at: 04/28/2017 07:04 AM
+ms.date: 04/28/2017
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub

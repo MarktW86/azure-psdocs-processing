@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.Websites.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 03/23/2017 22:03 PM
-ms.date: 03/23/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v1.1.3/Remove-AzureRmWebApp.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v1.1.3/Remove-AzureRmWebApp.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/535e2e74f053db46eadf4681f4a95ece9f189378
+updated_at: 05/01/2017 21:05 PM
+ms.date: 05/01/2017
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v1.1.4/Remove-AzureRmWebApp.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v1.1.4/Remove-AzureRmWebApp.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0589fbf53d27e39e0cf445261d29c64fb0859d62
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
