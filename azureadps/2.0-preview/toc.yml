@@ -236,6 +236,8 @@
       items:
         - name: Add-AzureADDirectoryRoleMember
           href: AzureAD/Add-AzureADDirectoryRoleMember.md
+        - name: Enable-AzureADDirectoryRole
+          href: AzureAD/Enable-AzureADDirectoryRole.md
         - name: Get-AzureADDirectoryRole
           href: AzureAD/Get-AzureADDirectoryRole.md
         - name: Get-AzureADDirectoryRoleMember
