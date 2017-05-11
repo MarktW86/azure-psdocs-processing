@@ -291,8 +291,6 @@
           href: AzureRM.Websites/Stop-AzureRmWebApp.md
         - name: Stop-AzureRmWebAppSlot
           href: AzureRM.Websites/Stop-AzureRmWebAppSlot.md
-        - name: Swap-AzureRmWebAppSlot
-          href: AzureRM.Websites/Swap-AzureRmWebAppSlot.md
     - name: Application Gateway
       href: 'AzureRM.Network/index.md#application_gateway'
       items:
@@ -1654,6 +1652,8 @@
           href: AzureRM.AzureStackStorage/Undo-ACSStorageAccountDeletion.md
         - name: Update-ACSRoleInstance
           href: AzureRM.AzureStackStorage/Update-ACSRoleInstance.md
+        - name: Swap-AzureRmWebAppSlot
+          href: AzureRM.Websites/Swap-AzureRmWebAppSlot.md
     - name: Policies
       href: 'AzureRM.Resources/index.md#policies'
       items:
