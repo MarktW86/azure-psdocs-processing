@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.Profile.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 05/11/2017 18:05 PM
+updated_at: 05/11/2017 20:05 PM
 ms.date: 05/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Profile/v3.0.0/Send-Feedback.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Profile/v3.0.0/Send-Feedback.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/a9b160b3b332c6a38589f1828b17cf2391c2454e
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/679b104f5166b41edaa297488209c784563f1d76
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -31,10 +31,10 @@ Send-Feedback [<CommonParameters>]
 The Send-Feedback cmdlet sends feedback to the Azure PowerShell team.
 
 ## EXAMPLES
-
+### Example 1:
 ```
 PS C:\> Send-Feedback
-
+```
 With zero (0) being the least and ten (10) being the most, how likely are you to recommend Azure PowerShell to a friend or colleague?
 
 10
@@ -50,7 +50,7 @@ Response.
 Please enter your email if you are interested in providing follow up information:
 
 your@email.com
-```
+
 
 ## PARAMETERS
 
