@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 701917EF-185C-433D-A0B2-A63DEE0E96C3
 online version:
 schema: 2.0.0
-updated_at: 05/03/2017 06:05 AM
-ms.date: 05/03/2017
+updated_at: 05/11/2017 18:05 PM
+ms.date: 05/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Test-ServiceFabricClusterConnection.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Test-ServiceFabricClusterConnection.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/40385fc07259a8f5f0d2cec04a231e9cd42fcff3
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/29c03a65533e4ca2419c77350cad4b849378fb1d
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -20,7 +20,7 @@ ms.service: service-fabric
 # Test-ServiceFabricClusterConnection
 
 ## SYNOPSIS
-Checks and confirms (by returning "True") that you are connected to a Service Fabric cluster.
+Checks and confirms that you are connected to a Service Fabric cluster.
 
 ## SYNTAX
 
@@ -53,7 +53,7 @@ In this case, a current connection to a Service Fabric cluster does not exist an
 ## PARAMETERS
 
 ### -AllowNetworkConnectionOnly
-When set, the cmdlet will return "True" if it can connect to the cluster even when system services are unresponsive. That is, as long as an underlying network connection can be established to the cluster, it will return "True".
+Indicates that the cmdlet returns "True" if it can connect to the cluster even when system services are unresponsive. That is, as long as an underlying network connection can be established to the cluster, it returns "True".
 
 ```yaml
 Type: SwitchParameter

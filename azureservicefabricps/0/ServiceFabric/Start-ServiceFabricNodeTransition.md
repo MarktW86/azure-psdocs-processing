@@ -2,11 +2,11 @@
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 05/03/2017 06:05 AM
-ms.date: 05/03/2017
+updated_at: 05/11/2017 18:05 PM
+ms.date: 05/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricNodeTransition.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricNodeTransition.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/40385fc07259a8f5f0d2cec04a231e9cd42fcff3
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/29c03a65533e4ca2419c77350cad4b849378fb1d
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -55,7 +55,7 @@ The **Start-ServiceFabricNodeTransition** cmdlet is preferred over the [Start-Se
 If a node is has already been stopped by using **Stop-ServiceFabricNode**, start it using **Start-ServiceFabricNode** before using **Start-ServiceFabricNodeTransition**.
 Use **Start-ServiceFabricNodeTransition** from then on.
 
-For more information, see [Replacing the Start Node and Stop node APIs with the Node Transition API](https://docs.microsoft.com/azure/service-fabric/service-fabric-node-transition-apis).
+For more information, see [Replacing the Start Node and Stop node APIs with the Node Transition API](https://docs.microsoft.com/azure/service-fabric/service-fabric-node-transition-apis) (https://docs.microsoft.com/azure/service-fabric/service-fabric-node-transition-apis).
 
 ## EXAMPLES
 
