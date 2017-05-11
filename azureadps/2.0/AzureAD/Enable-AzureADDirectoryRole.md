@@ -3,11 +3,11 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 ms.assetid: 3719960D-7A77-414E-A20C-812B527F27AB
 online version:
 schema: 2.0.0
-updated_at: 04/20/2017 04:04 AM
-ms.date: 04/20/2017
+updated_at: 05/11/2017 17:05 PM
+ms.date: 05/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/rodejo5-10/Azure%20AD%20Cmdlets/AzureAD/v2/Enable-AzureADDirectoryRole.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/rodejo5-10/Azure%20AD%20Cmdlets/AzureAD/v2/Enable-AzureADDirectoryRole.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/785cafde2210485948fad58dd6f2d5df74b18bde
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/07ba56f941e61d40aa31b21af10776973a3a3256
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -35,20 +35,23 @@ The **Enable-AzureADDirectoryRole** cmdlet activates an existing directory role 
 
 ### Example 1: Enable a directory role
 ```
-PS C:\> $InviterRole = Get-AzureADDirectoryRoleTemplate | Where-Object {$_.DisplayName -eq "Guest Inviter"}
-PS C:\> $InviterRole
+# Retrieve the Template Role object for the Guest Inviter role 
+$InviterRole = Get-AzureADDirectoryRoleTemplate | Where-Object {$_.DisplayName -eq "Guest Inviter"}
+
+# Inspect the $Inveoter variable to make sure we found the correct template role
+$InviterRole
 
 ObjectId                             DisplayName   Description
 --------                             -----------   -----------
 95e79109-95c0-4d8e-aee3-d01accf2d47b Guest Inviter Guest Inviter has access to invite guest users.
 
-PS C:\> $Role = New-Object Microsoft.Open.AzureAD.Model.DirectoryRole
-PS C:\> $Role.RoleTemplateId = $InviterRole.ObjectId
-PS C:\> Enable-AzureADDirectoryRole -DirectoryRole $Role
+# Enable the Inviter Role
+Enable-AzureADDirectoryRole -RoleTemplateId $InviterRole.ObjectId
 
 ObjectId                             DisplayName   Description
 --------                             -----------   -----------
 03618579-3c16-4765-9539-86d9163ee3d9 Guest Inviter Guest Inviter has access to invite guest users.
+
 ```
 
 The first command gets an inviter role that has the display name Guest Inviter by using the [Get-AzureADDirectoryRoleTemplate](./Get-AzureADDirectoryRoleTemplate.md) cmdlet. 
@@ -56,11 +59,7 @@ The command stores Guest Inviter in the $InviterRole variable.
 
 The second command displays the contents of $InviterRole.
 
-The third command creates a **DirectoryRole** object, and then stores it in the $Role variable.
-
-The forth command modifies the **RoleTemplateId** property of $Role to be the role in $InviterRole.
-
-The final command enables the directory role in $Role.
+The final command enables the directory role in $InviterRole.
 
 ## PARAMETERS
 
