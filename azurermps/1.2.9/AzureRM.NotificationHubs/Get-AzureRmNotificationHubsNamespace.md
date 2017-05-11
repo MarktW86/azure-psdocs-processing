@@ -4,8 +4,8 @@ online version:
 schema: 2.0.0
 updated_at: 03/23/2017 23:03 PM
 ms.date: 03/23/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.NotificationHubs/v1.0.4.3/Get-AzureRmNotificationHubsNamespace.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.NotificationHubs/v1.0.4.3/Get-AzureRmNotificationHubsNamespace.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/armsql/azureps-cmdlets-docs/ResourceManager/AzureRM.NotificationHubs/v1.0.4.3/Get-AzureRmNotificationHubsNamespace.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/armsql/azureps-cmdlets-docs/ResourceManager/AzureRM.NotificationHubs/v1.0.4.3/Get-AzureRmNotificationHubsNamespace.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/280872fa529e03be2466fa2252957a2060a9dfe4
 ms.topic: reference
 author: erickson-doug

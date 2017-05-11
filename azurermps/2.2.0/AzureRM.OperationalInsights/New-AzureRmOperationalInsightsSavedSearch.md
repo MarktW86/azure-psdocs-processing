@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: 946A4A16-6CFC-4B98-BFE8-349A21E925A6
 updated_at: 11/22/2016 20:11 PM
 ms.date: 11/22/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.OperationalInsights/v2.1.0/New-AzureRmOperationalInsightsSavedSearch.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.OperationalInsights/v2.1.0/New-AzureRmOperationalInsightsSavedSearch.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/armsql/azureps-cmdlets-docs/ResourceManager/AzureRM.OperationalInsights/v2.1.0/New-AzureRmOperationalInsightsSavedSearch.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/armsql/azureps-cmdlets-docs/ResourceManager/AzureRM.OperationalInsights/v2.1.0/New-AzureRmOperationalInsightsSavedSearch.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0cedc8f73bc96cf5ac4c69144e17b3de601fd3cc
 ms.topic: reference
 author: erickson-doug

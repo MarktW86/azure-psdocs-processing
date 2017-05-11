@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: D48C0DAF-9982-4255-BE39-BEA0C8BEAB1B
 updated_at: 11/01/2016 22:11 PM
 ms.date: 11/01/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v2.1.0/Reset-AzureRmWebAppSlotPublishingProfile.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v2.1.0/Reset-AzureRmWebAppSlotPublishingProfile.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/armsql/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v2.1.0/Reset-AzureRmWebAppSlotPublishingProfile.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/armsql/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v2.1.0/Reset-AzureRmWebAppSlotPublishingProfile.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed
 ms.topic: reference
 author: erickson-doug

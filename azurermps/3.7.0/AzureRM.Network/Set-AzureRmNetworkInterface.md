@@ -5,8 +5,8 @@ online version:
 schema: 2.0.0
 updated_at: 03/17/2017 21:03 PM
 ms.date: 03/17/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.6.0/Set-AzureRmNetworkInterface.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.6.0/Set-AzureRmNetworkInterface.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/armsql/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.6.0/Set-AzureRmNetworkInterface.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/armsql/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.6.0/Set-AzureRmNetworkInterface.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/b739d1f70fe914c4a7e0bac010e8dc44a028c563
 ms.topic: reference
 author: erickson-doug

@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: 88A324F0-6B2F-49DF-BB56-CF941A6291F8
 updated_at: 04/11/2017 16:04 PM
 ms.date: 04/11/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.MachineLearning/v0.10.0/New-AzureRmMlWebService.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.MachineLearning/v0.10.0/New-AzureRmMlWebService.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/armsql/azureps-cmdlets-docs/ResourceManager/AzureRM.MachineLearning/v0.10.0/New-AzureRmMlWebService.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/armsql/azureps-cmdlets-docs/ResourceManager/AzureRM.MachineLearning/v0.10.0/New-AzureRmMlWebService.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/a12921dba711de0138694054b209f1315a674436
 ms.topic: reference
 author: erickson-doug

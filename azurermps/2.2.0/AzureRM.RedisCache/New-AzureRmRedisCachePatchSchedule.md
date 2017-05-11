@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: D0C79852-572B-4620-BF59-2D9A4E59FA86
 updated_at: 10/24/2016 23:10 PM
 ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v2.1.0/New-AzureRmRedisCachePatchSchedule.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v2.1.0/New-AzureRmRedisCachePatchSchedule.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/armsql/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v2.1.0/New-AzureRmRedisCachePatchSchedule.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/armsql/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v2.1.0/New-AzureRmRedisCachePatchSchedule.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055
 ms.topic: reference
 author: erickson-doug

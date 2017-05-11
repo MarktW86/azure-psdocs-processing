@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: 4B4BBECE-C935-426A-A8D6-2FF4AC47B9FF
 updated_at: 11/22/2016 20:11 PM
 ms.date: 11/22/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Scheduler/v0.10.0/Set-AzureRmSchedulerStorageQueueJob.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Scheduler/v0.10.0/Set-AzureRmSchedulerStorageQueueJob.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/armsql/azureps-cmdlets-docs/ResourceManager/AzureRM.Scheduler/v0.10.0/Set-AzureRmSchedulerStorageQueueJob.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/armsql/azureps-cmdlets-docs/ResourceManager/AzureRM.Scheduler/v0.10.0/Set-AzureRmSchedulerStorageQueueJob.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0cedc8f73bc96cf5ac4c69144e17b3de601fd3cc
 ms.topic: reference
 author: erickson-doug

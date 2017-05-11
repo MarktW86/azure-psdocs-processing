@@ -4,8 +4,8 @@ online version: http://go.microsoft.com/fwlink/?LinkID=393045
 schema: 2.0.0
 updated_at: 05/02/2017 17:05 PM
 ms.date: 05/02/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v1.0.4.3/New-AzureRmResourceLock.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v1.0.4.3/New-AzureRmResourceLock.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/armsql/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v1.0.4.3/New-AzureRmResourceLock.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/armsql/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v1.0.4.3/New-AzureRmResourceLock.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/fdff926f5dd35f9020f210f87b450464ba162edc
 ms.topic: reference
 author: erickson-doug
