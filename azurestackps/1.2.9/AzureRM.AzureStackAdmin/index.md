@@ -4,8 +4,8 @@ Module Guid: 0e691e0a-ce16-40f2-af84-86fb0d82fb29
 Locale: en-US
 updated_at: 05/02/2017 19:05 PM
 ms.date: 05/02/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/AzureRM.AzureStackAdmin.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/AzureRM.AzureStackAdmin.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/armsql/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/AzureRM.AzureStackAdmin.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/armsql/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/AzureRM.AzureStackAdmin.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/64ea21b6f9d300bac04d2df45c463f94a5e389b4
 ms.topic: conceptual
 author: erickson-doug
