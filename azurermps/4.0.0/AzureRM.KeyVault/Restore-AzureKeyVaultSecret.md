@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.KeyVault.dll-Help.xml
 ms.assetid: 70DB088D-4AF5-406B-8D66-118A0F766041
 online version: http://go.microsoft.com/fwlink/?LinkId=690301
 schema: 2.0.0
-updated_at: 05/11/2017 18:05 PM
-ms.date: 05/11/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v3.0.0/Restore-AzureKeyVaultSecret.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v3.0.0/Restore-AzureKeyVaultSecret.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/a9b160b3b332c6a38589f1828b17cf2391c2454e
+content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/KeyVault/Commands.KeyVault/help/Restore-AzureKeyVaultSecret.md
+original_content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/KeyVault/Commands.KeyVault/help/Restore-AzureKeyVaultSecret.md
+gitcommit: https://github.com/Azure/azure-powershell/blob/d0f66e5470993b1636c163da2f6f83c0692ce6b7
+updated_at: 05/12/2017 03:05 AM
+ms.date: 05/12/2017
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub

@@ -2,11 +2,11 @@
 Module Name: AzureRM.RecoveryServices
 Module Guid: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
 Locale: en-US
-updated_at: 05/11/2017 18:05 PM
-ms.date: 05/11/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices/v3.0.0/AzureRM.RecoveryServices.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices/v3.0.0/AzureRM.RecoveryServices.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/a9b160b3b332c6a38589f1828b17cf2391c2454e
+content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/RecoveryServices/Commands.RecoveryServices/help/AzureRM.RecoveryServices.md
+original_content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/RecoveryServices/Commands.RecoveryServices/help/AzureRM.RecoveryServices.md
+gitcommit: https://github.com/Azure/azure-powershell/blob/0b4ecb51495cc4a808ac05ad5254511b7140362b
+updated_at: 05/12/2017 03:05 AM
+ms.date: 05/12/2017
 ms.topic: conceptual
 author: erickson-doug
 ms.author: PowerShellHelpPub

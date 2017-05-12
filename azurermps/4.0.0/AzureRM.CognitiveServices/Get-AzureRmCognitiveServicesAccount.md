@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Management.CognitiveServices.dll-He
 ms.assetid: 11D5BFDF-5E5D-46B2-9F9B-A0524EFA1B42
 online version:
 schema: 2.0.0
-updated_at: 05/11/2017 18:05 PM
-ms.date: 05/11/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.CognitiveServices/v0.7.0/Get-AzureRmCognitiveServicesAccount.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.CognitiveServices/v0.7.0/Get-AzureRmCognitiveServicesAccount.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/a9b160b3b332c6a38589f1828b17cf2391c2454e
+content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/CognitiveServices/Commands.Management.CognitiveServices/help/Get-AzureRmCognitiveServicesAccount.md
+original_content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/CognitiveServices/Commands.Management.CognitiveServices/help/Get-AzureRmCognitiveServicesAccount.md
+gitcommit: https://github.com/Azure/azure-powershell/blob/8810c0614b76be8d014616888a4ae7733a452af9
+updated_at: 05/12/2017 03:05 AM
+ms.date: 05/12/2017
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub

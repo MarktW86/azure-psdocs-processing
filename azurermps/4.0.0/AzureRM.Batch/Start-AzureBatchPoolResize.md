@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Batch.dll-Help.xml
 ms.assetid: 82DC8DC4-D8EC-4847-A54C-B779256FD590
 online version:
 schema: 2.0.0
-updated_at: 05/11/2017 18:05 PM
-ms.date: 05/11/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v3.0.0/Start-AzureBatchPoolResize.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v3.0.0/Start-AzureBatchPoolResize.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/a9b160b3b332c6a38589f1828b17cf2391c2454e
+content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/AzureBatch/Commands.Batch/help/Start-AzureBatchPoolResize.md
+original_content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/AzureBatch/Commands.Batch/help/Start-AzureBatchPoolResize.md
+gitcommit: https://github.com/Azure/azure-powershell/blob/8810c0614b76be8d014616888a4ae7733a452af9
+updated_at: 05/12/2017 03:05 AM
+ms.date: 05/12/2017
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub

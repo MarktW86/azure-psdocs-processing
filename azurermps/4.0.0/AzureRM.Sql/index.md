@@ -2,11 +2,11 @@
 Module Name: AzureRM.Sql
 Module Guid: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
 Locale: en-US
-updated_at: 05/11/2017 18:05 PM
-ms.date: 05/11/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v3.0.0/AzureRM.Sql.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v3.0.0/AzureRM.Sql.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/a9b160b3b332c6a38589f1828b17cf2391c2454e
+content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/Sql/Commands.Sql/help/AzureRM.Sql.md
+original_content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/Sql/Commands.Sql/help/AzureRM.Sql.md
+gitcommit: https://github.com/Azure/azure-powershell/blob/d146ae234551d5db6eda9e09eded3bcf233d2b31
+updated_at: 05/12/2017 03:05 AM
+ms.date: 05/12/2017
 ms.topic: conceptual
 author: erickson-doug
 ms.author: PowerShellHelpPub

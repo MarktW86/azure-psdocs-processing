@@ -4,11 +4,11 @@ Module Guid: acace26c-1775-4100-85c0-20c4d71eaa21
 Download Help Link: None_Azure
 Help Version: 0.0.1.0
 Locale: en-US
-updated_at: 05/11/2017 18:05 PM
-ms.date: 05/11/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.AnalysisServices/v0.3.0/AzureRM.AnalysisServices.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.AnalysisServices/v0.3.0/AzureRM.AnalysisServices.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/a9b160b3b332c6a38589f1828b17cf2391c2454e
+content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/AnalysisServices/Commands.AnalysisServices/help/AzureRM.AnalysisServices.md
+original_content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/AnalysisServices/Commands.AnalysisServices/help/AzureRM.AnalysisServices.md
+gitcommit: https://github.com/Azure/azure-powershell/blob/8810c0614b76be8d014616888a4ae7733a452af9
+updated_at: 05/12/2017 03:05 AM
+ms.date: 05/12/2017
 ms.topic: conceptual
 author: erickson-doug
 ms.author: PowerShellHelpPub

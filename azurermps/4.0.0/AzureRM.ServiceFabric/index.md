@@ -2,11 +2,11 @@
 Module Name: AzureRM.ServiceFabric
 Module Guid: 60f3ba88-443f-46ff-88a3-318cfd11c1da
 Locale: en-US
-updated_at: 05/11/2017 18:05 PM
-ms.date: 05/11/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceFabric/v0.1.0/AzureRM.ServiceFabric.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceFabric/v0.1.0/AzureRM.ServiceFabric.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/a9b160b3b332c6a38589f1828b17cf2391c2454e
+content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/ServiceFabric/Commands.ServiceFabric/help/AzureRM.ServiceFabric.md
+original_content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/ServiceFabric/Commands.ServiceFabric/help/AzureRM.ServiceFabric.md
+gitcommit: https://github.com/Azure/azure-powershell/blob/31afd32f413c3c88a30ab5322da0446efc925bf5
+updated_at: 05/12/2017 03:05 AM
+ms.date: 05/12/2017
 ms.topic: conceptual
 author: erickson-doug
 ms.author: PowerShellHelpPub

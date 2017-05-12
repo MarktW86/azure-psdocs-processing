@@ -3,11 +3,11 @@ Module Name: AzureRM.ContainerRegistry
 Module Guid: b3ca459c-feb9-41cc-a954-46222505acb3
 Help Version: 1.0.0.0
 Locale: en-US
-updated_at: 05/11/2017 18:05 PM
-ms.date: 05/11/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ContainerRegistry/v0.1.0/AzureRM.ContainerRegistry.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ContainerRegistry/v0.1.0/AzureRM.ContainerRegistry.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/a9b160b3b332c6a38589f1828b17cf2391c2454e
+content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/ContainerRegistry/Commands.ContainerRegistry/help/AzureRM.ContainerRegistry.md
+original_content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/ContainerRegistry/Commands.ContainerRegistry/help/AzureRM.ContainerRegistry.md
+gitcommit: https://github.com/Azure/azure-powershell/blob/41f4a7b63c9651a305b985d28fcd40e60968957c
+updated_at: 05/12/2017 03:05 AM
+ms.date: 05/12/2017
 ms.topic: conceptual
 author: erickson-doug
 ms.author: PowerShellHelpPub
