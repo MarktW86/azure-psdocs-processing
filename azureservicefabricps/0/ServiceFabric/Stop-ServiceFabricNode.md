@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 4BC03E59-F564-4678-A6DE-83974795422C
 online version:
 schema: 2.0.0
-updated_at: 05/03/2017 06:05 AM
-ms.date: 05/03/2017
+updated_at: 05/11/2017 18:05 PM
+ms.date: 05/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Stop-ServiceFabricNode.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Stop-ServiceFabricNode.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/40385fc07259a8f5f0d2cec04a231e9cd42fcff3
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/29c03a65533e4ca2419c77350cad4b849378fb1d
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -20,7 +20,7 @@ ms.service: service-fabric
 # Stop-ServiceFabricNode
 
 ## SYNOPSIS
-**OBSOLETE**. Please use the [Start-ServiceFabricNodeTransition](./Start-ServiceFabricNodeTransition.md) cmdlet instead.
+**OBSOLETE**. Use the [Start-ServiceFabricNodeTransition](./Start-ServiceFabricNodeTransition.md) cmdlet instead.
 
 ## SYNTAX
 

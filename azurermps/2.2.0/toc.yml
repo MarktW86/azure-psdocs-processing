@@ -317,8 +317,6 @@
           href: AzureRM.Websites/Stop-AzureRmWebApp.md
         - name: Stop-AzureRMWebAppSlot
           href: AzureRM.Websites/Stop-AzureRMWebAppSlot.md
-        - name: Swap-AzureRmWebAppSlot
-          href: AzureRM.Websites/Swap-AzureRmWebAppSlot.md
     - name: Application Gateway
       href: 'AzureRM.Network/index.md#application_gateway'
       items:

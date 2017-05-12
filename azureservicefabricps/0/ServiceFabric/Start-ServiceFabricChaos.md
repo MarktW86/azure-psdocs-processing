@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 6777C2BF-2F6C-4C1D-86E2-E21A069AC766
 online version:
 schema: 2.0.0
-updated_at: 05/09/2017 21:05 PM
-ms.date: 05/09/2017
+updated_at: 05/11/2017 18:05 PM
+ms.date: 05/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricChaos.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricChaos.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/c1b7792bfa7505252a5e7b377993086efa446f5b
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/29c03a65533e4ca2419c77350cad4b849378fb1d
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -152,8 +152,8 @@ Accept wildcard characters: False
 ```
 
 ### -TimeToRunMinute
-Specifies how long Chaos runs, in minutes; cannot exceed (1/60)*uint.MaxValue.
-Alternatively, you can stop Chaos by using the [Stop-ServiceFabricChaos](./Stop-ServiceFabricChaos.md) cmdlet or the [StopChaosAsync method](/dotnet/api/system.fabric.fabricclient.testmanagementclient#System_Fabric_FabricClient_TestManagementClient_StopChaosAsync_System_TimeSpan_System_Threading_CancellationToken_).
+Specifies how long Chaos runs, in minutes; cannot exceed (1/60)uint.MaxValue.
+Alternatively, you can stop Chaos by using the [Stop-ServiceFabricChaos](./Stop-ServiceFabricChaos.md) cmdlet or the [StopChaosAsync method](/dotnet/api/system.fabric.fabricclient.testmanagementclient#System_Fabric_FabricClient_TestManagementClient_StopChaosAsync_System_TimeSpan_System_Threading_CancellationToken_) (/dotnet/api/system.fabric.fabricclient.testmanagementclient#System_Fabric_FabricClient_TestManagementClient_StopChaosAsync_System_TimeSpan_System_Threading_CancellationToken_).
 
 ```yaml
 Type: UInt32

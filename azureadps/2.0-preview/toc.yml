@@ -47,7 +47,7 @@
       items:
         - name: 'I get an error "\[your account] isn''t in our system"'
           href: ../conceptual/2.0-preview/account-not-in-system-error.md
-    - name: '[Execution errors]'
+    - name: Execution errors
       items:
         - name: I'm looking for a user or a group but PowerShell does not return the object
           href: ../conceptual/2.0-preview/Cannot-find-object.md
@@ -236,6 +236,8 @@
       items:
         - name: Add-AzureADDirectoryRoleMember
           href: AzureAD/Add-AzureADDirectoryRoleMember.md
+        - name: Enable-AzureADDirectoryRole
+          href: AzureAD/Enable-AzureADDirectoryRole.md
         - name: Get-AzureADDirectoryRole
           href: AzureAD/Get-AzureADDirectoryRole.md
         - name: Get-AzureADDirectoryRoleMember
