@@ -9,10 +9,10 @@ ms.service: azure-resource-manager
 ms.devlang: powershell
 ms.topic: conceptual
 ms.manager: carmonm
-ms.date: 03/30/2017
+ms.date: 05/15/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/docs-conceptual/overview.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/docs-conceptual/overview.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/379641e1d19b18dec54244dce5910aa3f4d6d991
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4eeb8dd94134977ba5c8e00ed61e2b1a029bef1d
 open_to_public_contributors: true
 ---
 
@@ -34,13 +34,14 @@ The following samples can help you learn how to perform common scenarios with Az
 * [SQL Databases](/azure/sql-database/sql-database-powershell-samples?toc=%2fpowershell%2fazure%%2ftoc.json)
 
 > [!NOTE]
-> If you have deployments that use the classic deployment model that cannot be converted you can
+> If you have deployments that use the classic deployment model that cannot be converted, you can
 install the Service Management version of Azure PowerShell. For more information, see
 [Install the Azure PowerShell Service Management module](install-azure-ps?view=azuresmps-3.7.0).
 
 ### Need help with PowerShell?
 
-If you are unfamiliar with PowerShell you may find an introduction to PowerShell helpful. To get started with PowerShell, see
+If you are unfamiliar with PowerShell, you may find an introduction to PowerShell helpful. To get
+started with PowerShell, see
 [Scripting with PowerShell](https://technet.microsoft.com/library/bb978526.aspx).
 
 You can also watch this video:
