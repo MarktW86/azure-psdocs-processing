@@ -12,7 +12,7 @@ ms.topic: conceptual
 ms.date: 03/30/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/docs-conceptual/install-azurerm-ps.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/docs-conceptual/install-azurerm-ps.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/21a8afffcc54e7cc216eb793a60a208779416e7f
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/31f43ec58310d584c0e16854fa0467d8f7dbef35
 open_to_public_contributors: true
 ---
 
@@ -106,7 +106,7 @@ feedback from the command line, use the `Send-Feedback` cmdlet.
 |OS Version|Install instructions|
 |---|---|
 |I have Windows 10 or Windows Server 2016|Built into Windows Management Framework (WMF) 5.0 included in the OS|
-|I want to upgrade to PowerShell 5|[Install the latest version of WMF](http://go.microsoft.com/fwlink/?LinkId=398175)|
+|I want to upgrade to PowerShell 5|[Install the latest version of WMF](https://www.microsoft.com/en-us/download/details.aspx?id=54616)|
 |I am running on a version of Windows with PowerShell 3 or PowerShell 4|[Get the PackageManagement modules](http://go.microsoft.com/fwlink/?LinkID=746217)|
 
 <a id="helpmechoose"></a>
