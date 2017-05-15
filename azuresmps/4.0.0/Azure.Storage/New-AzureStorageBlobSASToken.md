@@ -3,23 +3,24 @@ external help file: Microsoft.WindowsAzure.Commands.Storage.dll-Help.xml
 ms.assetid: 585371E3-D4CE-452E-B0B0-92B3ABD127E7
 online version:
 schema: 2.0.0
-content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/Storage/Commands.Storage/help/New-AzureStorageBlobSASToken.md
-original_content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/Storage/Commands.Storage/help/New-AzureStorageBlobSASToken.md
-gitcommit: https://github.com/Azure/azure-powershell/blob/89262bc4144696c69376c3fb654c881de55b6450
-updated_at: 05/10/2017 20:05 PM
-ms.date: 05/10/2017
+updated_at: 05/12/2017 22:05 PM
+ms.date: 05/12/2017
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Storage/v3.0.0/New-AzureStorageBlobSASToken.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Storage/v3.0.0/New-AzureStorageBlobSASToken.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/3b96c1e0b28fc56dfbf6de55728d5478e0d02def
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
+open_to_public_contributors: true
 ms.service: storage
 ---
 
 # New-AzureStorageBlobSASToken
 
 ## SYNOPSIS
-Generates a SAS token for an Azure storage blob.
+Generates an SAS token for an Azure storage blob.
 
 ## SYNTAX
 
@@ -27,28 +28,28 @@ Generates a SAS token for an Azure storage blob.
 ```
 New-AzureStorageBlobSASToken [-Container] <String> [-Blob] <String> [-Permission <String>]
  [-Protocol <SharedAccessProtocol>] [-IPAddressOrRange <String>] [-StartTime <DateTime>]
- [-ExpiryTime <DateTime>] [-FullUri] [-Context <AzureStorageContext>] [<CommonParameters>]
+ [-ExpiryTime <DateTime>] [-FullUri] [-Context <IStorageContext>] [<CommonParameters>]
 ```
 
 ### BlobPipelineWithPolicy
 ```
 New-AzureStorageBlobSASToken -CloudBlob <CloudBlob> -Policy <String> [-Protocol <SharedAccessProtocol>]
  [-IPAddressOrRange <String>] [-StartTime <DateTime>] [-ExpiryTime <DateTime>] [-FullUri]
- [-Context <AzureStorageContext>] [<CommonParameters>]
+ [-Context <IStorageContext>] [<CommonParameters>]
 ```
 
 ### BlobPipelineWithPermission
 ```
 New-AzureStorageBlobSASToken -CloudBlob <CloudBlob> [-Permission <String>] [-Protocol <SharedAccessProtocol>]
  [-IPAddressOrRange <String>] [-StartTime <DateTime>] [-ExpiryTime <DateTime>] [-FullUri]
- [-Context <AzureStorageContext>] [<CommonParameters>]
+ [-Context <IStorageContext>] [<CommonParameters>]
 ```
 
 ### BlobNameWithPolicy
 ```
 New-AzureStorageBlobSASToken [-Container] <String> [-Blob] <String> -Policy <String>
  [-Protocol <SharedAccessProtocol>] [-IPAddressOrRange <String>] [-StartTime <DateTime>]
- [-ExpiryTime <DateTime>] [-FullUri] [-Context <AzureStorageContext>] [<CommonParameters>]
+ [-ExpiryTime <DateTime>] [-FullUri] [-Context <IStorageContext>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -124,7 +125,7 @@ Accept wildcard characters: False
 Specifies the storage context.
 
 ```yaml
-Type: AzureStorageContext
+Type: IStorageContext
 Parameter Sets: (All)
 Aliases: 
 

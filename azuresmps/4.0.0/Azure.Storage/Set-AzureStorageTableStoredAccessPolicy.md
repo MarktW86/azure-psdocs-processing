@@ -3,16 +3,17 @@ external help file: Microsoft.WindowsAzure.Commands.Storage.dll-Help.xml
 ms.assetid: FF2BFE34-4A12-49F9-9BE5-4084A36BC272
 online version:
 schema: 2.0.0
-content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/Storage/Commands.Storage/help/Set-AzureStorageTableStoredAccessPolicy.md
-original_content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/Storage/Commands.Storage/help/Set-AzureStorageTableStoredAccessPolicy.md
-gitcommit: https://github.com/Azure/azure-powershell/blob/89262bc4144696c69376c3fb654c881de55b6450
-updated_at: 05/10/2017 20:05 PM
-ms.date: 05/10/2017
+updated_at: 05/12/2017 22:05 PM
+ms.date: 05/12/2017
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Storage/v3.0.0/Set-AzureStorageTableStoredAccessPolicy.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Storage/v3.0.0/Set-AzureStorageTableStoredAccessPolicy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/3b96c1e0b28fc56dfbf6de55728d5478e0d02def
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
+open_to_public_contributors: true
 ms.service: storage
 ---
 
@@ -25,8 +26,8 @@ Sets the stored access policy for an Azure storage table.
 
 ```
 Set-AzureStorageTableStoredAccessPolicy [-Table] <String> [-Policy] <String> [-Permission <String>]
- [-StartTime <DateTime>] [-ExpiryTime <DateTime>] [-NoStartTime] [-NoExpiryTime]
- [-Context <AzureStorageContext>] [-WhatIf] [-Confirm] [<CommonParameters>]
+ [-StartTime <DateTime>] [-ExpiryTime <DateTime>] [-NoStartTime] [-NoExpiryTime] [-Context <IStorageContext>]
+ [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -36,7 +37,7 @@ The **Set-AzureStorageTableStoredAccessPolicy** cmdlet set the stored access pol
 
 ### Example 1: Set a stored access policy in table with full permission
 ```
-PS C:\>Set-AzureStorageTableStoredAccessPolicy -Table "MyTable" -Policy "Policy08" -Permission raud
+PS C:\>Set-AzureStorageTableStoredAccessPolicy -Table "MyTable" -Policy "Policy08"
 ```
 
 This command sets an access policy named Policy08 for storage table named MyTable.
@@ -48,7 +49,7 @@ Specifies an Azure storage context.
 To obtain a storage context, use the New-AzureStorageContext cmdlet.
 
 ```yaml
-Type: AzureStorageContext
+Type: IStorageContext
 Parameter Sets: (All)
 Aliases: 
 
@@ -105,7 +106,7 @@ Accept wildcard characters: False
 ```
 
 ### -Permission
-Specifies permissions in the stored access policy to access the storage table.
+Specifies the level of public access to this storage table.
 
 ```yaml
 Type: String
@@ -120,7 +121,7 @@ Accept wildcard characters: False
 ```
 
 ### -Policy
-Specifies the name for the stored access policy.
+Specifies a stored access policy, which includes the permissions for this SAS token.
 
 ```yaml
 Type: String

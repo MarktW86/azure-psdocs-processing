@@ -3,30 +3,31 @@ external help file: Microsoft.WindowsAzure.Commands.Storage.dll-Help.xml
 ms.assetid: BCCBB05B-A5D7-4796-BE55-6BE5E18E07FC
 online version:
 schema: 2.0.0
-content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/Storage/Commands.Storage/help/New-AzureStorageAccountSASToken.md
-original_content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/Storage/Commands.Storage/help/New-AzureStorageAccountSASToken.md
-gitcommit: https://github.com/Azure/azure-powershell/blob/89262bc4144696c69376c3fb654c881de55b6450
-updated_at: 05/10/2017 20:05 PM
-ms.date: 05/10/2017
+updated_at: 05/12/2017 22:05 PM
+ms.date: 05/12/2017
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Storage/v3.0.0/New-AzureStorageAccountSASToken.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Storage/v3.0.0/New-AzureStorageAccountSASToken.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/3b96c1e0b28fc56dfbf6de55728d5478e0d02def
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
+open_to_public_contributors: true
 ms.service: storage
 ---
 
 # New-AzureStorageAccountSASToken
 
 ## SYNOPSIS
-Creates an account-level SAS token.
+Creates an SAS token.
 
 ## SYNTAX
 
 ```
 New-AzureStorageAccountSASToken -Service <SharedAccessAccountServices>
  -ResourceType <SharedAccessAccountResourceTypes> [-Permission <String>] [-Protocol <SharedAccessProtocol>]
- [-IPAddressOrRange <String>] [-StartTime <DateTime>] [-ExpiryTime <DateTime>] [-Context <AzureStorageContext>]
+ [-IPAddressOrRange <String>] [-StartTime <DateTime>] [-ExpiryTime <DateTime>] [-Context <IStorageContext>]
  [<CommonParameters>]
 ```
 
@@ -37,19 +38,19 @@ You can use the SAS token to delegate permissions for multiple services, or to d
 
 ## EXAMPLES
 
-### Example 1: Create an account-level SAS token with full permission
+### Example 1: Create an SAS token
 ```
 PS C:\> New-AzureStorageAccountSASToken -Service Blob,File,Table,Queue -ResourceType Service,Container,Object -Permission "racwdlup"
 ```
 
 This command creates an account-level SAS token with full permission.
 
-### Example 2: Create an account-level SAS token for a range of IP addresses
+### Example 2: Create an SAS token for a range of IP addresses
 ```
 PS C:\> New-AzureStorageAccountSASToken -Service Blob,File,Table,Queue -ResourceType Service,Container,Object -Permission "racwdlup" -Protocol HttpsOnly -IPAddressOrRange 168.1.5.60-168.1.5.70
 ```
 
-This command creates an account-level SAS token for HTTPS-only requests from the specified range of IP addresses.
+This command creates an SAS token for HTTPS-only requests from the specified range of IP addresses.
 
 ## PARAMETERS
 
@@ -58,7 +59,7 @@ Specifies the Azure storage context.
 You can use the New-AzureStorageContext cmdlet to get an **AzureStorageContext** object.
 
 ```yaml
-Type: AzureStorageContext
+Type: IStorageContext
 Parameter Sets: (All)
 Aliases: 
 

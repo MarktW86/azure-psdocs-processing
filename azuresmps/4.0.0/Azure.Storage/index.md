@@ -3,74 +3,75 @@ Module Name: Azure.Storage
 Module Guid: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
 Download Help Link: ./Azure.Storage.md
 Locale: en-US
-content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/Storage/Commands.Storage/help/Azure.Storage.md
-original_content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/Storage/Commands.Storage/help/Azure.Storage.md
-gitcommit: https://github.com/Azure/azure-powershell/blob/89262bc4144696c69376c3fb654c881de55b6450
-updated_at: 05/10/2017 20:05 PM
-ms.date: 05/10/2017
+updated_at: 05/12/2017 22:05 PM
+ms.date: 05/12/2017
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Storage/v3.0.0/Azure.Storage.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Storage/v3.0.0/Azure.Storage.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/3b96c1e0b28fc56dfbf6de55728d5478e0d02def
 ms.topic: conceptual
 author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
+open_to_public_contributors: true
 ms.service: storage
 Get-AzureStorageBlob: Storage
 Get-AzureStorageBlobContent: Storage
 Get-AzureStorageBlobCopyState: Storage
 Get-AzureStorageContainer: Storage
-Get-AzureStorageContainerStoredAccessPolicy: Storage
+Get-AzureStorageContainerStoredAccessPolicy: Policies
 Get-AzureStorageCORSRule: Storage
 Get-AzureStorageFile: Storage
 Get-AzureStorageFileContent: Storage
 Get-AzureStorageFileCopyState: Storage
 Get-AzureStorageQueue: Storage
-Get-AzureStorageQueueStoredAccessPolicy: Storage
+Get-AzureStorageQueueStoredAccessPolicy: Policies
 Get-AzureStorageServiceLoggingProperty: Storage
 Get-AzureStorageServiceMetricsProperty: Storage
 Get-AzureStorageShare: Storage
-Get-AzureStorageShareStoredAccessPolicy: Storage
+Get-AzureStorageShareStoredAccessPolicy: Policies
 Get-AzureStorageTable: Storage
-Get-AzureStorageTableStoredAccessPolicy: Storage
+Get-AzureStorageTableStoredAccessPolicy: Policies
 New-AzureStorageAccountSASToken: Storage
 New-AzureStorageBlobSASToken: Storage
 New-AzureStorageContainer: Storage
 New-AzureStorageContainerSASToken: Storage
-New-AzureStorageContainerStoredAccessPolicy: Storage
+New-AzureStorageContainerStoredAccessPolicy: Policies
 New-AzureStorageContext: Storage
 New-AzureStorageDirectory: Storage
 New-AzureStorageFileSASToken: Storage
 New-AzureStorageQueue: Storage
 New-AzureStorageQueueSASToken: Storage
-New-AzureStorageQueueStoredAccessPolicy: Storage
+New-AzureStorageQueueStoredAccessPolicy: Policies
 New-AzureStorageShare: Storage
 New-AzureStorageShareSASToken: Storage
-New-AzureStorageShareStoredAccessPolicy: Storage
+New-AzureStorageShareStoredAccessPolicy: Policies
 New-AzureStorageTable: Storage
 New-AzureStorageTableSASToken: Storage
-New-AzureStorageTableStoredAccessPolicy: Storage
+New-AzureStorageTableStoredAccessPolicy: Policies
 Remove-AzureStorageBlob: Storage
 Remove-AzureStorageContainer: Storage
-Remove-AzureStorageContainerStoredAccessPolicy: Storage
+Remove-AzureStorageContainerStoredAccessPolicy: Policies
 Remove-AzureStorageCORSRule: Storage
 Remove-AzureStorageDirectory: Storage
 Remove-AzureStorageFile: Storage
 Remove-AzureStorageQueue: Storage
-Remove-AzureStorageQueueStoredAccessPolicy: Storage
+Remove-AzureStorageQueueStoredAccessPolicy: Policies
 Remove-AzureStorageShare: Storage
-Remove-AzureStorageShareStoredAccessPolicy: Storage
+Remove-AzureStorageShareStoredAccessPolicy: Policies
 Remove-AzureStorageTable: Storage
-Remove-AzureStorageTableStoredAccessPolicy: Storage
+Remove-AzureStorageTableStoredAccessPolicy: Policies
 Set-AzureStorageBlobContent: Storage
 Set-AzureStorageContainerAcl: Storage
-Set-AzureStorageContainerStoredAccessPolicy: Storage
+Set-AzureStorageContainerStoredAccessPolicy: Policies
 Set-AzureStorageCORSRule: Storage
 Set-AzureStorageFileContent: Storage
-Set-AzureStorageQueueStoredAccessPolicy: Storage
+Set-AzureStorageQueueStoredAccessPolicy: Policies
 Set-AzureStorageServiceLoggingProperty: Storage
 Set-AzureStorageServiceMetricsProperty: Storage
 Set-AzureStorageShareQuota: Storage
-Set-AzureStorageShareStoredAccessPolicy: Storage
-Set-AzureStorageTableStoredAccessPolicy: Storage
+Set-AzureStorageShareStoredAccessPolicy: Policies
+Set-AzureStorageTableStoredAccessPolicy: Policies
 Start-AzureStorageBlobCopy: Storage
 Start-AzureStorageBlobIncrementalCopy: Storage
 Start-AzureStorageFileCopy: Storage
@@ -136,10 +137,10 @@ Lists the storage tables.
 Gets the stored access policy or policies for an Azure storage table.
 
 ### [New-AzureStorageAccountSASToken](New-AzureStorageAccountSASToken.md)
-Creates an account-level SAS token.
+Creates an SAS token.
 
 ### [New-AzureStorageBlobSASToken](New-AzureStorageBlobSASToken.md)
-Generates a SAS token for an Azure storage blob.
+Generates an SAS token for an Azure storage blob.
 
 ### [New-AzureStorageContainer](New-AzureStorageContainer.md)
 Creates an Azure storage container.
@@ -257,9 +258,6 @@ Sets the stored access policy for an Azure storage table.
 
 ### [Start-AzureStorageBlobCopy](Start-AzureStorageBlobCopy.md)
 Starts to copy a blob.
-
-### [Start-AzureStorageBlobIncrementalCopy](Start-AzureStorageBlobIncrementalCopy.md)
-Start an Incremental copy operation from a Page blob snapshot to the specified destination Page blob.
 
 ### [Start-AzureStorageFileCopy](Start-AzureStorageFileCopy.md)
 Starts to copy a source file.

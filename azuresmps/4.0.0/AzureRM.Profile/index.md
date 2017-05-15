@@ -2,16 +2,17 @@
 Module Name: AzureRM.Profile
 Module Guid: 342714fc-4009-4863-8afb-a9067e3db04b
 Locale: en-US
-content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/Profile/Commands.Profile/help/AzureRM.Profile.md
-original_content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/Profile/Commands.Profile/help/AzureRM.Profile.md
-gitcommit: https://github.com/Azure/azure-powershell/blob/ed7e02c40bc7b387c6e412cb79fe234ba6da2e04
-updated_at: 05/12/2017 03:05 AM
+updated_at: 05/12/2017 22:05 PM
 ms.date: 05/12/2017
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/AzureRM.Profile/v3.0.0/AzureRM.Profile.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/AzureRM.Profile/v3.0.0/AzureRM.Profile.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/3b96c1e0b28fc56dfbf6de55728d5478e0d02def
 ms.topic: conceptual
 author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
+open_to_public_contributors: true
 ms.service: subscription
 Add-AzureRmAccount: Profile
 Add-AzureRmEnvironment: Profile
@@ -19,12 +20,14 @@ Disable-AzureRmDataCollection: Profile
 Enable-AzureRmDataCollection: Profile
 Get-AzureRmContext: Profile
 Get-AzureRmEnvironment: Profile
-Get-AzureRmSubscription: Profile
+Get-AzureRmSubscription: Subscriptions
 Get-AzureRmTenant: Profile
 Import-AzureRmContext: Profile
 Remove-AzureRmEnvironment: Profile
-Save-AzureRmContext: Profile
-Send-Feedback: Profile
+Save-AzureRmContext: Others
+Save-AzureRmProfile: Profile
+Select-AzureRmProfile: Others
+Send-Feedback: Others
 Set-AzureRmContext: Profile
 Set-AzureRmEnvironment: Profile
 _isModulePage: true
@@ -62,17 +65,8 @@ Get subscriptions that the current account can access.
 ### [Get-AzureRmTenant](Get-AzureRmTenant.md)
 Gets tenants that are authorized for the current user.
 
-### [Import-AzureRmContext](Import-AzureRmContext.md)
-Loads Azure authentication information from a file.
-
 ### [Remove-AzureRmEnvironment](Remove-AzureRmEnvironment.md)
 Removes endpoints and metadata for connecting to a given Azure instance.
-
-### [Save-AzureRmContext](Save-AzureRmContext.md)
-Saves the current authentication information for use in other PowerShell sessions.
-
-### [Send-Feedback](Send-Feedback.md)
-Sends feedback to the Azure PowerShell team via a set of guided prompts.
 
 ### [Set-AzureRmContext](Set-AzureRmContext.md)
 Sets the tenant, subscription, and environment for cmdlets to use in the current session.

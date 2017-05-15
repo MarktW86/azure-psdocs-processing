@@ -2,16 +2,17 @@
 external help file: Microsoft.Azure.Commands.Profile.dll-Help.xml
 online version:
 schema: 2.0.0
-content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/Profile/Commands.Profile/help/Import-AzureRmContext.md
-original_content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/Profile/Commands.Profile/help/Import-AzureRmContext.md
-gitcommit: https://github.com/Azure/azure-powershell/blob/63f2a98075c8f1cb88669fd63425db2a4d79107b
-updated_at: 05/12/2017 03:05 AM
+updated_at: 05/12/2017 22:05 PM
 ms.date: 05/12/2017
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/AzureRM.Profile/v3.0.0/Import-AzureRmContext.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/AzureRM.Profile/v3.0.0/Import-AzureRmContext.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/3b96c1e0b28fc56dfbf6de55728d5478e0d02def
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
+open_to_public_contributors: true
 ms.service: subscription
 ---
 
@@ -24,7 +25,7 @@ Loads Azure authentication information from a file.
 
 ### InMemoryProfile
 ```
-Import-AzureRmContext [-AzureContext] <AzureRMProfile> [-WhatIf] [-Confirm]
+Import-AzureRmContext [-AzureContext] <AzureRmProfile> [-WhatIf] [-Confirm]
 ```
 
 ### ProfileFromDisk
@@ -64,7 +65,8 @@ SubscriptionName      : Test Subscription
 CurrentStorageAccount :
 ```
 
-This example selects a context from a JSON file that is passed through to the cmdlet. This JSON file can be created from Import-AzureRmContext.
+This example selects a context from a JSON file that is passed through to the cmdlet.
+This JSON file can be created from Import-AzureRmContext.
 
 ## PARAMETERS
 
@@ -73,7 +75,7 @@ Specifies the Azure context from which this cmdlet reads.
 If you do not specify a context, this cmdlet reads from the local default context.
 
 ```yaml
-Type: AzureRMProfile
+Type: AzureRmProfile
 Parameter Sets: InMemoryProfile
 Aliases: Profile
 
@@ -109,7 +111,7 @@ Aliases: cf
 
 Required: False
 Position: Named
-Default value: None
+Default value: False
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
@@ -125,7 +127,7 @@ Aliases: wi
 
 Required: False
 Position: Named
-Default value: None
+Default value: False
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
@@ -135,11 +137,9 @@ Accept wildcard characters: False
 ### Microsoft.Azure.Commands.Common.Authentication.Models.AzureRMProfile
 System.String
 
-
 ## OUTPUTS
 
 ### Microsoft.Azure.Commands.Profile.Models.PSAzureProfile
-
 
 ## NOTES
 

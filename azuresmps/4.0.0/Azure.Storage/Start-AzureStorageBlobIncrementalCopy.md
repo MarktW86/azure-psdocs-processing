@@ -2,16 +2,17 @@
 external help file: Microsoft.WindowsAzure.Commands.Storage.dll-Help.xml
 online version:
 schema: 2.0.0
-content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/Storage/Commands.Storage/help/Start-AzureStorageBlobIncrementalCopy.md
-original_content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/Storage/Commands.Storage/help/Start-AzureStorageBlobIncrementalCopy.md
-gitcommit: https://github.com/Azure/azure-powershell/blob/f3ae59c2ea3671e21782eec74c239245fb597018
-updated_at: 05/10/2017 20:05 PM
-ms.date: 05/10/2017
+updated_at: 05/12/2017 22:05 PM
+ms.date: 05/12/2017
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Storage/v3.0.0/Start-AzureStorageBlobIncrementalCopy.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Storage/v3.0.0/Start-AzureStorageBlobIncrementalCopy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/3b96c1e0b28fc56dfbf6de55728d5478e0d02def
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
+open_to_public_contributors: true
 ms.service: storage
 ---
 
@@ -26,37 +27,37 @@ Start an Incremental copy operation from a Page blob snapshot to the specified d
 ```
 Start-AzureStorageBlobIncrementalCopy -CloudBlobContainer <CloudBlobContainer> -SrcBlob <String>
  -SrcBlobSnapshotTime <DateTimeOffset> -DestContainer <String> [-DestBlob <String>]
- [-Context <AzureStorageContext>] [-DestContext <AzureStorageContext>] [-ServerTimeoutPerRequest <Int32>]
- [-ClientTimeoutPerRequest <Int32>] [-ConcurrentTaskCount <Int32>] [-WhatIf] [-Confirm] [<CommonParameters>]
+ [-Context <IStorageContext>] [-DestContext <IStorageContext>] [-ServerTimeoutPerRequest <Int32>]
+ [-ClientTimeoutPerRequest <Int32>] [-ConcurrentTaskCount <Int32>] [-WhatIf] [-Confirm]
 ```
 
 ### BlobInstance
 ```
 Start-AzureStorageBlobIncrementalCopy -CloudBlob <CloudPageBlob> -DestContainer <String> [-DestBlob <String>]
- [-Context <AzureStorageContext>] [-DestContext <AzureStorageContext>] [-ServerTimeoutPerRequest <Int32>]
- [-ClientTimeoutPerRequest <Int32>] [-ConcurrentTaskCount <Int32>] [-WhatIf] [-Confirm] [<CommonParameters>]
+ [-Context <IStorageContext>] [-DestContext <IStorageContext>] [-ServerTimeoutPerRequest <Int32>]
+ [-ClientTimeoutPerRequest <Int32>] [-ConcurrentTaskCount <Int32>] [-WhatIf] [-Confirm]
 ```
 
 ### BlobInstanceToBlobInstance
 ```
 Start-AzureStorageBlobIncrementalCopy -CloudBlob <CloudPageBlob> -DestCloudBlob <CloudPageBlob>
- [-Context <AzureStorageContext>] [-DestContext <AzureStorageContext>] [-ServerTimeoutPerRequest <Int32>]
- [-ClientTimeoutPerRequest <Int32>] [-ConcurrentTaskCount <Int32>] [-WhatIf] [-Confirm] [<CommonParameters>]
+ [-Context <IStorageContext>] [-DestContext <IStorageContext>] [-ServerTimeoutPerRequest <Int32>]
+ [-ClientTimeoutPerRequest <Int32>] [-ConcurrentTaskCount <Int32>] [-WhatIf] [-Confirm]
 ```
 
 ### ContainerName
 ```
 Start-AzureStorageBlobIncrementalCopy -SrcBlob <String> -SrcContainer <String>
  -SrcBlobSnapshotTime <DateTimeOffset> -DestContainer <String> [-DestBlob <String>]
- [-Context <AzureStorageContext>] [-DestContext <AzureStorageContext>] [-ServerTimeoutPerRequest <Int32>]
- [-ClientTimeoutPerRequest <Int32>] [-ConcurrentTaskCount <Int32>] [-WhatIf] [-Confirm] [<CommonParameters>]
+ [-Context <IStorageContext>] [-DestContext <IStorageContext>] [-ServerTimeoutPerRequest <Int32>]
+ [-ClientTimeoutPerRequest <Int32>] [-ConcurrentTaskCount <Int32>] [-WhatIf] [-Confirm]
 ```
 
 ### UriPipeline
 ```
 Start-AzureStorageBlobIncrementalCopy -AbsoluteUri <String> -DestContainer <String> -DestBlob <String>
- [-Context <AzureStorageContext>] [-DestContext <AzureStorageContext>] [-ServerTimeoutPerRequest <Int32>]
- [-ClientTimeoutPerRequest <Int32>] [-ConcurrentTaskCount <Int32>] [-WhatIf] [-Confirm] [<CommonParameters>]
+ [-Context <IStorageContext>] [-DestContext <IStorageContext>] [-ServerTimeoutPerRequest <Int32>]
+ [-ClientTimeoutPerRequest <Int32>] [-ConcurrentTaskCount <Int32>] [-WhatIf] [-Confirm]
 ```
 
 ## DESCRIPTION
@@ -97,7 +98,8 @@ This command start Incremental Copy Operation from CloudPageBlob object to desti
 ## PARAMETERS
 
 ### -AbsoluteUri
-Absolute Uri to the source. Be noted that the credential should be provided in the Uri, if the source requires any.
+Absolute Uri to the source.
+Be noted that the credential should be provided in the Uri, if the source requires any.
 
 ```yaml
 Type: String
@@ -127,7 +129,8 @@ Accept wildcard characters: False
 ```
 
 ### -CloudBlob
-CloudBlob object from Azure Storage Client library. You can create it or use Get-AzureStorageBlob cmdlet.
+CloudBlob object from Azure Storage Client library.
+You can create it or use Get-AzureStorageBlob cmdlet.
 
 ```yaml
 Type: CloudPageBlob
@@ -142,7 +145,8 @@ Accept wildcard characters: False
 ```
 
 ### -CloudBlobContainer
-CloudBlobContainer object from Azure Storage Client library. You can create it or use Get-AzureStorageContainer cmdlet.
+CloudBlobContainer object from Azure Storage Client library.
+You can create it or use Get-AzureStorageContainer cmdlet.
 
 ```yaml
 Type: CloudBlobContainer
@@ -173,10 +177,11 @@ Accept wildcard characters: False
 ```
 
 ### -Context
-Source Azure Storage Context. You can create it by New-AzureStorageContext cmdlet.
+Source Azure Storage Context.
+You can create it by New-AzureStorageContext cmdlet.
 
 ```yaml
-Type: AzureStorageContext
+Type: IStorageContext
 Parameter Sets: ContainerInstance, BlobInstance, BlobInstanceToBlobInstance, ContainerName
 Aliases: SrcContext, SourceContext
 
@@ -188,7 +193,7 @@ Accept wildcard characters: False
 ```
 
 ```yaml
-Type: AzureStorageContext
+Type: IStorageContext
 Parameter Sets: UriPipeline
 Aliases: SrcContext, SourceContext
 
@@ -257,10 +262,11 @@ Accept wildcard characters: False
 ```
 
 ### -DestContext
-Destination Azure Storage Context. You can create it by New-AzureStorageContext cmdlet.
+Destination Azure Storage Context.
+You can create it by New-AzureStorageContext cmdlet.
 
 ```yaml
-Type: AzureStorageContext
+Type: IStorageContext
 Parameter Sets: (All)
 Aliases: DestinationContext
 
@@ -341,7 +347,7 @@ Aliases: cf
 
 Required: False
 Position: Named
-Default value: None
+Default value: False
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
@@ -357,20 +363,15 @@ Aliases: wi
 
 Required: False
 Position: Named
-Default value: None
+Default value: False
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### CommonParameters
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
-
 ## INPUTS
 
 ### Microsoft.WindowsAzure.Storage.Blob.CloudPageBlob
-Microsoft.WindowsAzure.Storage.Blob.CloudBlobContainer
-System.String
-Microsoft.WindowsAzure.Commands.Common.Storage.AzureStorageContext
+Microsoft.WindowsAzure.Storage.Blob.CloudBlobContainer System.String Microsoft.WindowsAzure.Commands.Common.Storage.AzureStorageContext
 
 ## OUTPUTS
 

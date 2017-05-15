@@ -2,16 +2,17 @@
 external help file: Microsoft.Azure.Commands.Profile.dll-Help.xml
 online version:
 schema: 2.0.0
-content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/Profile/Commands.Profile/help/Save-AzureRmContext.md
-original_content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/Profile/Commands.Profile/help/Save-AzureRmContext.md
-gitcommit: https://github.com/Azure/azure-powershell/blob/ed7e02c40bc7b387c6e412cb79fe234ba6da2e04
-updated_at: 05/12/2017 03:05 AM
+updated_at: 05/12/2017 22:05 PM
 ms.date: 05/12/2017
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/AzureRM.Profile/v3.0.0/Save-AzureRmContext.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/AzureRM.Profile/v3.0.0/Save-AzureRmContext.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/3b96c1e0b28fc56dfbf6de55728d5478e0d02def
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: erickson-doug
+open_to_public_contributors: true
 ms.service: subscription
 ---
 
@@ -23,8 +24,7 @@ Saves the current authentication information for use in other PowerShell session
 ## SYNTAX
 
 ```
-Save-AzureRmContext [[-Profile] <AzureRMProfile>] [-Path] <String> [-Force] [-WhatIf] [-Confirm]
- [<CommonParameters>]
+Save-AzureRmContext [[-Profile] <AzureRmProfile>] [-Path] <String> [-Force] [-WhatIf] [-Confirm]
 ```
 
 ## DESCRIPTION
@@ -59,7 +59,7 @@ Aliases:
 
 Required: False
 Position: Named
-Default value: None
+Default value: False
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
@@ -84,7 +84,7 @@ Specifies the Azure context from which this cmdlet reads.
 If you do not specify a context, this cmdlet reads from the local default context.
 
 ```yaml
-Type: AzureRMProfile
+Type: AzureRmProfile
 Parameter Sets: (All)
 Aliases: 
 
@@ -105,7 +105,7 @@ Aliases: cf
 
 Required: False
 Position: Named
-Default value: None
+Default value: False
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
@@ -121,13 +121,10 @@ Aliases: wi
 
 Required: False
 Position: Named
-Default value: None
+Default value: False
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
-
-### CommonParameters
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 
