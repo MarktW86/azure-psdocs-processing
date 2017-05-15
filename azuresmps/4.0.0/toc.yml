@@ -1,0 +1,190 @@
+- name: Azure PowerShell
+  href: ../conceptual/4.0.0/overview.md
+  items:
+    - name: Install
+      href: ../conceptual/4.0.0/install-azurerm-ps.md
+    - name: Get started
+      href: ../conceptual/4.0.0/get-started-azureps.md
+    - name: Log in
+      href: ../conceptual/4.0.0/authenticate-azureps.md
+      items:
+        - name: Create a service principal
+          href: ../conceptual/4.0.0/create-azure-service-principal-azureps.md
+    - name: Queries
+      href: ../conceptual/4.0.0/queries-azureps.md
+    - name: Formatting
+      href: ../conceptual/4.0.0/formatting-output.md
+    - name: Subscriptions
+      href: ../conceptual/4.0.0/manage-subscriptions-azureps.md
+    - name: Release notes
+      href: ../conceptual/4.0.0/release-notes-azureps.md
+- name: Sample Scripts
+  items:
+    - name: Linux Virtual Machines
+      href: 'https://docs.microsoft.com/en-us/azure/virtual-machines/linux/powershell-samples?toc=%2fpowershell%2fmodule%2ftoc.json'
+    - name: Windows Virtual Machines
+      href: 'https://docs.microsoft.com/en-us/azure/virtual-machines/windows/powershell-samples?toc=%2fpowershell%2fmodule%2ftoc.json'
+    - name: Web Apps
+      href: 'https://docs.microsoft.com/azure/app-service-web/app-service-powershell-samples?toc=%2fpowershell%2fmodule%2ftoc.json'
+    - name: SQL Databases
+      href: 'https://docs.microsoft.com/azure/sql-database/sql-database-powershell-samples?toc=%2fpowershell%2fmodule%2ftoc.json'
+- name: Reference
+  items:
+    - name: Profile
+      href: 'AzureRM.Profile/index.md#profile'
+      items:
+        - name: Add-AzureRmAccount
+          href: AzureRM.Profile/Add-AzureRmAccount.md
+        - name: Add-AzureRmEnvironment
+          href: AzureRM.Profile/Add-AzureRmEnvironment.md
+        - name: Disable-AzureRmDataCollection
+          href: AzureRM.Profile/Disable-AzureRmDataCollection.md
+        - name: Enable-AzureRmDataCollection
+          href: AzureRM.Profile/Enable-AzureRmDataCollection.md
+        - name: Get-AzureRmContext
+          href: AzureRM.Profile/Get-AzureRmContext.md
+        - name: Get-AzureRmEnvironment
+          href: AzureRM.Profile/Get-AzureRmEnvironment.md
+        - name: Get-AzureRmSubscription
+          href: AzureRM.Profile/Get-AzureRmSubscription.md
+        - name: Get-AzureRmTenant
+          href: AzureRM.Profile/Get-AzureRmTenant.md
+        - name: Import-AzureRmContext
+          href: AzureRM.Profile/Import-AzureRmContext.md
+        - name: Remove-AzureRmEnvironment
+          href: AzureRM.Profile/Remove-AzureRmEnvironment.md
+        - name: Save-AzureRmContext
+          href: AzureRM.Profile/Save-AzureRmContext.md
+        - name: Send-Feedback
+          href: AzureRM.Profile/Send-Feedback.md
+        - name: Set-AzureRmContext
+          href: AzureRM.Profile/Set-AzureRmContext.md
+        - name: Set-AzureRmEnvironment
+          href: AzureRM.Profile/Set-AzureRmEnvironment.md
+    - name: Storage
+      href: 'Azure.Storage/index.md#storage'
+      items:
+        - name: Get-AzureStorageBlob
+          href: Azure.Storage/Get-AzureStorageBlob.md
+        - name: Get-AzureStorageBlobContent
+          href: Azure.Storage/Get-AzureStorageBlobContent.md
+        - name: Get-AzureStorageBlobCopyState
+          href: Azure.Storage/Get-AzureStorageBlobCopyState.md
+        - name: Get-AzureStorageContainer
+          href: Azure.Storage/Get-AzureStorageContainer.md
+        - name: Get-AzureStorageContainerStoredAccessPolicy
+          href: Azure.Storage/Get-AzureStorageContainerStoredAccessPolicy.md
+        - name: Get-AzureStorageCORSRule
+          href: Azure.Storage/Get-AzureStorageCORSRule.md
+        - name: Get-AzureStorageFile
+          href: Azure.Storage/Get-AzureStorageFile.md
+        - name: Get-AzureStorageFileContent
+          href: Azure.Storage/Get-AzureStorageFileContent.md
+        - name: Get-AzureStorageFileCopyState
+          href: Azure.Storage/Get-AzureStorageFileCopyState.md
+        - name: Get-AzureStorageQueue
+          href: Azure.Storage/Get-AzureStorageQueue.md
+        - name: Get-AzureStorageQueueStoredAccessPolicy
+          href: Azure.Storage/Get-AzureStorageQueueStoredAccessPolicy.md
+        - name: Get-AzureStorageServiceLoggingProperty
+          href: Azure.Storage/Get-AzureStorageServiceLoggingProperty.md
+        - name: Get-AzureStorageServiceMetricsProperty
+          href: Azure.Storage/Get-AzureStorageServiceMetricsProperty.md
+        - name: Get-AzureStorageShare
+          href: Azure.Storage/Get-AzureStorageShare.md
+        - name: Get-AzureStorageShareStoredAccessPolicy
+          href: Azure.Storage/Get-AzureStorageShareStoredAccessPolicy.md
+        - name: Get-AzureStorageTable
+          href: Azure.Storage/Get-AzureStorageTable.md
+        - name: Get-AzureStorageTableStoredAccessPolicy
+          href: Azure.Storage/Get-AzureStorageTableStoredAccessPolicy.md
+        - name: New-AzureStorageAccountSASToken
+          href: Azure.Storage/New-AzureStorageAccountSASToken.md
+        - name: New-AzureStorageBlobSASToken
+          href: Azure.Storage/New-AzureStorageBlobSASToken.md
+        - name: New-AzureStorageContainer
+          href: Azure.Storage/New-AzureStorageContainer.md
+        - name: New-AzureStorageContainerSASToken
+          href: Azure.Storage/New-AzureStorageContainerSASToken.md
+        - name: New-AzureStorageContainerStoredAccessPolicy
+          href: Azure.Storage/New-AzureStorageContainerStoredAccessPolicy.md
+        - name: New-AzureStorageContext
+          href: Azure.Storage/New-AzureStorageContext.md
+        - name: New-AzureStorageDirectory
+          href: Azure.Storage/New-AzureStorageDirectory.md
+        - name: New-AzureStorageFileSASToken
+          href: Azure.Storage/New-AzureStorageFileSASToken.md
+        - name: New-AzureStorageQueue
+          href: Azure.Storage/New-AzureStorageQueue.md
+        - name: New-AzureStorageQueueSASToken
+          href: Azure.Storage/New-AzureStorageQueueSASToken.md
+        - name: New-AzureStorageQueueStoredAccessPolicy
+          href: Azure.Storage/New-AzureStorageQueueStoredAccessPolicy.md
+        - name: New-AzureStorageShare
+          href: Azure.Storage/New-AzureStorageShare.md
+        - name: New-AzureStorageShareSASToken
+          href: Azure.Storage/New-AzureStorageShareSASToken.md
+        - name: New-AzureStorageShareStoredAccessPolicy
+          href: Azure.Storage/New-AzureStorageShareStoredAccessPolicy.md
+        - name: New-AzureStorageTable
+          href: Azure.Storage/New-AzureStorageTable.md
+        - name: New-AzureStorageTableSASToken
+          href: Azure.Storage/New-AzureStorageTableSASToken.md
+        - name: New-AzureStorageTableStoredAccessPolicy
+          href: Azure.Storage/New-AzureStorageTableStoredAccessPolicy.md
+        - name: Remove-AzureStorageBlob
+          href: Azure.Storage/Remove-AzureStorageBlob.md
+        - name: Remove-AzureStorageContainer
+          href: Azure.Storage/Remove-AzureStorageContainer.md
+        - name: Remove-AzureStorageContainerStoredAccessPolicy
+          href: Azure.Storage/Remove-AzureStorageContainerStoredAccessPolicy.md
+        - name: Remove-AzureStorageCORSRule
+          href: Azure.Storage/Remove-AzureStorageCORSRule.md
+        - name: Remove-AzureStorageDirectory
+          href: Azure.Storage/Remove-AzureStorageDirectory.md
+        - name: Remove-AzureStorageFile
+          href: Azure.Storage/Remove-AzureStorageFile.md
+        - name: Remove-AzureStorageQueue
+          href: Azure.Storage/Remove-AzureStorageQueue.md
+        - name: Remove-AzureStorageQueueStoredAccessPolicy
+          href: Azure.Storage/Remove-AzureStorageQueueStoredAccessPolicy.md
+        - name: Remove-AzureStorageShare
+          href: Azure.Storage/Remove-AzureStorageShare.md
+        - name: Remove-AzureStorageShareStoredAccessPolicy
+          href: Azure.Storage/Remove-AzureStorageShareStoredAccessPolicy.md
+        - name: Remove-AzureStorageTable
+          href: Azure.Storage/Remove-AzureStorageTable.md
+        - name: Remove-AzureStorageTableStoredAccessPolicy
+          href: Azure.Storage/Remove-AzureStorageTableStoredAccessPolicy.md
+        - name: Set-AzureStorageBlobContent
+          href: Azure.Storage/Set-AzureStorageBlobContent.md
+        - name: Set-AzureStorageContainerAcl
+          href: Azure.Storage/Set-AzureStorageContainerAcl.md
+        - name: Set-AzureStorageContainerStoredAccessPolicy
+          href: Azure.Storage/Set-AzureStorageContainerStoredAccessPolicy.md
+        - name: Set-AzureStorageCORSRule
+          href: Azure.Storage/Set-AzureStorageCORSRule.md
+        - name: Set-AzureStorageFileContent
+          href: Azure.Storage/Set-AzureStorageFileContent.md
+        - name: Set-AzureStorageQueueStoredAccessPolicy
+          href: Azure.Storage/Set-AzureStorageQueueStoredAccessPolicy.md
+        - name: Set-AzureStorageServiceLoggingProperty
+          href: Azure.Storage/Set-AzureStorageServiceLoggingProperty.md
+        - name: Set-AzureStorageServiceMetricsProperty
+          href: Azure.Storage/Set-AzureStorageServiceMetricsProperty.md
+        - name: Set-AzureStorageShareQuota
+          href: Azure.Storage/Set-AzureStorageShareQuota.md
+        - name: Set-AzureStorageShareStoredAccessPolicy
+          href: Azure.Storage/Set-AzureStorageShareStoredAccessPolicy.md
+        - name: Set-AzureStorageTableStoredAccessPolicy
+          href: Azure.Storage/Set-AzureStorageTableStoredAccessPolicy.md
+        - name: Start-AzureStorageBlobCopy
+          href: Azure.Storage/Start-AzureStorageBlobCopy.md
+        - name: Start-AzureStorageBlobIncrementalCopy
+          href: Azure.Storage/Start-AzureStorageBlobIncrementalCopy.md
+        - name: Start-AzureStorageFileCopy
+          href: Azure.Storage/Start-AzureStorageFileCopy.md
+        - name: Stop-AzureStorageBlobCopy
+          href: Azure.Storage/Stop-AzureStorageBlobCopy.md
+        - name: Stop-AzureStorageFileCopy
+          href: Azure.Storage/Stop-AzureStorageFileCopy.md
