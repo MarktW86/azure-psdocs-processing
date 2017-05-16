@@ -10,10 +10,10 @@ ms.product: azure
 ms.service: azure-resource-manager
 ms.devlang: powershell
 ms.topic: conceptual
-ms.date: 03/30/2017
+ms.date: 05/15/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/docs-conceptual/create-azure-service-principal-azureps.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/docs-conceptual/create-azure-service-principal-azureps.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4b4e25168221f6f890cd534a0c9436800949ab0d
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4eeb8dd94134977ba5c8e00ed61e2b1a029bef1d
 open_to_public_contributors: true
 ---
 
@@ -23,17 +23,16 @@ If you plan to manage your app or service with Azure PowerShell, you should run 
 Active Directory (AAD) service principal, rather than your own credentials. This topic steps you
 through creating a security principal with Azure PowerShell.
 
-> [!NOTE] 
+> [!NOTE]
 > You can also create a service principal through the Azure portal. Read [Use portal to create Active Directory application and service principal that can access resources](/azure/azure-resource-manager/resource-group-create-service-principal-portal) for more details.
 
 ## What is a 'service principal'?
 
 An Azure service principal is a security identity used by user-created apps, services, and
 automation tools to access specific Azure resources. Think of it as a 'user identity' (username and
-password or certificate) with a specific role, and tightly controlled permissions to access your
-resources. It only needs to be able to do specific things, unlike a general user identity. It
-improves security if you only grant it the minimum permissions level needed to perform its
-management tasks.
+password or certificate) with a specific role, and tightly controlled permissions. It only needs to
+be able to do specific things, unlike a general user identity. It improves security if you only
+grant it the minimum permissions level needed to perform its management tasks.
 
 ## Verify your own permission level
 
@@ -46,7 +45,7 @@ The easiest way to check whether your account has adequate permissions is throug
 
 ## Create a service principal for your app
 
-Once you are signed into your Azure account you can create the service principal. You must have one
+Once you are signed into your Azure account, you can create the service principal. You must have one
 of the following ways to identify your deployed app:
 
 * The unique name of your deployed app, such as "MyDemoWebApp" in the following examples, or

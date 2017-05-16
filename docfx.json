@@ -230,6 +230,38 @@
           "**/*.yml",
           "**/*.md"
         ],
+        "src": "azuresmps/4.0.0",
+        "version": "azuresmps-4.0.0",
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE"
+        ],
+        "dest": "module"
+      },
+      {
+        "files": [
+          "**/*.yml",
+          "**/*.md"
+        ],
+        "src": "azuresmps/conceptual/4.0.0",
+        "version": "azuresmps-4.0.0",
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE"
+        ],
+        "dest": "azure"
+      },
+      {
+        "files": [
+          "**/*.yml",
+          "**/*.md"
+        ],
         "src": "azureipps/0",
         "version": "azureipps",
         "exclude": [
@@ -514,6 +546,9 @@
       },
       "azuresmps-3.7.0": {
         "dest": "azuresmps-3.7.0"
+      },
+      "azuresmps-4.0.0": {
+        "dest": "azuresmps-4.0.0"
       },
       "azureipps": {
         "dest": "azureipps"

@@ -9,10 +9,10 @@ ms.product: azure
 ms.service: powershell
 ms.devlang: powershell
 ms.topic: conceptual
-ms.date: 03/30/2017
+ms.date: 05/15/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/docs-conceptual/authenticate-azureps.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/docs-conceptual/authenticate-azureps.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4b15e54aa341e097fe7649d10ab0009de75bea12
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4eeb8dd94134977ba5c8e00ed61e2b1a029bef1d
 open_to_public_contributors: true
 ---
 
@@ -30,11 +30,10 @@ interactively at the command line.
 
 ## Log in with a service principal
 
-The recommended approach is to use service principals, which provide a way for you to create
-non-interactive accounts that you can use to manipulate resources. Service principals are like user
-accounts to which you can apply rules using Azure Active Directory. By granting the minimum
-permissions needed to a service principal, you can ensure your automation scripts are even more
-secure.
+Service principals provide a way for you to create non-interactive accounts that you can use to
+manipulate resources. Service principals are like user accounts to which you can apply rules using
+Azure Active Directory. By granting the minimum permissions needed to a service principal, you can
+ensure your automation scripts are even more secure.
 
 1. If you don't already have a service principal, [create one](create-azure-service-principal-azureps.md).
 
@@ -58,6 +57,32 @@ secure.
     SubscriptionName      : My Production Subscription
     CurrentStorageAccount :
     ```
+
+## Log in to another Cloud
+
+Azure cloud services provide different environments that adhere to the data-handling regulations of
+various governments. If your Azure account is in one the government clouds, you need to specify the
+environment when you sign in. For example, if you account is in the China cloud you sign on using
+the following command:
+
+```powershell
+Login-AzureRmAccount -EnvironmentName AzureChinaCloud
+```
+
+Use the following command to get a list of available environments:
+
+```powershell
+Get-AzureRmEnvironment | Select-Object Name
+```
+
+```
+Name
+----
+AzureCloud
+AzureChinaCloud
+AzureUSGovernment
+AzureGermanCloud
+```
 
 ## Learn more about managing Azure role-based access
 

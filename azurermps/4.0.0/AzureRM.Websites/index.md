@@ -53,7 +53,6 @@ Start-AzureRmWebApp: App Service
 Start-AzureRmWebAppSlot: App Service
 Stop-AzureRmWebApp: App Service
 Stop-AzureRmWebAppSlot: App Service
-Swap-AzureRmWebAppSlot: Others
 Switch-AzureRmWebAppSlot: App Service
 _isModulePage: true
 ---
