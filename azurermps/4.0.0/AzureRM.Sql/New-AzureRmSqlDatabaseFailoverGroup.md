@@ -5,8 +5,8 @@ schema: 2.0.0
 content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/Sql/Commands.Sql/help/New-AzureRmSqlDatabaseFailoverGroup.md
 original_content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/Sql/Commands.Sql/help/New-AzureRmSqlDatabaseFailoverGroup.md
 gitcommit: https://github.com/Azure/azure-powershell/blob/cdbba9dfc8d6d05a7611dff9bf51acb70cd79289
-updated_at: 05/12/2017 03:05 AM
-ms.date: 05/12/2017
+updated_at: 05/16/2017 21:05 PM
+ms.date: 05/16/2017
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -32,7 +32,7 @@ New-AzureRmSqlDatabaseFailoverGroup -ServerName <String> -FailoverGroupName <Str
 ## DESCRIPTION
 Creates a new Azure SQL Database Failover Group for the specified servers.
 
-Two Azure SQL Database TDS endpoints are created at '<FailoverGroupName>.<SqlDatabaseDnsSuffix>' (for example, '<FailoverGroupName>.database.windows.net') and '<FailoverGroupName>.secondary.<SqlDatabaseDnsSuffix>.' These endpoints may be used to connect to the primary and secondary servers in the Failover Group, respectively. If the primary server is affected by an outage, automatic failover of the endpoints and databases will be triggered as dictated by the Failover Group's failover policy and grace period.
+Two Azure SQL Database TDS endpoints are created at *&lt;FailoverGroupName&gt;.&lt;SqlDatabaseDnsSuffix&gt;* (for example, *&lt;FailoverGroupName&gt;.database.windows.net*) and *&lt;FailoverGroupName&gt;.secondary.&lt;SqlDatabaseDnsSuffix&gt;*. These endpoints may be used to connect to the primary and secondary servers in the Failover Group, respectively. If the primary server is affected by an outage, automatic failover of the endpoints and databases will be triggered as dictated by the Failover Group's failover policy and grace period.
 
 Newly created Failover Groups do not contain any databases. To control the set of databases in a Failover Group, use the 'Add-AzureRmSqlDatabaseToFailoverGroup' and 'Remove-AzureRmSqlDatabaseFromFailoverGroup' cmdlets.
 
