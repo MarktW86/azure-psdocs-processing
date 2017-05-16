@@ -1513,11 +1513,6 @@
           href: AzureRM.NotificationHubs/Set-AzureRmNotificationHubsNamespace.md
         - name: Set-AzureRmNotificationHubsNamespaceAuthorizationRules
           href: AzureRM.NotificationHubs/Set-AzureRmNotificationHubsNamespaceAuthorizationRules.md
-    - name: Others
-      href: 'AzureRM.Websites/index.md#others'
-      items:
-        - name: Swap-AzureRmWebAppSlot
-          href: AzureRM.Websites/Swap-AzureRmWebAppSlot.md
     - name: Policies
       href: 'AzureRM.Resources/index.md#policies'
       items:
