@@ -24,10 +24,10 @@ Get-AzureRmSubscription: Subscriptions
 Get-AzureRmTenant: Profile
 Import-AzureRmContext: Profile
 Remove-AzureRmEnvironment: Profile
-Save-AzureRmContext: Others
+Save-AzureRmContext: profile
 Save-AzureRmProfile: Profile
-Select-AzureRmProfile: Others
-Send-Feedback: Others
+Select-AzureRmProfile: Profile
+Send-Feedback: Profile
 Set-AzureRmContext: Profile
 Set-AzureRmEnvironment: Profile
 _isModulePage: true

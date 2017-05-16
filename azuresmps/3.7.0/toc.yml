@@ -811,31 +811,6 @@
           href: Azure/Start-AzureVirtualNetworkGatewayDiagnostics.md
         - name: Stop-AzureVirtualNetworkGatewayDiagnostics
           href: Azure/Stop-AzureVirtualNetworkGatewayDiagnostics.md
-    - name: Others
-      href: 'Azure/index.md#others'
-      items:
-        - name: Get-AzureManagedCache
-          href: Azure/Get-AzureManagedCache.md
-        - name: Get-AzureManagedCacheAccessKey
-          href: Azure/Get-AzureManagedCacheAccessKey.md
-        - name: Get-AzureManagedCacheLocation
-          href: Azure/Get-AzureManagedCacheLocation.md
-        - name: Get-AzureManagedCacheNamedCache
-          href: Azure/Get-AzureManagedCacheNamedCache.md
-        - name: New-AzureManagedCache
-          href: Azure/New-AzureManagedCache.md
-        - name: New-AzureManagedCacheAccessKey
-          href: Azure/New-AzureManagedCacheAccessKey.md
-        - name: New-AzureManagedCacheNamedCache
-          href: Azure/New-AzureManagedCacheNamedCache.md
-        - name: Remove-AzureManagedCache
-          href: Azure/Remove-AzureManagedCache.md
-        - name: Remove-AzureManagedCacheNamedCache
-          href: Azure/Remove-AzureManagedCacheNamedCache.md
-        - name: Set-AzureManagedCache
-          href: Azure/Set-AzureManagedCache.md
-        - name: Set-AzureManagedCacheNamedCache
-          href: Azure/Set-AzureManagedCacheNamedCache.md
     - name: Policies
       href: 'Azure.Storage/index.md#policies'
       items:

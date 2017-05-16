@@ -96,10 +96,6 @@ Get-AzureInternalLoadBalancer: Load Balancer
 Get-AzureIPForwarding: Networking
 Get-AzureLocalNetworkGateway: Networking
 Get-AzureLocation: Azure
-Get-AzureManagedCache: Others
-Get-AzureManagedCacheAccessKey: Others
-Get-AzureManagedCacheLocation: Others
-Get-AzureManagedCacheNamedCache: Others
 Get-AzureMediaServicesAccount: Media Services
 Get-AzureNetworkInterfaceConfig: Networking
 Get-AzureNetworkSecurityGroup: Networking
@@ -283,9 +279,6 @@ New-AzureHDInsightSqoopJobDefinition: HD Insights
 New-AzureHDInsightStreamingMapReduceJobDefinition: HD Insights
 New-AzureInternalLoadBalancerConfig: Load Balancer
 New-AzureLocalNetworkGateway: Networking
-New-AzureManagedCache: Others
-New-AzureManagedCacheAccessKey: Others
-New-AzureManagedCacheNamedCache: Others
 New-AzureMediaServicesAccount: Media Services
 New-AzureMediaServicesKey: Media Services
 New-AzureNetworkSecurityGroup: Networking
@@ -382,8 +375,6 @@ Remove-AzureEnvironment: Azure
 Remove-AzureHDInsightCluster: HD Insights
 Remove-AzureInternalLoadBalancer: Load Balancer
 Remove-AzureLocalNetworkGateway: Networking
-Remove-AzureManagedCache: Others
-Remove-AzureManagedCacheNamedCache: Others
 Remove-AzureMediaServicesAccount: Media Services
 Remove-AzureNetworkInterfaceConfig: Networking
 Remove-AzureNetworkSecurityGroup: Networking
@@ -509,8 +500,6 @@ Set-AzureHDInsightDefaultStorage: HD Insights
 Set-AzureInternalLoadBalancer: Load Balancer
 Set-AzureIPForwarding: Networking
 Set-AzureLoadBalancedEndpoint: Azure
-Set-AzureManagedCache: Others
-Set-AzureManagedCacheNamedCache: Others
 Set-AzureNetworkInterfaceConfig: Networking
 Set-AzureNetworkSecurityGroupAssociation: Networking
 Set-AzureNetworkSecurityGroupConfig: Networking
