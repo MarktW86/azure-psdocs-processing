@@ -4,8 +4,8 @@ Module Guid: 342714fc-4009-4863-8afb-a9067e3db04b
 Locale: en-US
 updated_at: 05/12/2017 22:05 PM
 ms.date: 05/12/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/AzureRM.Profile/v3.0.0/AzureRM.Profile.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/AzureRM.Profile/v3.0.0/AzureRM.Profile.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/Graham71298/azureps-cmdlets-docs/ServiceManagement/AzureRM.Profile/v3.0.0/AzureRM.Profile.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/Graham71298/azureps-cmdlets-docs/ServiceManagement/AzureRM.Profile/v3.0.0/AzureRM.Profile.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/3b96c1e0b28fc56dfbf6de55728d5478e0d02def
 ms.topic: conceptual
 author: erickson-doug

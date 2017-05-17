@@ -7,8 +7,8 @@ Locale: en-US
 ms.assetid: 70B87755-FEEF-45CE-BAE9-32088C408B41
 updated_at: 05/12/2017 22:05 PM
 ms.date: 05/12/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure/v4.0.0/Azure.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure/v4.0.0/Azure.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/Graham71298/azureps-cmdlets-docs/ServiceManagement/Azure/v4.0.0/Azure.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/Graham71298/azureps-cmdlets-docs/ServiceManagement/Azure/v4.0.0/Azure.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/3b96c1e0b28fc56dfbf6de55728d5478e0d02def
 ms.topic: conceptual
 author: erickson-doug
