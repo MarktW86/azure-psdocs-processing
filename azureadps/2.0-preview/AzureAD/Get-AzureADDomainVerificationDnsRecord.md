@@ -4,8 +4,8 @@ online version:
 schema: 2.0.0
 updated_at: 04/25/2017 20:04 PM
 ms.date: 04/25/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2preview/Get-AzureADDomainVerificationDnsRecord.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2preview/Get-AzureADDomainVerificationDnsRecord.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/RobdeJong-patch-5/Azure%20AD%20Cmdlets/AzureAD/v2preview/Get-AzureADDomainVerificationDnsRecord.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/RobdeJong-patch-5/Azure%20AD%20Cmdlets/AzureAD/v2preview/Get-AzureADDomainVerificationDnsRecord.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/c5cc449ee6e2b805fc85a9e05130b06b10899f67
 ms.topic: reference
 author: erickson-doug

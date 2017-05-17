@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: D0D10A71-D935-4D24-B671-F8E0A5D8979D
 updated_at: 11/04/2016 22:11 PM
 ms.date: 11/04/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/New-MsolAdministrativeUnit.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/New-MsolAdministrativeUnit.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/RobdeJong-patch-5/Azure%20AD%20Cmdlets/MSOnline/v1/New-MsolAdministrativeUnit.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/RobdeJong-patch-5/Azure%20AD%20Cmdlets/MSOnline/v1/New-MsolAdministrativeUnit.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/3c22ad9f927dcfe00a363b1a2c343fc086da2ac5
 ms.topic: reference
 author: erickson-doug

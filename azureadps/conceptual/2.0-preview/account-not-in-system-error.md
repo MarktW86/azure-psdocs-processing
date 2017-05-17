@@ -1,6 +1,6 @@
 ---
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/docs-conceptual/account-not-in-system-error.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/docs-conceptual/account-not-in-system-error.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/RobdeJong-patch-5/Azure%20AD%20Cmdlets/docs-conceptual/account-not-in-system-error.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/RobdeJong-patch-5/Azure%20AD%20Cmdlets/docs-conceptual/account-not-in-system-error.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/81e81b86d71386b0190efc026547939508cf3387
 ---
 # I get an error "\[your account] isn't in our system"

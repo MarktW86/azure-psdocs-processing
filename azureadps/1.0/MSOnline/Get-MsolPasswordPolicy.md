@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: 85A8F5D8-EDF3-4B49-A806-C95280EE370A
 updated_at: 11/09/2016 18:11 PM
 ms.date: 11/09/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolPasswordPolicy.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolPasswordPolicy.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/RobdeJong-patch-5/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolPasswordPolicy.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/RobdeJong-patch-5/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolPasswordPolicy.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/7986fb4880d0ee292c289166871e4b25df1ad4b8
 ms.topic: reference
 author: erickson-doug

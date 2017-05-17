@@ -3,11 +3,11 @@ external help file: Microsoft.Open.MS.GraphBeta.PowerShell.dll-Help.xml
 ms.assetid: D4C305FF-6005-4296-8B26-CFFCACFF9D2C
 online version:
 schema: 2.0.0
-updated_at: 04/25/2017 20:04 PM
-ms.date: 04/25/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2preview/Get-AzureADServicePrincipalPolicy.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2preview/Get-AzureADServicePrincipalPolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/c5cc449ee6e2b805fc85a9e05130b06b10899f67
+updated_at: 05/17/2017 00:05 AM
+ms.date: 05/17/2017
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/RobdeJong-patch-5/Azure%20AD%20Cmdlets/AzureAD/v2preview/Get-AzureADServicePrincipalPolicy.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/RobdeJong-patch-5/Azure%20AD%20Cmdlets/AzureAD/v2preview/Get-AzureADServicePrincipalPolicy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/01e902cbf3d12152e7962e12af0854ff3cf951e6
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -34,7 +34,7 @@ The **Get-AzureADServicePrincipalPolicy** cmdlet gets the policy of a service pr
 
 ### Example 1: Get a policy
 ```
-PS C:\>Get-AzureADServicePrincipalPolicy -ObjectId "<object id of service principal>"
+PS C:\>Get-AzureADServicePrincipalPolicy -Id "<object id of service principal>"
 ```
 
 This command get the policy for the specified service principal.

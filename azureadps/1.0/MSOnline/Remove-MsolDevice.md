@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: 73C147BE-82EC-484F-B2F3-EC684AA7B52C
 updated_at: 11/08/2016 21:11 PM
 ms.date: 11/08/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Remove-MsolDevice.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Remove-MsolDevice.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/RobdeJong-patch-5/Azure%20AD%20Cmdlets/MSOnline/v1/Remove-MsolDevice.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/RobdeJong-patch-5/Azure%20AD%20Cmdlets/MSOnline/v1/Remove-MsolDevice.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/2c57f1e6f7b36ad296f1b569969f9c974ec0e0c3
 ms.topic: reference
 author: erickson-doug
