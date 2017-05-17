@@ -9,10 +9,6 @@ content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/rod
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/rodejo5-10/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolCompanyAllowedDataLocation.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/1f9ce90a071efd51795186ba3f8b8d76905a96c3
 ms.topic: reference
-author: erickson-doug
-ms.author: PowerShellHelpPub
-keywords: powershell, cmdlet
-manager: carolz
 ms.service: active-directory
 ---
 

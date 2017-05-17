@@ -9,10 +9,6 @@ content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/rod
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/rodejo5-10/Azure%20AD%20Cmdlets/MSOnline/v1/New-MsolLicenseOptions.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/e0bfd4ed6256e4318269090a1648ef8cdd0fc8e1
 ms.topic: reference
-author: erickson-doug
-ms.author: PowerShellHelpPub
-keywords: powershell, cmdlet
-manager: carolz
 ms.service: active-directory
 ---
 

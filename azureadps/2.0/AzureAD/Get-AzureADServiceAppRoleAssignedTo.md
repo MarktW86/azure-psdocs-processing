@@ -8,10 +8,6 @@ content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/rod
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/rodejo5-10/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADServiceAppRoleAssignedTo.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/785cafde2210485948fad58dd6f2d5df74b18bde
 ms.topic: reference
-author: erickson-doug
-ms.author: PowerShellHelpPub
-keywords: powershell, cmdlet
-manager: carolz
 ms.service: active-directory
 ---
 
