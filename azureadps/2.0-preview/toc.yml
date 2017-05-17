@@ -119,6 +119,8 @@
           href: AzureAD/Get-AzureADApplicationServiceEndpoint.md
         - name: Get-AzureADDeletedApplication
           href: AzureAD/Get-AzureADDeletedApplication.md
+        - name: New-AzureADApplication
+          href: AzureAD/New-AzureADApplication.md
         - name: New-AzureADApplicationExtensionProperty
           href: AzureAD/New-AzureADApplicationExtensionProperty.md
         - name: New-AzureADApplicationKeyCredential
