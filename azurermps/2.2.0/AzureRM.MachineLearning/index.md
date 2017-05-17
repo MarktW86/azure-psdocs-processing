@@ -5,8 +5,8 @@ Locale: en-US
 ms.assetid: B91038DD-5BA4-4249-AE2C-1F69BE9E35F3
 updated_at: 04/17/2017 03:04 AM
 ms.date: 04/17/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.MachineLearning/v0.10.0/AzureRM.MachineLearning.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.MachineLearning/v0.10.0/AzureRM.MachineLearning.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/Graham71298/azureps-cmdlets-docs/ResourceManager/AzureRM.MachineLearning/v0.10.0/AzureRM.MachineLearning.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/Graham71298/azureps-cmdlets-docs/ResourceManager/AzureRM.MachineLearning/v0.10.0/AzureRM.MachineLearning.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4020413561282c9a9e970fce2fc8414bf4bb1265
 ms.topic: conceptual
 author: erickson-doug

@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: B117BB77-D3D6-4EE9-9A41-F41E67EA7654
 updated_at: 11/22/2016 20:11 PM
 ms.date: 11/22/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.OperationalInsights/v2.1.0/Disable-AzureRmOperationalInsightsLinuxPerformanceCollection.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.OperationalInsights/v2.1.0/Disable-AzureRmOperationalInsightsLinuxPerformanceCollection.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/Graham71298/azureps-cmdlets-docs/ResourceManager/AzureRM.OperationalInsights/v2.1.0/Disable-AzureRmOperationalInsightsLinuxPerformanceCollection.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/Graham71298/azureps-cmdlets-docs/ResourceManager/AzureRM.OperationalInsights/v2.1.0/Disable-AzureRmOperationalInsightsLinuxPerformanceCollection.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0cedc8f73bc96cf5ac4c69144e17b3de601fd3cc
 ms.topic: reference
 author: erickson-doug

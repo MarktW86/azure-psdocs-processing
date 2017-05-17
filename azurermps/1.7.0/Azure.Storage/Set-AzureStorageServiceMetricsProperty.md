@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: AE9762AA-8104-4BB4-A3E5-EC3B3CE748A5
 updated_at: 03/27/2017 18:03 PM
 ms.date: 03/27/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/Azure.Storage/v1.1.6/Set-AzureStorageServiceMetricsProperty.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/Azure.Storage/v1.1.6/Set-AzureStorageServiceMetricsProperty.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/Graham71298/azureps-cmdlets-docs/ResourceManager/Azure.Storage/v1.1.6/Set-AzureStorageServiceMetricsProperty.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/Graham71298/azureps-cmdlets-docs/ResourceManager/Azure.Storage/v1.1.6/Set-AzureStorageServiceMetricsProperty.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/9b79c0a37330eb2c43d3e7d31b5ab53f0da9554c
 ms.topic: reference
 author: erickson-doug
