@@ -5,8 +5,8 @@ online version:
 schema: 2.0.0
 updated_at: 05/12/2017 22:05 PM
 ms.date: 05/12/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure/v4.0.0/Get-AzureSiteRecoveryProtectionEntity.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure/v4.0.0/Get-AzureSiteRecoveryProtectionEntity.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/sdw-version-test/azureps-cmdlets-docs/ServiceManagement/Azure/v4.0.0/Get-AzureSiteRecoveryProtectionEntity.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/sdw-version-test/azureps-cmdlets-docs/ServiceManagement/Azure/v4.0.0/Get-AzureSiteRecoveryProtectionEntity.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/3b96c1e0b28fc56dfbf6de55728d5478e0d02def
 ms.topic: reference
 author: erickson-doug
