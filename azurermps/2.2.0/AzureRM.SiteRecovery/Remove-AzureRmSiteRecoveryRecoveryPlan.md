@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: 90B1CDFC-6811-4EED-B390-B82FCF7CE03D
 updated_at: 11/11/2016 23:11 PM
 ms.date: 11/11/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v2.1.0/Remove-AzureRmSiteRecoveryRecoveryPlan.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v2.1.0/Remove-AzureRmSiteRecoveryRecoveryPlan.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/sdw-version-test/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v2.1.0/Remove-AzureRmSiteRecoveryRecoveryPlan.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/sdw-version-test/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v2.1.0/Remove-AzureRmSiteRecoveryRecoveryPlan.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf
 ms.topic: reference
 author: erickson-doug

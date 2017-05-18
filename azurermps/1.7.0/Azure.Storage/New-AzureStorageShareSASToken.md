@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: 07C8AD4E-7A32-4407-9120-1432126B7376
 updated_at: 03/27/2017 18:03 PM
 ms.date: 03/27/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/Azure.Storage/v1.1.6/New-AzureStorageShareSASToken.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/Azure.Storage/v1.1.6/New-AzureStorageShareSASToken.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/sdw-version-test/azureps-cmdlets-docs/ResourceManager/Azure.Storage/v1.1.6/New-AzureStorageShareSASToken.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/sdw-version-test/azureps-cmdlets-docs/ResourceManager/Azure.Storage/v1.1.6/New-AzureStorageShareSASToken.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/9b79c0a37330eb2c43d3e7d31b5ab53f0da9554c
 ms.topic: reference
 author: erickson-doug

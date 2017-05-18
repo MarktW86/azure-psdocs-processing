@@ -10,9 +10,9 @@ ms.service: azure-resource-manager
 ms.devlang: powershell
 ms.topic: conceptual
 ms.date: 05/17/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/docs-conceptual/install-azurerm-ps.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/docs-conceptual/install-azurerm-ps.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e406980655870a111df61d9e13d77967a5b8211e
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/sdw-version-test/azureps-cmdlets-docs/ResourceManager/docs-conceptual/2.2.0/install-azurerm-ps.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/sdw-version-test/azureps-cmdlets-docs/ResourceManager/docs-conceptual/2.2.0/install-azurerm-ps.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/1886ae4675a95d2bdeb222cb28c9c5c7645fb848
 open_to_public_contributors: true
 ---
 
@@ -97,12 +97,6 @@ Import-Module AzureRM
 For more information about using Azure PowerShell, see the following articles:
 
 * [Get started with Azure PowerShell](get-started-azureps.md)
-
-## Reporting issues and feedback
-
-If you encounter any bugs with the tool, file an issue in the
-[Issues](https://github.com/Azure/azure-powershell/issues) section of our GitHub repo. To provide
-feedback from the command line, use the `Send-Feedback` cmdlet.
 
 ## Frequently asked questions
 

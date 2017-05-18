@@ -5,8 +5,8 @@ online version:
 schema: 2.0.0
 updated_at: 04/03/2017 20:04 PM
 ms.date: 04/03/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Register-AzureRmResourceProvider.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Register-AzureRmResourceProvider.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/sdw-version-test/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Register-AzureRmResourceProvider.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/sdw-version-test/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Register-AzureRmResourceProvider.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/78950608fd9885d813ecbee07ad3867d9e213e5e
 ms.topic: reference
 author: erickson-doug

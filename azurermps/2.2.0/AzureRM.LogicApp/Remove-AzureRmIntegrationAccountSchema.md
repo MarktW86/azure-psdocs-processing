@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: F09EAB07-27A8-4C67-B5EA-4A269CEB35A4
 updated_at: 11/22/2016 20:11 PM
 ms.date: 11/22/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/v2.1.0/Remove-AzureRmIntegrationAccountSchema.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/v2.1.0/Remove-AzureRmIntegrationAccountSchema.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/sdw-version-test/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/v2.1.0/Remove-AzureRmIntegrationAccountSchema.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/sdw-version-test/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/v2.1.0/Remove-AzureRmIntegrationAccountSchema.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0cedc8f73bc96cf5ac4c69144e17b3de601fd3cc
 ms.topic: reference
 author: erickson-doug

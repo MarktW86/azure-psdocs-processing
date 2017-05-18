@@ -4,8 +4,8 @@ Module Guid: bcea1c70-a32b-48c3-a05c-323e1c02f4d3
 Locale: en-US
 updated_at: 03/23/2017 23:03 PM
 ms.date: 03/23/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.4.3/AzureRM.Automation.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.4.3/AzureRM.Automation.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/sdw-version-test/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.4.3/AzureRM.Automation.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/sdw-version-test/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v1.0.4.3/AzureRM.Automation.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/280872fa529e03be2466fa2252957a2060a9dfe4
 ms.topic: conceptual
 author: erickson-doug

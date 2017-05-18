@@ -10,8 +10,8 @@ ms.service: azure-resource-manager
 ms.devlang: powershell
 ms.topic: conceptual
 ms.date: 05/17/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/docs-conceptual/install-azurerm-ps.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/docs-conceptual/install-azurerm-ps.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/sdw-version-test/azureps-cmdlets-docs/ResourceManager/docs-conceptual/install-azurerm-ps.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/sdw-version-test/azureps-cmdlets-docs/ResourceManager/docs-conceptual/install-azurerm-ps.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e406980655870a111df61d9e13d77967a5b8211e
 open_to_public_contributors: true
 ---

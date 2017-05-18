@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: E5A90AE9-C139-4D39-A405-04A2CA77B290
 updated_at: 03/27/2017 18:03 PM
 ms.date: 03/27/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/Azure.Storage/v2.1.0/Get-AzureStorageServiceLoggingProperty.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/Azure.Storage/v2.1.0/Get-AzureStorageServiceLoggingProperty.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/sdw-version-test/azureps-cmdlets-docs/ResourceManager/Azure.Storage/v2.1.0/Get-AzureStorageServiceLoggingProperty.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/sdw-version-test/azureps-cmdlets-docs/ResourceManager/Azure.Storage/v2.1.0/Get-AzureStorageServiceLoggingProperty.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/9b79c0a37330eb2c43d3e7d31b5ab53f0da9554c
 ms.topic: reference
 author: erickson-doug

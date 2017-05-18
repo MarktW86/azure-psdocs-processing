@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: 5C682822-C9BA-45B5-AACD-241CB7D945F6
 updated_at: 11/22/2016 20:11 PM
 ms.date: 11/22/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Scheduler/v0.10.0/New-AzureRmSchedulerServiceBusTopicJob.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Scheduler/v0.10.0/New-AzureRmSchedulerServiceBusTopicJob.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/sdw-version-test/azureps-cmdlets-docs/ResourceManager/AzureRM.Scheduler/v0.10.0/New-AzureRmSchedulerServiceBusTopicJob.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/sdw-version-test/azureps-cmdlets-docs/ResourceManager/AzureRM.Scheduler/v0.10.0/New-AzureRmSchedulerServiceBusTopicJob.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0cedc8f73bc96cf5ac4c69144e17b3de601fd3cc
 ms.topic: reference
 author: erickson-doug

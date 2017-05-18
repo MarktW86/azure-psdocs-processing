@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: 505B4635-7810-4ED9-82DC-E4A235D0E619
 updated_at: 11/11/2016 23:11 PM
 ms.date: 11/11/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v2.1.0/Set-AzureRmSiteRecoveryVaultSettings.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v2.1.0/Set-AzureRmSiteRecoveryVaultSettings.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/sdw-version-test/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v2.1.0/Set-AzureRmSiteRecoveryVaultSettings.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/sdw-version-test/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v2.1.0/Set-AzureRmSiteRecoveryVaultSettings.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf
 ms.topic: reference
 author: erickson-doug

@@ -10,9 +10,9 @@ ms.devlang: powershell
 ms.topic: conceptual
 ms.manager: carmonm
 ms.date: 05/15/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/docs-conceptual/overview.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/docs-conceptual/overview.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4eeb8dd94134977ba5c8e00ed61e2b1a029bef1d
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/sdw-version-test/azureps-cmdlets-docs/ResourceManager/docs-conceptual/2.2.0/overview.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/sdw-version-test/azureps-cmdlets-docs/ResourceManager/docs-conceptual/2.2.0/overview.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/
 open_to_public_contributors: true
 ---
 

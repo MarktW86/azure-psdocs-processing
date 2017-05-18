@@ -4,8 +4,8 @@ Module Guid: 8a7d44bb-e747-4265-8f22-b3937961d709
 Locale: en-US
 updated_at: 05/02/2017 17:05 PM
 ms.date: 05/02/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/v1.0.8/AzureRM.LogicApp.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/v1.0.8/AzureRM.LogicApp.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/sdw-version-test/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/v1.0.8/AzureRM.LogicApp.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/sdw-version-test/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/v1.0.8/AzureRM.LogicApp.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/fdff926f5dd35f9020f210f87b450464ba162edc
 ms.topic: conceptual
 author: erickson-doug

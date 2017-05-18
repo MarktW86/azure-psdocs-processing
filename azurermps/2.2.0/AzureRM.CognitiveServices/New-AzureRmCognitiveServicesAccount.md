@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: F264A719-21B6-4ED3-ADCF-0EF2325949A1
 updated_at: 11/22/2016 20:11 PM
 ms.date: 11/22/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.CognitiveServices/v0.3.0/New-AzureRmCognitiveServicesAccount.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.CognitiveServices/v0.3.0/New-AzureRmCognitiveServicesAccount.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/sdw-version-test/azureps-cmdlets-docs/ResourceManager/AzureRM.CognitiveServices/v0.3.0/New-AzureRmCognitiveServicesAccount.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/sdw-version-test/azureps-cmdlets-docs/ResourceManager/AzureRM.CognitiveServices/v0.3.0/New-AzureRmCognitiveServicesAccount.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0cedc8f73bc96cf5ac4c69144e17b3de601fd3cc
 ms.topic: reference
 author: erickson-doug
