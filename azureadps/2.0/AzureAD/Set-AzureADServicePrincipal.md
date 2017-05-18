@@ -9,10 +9,6 @@ content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/mas
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADServicePrincipal.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/d0887c87da28d9758d8d55b202d3b8fac71a7ec5
 ms.topic: reference
-author: erickson-doug
-ms.author: PowerShellHelpPub
-keywords: powershell, cmdlet
-manager: carolz
 ms.service: active-directory
 ---
 

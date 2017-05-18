@@ -21,6 +21,10 @@
           href: 'https://docs.microsoft.com/en-us/azure/active-directory/active-directory-accessmanagement-groups-settings-cmdlets'
         - name: Managing Role Based Access Control (RBAC)
           href: 'https://docs.microsoft.com/en-us/azure/active-directory/role-based-access-control-manage-access-powershell'
+        - name: Working with licenses
+          href: ../conceptual/2.0-preview/working-with-licenses.md
+        - name: List all Service Principal Application Role assignments
+          href: ../conceptual/2.0-preview/List-Service-principal-application-roles.md
         - name: Using extension attributes
           href: ../conceptual/2.0-preview/using-extension-attributes-sample.md
         - name: Working with Administrative Units
@@ -119,6 +123,8 @@
           href: AzureAD/Get-AzureADApplicationServiceEndpoint.md
         - name: Get-AzureADDeletedApplication
           href: AzureAD/Get-AzureADDeletedApplication.md
+        - name: New-AzureADApplication
+          href: AzureAD/New-AzureADApplication.md
         - name: New-AzureADApplicationExtensionProperty
           href: AzureAD/New-AzureADApplicationExtensionProperty.md
         - name: New-AzureADApplicationKeyCredential
