@@ -5,14 +5,10 @@ online version:
 schema: 2.0.0
 updated_at: 04/20/2017 13:04 PM
 ms.date: 04/20/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADContract.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADContract.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/DuncanmaMSFT-patch-1/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADContract.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/DuncanmaMSFT-patch-1/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADContract.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/6784ef1ea564e1d26aa69307ad6878ee9a87b777
 ms.topic: reference
-author: erickson-doug
-ms.author: PowerShellHelpPub
-keywords: powershell, cmdlet
-manager: carolz
 ms.service: active-directory
 ---
 

@@ -5,14 +5,10 @@ online version:
 schema: 2.0.0
 updated_at: 02/04/2017 00:02 AM
 ms.date: 02/04/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADGroup.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADGroup.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/DuncanmaMSFT-patch-1/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADGroup.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/DuncanmaMSFT-patch-1/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADGroup.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/3c958c260fe07ce8f34599794f089c4b3c1b8115
 ms.topic: reference
-author: erickson-doug
-ms.author: PowerShellHelpPub
-keywords: powershell, cmdlet
-manager: carolz
 ms.service: active-directory
 ---
 

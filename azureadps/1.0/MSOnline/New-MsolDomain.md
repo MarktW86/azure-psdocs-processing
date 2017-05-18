@@ -5,14 +5,10 @@ schema: 2.0.0
 ms.assetid: 013C6697-E78E-4882-840B-CC0595C452DA
 updated_at: 11/04/2016 22:11 PM
 ms.date: 11/04/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/New-MsolDomain.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/New-MsolDomain.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/DuncanmaMSFT-patch-1/Azure%20AD%20Cmdlets/MSOnline/v1/New-MsolDomain.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/DuncanmaMSFT-patch-1/Azure%20AD%20Cmdlets/MSOnline/v1/New-MsolDomain.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/3c22ad9f927dcfe00a363b1a2c343fc086da2ac5
 ms.topic: reference
-author: erickson-doug
-ms.author: PowerShellHelpPub
-keywords: powershell, cmdlet
-manager: carolz
 ms.service: active-directory
 ---
 

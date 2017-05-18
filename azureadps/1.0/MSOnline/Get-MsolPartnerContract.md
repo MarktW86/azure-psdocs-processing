@@ -5,14 +5,10 @@ schema: 2.0.0
 ms.assetid: 4E3EE703-F105-449D-B74E-8C4B70E63A90
 updated_at: 11/10/2016 18:11 PM
 ms.date: 11/10/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolPartnerContract.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolPartnerContract.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/DuncanmaMSFT-patch-1/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolPartnerContract.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/DuncanmaMSFT-patch-1/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolPartnerContract.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/f20974f1694733a8d0f8cf150cad0f34dfdb2d1c
 ms.topic: reference
-author: erickson-doug
-ms.author: PowerShellHelpPub
-keywords: powershell, cmdlet
-manager: carolz
 ms.service: active-directory
 ---
 

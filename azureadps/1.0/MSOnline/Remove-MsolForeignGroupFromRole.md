@@ -5,14 +5,10 @@ schema: 2.0.0
 ms.assetid: 563E6FCE-8B24-4952-A82E-3FA5A7339886
 updated_at: 11/14/2016 21:11 PM
 ms.date: 11/14/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Remove-MsolForeignGroupFromRole.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Remove-MsolForeignGroupFromRole.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/DuncanmaMSFT-patch-1/Azure%20AD%20Cmdlets/MSOnline/v1/Remove-MsolForeignGroupFromRole.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/DuncanmaMSFT-patch-1/Azure%20AD%20Cmdlets/MSOnline/v1/Remove-MsolForeignGroupFromRole.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/2fc7c934766545163d747d78fd2431e341b5bd4f
 ms.topic: reference
-author: erickson-doug
-ms.author: PowerShellHelpPub
-keywords: powershell, cmdlet
-manager: carolz
 ms.service: active-directory
 ---
 

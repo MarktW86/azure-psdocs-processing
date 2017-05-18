@@ -5,14 +5,10 @@ schema: 2.0.0
 ms.assetid: 13C8D948-E093-45E7-A5B5-BC38FAFCCEC7
 updated_at: 11/10/2016 00:11 AM
 ms.date: 11/10/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolUserRole.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolUserRole.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/DuncanmaMSFT-patch-1/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolUserRole.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/DuncanmaMSFT-patch-1/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolUserRole.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/f72983e84de2f467e1a00ba8a6d58936035a33db
 ms.topic: reference
-author: erickson-doug
-ms.author: PowerShellHelpPub
-keywords: powershell, cmdlet
-manager: carolz
 ms.service: active-directory
 ---
 

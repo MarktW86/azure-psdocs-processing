@@ -1,6 +1,6 @@
 ---
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/docs-conceptual/Using-Extension-attributes-sample.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/docs-conceptual/Using-Extension-attributes-sample.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/DuncanmaMSFT-patch-1/Azure%20AD%20Cmdlets/docs-conceptual/Using-Extension-attributes-sample.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/DuncanmaMSFT-patch-1/Azure%20AD%20Cmdlets/docs-conceptual/Using-Extension-attributes-sample.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/aff28201c3f151ba5f718e0406c2ae107bdf0e23
 ---
 

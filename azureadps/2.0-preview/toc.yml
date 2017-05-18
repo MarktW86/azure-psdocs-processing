@@ -9,15 +9,15 @@
   items:
     - name: PowerShell Scenarios
       items:
-        - name: Importing Data
+        - name: Importing data
           href: ../conceptual/2.0-preview/importing-data.md
         - name: Recovering deleted data
           href: ../conceptual/2.0-preview/recovering-deleted-data.md
     - name: Directory Features
       items:
-        - name: Managing groups in Azure AD
+        - name: Managing groups
           href: 'https://docs.microsoft.com/en-us/azure/active-directory/active-directory-accessmanagement-groups-settings-v2-cmdlets'
-        - name: Managing Unified Groups settings using Powershell
+        - name: Managing Unified Groups settings
           href: 'https://docs.microsoft.com/en-us/azure/active-directory/active-directory-accessmanagement-groups-settings-cmdlets'
         - name: Managing Role Based Access Control (RBAC)
           href: 'https://docs.microsoft.com/en-us/azure/active-directory/role-based-access-control-manage-access-powershell'
@@ -47,7 +47,7 @@
       items:
         - name: 'I get an error "\[your account] isn''t in our system"'
           href: ../conceptual/2.0-preview/account-not-in-system-error.md
-    - name: '[Execution errors]'
+    - name: Execution errors
       items:
         - name: I'm looking for a user or a group but PowerShell does not return the object
           href: ../conceptual/2.0-preview/Cannot-find-object.md
@@ -236,6 +236,8 @@
       items:
         - name: Add-AzureADDirectoryRoleMember
           href: AzureAD/Add-AzureADDirectoryRoleMember.md
+        - name: Enable-AzureADDirectoryRole
+          href: AzureAD/Enable-AzureADDirectoryRole.md
         - name: Get-AzureADDirectoryRole
           href: AzureAD/Get-AzureADDirectoryRole.md
         - name: Get-AzureADDirectoryRoleMember
