@@ -5,8 +5,8 @@ online version:
 schema: 2.0.0
 updated_at: 05/01/2017 21:05 PM
 ms.date: 05/01/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Connect-AzureAD.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Connect-AzureAD.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/RobdeJong-patch-7/Azure%20AD%20Cmdlets/AzureAD/v2/Connect-AzureAD.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/RobdeJong-patch-7/Azure%20AD%20Cmdlets/AzureAD/v2/Connect-AzureAD.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/1e5ab48da717fd164821967e570ccae43d55901d
 ms.topic: reference
 ms.service: active-directory

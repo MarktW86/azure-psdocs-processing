@@ -1,6 +1,6 @@
 ---
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/docs-conceptual/Cannot-find-object.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/docs-conceptual/Cannot-find-object.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/RobdeJong-patch-7/Azure%20AD%20Cmdlets/docs-conceptual/Cannot-find-object.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/RobdeJong-patch-7/Azure%20AD%20Cmdlets/docs-conceptual/Cannot-find-object.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/23868dcb611ceb55572406f80cef5cbd7a6233e4
 ---
 # I'm looking for a user or a group but PowerShell does not return the object

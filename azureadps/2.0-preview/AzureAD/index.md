@@ -5,8 +5,8 @@ Locale: en-US
 ms.assetid: 7D9D9507-ADE5-45BD-97F8-0CCCDA3D3B58
 updated_at: 05/18/2017 02:05 AM
 ms.date: 05/18/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2preview/AzureActiveDirectory.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2preview/AzureActiveDirectory.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/RobdeJong-patch-7/Azure%20AD%20Cmdlets/AzureAD/v2preview/AzureActiveDirectory.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/RobdeJong-patch-7/Azure%20AD%20Cmdlets/AzureAD/v2preview/AzureActiveDirectory.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/971a13f6e9d405113b3a4cbd3e96018e9bac893a
 ms.topic: conceptual
 ms.service: active-directory

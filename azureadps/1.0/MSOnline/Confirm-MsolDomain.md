@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: 8DC24A62-AD0A-452B-BACF-28B9BEC922FC
 updated_at: 11/07/2016 21:11 PM
 ms.date: 11/07/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Confirm-MsolDomain.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Confirm-MsolDomain.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/RobdeJong-patch-7/Azure%20AD%20Cmdlets/MSOnline/v1/Confirm-MsolDomain.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/RobdeJong-patch-7/Azure%20AD%20Cmdlets/MSOnline/v1/Confirm-MsolDomain.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/94a9d6babbb311cac82eb0873333def445a3d23a
 ms.topic: reference
 ms.service: active-directory
