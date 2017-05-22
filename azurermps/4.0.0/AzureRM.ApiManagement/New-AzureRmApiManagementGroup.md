@@ -6,8 +6,8 @@ schema: 2.0.0
 content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/ApiManagement/Commands.ApiManagement/help/New-AzureRmApiManagementGroup.md
 original_content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/ApiManagement/Commands.ApiManagement/help/New-AzureRmApiManagementGroup.md
 gitcommit: https://github.com/Azure/azure-powershell/blob/eb2b5c5505d48a33661e70ccdab72360e6ff0798
-updated_at: 05/12/2017 03:05 AM
-ms.date: 05/12/2017
+updated_at: 05/22/2017 17:05 PM
+ms.date: 05/22/2017
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -36,7 +36,7 @@ The **New-AzureRmApiManagementGroup** cmdlet creates an API management group.
 
 ### Example 1: Create a management group
 ```
-PS C:\>New-AzureRmApiManagementGroup -Context $APImContext -Name "Group0001"
+PS C:\> New-AzureRmApiManagementGroup -Context $APImContext -Name "Group0001"
 ```
 
 This command creates a management group.
@@ -74,7 +74,9 @@ Accept wildcard characters: False
 ```
 
 ### -ExternalId
-For external groups, this property contains the id of the group from the external identity provider, e.g. Azure Active Directory aad://contoso5api.onmicrosoft.com/groups/12ad42b1-592f-4664-a77b4250-2f2e82579f4c; otherwise the value is null.```yaml
+Specifies the of the group from the external identity provider. For instance: Azure Active Directory aad://contoso5api.onmicrosoft.com/groups/12ad42b1-592f-4664-a77b4250-2f2e82579f4c; otherwise the value is null.
+
+```yaml
 Type: String
 Parameter Sets: (All)
 Aliases: 
@@ -117,7 +119,9 @@ Accept wildcard characters: False
 ```
 
 ### -Type
-Group Type. Custom Group is User defined Group. System Group includes Administrator, Developers and Guests. You cannot create or update a System Group.  External Group is groups from External Identity Provider like Azure Active Directory. This parameter is optional and by default assumed to be a Custom Group.```yaml
+Specifies the group type. Custom Group is User defined Group. System Group includes Administrator, Developers and Guests. You cannot create or update a System Group.  External Group is groups from External Identity Provider like Azure Active Directory. This parameter is optional and by default assumed to be a Custom Group.
+
+```yaml
 Type: PsApiManagementGroupType
 Parameter Sets: (All)
 Aliases: 
@@ -147,5 +151,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Remove-AzureRmApiManagementGroup](./Remove-AzureRmApiManagementGroup.md)
 
 [Set-AzureRmApiManagementGroup](./Set-AzureRmApiManagementGroup.md)
-
-
