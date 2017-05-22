@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: 67573FFF-F6B6-4681-A96C-05BB5874F9FB
 updated_at: 11/08/2016 22:11 PM
 ms.date: 11/08/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/New-MsolServicePrincipalCredential.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/New-MsolServicePrincipalCredential.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/VinceSmith-patch-1/Azure%20AD%20Cmdlets/MSOnline/v1/New-MsolServicePrincipalCredential.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/VinceSmith-patch-1/Azure%20AD%20Cmdlets/MSOnline/v1/New-MsolServicePrincipalCredential.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/1f9ce90a071efd51795186ba3f8b8d76905a96c3
 ms.topic: reference
 ms.service: active-directory

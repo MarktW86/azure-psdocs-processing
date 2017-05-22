@@ -1,6 +1,6 @@
 ---
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/docs-conceptual/install-msonlinev1.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/docs-conceptual/install-msonlinev1.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/VinceSmith-patch-1/Azure%20AD%20Cmdlets/docs-conceptual/install-msonlinev1.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/VinceSmith-patch-1/Azure%20AD%20Cmdlets/docs-conceptual/install-msonlinev1.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/1aa0318936a2f078f9b662f1fc777f4bfc53ccd6
 ---
 # Azure ActiveDirectory (MSOnline)

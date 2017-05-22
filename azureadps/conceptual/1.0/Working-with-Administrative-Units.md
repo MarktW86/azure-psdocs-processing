@@ -1,7 +1,7 @@
 ---
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/docs-conceptual/Working-with-Administrative-Units.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/docs-conceptual/Working-with-Administrative-Units.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/8d32acbc63e9fcdc61e4fd51a6c0e09777fa61b0
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/VinceSmith-patch-1/Azure%20AD%20Cmdlets/docs-conceptual/Working-with-Administrative-Units.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/VinceSmith-patch-1/Azure%20AD%20Cmdlets/docs-conceptual/Working-with-Administrative-Units.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/a75939b93b9ae818b019b2f44fb7085010c996f1
 ---
 # Working with Administrative Units
 
@@ -20,7 +20,7 @@ $initialDomain = (Get-AzureADDomain)[0].Name
 $passwordProfile = New-Object -TypeName Microsoft.Open.AzureAD.Model.PasswordProfile -ArgumentList "Windows2000", $false
 for($i = 1; $i -le 2; $i++) {
     New-AzureADUser -UserPrincipalName "WestCoastUser$i@$initialDomain" -DisplayName "WestCoastUser$i" -PasswordProfile $passwordProfile -UsageLocation "US" -AccountEnabled $true -MailNickName "WestCoastUser$i"
-    New-AzureADUser -UserPrincipalName "EastCoastUser$i@$initialDomain" -DisplayName "EasCoastUser$i" -PasswordProfile $passwordProfile -UsageLocation "US" -AccountEnabled $true -MailNickName "WestCoastUser$i"
+    New-AzureADUser -UserPrincipalName "EastCoastUser$i@$initialDomain" -DisplayName "EastCoastUser$i" -PasswordProfile $passwordProfile -UsageLocation "US" -AccountEnabled $true -MailNickName "EastCoastUser$i"
 }
 
 #Create admins we'll assign later to manage the users in the AUs
