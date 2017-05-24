@@ -3,11 +3,11 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 ms.assetid: A5DDAF58-A04C-4B8F-8AFE-A491387ABCB0
 online version:
 schema: 2.0.0
-updated_at: 04/20/2017 04:04 AM
-ms.date: 04/20/2017
+updated_at: 05/23/2017 20:05 PM
+ms.date: 05/23/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADUser.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADUser.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/785cafde2210485948fad58dd6f2d5df74b18bde
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/bee47b5a8227e08e8f34302dc330d0dd8fb6cb86
 ms.topic: reference
 ms.service: active-directory
 ---
@@ -281,7 +281,7 @@ Accept wildcard characters: False
 ```
 
 ### -PasswordProfile
-Specifies the user's password profile. Note that the parameter type for this parameter is "PasswordProfile". in order to pass a parameter of this type, you first need to create a vairable in PowerShell with that type:
+Specifies the user's password profile. Note that the parameter type for this parameter is "PasswordProfile". in order to pass a parameter of this type, you first need to create a variable in PowerShell with that type:
 
 	$PasswordProfile = New-Object -TypeName Microsoft.Open.AzureAD.Model.PasswordProfile
 
