@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.Websites.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 03/23/2017 22:03 PM
-ms.date: 03/23/2017
+updated_at: 05/24/2017 22:05 PM
+ms.date: 05/24/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v1.1.3/Start-AzureRmWebAppSlot.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v1.1.3/Start-AzureRmWebAppSlot.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/535e2e74f053db46eadf4681f4a95ece9f189378
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2d4a4fe807f8dce278c44747fc746934ed66d9fe
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -19,6 +19,7 @@ ms.service: Websites
 # Start-AzureRmWebAppSlot
 
 ## SYNOPSIS
+Starts a web app slot.
 
 ## SYNTAX
 
@@ -33,25 +34,26 @@ Start-AzureRmWebAppSlot [-WebApp] <Site> [<CommonParameters>]
 ```
 
 ## DESCRIPTION
+The **Start-AzureRmWebAppSlot** starts a web app slot.
 
 ## EXAMPLES
 
-### Example 1
+### Example 1: Start a web app slot
 ```
-PS C:\> {{ Add example code here }}
+Start-AzureRmWebAppSlot -ResourceGroupName "Default-Web-WestUS" -Name "ContosoWebApp" -Slot "Slot001"
 ```
 
-{{ Add example description here }}
+This example starts the web app slot named "Slot001" pertaining to the web app named "ContosoWebApp" that belongs to the resource group named "Default-Web-WestUS".
 
 ## PARAMETERS
 
 ### -Name
-@{Text=}
+Specifies the name of the web app that is deployed in the slot to start.
 
 ```yaml
 Type: String
 Parameter Sets: S1
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -61,12 +63,12 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-@{Text=}
+Specifies the name of the resource group that contains the web app.
 
 ```yaml
 Type: String
 Parameter Sets: S1
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -76,12 +78,12 @@ Accept wildcard characters: False
 ```
 
 ### -Slot
-@{Text=}
+Specifies the name of the web app slot to start.
 
 ```yaml
 Type: String
 Parameter Sets: S1
-Aliases: 
+Aliases:
 
 Required: True
 Position: 2
@@ -91,12 +93,12 @@ Accept wildcard characters: False
 ```
 
 ### -WebApp
-@{Text=}
+Specifies a **WebApp** object that contains details about the web app that is deployed in the slot to start.
 
 ```yaml
 Type: Site
 Parameter Sets: S2
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -116,3 +118,16 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
+[Get-AzureRMWebAppSlot](./Get-AzureRMWebAppSlot.md)
+
+[New-AzureRMWebAppSlot](./New-AzureRMWebAppSlot.md)
+
+[Remove-AzureRMWebAppSlot](./Remove-AzureRMWebAppSlot.md)
+
+[Restart-AzureRMWebAppSlot](./Restart-AzureRMWebAppSlot.md)
+
+[Set-AzureRMWebAppSlot](./Set-AzureRMWebAppSlot.md)
+
+[Stop-AzureRMWebAppSlot](./Stop-AzureRMWebAppSlot.md)
+
+[Get-AzureRmWebApp](./Get-AzureRmWebApp.md)

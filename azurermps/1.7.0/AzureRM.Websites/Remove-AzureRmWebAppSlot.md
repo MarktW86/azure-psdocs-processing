@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.Websites.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 03/23/2017 22:03 PM
-ms.date: 03/23/2017
+updated_at: 05/24/2017 22:05 PM
+ms.date: 05/24/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v1.1.3/Remove-AzureRmWebAppSlot.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v1.1.3/Remove-AzureRmWebAppSlot.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/535e2e74f053db46eadf4681f4a95ece9f189378
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2d4a4fe807f8dce278c44747fc746934ed66d9fe
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -19,6 +19,7 @@ ms.service: Websites
 # Remove-AzureRmWebAppSlot
 
 ## SYNOPSIS
+Removes a web app slot.
 
 ## SYNTAX
 
@@ -34,25 +35,26 @@ Remove-AzureRmWebAppSlot [-Force] [-WebApp] <Site> [-WhatIf] [-Confirm] [<Common
 ```
 
 ## DESCRIPTION
+The **Remove-AzureRmWebAppSlot** cmdlet removes a slot for a web app that was built using the Web Apps feature of the Azure App Service.
 
 ## EXAMPLES
 
-### Example 1
+### Example 1: Remove a web app slot
 ```
-PS C:\> {{ Add example code here }}
+Remove-AzureRmWebAppSlot -ResourceGroupName "Default-Web-WestUS" -Name "ContosoSite" -Slot "Slot001"
 ```
 
-{{ Add example description here }}
+This example removes the slot named "Slot001" associated with the web app "ContosoSite" that is in the "Default-Web-WestUS" resource group.
 
 ## PARAMETERS
 
 ### -Force
-@{Text=}
+Indicates whether to forcefully remove the slot.
 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -62,12 +64,12 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-@{Text=}
+Specifies the name of the web app.
 
 ```yaml
 Type: String
 Parameter Sets: S1
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -77,12 +79,12 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-@{Text=}
+Specifies the name of the resource group that contains the web app.
 
 ```yaml
 Type: String
 Parameter Sets: S1
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -92,12 +94,12 @@ Accept wildcard characters: False
 ```
 
 ### -Slot
-@{Text=}
+Specifies the name of the slot to remove.
 
 ```yaml
 Type: String
 Parameter Sets: S1
-Aliases: 
+Aliases:
 
 Required: True
 Position: 2
@@ -107,12 +109,12 @@ Accept wildcard characters: False
 ```
 
 ### -WebApp
-@{Text=}
+Specifies a **WebApp** object that contains details about the web app.
 
 ```yaml
 Type: Site
 Parameter Sets: S2
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -122,7 +124,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-Prompts you for confirmation before running the cmdlet.
+Indicates whether to prompt the user for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -137,8 +139,7 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-Shows what would happen if the cmdlet runs.
-The cmdlet is not run.
+Indicates whether to show what would happen if the cmdlet runs without actually running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -163,3 +164,16 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
+[Get-AzureRMWebAppSlot](./Get-AzureRMWebAppSlot.md)
+
+[New-AzureRMWebAppSlot](./New-AzureRMWebAppSlot.md)
+
+[Restart-AzureRMWebAppSlot](./Restart-AzureRMWebAppSlot.md)
+
+[Set-AzureRMWebAppSlot](./Set-AzureRMWebAppSlot.md)
+
+[Start-AzureRMWebAppSlot](./Start-AzureRMWebAppSlot.md)
+
+[Stop-AzureRMWebAppSlot](./Stop-AzureRMWebAppSlot.md)
+
+[Get-AzureRmWebApp](./Get-AzureRmWebApp.md)

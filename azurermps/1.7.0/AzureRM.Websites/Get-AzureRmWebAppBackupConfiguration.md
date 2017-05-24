@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.Websites.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 03/23/2017 22:03 PM
-ms.date: 03/23/2017
+updated_at: 05/24/2017 22:05 PM
+ms.date: 05/24/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v1.1.3/Get-AzureRmWebAppBackupConfiguration.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v1.1.3/Get-AzureRmWebAppBackupConfiguration.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/535e2e74f053db46eadf4681f4a95ece9f189378
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2d4a4fe807f8dce278c44747fc746934ed66d9fe
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -19,6 +19,7 @@ ms.service: Websites
 # Get-AzureRmWebAppBackupConfiguration
 
 ## SYNOPSIS
+Gets the current backup configuration for a web app.
 
 ## SYNTAX
 
@@ -34,25 +35,26 @@ Get-AzureRmWebAppBackupConfiguration [-WebApp] <Site> [<CommonParameters>]
 ```
 
 ## DESCRIPTION
+The **Get-AzureRmWebAppBackupConfiguration** cmdlet gets the current backup configuration for a web app that was built using the Web Apps feature of the Azure App Service.
 
 ## EXAMPLES
 
-### Example 1
+### Example 1: Get the current backup configuration for a web app in the specified resource group
 ```
-PS C:\> {{ Add example code here }}
+Get-AzureRmWebAppBackupConfiguration -ResourceGroupName "Default-Web-WestUS" -Name "WebAppStandard"
 ```
 
-{{ Add example description here }}
+This example gets the backup configuration for the web app named "WebAppStandard" that belongs to the "Default-Web-WestUS" resource group.
 
 ## PARAMETERS
 
 ### -Name
-@{Text=}
+Specifies the name of the web app.
 
 ```yaml
 Type: String
 Parameter Sets: FromResourceName
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -62,12 +64,12 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-@{Text=}
+Specifies the name of the resource group that contains the web app.
 
 ```yaml
 Type: String
 Parameter Sets: FromResourceName
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -77,12 +79,12 @@ Accept wildcard characters: False
 ```
 
 ### -Slot
-@{Text=}
+Specifies the name of the slot to which the web app is deployed.
 
 ```yaml
 Type: String
 Parameter Sets: FromResourceName
-Aliases: 
+Aliases:
 
 Required: False
 Position: 2
@@ -92,12 +94,12 @@ Accept wildcard characters: False
 ```
 
 ### -WebApp
-@{Text=}
+Specifies a **WebApp** object that contains details about the web app.
 
 ```yaml
 Type: Site
 Parameter Sets: FromWebApp
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -111,9 +113,16 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## INPUTS
 
+### None
+
 ## OUTPUTS
+
+### None
 
 ## NOTES
 
 ## RELATED LINKS
 
+[New-AzureRmWebAppBackup](./New-AzureRmWebAppBackup.md)
+
+[Edit-AzureRmWebAppBackupConfiguration](./Edit-AzureRmWebAppBackupConfiguration.md)

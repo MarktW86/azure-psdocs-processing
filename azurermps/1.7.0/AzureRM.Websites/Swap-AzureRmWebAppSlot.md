@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.Websites.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 03/23/2017 22:03 PM
-ms.date: 03/23/2017
+updated_at: 05/24/2017 22:05 PM
+ms.date: 05/24/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v1.1.3/Swap-AzureRmWebAppSlot.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v1.1.3/Swap-AzureRmWebAppSlot.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/535e2e74f053db46eadf4681f4a95ece9f189378
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2d4a4fe807f8dce278c44747fc746934ed66d9fe
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -19,7 +19,7 @@ ms.service: Websites
 # Swap-AzureRmWebAppSlot
 
 ## SYNOPSIS
-Swap two slots with a Web App
+Swaps two deployment slots of a web app.
 
 ## SYNTAX
 
@@ -38,25 +38,17 @@ Swap-AzureRmWebAppSlot [-SourceSlotName] <String> [[-DestinationSlotName] <Strin
 ```
 
 ## DESCRIPTION
-
-## EXAMPLES
-
-### Example 1
-```
-PS C:\> {{ Add example code here }}
-```
-
-{{ Add example description here }}
+The **Swap-AzureRmWebAppSlot** swaps two deployment slots of a web app.
 
 ## PARAMETERS
 
 ### -DestinationSlotName
-@{Text=}
+Specifies the name of the destination slot.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 1
@@ -66,12 +58,12 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-@{Text=}
+Specifies the name of the web app.
 
 ```yaml
 Type: String
 Parameter Sets: S1
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -81,12 +73,12 @@ Accept wildcard characters: False
 ```
 
 ### -PreserveVnet
-@{Text=}
+Specifies whether to preserve the virtual network to the slot during swap.
 
 ```yaml
 Type: Boolean
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 3
@@ -96,12 +88,12 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-@{Text=}
+Specifies the name of the resource group that contains the web app.
 
 ```yaml
 Type: String
 Parameter Sets: S1
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -111,12 +103,12 @@ Accept wildcard characters: False
 ```
 
 ### -SourceSlotName
-@{Text=}
+Specifies the name of the source slot.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -126,12 +118,13 @@ Accept wildcard characters: False
 ```
 
 ### -SwapWithPreviewAction
-@{Text=}
+Indicates whether to enable the preview action during the swap operation.
+The preview action applies slot-specific configuration elements from the destination slot to the source slot and pauses until a selection is made to complete or cancel the swap.
 
 ```yaml
 Type: SwapWithPreviewAction
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 2
@@ -141,12 +134,12 @@ Accept wildcard characters: False
 ```
 
 ### -WebApp
-@{Text=}
+Specifies a **WebApp** object that contains details about the web app.
 
 ```yaml
 Type: Site
 Parameter Sets: S2
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -156,7 +149,7 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-Prompts you for confirmation before running the cmdlet.
+Indicates whether to prompt the user for confirmation before running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -171,8 +164,7 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-Shows what would happen if the cmdlet runs.
-The cmdlet is not run.
+Indicates whether to show what would happen if the cmdlet runs without actually running the cmdlet.
 
 ```yaml
 Type: SwitchParameter
@@ -197,3 +189,16 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
+[Get-AzureRMWebAppSlot](./Get-AzureRMWebAppSlot.md)
+
+[New-AzureRMWebAppSlot](./New-AzureRMWebAppSlot.md)
+
+[Remove-AzureRMWebAppSlot](./Remove-AzureRMWebAppSlot.md)
+
+[Restart-AzureRMWebAppSlot](./Restart-AzureRMWebAppSlot.md)
+
+[Set-AzureRMWebAppSlot](./Set-AzureRMWebAppSlot.md)
+
+[Start-AzureRMWebAppSlot](./Start-AzureRMWebAppSlot.md)
+
+[Get-AzureRmWebApp](./Get-AzureRmWebApp.md)

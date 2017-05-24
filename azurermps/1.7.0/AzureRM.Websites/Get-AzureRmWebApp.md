@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.Websites.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 03/23/2017 22:03 PM
-ms.date: 03/23/2017
+updated_at: 05/24/2017 22:05 PM
+ms.date: 05/24/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v1.1.3/Get-AzureRmWebApp.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v1.1.3/Get-AzureRmWebApp.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/535e2e74f053db46eadf4681f4a95ece9f189378
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2d4a4fe807f8dce278c44747fc746934ed66d9fe
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -19,7 +19,7 @@ ms.service: Websites
 # Get-AzureRmWebApp
 
 ## SYNOPSIS
-Gets a web app.
+Gets a web app that was built using the Web Apps feature of the Azure App Service.
 
 ## SYNTAX
 
@@ -39,30 +39,26 @@ Get-AzureRmWebApp [-Location] <String> [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-The Get-AzureRmWebApp cmdlet gets an Azure web app in the specified resource group.
+The **Get-AzureRmWebApp** cmdlet gets a web app that was built using the Web Apps feature of the Azure App Service.
 
 ## EXAMPLES
 
-### --------------------------  Example 1: Get a web app  --------------------------
-@{paragraph=PS C:\\\>}
-
-
-
+### Example 1: Get a web app for the specified slot in the specified resource group
 ```
-PS C:\>Get-AzureRmWebApp -Name "MyWebApp" -ResourceGroupName "Default-Web-WestUS" -SlotName "dev"
+Get-AzureRmWebApp -Name "MyWebApp" -ResourceGroupName "Default-Web-WestUS" -SlotName "dev"
 ```
 
-This command gets web app named MyWebApp for the slot named dev in the resource group named Default-Web-WestUS.
+This example gets a web app named "MyWebApp" for the slot named "dev" in the resource group named "Default-Web-WestUS".
 
 ## PARAMETERS
 
 ### -AppServicePlan
-@{Text=}
+Specifies an object that contains details about the Azure App Service plan.
 
 ```yaml
 Type: ServerFarmWithRichSku
 Parameter Sets: S2
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -72,12 +68,12 @@ Accept wildcard characters: False
 ```
 
 ### -Location
-@{Text=}
+Specifies the location of the App Service plan.
 
 ```yaml
 Type: String
 Parameter Sets: S3
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -92,7 +88,7 @@ Specifies the name of the web app to get.
 ```yaml
 Type: String
 Parameter Sets: S1
-Aliases: 
+Aliases:
 
 Required: False
 Position: 1
@@ -107,7 +103,7 @@ Specifies the name of the resource group that contains the web app.
 ```yaml
 Type: String
 Parameter Sets: S1
-Aliases: 
+Aliases:
 
 Required: False
 Position: 0
@@ -121,19 +117,22 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## INPUTS
 
+### None
+
 ## OUTPUTS
+
+### None
 
 ## NOTES
 
 ## RELATED LINKS
 
-[New-AzureRMWebApp]()
+[New-AzureRmWebApp](./New-AzureRmWebApp.md)
 
-[Remove-AzureRMWebApp]()
+[Remove-AzureRmWebApp](./Remove-AzureRmWebApp.md)
 
-[Restart-AzureRMWebApp]()
+[Restart-AzureRmWebApp](./Restart-AzureRmWebApp.md)
 
-[Start-AzureRMWebApp]()
+[Start-AzureRmWebApp](./Start-AzureRmWebApp.md)
 
-[Stop-AzureRMWebApp]()
-
+[Stop-AzureRmWebApp](./Stop-AzureRmWebApp.md)

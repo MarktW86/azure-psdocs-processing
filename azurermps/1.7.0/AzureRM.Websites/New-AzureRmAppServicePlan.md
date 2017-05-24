@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.Websites.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 03/23/2017 22:03 PM
-ms.date: 03/23/2017
+updated_at: 05/24/2017 22:05 PM
+ms.date: 05/24/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v1.1.3/New-AzureRmAppServicePlan.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v1.1.3/New-AzureRmAppServicePlan.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/535e2e74f053db46eadf4681f4a95ece9f189378
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2d4a4fe807f8dce278c44747fc746934ed66d9fe
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -19,7 +19,7 @@ ms.service: Websites
 # New-AzureRmAppServicePlan
 
 ## SYNOPSIS
-Creates an App Service plan.
+Creates an Azure App Service plan.
 
 ## SYNTAX
 
@@ -38,31 +38,26 @@ New-AzureRmAppServicePlan [-Location] <String> [[-Tier] <String>] [[-NumberofWor
 ```
 
 ## DESCRIPTION
-The New-AzureRmAppServicePlan cmdlet creates an Azure App Service plan in a specified geo location with the specified SKU, worker size, and number of workers.
+The **New-AzureRmAppServicePlan** cmdlet creates an Azure App Service plan in the specified geographical location with the specified tier, worker size, and number of workers.
 
 ## EXAMPLES
 
-### --------------------------  Example 1: Create an App Service plan  --------------------------
-@{paragraph=PS C:\\\>}
-
-
-
+### Example 1: Create an App Service plan
 ```
-PS C:\>New-AzureRmAppServicePlan -ResourceGroupName "Default-Web-WestUS" -Name "MyServicePlan" -Location "West US" -Sku "Basic" -NumberofWorkers 2 -WorkerSize "Small"
+PS C:\>New-AzureRmAppServicePlan -ResourceGroupName "Default-Web-WestUS" -Name "MyServicePlan" -Location "West US" -Tier "Basic" -NumberofWorkers 2 -WorkerSize "Small"
 ```
 
-This command creates an App Service plan named MyServicePlan in the geo location West US.
-The command specifies a Basic SKU and allocates two workers.
+This example creates an App Service plan named "MyServicePlan" in the geographical location "West US" with a basic tier.
 
 ## PARAMETERS
 
 ### -AppServicePlan
-@{Text=}
+Specifies an object that contains details about the App Service plan.
 
 ```yaml
 Type: ServerFarmWithRichSku
 Parameter Sets: S2
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -72,12 +67,12 @@ Accept wildcard characters: False
 ```
 
 ### -AseName
-@{Text=}
+Specifies the name of the App Service environment.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 6
@@ -87,12 +82,12 @@ Accept wildcard characters: False
 ```
 
 ### -AseResourceGroupName
-@{Text=}
+Specifies the name of the resource group for the App Service environment.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 7
@@ -102,12 +97,12 @@ Accept wildcard characters: False
 ```
 
 ### -Location
-Specifies the geo location for the App Service plan.
+Specifies the geographical location of the App Service plan.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 2
@@ -117,12 +112,12 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-Specifies the name of the App Service plan to create.
+Specifies the name of the App Service plan.
 
 ```yaml
 Type: String
 Parameter Sets: S1
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -132,12 +127,12 @@ Accept wildcard characters: False
 ```
 
 ### -NumberofWorkers
-Specifies the number of workers to allocate.
+Specifies the number of workers to allow in the App Service plan.
 
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 4
@@ -147,12 +142,12 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Specifies the name of the resource group to contain the App Service plan.
+Specifies the name of the resource group that will contain the new App Service plan.
 
 ```yaml
 Type: String
 Parameter Sets: S1
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -162,12 +157,13 @@ Accept wildcard characters: False
 ```
 
 ### -Tier
-@{Text=}
+Specifies the pricing tier. The valid values are: Free, Shared, Basic, Standard, and Premium.
+The default is Free.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 3
@@ -177,12 +173,13 @@ Accept wildcard characters: False
 ```
 
 ### -WorkerSize
-Specifies the size of the workers.
+Specifies the size of the worker pool.
+Valid values are: Small, Medium, and Large.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 5
@@ -202,9 +199,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRMAppServicePlan]()
+[Get-AzureRmAppServicePlan](./Get-AzureRmAppServicePlan.md)
 
-[Remove-AzureRMAppServicePlan]()
+[Remove-AzureRmAppServicePlan](./Remove-AzureRmAppServicePlan.md)
 
-[Set-AzureRMAppServicePlan]()
-
+[Set-AzureRmAppServicePlan](./Set-AzureRmAppServicePlan.md)

@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.Websites.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 03/23/2017 22:03 PM
-ms.date: 03/23/2017
+updated_at: 05/24/2017 22:05 PM
+ms.date: 05/24/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v1.1.3/Get-AzureRmWebAppSlotConfigName.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v1.1.3/Get-AzureRmWebAppSlotConfigName.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/535e2e74f053db46eadf4681f4a95ece9f189378
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2d4a4fe807f8dce278c44747fc746934ed66d9fe
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -19,7 +19,7 @@ ms.service: Websites
 # Get-AzureRmWebAppSlotConfigName
 
 ## SYNOPSIS
-Get the list of Web App Slot Config names
+Gets the configuration settings that apply to a web app slot.
 
 ## SYNTAX
 
@@ -34,26 +34,27 @@ Get-AzureRmWebAppSlotConfigName [-WebApp] <Site> [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-The cmdlet retrieves the list of App Setting and Connection String names that are currently marked as slot settings
+The **Get-AzureRmWebAppSlotConfigName** cmdlet gets the configuration settings that apply to a web app slot.
+The configuration settings include application settings and connection strings.
 
 ## EXAMPLES
 
-### Example 1
+### Example 1: Get configuration settings for a slot
 ```
-PS C:\> {{ Add example code here }}
+Get-AzureRmWebAppSlotConfigName -ResourceGroupName "Default-Web-WestUS" -Name "ContosoSite"
 ```
 
-{{ Add example description here }}
+This example gets configuration settings for a slot pertaining to the web app named "ContosoSite" in the "Default-Web-WestUS" resource group.
 
 ## PARAMETERS
 
 ### -Name
-@{Text=}
+Specifies the name of the web app that is deployed in the slot.
 
 ```yaml
 Type: String
 Parameter Sets: S1
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -63,12 +64,12 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-@{Text=}
+Specifies the name of the resource group that contains the web app.
 
 ```yaml
 Type: String
 Parameter Sets: S1
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -78,12 +79,12 @@ Accept wildcard characters: False
 ```
 
 ### -WebApp
-@{Text=}
+Specifies a **WebApp** object that contains details about the web app.
 
 ```yaml
 Type: Site
 Parameter Sets: S2
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -103,3 +104,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
+[New-AzureRMWebAppSlot](./New-AzureRMWebAppSlot.md)
+
+[Set-AzureRmWebAppSlotConfigName](./Set-AzureRmWebAppSlotConfigName.md)

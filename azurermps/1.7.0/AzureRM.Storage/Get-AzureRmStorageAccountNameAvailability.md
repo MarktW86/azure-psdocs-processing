@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.Management.Storage.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 03/23/2017 22:03 PM
-ms.date: 03/23/2017
+updated_at: 05/24/2017 22:05 PM
+ms.date: 05/24/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Storage/v1.1.3/Get-AzureRmStorageAccountNameAvailability.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Storage/v1.1.3/Get-AzureRmStorageAccountNameAvailability.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/535e2e74f053db46eadf4681f4a95ece9f189378
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2d4a4fe807f8dce278c44747fc746934ed66d9fe
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -19,7 +19,7 @@ ms.service: storage
 # Get-AzureRmStorageAccountNameAvailability
 
 ## SYNOPSIS
-Check the availability of a storage account name.
+Checks the availability of a name for an Azure storage account.
 
 ## SYNTAX
 
@@ -29,23 +29,30 @@ Get-AzureRmStorageAccountNameAvailability [-Name] <String> [-InformationAction <
 ```
 
 ## DESCRIPTION
-This cmdlet allows you to check whether the specified storage account name is valid or available to use.
+The **Get-AzureRmStorageAccountNameAvailability** cmdlet checks whether a name is valid and available to use for an Azure storage account.
 
 ## EXAMPLES
 
-### --------------------------  Check availability of a storage account name  --------------------------
-@{paragraph=PS C:\\\>}
-
-
-
+### Example 1: Check the availability of a storage account name
 ```
-PS C:\> Get-AzureRmStorageAccountNameAvailability -Name "myaccountname"
+Get-AzureRmStorageAccountNameAvailability -Name "ContosoStorage03"
 ```
+
+This example checks the availability of the name "ContosoStorage03".
 
 ## PARAMETERS
 
 ### -InformationAction
-@{Text=}
+Specifies how this cmdlet responds to an information event.
+
+The acceptable values for this parameter are:
+
+- Continue
+- Ignore
+- Inquire
+- SilentlyContinue
+- Stop
+- Suspend
 
 ```yaml
 Type: ActionPreference
@@ -60,7 +67,7 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}
+Specifies a variable that is used for storing an informational message.
 
 ```yaml
 Type: String
@@ -75,7 +82,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-Storage account name to be checked.
+Specifies the name that this cmdlet checks.
 
 ```yaml
 Type: String
@@ -94,9 +101,14 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## INPUTS
 
+### None
+
 ## OUTPUTS
+
+### None
 
 ## NOTES
 
 ## RELATED LINKS
 
+[Azure Storage Manager Cmdlets](./AzureRM.Storage.md)

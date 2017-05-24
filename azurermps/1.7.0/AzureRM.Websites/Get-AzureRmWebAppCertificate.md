@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.Websites.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 03/23/2017 22:03 PM
-ms.date: 03/23/2017
+updated_at: 05/24/2017 22:05 PM
+ms.date: 05/24/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v1.1.3/Get-AzureRmWebAppCertificate.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v1.1.3/Get-AzureRmWebAppCertificate.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/535e2e74f053db46eadf4681f4a95ece9f189378
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2d4a4fe807f8dce278c44747fc746934ed66d9fe
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -19,6 +19,7 @@ ms.service: Websites
 # Get-AzureRmWebAppCertificate
 
 ## SYNOPSIS
+Gets web app certificates.
 
 ## SYNTAX
 
@@ -27,25 +28,27 @@ Get-AzureRmWebAppCertificate [[-ResourceGroupName] <String>] [[-Thumbprint] <Str
 ```
 
 ## DESCRIPTION
+The **Get-AzureRmWebAppCertificate** cmdlet gets web app certificates that are associated with a resource group.
+If you know the certificate thumbprint, you can also use this cmdlet to get information about a specific certificate.
 
 ## EXAMPLES
 
-### Example 1
+### Example 1: Get a specific web app certificate
 ```
-PS C:\> {{ Add example code here }}
+Get-AzureRmWebAppCertificate -ResourceGroupName "Contoso" -Thumbprint "E3A38EBA60CAA1C162785A2E1C44A15AD450199C3"
 ```
 
-{{ Add example description here }}
+This example gets the certificate with the thumbprint "E3A38EBA60CAA1C162785A2E1C44A15AD450199C3" associated with the "Contoso" resource group.
 
 ## PARAMETERS
 
 ### -ResourceGroupName
-@{Text=}
+Specifies the resource group with which the certificate is associated.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 0
@@ -55,12 +58,12 @@ Accept wildcard characters: False
 ```
 
 ### -Thumbprint
-@{Text=}
+Specifies the thumbprint of the certificate.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 1
@@ -80,3 +83,4 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
+[Get-AzureRmWebAppSSLBinding](./Get-AzureRmWebAppSSLBinding.md)

@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.Websites.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 03/23/2017 22:03 PM
-ms.date: 03/23/2017
+updated_at: 05/24/2017 22:05 PM
+ms.date: 05/24/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v1.1.3/Get-AzureRmAppServicePlan.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v1.1.3/Get-AzureRmAppServicePlan.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/535e2e74f053db46eadf4681f4a95ece9f189378
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2d4a4fe807f8dce278c44747fc746934ed66d9fe
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -19,7 +19,7 @@ ms.service: Websites
 # Get-AzureRmAppServicePlan
 
 ## SYNOPSIS
-Gets an App Service plan.
+Gets the Azure App Service plan.
 
 ## SYNTAX
 
@@ -34,30 +34,26 @@ Get-AzureRmAppServicePlan [-Location] <String> [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-The Get-AzureRmAppServicePlan cmdlet gets an Azure App Service plan in the specified resource group.
+The **Get-AzureRmAppServicePlan** cmdlet gets the Azure App Service plan.
 
 ## EXAMPLES
 
-### --------------------------  Example 1: Get an App Service plan  --------------------------
-@{paragraph=PS C:\\\>}
-
-
-
+### Example 1: Get the app service plan in the specified resource group
 ```
-PS C:\>Get-AzureRmAppServicePlan -Name "MyServicePlan" -ResourceGroupName "Default-Web-WestUS"
+Get-AzureRmAppServicePlan -Name "MyServicePlan" -ResourceGroupName "Default-Web-WestUS"
 ```
 
-This command gets the App Service plan named MyServicePlan in the resource group named Default-Web-WestUS.
+This example gets the App Service plan named "MyServicePlan" in the resource group named "Default-Web-WestUS".
 
 ## PARAMETERS
 
 ### -Location
-@{Text=}
+Specifies the location of the App Service plan.
 
 ```yaml
 Type: String
 Parameter Sets: S2
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -72,7 +68,7 @@ Specifies the name of the App Service plan to get.
 ```yaml
 Type: String
 Parameter Sets: S1
-Aliases: 
+Aliases:
 
 Required: False
 Position: 1
@@ -82,12 +78,12 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Specifies the name of the resource group that contains the App Service plan to get.
+Specifies the name of the resource group that contains the App Service plan.
 
 ```yaml
 Type: String
 Parameter Sets: S1
-Aliases: 
+Aliases:
 
 Required: False
 Position: 0
@@ -101,15 +97,18 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## INPUTS
 
+### None
+
 ## OUTPUTS
+
+### None
 
 ## NOTES
 
 ## RELATED LINKS
 
-[New-AzureRMAppServicePlan]()
+[New-AzureRmAppServicePlan](./New-AzureRmAppServicePlan.md)
 
-[Remove-AzureRMAppServicePlan]()
+[Remove-AzureRmAppServicePlan](./Remove-AzureRmAppServicePlan.md)
 
-[Set-AzureRMAppServicePlan]()
-
+[Set-AzureRmAppServicePlan](./Set-AzureRmAppServicePlan.md)

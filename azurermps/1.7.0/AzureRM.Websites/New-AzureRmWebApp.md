@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.Websites.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 03/23/2017 22:03 PM
-ms.date: 03/23/2017
+updated_at: 05/24/2017 22:05 PM
+ms.date: 05/24/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v1.1.3/New-AzureRmWebApp.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v1.1.3/New-AzureRmWebApp.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/535e2e74f053db46eadf4681f4a95ece9f189378
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2d4a4fe807f8dce278c44747fc746934ed66d9fe
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -19,7 +19,7 @@ ms.service: Websites
 # New-AzureRmWebApp
 
 ## SYNOPSIS
-Creates a web app.
+Creates a web app that is built using the Web Apps feature of the Azure App Service.
 
 ## SYNTAX
 
@@ -40,30 +40,27 @@ New-AzureRmWebApp [-ResourceGroupName] <String> [-Name] <String> [-Location] <St
 ```
 
 ## DESCRIPTION
-The New-AzureRmWebApp creates an Azure web app in a specified resource group using the specified App Service plan and data center.
+The **New-AzureRmWebApp** creates a web app that is built using the Web Apps feature of the Azure App Service.
+The web app is created in the specified resource group and is assigned to the specified App Service plan and data center.
 
 ## EXAMPLES
 
-### --------------------------  Example 1: Create a web app  --------------------------
-@{paragraph=PS C:\\\>}
-
-
-
+### Example 1: Create a web app in the specified resource group
 ```
-PS C:\>New-AzureRmWebApp -ResourceGroupName "Default-Web-WestUS" -Name "MyFirstSite" -Location "West US" -AppServicePlan "MyAppServicePlan"
+New-AzureRmWebApp -ResourceGroupName "Default-Web-WestUS" -Name "MyFirstSite" -Location "West US" -AppServicePlan "MyAppServicePlan"
 ```
 
-This command creates an Azure web app named MyFirstSite in the specified resource group and  data center, with  the existing App Service plan MyAppServicePlan.
+This example creates a web app named "MyFirstSite" in the "Default-Web-WestUS" resource group and assigns the web app to the App Service plan named "MyAppServicePlan".
 
 ## PARAMETERS
 
 ### -AppServicePlan
-Specifies the App Service plan for the web app.
+Specifies the App Service plan to which the web app is assigned.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 3
@@ -73,12 +70,12 @@ Accept wildcard characters: False
 ```
 
 ### -AppSettingsOverrides
-@{Text=}
+Specifies a list of web app settings to be overridden.
 
 ```yaml
 Type: Hashtable
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 8
@@ -88,12 +85,12 @@ Accept wildcard characters: False
 ```
 
 ### -AseName
-@{Text=}
+Specifies the name of the App Service environment.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 9
@@ -103,12 +100,12 @@ Accept wildcard characters: False
 ```
 
 ### -AseResourceGroupName
-@{Text=}
+Specifies the name of the resource group for the App Service environment.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 9
@@ -118,12 +115,12 @@ Accept wildcard characters: False
 ```
 
 ### -IgnoreCustomHostNames
-@{Text=}
+Indicates whether to ignore custom host names.
 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 7
@@ -133,12 +130,12 @@ Accept wildcard characters: False
 ```
 
 ### -IgnoreSourceControl
-@{Text=}
+Indicates whether to ignore source control of the web app.
 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 6
@@ -148,12 +145,12 @@ Accept wildcard characters: False
 ```
 
 ### -IncludeSourceWebAppSlots
-@{Text=}
+Indicates whether to include the deployment slots of the web app.
 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 10
@@ -163,12 +160,12 @@ Accept wildcard characters: False
 ```
 
 ### -Location
-Specifies the data center location.
+Specifies the geographical location of the data center for the web app.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 2
@@ -183,7 +180,7 @@ Specifies the name of the web app.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -193,12 +190,12 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Specifies the name of the resource group to contain the web app.
+Specifies the name of the resource group that will contain the web app.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -208,12 +205,12 @@ Accept wildcard characters: False
 ```
 
 ### -SourceWebApp
-@{Text=}
+Specifies a **WebApp** object that contains details about the web app.
 
 ```yaml
 Type: Site
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 4
@@ -223,12 +220,12 @@ Accept wildcard characters: False
 ```
 
 ### -TrafficManagerProfileId
-@{Text=}
+Specifies the resource ID of the traffic manager profile.
 
 ```yaml
 Type: String
 Parameter Sets: S1
-Aliases: 
+Aliases:
 
 Required: False
 Position: 5
@@ -238,12 +235,12 @@ Accept wildcard characters: False
 ```
 
 ### -TrafficManagerProfileName
-@{Text=}
+Specifies the name of the traffic manager profile.
 
 ```yaml
 Type: String
 Parameter Sets: S2
-Aliases: 
+Aliases:
 
 Required: False
 Position: 5
@@ -263,13 +260,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRMWebApp]()
+[Get-AzureRmWebApp](./Get-AzureRmWebApp.md)
 
-[Remove-AzureRMWebApp]()
+[Remove-AzureRmWebApp](./Remove-AzureRmWebApp.md)
 
-[Restart-AzureRMWebApp]()
+[Restart-AzureRmWebApp](./Restart-AzureRmWebApp.md)
 
-[Start-AzureRMWebApp]()
+[Start-AzureRmWebApp](./Start-AzureRmWebApp.md)
 
-[Stop-AzureRMWebApp]()
-
+[Stop-AzureRmWebApp](./Stop-AzureRmWebApp.md)

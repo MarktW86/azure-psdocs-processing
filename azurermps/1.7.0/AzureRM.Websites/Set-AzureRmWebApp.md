@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.Websites.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 03/23/2017 22:03 PM
-ms.date: 03/23/2017
+updated_at: 05/24/2017 22:05 PM
+ms.date: 05/24/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v1.1.3/Set-AzureRmWebApp.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v1.1.3/Set-AzureRmWebApp.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/535e2e74f053db46eadf4681f4a95ece9f189378
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2d4a4fe807f8dce278c44747fc746934ed66d9fe
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -19,6 +19,7 @@ ms.service: Websites
 # Set-AzureRmWebApp
 
 ## SYNOPSIS
+Modifies a web app.
 
 ## SYNTAX
 
@@ -41,25 +42,26 @@ Set-AzureRmWebApp [[-Use32BitWorkerProcess] <Boolean>] [-AutoSwapSlotName <Strin
 ```
 
 ## DESCRIPTION
+The **Set-AzureRmWebApp** cmdlet modifies a web app that is built using the Web Apps feature of the Azure App Service.
 
 ## EXAMPLES
 
-### Example 1
+### Example 1: Set the property of a web app to enable HTTP logging
 ```
-PS C:\> {{ Add example code here }}
+PS C:\> Set-AzureRmWebApp -ResourceGroupName "Default-Web-WestUS" -Name "ContosoWebApp" -HttpLoggingEnabled $true
 ```
 
-{{ Add example description here }}
+This example sets a property to enable HTTP logging for a web app named "ContosoWebApp" in the "Default-Web-WestUS" resource group.
 
 ## PARAMETERS
 
 ### -AppServicePlan
-@{Text=}
+Specifies the name of the App Service plan to which the web app is assigned.
 
 ```yaml
 Type: String
 Parameter Sets: S1
-Aliases: 
+Aliases:
 
 Required: False
 Position: 2
@@ -69,12 +71,12 @@ Accept wildcard characters: False
 ```
 
 ### -AppSettings
-@{Text=}
+Specifies the environment variables to be used by the web app.
 
 ```yaml
 Type: Hashtable
 Parameter Sets: S1
-Aliases: 
+Aliases:
 
 Required: False
 Position: 9
@@ -84,12 +86,12 @@ Accept wildcard characters: False
 ```
 
 ### -AutoSwapSlotName
-Destination slot name for auto swap
+Specifies the name of the destination slot for an auto swap.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -99,12 +101,12 @@ Accept wildcard characters: False
 ```
 
 ### -ConnectionStrings
-@{Text=}
+Specifies the connection strings used by the web app.
 
 ```yaml
 Type: Hashtable
 Parameter Sets: S1
-Aliases: 
+Aliases:
 
 Required: False
 Position: 10
@@ -114,12 +116,12 @@ Accept wildcard characters: False
 ```
 
 ### -DefaultDocuments
-@{Text=}
+Specifies the documents that are automatically displayed by the web app.
 
 ```yaml
 Type: String[]
 Parameter Sets: S1
-Aliases: 
+Aliases:
 
 Required: False
 Position: 3
@@ -129,12 +131,12 @@ Accept wildcard characters: False
 ```
 
 ### -DetailedErrorLoggingEnabled
-@{Text=}
+Indicates whether to log detailed Internet Information Services (IIS) errors for the web app.
 
 ```yaml
 Type: Boolean
 Parameter Sets: S1
-Aliases: 
+Aliases:
 
 Required: False
 Position: 8
@@ -144,12 +146,13 @@ Accept wildcard characters: False
 ```
 
 ### -HandlerMappings
-@{Text=}
+Specifies the IIS handler mappings that are used by the web app.
+The handler mappings define which handler processes HTTP requests that have certain extensions.
 
 ```yaml
 Type: System.Collections.Generic.IList`1[Microsoft.Azure.Management.WebSites.Models.HandlerMapping]
 Parameter Sets: S1
-Aliases: 
+Aliases:
 
 Required: False
 Position: 11
@@ -159,12 +162,12 @@ Accept wildcard characters: False
 ```
 
 ### -HostNames
-@{Text=}
+Specifies the fully qualified host names that can be used to access the web app.
 
 ```yaml
 Type: String[]
 Parameter Sets: S1
-Aliases: 
+Aliases:
 
 Required: False
 Position: 15
@@ -174,12 +177,12 @@ Accept wildcard characters: False
 ```
 
 ### -HttpLoggingEnabled
-@{Text=}
+Indicates whether to enable HTTP logging for the web app.
 
 ```yaml
 Type: Boolean
 Parameter Sets: S1
-Aliases: 
+Aliases:
 
 Required: False
 Position: 7
@@ -189,12 +192,12 @@ Accept wildcard characters: False
 ```
 
 ### -ManagedPipelineMode
-@{Text=}
+Specifies the managed pipeline mode.
 
 ```yaml
 Type: String
 Parameter Sets: S1
-Aliases: 
+Aliases:
 
 Required: False
 Position: 12
@@ -204,12 +207,12 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-@{Text=}
+Specifies the name of the web app.
 
 ```yaml
 Type: String
 Parameter Sets: S1
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -219,12 +222,12 @@ Accept wildcard characters: False
 ```
 
 ### -NetFrameworkVersion
-@{Text=}
+Specifies the version of the .Net Framework that is required by the web app.
 
 ```yaml
 Type: String
 Parameter Sets: S1
-Aliases: 
+Aliases:
 
 Required: False
 Position: 4
@@ -234,12 +237,12 @@ Accept wildcard characters: False
 ```
 
 ### -PhpVersion
-@{Text=}
+Specifies the PHP version that is required by the web app.
 
 ```yaml
 Type: String
 Parameter Sets: S1
-Aliases: 
+Aliases:
 
 Required: False
 Position: 5
@@ -249,12 +252,12 @@ Accept wildcard characters: False
 ```
 
 ### -RequestTracingEnabled
-@{Text=}
+Indicates whether to enable request-tracing for the web app.
 
 ```yaml
 Type: Boolean
 Parameter Sets: S1
-Aliases: 
+Aliases:
 
 Required: False
 Position: 6
@@ -264,12 +267,12 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-@{Text=}
+Specifies the name of the resource group that contains the web app.
 
 ```yaml
 Type: String
 Parameter Sets: S1
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -279,12 +282,12 @@ Accept wildcard characters: False
 ```
 
 ### -Use32BitWorkerProcess
-@{Text=}
+Indicates whether to enable 32-bit mode.
 
 ```yaml
 Type: Boolean
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 14
@@ -294,12 +297,12 @@ Accept wildcard characters: False
 ```
 
 ### -WebApp
-@{Text=}
+Specifies a **WebApp** object that contains details about the web app.
 
 ```yaml
 Type: Site
 Parameter Sets: S2
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -309,12 +312,12 @@ Accept wildcard characters: False
 ```
 
 ### -WebSocketsEnabled
-@{Text=}
+Indicates whether to enable WebSockets for the web app.
 
 ```yaml
 Type: Boolean
 Parameter Sets: S1
-Aliases: 
+Aliases:
 
 Required: False
 Position: 13
@@ -334,3 +337,14 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
+[Get-AzureRmWebApp](./Get-AzureRmWebApp.md)
+
+[New-AzureRmWebApp](./New-AzureRmWebApp.md)
+
+[Remove-AzureRmWebApp](./Remove-AzureRmWebApp.md)
+
+[Restart-AzureRmWebApp](./Restart-AzureRmWebApp.md)
+
+[Start-AzureRmWebApp](./Start-AzureRmWebApp.md)
+
+[Stop-AzureRmWebApp](./Stop-AzureRmWebApp.md)

@@ -2,11 +2,11 @@
 external help file: Microsoft.Azure.Commands.Websites.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 03/23/2017 22:03 PM
-ms.date: 03/23/2017
+updated_at: 05/24/2017 22:05 PM
+ms.date: 05/24/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v1.1.3/Restart-AzureRmWebApp.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne2017/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v1.1.3/Restart-AzureRmWebApp.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/535e2e74f053db46eadf4681f4a95ece9f189378
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2d4a4fe807f8dce278c44747fc746934ed66d9fe
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -19,7 +19,7 @@ ms.service: Websites
 # Restart-AzureRmWebApp
 
 ## SYNOPSIS
-Stops and starts a web app.
+Stops and then restarts a web app.
 
 ## SYNTAX
 
@@ -34,22 +34,17 @@ Restart-AzureRmWebApp [-WebApp] <Site> [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-The Restart-AzureRmWebApp cmdlet stops and then starts an Azure web app.
-
-If a web app is already in a stopped state, use the Start-AzureRMWebApp command to start the web app.
+The **Restart-AzureRmWebApp** cmdlet stops and then restarts a web app that was built using the Web Apps feature of the Azure App Service.
+If the web app is already in a stopped state, use the **Start-AzureRMWebApp** cmdlet to start the web app.
 
 ## EXAMPLES
 
-### --------------------------  Example 1: Restart a web app  --------------------------
-@{paragraph=PS C:\\\>}
-
-
-
+### Example 1: Restart a web app
 ```
-PS C:\>Restart-AzureRmWebApp -Name "MyFirstSite" -ResourceGroupName "Default-Web-WestUS"
+Restart-AzureRmWebApp -ResourceGroupName "Default-Web-WestUS" -Name "ContosoSite"
 ```
 
-This command stops the site named MyFirstSite and then restarts it.
+This example stops the web app named "ContosoSite" that belongs to the resource group named "Default-Web-WestUS" and then restarts it.
 
 ## PARAMETERS
 
@@ -59,7 +54,7 @@ Specifies the name of the web app to restart.
 ```yaml
 Type: String
 Parameter Sets: S1
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -74,7 +69,7 @@ Specifies the name of the resource group that contains the web app.
 ```yaml
 Type: String
 Parameter Sets: S1
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -84,12 +79,12 @@ Accept wildcard characters: False
 ```
 
 ### -WebApp
-@{Text=}
+Specifies a **WebApp** object that contains details about the web app to restart.
 
 ```yaml
 Type: Site
 Parameter Sets: S2
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -109,13 +104,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureRMWebApp]()
+[Get-AzureRmWebApp](./Get-AzureRmWebApp.md)
 
-[New-AzureRMWebApp]()
+[New-AzureRmWebApp](./New-AzureRmWebApp.md)
 
-[Remove-AzureRMWebApp]()
+[Remove-AzureRmWebApp](./Remove-AzureRmWebApp.md)
 
-[Start-AzureRMWebApp]()
+[Start-AzureRmWebApp](./Start-AzureRmWebApp.md)
 
-[Stop-AzureRMWebApp]()
-
+[Stop-AzureRmWebApp](./Stop-AzureRmWebApp.md)
