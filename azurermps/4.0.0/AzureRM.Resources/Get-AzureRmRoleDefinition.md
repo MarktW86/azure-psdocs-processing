@@ -6,8 +6,8 @@ schema: 2.0.0
 content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/Resources/Commands.Resources/help/Get-AzureRmRoleDefinition.md
 original_content_git_url: https://github.com/Azure/azure-powershell/blob/preview/src/ResourceManager/Resources/Commands.Resources/help/Get-AzureRmRoleDefinition.md
 gitcommit: https://github.com/Azure/azure-powershell/blob/39673ed92d863c7fba7fbbdb0d919d03c552b71b
-updated_at: 05/12/2017 03:05 AM
-ms.date: 05/12/2017
+updated_at: 05/24/2017 17:05 PM
+ms.date: 05/24/2017
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -67,7 +67,7 @@ If specified, displays all role definitions.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: RoleDefinitionNameParameterSet, RoleDefinitionCustomParameterSet
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -82,7 +82,7 @@ If specified, only displays the custom created roles in the directory.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: RoleDefinitionCustomParameterSet
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -97,7 +97,7 @@ Role definition Id.
 ```yaml
 Type: Guid
 Parameter Sets: RoleDefinitionIdParameterSet
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -114,7 +114,7 @@ Reader, Contributor, Virtual Machine Contributor.
 ```yaml
 Type: String
 Parameter Sets: RoleDefinitionNameParameterSet
-Aliases: 
+Aliases:
 
 Required: False
 Position: 0
@@ -129,7 +129,7 @@ Role definition scope.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -150,11 +150,10 @@ Keywords: azure, azurerm, arm, resource, management, manager, resource, group, t
 
 ## RELATED LINKS
 
-[New-AzureRmRoleAssignment]()
+[New-AzureRmRoleAssignment](./New-AzureRmRoleAssignment)
 
-[Get-AzureRmRoleAssignment]()
+[Get-AzureRmRoleAssignment](./Get-AzureRmRoleAssignment)
 
-[New-AzureRmRoleDefinition]()
+[New-AzureRmRoleDefinition](./New-AzureRmRoleDefinition)
 
-[Remove-AzureRmRoleDefinition]()
-
+[Remove-AzureRmRoleDefinition](./Remove-AzureRmRoleDefinition)
