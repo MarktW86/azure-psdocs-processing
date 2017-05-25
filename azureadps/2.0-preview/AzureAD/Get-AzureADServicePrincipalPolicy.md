@@ -5,8 +5,8 @@ online version:
 schema: 2.0.0
 updated_at: 05/17/2017 00:05 AM
 ms.date: 05/17/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2preview/Get-AzureADServicePrincipalPolicy.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2preview/Get-AzureADServicePrincipalPolicy.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/VinceSmith-patch-3/Azure%20AD%20Cmdlets/AzureAD/v2preview/Get-AzureADServicePrincipalPolicy.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/VinceSmith-patch-3/Azure%20AD%20Cmdlets/AzureAD/v2preview/Get-AzureADServicePrincipalPolicy.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/01e902cbf3d12152e7962e12af0854ff3cf951e6
 ms.topic: reference
 ms.service: active-directory
