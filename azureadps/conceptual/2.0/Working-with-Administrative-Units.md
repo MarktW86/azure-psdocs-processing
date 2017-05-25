@@ -1,8 +1,9 @@
 ---
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/docs-conceptual/Working-with-Administrative-Units.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/docs-conceptual/Working-with-Administrative-Units.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/a75939b93b9ae818b019b2f44fb7085010c996f1
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/832ce93b20bf5d1f57167ff757aa1e2badc75c15
 ---
+
 # Working with Administrative Units
 
 Here are some demo scripts that you can use to learn how to use Azure AD PowerShell to work with Administrative Units. These scripts form a complete demo - You'll setup a demo environment for Administrative Units in your directory, see how to create and populate Administrative Units as a Global Admin and assign roles to delegated admins, and you'll see the effects of your actions when you sign in as a delegated admin, and finally there is a cleanup script to clean up all the object we created in this demo.
@@ -29,6 +30,16 @@ New-AzureADUser -UserPrincipalName "WestCoastHelpdeskAdmin@$initialDomain" -Disp
 New-AzureADUser -UserPrincipalName "EastCoastUserAdmin@$initialDomain" -DisplayName "EastCoastUserAdmin" -PasswordProfile $passwordProfile -UsageLocation "US" -AccountEnabled $true -MailNickName "EastCoastUserAdmin"
 New-AzureADUser -UserPrincipalName "EastCoastHelpdeskAdmin@$initialDomain" -DisplayName "EastCoastPasswordAdmin" -PasswordProfile $passwordProfile -UsageLocation "US" -AccountEnabled $true -MailNickName "EastCoastPasswordAdmin"
 New-AzureADUser -UserPrincipalName "MobileUserAdmin@$initialDomain" -DisplayName "MobileUserAdmin" -PasswordProfile $passwordProfile -UsageLocation "US" -AccountEnabled $true -MailNickName "MobileUserAdmin"
+
+# Enable the Helpdesk Administrator Role
+$helpDeskAdminRole = New-Object Microsoft.Open.AzureAD.Model.DirectoryRole
+$helpDeskAdminRole.RoleTemplateId = "729827e3-9c14-49f7-bb1b-9608f156bbb8"
+Enable-AzureADDirectoryRole -DirectoryRole $helpDeskAdminRole
+
+# Enable the User Account Administrator Role
+$userAdminAdminRole = New-Object Microsoft.Open.AzureAD.Model.DirectoryRole
+$userAdminAdminRole.RoleTemplateId = "fe930be7-5e62-47db-91af-98c3a49a38b1"
+Enable-AzureADDirectoryRole -DirectoryRole $userAdminAdminRole
 
 ```
 
