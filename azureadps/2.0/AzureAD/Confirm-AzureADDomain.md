@@ -5,8 +5,8 @@ online version:
 schema: 2.0.0
 updated_at: 04/20/2017 04:04 AM
 ms.date: 04/20/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Confirm-AzureADDomain.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Confirm-AzureADDomain.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/VinceSmith-patch-2/Azure%20AD%20Cmdlets/AzureAD/v2/Confirm-AzureADDomain.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/VinceSmith-patch-2/Azure%20AD%20Cmdlets/AzureAD/v2/Confirm-AzureADDomain.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/abfb2c522d49d9dc91d64da7a6f7c105be1fd780
 ms.topic: reference
 ms.service: active-directory

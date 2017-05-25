@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: D7479CDA-88DF-4B4E-9F2D-688C7371893E
 updated_at: 11/09/2016 19:11 PM
 ms.date: 11/09/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolFederationProperty.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolFederationProperty.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/VinceSmith-patch-2/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolFederationProperty.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/VinceSmith-patch-2/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolFederationProperty.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/2ed1dc4a4cad9328c634640b8f50d00798f6278b
 ms.topic: reference
 ms.service: active-directory

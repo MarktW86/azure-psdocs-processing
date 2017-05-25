@@ -1,6 +1,6 @@
 ---
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/docs-conceptual/new-user-sample.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/docs-conceptual/new-user-sample.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/VinceSmith-patch-2/Azure%20AD%20Cmdlets/docs-conceptual/new-user-sample.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/VinceSmith-patch-2/Azure%20AD%20Cmdlets/docs-conceptual/new-user-sample.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/859b4f8a31d1a0bed4c6298c8b6a557f35f232df
 ---
 # Creating a new user in Azure AD
