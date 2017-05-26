@@ -10,8 +10,8 @@ ms.service: powershell
 ms.devlang: powershell
 ms.topic: reference
 ms.date: 03/06/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/docs-conceptual/install-azure-ps.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/docs-conceptual/install-azure-ps.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/azureps-cmdlets-docs/ServiceManagement/docs-conceptual/install-azure-ps.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/azureps-cmdlets-docs/ServiceManagement/docs-conceptual/install-azure-ps.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/ef6e96dacc8556911a097aec10c4de725a5be2fd
 open_to_public_contributors: true
 ---
