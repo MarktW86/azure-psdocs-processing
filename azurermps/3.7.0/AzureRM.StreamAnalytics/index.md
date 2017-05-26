@@ -5,8 +5,8 @@ Locale: en-US
 ms.assetid: 98527FA7-7364-42DC-BC2B-EE75E8EC02A2
 updated_at: 03/11/2017 02:03 AM
 ms.date: 03/11/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.StreamAnalytics/v2.7.0/AzureRM.StreamAnalytics.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.StreamAnalytics/v2.7.0/AzureRM.StreamAnalytics.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/azureps-cmdlets-docs/ResourceManager/AzureRM.StreamAnalytics/v2.7.0/AzureRM.StreamAnalytics.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/azureps-cmdlets-docs/ResourceManager/AzureRM.StreamAnalytics/v2.7.0/AzureRM.StreamAnalytics.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04f63f6e685743ace2c57eb157574e34e8610b1c
 ms.topic: conceptual
 author: erickson-doug

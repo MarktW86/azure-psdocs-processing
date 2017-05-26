@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: 0228B94F-71F6-426E-9CA9-92368BA5BF74
 updated_at: 11/11/2016 23:11 PM
 ms.date: 11/11/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v2.1.0/Enable-AzureBatchComputeNodeScheduling.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v2.1.0/Enable-AzureBatchComputeNodeScheduling.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v2.1.0/Enable-AzureBatchComputeNodeScheduling.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/azureps-cmdlets-docs/ResourceManager/AzureRM.Batch/v2.1.0/Enable-AzureBatchComputeNodeScheduling.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf
 ms.topic: reference
 author: erickson-doug

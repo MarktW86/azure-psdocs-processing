@@ -5,8 +5,8 @@ online version:
 schema: 2.0.0
 updated_at: 04/07/2017 23:04 PM
 ms.date: 04/07/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Remove-AzureRmADAppCredential.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Remove-AzureRmADAppCredential.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Remove-AzureRmADAppCredential.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Remove-AzureRmADAppCredential.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f3caa0c2a1097fba0625ea37bed92f799e64577a
 ms.topic: reference
 author: erickson-doug

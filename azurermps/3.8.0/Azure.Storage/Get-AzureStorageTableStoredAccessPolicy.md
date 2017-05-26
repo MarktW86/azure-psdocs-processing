@@ -5,8 +5,8 @@ online version:
 schema: 2.0.0
 updated_at: 04/07/2017 20:04 PM
 ms.date: 04/07/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/Azure.Storage/v2.8.0/Get-AzureStorageTableStoredAccessPolicy.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/Azure.Storage/v2.8.0/Get-AzureStorageTableStoredAccessPolicy.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/azureps-cmdlets-docs/ResourceManager/Azure.Storage/v2.8.0/Get-AzureStorageTableStoredAccessPolicy.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/azureps-cmdlets-docs/ResourceManager/Azure.Storage/v2.8.0/Get-AzureStorageTableStoredAccessPolicy.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/6022ef8f656b7401464afe5843360445370e30aa
 ms.topic: reference
 author: erickson-doug

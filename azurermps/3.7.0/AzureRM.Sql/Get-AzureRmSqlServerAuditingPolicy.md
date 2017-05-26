@@ -5,8 +5,8 @@ online version:
 schema: 2.0.0
 updated_at: 05/11/2017 01:05 AM
 ms.date: 05/11/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.7.0/Get-AzureRmSqlServerAuditingPolicy.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.7.0/Get-AzureRmSqlServerAuditingPolicy.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.7.0/Get-AzureRmSqlServerAuditingPolicy.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.7.0/Get-AzureRmSqlServerAuditingPolicy.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/05e3e6af398c016caa52517268d3cee57da15cc4
 ms.topic: reference
 author: erickson-doug

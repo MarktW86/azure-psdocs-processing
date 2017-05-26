@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: 62C3461D-D139-4653-91D0-319EE8BF8CA4
 updated_at: 11/01/2016 22:11 PM
 ms.date: 11/01/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/v2.1.0/Get-AzureRmLogicAppTriggerCallbackUrl.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/v2.1.0/Get-AzureRmLogicAppTriggerCallbackUrl.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/v2.1.0/Get-AzureRmLogicAppTriggerCallbackUrl.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/v2.1.0/Get-AzureRmLogicAppTriggerCallbackUrl.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed
 ms.topic: reference
 author: erickson-doug
