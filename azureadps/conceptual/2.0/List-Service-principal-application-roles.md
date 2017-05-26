@@ -1,7 +1,7 @@
 ---
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/docs-conceptual/List-Service-principal-application-roles.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/docs-conceptual/List-Service-principal-application-roles.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/f4f8f8e62d49d3b391f0437294292a7914a5c8c3
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/fa52be68690d4cdb66575d3b31ac5c623f557346
 ---
 # List all application role assignments for all service principals in your directory
 
@@ -18,8 +18,7 @@ Get-AzureADServicePrincipal | % {
   $_.AppRoles | % { $appRoles[$_.Id] = $_.DisplayName }
 
   # Get the app role assignments for this app, and add a field for the app role name
-  Get-AzureADServiceAppRoleAssignment -ObjectId ($_.ObjectId) | % {
-    $_ | Add-Member "AppRoleDisplayName" $appRoles[$_.Id] -Passthru
-  }
+  Get-AzureADServiceAppRoleAssignment -ObjectId ($_.ObjectId) | Select ResourceDisplayName, PrincipalDisplayName,  Id | % {  $_ | Add-Member "AppRoleDisplayName" $appRoles[$_.Id] -Passthru
+  }
 }
 ```
