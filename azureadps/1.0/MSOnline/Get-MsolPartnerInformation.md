@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: C304F948-A8BB-4E5E-97B0-EB9B84025AD5
 updated_at: 11/09/2016 18:11 PM
 ms.date: 11/09/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolPartnerInformation.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolPartnerInformation.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/RobdeJong-patch-8/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolPartnerInformation.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/RobdeJong-patch-8/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolPartnerInformation.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/7986fb4880d0ee292c289166871e4b25df1ad4b8
 ms.topic: reference
 ms.service: active-directory

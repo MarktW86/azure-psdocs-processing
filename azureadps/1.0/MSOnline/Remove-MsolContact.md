@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: D777B598-B7CC-445E-9F7A-4E21D79BBE39
 updated_at: 11/08/2016 22:11 PM
 ms.date: 11/08/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Remove-MsolContact.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Remove-MsolContact.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/RobdeJong-patch-8/Azure%20AD%20Cmdlets/MSOnline/v1/Remove-MsolContact.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/RobdeJong-patch-8/Azure%20AD%20Cmdlets/MSOnline/v1/Remove-MsolContact.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/1f9ce90a071efd51795186ba3f8b8d76905a96c3
 ms.topic: reference
 ms.service: active-directory

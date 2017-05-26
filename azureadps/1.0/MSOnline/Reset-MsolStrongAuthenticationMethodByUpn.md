@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: 9591963E-EC38-4F32-B4B9-C27873780C26
 updated_at: 11/14/2016 21:11 PM
 ms.date: 11/14/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Reset-MsolStrongAuthenticationMethodByUpn.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Reset-MsolStrongAuthenticationMethodByUpn.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/RobdeJong-patch-8/Azure%20AD%20Cmdlets/MSOnline/v1/Reset-MsolStrongAuthenticationMethodByUpn.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/RobdeJong-patch-8/Azure%20AD%20Cmdlets/MSOnline/v1/Reset-MsolStrongAuthenticationMethodByUpn.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/2fc7c934766545163d747d78fd2431e341b5bd4f
 ms.topic: reference
 ms.service: active-directory

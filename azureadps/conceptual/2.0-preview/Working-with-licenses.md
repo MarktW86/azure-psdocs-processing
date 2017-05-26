@@ -1,6 +1,6 @@
 ---
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/docs-conceptual/Working-with-licenses.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/docs-conceptual/Working-with-licenses.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/RobdeJong-patch-8/Azure%20AD%20Cmdlets/docs-conceptual/Working-with-licenses.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/RobdeJong-patch-8/Azure%20AD%20Cmdlets/docs-conceptual/Working-with-licenses.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/f4f8f8e62d49d3b391f0437294292a7914a5c8c3
 ---
 (Get-AzureADUser).AssignedPlans gets you a list of assigned plans and their “capability status” – whether the particular service is Enabled or disabled based on the subscription status in commerce. The “Service” field is the type of the service behind the plan, and not the name of the service plan itself (the name is not included in this object at all, just the guid ID of the plan)
