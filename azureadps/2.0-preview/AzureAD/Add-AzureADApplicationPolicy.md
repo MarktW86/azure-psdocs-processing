@@ -3,16 +3,18 @@ external help file: Microsoft.Open.MS.GraphBeta.PowerShell.dll-Help.xml
 ms.assetid: 1E76B8D2-A7DF-49EE-8E22-6BFEE24A8B7F
 online version:
 schema: 2.0.0
-updated_at: 04/25/2017 20:04 PM
-ms.date: 04/25/2017
+updated_at: 05/26/2017 16:05 PM
+ms.date: 05/26/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2preview/Add-AzureADApplicationPolicy.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2preview/Add-AzureADApplicationPolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/c5cc449ee6e2b805fc85a9e05130b06b10899f67
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/4211909c24964e67ea5e9df69718e1221c5f1cb7
 ms.topic: reference
 ms.service: active-directory
 ---
 
 # Add-AzureADApplicationPolicy
+
+>Note: This cmdlet is currently not available
 
 ## SYNOPSIS
 Adds an application policy.
