@@ -3,11 +3,11 @@ external help file: Microsoft.Online.Administration.Automation.PSModule.dll-Help
 online version:
 schema: 2.0.0
 ms.assetid: 2874711E-96F5-43E8-8D90-332C65A85FB5
-updated_at: 11/09/2016 18:11 PM
-ms.date: 11/09/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Set-MsolDirSyncEnabled.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Set-MsolDirSyncEnabled.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/7986fb4880d0ee292c289166871e4b25df1ad4b8
+updated_at: 05/26/2017 17:05 PM
+ms.date: 05/26/2017
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/RobdeJong-patch-9/Azure%20AD%20Cmdlets/MSOnline/v1/Set-MsolDirSyncEnabled.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/RobdeJong-patch-9/Azure%20AD%20Cmdlets/MSOnline/v1/Set-MsolDirSyncEnabled.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/cd735f0cfb20645536b29d96f9dab93f2a991c37
 ms.topic: reference
 ms.service: active-directory
 ---
@@ -25,6 +25,8 @@ Set-MsolDirSyncEnabled -EnableDirSync <Boolean> [-Force] [-TenantId <Guid>] [<Co
 
 ## DESCRIPTION
 The **Set-MsolDirSyncEnabled** cmdlet turns directory synchronization on or off for a company.
+
+>Note: It may take 72 hours for deactivation to be completed. The time depends on the number of objects that are in your cloud service subscription account.
 
 ## EXAMPLES
 

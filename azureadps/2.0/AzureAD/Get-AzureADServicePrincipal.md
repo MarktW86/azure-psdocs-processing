@@ -5,8 +5,8 @@ online version:
 schema: 2.0.0
 updated_at: 02/04/2017 00:02 AM
 ms.date: 02/04/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADServicePrincipal.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADServicePrincipal.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/RobdeJong-patch-9/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADServicePrincipal.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/RobdeJong-patch-9/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADServicePrincipal.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/3c958c260fe07ce8f34599794f089c4b3c1b8115
 ms.topic: reference
 ms.service: active-directory

@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: BFC8C1EC-B14D-45C6-8F11-E128E22C13A8
 updated_at: 11/08/2016 22:11 PM
 ms.date: 11/08/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolGroup.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolGroup.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/RobdeJong-patch-9/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolGroup.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/RobdeJong-patch-9/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolGroup.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/1f9ce90a071efd51795186ba3f8b8d76905a96c3
 ms.topic: reference
 ms.service: active-directory
