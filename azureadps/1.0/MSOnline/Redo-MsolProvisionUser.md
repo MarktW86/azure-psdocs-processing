@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: 728230E1-6984-49F8-B153-B73A7724EF5A
 updated_at: 11/09/2016 22:11 PM
 ms.date: 11/09/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Redo-MsolProvisionUser.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Redo-MsolProvisionUser.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/RobdeJong-patch-10/Azure%20AD%20Cmdlets/MSOnline/v1/Redo-MsolProvisionUser.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/RobdeJong-patch-10/Azure%20AD%20Cmdlets/MSOnline/v1/Redo-MsolProvisionUser.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/a602340dee47e7edf41f6c5af3edb93e03ac1b45
 ms.topic: reference
 ms.service: active-directory

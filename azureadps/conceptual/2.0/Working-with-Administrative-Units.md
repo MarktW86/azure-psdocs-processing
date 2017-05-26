@@ -1,6 +1,6 @@
 ---
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/docs-conceptual/Working-with-Administrative-Units.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/docs-conceptual/Working-with-Administrative-Units.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/RobdeJong-patch-10/Azure%20AD%20Cmdlets/docs-conceptual/Working-with-Administrative-Units.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/RobdeJong-patch-10/Azure%20AD%20Cmdlets/docs-conceptual/Working-with-Administrative-Units.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/832ce93b20bf5d1f57167ff757aa1e2badc75c15
 ---
 

@@ -5,8 +5,8 @@ online version:
 schema: 2.0.0
 updated_at: 05/26/2017 16:05 PM
 ms.date: 05/26/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2preview/Add-AzureADApplicationPolicy.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2preview/Add-AzureADApplicationPolicy.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/RobdeJong-patch-10/Azure%20AD%20Cmdlets/AzureAD/v2preview/Add-AzureADApplicationPolicy.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/RobdeJong-patch-10/Azure%20AD%20Cmdlets/AzureAD/v2preview/Add-AzureADApplicationPolicy.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/4211909c24964e67ea5e9df69718e1221c5f1cb7
 ms.topic: reference
 ms.service: active-directory
