@@ -1,6 +1,6 @@
 ---
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/docs-conceptual/overview.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/docs-conceptual/overview.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/VinceSmith-patch-5/Azure%20AD%20Cmdlets/docs-conceptual/overview.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/VinceSmith-patch-5/Azure%20AD%20Cmdlets/docs-conceptual/overview.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/fa3625e3d4a60f5d9fa4c13a267d6b174be76648
 ---
 # Azure Active Directory PowerShell

@@ -3,11 +3,11 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 ms.assetid: CAA240EC-E380-4CDB-A1CC-56BBD28DFB82
 online version:
 schema: 2.0.0
-updated_at: 12/01/2016 17:12 PM
-ms.date: 12/01/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADDirectoryRole.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADDirectoryRole.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/8f658f99458e2c236d5f4be363030b6f24cacc4c
+updated_at: 05/27/2017 00:05 AM
+ms.date: 05/27/2017
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/VinceSmith-patch-5/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADDirectoryRole.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/VinceSmith-patch-5/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADDirectoryRole.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/f4bee40ad764d0c94b600af994a3b7215c4a47db
 ms.topic: reference
 ms.service: active-directory
 ---
@@ -45,7 +45,16 @@ ObjectId                             DisplayName                        Descript
 019ea7a2-1613-47c9-81cb-20ba35b1ae48 Company Administrator              Company Administrator role has full access to perform any operation in the company scope.
 ```
 
-### Example 2: Get all directory roles
+### Example 2: Get a directory role by name
+```
+PS C:\>Get-AzureADDirectoryRole | Where-Object {$_.displayName -eq 'Security Reader'}
+
+ObjectId                             DisplayName     Description                                                             
+--------                             -----------     -----------                                                             
+5b3fe201-fa8b-4144-b6f1-875829ff7543 Security Reader Security Reader allows ability to read security information and reports.
+```
+
+### Example 3: Get all directory roles
 ```
 PS C:\>Get-AzureADDirectoryRole
 

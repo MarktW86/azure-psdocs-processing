@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: 20C36069-42AE-4B9C-A64B-ECAF5C3B6252
 updated_at: 11/10/2016 00:11 AM
 ms.date: 11/10/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolDomain.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolDomain.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/VinceSmith-patch-5/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolDomain.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/VinceSmith-patch-5/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolDomain.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/f72983e84de2f467e1a00ba8a6d58936035a33db
 ms.topic: reference
 ms.service: active-directory
