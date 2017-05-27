@@ -1,6 +1,6 @@
 ---
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/docs-conceptual/Recovering-deleted-data.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/docs-conceptual/Recovering-deleted-data.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/VinceSmith-patch-6/Azure%20AD%20Cmdlets/docs-conceptual/Recovering-deleted-data.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/VinceSmith-patch-6/Azure%20AD%20Cmdlets/docs-conceptual/Recovering-deleted-data.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/bfc01fdddf9a83dd18766b85a7580087e22ec75a
 ---
 # Recovering deleted data

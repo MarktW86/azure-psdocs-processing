@@ -5,8 +5,8 @@ online version:
 schema: 2.0.0
 updated_at: 05/05/2017 22:05 PM
 ms.date: 05/05/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADUserLicense.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADUserLicense.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/VinceSmith-patch-6/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADUserLicense.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/VinceSmith-patch-6/Azure%20AD%20Cmdlets/AzureAD/v2/Set-AzureADUserLicense.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/1dac7be9627442db2708b233c8e41cb23ede5ec3
 ms.topic: reference
 ms.service: active-directory

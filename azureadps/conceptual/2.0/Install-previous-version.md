@@ -1,6 +1,6 @@
 ---
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/docs-conceptual/Install-previous-version.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/docs-conceptual/Install-previous-version.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/VinceSmith-patch-6/Azure%20AD%20Cmdlets/docs-conceptual/Install-previous-version.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/VinceSmith-patch-6/Azure%20AD%20Cmdlets/docs-conceptual/Install-previous-version.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/0d95d3322bbbbc907c69c73083749b619fb55d82
 ---
 # How can I install a previous version of a module?

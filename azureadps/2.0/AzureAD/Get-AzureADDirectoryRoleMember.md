@@ -3,11 +3,11 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 ms.assetid: DD253761-F1BB-4EF1-B0CB-586C0040DECE
 online version:
 schema: 2.0.0
-updated_at: 12/01/2016 17:12 PM
-ms.date: 12/01/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADDirectoryRoleMember.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADDirectoryRoleMember.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/8f658f99458e2c236d5f4be363030b6f24cacc4c
+updated_at: 05/27/2017 00:05 AM
+ms.date: 05/27/2017
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/VinceSmith-patch-6/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADDirectoryRoleMember.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/VinceSmith-patch-6/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADDirectoryRoleMember.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/3a150535bbec93458680fd00ccd4771083f2638d
 ms.topic: reference
 ms.service: active-directory
 ---
@@ -43,6 +43,14 @@ c13dd34a-492b-4561-b171-40fcce2916c5 User
 ```
 
 This command gets the members of the specified role.
+
+### Example 2: Get members by role name
+```
+PS C:\>$role = Get-AzureADDirectoryRole | Where-Object {$_.displayName -eq 'Company Administrator'}
+PS C:\>Get-AzureADDirectoryRoleMember -ObjectId $role.ObjectId | Get-AzureADUser
+```
+
+This example fetches the members for the specified role name, and pipes the output to Get-AzureADUser to fetch DisplayName and UPN.
 
 ## PARAMETERS
 

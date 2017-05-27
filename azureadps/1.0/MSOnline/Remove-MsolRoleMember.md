@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: 54F95D25-05CB-4AC9-A11A-4BF3E734CA4F
 updated_at: 11/08/2016 21:11 PM
 ms.date: 11/08/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Remove-MsolRoleMember.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Remove-MsolRoleMember.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/VinceSmith-patch-6/Azure%20AD%20Cmdlets/MSOnline/v1/Remove-MsolRoleMember.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/VinceSmith-patch-6/Azure%20AD%20Cmdlets/MSOnline/v1/Remove-MsolRoleMember.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/2c57f1e6f7b36ad296f1b569969f9c974ec0e0c3
 ms.topic: reference
 ms.service: active-directory
