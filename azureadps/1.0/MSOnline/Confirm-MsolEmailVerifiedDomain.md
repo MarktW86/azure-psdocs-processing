@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: F4F91C75-9E62-4855-A82F-3DF87FC33C4F
 updated_at: 11/10/2016 16:11 PM
 ms.date: 11/10/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Confirm-MsolEmailVerifiedDomain.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Confirm-MsolEmailVerifiedDomain.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/VinceSmith-patch-4/Azure%20AD%20Cmdlets/MSOnline/v1/Confirm-MsolEmailVerifiedDomain.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/VinceSmith-patch-4/Azure%20AD%20Cmdlets/MSOnline/v1/Confirm-MsolEmailVerifiedDomain.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/fa0df7d7c5fc79297507723a62f5fc4575dafc5e
 ms.topic: reference
 ms.service: active-directory

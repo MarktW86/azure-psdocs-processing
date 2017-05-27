@@ -5,8 +5,8 @@ online version:
 schema: 2.0.0
 updated_at: 05/17/2017 00:05 AM
 ms.date: 05/17/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2preview/New-AzureADApplication.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2preview/New-AzureADApplication.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/VinceSmith-patch-4/Azure%20AD%20Cmdlets/AzureAD/v2preview/New-AzureADApplication.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/VinceSmith-patch-4/Azure%20AD%20Cmdlets/AzureAD/v2preview/New-AzureADApplication.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/cc5e4bb96950215b0c2176f681ba4b9e7e7f2428
 ms.topic: reference
 ms.service: active-directory

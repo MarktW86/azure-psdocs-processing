@@ -1,6 +1,6 @@
 ---
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/docs-conceptual/List-Service-principal-application-roles.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/docs-conceptual/List-Service-principal-application-roles.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/VinceSmith-patch-4/Azure%20AD%20Cmdlets/docs-conceptual/List-Service-principal-application-roles.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/VinceSmith-patch-4/Azure%20AD%20Cmdlets/docs-conceptual/List-Service-principal-application-roles.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/fa52be68690d4cdb66575d3b31ac5c623f557346
 ---
 # List all application role assignments for all service principals in your directory

@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: B44214C0-6CFA-4169-8E09-8C4065DFAB2E
 updated_at: 11/04/2016 22:11 PM
 ms.date: 11/04/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Remove-MsolDomain.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Remove-MsolDomain.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/VinceSmith-patch-4/Azure%20AD%20Cmdlets/MSOnline/v1/Remove-MsolDomain.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/VinceSmith-patch-4/Azure%20AD%20Cmdlets/MSOnline/v1/Remove-MsolDomain.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/3c22ad9f927dcfe00a363b1a2c343fc086da2ac5
 ms.topic: reference
 ms.service: active-directory
