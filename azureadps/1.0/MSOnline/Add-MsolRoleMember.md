@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: A14A0302-406A-4417-AF11-A6CF19B22101
 updated_at: 11/08/2016 21:11 PM
 ms.date: 11/08/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Add-MsolRoleMember.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Add-MsolRoleMember.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/QuasarSE-doc-1/Azure%20AD%20Cmdlets/MSOnline/v1/Add-MsolRoleMember.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/QuasarSE-doc-1/Azure%20AD%20Cmdlets/MSOnline/v1/Add-MsolRoleMember.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/2c57f1e6f7b36ad296f1b569969f9c974ec0e0c3
 ms.topic: reference
 ms.service: active-directory

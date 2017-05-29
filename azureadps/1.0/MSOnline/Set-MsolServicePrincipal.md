@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: 692698D2-D070-449D-B112-1CEB30743A38
 updated_at: 04/13/2017 22:04 PM
 ms.date: 04/13/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Set-MsolServicePrincipal.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Set-MsolServicePrincipal.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/QuasarSE-doc-1/Azure%20AD%20Cmdlets/MSOnline/v1/Set-MsolServicePrincipal.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/QuasarSE-doc-1/Azure%20AD%20Cmdlets/MSOnline/v1/Set-MsolServicePrincipal.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/c0bdb3a258f28907c126b94b7a1fd3aa8ee3e803
 ms.topic: reference
 ms.service: active-directory

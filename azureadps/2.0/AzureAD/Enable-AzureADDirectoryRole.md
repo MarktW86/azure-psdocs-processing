@@ -5,8 +5,8 @@ online version:
 schema: 2.0.0
 updated_at: 05/25/2017 18:05 PM
 ms.date: 05/25/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Enable-AzureADDirectoryRole.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Enable-AzureADDirectoryRole.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/QuasarSE-doc-1/Azure%20AD%20Cmdlets/AzureAD/v2/Enable-AzureADDirectoryRole.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/QuasarSE-doc-1/Azure%20AD%20Cmdlets/AzureAD/v2/Enable-AzureADDirectoryRole.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/88b1e63fc06924cfafb7ea64a389bfca7d70c1cb
 ms.topic: reference
 ms.service: active-directory
