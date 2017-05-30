@@ -5,8 +5,8 @@ online version:
 schema: 2.0.0
 updated_at: 05/27/2017 00:05 AM
 ms.date: 05/27/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADDirectoryRoleMember.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADDirectoryRoleMember.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/VinceSmith-patch-8/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADDirectoryRoleMember.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/VinceSmith-patch-8/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADDirectoryRoleMember.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/3a150535bbec93458680fd00ccd4771083f2638d
 ms.topic: reference
 ms.service: active-directory
