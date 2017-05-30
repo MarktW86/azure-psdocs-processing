@@ -8,11 +8,6 @@ content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/AzureRM.AzureStackAdmin.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/64ea21b6f9d300bac04d2df45c463f94a5e389b4
 ms.topic: conceptual
-author: erickson-doug
-ms.author: PowerShellHelpPub
-keywords: powershell, cmdlet
-manager: erickson-doug
-open_to_public_contributors: true
 ms.service: azure-stack
 Add-AzureRMGalleryItem: AzureRM.AzureStackAdmin
 Add-AzureRMResourceProviderRegistration: AzureRM.AzureStackAdmin
