@@ -9,11 +9,6 @@ content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/New-AzureRmPolicyAssignment.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/071df880516b676bc8caeca111ba0f07b81e3416
 ms.topic: reference
-author: erickson-doug
-ms.author: PowerShellHelpPub
-keywords: powershell, cmdlet
-manager: erickson-doug
-open_to_public_contributors: true
 ms.service: azure-resource-manager
 ---
 

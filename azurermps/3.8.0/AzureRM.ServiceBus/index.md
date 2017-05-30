@@ -10,11 +10,6 @@ gitcommit: https://github.com/Azure/azure-powershell/blob/2868c1296e3b2ee982039c
 updated_at: 04/28/2017 07:04 AM
 ms.date: 04/28/2017
 ms.topic: conceptual
-author: erickson-doug
-ms.author: PowerShellHelpPub
-keywords: powershell, cmdlet
-manager: erickson-doug
-open_to_public_contributors: true
 Get-AzureRmServiceBusNamespace: Service Bus
 Get-AzureRmServiceBusNamespaceAuthorizationRule: Service Bus
 Get-AzureRmServiceBusNamespaceKey: Service Bus

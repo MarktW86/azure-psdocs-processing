@@ -8,11 +8,6 @@ content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/azureps-cmdlets-docs/ResourceManager/AzureRM.SiteRecovery/v1.1.11/AzureRM.SiteRecovery.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0589fbf53d27e39e0cf445261d29c64fb0859d62
 ms.topic: conceptual
-author: erickson-doug
-ms.author: PowerShellHelpPub
-keywords: powershell, cmdlet
-manager: erickson-doug
-open_to_public_contributors: true
 ms.service: site-recovery
 Edit-AzureRmSiteRecoveryRecoveryPlan: Site Recovery
 Get-AzureRmSiteRecoveryJob: Site Recovery

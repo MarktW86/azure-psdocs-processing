@@ -9,11 +9,6 @@ content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/azureps-cmdlets-docs/ResourceManager/AzureRM.Dns/v2.1.0/New-AzureRmDnsRecordConfig.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/2537e371256820c5575d89299741a8f7b6f7e585
 ms.topic: reference
-author: erickson-doug
-ms.author: PowerShellHelpPub
-keywords: powershell, cmdlet
-manager: erickson-doug
-open_to_public_contributors: true
 ---
 
 # New-AzureRmDnsRecordConfig

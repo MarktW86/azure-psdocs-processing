@@ -6,11 +6,6 @@ content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/azureps-cmdlets-docs/ResourceManager/AzureRM.IoTHub/v1.3.0/AzureRM.IotHub.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/
 ms.topic: conceptual
-author: erickson-doug
-ms.author: PowerShellHelpPub
-keywords: powershell, cmdlet
-manager: erickson-doug
-open_to_public_contributors: true
 Add-AzureRmIotHubEventHubConsumerGroup: IoT
 Add-AzureRmIotHubKey: IoT
 Get-AzureRmIotHub: IoT

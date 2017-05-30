@@ -9,11 +9,6 @@ content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Remove-AzureRmRoleAssignment.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0c85f7710e0a50f6ab0929dd4a223a08d562e08e
 ms.topic: reference
-author: erickson-doug
-ms.author: PowerShellHelpPub
-keywords: powershell, cmdlet
-manager: erickson-doug
-open_to_public_contributors: true
 ms.service: azure-resource-manager
 ---
 

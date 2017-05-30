@@ -8,11 +8,6 @@ gitcommit: https://github.com/Azure/azure-powershell/blob/cdbba9dfc8d6d05a7611df
 updated_at: 05/12/2017 03:05 AM
 ms.date: 05/12/2017
 ms.topic: reference
-author: erickson-doug
-ms.author: PowerShellHelpPub
-keywords: powershell, cmdlet
-manager: erickson-doug
-open_to_public_contributors: true
 ms.service: sql-database
 ---
 

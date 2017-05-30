@@ -9,11 +9,6 @@ gitcommit: https://github.com/Azure/azure-powershell/blob/a101e6385b1ee25d31464a
 updated_at: 04/28/2017 07:04 AM
 ms.date: 04/28/2017
 ms.topic: reference
-author: erickson-doug
-ms.author: PowerShellHelpPub
-keywords: powershell, cmdlet
-manager: erickson-doug
-open_to_public_contributors: true
 ms.service: big-compute
 ---
 

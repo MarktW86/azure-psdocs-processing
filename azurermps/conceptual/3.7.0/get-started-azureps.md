@@ -13,7 +13,6 @@ ms.date: 03/30/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/azureps-cmdlets-docs/ResourceManager/docs-conceptual/get-started-azureps.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/azureps-cmdlets-docs/ResourceManager/docs-conceptual/get-started-azureps.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/379641e1d19b18dec54244dce5910aa3f4d6d991
-open_to_public_contributors: true
 ---
 # Getting started with Azure PowerShell
 

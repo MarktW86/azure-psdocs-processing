@@ -11,11 +11,6 @@ content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/azureps-cmdlets-docs/ResourceManager/AzureRM.TrafficManager/v2.1.0/AzureRM.TrafficManager.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf
 ms.topic: conceptual
-author: erickson-doug
-ms.author: PowerShellHelpPub
-keywords: powershell, cmdlet
-manager: erickson-doug
-open_to_public_contributors: true
 ms.service: traffic-manager
 Add-AzureRmTrafficManagerEndpointConfig: Traffic Manager
 Disable-AzureRmTrafficManagerEndpoint: Traffic Manager

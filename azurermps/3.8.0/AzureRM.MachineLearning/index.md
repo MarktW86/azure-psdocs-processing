@@ -9,11 +9,6 @@ gitcommit: https://github.com/Azure/azure-powershell/blob/1dfaf7477509cb7498e91a
 updated_at: 04/28/2017 07:04 AM
 ms.date: 04/28/2017
 ms.topic: conceptual
-author: erickson-doug
-ms.author: PowerShellHelpPub
-keywords: powershell, cmdlet
-manager: erickson-doug
-open_to_public_contributors: true
 ms.service: machine-learning
 Export-AzureRmMlWebService: Machine Learning
 Get-AzureRmMlCommitmentAssociation: Machine Learning

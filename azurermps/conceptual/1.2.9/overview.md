@@ -13,7 +13,6 @@ ms.date: 05/15/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/azureps-cmdlets-docs/ResourceManager/docs-conceptual/1.2.9/overview.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/azureps-cmdlets-docs/ResourceManager/docs-conceptual/1.2.9/overview.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/
-open_to_public_contributors: true
 ---
 
 # Overview of Azure PowerShell

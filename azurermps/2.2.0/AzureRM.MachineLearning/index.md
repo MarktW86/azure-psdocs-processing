@@ -9,11 +9,6 @@ content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/azureps-cmdlets-docs/ResourceManager/AzureRM.MachineLearning/v0.10.0/AzureRM.MachineLearning.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4020413561282c9a9e970fce2fc8414bf4bb1265
 ms.topic: conceptual
-author: erickson-doug
-ms.author: PowerShellHelpPub
-keywords: powershell, cmdlet
-manager: erickson-doug
-open_to_public_contributors: true
 ms.service: machine-learning
 Export-AzureRmMlWebService: Machine Learning
 Get-AzureRmMlWebService: Machine Learning
