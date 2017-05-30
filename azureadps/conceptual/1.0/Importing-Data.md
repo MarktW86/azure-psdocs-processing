@@ -1,6 +1,6 @@
 ---
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/docs-conceptual/Importing-Data.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/docs-conceptual/Importing-Data.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/RobdeJong-patch-11/Azure%20AD%20Cmdlets/docs-conceptual/Importing-Data.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/RobdeJong-patch-11/Azure%20AD%20Cmdlets/docs-conceptual/Importing-Data.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/1c13f9406dedbd6f57ff192ddc0259f25ab17cff
 ---
 # Importing data into my directory

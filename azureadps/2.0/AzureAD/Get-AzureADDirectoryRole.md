@@ -5,8 +5,8 @@ online version:
 schema: 2.0.0
 updated_at: 05/27/2017 00:05 AM
 ms.date: 05/27/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADDirectoryRole.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADDirectoryRole.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/RobdeJong-patch-11/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADDirectoryRole.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/RobdeJong-patch-11/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADDirectoryRole.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/f4bee40ad764d0c94b600af994a3b7215c4a47db
 ms.topic: reference
 ms.service: active-directory

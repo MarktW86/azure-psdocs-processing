@@ -1,6 +1,6 @@
 ---
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/docs-conceptual/Find-Module-version.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/docs-conceptual/Find-Module-version.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/RobdeJong-patch-11/Azure%20AD%20Cmdlets/docs-conceptual/Find-Module-version.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/RobdeJong-patch-11/Azure%20AD%20Cmdlets/docs-conceptual/Find-Module-version.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/0d95d3322bbbbc907c69c73083749b619fb55d82
 ---
 # How can I find the version of the Azure AD PowerShell module I'm using?

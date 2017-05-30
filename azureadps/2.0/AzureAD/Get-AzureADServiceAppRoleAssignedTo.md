@@ -4,8 +4,8 @@ online version:
 schema: 2.0.0
 updated_at: 04/20/2017 04:04 AM
 ms.date: 04/20/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADServiceAppRoleAssignedTo.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADServiceAppRoleAssignedTo.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/RobdeJong-patch-11/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADServiceAppRoleAssignedTo.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/RobdeJong-patch-11/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADServiceAppRoleAssignedTo.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/785cafde2210485948fad58dd6f2d5df74b18bde
 ms.topic: reference
 ms.service: active-directory

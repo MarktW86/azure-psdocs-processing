@@ -1,6 +1,6 @@
 ---
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/docs-conceptual/Enabling-licenses-sample.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/docs-conceptual/Enabling-licenses-sample.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/RobdeJong-patch-11/Azure%20AD%20Cmdlets/docs-conceptual/Enabling-licenses-sample.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/RobdeJong-patch-11/Azure%20AD%20Cmdlets/docs-conceptual/Enabling-licenses-sample.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/4e89d3f85116c4fe05240aba6cdb46e2191b130e
 ---
 # Assigning licenses to a user

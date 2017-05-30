@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: 8D9F4A29-671A-468A-9B20-B985DF1B4EC2
 updated_at: 02/02/2017 20:02 PM
 ms.date: 02/02/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/New-MsolLicenseOptions.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/New-MsolLicenseOptions.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/RobdeJong-patch-11/Azure%20AD%20Cmdlets/MSOnline/v1/New-MsolLicenseOptions.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/RobdeJong-patch-11/Azure%20AD%20Cmdlets/MSOnline/v1/New-MsolLicenseOptions.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/e0bfd4ed6256e4318269090a1648ef8cdd0fc8e1
 ms.topic: reference
 ms.service: active-directory

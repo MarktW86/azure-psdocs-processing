@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: 13ECD260-8B3D-4D47-9109-86DDFC235C92
 updated_at: 11/14/2016 21:11 PM
 ms.date: 11/14/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Remove-MsolApplicationPassword.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Remove-MsolApplicationPassword.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/RobdeJong-patch-11/Azure%20AD%20Cmdlets/MSOnline/v1/Remove-MsolApplicationPassword.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/RobdeJong-patch-11/Azure%20AD%20Cmdlets/MSOnline/v1/Remove-MsolApplicationPassword.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/2fc7c934766545163d747d78fd2431e341b5bd4f
 ms.topic: reference
 ms.service: active-directory
