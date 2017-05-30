@@ -3,11 +3,11 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 ms.assetid: 3719960D-7A77-414E-A20C-812B527F27AB
 online version:
 schema: 2.0.0
-updated_at: 05/25/2017 18:05 PM
-ms.date: 05/25/2017
+updated_at: 05/30/2017 19:05 PM
+ms.date: 05/30/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Enable-AzureADDirectoryRole.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Enable-AzureADDirectoryRole.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/88b1e63fc06924cfafb7ea64a389bfca7d70c1cb
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/0151dffbe533b4d35a7258a41c8f4d3b303290f5
 ms.topic: reference
 ms.service: active-directory
 ---
@@ -34,25 +34,14 @@ The **Enable-AzureADDirectoryRole** cmdlet activates an existing directory role 
 # Get Guest Inviter directory role template
 $roleTemplate = Get-AzureADDirectoryRoleTemplate | ? { $_.DisplayName -eq "Guest Inviter" }
 
-# Instantiate new DirectoryRole object
-$newRole = New-Object -TypeName "Microsoft.Open.AzureAD.Model.DirectoryRole"
-
-# Set templateId for role temaplate object to Guest Inviter objectId
-$newRole.RoleTemplateId = $roleTemplate.ObjectId
-
 # Enable an instance of the DirectoryRole template
-Enable-AzureADDirectoryRole -DirectoryRole $newRole
+Enable-AzureADDirectoryRole -RoleTemplateId $roleTemplate.ObjectId
 
 ```
 
-The first command gets an inviter role that has the display name Guest Inviter by using the [Get-AzureADDirectoryRoleTemplate](./Get-AzureADDirectoryRoleTemplate.md) cmdlet. 
-The command stores Guest Inviter in the $roleTemplate variable. 
+The first command gets an inviter role that has the display name Guest Inviter by using the [Get-AzureADDirectoryRoleTemplate](./Get-AzureADDirectoryRoleTemplate.md) cmdlet. The command stores Guest Inviter in the $roleTemplate variable. 
 
-The second command instantiates a new DirectoryRole object and stores it in $newRole.
-
-The third command sets the role template Id for $newRole to the guest inviter role template Id.
-
-The final command enables the directory role in $newRole.
+The second command instantiates an instance of the directory role in $roleTemplate.
 
 ## PARAMETERS
 
