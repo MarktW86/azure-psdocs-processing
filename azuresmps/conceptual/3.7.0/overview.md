@@ -12,7 +12,6 @@ ms.manager: carmonm
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/azureps-cmdlets-docs/ServiceManagement/docs-conceptual/overview.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/azureps-cmdlets-docs/ServiceManagement/docs-conceptual/overview.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/538c30ca93f595f021fb665eedd873027e224d2a
-open_to_public_contributors: true
 ---
 
 # Overview of the Azure PowerShell Service Management module
