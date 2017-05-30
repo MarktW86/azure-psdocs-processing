@@ -5,8 +5,8 @@ online version:
 schema: 2.0.0
 updated_at: 04/06/2017 04:04 AM
 ms.date: 04/06/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADGroup.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADGroup.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/VinceSmith-patch-7/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADGroup.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/VinceSmith-patch-7/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADGroup.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/423d1441b932e126c6d22544233c258b9b4c80b1
 ms.topic: reference
 ms.service: active-directory

@@ -1,6 +1,6 @@
 ---
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/docs-conceptual/PowerShell-logfile.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/docs-conceptual/PowerShell-logfile.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/VinceSmith-patch-7/Azure%20AD%20Cmdlets/docs-conceptual/PowerShell-logfile.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/VinceSmith-patch-7/Azure%20AD%20Cmdlets/docs-conceptual/PowerShell-logfile.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/79ba9960c15a8ef8b3259a44f308cc3d918ee65e
 ---
 # Where can I find the PowerShell log file?

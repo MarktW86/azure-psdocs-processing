@@ -1,6 +1,6 @@
 ---
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/docs-conceptual/signing-in-service-principal.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/docs-conceptual/signing-in-service-principal.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/VinceSmith-patch-7/Azure%20AD%20Cmdlets/docs-conceptual/signing-in-service-principal.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/VinceSmith-patch-7/Azure%20AD%20Cmdlets/docs-conceptual/signing-in-service-principal.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/f34b06716c4bf2c83c281a010a2397092ae52139
 ---
 

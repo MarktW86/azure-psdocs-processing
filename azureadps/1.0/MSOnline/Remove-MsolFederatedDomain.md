@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: 59811DE6-DD0A-4F11-B16D-842EB397F5EE
 updated_at: 11/08/2016 21:11 PM
 ms.date: 11/08/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Remove-MsolFederatedDomain.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Remove-MsolFederatedDomain.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/VinceSmith-patch-7/Azure%20AD%20Cmdlets/MSOnline/v1/Remove-MsolFederatedDomain.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/VinceSmith-patch-7/Azure%20AD%20Cmdlets/MSOnline/v1/Remove-MsolFederatedDomain.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/2c57f1e6f7b36ad296f1b569969f9c974ec0e0c3
 ms.topic: reference
 ms.service: active-directory

@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: 629EE8A1-A6F9-4923-94FC-C371CA0F4D5C
 updated_at: 11/14/2016 21:11 PM
 ms.date: 11/14/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/New-MsolWellKnownGroup.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/New-MsolWellKnownGroup.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/VinceSmith-patch-7/Azure%20AD%20Cmdlets/MSOnline/v1/New-MsolWellKnownGroup.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/VinceSmith-patch-7/Azure%20AD%20Cmdlets/MSOnline/v1/New-MsolWellKnownGroup.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/2fc7c934766545163d747d78fd2431e341b5bd4f
 ms.topic: reference
 ms.service: active-directory
