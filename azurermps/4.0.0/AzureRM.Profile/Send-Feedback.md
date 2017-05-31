@@ -8,11 +8,6 @@ gitcommit: https://github.com/Azure/azure-powershell/blob/ed7e02c40bc7b387c6e412
 updated_at: 05/15/2017 17:05 PM
 ms.date: 05/15/2017
 ms.topic: reference
-author: erickson-doug
-ms.author: PowerShellHelpPub
-keywords: powershell, cmdlet
-manager: erickson-doug
-open_to_public_contributors: true
 ms.service: subscription
 ---
 

@@ -8,11 +8,6 @@ gitcommit: https://github.com/Azure/azure-powershell/blob/2526f281fe0af40ef67662
 updated_at: 05/10/2017 19:05 PM
 ms.date: 05/10/2017
 ms.topic: reference
-author: erickson-doug
-ms.author: PowerShellHelpPub
-keywords: powershell, cmdlet
-manager: erickson-doug
-open_to_public_contributors: true
 ---
 
 # Restart-AzureAnalysisServicesInstance

@@ -9,11 +9,6 @@ gitcommit: https://github.com/Azure/azure-powershell/blob/94e42834e29c78cafba9e3
 updated_at: 04/28/2017 07:04 AM
 ms.date: 04/28/2017
 ms.topic: conceptual
-author: erickson-doug
-ms.author: PowerShellHelpPub
-keywords: powershell, cmdlet
-manager: erickson-doug
-open_to_public_contributors: true
 ms.service: devtest-lab
 Get-AzureRmDtlAllowedVMSizesPolicy: DevTest Labs
 Get-AzureRmDtlAutoShutdownPolicy: DevTest Labs
