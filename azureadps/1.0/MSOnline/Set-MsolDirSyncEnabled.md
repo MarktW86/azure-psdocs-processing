@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: 2874711E-96F5-43E8-8D90-332C65A85FB5
 updated_at: 05/26/2017 17:05 PM
 ms.date: 05/26/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Set-MsolDirSyncEnabled.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Set-MsolDirSyncEnabled.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/VinceSmith-patch-9/Azure%20AD%20Cmdlets/MSOnline/v1/Set-MsolDirSyncEnabled.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/VinceSmith-patch-9/Azure%20AD%20Cmdlets/MSOnline/v1/Set-MsolDirSyncEnabled.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/cd735f0cfb20645536b29d96f9dab93f2a991c37
 ms.topic: reference
 ms.service: active-directory
