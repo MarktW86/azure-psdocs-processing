@@ -8,11 +8,6 @@ content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azur
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Get-ACSShareMetricDefinition.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/1b1f65c3c0d4679af027f9576236919af044769d
 ms.topic: reference
-author: erickson-doug
-ms.author: PowerShellHelpPub
-keywords: powershell, cmdlet
-manager: erickson-doug
-open_to_public_contributors: true
 ms.service: azure-stack
 ---
 

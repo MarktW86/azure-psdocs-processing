@@ -9,11 +9,6 @@ content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azur
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure/v4.0.0/Save-AzureVMImage.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/3b96c1e0b28fc56dfbf6de55728d5478e0d02def
 ms.topic: reference
-author: erickson-doug
-ms.author: PowerShellHelpPub
-keywords: powershell, cmdlet
-manager: erickson-doug
-open_to_public_contributors: true
 ms.service: azure-asm
 ---
 

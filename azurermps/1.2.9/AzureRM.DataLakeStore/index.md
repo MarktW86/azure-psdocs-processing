@@ -8,11 +8,6 @@ content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azur
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v1.0.4.3/AzureRM.DataLakeStore.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/280872fa529e03be2466fa2252957a2060a9dfe4
 ms.topic: conceptual
-author: erickson-doug
-ms.author: PowerShellHelpPub
-keywords: powershell, cmdlet
-manager: erickson-doug
-open_to_public_contributors: true
 ms.service: data-lake-store
 Add-AzureRmDataLakeStoreItemContent: Data Lake Store
 Export-AzureRmDataLakeStoreItem: Data Lake Store

@@ -13,7 +13,6 @@ ms.date: 03/30/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/docs-conceptual/4.0.0/queries-azureps.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/docs-conceptual/4.0.0/queries-azureps.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/
-open_to_public_contributors: true
 ---
 
 # Querying for Azure resources

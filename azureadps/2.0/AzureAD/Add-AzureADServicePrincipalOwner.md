@@ -3,11 +3,11 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 ms.assetid: 22D71474-34F5-4646-BB68-A929B211D283
 online version:
 schema: 2.0.0
-updated_at: 12/05/2016 20:12 PM
-ms.date: 12/05/2016
+updated_at: 05/29/2017 15:05 PM
+ms.date: 05/29/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Add-AzureADServicePrincipalOwner.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Add-AzureADServicePrincipalOwner.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/a3f4eb41072cf1506c8f82aa100e942b0830fc23
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/5a403cfd8a229e9038c71dac3959476abeef5d24
 ms.topic: reference
 ms.service: active-directory
 ---
@@ -33,7 +33,7 @@ The **Add-AzureADServicePrincipalOwner** cmdlet adds an owner to a service princ
 ```
 PS C:\> $ServicePrincipalId = (Get-AzureADServicePrincipal -Top 1).ObjectId
 PS C:\> $OwnerId = (Get-AzureADUser -Top 1).ObjectId
-PS C:\> Add-AzureADServicePrincipalOwner -ObjectId $ServicePrincipalId -RefObjectId -$OwnerId
+PS C:\> Add-AzureADServicePrincipalOwner -ObjectId $ServicePrincipalId -RefObjectId $OwnerId
 ```
 
 The first command gets the object ID of a service principal by using the [Get-AzureADServicePrincipal](./Get-AzureADServicePrincipal.md) cmdlet, and then stores it in the $ServicePrincipalId variable. 

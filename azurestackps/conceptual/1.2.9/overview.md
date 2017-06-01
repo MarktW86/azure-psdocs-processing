@@ -12,7 +12,6 @@ ms.manager: byronr
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/docs-conceptual/overview.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/docs-conceptual/overview.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/dd228ac5a616c5e8c1505d414d35a3c83b47838b
-open_to_public_contributors: true
 ---
 
 # Azure Stack PowerShell 

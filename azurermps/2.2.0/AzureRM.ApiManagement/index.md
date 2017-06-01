@@ -11,11 +11,6 @@ content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azur
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v2.1.0/AzureRM.ApiManagement.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d83562f79d01886ecd716d79ce086d2b009f21d3
 ms.topic: conceptual
-author: erickson-doug
-ms.author: PowerShellHelpPub
-keywords: powershell, cmdlet
-manager: erickson-doug
-open_to_public_contributors: true
 ms.service: api-Management
 Add-AzureRmApiManagementApiToProduct: API Management
 Add-AzureRmApiManagementProductToGroup: API Management
