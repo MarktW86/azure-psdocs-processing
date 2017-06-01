@@ -4,11 +4,11 @@ Module Guid: ServiceFabric_d2c42633-5254-4a82-a31
 Download Help Link: http://go.microsoft.com/fwlink/?LinkID=521412
 Help Version: 2.0.14.0
 Locale: en-US
-updated_at: 05/01/2017 23:05 PM
-ms.date: 05/01/2017
+updated_at: 05/19/2017 20:05 PM
+ms.date: 05/19/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/ServiceFabric.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/ServiceFabric.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/ad10060856cf8c0cc7c2aad3761110294d3c26ad
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/8d4c81aabdfff50fd2bedea27942bd6899fa7bd1
 ms.topic: conceptual
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -169,8 +169,7 @@ _isModulePage: true
 
 # ServiceFabric Module
 ## Description
-This topic displays help topics for the Azure Service Fabric Cmdlets. Service Fabric is a distributed systems platform that makes it easy to package, deploy, and manage scalable and reliable microservices and addresses the significant challenges in developing and managing cloud applications. By using Service Fabric, developers and administrators can avoid solving complex infrastructure problems and focus instead on implementing mission-critical, demanding workloads knowing that they are scalable, reliable, and manageable. Service Fabric represents the next-generation middleware platform for building and managing these enterprise-class, Tier-1 cloud-scale applications. With Azure Service Fabric, you can do the following: * Simplify microservice-based application development and lifecycle management * Deliver low-latency performance and efficiency at massive scale
-* Proven platform used by Azure and other Microsoft services
+This topic displays help topics for the Azure Service Fabric Cmdlets. Service Fabric is a distributed systems platform that makes it easy to package, deploy, and manage scalable and reliable microservices and addresses the significant challenges in developing and managing cloud applications. By using Service Fabric, developers and administrators can avoid solving complex infrastructure problems and focus instead on implementing mission-critical, demanding workloads knowing that they are scalable, reliable, and manageable. Service Fabric represents the next-generation middleware platform for building and managing these enterprise-class, Tier-1 cloud-scale applications. With Azure Service Fabric, you can do the following: Simplify microservice-based application development and lifecycle management Deliver low-latency performance and efficiency at massive scale * Proven platform used by Azure and other Microsoft services
 * Run in Azure, on-premises, or in other clouds
 
 The Service Fabric PowerShell module is installed with the Service Fabric SDK, runtime, and tools .
@@ -219,7 +218,7 @@ Gets the manifest for a Service Fabric application type.
 Gets the Service Fabric Application name from the Service Fabric Service name.
 
 ### [Get-ServiceFabricApplicationType](Get-ServiceFabricApplicationType.md)
-Gets the Service Fabric application types registered on the Service Fabric cluster.
+Gets the Service Fabric application types registered on the Service Fabric cluster which match the provided filters.
 
 ### [Get-ServiceFabricApplicationUpgrade](Get-ServiceFabricApplicationUpgrade.md)
 Gets the status of a Service Fabric application upgrade.
@@ -295,7 +294,7 @@ Gets detailed metrics load information for a Service Fabric node.
 Gets the progress of a node transition operation.
 
 ### [Get-ServiceFabricPackageDebugParameters](Get-ServiceFabricPackageDebugParameters.md)
-{{Fill in the Synopsis}}
+{{Manually Enter Get-ServiceFabricPackageDebugParameters Description Here}}
 
 ### [Get-ServiceFabricPartition](Get-ServiceFabricPartition.md)
 Gets information about the partitions of a specified Service Fabric partition or service.
@@ -319,7 +318,7 @@ Gets the progress of a partition restart.
 Gets all provisioned fabric code versions in a Service Fabric cluster.
 
 ### [Get-ServiceFabricRegisteredClusterConfigVersion](Get-ServiceFabricRegisteredClusterConfigVersion.md)
-Gets provisioned fabric config versions in a Service Fabric cluster.
+Gets provisioned fabric configuration versions in a Service Fabric cluster.
 
 ### [Get-ServiceFabricRepairTask](Get-ServiceFabricRepairTask.md)
 Gets the repair tasks.
@@ -388,7 +387,7 @@ Obsolete
 Please use [Invoke-ServiceFabricEncryptText](./Invoke-ServiceFabricEncryptText.md) cmdlet.
 
 ### [Invoke-ServiceFabricEncryptText](Invoke-ServiceFabricEncryptText.md)
-Encrypts secrets to include in Service Fabric manifests or configurations.
+Encrypts text to include in Service Fabric manifests or configurations.
 
 ### [Invoke-ServiceFabricFailoverTestScenario](Invoke-ServiceFabricFailoverTestScenario.md)
 Invokes a test scenario to induce faults in a Service Fabric partition.
@@ -559,7 +558,7 @@ Upgrades a Service Fabric cluster.
 Initiates an operation to start or stop a Service Fabric cluster node.
 
 ### [Start-ServiceFabricPartitionDataLoss](Start-ServiceFabricPartitionDataLoss.md)
-Initiates a data loss fault operation on a partition of a stateful Service Fabric service. For details about how to invoke a data loss operation, see the [Invoke Data Loss](https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-use-data-loss-api) article. The various ways to specify or to choose the partition to invoke data loss on are below.
+Initiates a data loss fault operation on a partition of a stateful Service Fabric service. For details about how to invoke a data loss operation, see the [Invoke Data Loss](https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-use-data-loss-api) (https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-use-data-loss-api) article. The various ways to specify or to choose the partition to invoke data loss on are below.
 
 ### [Start-ServiceFabricPartitionQuorumLoss](Start-ServiceFabricPartitionQuorumLoss.md)
 Initiates a fault to put a partition into quorum loss. The various ways to specify or to choose the partition to invoke quorum loss on are below.
@@ -574,7 +573,7 @@ Starts a repair task.
 Stops Chaos in the cluster.
 
 ### [Stop-ServiceFabricNode](Stop-ServiceFabricNode.md)
-**OBSOLETE**. Please use the [Start-ServiceFabricNodeTransition](./Start-ServiceFabricNodeTransition.md) cmdlet instead.
+**OBSOLETE**. Use the [Start-ServiceFabricNodeTransition](./Start-ServiceFabricNodeTransition.md) cmdlet instead.
 
 ### [Stop-ServiceFabricRepairTask](Stop-ServiceFabricRepairTask.md)
 Cancels a repair task.
@@ -589,7 +588,7 @@ Validates the health and availability of a Service Fabric application.
 Validates a Service Fabric application package.
 
 ### [Test-ServiceFabricClusterConnection](Test-ServiceFabricClusterConnection.md)
-Checks and confirms (by returning "True") that you are connected to a Service Fabric cluster.
+Checks and confirms that you are connected to a Service Fabric cluster.
 
 ### [Test-ServiceFabricClusterManifest](Test-ServiceFabricClusterManifest.md)
 Validates a Service Fabric cluster manifest.
