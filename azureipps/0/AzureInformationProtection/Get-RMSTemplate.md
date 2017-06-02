@@ -3,11 +3,11 @@ external help file: AIP.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=841546
 schema: 2.0.0
 ms.assetid: 835E47FE-7E1F-418D-843C-3B2FB2F7FF96
-updated_at: 02/08/2017 18:02 PM
-ms.date: 02/08/2017
+updated_at: 06/02/2017 21:06 PM
+ms.date: 06/02/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AzureInformationProtection/vlatest/Get-RMSTemplate.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AzureInformationProtection/vlatest/Get-RMSTemplate.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/b5b814c02caa6cd576a3db614749957f10782144
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/3a41f8df512045d5d2136621e467afbf3616c51b
 ms.topic: reference
 author: cabailey
 ms.author: PowerShellHelpPub
@@ -138,7 +138,7 @@ Specifies the name of the RMS server or cluster to get the templates if you are 
 
 This parameter is not applicable to Azure RMS.
 
-If you don't specify a server, the cmdlet gets the list of templates from your computer's default Rights Management deployment by using service discovery. Typically, you need to specify this parameter only if you have multiple deployments of AD RMS or service discovery cannot find an AD RMS server. If you are not sure what server name to specify, use the [Get-RMSServer](./Get-RMSServer) cmdlet. 
+If you don't specify a server, the cmdlet gets the list of templates from your computer's default Rights Management deployment by using service discovery. Typically, you need to specify this parameter only if you have multiple deployments of AD RMS or service discovery cannot find an AD RMS server. If you are not sure what server name to specify, use the [Get-RMSServer](./Get-RMSServer.md) cmdlet. 
 
 
 ```yaml
