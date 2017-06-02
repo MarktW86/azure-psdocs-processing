@@ -3,11 +3,11 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkId=400594
 schema: 2.0.0
 ms.assetid: 5B7E7380-C8F4-4113-84D9-B9825F9F2240
-updated_at: 05/01/2017 16:05 PM
-ms.date: 05/01/2017
+updated_at: 06/02/2017 21:06 PM
+ms.date: 06/02/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Add-AadrmSuperUser.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Add-AadrmSuperUser.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/64e9c474de8ba424ec88327ada5252d3a5907d98
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/efa552018c5b101386d55fb319b08967bcbe460b
 ms.topic: reference
 author: cabailey
 ms.author: PowerShellHelpPub
@@ -112,7 +112,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 [Get-AadrmSuperUser](./Get-AadrmSuperUser.md)
 
-[New-MsolServicePrincipalCredential](./New-MsolServicePrincipalCredential.md)
+[New-MsolServicePrincipalCredential](https://docs.microsoft.com/en-us/powershell/module/msonline/new-msolserviceprincipalcredential?view=azureadps-1.0)
 
 [Remove-AadrmSuperUser](./Remove-AadrmSuperUser.md)
 
