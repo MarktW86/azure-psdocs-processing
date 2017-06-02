@@ -7,7 +7,7 @@ updated_at: 06/02/2017 16:06 PM
 ms.date: 06/02/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADContact.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADContact.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/ea7e436b198fab9cf938b03c291879f44f61a8e3
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/77528a2797c29dea35492a81bef785cac1d83e12
 ms.topic: reference
 ms.service: active-directory
 ---
@@ -106,4 +106,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 [Get-AzureADContract](./Get-AzureADContract.md)
 
-[Set-AzureADContract](./Set-AzureADContract.md)
