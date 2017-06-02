@@ -100,7 +100,6 @@ Remove-AzureADApplicationExtensionProperty: Applications
 Remove-AzureADApplicationKeyCredential: Applications
 Remove-AzureADApplicationOwner: Applications
 Remove-AzureADApplicationPasswordCredential: Applications
-Remove-AzureADContact: Contacts
 Remove-AzureADContactManager: Contacts
 Remove-AzureADDevice: Devices
 Remove-AzureADDeviceRegisteredOwner: Devices

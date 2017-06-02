@@ -149,8 +149,6 @@
           href: AzureAD/Get-AzureADContactMembership.md
         - name: Get-AzureADContactThumbnailPhoto
           href: AzureAD/Get-AzureADContactThumbnailPhoto.md
-        - name: Remove-AzureADContact
-          href: AzureAD/Remove-AzureADContact.md
         - name: Remove-AzureADContactManager
           href: AzureAD/Remove-AzureADContactManager.md
         - name: Select-AzureADGroupIdsContactIsMemberOf
