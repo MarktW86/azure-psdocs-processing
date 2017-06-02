@@ -1,8 +1,15 @@
-r---
+---
 external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 ms.assetid: 184FB919-C19D-4EC0-8278-72750B223734
-online version: 
+online version:
 schema: 2.0.0
+updated_at: 06/02/2017 16:06 PM
+ms.date: 06/02/2017
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADContact.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADContact.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/ed6b736ab4594c18ea299112c64e64a67b7598df
+ms.topic: reference
+ms.service: active-directory
 ---
 
 # Remove-AzureADContact
@@ -97,6 +104,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureADContact](./Get-AzureADContract.md)
+[Get-AzureADContract](./Get-AzureADContract.md)
 
 [Set-AzureADContact](./Set-AzureADContact.md)
