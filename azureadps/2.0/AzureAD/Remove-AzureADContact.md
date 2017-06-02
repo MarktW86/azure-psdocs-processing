@@ -7,7 +7,7 @@ updated_at: 06/02/2017 16:06 PM
 ms.date: 06/02/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADContact.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Remove-AzureADContact.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/ed6b736ab4594c18ea299112c64e64a67b7598df
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/ea7e436b198fab9cf938b03c291879f44f61a8e3
 ms.topic: reference
 ms.service: active-directory
 ---
@@ -35,7 +35,7 @@ PS C:\> $Contact = Get-AzureADContact -Top 1
 PS C:\> Remove-AzureADContact -ObjectId $Contact.ObjectId
 ```
 
-The first command gets a contact by using the [Get-AzureADContract](./Get-AzureADContract) cmdlet, and then stores it in the $Contact variable.
+The first command gets a contact by using the [Get-AzureADContract](./Get-AzureADContract.md) cmdlet, and then stores it in the $Contact variable.
 
 The second command removes the contact in $Contact.
 
@@ -106,4 +106,4 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 [Get-AzureADContract](./Get-AzureADContract.md)
 
-[Set-AzureADContact](./Set-AzureADContact.md)
+[Set-AzureADContract](./Set-AzureADContract.md)
