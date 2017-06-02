@@ -3,11 +3,11 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 ms.assetid: 184FB919-C19D-4EC0-8278-72750B223734
 online version:
 schema: 2.0.0
-updated_at: 04/25/2017 20:04 PM
-ms.date: 04/25/2017
+updated_at: 06/02/2017 20:06 PM
+ms.date: 06/02/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2preview/Remove-AzureADContact.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2preview/Remove-AzureADContact.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/c5cc449ee6e2b805fc85a9e05130b06b10899f67
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/16ba2a2e1ae4059d8a9f1fde807101d729c1c23f
 ms.topic: reference
 ms.service: active-directory
 ---
@@ -35,7 +35,7 @@ PS C:\> $Contact = Get-AzureADContact -Top 1
 PS C:\> Remove-AzureADContact -ObjectId $Contact.ObjectId
 ```
 
-The first command gets a contact by using the [Get-AzureADContact](./Get-AzureADContact) cmdlet, and then stores it in the $Contact variable.
+The first command gets a contact by using the [Get-AzureADContact](./Get-AzureADContact.md) cmdlet, and then stores it in the $Contact variable.
 
 The second command removes the contact in $Contact.
 
@@ -106,4 +106,4 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 [Get-AzureADContact](./Get-AzureADContact.md)
 
-[Set-AzureADContact](./Set-AzureADContact.md)
+
