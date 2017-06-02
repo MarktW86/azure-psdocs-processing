@@ -3,11 +3,11 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 ms.assetid: E02E6FAA-5FE3-4EDC-8BCA-75342557F3D5
 online version:
 schema: 2.0.0
-updated_at: 04/25/2017 20:04 PM
-ms.date: 04/25/2017
+updated_at: 06/02/2017 20:06 PM
+ms.date: 06/02/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2preview/Remove-AzureADOAuth2PermissionGrant.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2preview/Remove-AzureADOAuth2PermissionGrant.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/c5cc449ee6e2b805fc85a9e05130b06b10899f67
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/dd09056209c745b4476bfe4b67aa7fbb0f5579df
 ms.topic: reference
 ms.service: active-directory
 ---
@@ -39,7 +39,7 @@ PS C:\> Remove-AzureADOAuth2PermissionGrant -ObjectId $SharePointOA2AllSitesRead
 The first command gets a service principal that matches the specified display name by using the [Get-AzureADServicePrincipal](./Get-AzureADServicePrincipal.md) cmdlet. 
 The command stores the result in the $SharePointSP variable.
 
-The second command gets certain permission grants by using the [Get-AzureADOAuth2PermissionGrant](./Get-AzureADOAuth2PermissionGrantmd) cmdlet. 
+The second command gets certain permission grants by using the [Get-AzureADOAuth2PermissionGrant](./Get-AzureADOAuth2PermissionGrant.md) cmdlet. 
 The command stores the result in the $SharePointOA2AllSitesRead variable.
 
 The final command removes the permission grant in $SharePointOA2AllSitesRead.
