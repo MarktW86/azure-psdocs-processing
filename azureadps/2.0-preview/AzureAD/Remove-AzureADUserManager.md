@@ -3,11 +3,11 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 ms.assetid: 0D0A1E28-96E7-4139-908D-13C426D8065E
 online version:
 schema: 2.0.0
-updated_at: 04/25/2017 20:04 PM
-ms.date: 04/25/2017
+updated_at: 06/02/2017 20:06 PM
+ms.date: 06/02/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2preview/Remove-AzureADUserManager.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2preview/Remove-AzureADUserManager.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/c5cc449ee6e2b805fc85a9e05130b06b10899f67
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/16014ab012ff3cc2a1b7d52dab9d5107d8cf5972
 ms.topic: reference
 ms.service: active-directory
 ---
@@ -35,7 +35,7 @@ PS C:\> $User = Get-AzureADUser -Top 1
 PS C:\> Remove-AzureADUserManager -ObjectId $User.ObjectId
 ```
 
-The first command gets a user by using the [Get-AzureADUser](./Get-AzureADUser) cmdlet, and then stores it in the $User variable.
+The first command gets a user by using the [Get-AzureADUser](./Get-AzureADUser.md) cmdlet, and then stores it in the $User variable.
 
 The second command removes the user in $User.
  

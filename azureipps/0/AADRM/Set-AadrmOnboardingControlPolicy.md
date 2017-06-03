@@ -3,11 +3,11 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkId=521419
 schema: 2.0.0
 ms.assetid: AC10D692-604D-40A3-94BE-AAA5008BF9D8
-updated_at: 05/01/2017 16:05 PM
-ms.date: 05/01/2017
+updated_at: 06/02/2017 21:06 PM
+ms.date: 06/02/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Set-AadrmOnboardingControlPolicy.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Set-AadrmOnboardingControlPolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/64e9c474de8ba424ec88327ada5252d3a5907d98
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/6ac4b1bbbfdded97ba950f9920f32ed599167438
 ms.topic: reference
 author: cabailey
 ms.author: PowerShellHelpPub
@@ -36,7 +36,7 @@ You must use PowerShell to set this configuration; you cannot do this configurat
 
 This control can be based on assigned user licenses for the service or membership in a designated security group. You can also define whether the policy applies to just mobile devices, just Windows clients, or mobile devices and Windows clients.
 
-If you use the assigned license option, you can assign licenses to users by using the Office 365 admin center or by using Azure PowerShell and the [Set-MsolUserLicense](./Set-MsolUserLicense.md) cmdlet from the Azure AD PowerShell administration module. You can also use the [Get-MsolAccountSku](./Get-MsolAccountSku.md) cmdlet to obtain the different types of licenses that you can assign in your organization.
+If you use the assigned license option, you can assign licenses to users by using the Office 365 admin center or by using Azure PowerShell and the [Set-MsolUserLicense](https://docs.microsoft.com/en-us/powershell/module/msonline/set-msoluserlicense?view=azureadps-1.0) cmdlet from the Azure AD PowerShell administration module. You can also use the [Get-MsolAccountSku](https://docs.microsoft.com/en-us/powershell/module/msonline/get-msolaccountsku?view=azureadps-1.0) cmdlet to obtain the different types of licenses that you can assign in your organization.
 
 If you use the group membership option, you must specify a security group, which does not have to be mail-enabled and it can contain other groups. To specify the group, use the group GUID. For more information about the user and group requirements and how to find the group GUID, see [Preparing users and groups for Azure Information Protection](https://docs.microsoft.com/information-protection/plan-design/prepare).
 

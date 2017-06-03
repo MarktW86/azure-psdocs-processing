@@ -2,11 +2,11 @@
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 05/09/2017 21:05 PM
-ms.date: 05/09/2017
+updated_at: 05/19/2017 20:05 PM
+ms.date: 05/19/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricPackageDebugParameters.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricPackageDebugParameters.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/c1b7792bfa7505252a5e7b377993086efa446f5b
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/8d4c81aabdfff50fd2bedea27942bd6899fa7bd1
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -20,7 +20,6 @@ ms.service: service-fabric
 
 ## SYNOPSIS
 
-
 ## SYNTAX
 
 ```
@@ -30,14 +29,11 @@ Get-ServiceFabricPackageDebugParameters [-DebugParameters] <CodePackageDebugPara
 
 ## DESCRIPTION
 
-
 ## EXAMPLES
 
 ## PARAMETERS
 
 ### -DebugParameters
-
-
 ```yaml
 Type: CodePackageDebugParameters[]
 Parameter Sets: (All)
@@ -51,8 +47,6 @@ Accept wildcard characters: False
 ```
 
 ### -TimeoutSec
-
-
 ```yaml
 Type: Int32
 Parameter Sets: (All)
@@ -79,3 +73,4 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
+

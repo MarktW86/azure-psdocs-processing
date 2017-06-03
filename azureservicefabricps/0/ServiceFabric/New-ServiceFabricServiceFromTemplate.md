@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 0A8D8356-C8A1-4EA7-9E0C-3C7A483EB72E
 online version:
 schema: 2.0.0
-updated_at: 05/09/2017 23:05 PM
-ms.date: 05/09/2017
+updated_at: 05/19/2017 20:05 PM
+ms.date: 05/19/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/New-ServiceFabricServiceFromTemplate.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/New-ServiceFabricServiceFromTemplate.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/a90f497e71b8b945255c38b1957de0521f008fdb
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/8d4c81aabdfff50fd2bedea27942bd6899fa7bd1
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -41,6 +41,8 @@ Before you perform any operation on a Service Fabric cluster, establish a connec
 
 ### Example 1: Create a service from a service template
 Given the following application and service manifests:
+
+
 
 
 
@@ -202,7 +204,7 @@ Accept wildcard characters: False
 ```
 
 ### CommonParameters
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see [about_CommonParameters](http://go.microsoft.com/fwlink/?LinkID=113216).
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 

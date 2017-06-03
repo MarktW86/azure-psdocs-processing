@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.SqlDatabase.Jobs.PowerShell.dll-Help.xml
 online version:
 schema: 2.0.0
 ms.assetid: 62655A15-5FF6-4172-A050-2DC0081C12D9
-updated_at: 11/16/2016 09:11 AM
-ms.date: 11/16/2016
+updated_at: 06/02/2017 21:06 PM
+ms.date: 06/02/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/master/ElasticDB/ElasticDatabaseJobs/v0.8.33/Add-AzureSqlJobChildTarget.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/master/ElasticDB/ElasticDatabaseJobs/v0.8.33/Add-AzureSqlJobChildTarget.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/b6a4e720f68675b3b0e9f6aa6be6e55d3ebdc390
+gitcommit: https://github.com/Azure/azure-docs-powershell-elasticdb/blob/a7d73b7ddd5f62ff305d8ef40cd2e5c6466533c9
 ms.topic: reference
 author: erickson-doug
 ms.author: PowerShellHelpPub
@@ -47,9 +47,7 @@ Jobs that are run targeting custom collections are expanded to target all target
 PS C:\>Add-AzureSqlDatabaseJobChildTarget -CustomCollectionName "MyCustomCollection" -ServerName "MyServer.database.contoso.net" -DatabaseName "MyDatabase"
 ```
 
-This command adds a database target to a custom collection as a child target.
-You must first create the database target using the [New-AzureSqlDatabaseJobTarget](./New-AzureSqlDatabaseJobTarget.md) cmdlet.
-Database targets can be child targets of multiple custom collections.
+This command adds a database target to a custom collection as a child target. Database targets can be child targets of multiple custom collections.
 
 ### Example 2: Add a custom collection to another custom collection
 ```

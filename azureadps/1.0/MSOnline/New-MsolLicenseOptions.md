@@ -3,11 +3,11 @@ external help file: Microsoft.Online.Administration.Automation.PSModule.dll-Help
 online version:
 schema: 2.0.0
 ms.assetid: 8D9F4A29-671A-468A-9B20-B985DF1B4EC2
-updated_at: 02/02/2017 20:02 PM
-ms.date: 02/02/2017
+updated_at: 06/01/2017 22:06 PM
+ms.date: 06/01/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/New-MsolLicenseOptions.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/New-MsolLicenseOptions.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/e0bfd4ed6256e4318269090a1648ef8cdd0fc8e1
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/4eed66cc211464e72ce8af0ad59cd4cf4db9edb1
 ms.topic: reference
 ms.service: active-directory
 ---
@@ -26,7 +26,7 @@ New-MsolLicenseOptions -AccountSkuId <String>
 
 ## DESCRIPTION
 The **New-MsolLicenseOptions** cmdlet creates a License Options object.
-This cmdlet disables specific service plans when assigning a user a license using the [Add-MsolUser](./Add-MsolUser.md) and [Set-MsolUserLicense](./Set-MsolUserLicense.md) cmdlets.
+This cmdlet disables specific service plans when assigning a user a license using the [Set-MsolUserLicense](./Set-MsolUserLicense.md) cmdlet.
 
 ## EXAMPLES
 
@@ -80,7 +80,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-[Add-MsolUser](./Add-MsolUser.md)
 
 [New-MsolUser](./New-MsolUser.md)
 

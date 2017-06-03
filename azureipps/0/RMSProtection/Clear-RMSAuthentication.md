@@ -3,11 +3,11 @@ external help file: AIP.dll-Help.xml
 online version: http://go.microsoft.com/fwlink/?LinkId=734985
 schema: 2.0.0
 ms.assetid: D0D6B294-8664-4E9A-8553-5031F452CC64
-updated_at: 02/08/2017 18:02 PM
-ms.date: 02/08/2017
+updated_at: 06/02/2017 22:06 PM
+ms.date: 06/02/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/RMSProtection/vlatest/Clear-RMSAuthentication.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/RMSProtection/vlatest/Clear-RMSAuthentication.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/b5b814c02caa6cd576a3db614749957f10782144
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/652c93b76e9cc7f71ac16c063c0df5ad9770abe9
 ms.topic: reference
 author: cabailey
 ms.author: PowerShellHelpPub
@@ -35,7 +35,7 @@ When you enter a user name and password to sign in to Azure RMS, the credentials
 
 This cmdlet applies to Azure RMS only and when you authenticate as a user rather than a service principal. It does not apply to AD RMS.
 
-Note: If you want to clear the credentials for a service principal that you specified with [Set-RMSServerAuthentication](./Set-RMSServerAuthentication), close your PowerShell session and start a new session that runs **Set-RMSServerAuthentication** with the new credentials.
+Note: If you want to clear the credentials for a service principal that you specified with [Set-RMSServerAuthentication](./Set-RMSServerAuthentication.md), close your PowerShell session and start a new session that runs **Set-RMSServerAuthentication** with the new credentials.
 
 ## EXAMPLES
 

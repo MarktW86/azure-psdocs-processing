@@ -1,7 +1,7 @@
 ---
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/docs-conceptual/install-adv2.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/docs-conceptual/install-adv2.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/65adfa585acca7b552d86793fff0f3b0f782e65c
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/8edcfb17f358af9587be43482ab77c25ca87924f
 ---
 # Azure Active Directory PowerShell Version 2
 
@@ -43,7 +43,7 @@ With the latest[PowerShellGet](http://go.microsoft.com/fwlink/?LinkID=760387&clc
 + Upload items to the Gallery with [**Publish-Module**](http://go.microsoft.com/fwlink/?LinkID=760387&clcid=0x409) and [**Publish-Script**](http://go.microsoft.com/fwlink/?LinkID=760387&clcid=0x409)
 + Add your own custom repository with [**Register-PSRepository**](http://go.microsoft.com/fwlink/?LinkID=760387&clcid=0x409)
 
-Check out the [Getting Started](psgallery/psgallery_gettingstarted.md) page for more information on how to use PowerShellGet commands with the Gallery. You can also run *Update-Help -Module PowerShellGet* to install local help for these commands.
+Check out the [Getting Started](https://www.powershellgallery.com/) page for more information on how to use PowerShellGet commands with the Gallery. You can also run *Update-Help -Module PowerShellGet* to install local help for these commands.
 
 ### Supported Operating Systems
 

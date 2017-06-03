@@ -3,11 +3,11 @@ external help file: AIP.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=841547
 schema: 2.0.0
 ms.assetid: 031B84B2-E380-4989-8FD9-45CC777FE017
-updated_at: 05/05/2017 18:05 PM
-ms.date: 05/05/2017
+updated_at: 06/02/2017 21:06 PM
+ms.date: 06/02/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AzureInformationProtection/vlatest/New-RMSProtectionLicense.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AzureInformationProtection/vlatest/New-RMSProtectionLicense.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/c937cb5494a0323ea2b12815fbda3351e572e7a3
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/1f2f0f4156a5170a17f127263ea22b06ea7127fe
 ms.topic: reference
 author: cabailey
 ms.author: PowerShellHelpPub
@@ -31,7 +31,7 @@ New-RMSProtectionLicense [-RmsServer <String>] [-OwnerEmail <String>] [-UserEmai
 ```
 
 ## DESCRIPTION
-The **New-RMSProtectionLicense** cmdlet creates an ad-hoc rights policy that you store as a variable and then use to protect a file or files when you run the [Protect-RMSFile](./Protect-RMSFile) cmdlet.
+The **New-RMSProtectionLicense** cmdlet creates an ad-hoc rights policy that you store as a variable and then use to protect a file or files when you run the [Protect-RMSFile](./Protect-RMSFile.md) cmdlet.
 
 Create an ad-hoc rights policy (also known as a publishing license) when you cannot use a previously created rights policy template.
 
@@ -135,7 +135,7 @@ The acceptable values for this parameter:
 - DOCEDIT
 - OBJMODEL
 
-Warning: If you later want to remove this rights policy from a file, you must have the EXTRACT or OWNER right to use the [Unprotect-RMSFile](./Unprotect-RMSFile) cmdlet to unprotect a file, or be a Rights Management super user for your organization.
+Warning: If you later want to remove this rights policy from a file, you must have the EXTRACT or OWNER right to use the [Unprotect-RMSFile](./Unprotect-RMSFile.md) cmdlet to unprotect a file, or be a Rights Management super user for your organization.
 
 For more information about these rights, see [Configuring usage rights for Azure Rights Management](https://docs.microsoft.com/information-protection/deploy-use/configure-usage-rights) on the Microsoft documentation site.
 

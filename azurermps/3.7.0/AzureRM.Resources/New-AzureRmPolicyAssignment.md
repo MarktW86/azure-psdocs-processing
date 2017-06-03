@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Cmdlets.dll-Help.xm
 ms.assetid: BA40BD11-8167-48D7-AC71-72B2FD9924F2
 online version:
 schema: 2.0.0
-updated_at: 04/03/2017 14:04 PM
-ms.date: 04/03/2017
+updated_at: 06/02/2017 22:06 PM
+ms.date: 06/02/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/New-AzureRmPolicyAssignment.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/New-AzureRmPolicyAssignment.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/071df880516b676bc8caeca111ba0f07b81e3416
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/5fdeca7302c2bc3923568fb2a59c8e279e78bc6a
 ms.topic: reference
 ms.service: azure-resource-manager
 ---
@@ -53,7 +53,7 @@ PS C:\> $Policy = Get-AzureRmPolicyDefinition -Name "VirtualMachinePolicy"
 PS C:\> New-AzureRmPolicyAssignment -Name "VirtualMachinePolicyAssignment" -PolicyDefinition $Policy -Scope $ResourceGroup.ResourceId
 ```
 
-The first command gets a resource group named ResourceGroup11 by using the [Get-AzureRMResourceGroup](,/Get-AzureRmResourceGroup.md) cmdlet.
+The first command gets a resource group named ResourceGroup11 by using the [Get-AzureRmResourceGroup](./Get-AzureRmResourceGroup.md) cmdlet.
 The command stores that object in the $ResourceGroup variable.
 
 The second command gets the policy definition named VirtualMachinePolicy by using the [Get-AzureRmPolicyDefinition](./Get-AzureRmRoleDefinition.md) cmdlet.

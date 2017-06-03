@@ -3,11 +3,11 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: https://go.microsoft.com/fwlink/?LinkId=400595
 schema: 2.0.0
 ms.assetid: 857D8EFC-9D6E-4756-A9A2-B90FF8E02A1F
-updated_at: 02/13/2017 04:02 AM
-ms.date: 02/13/2017
+updated_at: 06/02/2017 21:06 PM
+ms.date: 06/02/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Connect-AadrmService.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Connect-AadrmService.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/6ca3a334d2d345bf1565d13869b0587b50bde3b6
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/4d3bf0f7320c61af54194ddc6884acf5631a3d9e
 ms.topic: reference
 author: cabailey
 ms.author: PowerShellHelpPub
@@ -42,7 +42,7 @@ You must run this cmdlet before you can run the other Rights Management cmdlets 
 To connect to the Azure Rights Management service, use an account that is one of the following:
 - A global admin for your Office 365 tenant.
 - A global administrator for your Azure tenant. However, this account cannot be a Microsoft account (MSA) or from another Azure tenant.
-- A user account from your tenant that has been granted administrative rights to Azure Rights Management by using the [Add-AadrmRoleBasedAdministrator](./Add-AadrmRoleBasedAdministrator) cmdlet.
+- A user account from your tenant that has been granted administrative rights to Azure Rights Management by using the [Add-AadrmRoleBasedAdministrator](./Add-AadrmRoleBasedAdministrator.md) cmdlet.
 
 Tip: If you are not prompted for your credentials, and you see an error message such as **Cannot use this feature without credentials**, verify that Internet Explorer is configured to use Windows integrated authentication. If this setting is not enabled, enable it, restart Internet Explorer, and then retry authentication to the Rights Management service.
 
