@@ -10,9 +10,9 @@ ms.service: azure-resource-manager
 ms.devlang: powershell
 ms.topic: conceptual
 ms.date: 03/30/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/docs-conceptual/4.0.0/queries-azureps.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/docs-conceptual/4.0.0/queries-azureps.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/docs-conceptual/queries-azureps.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/docs-conceptual/queries-azureps.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/379641e1d19b18dec54244dce5910aa3f4d6d991
 ---
 
 # Querying for Azure resources

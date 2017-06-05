@@ -3,11 +3,11 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkId=400604
 schema: 2.0.0
 ms.assetid: 34D77711-B96A-43E8-B5FD-8CF5013EB7E3
-updated_at: 04/11/2017 00:04 AM
-ms.date: 04/11/2017
+updated_at: 06/03/2017 16:06 PM
+ms.date: 06/03/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Enable-AadrmSuperUserFeature.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Enable-AadrmSuperUserFeature.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/f5f5beb6909618ca9d702cbac2e7b1453da63c7a
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/ae6d42f00f89c4dd792d446e58d2f59ee47463ac
 ms.topic: reference
 author: cabailey
 ms.author: PowerShellHelpPub
@@ -33,7 +33,7 @@ The **Enable-AadrmSuperUserFeature** cmdlet enables the super user feature for y
 
 You must use PowerShell to configure super users; you cannot do this configuration by using a management portal.
 
-By default, the super user feature is not enabled, and no users are assigned to this feature. To assign users, you must use [Add-AadrmSuperUserFeature](./Add-AadrmSuperUserFeature.md) or [Set-AadrmSuperUserGroup](./Set-AadrmSuperUserGroup.md).
+By default, the super user feature is not enabled, and no users are assigned to this feature. To assign users, you must use [Add-AadrmSuperUser](./Add-AadrmSuperUser.md) or [Set-AadrmSuperUserGroup](./Set-AadrmSuperUserGroup.md).
 
 Caution: We recommend that you enable the super user feature on an as-needed basis. During standard operations, we recommend that you disable the super user feature, unless you use it to provide a trusted application with the ability to decrypt rights-protected content. For example, this exception might be needed for an application to scan the contents of a file for malware.
 

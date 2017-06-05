@@ -2,11 +2,11 @@
 external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 04/20/2017 04:04 AM
-ms.date: 04/20/2017
+updated_at: 06/05/2017 13:06 PM
+ms.date: 06/05/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADUserLicenseDetail.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADUserLicenseDetail.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/424c08eff259398d1aa2f26116c38cea5e911b45
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/1a87de5fc179af02ab9050e5d0989097cf499bf5
 ms.topic: reference
 ms.service: active-directory
 ---
@@ -23,7 +23,7 @@ Get-AzureADUserLicenseDetail -ObjectId <String> [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-THis cmdlet retrieves license details for a user
+This cmdlet retrieves license details for a user
 
 ## EXAMPLES
 
