@@ -12,7 +12,7 @@ ms.manager: carmonm
 ms.date: 05/15/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/docs-conceptual/overview.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/docs-conceptual/overview.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4eeb8dd94134977ba5c8e00ed61e2b1a029bef1d
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e915d3a9f5548ef688c93b6ca1a1f4bbb256e05c
 ---
 
 # Overview of Azure PowerShell
@@ -35,7 +35,7 @@ The following samples can help you learn how to perform common scenarios with Az
 > [!NOTE]
 > If you have deployments that use the classic deployment model that cannot be converted, you can
 install the Service Management version of Azure PowerShell. For more information, see
-[Install the Azure PowerShell Service Management module](install-azure-ps?view=azuresmps-3.7.0).
+[Install the Azure PowerShell Service Management module](./ServiceManagement/docs-conceptual/install-azure-ps.md).
 
 ### Need help with PowerShell?
 
