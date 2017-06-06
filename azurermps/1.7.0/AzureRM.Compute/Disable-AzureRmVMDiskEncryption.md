@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Compute.dll-Help.xml
 ms.assetid: AAFAAED5-32CA-470E-BF38-00B06DA56BA3
 online version:
 schema: 2.0.0
-updated_at: 05/01/2017 21:05 PM
-ms.date: 05/01/2017
+updated_at: 06/05/2017 22:06 PM
+ms.date: 06/05/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Disable-AzureRmVMDiskEncryption.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Disable-AzureRmVMDiskEncryption.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0589fbf53d27e39e0cf445261d29c64fb0859d62
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/a7a3e6856d7b571ad10c5878d6bca56a3956442f
 ms.topic: reference
 ms.service: big-compute
 ---
@@ -15,7 +15,7 @@ ms.service: big-compute
 # Disable-AzureRmVMDiskEncryption
 
 ## SYNOPSIS
-Disables encryption on an IaaS virtual machine.
+Disables encryption on an IaaS Windows virtual machine.
 
 ## SYNTAX
 
@@ -27,11 +27,10 @@ Disable-AzureRmVMDiskEncryption [-ResourceGroupName] <String> [-VMName] <String>
 ```
 
 ## DESCRIPTION
-The **Disable-AzureRmVMDiskEncryption** cmdlet disables encryption on an infrastructure as a service (IaaS) virtual machine.
-This cmdlet is only supported on Windows virtual machines and not Linux virtual machines.
-This cmdlet installs an extension on the virtual machine to disable encryption.
-If the *Name* parameter is not specified, an extension with the default name "AzureDiskEncryption for Windows VMs" is created.
-Caution: This cmdlet reboots the virtual machine.
+The **Disable-AzureRmVMDiskEncryption** cmdlet disables encryption on an infrastructure as a service (IaaS) Windows virtual machine.
+This cmdlet is only supported for Windows virtual machines.  Running this cmdlet against a Linux virtual machine with an encrypted OS drive will not succeed and will render the Linux virtual machine inaccessible. 
+
+This cmdlet installs an extension on the virtual machine to disable encryption.  If the *Name* parameter is not specified, the default extension will be used.  *Caution: This cmdlet reboots the virtual machine.*
 
 ## EXAMPLES
 
