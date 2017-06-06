@@ -12,7 +12,7 @@ ms.manager: carmonm
 ms.date: 05/15/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/docs-conceptual/overview.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/docs-conceptual/overview.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/90768fb5b98fca4b2b1a913dc8283296d7351c28
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f6f299e68dc36ab51d94e5b408a265acb049e229
 ---
 
 # Overview of Azure PowerShell
@@ -49,6 +49,6 @@ You can also watch this video:
 ## Other Azure PowerShell modules
 
 * [Azure Active Directory](https://docs.microsoft.com/en-us/powershell/module/azuread/?view=azureadps-2.0#applications)
-* [Azure Information Protection](https://docs.microsoft.com/en-us/powershell/module/azuread/get-azureadapplicationowner?view=azureadps-2.0)
+* [Azure Information Protection](https://docs.microsoft.com/en-us/powershell/azure/overview?view=azureipps)
 * [Azure Service Fabric](https://docs.microsoft.com/en-us/powershell/azure/overview?view=azureservicefabricps)
 * [Azure ElasticDB](https://docs.microsoft.com/en-us/powershell/azure/overview?view=azureelasticdbjobsps-0.8.33)

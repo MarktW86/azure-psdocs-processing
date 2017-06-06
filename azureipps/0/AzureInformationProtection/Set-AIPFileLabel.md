@@ -3,11 +3,11 @@ external help file: AIP.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=838766
 schema: 2.0.0
 ms.assetid: 566E595C-D574-4DED-AE38-CBCD75694B45
-updated_at: 04/13/2017 16:04 PM
-ms.date: 04/13/2017
+updated_at: 04/20/2017 17:04 PM
+ms.date: 04/20/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AzureInformationProtection/vlatest/Set-AIPFileLabel.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AzureInformationProtection/vlatest/Set-AIPFileLabel.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/04982db0e589eaad83c857df455917c085a673c1
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/fb4ba19c83ab104fc5b8bb9de291d8699e0208dd
 ms.topic: reference
 author: cabailey
 ms.author: PowerShellHelpPub
@@ -191,3 +191,5 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## RELATED LINKS
 
 [Get-AIPFileStatus](./Get-AIPFileStatus.md)
+
+[Set-AIPFileClassification](./Set-AIPFileClassification.md)
