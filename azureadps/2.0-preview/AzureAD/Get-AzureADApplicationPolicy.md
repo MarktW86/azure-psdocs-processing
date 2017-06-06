@@ -3,11 +3,11 @@ external help file: Microsoft.Open.MS.GraphBeta.PowerShell.dll-Help.xml
 ms.assetid: 20303C1F-EB5F-4326-B522-2241D736ED4E
 online version:
 schema: 2.0.0
-updated_at: 04/25/2017 20:04 PM
-ms.date: 04/25/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2preview/Get-AzureADApplicationPolicy.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2preview/Get-AzureADApplicationPolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/c5cc449ee6e2b805fc85a9e05130b06b10899f67
+updated_at: 06/06/2017 00:06 AM
+ms.date: 06/06/2017
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/RobdeJong-patch-12/Azure%20AD%20Cmdlets/AzureAD/v2preview/Get-AzureADApplicationPolicy.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/RobdeJong-patch-12/Azure%20AD%20Cmdlets/AzureAD/v2preview/Get-AzureADApplicationPolicy.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/4357baac629b4932b37e189a141cfdbf415337e6
 ms.topic: reference
 ms.service: active-directory
 ---
@@ -31,7 +31,7 @@ The **Get-AzureADApplicationPolicy** cmdlet gets an Azure Active Directory appli
 
 ### Example 1: Get an application policy
 ```
-PS C:\>Get-AzureADApplicationPolicy -ObjectId "<object id of application>"
+PS C:\>Get-AzureADApplicationPolicy -Id "<object id of application>"
 ```
 
 This command gets the specified application policy.

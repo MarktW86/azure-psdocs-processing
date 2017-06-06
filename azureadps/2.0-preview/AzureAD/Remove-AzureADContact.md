@@ -5,8 +5,8 @@ online version:
 schema: 2.0.0
 updated_at: 06/02/2017 20:06 PM
 ms.date: 06/02/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2preview/Remove-AzureADContact.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2preview/Remove-AzureADContact.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/RobdeJong-patch-12/Azure%20AD%20Cmdlets/AzureAD/v2preview/Remove-AzureADContact.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/RobdeJong-patch-12/Azure%20AD%20Cmdlets/AzureAD/v2preview/Remove-AzureADContact.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/16ba2a2e1ae4059d8a9f1fde807101d729c1c23f
 ms.topic: reference
 ms.service: active-directory

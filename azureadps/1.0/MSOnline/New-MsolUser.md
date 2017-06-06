@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: 1E77AB39-65ED-4280-A4EF-09F323C0D341
 updated_at: 11/10/2016 00:11 AM
 ms.date: 11/10/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/New-MsolUser.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/New-MsolUser.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/RobdeJong-patch-12/Azure%20AD%20Cmdlets/MSOnline/v1/New-MsolUser.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/RobdeJong-patch-12/Azure%20AD%20Cmdlets/MSOnline/v1/New-MsolUser.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/f72983e84de2f467e1a00ba8a6d58936035a33db
 ms.topic: reference
 ms.service: active-directory

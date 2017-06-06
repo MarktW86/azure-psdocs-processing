@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: 87A60137-58ED-473B-9D1E-BB7C0CD8F8A2
 updated_at: 11/07/2016 20:11 PM
 ms.date: 11/07/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Remove-MsolServicePrincipal.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Remove-MsolServicePrincipal.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/RobdeJong-patch-12/Azure%20AD%20Cmdlets/MSOnline/v1/Remove-MsolServicePrincipal.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/RobdeJong-patch-12/Azure%20AD%20Cmdlets/MSOnline/v1/Remove-MsolServicePrincipal.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/e45b51fd816f025d32fa17a27b0e7eafee1289da
 ms.topic: reference
 ms.service: active-directory

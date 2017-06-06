@@ -1,6 +1,6 @@
 ---
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/docs-conceptual/install-adv2.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/docs-conceptual/install-adv2.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/RobdeJong-patch-12/Azure%20AD%20Cmdlets/docs-conceptual/install-adv2.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/RobdeJong-patch-12/Azure%20AD%20Cmdlets/docs-conceptual/install-adv2.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/8edcfb17f358af9587be43482ab77c25ca87924f
 ---
 # Azure Active Directory PowerShell Version 2

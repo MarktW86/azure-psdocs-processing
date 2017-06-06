@@ -5,8 +5,8 @@ online version:
 schema: 2.0.0
 updated_at: 06/02/2017 20:06 PM
 ms.date: 06/02/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2preview/Remove-AzureADUserManager.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2preview/Remove-AzureADUserManager.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/RobdeJong-patch-12/Azure%20AD%20Cmdlets/AzureAD/v2preview/Remove-AzureADUserManager.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/RobdeJong-patch-12/Azure%20AD%20Cmdlets/AzureAD/v2preview/Remove-AzureADUserManager.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/16014ab012ff3cc2a1b7d52dab9d5107d8cf5972
 ms.topic: reference
 ms.service: active-directory

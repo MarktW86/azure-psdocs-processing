@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: C38ED8D1-68B3-4D78-8386-20F6FC87A167
 updated_at: 11/10/2016 00:11 AM
 ms.date: 11/10/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolRoleMember.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolRoleMember.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/RobdeJong-patch-12/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolRoleMember.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/RobdeJong-patch-12/Azure%20AD%20Cmdlets/MSOnline/v1/Get-MsolRoleMember.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/f72983e84de2f467e1a00ba8a6d58936035a33db
 ms.topic: reference
 ms.service: active-directory

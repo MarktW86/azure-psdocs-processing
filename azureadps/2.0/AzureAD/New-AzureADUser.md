@@ -5,8 +5,8 @@ online version:
 schema: 2.0.0
 updated_at: 05/30/2017 20:05 PM
 ms.date: 05/30/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADUser.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADUser.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/RobdeJong-patch-12/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADUser.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/RobdeJong-patch-12/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADUser.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/20b112039a87584cd92359dc625ee0f174749589
 ms.topic: reference
 ms.service: active-directory

@@ -4,8 +4,8 @@ online version:
 schema: 2.0.0
 updated_at: 06/05/2017 13:06 PM
 ms.date: 06/05/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADUserLicenseDetail.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADUserLicenseDetail.md
+content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/RobdeJong-patch-12/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADUserLicenseDetail.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/RobdeJong-patch-12/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADUserLicenseDetail.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/1a87de5fc179af02ab9050e5d0989097cf499bf5
 ms.topic: reference
 ms.service: active-directory
