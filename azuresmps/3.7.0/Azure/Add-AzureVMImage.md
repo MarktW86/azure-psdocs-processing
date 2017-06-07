@@ -9,7 +9,6 @@ content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azur
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure/v3.7.0/Add-AzureVMImage.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/c7cc7224854b38877bf15829f66af996877760ce
 ms.topic: reference
-ms.service: azure-asm
 ---
 
 # Add-AzureVMImage
