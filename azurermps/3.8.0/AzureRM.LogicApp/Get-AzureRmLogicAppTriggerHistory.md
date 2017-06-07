@@ -9,7 +9,6 @@ gitcommit: https://github.com/Azure/azure-powershell/blob/88b93d180d5fb3fae892bf
 updated_at: 04/28/2017 07:04 AM
 ms.date: 04/28/2017
 ms.topic: reference
-ms.service: app-service-logic
 ---
 
 # Get-AzureRmLogicAppTriggerHistory

@@ -9,7 +9,6 @@ gitcommit: https://github.com/Azure/azure-powershell/blob/5dfaed965f9d38815f7656
 updated_at: 04/28/2017 07:04 AM
 ms.date: 04/28/2017
 ms.topic: reference
-ms.service: azure-resource-manager
 ---
 
 # New-AzureRmPolicyAssignment

@@ -9,7 +9,6 @@ gitcommit: https://github.com/Azure/azure-powershell/blob/a716374f36b127ce5dad73
 updated_at: 05/11/2017 01:05 AM
 ms.date: 05/11/2017
 ms.topic: reference
-ms.service: sql-database
 ---
 
 # Remove-AzureRmSqlDatabaseAuditing

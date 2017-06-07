@@ -9,7 +9,6 @@ gitcommit: https://github.com/Azure/azure-powershell/blob/188033f88f70f578d4879e
 updated_at: 04/28/2017 07:04 AM
 ms.date: 04/28/2017
 ms.topic: reference
-ms.service: Websites
 ---
 
 # Reset-AzureRmWebAppPublishingProfile

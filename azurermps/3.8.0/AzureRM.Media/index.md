@@ -9,7 +9,6 @@ gitcommit: https://github.com/Azure/azure-powershell/blob/94e42834e29c78cafba9e3
 updated_at: 04/28/2017 07:04 AM
 ms.date: 04/28/2017
 ms.topic: conceptual
-ms.service: media-services
 Get-AzureRmMediaService: Media Services
 Get-AzureRmMediaServiceKeys: Media Services
 Get-AzureRmMediaServiceNameAvailability: Media Services

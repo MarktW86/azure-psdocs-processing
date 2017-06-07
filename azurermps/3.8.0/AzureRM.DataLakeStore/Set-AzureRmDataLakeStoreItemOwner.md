@@ -9,7 +9,6 @@ gitcommit: https://github.com/Azure/azure-powershell/blob/999b10c080714658943413
 updated_at: 04/28/2017 07:04 AM
 ms.date: 04/28/2017
 ms.topic: reference
-ms.service: data-lake-store
 ---
 
 # Set-AzureRmDataLakeStoreItemOwner

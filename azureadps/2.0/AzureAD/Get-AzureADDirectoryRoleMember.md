@@ -9,7 +9,6 @@ content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/mas
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Get-AzureADDirectoryRoleMember.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/3a150535bbec93458680fd00ccd4771083f2638d
 ms.topic: reference
-ms.service: active-directory
 ---
 
 # Get-AzureADDirectoryRoleMember

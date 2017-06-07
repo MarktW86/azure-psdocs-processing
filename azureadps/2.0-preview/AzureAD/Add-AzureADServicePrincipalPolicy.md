@@ -9,7 +9,6 @@ content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/mas
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2preview/Add-AzureADServicePrincipalPolicy.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/544c6b7abedc165e35d9dc8faf909de5022e02c1
 ms.topic: reference
-ms.service: active-directory
 ---
 
 # Add-AzureADServicePrincipalPolicy

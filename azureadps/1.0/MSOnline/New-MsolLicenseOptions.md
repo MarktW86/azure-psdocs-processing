@@ -9,7 +9,6 @@ content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/mas
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/MSOnline/v1/New-MsolLicenseOptions.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/4eed66cc211464e72ce8af0ad59cd4cf4db9edb1
 ms.topic: reference
-ms.service: active-directory
 ---
 
 # New-MsolLicenseOptions

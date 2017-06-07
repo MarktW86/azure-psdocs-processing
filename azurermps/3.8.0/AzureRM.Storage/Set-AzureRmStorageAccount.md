@@ -9,7 +9,6 @@ gitcommit: https://github.com/Azure/azure-powershell/blob/4c282f9c660e8b80d84536
 updated_at: 04/28/2017 07:04 AM
 ms.date: 04/28/2017
 ms.topic: reference
-ms.service: storage
 ---
 
 # Set-AzureRmStorageAccount

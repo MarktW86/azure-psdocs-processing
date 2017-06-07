@@ -9,7 +9,6 @@ gitcommit: https://github.com/Azure/azure-powershell/blob/e3ac458aba81d13f083403
 updated_at: 04/28/2017 07:04 AM
 ms.date: 04/28/2017
 ms.topic: reference
-ms.service: data-lake-store
 ---
 
 # Add-AzureRmDataLakeStoreItemContent

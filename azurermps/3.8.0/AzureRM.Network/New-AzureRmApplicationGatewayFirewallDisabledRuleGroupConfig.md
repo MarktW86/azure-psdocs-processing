@@ -8,7 +8,6 @@ gitcommit: https://github.com/Azure/azure-powershell/blob/7eca34f6e04a055724730b
 updated_at: 04/28/2017 07:04 AM
 ms.date: 04/28/2017
 ms.topic: reference
-ms.service: virtual-network
 ---
 
 # New-AzureRmApplicationGatewayFirewallDisabledRuleGroupConfig

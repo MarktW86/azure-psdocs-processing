@@ -9,7 +9,6 @@ content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/mas
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Add-AzureADDirectoryRoleMember.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/47c86ef0404523b275cea122453371d7f5406820
 ms.topic: reference
-ms.service: active-directory
 ---
 
 # Add-AzureADDirectoryRoleMember

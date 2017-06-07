@@ -9,7 +9,6 @@ gitcommit: https://github.com/Azure/azure-powershell/blob/94e42834e29c78cafba9e3
 updated_at: 05/11/2017 01:05 AM
 ms.date: 05/11/2017
 ms.topic: reference
-ms.service: sql-database
 ---
 
 # Get-AzureRmSqlServerUpgradeHint

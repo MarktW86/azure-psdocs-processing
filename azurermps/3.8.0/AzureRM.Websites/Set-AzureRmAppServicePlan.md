@@ -9,7 +9,6 @@ gitcommit: https://github.com/Azure/azure-powershell/blob/0e1a3c2bbee2f195a44108
 updated_at: 04/28/2017 07:04 AM
 ms.date: 04/28/2017
 ms.topic: reference
-ms.service: Websites
 ---
 
 # Set-AzureRmAppServicePlan

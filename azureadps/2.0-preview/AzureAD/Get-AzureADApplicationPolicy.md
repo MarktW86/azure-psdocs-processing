@@ -9,7 +9,6 @@ content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/mas
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2preview/Get-AzureADApplicationPolicy.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/4357baac629b4932b37e189a141cfdbf415337e6
 ms.topic: reference
-ms.service: active-directory
 ---
 
 # Get-AzureADApplicationPolicy
