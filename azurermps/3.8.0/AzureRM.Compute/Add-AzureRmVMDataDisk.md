@@ -9,7 +9,6 @@ gitcommit: https://github.com/Azure/azure-powershell/blob/3ed7a9171076a468e59df5
 updated_at: 04/28/2017 07:04 AM
 ms.date: 04/28/2017
 ms.topic: reference
-ms.service: big-compute
 ---
 
 # Add-AzureRmVMDataDisk

@@ -9,7 +9,6 @@ gitcommit: https://github.com/Azure/azure-powershell/blob/94e42834e29c78cafba9e3
 updated_at: 04/28/2017 07:04 AM
 ms.date: 04/28/2017
 ms.topic: conceptual
-ms.service: monitoring-alerts
 Add-AzureRmAutoscaleSetting: Monitor
 Add-AzureRmLogAlertRule: Monitor
 Add-AzureRmLogProfile: Monitor

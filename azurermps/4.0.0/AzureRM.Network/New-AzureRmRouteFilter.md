@@ -8,7 +8,6 @@ gitcommit: https://github.com/Azure/azure-powershell/blob/0a4c4b40d46a2a84d0e472
 updated_at: 05/25/2017 20:05 PM
 ms.date: 05/25/2017
 ms.topic: reference
-ms.service: virtual-network
 ---
 
 # New-AzureRmRouteFilter

@@ -11,7 +11,6 @@ content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azur
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.7.0/AzureRM.KeyVault.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04f63f6e685743ace2c57eb157574e34e8610b1c
 ms.topic: conceptual
-ms.service: key-vault
 Add-AzureKeyVaultCertificate: Key Vault
 Add-AzureKeyVaultCertificateContact: Key Vault
 Add-AzureKeyVaultKey: Key Vault

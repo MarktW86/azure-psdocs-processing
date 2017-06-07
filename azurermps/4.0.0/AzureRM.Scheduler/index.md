@@ -8,7 +8,6 @@ gitcommit: https://github.com/Azure/azure-powershell/blob/8810c0614b76be8d014616
 updated_at: 05/10/2017 19:05 PM
 ms.date: 05/10/2017
 ms.topic: conceptual
-ms.service: scheduler
 Disable-AzureRmSchedulerJobCollection: Scheduler
 Enable-AzureRmSchedulerJobCollection: Scheduler
 Get-AzureRmSchedulerJob: Scheduler

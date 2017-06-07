@@ -9,7 +9,6 @@ gitcommit: https://github.com/Azure/azure-powershell/blob/f66c57804026a493d4aab7
 updated_at: 05/16/2017 20:05 PM
 ms.date: 05/16/2017
 ms.topic: reference
-ms.service: sql-database
 ---
 
 # New-AzureRmSqlDatabase

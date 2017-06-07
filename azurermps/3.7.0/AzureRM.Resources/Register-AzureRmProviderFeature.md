@@ -9,7 +9,6 @@ content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azur
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Register-AzureRmProviderFeature.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/78950608fd9885d813ecbee07ad3867d9e213e5e
 ms.topic: reference
-ms.service: azure-resource-manager
 ---
 
 # Register-AzureRmProviderFeature

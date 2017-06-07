@@ -9,7 +9,6 @@ gitcommit: https://github.com/Azure/azure-powershell/blob/3dbe05fc8b8a8891008c88
 updated_at: 04/28/2017 07:04 AM
 ms.date: 04/28/2017
 ms.topic: reference
-ms.service: api-Management
 ---
 
 # Restore-AzureRmApiManagement

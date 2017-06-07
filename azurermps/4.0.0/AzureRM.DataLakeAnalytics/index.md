@@ -10,7 +10,6 @@ gitcommit: https://github.com/Azure/azure-powershell/blob/acaa012bbc3d2249dc7ee2
 updated_at: 05/12/2017 03:05 AM
 ms.date: 05/12/2017
 ms.topic: conceptual
-ms.service: data-lake-analytics
 Add-AzureRmDataLakeAnalyticsDataSource: Data Lake Analytics
 Add-AzureRmDataLakeAnalyticsFirewallRule: Data Lake Analytics
 Get-AzureRmDataLakeAnalyticsAccount: Data Lake Analytics

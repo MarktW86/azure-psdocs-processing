@@ -9,7 +9,6 @@ gitcommit: https://github.com/Azure/azure-powershell/blob/a716374f36b127ce5dad73
 updated_at: 04/28/2017 07:04 AM
 ms.date: 04/28/2017
 ms.topic: reference
-ms.service: sql-database
 ---
 
 # Remove-AzureRmSqlDatabaseThreatDetectionPolicy

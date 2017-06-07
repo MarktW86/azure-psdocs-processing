@@ -9,7 +9,6 @@ gitcommit: https://github.com/Azure/azure-powershell/blob/f7496d80e997c93c8931c1
 updated_at: 04/28/2017 07:04 AM
 ms.date: 04/28/2017
 ms.topic: reference
-ms.service: virtual-network
 ---
 
 # New-AzureRmApplicationGatewayProbeConfig

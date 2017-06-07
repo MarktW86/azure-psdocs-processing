@@ -9,7 +9,6 @@ gitcommit: https://github.com/Azure/azure-powershell/blob/1dfaf7477509cb7498e91a
 updated_at: 04/28/2017 07:04 AM
 ms.date: 04/28/2017
 ms.topic: conceptual
-ms.service: machine-learning
 Export-AzureRmMlWebService: Machine Learning
 Get-AzureRmMlCommitmentAssociation: Machine Learning
 Get-AzureRmMlCommitmentPlan: Machine Learning

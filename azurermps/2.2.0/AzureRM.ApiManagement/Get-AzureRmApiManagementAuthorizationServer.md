@@ -9,7 +9,6 @@ content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azur
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v2.1.0/Get-AzureRmApiManagementAuthorizationServer.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/50790d1af04223a6b49b2f8ea249bae92b42c95d
 ms.topic: reference
-ms.service: api-Management
 ---
 
 # Get-AzureRmApiManagementAuthorizationServer

@@ -10,7 +10,6 @@ gitcommit: https://github.com/Azure/azure-powershell/blob/d0f66e5470993b1636c163
 updated_at: 05/12/2017 03:05 AM
 ms.date: 05/12/2017
 ms.topic: conceptual
-ms.service: key-vault
 Add-AzureKeyVaultCertificate: Key Vault
 Add-AzureKeyVaultCertificateContact: Key Vault
 Add-AzureKeyVaultKey: Key Vault

@@ -11,7 +11,6 @@ content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azur
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v2.1.0/AzureRM.ApiManagement.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d83562f79d01886ecd716d79ce086d2b009f21d3
 ms.topic: conceptual
-ms.service: api-Management
 Add-AzureRmApiManagementApiToProduct: API Management
 Add-AzureRmApiManagementProductToGroup: API Management
 Add-AzureRmApiManagementRegion: API Management

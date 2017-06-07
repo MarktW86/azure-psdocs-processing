@@ -9,7 +9,6 @@ content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azur
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/Azure.Storage/v2.8.0/Remove-AzureStorageTable.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/6022ef8f656b7401464afe5843360445370e30aa
 ms.topic: reference
-ms.service: storage
 ---
 
 # Remove-AzureStorageTable

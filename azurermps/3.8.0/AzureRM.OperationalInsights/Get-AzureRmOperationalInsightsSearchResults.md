@@ -9,7 +9,6 @@ gitcommit: https://github.com/Azure/azure-powershell/blob/ae94f1b0a47fd9b81fd22c
 updated_at: 04/28/2017 07:04 AM
 ms.date: 04/28/2017
 ms.topic: reference
-ms.service: operational-insights
 ---
 
 # Get-AzureRmOperationalInsightsSearchResults

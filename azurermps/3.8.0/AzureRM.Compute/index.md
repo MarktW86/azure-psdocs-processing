@@ -9,7 +9,6 @@ gitcommit: https://github.com/Azure/azure-powershell/blob/1e0dbd9ea7d5072fb8029e
 updated_at: 04/28/2017 07:04 AM
 ms.date: 04/28/2017
 ms.topic: conceptual
-ms.service: big-compute
 Add-AzureRmContainerServiceAgentPoolProfile: Container Service
 Add-AzureRmImageDataDisk: VM Images
 Add-AzureRMVhd: VM VHDs
