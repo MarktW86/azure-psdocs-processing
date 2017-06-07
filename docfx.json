@@ -605,12 +605,12 @@
         },
         "ms.service":
         {
-            "azureadps/*.md":"active-directory",
-            "azureelasticdbjobs/*.md":"elastic-db",
-            "azureipps/*.md":"rights-management",
-            "azureservicefabricps/*.md":"service-fabric",
-            "azurestackps/*.md":"azure-stack",
-            "azuresmps/*.md":"azure-asm",
+            "azureadps/**/*.md":"active-directory",
+            "azureelasticdbjobs/**/*.md":"elastic-db",
+            "azureipps/**/*.md":"rights-management",
+            "azureservicefabricps/**/*.md":"service-fabric",
+            "azurestackps/**/*.md":"azure-stack",
+            "azuresmps/**/*.md":"azure-asm",
             "azurermps/**/Azure.Storage/*.md":"storage",
             "azurermps/**/Azurerm.AnalysiServices/*.md":"analysis-services",
             "azurermps/**/Azurerm.ApiManagement/*.md":"api-Management",
