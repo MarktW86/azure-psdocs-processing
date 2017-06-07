@@ -2,43 +2,41 @@
 Module Name: AzureRM.AzureStackAdmin
 Module Guid: 0e691e0a-ce16-40f2-af84-86fb0d82fb29
 Locale: en-US
-updated_at: 05/02/2017 19:05 PM
-ms.date: 05/02/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/azurestack/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/AzureRM.AzureStackAdmin.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/azurestack/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackAdmin/v0.10.6/AzureRM.AzureStackAdmin.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/64ea21b6f9d300bac04d2df45c463f94a5e389b4
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/azurestack/azureps-cmdlets-docs/azurestack/AzureRM.AzureStackAdmin/v0.10.6/AzureRM.AzureStackAdmin.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/azurestack/azureps-cmdlets-docs/azurestack/AzureRM.AzureStackAdmin/v0.10.6/AzureRM.AzureStackAdmin.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/
 ms.topic: conceptual
-Add-AzureRMGalleryItem: AzureRM.AzureStackAdmin
-Add-AzureRMResourceProviderRegistration: AzureRM.AzureStackAdmin
-Add-AzureRMUsageConnection: AzureRM.AzureStackAdmin
-Get-AzureRMGalleryItem: AzureRM.AzureStackAdmin
-Get-AzureRMManagedLocation: AzureRM.AzureStackAdmin
-Get-AzureRMManagedSubscription: AzureRM.AzureStackAdmin
-Get-AzureRMOffer: AzureRM.AzureStackAdmin
-Get-AzureRMPlan: AzureRM.AzureStackAdmin
-Get-AzureRMResourceProviderRegistration: AzureRM.AzureStackAdmin
-Get-AzureRMTenantSubscription: AzureRM.AzureStackAdmin
-Get-AzureRMUsageConnection: AzureRM.AzureStackAdmin
-Get-AzureStackToken: AzureRM.AzureStackAdmin
-New-AzureRMManagedLocation: AzureRM.AzureStackAdmin
-New-AzureRMManagedSubscription: AzureRM.AzureStackAdmin
-New-AzureRMOffer: AzureRM.AzureStackAdmin
-New-AzureRMPlan: AzureRM.AzureStackAdmin
-New-AzureRMTenantSubscription: AzureRM.AzureStackAdmin
-Remove-AzureRMGalleryItem: AzureRM.AzureStackAdmin
-Remove-AzureRMManagedLocation: AzureRM.AzureStackAdmin
-Remove-AzureRMManagedSubscription: AzureRM.AzureStackAdmin
-Remove-AzureRMOffer: AzureRM.AzureStackAdmin
-Remove-AzureRMPlan: AzureRM.AzureStackAdmin
-Remove-AzureRMResourceProviderRegistration: AzureRM.AzureStackAdmin
-Remove-AzureRMTenantSubscription: AzureRM.AzureStackAdmin
-Remove-AzureRMUsageConnection: AzureRM.AzureStackAdmin
-Set-AzureRMManagedLocation: AzureRM.AzureStackAdmin
-Set-AzureRMManagedSubscription: AzureRM.AzureStackAdmin
-Set-AzureRMOffer: AzureRM.AzureStackAdmin
-Set-AzureRMPlan: AzureRM.AzureStackAdmin
-Set-AzureRMResourceProviderRegistration: AzureRM.AzureStackAdmin
-Set-AzureRMTenantSubscription: AzureRM.AzureStackAdmin
+Add-AzureRMGalleryItem: Azure Stack Admin
+Add-AzureRMResourceProviderRegistration: Azure Stack Admin
+Add-AzureRMUsageConnection: Azure Stack Admin
+Get-AzureRMGalleryItem: Azure Stack Admin
+Get-AzureRMManagedLocation: Azure Stack Admin
+Get-AzureRMManagedSubscription: Azure Stack Admin
+Get-AzureRMOffer: Azure Stack Admin
+Get-AzureRMPlan: Azure Stack Admin
+Get-AzureRMResourceProviderRegistration: Azure Stack Admin
+Get-AzureRMTenantSubscription: Azure Stack Admin
+Get-AzureRMUsageConnection: Azure Stack Admin
+Get-AzureStackToken: Azure Stack Admin
+New-AzureRMManagedLocation: Azure Stack Admin
+New-AzureRMManagedSubscription: Azure Stack Admin
+New-AzureRMOffer: Azure Stack Admin
+New-AzureRMPlan: Azure Stack Admin
+New-AzureRMTenantSubscription: Azure Stack Admin
+Remove-AzureRMGalleryItem: Azure Stack Admin
+Remove-AzureRMManagedLocation: Azure Stack Admin
+Remove-AzureRMManagedSubscription: Azure Stack Admin
+Remove-AzureRMOffer: Azure Stack Admin
+Remove-AzureRMPlan: Azure Stack Admin
+Remove-AzureRMResourceProviderRegistration: Azure Stack Admin
+Remove-AzureRMTenantSubscription: Azure Stack Admin
+Remove-AzureRMUsageConnection: Azure Stack Admin
+Set-AzureRMManagedLocation: Azure Stack Admin
+Set-AzureRMManagedSubscription: Azure Stack Admin
+Set-AzureRMOffer: Azure Stack Admin
+Set-AzureRMPlan: Azure Stack Admin
+Set-AzureRMResourceProviderRegistration: Azure Stack Admin
+Set-AzureRMTenantSubscription: Azure Stack Admin
 _isModulePage: true
 ---
 

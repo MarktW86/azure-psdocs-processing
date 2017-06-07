@@ -2,11 +2,9 @@
 external help file: Microsoft.AzureStack.AzureConsistentStorage.Commands.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 05/03/2017 00:05 AM
-ms.date: 05/03/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/azurestack/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Get-ACSAcquisition.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/azurestack/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Get-ACSAcquisition.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/1b1f65c3c0d4679af027f9576236919af044769d
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/azurestack/azureps-cmdlets-docs/azurestack/AzureRM.AzureStackStorage/v0.10.6/Get-ACSAcquisition.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/azurestack/azureps-cmdlets-docs/azurestack/AzureRM.AzureStackStorage/v0.10.6/Get-ACSAcquisition.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/
 ms.topic: reference
 ---
 
