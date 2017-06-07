@@ -9,7 +9,6 @@ gitcommit: https://github.com/Azure/azure-powershell/blob/2f2c6db5775e9b332fee46
 updated_at: 04/28/2017 07:04 AM
 ms.date: 04/28/2017
 ms.topic: reference
-ms.service: Websites
 ---
 
 # Remove-AzureRmAppServicePlan

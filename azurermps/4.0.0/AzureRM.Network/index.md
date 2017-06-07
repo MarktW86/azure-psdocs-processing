@@ -8,7 +8,6 @@ gitcommit: https://github.com/Azure/azure-powershell/blob/9488169775f6af31f75191
 updated_at: 05/12/2017 03:05 AM
 ms.date: 05/12/2017
 ms.topic: conceptual
-ms.service: virtual-network
 Add-AzureRmApplicationGatewayAuthenticationCertificate: Application Gateway
 Add-AzureRmApplicationGatewayBackendAddressPool: Application Gateway
 Add-AzureRmApplicationGatewayBackendHttpSettings: Application Gateway

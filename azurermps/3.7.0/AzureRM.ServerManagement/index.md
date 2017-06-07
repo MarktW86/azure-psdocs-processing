@@ -9,7 +9,6 @@ content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azur
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ServerManagement/v2.7.0/AzureRM.ServerManagement.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04f63f6e685743ace2c57eb157574e34e8610b1c
 ms.topic: conceptual
-ms.service: server-management
 Get-AzureRmServerManagementGateway: Server Management
 Get-AzureRmServerManagementNode: Server Management
 Get-AzureRmServerManagementSession: Server Management

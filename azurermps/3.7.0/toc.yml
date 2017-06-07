@@ -37,7 +37,7 @@
     - name: SQL Databases
       href: 'https://docs.microsoft.com/azure/sql-database/sql-database-powershell-samples?toc=%2fpowershell%2fmodule%2ftoc.json'
     - name: Cosmos DB
-      href: 'https://docs.microsoft.com/azure/cosmos-db/powershell-samples'
+      href: 'https://docs.microsoft.com/azure/cosmos-db/powershell-samples?toc=%2fpowershell%2fmodules%2ftoc.json'
 - name: Reference
   items:
     - name: Active Directory

@@ -9,7 +9,6 @@ content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azur
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.StreamAnalytics/v2.7.0/AzureRM.StreamAnalytics.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04f63f6e685743ace2c57eb157574e34e8610b1c
 ms.topic: conceptual
-ms.service: stream-analytics
 Get-AzureRmStreamAnalyticsDefaultFunctionDefinition: Stream Analytics
 Get-AzureRmStreamAnalyticsFunction: Stream Analytics
 Get-AzureRmStreamAnalyticsInput: Stream Analytics

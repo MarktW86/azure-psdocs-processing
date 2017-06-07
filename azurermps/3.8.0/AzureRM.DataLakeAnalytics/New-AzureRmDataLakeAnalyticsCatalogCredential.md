@@ -9,7 +9,6 @@ gitcommit: https://github.com/Azure/azure-powershell/blob/77387eae7990078846e57e
 updated_at: 04/28/2017 07:04 AM
 ms.date: 04/28/2017
 ms.topic: reference
-ms.service: data-lake-analytics
 ---
 
 # New-AzureRmDataLakeAnalyticsCatalogCredential

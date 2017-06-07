@@ -8,7 +8,6 @@ gitcommit: https://github.com/Azure/azure-powershell/blob/2cbc975613ee5bb086dedf
 updated_at: 05/24/2017 20:05 PM
 ms.date: 05/24/2017
 ms.topic: reference
-ms.service: app-service-logic
 ---
 
 # Get-AzureRmIntegrationAccountReceivedIcn

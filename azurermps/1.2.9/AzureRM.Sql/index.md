@@ -8,7 +8,6 @@ content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azur
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.4.3/AzureRM.Sql.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/280872fa529e03be2466fa2252957a2060a9dfe4
 ms.topic: conceptual
-ms.service: sql-database
 Get-AzureRmSqlCapability: SQL
 Get-AzureRmSqlDatabase: SQL
 Get-AzureRmSqlDatabaseActivity: SQL

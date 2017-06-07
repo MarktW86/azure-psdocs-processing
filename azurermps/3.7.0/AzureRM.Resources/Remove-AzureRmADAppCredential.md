@@ -9,7 +9,6 @@ content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azur
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Remove-AzureRmADAppCredential.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f3caa0c2a1097fba0625ea37bed92f799e64577a
 ms.topic: reference
-ms.service: azure-resource-manager
 ---
 
 # Remove-AzureRmADAppCredential

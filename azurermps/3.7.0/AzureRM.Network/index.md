@@ -9,7 +9,6 @@ content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azur
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.6.0/AzureRM.Network.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04f63f6e685743ace2c57eb157574e34e8610b1c
 ms.topic: conceptual
-ms.service: virtual-network
 Add-AzureRmApplicationGatewayAuthenticationCertificate: Application Gateway
 Add-AzureRmApplicationGatewayBackendAddressPool: Application Gateway
 Add-AzureRmApplicationGatewayBackendHttpSettings: Application Gateway

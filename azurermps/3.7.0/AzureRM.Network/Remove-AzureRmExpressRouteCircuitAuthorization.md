@@ -9,7 +9,6 @@ content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azur
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.6.0/Remove-AzureRmExpressRouteCircuitAuthorization.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/75c92e9d3a6ef723f885ca530e87cdf18aaa7232
 ms.topic: reference
-ms.service: virtual-network
 ---
 
 # Remove-AzureRmExpressRouteCircuitAuthorization
