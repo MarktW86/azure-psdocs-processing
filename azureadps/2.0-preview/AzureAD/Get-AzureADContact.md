@@ -9,7 +9,6 @@ content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/mas
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2preview/Get-AzureADContact.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/97c155af756b5059a2328cf0fedd79d4ac3a1652
 ms.topic: reference
-ms.service: active-directory
 ---
 
 # Get-AzureADContact

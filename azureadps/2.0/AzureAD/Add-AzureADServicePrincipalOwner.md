@@ -9,7 +9,6 @@ content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/mas
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/Add-AzureADServicePrincipalOwner.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/5a403cfd8a229e9038c71dac3959476abeef5d24
 ms.topic: reference
-ms.service: active-directory
 ---
 
 # Add-AzureADServicePrincipalOwner

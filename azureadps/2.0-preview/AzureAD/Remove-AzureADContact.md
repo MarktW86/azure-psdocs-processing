@@ -9,7 +9,6 @@ content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/mas
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2preview/Remove-AzureADContact.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/16ba2a2e1ae4059d8a9f1fde807101d729c1c23f
 ms.topic: reference
-ms.service: active-directory
 ---
 
 # Remove-AzureADContact
