@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: 8D9FECD9-BD15-4E0C-A38F-EBCA84233458
 updated_at: 03/27/2017 18:03 PM
 ms.date: 03/27/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/Azure.Storage/v2.1.0/New-AzureStorageContext.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/Azure.Storage/v2.1.0/New-AzureStorageContext.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/azurestack/azureps-cmdlets-docs/ResourceManager/Azure.Storage/v2.1.0/New-AzureStorageContext.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/azurestack/azureps-cmdlets-docs/ResourceManager/Azure.Storage/v2.1.0/New-AzureStorageContext.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/9b79c0a37330eb2c43d3e7d31b5ab53f0da9554c
 ms.topic: reference
 ---

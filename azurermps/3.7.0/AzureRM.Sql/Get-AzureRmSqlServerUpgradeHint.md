@@ -5,8 +5,8 @@ online version:
 schema: 2.0.0
 updated_at: 05/11/2017 01:05 AM
 ms.date: 05/11/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.7.0/Get-AzureRmSqlServerUpgradeHint.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.7.0/Get-AzureRmSqlServerUpgradeHint.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/azurestack/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.7.0/Get-AzureRmSqlServerUpgradeHint.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/azurestack/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.7.0/Get-AzureRmSqlServerUpgradeHint.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/05e3e6af398c016caa52517268d3cee57da15cc4
 ms.topic: reference
 ---

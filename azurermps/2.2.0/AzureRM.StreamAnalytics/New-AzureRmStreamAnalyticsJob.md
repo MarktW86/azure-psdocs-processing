@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: DE5B3716-17B7-4B37-8A9A-E03BF25A7D98
 updated_at: 11/22/2016 20:11 PM
 ms.date: 11/22/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.StreamAnalytics/v2.1.0/New-AzureRmStreamAnalyticsJob.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.StreamAnalytics/v2.1.0/New-AzureRmStreamAnalyticsJob.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/azurestack/azureps-cmdlets-docs/ResourceManager/AzureRM.StreamAnalytics/v2.1.0/New-AzureRmStreamAnalyticsJob.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/azurestack/azureps-cmdlets-docs/ResourceManager/AzureRM.StreamAnalytics/v2.1.0/New-AzureRmStreamAnalyticsJob.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0cedc8f73bc96cf5ac4c69144e17b3de601fd3cc
 ms.topic: reference
 ---

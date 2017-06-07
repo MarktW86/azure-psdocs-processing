@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: DC3564E2-9EDE-4901-8D62-F49017A03281
 updated_at: 03/27/2017 18:03 PM
 ms.date: 03/27/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/Azure.Storage/v1.1.6/New-AzureStorageContainerSASToken.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/Azure.Storage/v1.1.6/New-AzureStorageContainerSASToken.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/azurestack/azureps-cmdlets-docs/ResourceManager/Azure.Storage/v1.1.6/New-AzureStorageContainerSASToken.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/azurestack/azureps-cmdlets-docs/ResourceManager/Azure.Storage/v1.1.6/New-AzureStorageContainerSASToken.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/9b79c0a37330eb2c43d3e7d31b5ab53f0da9554c
 ms.topic: reference
 ---

@@ -4,8 +4,8 @@ Module Guid: eb75c732-e274-4a20-b502-e9958e63484a
 Locale: en-US
 updated_at: 05/01/2017 21:05 PM
 ms.date: 05/01/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v2.2.0/AzureRM.Network.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v2.2.0/AzureRM.Network.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/azurestack/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v2.2.0/AzureRM.Network.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/azurestack/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v2.2.0/AzureRM.Network.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0589fbf53d27e39e0cf445261d29c64fb0859d62
 ms.topic: conceptual
 Add-AzureRmApplicationGatewayAuthenticationCertificate: Application Gateway

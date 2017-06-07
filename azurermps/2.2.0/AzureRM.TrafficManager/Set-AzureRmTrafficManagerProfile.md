@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: A58DA3B7-A2D6-44AC-B28A-749B72D5970E
 updated_at: 11/01/2016 22:11 PM
 ms.date: 11/01/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.TrafficManager/v2.1.0/Set-AzureRmTrafficManagerProfile.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.TrafficManager/v2.1.0/Set-AzureRmTrafficManagerProfile.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/azurestack/azureps-cmdlets-docs/ResourceManager/AzureRM.TrafficManager/v2.1.0/Set-AzureRmTrafficManagerProfile.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/azurestack/azureps-cmdlets-docs/ResourceManager/AzureRM.TrafficManager/v2.1.0/Set-AzureRmTrafficManagerProfile.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed
 ms.topic: reference
 ---

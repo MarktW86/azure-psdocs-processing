@@ -4,8 +4,8 @@ online version:
 schema: 2.0.0
 updated_at: 05/01/2017 22:05 PM
 ms.date: 05/01/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.1.0/New-AzureRmADUser.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.1.0/New-AzureRmADUser.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/azurestack/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.1.0/New-AzureRmADUser.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/azurestack/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.1.0/New-AzureRmADUser.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f7900661742fb361471ea2cb42574cb8d734fea4
 ms.topic: reference
 ---

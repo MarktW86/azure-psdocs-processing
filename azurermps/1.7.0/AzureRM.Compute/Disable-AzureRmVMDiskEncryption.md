@@ -5,8 +5,8 @@ online version:
 schema: 2.0.0
 updated_at: 06/05/2017 22:06 PM
 ms.date: 06/05/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Disable-AzureRmVMDiskEncryption.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Disable-AzureRmVMDiskEncryption.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/azurestack/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Disable-AzureRmVMDiskEncryption.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/azurestack/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Disable-AzureRmVMDiskEncryption.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/a7a3e6856d7b571ad10c5878d6bca56a3956442f
 ms.topic: reference
 ---

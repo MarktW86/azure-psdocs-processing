@@ -5,8 +5,8 @@ Locale: en-US
 ms.assetid: 6E941B4F-6D9B-43BE-BC2A-D87F1D7AABAC
 updated_at: 03/11/2017 02:03 AM
 ms.date: 03/11/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ServerManagement/v2.7.0/AzureRM.ServerManagement.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ServerManagement/v2.7.0/AzureRM.ServerManagement.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/azurestack/azureps-cmdlets-docs/ResourceManager/AzureRM.ServerManagement/v2.7.0/AzureRM.ServerManagement.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/azurestack/azureps-cmdlets-docs/ResourceManager/AzureRM.ServerManagement/v2.7.0/AzureRM.ServerManagement.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04f63f6e685743ace2c57eb157574e34e8610b1c
 ms.topic: conceptual
 Get-AzureRmServerManagementGateway: Server Management

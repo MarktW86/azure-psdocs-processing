@@ -5,8 +5,8 @@ online version:
 schema: 2.0.0
 updated_at: 04/06/2017 00:04 AM
 ms.date: 04/06/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.8.0/Get-AzureRmVM.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.8.0/Get-AzureRmVM.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/azurestack/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.8.0/Get-AzureRmVM.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/azurestack/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.8.0/Get-AzureRmVM.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d93dee3bd30fe88be023d0fe4395649d71bb51d9
 ms.topic: reference
 ---

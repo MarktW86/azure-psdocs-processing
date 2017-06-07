@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: 54E27B99-5D6A-45C1-88DA-29D5FDA77248
 updated_at: 11/11/2016 23:11 PM
 ms.date: 11/11/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeAnalytics/v2.1.0/Wait-AzureRmDataLakeAnalyticsJob.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeAnalytics/v2.1.0/Wait-AzureRmDataLakeAnalyticsJob.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/azurestack/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeAnalytics/v2.1.0/Wait-AzureRmDataLakeAnalyticsJob.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/azurestack/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeAnalytics/v2.1.0/Wait-AzureRmDataLakeAnalyticsJob.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf
 ms.topic: reference
 ---

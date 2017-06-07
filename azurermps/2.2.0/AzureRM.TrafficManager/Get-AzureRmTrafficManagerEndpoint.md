@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: C6E4F727-AC36-4165-9298-BF51ABA716DD
 updated_at: 11/01/2016 22:11 PM
 ms.date: 11/01/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.TrafficManager/v2.1.0/Get-AzureRmTrafficManagerEndpoint.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.TrafficManager/v2.1.0/Get-AzureRmTrafficManagerEndpoint.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/azurestack/azureps-cmdlets-docs/ResourceManager/AzureRM.TrafficManager/v2.1.0/Get-AzureRmTrafficManagerEndpoint.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/azurestack/azureps-cmdlets-docs/ResourceManager/AzureRM.TrafficManager/v2.1.0/Get-AzureRmTrafficManagerEndpoint.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed
 ms.topic: reference
 ---
