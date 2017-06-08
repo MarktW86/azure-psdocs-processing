@@ -3,18 +3,17 @@ external help file: AIP.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=838765
 schema: 2.0.0
 ms.assetid: ED3F3730-434E-4EDF-969B-0ABE30D68030
-updated_at: 04/20/2017 17:04 PM
-ms.date: 04/20/2017
+updated_at: 06/08/2017 15:06 PM
+ms.date: 06/08/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AzureInformationProtection/vlatest/Get-AIPFileStatus.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AzureInformationProtection/vlatest/Get-AIPFileStatus.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/fb4ba19c83ab104fc5b8bb9de291d8699e0208dd
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/522cb6195ae64a8678934445b9019d0162bd5d0b
 ms.topic: reference
 author: cabailey
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: cabailey
 open_to_public_contributors: false
-ms.service: rights-management
 ---
 
 # Get-AIPFileStatus
@@ -39,13 +38,13 @@ This cmdlet does not support a service principal account in Azure Active Directo
 ```
 PS C:\> Get-AIPFileStatus -Path \\Finance\Projects\Project.docx
 FileName        : \\Finance\Projects\Project.docx
-IsLabelled      : True
+IsLabeled      : True
 MainLabelId     : 074e257c-1234-1234-1234-34a182080e71
 MainLabelName   : Confidential
 SubLabelId      : d9f23ae3-1234-1234-1234-f515f824c57b
 SubLabelName    : Finance group
 LabelingSiteId  : 72f988bf-1234-1234-1234-2d7cd011db47
-LabeledBy       : John@Contoso.com
+Owner           : John@Contoso.com
 LabelingMethod  : Manual
 LabelDate       : 12/12/2016 12:24:36 PM
 IsRMSProtected  : True
@@ -82,7 +81,7 @@ This command provides the number of files with the "Confidential" label that are
 ### -Path
 Specifies a local or network path to the files for which you want to get the label and protection information. Wildcards are not supported.
 
-Examples include C:\Folder\, C:\Folder\Filename, \\\Server\Folder.
+Examples include C:\Folder\, C:\Folder\Filename, \\\Server\Folder, 'http://sharepoint.contoso.com/Shared Documents/Folder', http://sharepoint.contoso.com/Shared%20Documents/Folder/FileName.
 
 ```yaml
 Type: String[]
