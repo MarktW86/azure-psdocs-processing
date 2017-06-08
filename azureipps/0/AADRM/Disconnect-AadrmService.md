@@ -14,7 +14,6 @@ ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: cabailey
 open_to_public_contributors: false
-ms.service: rights-management
 ---
 
 # Disconnect-AadrmService

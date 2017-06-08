@@ -3,18 +3,17 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkId=400597
 schema: 2.0.0
 ms.assetid: 56F5DDA0-7EFE-4B9B-BE34-4052DC5968B2
-updated_at: 02/12/2017 21:02 PM
-ms.date: 02/12/2017
+updated_at: 06/02/2017 21:06 PM
+ms.date: 06/02/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/release-ipclient/Azure%20Information%20Protection/AADRM/vlatest/Disable-AadrmDevicePlatform.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/release-ipclient/Azure%20Information%20Protection/AADRM/vlatest/Disable-AadrmDevicePlatform.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/e4c765ba645ee6c466dd1ff7182695aa9e59fb44
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/e5c0bc16130c09527924d8ca69f214bb9342ff94
 ms.topic: reference
 author: cabailey
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: cabailey
 open_to_public_contributors: false
-ms.service: rights-management
 ---
 
 # Disable-AadrmDevicePlatform
@@ -36,7 +35,7 @@ Disable-AadrmDevicePlatform [-Windows] [-WindowsStore] [-WindowsPhone] [-Mac] [-
 ```
 
 ## DESCRIPTION
-The **Disable-AadrmDevicePlatform** cmdlet disables Azure Rights Management support for device platforms. For information about supported device platforms, see the [Enable-AadrmDevicePlatform](./Enable-AadrmDevicePlatform) cmdlet.
+The **Disable-AadrmDevicePlatform** cmdlet disables Azure Rights Management support for device platforms. For information about supported device platforms, see the [Enable-AadrmDevicePlatform](./Enable-AadrmDevicePlatform.md) cmdlet.
 
 You must use PowerShell to do this configuration; you cannot do this configuration by using a management portal.
 
