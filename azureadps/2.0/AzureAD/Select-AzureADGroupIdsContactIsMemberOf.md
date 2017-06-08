@@ -9,7 +9,6 @@ content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/rod
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/rodejo5-10/Azure%20AD%20Cmdlets/AzureAD/v2/Select-AzureADGroupIdsContactIsMemberOf.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/8f658f99458e2c236d5f4be363030b6f24cacc4c
 ms.topic: reference
-ms.service: active-directory
 ---
 
 # Select-AzureADGroupIdsContactIsMemberOf

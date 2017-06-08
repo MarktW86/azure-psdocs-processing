@@ -9,7 +9,6 @@ content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/rod
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/rodejo5-10/Azure%20AD%20Cmdlets/MSOnline/v1/AzureActiveDirectory.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/20f039183121ffaa9cc79c2add5a801f5f9631af
 ms.topic: conceptual
-ms.service: active-directory
 Add-MsolAdministrativeUnitMember: MSOnline
 Add-MsolForeignGroupToRole: MSOnline
 Add-MsolGroupMember: MSOnline

@@ -9,7 +9,6 @@ content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/rod
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/rodejo5-10/Azure%20AD%20Cmdlets/AzureAD/v2preview/Enable-AzureADDirectoryRole.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/03c4a9c23ee9bbcc3d6b6cad34303c25a105ca10
 ms.topic: reference
-ms.service: active-directory
 ---
 
 # Enable-AzureADDirectoryRole

@@ -9,7 +9,6 @@ content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/rod
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/rodejo5-10/Azure%20AD%20Cmdlets/MSOnline/v1/Set-MsolDirSyncFeature.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/6ff0592cd35f292072ec632a016095dee163c644
 ms.topic: reference
-ms.service: active-directory
 ---
 
 # Set-MsolDirSyncFeature

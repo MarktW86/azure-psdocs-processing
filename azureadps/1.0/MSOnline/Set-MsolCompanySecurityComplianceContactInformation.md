@@ -9,7 +9,6 @@ content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/rod
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/rodejo5-10/Azure%20AD%20Cmdlets/MSOnline/v1/Set-MsolCompanySecurityComplianceContactInformation.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/4023b179c462035af0fff119e56601be772929f9
 ms.topic: reference
-ms.service: active-directory
 ---
 
 # Set-MsolCompanySecurityComplianceContactInformation

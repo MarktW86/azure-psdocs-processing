@@ -9,7 +9,6 @@ content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/rod
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/rodejo5-10/Azure%20AD%20Cmdlets/AzureAD/v2/AzureActiveDirectory.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/dd8ff5f2d0e9fd57c2aa12560723abd36e4a472f
 ms.topic: conceptual
-ms.service: active-directory
 Add-AzureADApplicationOwner: Applications
 Add-AzureADDeviceRegisteredOwner: Devices
 Add-AzureADDeviceRegisteredUser: Devices

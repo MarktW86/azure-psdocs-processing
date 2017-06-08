@@ -141,6 +141,8 @@
           href: AzureAD/Remove-AzureADApplicationOwner.md
         - name: Remove-AzureADApplicationPasswordCredential
           href: AzureAD/Remove-AzureADApplicationPasswordCredential.md
+        - name: Set-AzureADApplication
+          href: AzureAD/Set-AzureADApplication.md
         - name: Set-AzureADApplicationLogo
           href: AzureAD/Set-AzureADApplicationLogo.md
     - name: Certificate Authorities
@@ -326,6 +328,8 @@
           href: AzureAD/Select-AzureADGroupIdsGroupIsMemberOf.md
         - name: Set-AzureADGroup
           href: AzureAD/Set-AzureADGroup.md
+        - name: Set-AzureADMSGroup
+          href: AzureAD/Set-AzureADMSGroup.md
     - name: OAuth2
       href: 'AzureAD/index.md#oauth2'
       items:
@@ -344,6 +348,15 @@
           href: AzureAD/Remove-AzureADObjectSetting.md
         - name: Set-AzureADObjectSetting
           href: AzureAD/Set-AzureADObjectSetting.md
+    - name: Others
+      href: 'AzureAD/index.md#others'
+      items:
+        - name: Get-AzureADCurrentSessionInfo
+          href: AzureAD/Get-AzureADCurrentSessionInfo.md
+        - name: Remove-AzureADApplicationPolicy
+          href: AzureAD/Remove-AzureADApplicationPolicy.md
+        - name: Remove-AzureADServicePrincipalPolicy
+          href: AzureAD/Remove-AzureADServicePrincipalPolicy.md
     - name: Policies
       href: 'AzureAD/index.md#policies'
       items:
@@ -364,6 +377,8 @@
           href: AzureAD/Add-AzureADServicePrincipalOwner.md
         - name: Add-AzureADServicePrincipalPolicy
           href: AzureAD/Add-AzureADServicePrincipalPolicy.md
+        - name: Get-AzureADServiceAppRoleAssignedTo
+          href: AzureAD/Get-AzureADServiceAppRoleAssignedTo.md
         - name: Get-AzureADServiceAppRoleAssignment
           href: AzureAD/Get-AzureADServiceAppRoleAssignment.md
         - name: Get-AzureADServicePrincipal
@@ -437,6 +452,8 @@
           href: AzureAD/Get-AzureADUserThumbnailPhoto.md
         - name: New-AzureADMSInvitation
           href: AzureAD/New-AzureADMSInvitation.md
+        - name: New-AzureADUser
+          href: AzureAD/New-AzureADUser.md
         - name: New-AzureADUserAppRoleAssignment
           href: AzureAD/New-AzureADUserAppRoleAssignment.md
         - name: Remove-AzureADUser
@@ -453,6 +470,8 @@
           href: AzureAD/Revoke-AzureADUserAllRefreshToken.md
         - name: Select-AzureADGroupIdsUserIsMemberOf
           href: AzureAD/Select-AzureADGroupIdsUserIsMemberOf.md
+        - name: Set-AzureADUser
+          href: AzureAD/Set-AzureADUser.md
         - name: Set-AzureADUserExtension
           href: AzureAD/Set-AzureADUserExtension.md
         - name: Set-AzureADUserLicense

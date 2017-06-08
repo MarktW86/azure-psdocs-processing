@@ -9,7 +9,6 @@ content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/rod
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/rodejo5-10/Azure%20AD%20Cmdlets/MSOnline/v1/Confirm-MsolDomain.md
 gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/94a9d6babbb311cac82eb0873333def445a3d23a
 ms.topic: reference
-ms.service: active-directory
 ---
 
 # Confirm-MsolDomain
