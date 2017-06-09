@@ -2,11 +2,11 @@
 external help file: Microsoft.AzureStack.AzureConsistentStorage.Commands.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 05/03/2017 00:05 AM
-ms.date: 05/03/2017
+updated_at: 06/09/2017 19:06 PM
+ms.date: 06/09/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Get-ACSStorageAccount.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Get-ACSStorageAccount.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/1b1f65c3c0d4679af027f9576236919af044769d
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/51d5bc2daabafa1c8a7fb866255cf8f4e06e53fc
 ms.topic: reference
 ---
 
@@ -48,7 +48,7 @@ Get-ACSStorageAccount -ResourceGroupName $ResourceGroup -FarmName $Farm.Name -Pa
 
 The first command stores the value named System in the variable named $ResourceGroup.
 
-The second command uses the [Get-ACSFarm](,/Get-ACSFarm,md) cmdlet to get the farm that is contained in the resource group specified in the $ResourceGroup variable. 
+The second command uses the [Get-ACSFarm](,/Get-ACSFarm.md) cmdlet to get the farm that is contained in the resource group specified in the $ResourceGroup variable. 
 The command stores the result in the variable named $Farm.
 
 The third command uses the **Get-ACSStorageAccount** cmdlet to get the storage account named Account002.
