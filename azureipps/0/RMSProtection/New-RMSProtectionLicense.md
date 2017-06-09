@@ -1,13 +1,13 @@
 ---
-external help file: RMSProtection.dll-Help.xml
+external help file: AIP.dll-Help.xml
+ms.assetid: 7ABE0E1B-354F-4017-B4B0-C13AD1FF7A6D
 online version: http://go.microsoft.com/fwlink/?LinkID=623206
 schema: 2.0.0
-ms.assetid: 7ABE0E1B-354F-4017-B4B0-C13AD1FF7A6D
-updated_at: 06/02/2017 22:06 PM
-ms.date: 06/02/2017
+updated_at: 06/09/2017 18:06 PM
+ms.date: 06/09/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/RMSProtection/vlatest/New-RMSProtectionLicense.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/RMSProtection/vlatest/New-RMSProtectionLicense.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/a32cce8e808abc49ca7264704cf2b8fbfd5520d6
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/ee574d305ab8e521d80d62d46402d81f5ba4377c
 ms.topic: reference
 author: cabailey
 ms.author: PowerShellHelpPub
@@ -75,7 +75,7 @@ Specifies the description of the rights policy.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -90,7 +90,7 @@ Specifies the name of this  rights policy.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -109,7 +109,7 @@ If you do not specify a value, the cmdlet will use your email address to identif
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -142,7 +142,7 @@ For more information about these rights, see [Configuring Usage Rights for Azure
 ```yaml
 Type: String[]
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 Accepted values: VIEW, EDIT, PRINT, EXPORT, COMMENT, VIEWRIGHTSDATA, EDITRIGHTSDATA, EXTRACT, OWNER, DOCEDIT, OBJMODEL
 
 Required: False
@@ -160,7 +160,7 @@ This parameter is not applicable for Azure RMS or if your computer knows the rig
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -177,7 +177,7 @@ You can specify single users, or specify a group of users from your organization
 ```yaml
 Type: String[]
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -194,7 +194,7 @@ After this expiry period, the specified users will no longer be able to access t
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
