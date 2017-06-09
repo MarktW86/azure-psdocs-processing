@@ -3,11 +3,11 @@ external help file: AIP.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=838765
 schema: 2.0.0
 ms.assetid: ED3F3730-434E-4EDF-969B-0ABE30D68030
-updated_at: 06/08/2017 15:06 PM
-ms.date: 06/08/2017
+updated_at: 06/09/2017 11:06 AM
+ms.date: 06/09/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AzureInformationProtection/vlatest/Get-AIPFileStatus.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AzureInformationProtection/vlatest/Get-AIPFileStatus.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/522cb6195ae64a8678934445b9019d0162bd5d0b
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/39498fc2df0cba950196773d544ddd768e98f5e7
 ms.topic: reference
 author: cabailey
 ms.author: PowerShellHelpPub
@@ -44,7 +44,7 @@ MainLabelName   : Confidential
 SubLabelId      : d9f23ae3-1234-1234-1234-f515f824c57b
 SubLabelName    : Finance group
 LabelingSiteId  : 72f988bf-1234-1234-1234-2d7cd011db47
-Owner           : John@Contoso.com
+LabeledBy       : John@Contoso.com
 LabelingMethod  : Manual
 LabelDate       : 12/12/2016 12:24:36 PM
 IsRMSProtected  : True
@@ -81,7 +81,7 @@ This command provides the number of files with the "Confidential" label that are
 ### -Path
 Specifies a local or network path to the files for which you want to get the label and protection information. Wildcards are not supported.
 
-Examples include C:\Folder\, C:\Folder\Filename, \\\Server\Folder, 'http://sharepoint.contoso.com/Shared Documents/Folder', http://sharepoint.contoso.com/Shared%20Documents/Folder/FileName.
+Examples include C:\Folder\, C:\Folder\Filename, \\\Server\Folder.
 
 ```yaml
 Type: String[]
