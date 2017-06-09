@@ -3,18 +3,17 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 5CF5310E-E6BC-4F08-858A-DC9CF5FC0493
 online version:
 schema: 2.0.0
-updated_at: 05/19/2017 20:05 PM
-ms.date: 05/19/2017
+updated_at: 06/08/2017 17:06 PM
+ms.date: 06/08/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/New-ServiceFabricApplication.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/New-ServiceFabricApplication.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/8d4c81aabdfff50fd2bedea27942bd6899fa7bd1
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/22ccbdbe6f5398c7882b9dcbcefafd417548cbdb
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: vipulm
 open_to_public_contributors: false
-ms.service: service-fabric
 ---
 
 # New-ServiceFabricApplication
@@ -43,7 +42,7 @@ Before you perform any operation on a Service Fabric cluster, establish a connec
 PS C:\> New-ServiceFabricApplication -ApplicationName fabric:/myapp/persistenttodolist -ApplicationTypeName "PersistentToDoListApp" -ApplicationTypeVersion "1.0"
 ```
 
-This command creates an application of the type PersistentToDoListApp. The application is version 1.0. Application type and version come from application manifest in the application package which was used when registering the application using [Register-ServiceFabricApplicationType](.\Register-ServiceFabricApplicationType.md) cmdlet.
+This command creates an application of the type PersistentToDoListApp. The application is version 1.0. Application type and version come from application manifest in the application package that was used when registering the application using [Register-ServiceFabricApplicationType](.\Register-ServiceFabricApplicationType.md) cmdlet.
 
 ### Example 2: Create an application by overriding default parameter values in the application manifest
 ```
@@ -71,7 +70,7 @@ Accept wildcard characters: False
 ```
 
 ### -ApplicationParameter
-Specifies the overrides for application parameters defined in application manifest as key/value pairs. The cmdlet creates a Service Fabric application of the application type and uses the overridden values for these parameters. The parameters which are being overridden here must exist in the application manifest.
+Specifies the overrides for application parameters defined in application manifest as key/value pairs. The cmdlet creates a Service Fabric application of the application type and uses the overridden values for these parameters. The parameters that are being overridden here must exist in the application manifest.
 
 ```yaml
 Type: Hashtable
@@ -171,7 +170,7 @@ Accept wildcard characters: False
 
 ### -MinimumNodes
 Specifies the minimum number of nodes where Service Fabric will reserve capacity for this application, this does not mean that the application is guaranteed to have replicas on all those nodes.
-The value of this parameter must be a non-negative integer. Default value for this is zero which means no capacity is reserved for the application.
+The value of this parameter must be a non-negative integer. Default value for this is zero, which means no capacity is reserved for the application.
 
 ```yaml
 Type: Int64

@@ -3,18 +3,17 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 38C23E3E-4A54-4C9A-B349-A338006A12DE
 online version:
 schema: 2.0.0
-updated_at: 05/19/2017 20:05 PM
-ms.date: 05/19/2017
+updated_at: 06/08/2017 17:06 PM
+ms.date: 06/08/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Update-ServiceFabricApplication.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Update-ServiceFabricApplication.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/8d4c81aabdfff50fd2bedea27942bd6899fa7bd1
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/22ccbdbe6f5398c7882b9dcbcefafd417548cbdb
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: vipulm
 open_to_public_contributors: false
-ms.service: service-fabric
 ---
 
 # Update-ServiceFabricApplication
@@ -95,7 +94,7 @@ Specifies the maximum number of nodes on which to place an application.
 The value of this parameter must be a non-negative integer.
 The default value is 0, which indicates the application can be placed on any number of nodes in the cluster.
 
-If you don't specify this parameter, the application uses the existing maximum number of nodes set for the application.
+If you do not specify this parameter, the application uses the existing maximum number of nodes set for the application.
 
 ```yaml
 Type: Int64
@@ -110,7 +109,7 @@ Accept wildcard characters: False
 ```
 
 ### -Metrics
-Specifies an array of metrics. These metrics are used by Service Fabric Cluster Resource Manager to manage resources in the cluster. For more information about metrics and resource managent in Service Fabric, see [Service Fabric Cluster Resource Manager Introduction](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-resource-manager-introduction) (https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-resource-manager-introduction).
+Specifies an array of metrics. These metrics are used by Service Fabric Cluster Resource Manager to manage resources in the cluster. For more information about metrics and resource management in Service Fabric, see [Service Fabric Cluster Resource Manager Introduction](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-resource-manager-introduction) (https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-resource-manager-introduction).
 Each metric can follow the pattern MetricName,NodeReservationCapacity,MaximumNodeCapacity,TotalApplicationCapacity, or can specify MetricName and use parameter names NodeReservationCapacity,MaximumNodeCapacity,TotalApplicationCapacity followed by a parameter value separated with a colon.
 Each parameter **name:value** pair can appear at most once.
 
@@ -145,7 +144,7 @@ Accept wildcard characters: False
 
 ### -MinimumNodes
 Specifies the number of nodes in a cluster on which capacity is reserved for this application, this does not mean that the application is guaranteed to have replicas on all those nodes.
-The value of this parameter must be a non-negative integer. Default value for this is zero which means no capacity is reserved for the application.
+The value of this parameter must be a non-negative integer. Default value for this is zero, which means no capacity is reserved for the application.
 
 If MinimumNodes is set to 0, no capacity is reserved.
 

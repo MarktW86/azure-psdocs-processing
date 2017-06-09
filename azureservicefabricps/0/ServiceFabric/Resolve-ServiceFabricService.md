@@ -3,18 +3,17 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: A315ECB3-FC8C-451B-85B0-C3C4887B78C9
 online version:
 schema: 2.0.0
-updated_at: 05/19/2017 20:05 PM
-ms.date: 05/19/2017
+updated_at: 06/08/2017 17:06 PM
+ms.date: 06/08/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Resolve-ServiceFabricService.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Resolve-ServiceFabricService.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/8d4c81aabdfff50fd2bedea27942bd6899fa7bd1
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/22ccbdbe6f5398c7882b9dcbcefafd417548cbdb
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: vipulm
 open_to_public_contributors: false
-ms.service: service-fabric
 ---
 
 # Resolve-ServiceFabricService
@@ -82,7 +81,7 @@ PS C:\> $result = Resolve-ServiceFabricService -ServiceName fabric:/TestApplicat
 PS C:\> Resolve-ServiceFabricService -ServiceName fabric:/TestApplication/TestService/1 -PartitionKindSingleton -PreviousResult $result
 ```
 
-This command provides the result of the first resolve call to the subsequent one. This is required if the user knows that the result that was obtained in the first call is stale. The endpoints are considered stale if the connection request times out or returns an error.
+This command provides the result of the first resolve call to the subsequent one. This is required if the user knows that the result previously obtained in the first call is stale. The endpoints are considered stale if the connection request times out or returns an error.
 
 ### Example 3: Force refresh local cache
 ```

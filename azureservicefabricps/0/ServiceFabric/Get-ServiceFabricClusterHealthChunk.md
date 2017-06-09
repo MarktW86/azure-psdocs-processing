@@ -3,18 +3,17 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 7EE2AE48-02B7-4A75-B20F-75AA942A4C96
 online version:
 schema: 2.0.0
-updated_at: 05/19/2017 20:05 PM
-ms.date: 05/19/2017
+updated_at: 06/08/2017 17:06 PM
+ms.date: 06/08/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricClusterHealthChunk.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricClusterHealthChunk.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/8d4c81aabdfff50fd2bedea27942bd6899fa7bd1
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/22ccbdbe6f5398c7882b9dcbcefafd417548cbdb
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: vipulm
 open_to_public_contributors: false
-ms.service: service-fabric
 ---
 
 # Get-ServiceFabricClusterHealthChunk
@@ -75,7 +74,7 @@ PS C:\> Get-ServiceFabricClusterHealthChunk -NodeFilter $NodeFilters
 ```
 
 This command queries the health of the cluster.
-It specifies filters to return all nodes, except for node N0010, which should be included only if its aggregated health state in Error.
+It specifies filters to return all nodes, except for node N0010, which should be included only if it's aggregated health state in Error.
 
 ### Example 2: Get the health of the cluster with deployed entity filters
 ```
@@ -292,4 +291,5 @@ This cmdlet returns a **System.Fabric.Health.ClusterHealthChunk** object that re
 [Get-ServiceFabricClusterLoadInformation](./Get-ServiceFabricClusterLoadInformation.md)
 
 [Connect-ServiceFabricCluster](./Connect-ServiceFabricCluster.md)
+
 

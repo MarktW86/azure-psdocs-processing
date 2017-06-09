@@ -3,18 +3,17 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 26459CBC-9296-4B65-A298-E6B31EF65865
 online version:
 schema: 2.0.0
-updated_at: 05/19/2017 20:05 PM
-ms.date: 05/19/2017
+updated_at: 06/08/2017 17:06 PM
+ms.date: 06/08/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricTestCommandStatusList.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricTestCommandStatusList.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/8d4c81aabdfff50fd2bedea27942bd6899fa7bd1
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/22ccbdbe6f5398c7882b9dcbcefafd417548cbdb
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: vipulm
 open_to_public_contributors: false
-ms.service: service-fabric
 ---
 
 # Get-ServiceFabricTestCommandStatusList
@@ -34,7 +33,7 @@ The **Get-ServiceFabricTestCommandStatusList** gets the list of the fault operat
 
 The Operation ID returned can be used to get additional details about the fault operation using the get progress APIs for the respective fault and/or to cancel the fault using the [Stop-ServiceFabricTestCommand](./Stop-ServiceFabricTestCommand.md) command. The mapping from TestCommandType to the progress API can be found below
 
-| TestCommandType | Get Progess Command |
+| TestCommandType | Get Progress Command |
 | --- | --- |
 | PartitionDataLoss | [Get-ServiceFabricPartitionDataLossProgress](./Get-ServiceFabricPartitionDataLossProgress) |
 | PartitionQuorumLoss | [Get-ServiceFabricPartitionQuorumLossProgress](./Get-ServiceFabricPartitionQuorumLossProgress) |

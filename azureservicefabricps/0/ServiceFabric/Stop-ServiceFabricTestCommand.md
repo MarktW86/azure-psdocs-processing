@@ -3,18 +3,17 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 97D767C4-EAD7-4D19-A085-2BD1F992C099
 online version:
 schema: 2.0.0
-updated_at: 05/19/2017 20:05 PM
-ms.date: 05/19/2017
+updated_at: 06/08/2017 17:06 PM
+ms.date: 06/08/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Stop-ServiceFabricTestCommand.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Stop-ServiceFabricTestCommand.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/8d4c81aabdfff50fd2bedea27942bd6899fa7bd1
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/22ccbdbe6f5398c7882b9dcbcefafd417548cbdb
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: vipulm
 open_to_public_contributors: false
-ms.service: service-fabric
 ---
 
 # Stop-ServiceFabricTestCommand
@@ -33,7 +32,7 @@ Stop-ServiceFabricTestCommand -OperationId <Guid> [-ForceCancel] [-Force] [-Time
 The **Stop-ServiceFabricTestCommand** cmdlet cancels the specified fault operation.
 Specify the ID of the operation that you provided when you started the fault. The type of faults that can cancelled include Partition Data Loss ([Start-ServiceFabricPartitionDataLoss](./Start-ServiceFabricPartitionDataLoss.md)), Partition Quorum Loss ([Start-ServiceFabricPartitionQuorumLoss](./Start-ServiceFabricPartitionQuorumLoss.md)), Partition Restart ([Start-ServiceFabricPartitionRestart](./Start-ServiceFabricPartitionRestart.md)) and Node State Transition ([Start-ServiceFabricNodeTransition](./Start-ServiceFabricNodeTransition.md)) 
 
-Under normal conditions i.e. without the *Force* parameter, this cmdlet first cancels the fault and attempts to clean up state information. As part of this the fault operation moves into a RollingBack state during the cleanup.
+Under normal conditions i.e. without the *Force* parameter, this cmdlet first cancels the fault and attempts to clean up state information. As part of this, the fault operation moves into a RollingBack state during the cleanup.
 Once the cleanup of the fault completes the final state of the command is Cancelled.
 
 >

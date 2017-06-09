@@ -3,18 +3,17 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 239A882B-8E31-4404-AB35-2A39D8ABC600
 online version:
 schema: 2.0.0
-updated_at: 05/19/2017 20:05 PM
-ms.date: 05/19/2017
+updated_at: 06/08/2017 17:06 PM
+ms.date: 06/08/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Update-ServiceFabricRepairTaskHealthPolicy.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Update-ServiceFabricRepairTaskHealthPolicy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/8d4c81aabdfff50fd2bedea27942bd6899fa7bd1
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/22ccbdbe6f5398c7882b9dcbcefafd417548cbdb
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: vipulm
 open_to_public_contributors: false
-ms.service: service-fabric
 ---
 
 # Update-ServiceFabricRepairTaskHealthPolicy
@@ -32,7 +31,7 @@ Update-ServiceFabricRepairTaskHealthPolicy [-TaskId] <String> [-Version <Int64>]
 
 ## DESCRIPTION
 The **Update-ServiceFabricRepairTaskHealthPolicy** cmdlet updates the health policy of a repair task.
-This functionality is currently only available in specially-configured Azure Cloud Services.
+This functionality is currently only available in specially configured Azure Cloud Services.
 
 This cmdlet supports the Service Fabric platform.
 Do not run this cmdlet directly.

@@ -3,18 +3,17 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 80D9F43B-395B-4295-8D5B-CE56BB0B6FA2
 online version:
 schema: 2.0.0
-updated_at: 05/19/2017 20:05 PM
-ms.date: 05/19/2017
+updated_at: 06/08/2017 17:06 PM
+ms.date: 06/08/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Remove-ServiceFabricReplica.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Remove-ServiceFabricReplica.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/8d4c81aabdfff50fd2bedea27942bd6899fa7bd1
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/22ccbdbe6f5398c7882b9dcbcefafd417548cbdb
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: vipulm
 open_to_public_contributors: false
-ms.service: service-fabric
 ---
 
 # Remove-ServiceFabricReplica
@@ -171,7 +170,7 @@ Then we need to specify the partition to which the replica belongs. We can speci
 
 Lastly, we may need to specify which replica of the partition we are referring to and that can be done either by specifying the replica role (primary or secondary replica) or by specifying the replica ID.
 
-Note, sometimes the user may - instead of exactly specifying the replica - want to remove say one of the secondaries of a particular partition of a particular service; that is why, some of the forms of the **Remove-ServiceFabricReplica** cmdlet intentionally leaves some ambiguity about which replica the user is referring -- in these cases, the cmdlet makes some random choices for the user. For example, if the user only provides the service name to the cmdlet, the **Remove-ServiceFabricReplica** cmdlet will assume that the user means to remove any one of the replicas from any one of the partitions belonging to the service; so it will choose one of the partitions of the service at random and will choose one of the replicas (could be primary or secondary) of the chosen partition at random and will remove that replica.
+In some cases, the user may want to remove a random partition/replica combination for a service instead of a specific one. This is useful for testability of your services when you want to run through a random set of transitions for your services to simulate real world failures. For example, if you provide only the service name to this cmdlet and leave out the partition and/or the replica information the cmdlet will make a choice at random to select a partition and a replica to fault. Please note the selected partition or replica will only belong to the specified service.
 
 ## EXAMPLES
 

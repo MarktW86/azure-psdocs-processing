@@ -3,18 +3,17 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 298F2C12-F1BE-4341-B5A0-4C45CF45EB52
 online version:
 schema: 2.0.0
-updated_at: 05/19/2017 20:05 PM
-ms.date: 05/19/2017
+updated_at: 06/08/2017 17:06 PM
+ms.date: 06/08/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Unregister-ServiceFabricClusterPackage.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Unregister-ServiceFabricClusterPackage.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/8d4c81aabdfff50fd2bedea27942bd6899fa7bd1
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/22ccbdbe6f5398c7882b9dcbcefafd417548cbdb
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: vipulm
 open_to_public_contributors: false
-ms.service: service-fabric
 ---
 
 # Unregister-ServiceFabricClusterPackage
@@ -43,7 +42,7 @@ Unregister-ServiceFabricClusterPackage [-Config] [-CodePackageVersion <String>]
 ```
 
 ## DESCRIPTION
-The **Unregister-ServiceFabricClusterPackage** cmdlet unregisters Service Fabric runtime installation version and/or cluster manifest version from the cluster. The versions should be unregistered from the cluster if the versions are no longer used. This cmdlet will fail if the version is currently being used by the cluster.
+The **Unregister-ServiceFabricClusterPackage** cmdlet unregisters Service Fabric runtime installation version and/or cluster manifest version from the cluster. The versions should be unregistered from the cluster if the versions are no longer used. This cmdlet will fail if the cluster is currently using the version.
 
 The list of all registered Service Fabric runtime installation versions registered with the cluster can be obtained by using the [Get-ServiceFabricRegisteredClusterCodeVersion](./Get-ServiceFabricRegisteredClusterCodeVersion.md) cmdlet.
 

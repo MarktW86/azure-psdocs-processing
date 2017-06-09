@@ -3,18 +3,17 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 3C647305-B5A8-4CB7-8655-CC7695736CE0
 online version:
 schema: 2.0.0
-updated_at: 05/19/2017 20:05 PM
-ms.date: 05/19/2017
+updated_at: 06/08/2017 18:06 PM
+ms.date: 06/08/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/New-ServiceFabricService.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/New-ServiceFabricService.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/8d4c81aabdfff50fd2bedea27942bd6899fa7bd1
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/7a769efe999267ac593c8c8f6af725a4a4731816
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: vipulm
 open_to_public_contributors: false
-ms.service: service-fabric
 ---
 
 # New-ServiceFabricService
@@ -171,28 +170,28 @@ PS C:\> New-ServiceFabricService -ApplicationName fabric:/HelloWorld -ServiceNam
 
 This command creates a Service Fabric stateful service from the specified application instance by using a singleton partitioning scheme.
 
-### Example 3: Create a stateless service by using ranged partitioning sheme.
+### Example 3: Create a stateless service by using ranged partitioning scheme.
 ```
 New-ServiceFabricService -ApplicationName fabric:/HelloWorld -ServiceName fabric:/HelloWorld/svc1 -ServiceTypeName HelloWorldStateless -Stateless -PartitionSchemeUniformInt64 -PartitionCount 26 -LowKey 0 -HighKey 51 -InstanceCount -1
 ```
 
 This command creates a Service Fabric stateless service from the specified application instance with ranged partitioning scheme.
 
-### Example 4: Create a stateless service by using named partitioning sheme.
+### Example 4: Create a stateless service by using named partitioning scheme
 ```
 New-ServiceFabricService -ApplicationName fabric:/HelloWorld -ServiceName fabric:/HelloWorld/svc1 -ServiceTypeName HelloWorldStateless -Stateless -PartitionSchemeNamed -PartitionNames @("Seattle","Vancouver") -InstanceCount -1
 ```
 
 This command creates a Service Fabric stateless service from the specified application instance with named partitioning scheme.
 
-### Example 5: Create a stateful service by using ranged partitioning sheme.
+### Example 5: Create a stateful service by using ranged partitioning scheme.
 ```
 New-ServiceFabricService -ApplicationName fabric:/HelloWorld -ServiceName fabric:/HelloWorld/svc1 -ServiceTypeName HelloWorldStateful -Stateful -PartitionSchemeUniformInt64 -PartitionCount 26 -LowKey 0 -HighKey 51 -MinReplicaSetSize 2 -TargetReplicaSetSize 3
 ```
 
 This command creates a Service Fabric stateful service from the specified application instance with ranged partitioning shceme.
 
-### Example 6: Create a stateful service by using named partitioning sheme.
+### Example 6: Create a stateful service by using named partitioning scheme.
 ```
 New-ServiceFabricService -ApplicationName fabric:/HelloWorld -ServiceName fabric:/HelloWorld/svc1 -ServiceTypeName HelloWorldStateful -Stateful -PartitionSchemeNamed -PartitionNames @("Seattle","Vancouver") -MinReplicaSetSize 2 -TargetReplicaSetSize 3
 ```

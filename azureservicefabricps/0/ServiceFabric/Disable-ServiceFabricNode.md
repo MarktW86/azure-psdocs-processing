@@ -3,18 +3,17 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 27DE3E8D-897E-498F-A0EA-9BF60E5688B0
 online version:
 schema: 2.0.0
-updated_at: 05/19/2017 20:05 PM
-ms.date: 05/19/2017
+updated_at: 06/08/2017 17:06 PM
+ms.date: 06/08/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Disable-ServiceFabricNode.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Disable-ServiceFabricNode.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/8d4c81aabdfff50fd2bedea27942bd6899fa7bd1
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/22ccbdbe6f5398c7882b9dcbcefafd417548cbdb
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: vipulm
 open_to_public_contributors: false
-ms.service: service-fabric
 ---
 
 # Disable-ServiceFabricNode
@@ -30,13 +29,13 @@ Disable-ServiceFabricNode [-NodeName] <String> [-Intent] <NodeDeactivationIntent
 ```
 
 ## DESCRIPTION
-The **Disable-ServiceFabricNode** cmdlet informs Service Fabric before an administrative action is taken on a node that may impact the replicas on the node.
+The **Disable-ServiceFabricNode** cmdlet informs Service Fabric before an administrative action is taken on a node that may affect the replicas on the node.
 
 For example, before restarting a node, disabling the node with intent restart informs Service Fabric to gracefully close the replicas on the node.
 You must wait for the node to become disabled before restarting the node.
 Use the [Get-ServiceFabricNode](.\Get-ServiceFabricNode.md) cmdlet to view the disabling status of the node.
 Service Fabric ensures that services stay available even if these replicas are closed.
-The node stays in the disabling state until it is safe to disable it without impacting service availability.
+The node stays in the disabling state until it is safe to disable it without affecting service availability.
 After the restart has been completed, the node can be enabled using the [Enable-ServiceFabricNode](.\Enable-ServiceFabricNode.md) cmdlet, which informs Service Fabric that the node can now be used for placing replicas.
 
 To manage Service Fabric clusters, start Windows PowerShell by using the Run as administrator option.
