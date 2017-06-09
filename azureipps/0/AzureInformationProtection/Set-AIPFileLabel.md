@@ -1,13 +1,13 @@
 ---
 external help file: AIP.dll-Help.xml
+ms.assetid: 566E595C-D574-4DED-AE38-CBCD75694B45
 online version: https://go.microsoft.com/fwlink/?linkid=838766
 schema: 2.0.0
-ms.assetid: 566E595C-D574-4DED-AE38-CBCD75694B45
-updated_at: 06/08/2017 15:06 PM
-ms.date: 06/08/2017
+updated_at: 06/09/2017 20:06 PM
+ms.date: 06/09/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/release-ipclient/Azure%20Information%20Protection/AzureInformationProtection/vlatest/Set-AIPFileLabel.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/release-ipclient/Azure%20Information%20Protection/AzureInformationProtection/vlatest/Set-AIPFileLabel.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/522cb6195ae64a8678934445b9019d0162bd5d0b
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/306d483978c36d370cd8c99434e0db0a507ab916
 ms.topic: reference
 author: cabailey
 ms.author: PowerShellHelpPub
@@ -25,14 +25,12 @@ Sets or removes an Azure Information Protection label for a file, and sets the p
 
 ### Set
 ```
-Set-AIPFileLabel [-LabelId] <Guid> [-JustificationMessage <String>] [-Owner <String>] [-PreserveFileDetails]
- [-Path] <String[]> [<CommonParameters>]
+Set-AIPFileLabel [-LabelId] <Guid> [-JustificationMessage <String>] [-Path] <String[]> [<CommonParameters>]
 ```
 
 ### Clear
 ```
-Set-AIPFileLabel [-JustificationMessage <String>] [-RemoveLabel] [-Owner <String>] [-PreserveFileDetails]
- [-Path] <String[]> [<CommonParameters>]
+Set-AIPFileLabel [-JustificationMessage <String>] [-RemoveLabel] [-Path] <String[]> [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -62,12 +60,12 @@ If the General label is configured in the Azure Information Protection policy to
 
 In this example, one file was not labeled (skipped) with the comment that justification is required. This might be the intended outcome to ensure that a file with a higher classification label or protection isn't accidentally overwritten with a lower classification label or has protection removed. To enable this safeguard, the Azure Information Protection policy must be configured to require justification for lowering the classification label, removing a label, or removing protection. When you then run this command without the **JustificationMessage** parameter and the label triggers justification, the file is skipped. 
 
-### Example 2: Apply the "General" label to a single file, which requires justification 
+### Example 2: Apply the "General" label to a single file, which requires justification
 ```
 PS C:\> Set-AIPFileLabel -Path \\Finance\Projects\Analysis.xlsx -LabelId d9f23ae3-1324-1234-1234-f515f824c57b -JustificationMessage 'The previous label no longer applies'
 FileName                          Status      Comment
 --------                          ------      ------------
-\\finance\projects\analysis.xlsx  Success     
+\\finance\projects\analysis.xlsx  Success
 ```
 
 This command sets the "General" label for a file that is already labeled with a higher classification label. The Azure Information Protection policy is configured to require justification for lowering the classification label, removing a label, or removing protection. Because the command includes a justification message, the new label is successfully applied and the justification reason is logged on the local computer.
@@ -85,7 +83,7 @@ FileName                              Status Comment
 
 This command first identifies all files that are not labeled by using the Get-AIPFileStatus cmdlet. Then, these files are labeled by specifying the "General" label by its ID.
 
-### Example 4: Apply the "General" label to .docx files that are not labeled 
+### Example 4: Apply the "General" label to .docx files that are not labeled
 ```
 PS C:\> Get-ChildItem C:\Projects\*.docx -File -Recurse | Get-AIPFileStatus | where {$_.IsLabeled -eq $False} | Set-AIPFileLabel -LabelId d9f23ae3-1234-1234-1234-f515f824c57b
 FileName                   Status  Comment
@@ -147,7 +145,7 @@ Accept wildcard characters: False
 ### -Path
 Specifies a local or network path to the file or files to which you want to apply labels. Wildcards are not supported.
 
-Examples include C:\Folder\, C:\Folder\Filename, \\\Server\Folder, 'http://sharepoint.contoso.com/Shared Documents/Folder', http://sharepoint.contoso.com/Shared%20Documents/Folder/FileName.
+Examples include C:\Folder\, C:\Folder\Filename, \\\Server\Folder.
 
 ```yaml
 Type: String[]
@@ -170,35 +168,6 @@ Parameter Sets: Clear
 Aliases: 
 
 Required: True
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -Owner
-On the label: the email address used in the Owner custom property. On the protection: the encryption uses the -OwnerEmail. This is the person who will get full control for the item and will be considered to be the encryption owner.```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -PreserveFileDetails
-When setting a label on a local or network file, will not change the file Last Modified date to now, but will leave it unchanged.
-When setting a label on a sharepoint file, will not change neither the file Modified date, nor the file Modified By
-
-```yaml
-Type: SwitchParameter
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
 Position: Named
 Default value: None
 Accept pipeline input: False

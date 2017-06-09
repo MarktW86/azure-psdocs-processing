@@ -1,13 +1,13 @@
 ---
 external help file: AIP.dll-Help.xml
+ms.assetid: ED3F3730-434E-4EDF-969B-0ABE30D68030
 online version: https://go.microsoft.com/fwlink/?linkid=838765
 schema: 2.0.0
-ms.assetid: ED3F3730-434E-4EDF-969B-0ABE30D68030
-updated_at: 06/08/2017 15:06 PM
-ms.date: 06/08/2017
+updated_at: 06/09/2017 20:06 PM
+ms.date: 06/09/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/release-ipclient/Azure%20Information%20Protection/AzureInformationProtection/vlatest/Get-AIPFileStatus.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/release-ipclient/Azure%20Information%20Protection/AzureInformationProtection/vlatest/Get-AIPFileStatus.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/522cb6195ae64a8678934445b9019d0162bd5d0b
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/0e5d7fc00976673c3e68cfc51901055e8aa18cb5
 ms.topic: reference
 author: cabailey
 ms.author: PowerShellHelpPub
@@ -38,25 +38,25 @@ This cmdlet does not support a service principal account in Azure Active Directo
 ```
 PS C:\> Get-AIPFileStatus -Path \\Finance\Projects\Project.docx
 FileName        : \\Finance\Projects\Project.docx
-IsLabeled      : True
+IsLabeled       : True
 MainLabelId     : 074e257c-1234-1234-1234-34a182080e71
 MainLabelName   : Confidential
 SubLabelId      : d9f23ae3-1234-1234-1234-f515f824c57b
 SubLabelName    : Finance group
 LabelingSiteId  : 72f988bf-1234-1234-1234-2d7cd011db47
-Owner           : John@Contoso.com
+LabeledBy       : John@Contoso.com
 LabelingMethod  : Manual
 LabelDate       : 12/12/2016 12:24:36 PM
 IsRMSProtected  : True
 RMSTemplateId   : e6ee2481-1234-1234-1234-f744eacd53b0
-RMSTemplateName : Contoso - Confidential Finance  
+RMSTemplateName : Contoso - Confidential Finance
 ```
 
 This command provides information about a file that is labeled as Confidential \ Finance Group. This file was labeled manually by John and it is also protected by using the Rights Management template, "Contoso - Confidential Finance". 
 
 ### Example 2: Get the label and protection status for all files in a  folder and export the results to a CSV file
 ```
-PS C:\> Get-AIPFileStatus -Path \\Finance\Projects\ | Export-Csv C:\Reports\AIP-status.csv 
+PS C:\> Get-AIPFileStatus -Path \\Finance\Projects\ | Export-Csv C:\Reports\AIP-status.csv
 ```
 
 This command gets the label and protection information of all files on the Finance server, in the Projects folder and any of its subfolders. The results are exported to the file named AIP-status.csv so that they can be more easily searched and sorted. If a previous report exists in C:\Reports\Report.csv, it will be overwritten.
@@ -81,7 +81,7 @@ This command provides the number of files with the "Confidential" label that are
 ### -Path
 Specifies a local or network path to the files for which you want to get the label and protection information. Wildcards are not supported.
 
-Examples include C:\Folder\, C:\Folder\Filename, \\\Server\Folder, 'http://sharepoint.contoso.com/Shared Documents/Folder', http://sharepoint.contoso.com/Shared%20Documents/Folder/FileName.
+Examples include C:\Folder\, C:\Folder\Filename, \\\Server\Folder.
 
 ```yaml
 Type: String[]

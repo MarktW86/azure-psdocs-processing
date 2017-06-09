@@ -1,13 +1,13 @@
 ---
 external help file: AIP.dll-Help.xml
+ms.assetid: 835E47FE-7E1F-418D-843C-3B2FB2F7FF96
 online version: https://go.microsoft.com/fwlink/?linkid=841546
 schema: 2.0.0
-ms.assetid: 835E47FE-7E1F-418D-843C-3B2FB2F7FF96
-updated_at: 06/02/2017 21:06 PM
-ms.date: 06/02/2017
+updated_at: 06/09/2017 20:06 PM
+ms.date: 06/09/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/release-ipclient/Azure%20Information%20Protection/AzureInformationProtection/vlatest/Get-RMSTemplate.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/release-ipclient/Azure%20Information%20Protection/AzureInformationProtection/vlatest/Get-RMSTemplate.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/3a41f8df512045d5d2136621e467afbf3616c51b
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/306d483978c36d370cd8c99434e0db0a507ab916
 ms.topic: reference
 author: cabailey
 ms.author: PowerShellHelpPub
@@ -108,7 +108,7 @@ To load templates for a different locale, specify it as a value with this parame
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -123,7 +123,7 @@ Indicates that this cmdlet downloads the templates directly from the Azure RMS s
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -143,7 +143,7 @@ If you don't specify a server, the cmdlet gets the list of templates from your c
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -158,6 +158,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## INPUTS
 
 ## OUTPUTS
+
+## NOTES
 
 ## RELATED LINKS
 
