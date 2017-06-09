@@ -7,7 +7,7 @@ updated_at: 06/09/2017 18:06 PM
 ms.date: 06/09/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/New-ServiceFabricServiceGroup.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/New-ServiceFabricServiceGroup.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/4db384a1d8175e234ba0b8ec578f228958cfaf2f
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/76bda1911ca698ace2f782e2d567975f9740d918
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -576,4 +576,4 @@ This cmdlet returns a **System.Fabric.Description.ServiceGroupDescription** obje
 [Remove-ServiceFabricServiceGroup](./Remove-ServiceFabricServiceGroup.md)
 
 [Update-ServiceFabricServiceGroup](./Update-ServiceFabricServiceGroup.md)
-=======
+
