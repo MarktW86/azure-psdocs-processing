@@ -98,6 +98,7 @@ New-ServiceFabricPackageDebugParameter: ServiceFabric
 New-ServiceFabricPackageSharingPolicy: ServiceFabric
 New-ServiceFabricService: ServiceFabric
 New-ServiceFabricServiceFromTemplate: ServiceFabric
+New-ServiceFabricServiceGroup: ServiceFabric
 New-ServiceFabricServiceGroupFromTemplate: ServiceFabric
 Register-ServiceFabricApplicationType: ServiceFabric
 Register-ServiceFabricClusterPackage: ServiceFabric

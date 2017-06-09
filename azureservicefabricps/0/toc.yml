@@ -171,6 +171,8 @@
           href: ServiceFabric/New-ServiceFabricService.md
         - name: New-ServiceFabricServiceFromTemplate
           href: ServiceFabric/New-ServiceFabricServiceFromTemplate.md
+        - name: New-ServiceFabricServiceGroup
+          href: ServiceFabric/New-ServiceFabricServiceGroup.md
         - name: New-ServiceFabricServiceGroupFromTemplate
           href: ServiceFabric/New-ServiceFabricServiceGroupFromTemplate.md
         - name: Register-ServiceFabricApplicationType

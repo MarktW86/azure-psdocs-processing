@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 9C765157-6B48-4AC8-A4D5-C26C098CFC17
 online version:
 schema: 2.0.0
-updated_at: 05/19/2017 20:05 PM
-ms.date: 05/19/2017
+updated_at: 06/09/2017 18:06 PM
+ms.date: 06/09/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricApplicationUpgrade.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricApplicationUpgrade.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/8d4c81aabdfff50fd2bedea27942bd6899fa7bd1
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/9b6a0450118bc60eaac4dee0e3f4c91b4884f03c
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -55,7 +55,7 @@ Start-ServiceFabricApplicationUpgrade [-ApplicationName] <Uri> [-ApplicationType
 The **Start-ServiceFabricApplicationUpgrade** cmdlet upgrades a Service Fabric application.
 Before using this cmdlet you need to copy the updated application package to the image store and register the updated application type.
 Use the [Copy-ServiceFabricApplicationPackage](./Copy-ServiceFabricApplicationPackage.md) to copy the application package to image store.
-Use the [Register-ServiceFabricApplicationType](./Register-ServiceFabricApplicationType) cmdlet to register the updated application type.
+Use the [Register-ServiceFabricApplicationType](./Register-ServiceFabricApplicationType.md) cmdlet to register the updated application type.
 
 This cmdlet starts the upgrade on the cluster. To check the status of the upgrade, run [Get-ServiceFabricApplicationUpgrade](./Get-ServiceFabricApplicationPackage.md) cmdlet.
 
@@ -74,7 +74,7 @@ PS C:\> Start-ServiceFabricApplicationUpgrade -ApplicationName fabric:/myapp/per
 
 The first command uses the [Copy-ServiceFabricApplicationPackage](./Copy-ServiceFabricApplicationPackage.md) cmdlet to copy the updated application package to the image store.
 
-The second command uses the [Register-ServiceFabricApplicationType](./Register-ServiceFabricApplicationType) cmdlet to register the updated application type.
+The second command uses the [Register-ServiceFabricApplicationType](./Register-ServiceFabricApplicationType.md) cmdlet to register the updated application type.
 
 The third command upgrades the application.
 The command performs an unmonitored manual upgrade, which includes a restart of the server that hosts the application.
