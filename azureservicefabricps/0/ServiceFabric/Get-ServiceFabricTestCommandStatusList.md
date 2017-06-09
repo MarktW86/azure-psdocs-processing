@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 26459CBC-9296-4B65-A298-E6B31EF65865
 online version:
 schema: 2.0.0
-updated_at: 06/08/2017 17:06 PM
-ms.date: 06/08/2017
+updated_at: 06/09/2017 18:06 PM
+ms.date: 06/09/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricTestCommandStatusList.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricTestCommandStatusList.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/22ccbdbe6f5398c7882b9dcbcefafd417548cbdb
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/3719342434cc239e015119a6cc44b0b2429e1902
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -35,10 +35,10 @@ The Operation ID returned can be used to get additional details about the fault 
 
 | TestCommandType | Get Progress Command |
 | --- | --- |
-| PartitionDataLoss | [Get-ServiceFabricPartitionDataLossProgress](./Get-ServiceFabricPartitionDataLossProgress) |
-| PartitionQuorumLoss | [Get-ServiceFabricPartitionQuorumLossProgress](./Get-ServiceFabricPartitionQuorumLossProgress) |
-| PartitionRestart | [Get-ServiceFabricPartitionRestartProgress](./Get-ServiceFabricPartitionRestartProgress) |
-| NodeTransition | [Get-ServiceFabricNodeTransitionProgress](./Get-ServiceFabricNodeTransitionProgress) |
+| PartitionDataLoss | [Get-ServiceFabricPartitionDataLossProgress](./Get-ServiceFabricPartitionDataLossProgress.md) |
+| PartitionQuorumLoss | [Get-ServiceFabricPartitionQuorumLossProgress](./Get-ServiceFabricPartitionQuorumLossProgress.md) |
+| PartitionRestart | [Get-ServiceFabricPartitionRestartProgress](./Get-ServiceFabricPartitionRestartProgress.md) |
+| NodeTransition | [Get-ServiceFabricNodeTransitionProgress](./Get-ServiceFabricNodeTransitionProgress.md) |
 
 ## EXAMPLES
 
@@ -131,10 +131,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 [Stop-ServiceFabricTestCommand](./Stop-ServiceFabricTestCommand.md)
 
-[Get-ServiceFabricPartitionDataLossProgress](./Get-ServiceFabricPartitionDataLossProgress)
+[Get-ServiceFabricPartitionDataLossProgress](./Get-ServiceFabricPartitionDataLossProgress.md)
 
-[Get-ServiceFabricPartitionQuorumLossProgress](./Get-ServiceFabricPartitionQuorumLossProgress)
+[Get-ServiceFabricPartitionQuorumLossProgress](./Get-ServiceFabricPartitionQuorumLossProgress.md)
 
-[Get-ServiceFabricPartitionRestartProgress](./Get-ServiceFabricPartitionRestartProgress)
+[Get-ServiceFabricPartitionRestartProgress](./Get-ServiceFabricPartitionRestartProgress.md)
 
-[Get-ServiceFabricNodeTransitionProgress](./Get-ServiceFabricNodeTransitionProgress)
+[Get-ServiceFabricNodeTransitionProgress](./Get-ServiceFabricNodeTransitionProgress.md)
