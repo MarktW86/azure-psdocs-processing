@@ -43,6 +43,7 @@ Get-ServiceFabricClusterUpgrade: ServiceFabric
 Get-ServiceFabricDeployedApplication: ServiceFabric
 Get-ServiceFabricDeployedApplicationHealth: ServiceFabric
 Get-ServiceFabricDeployedCodePackage: ServiceFabric
+Get-ServiceFabricDeployedReplica: ServiceFabric
 Get-ServiceFabricDeployedReplicaDetail: ServiceFabric
 Get-ServiceFabricDeployedServicePackage: ServiceFabric
 Get-ServiceFabricDeployedServicePackageHealth: ServiceFabric
@@ -97,6 +98,7 @@ New-ServiceFabricPackageDebugParameter: ServiceFabric
 New-ServiceFabricPackageSharingPolicy: ServiceFabric
 New-ServiceFabricService: ServiceFabric
 New-ServiceFabricServiceFromTemplate: ServiceFabric
+New-ServiceFabricServiceGroup: ServiceFabric
 New-ServiceFabricServiceGroupFromTemplate: ServiceFabric
 Register-ServiceFabricApplicationType: ServiceFabric
 Register-ServiceFabricClusterPackage: ServiceFabric

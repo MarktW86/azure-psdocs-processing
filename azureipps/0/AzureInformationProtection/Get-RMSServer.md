@@ -1,13 +1,13 @@
 ---
 external help file: AIP.dll-Help.xml
+ms.assetid: 37E0B181-C3DA-4FF7-8232-2619C4EBC6B6
 online version: https://go.microsoft.com/fwlink/?linkid=841544
 schema: 2.0.0
-ms.assetid: 37E0B181-C3DA-4FF7-8232-2619C4EBC6B6
-updated_at: 02/08/2017 22:02 PM
-ms.date: 02/08/2017
+updated_at: 06/09/2017 20:06 PM
+ms.date: 06/09/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AzureInformationProtection/vlatest/Get-RMSServer.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AzureInformationProtection/vlatest/Get-RMSServer.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/9bf7ca6a52ad2962d10d27637cf9c9f07e19a7d8
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/306d483978c36d370cd8c99434e0db0a507ab916
 ms.topic: reference
 author: cabailey
 ms.author: PowerShellHelpPub
