@@ -1,13 +1,13 @@
 ---
-external help file: RMSProtection.dll-Help.xml
+external help file: AIP.dll-Help.xml
+ms.assetid: C07C0831-92B3-43CE-B18F-F2A12F3283DC
 online version: http://go.microsoft.com/fwlink/?LinkID=623209
 schema: 2.0.0
-ms.assetid: C07C0831-92B3-43CE-B18F-F2A12F3283DC
-updated_at: 03/07/2017 01:03 AM
-ms.date: 03/07/2017
+updated_at: 06/09/2017 18:06 PM
+ms.date: 06/09/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/RMSProtection/vlatest/Unprotect-RMSFile.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/RMSProtection/vlatest/Unprotect-RMSFile.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/2dcadd30a529550a6c38ca36b089083710e8f317
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/ee574d305ab8e521d80d62d46402d81f5ba4377c
 ms.topic: reference
 author: cabailey
 ms.author: PowerShellHelpPub
@@ -24,8 +24,8 @@ Unprotects a file that is currently protected by RMS.
 ## SYNTAX
 
 ```
-Unprotect-RMSFile [-File <String>] [-Folder <String>] [-Recurse] [-OutputFolder <String>] [-SupressUI]
- [-LogFile <String>] [-ProcessContainers] [<CommonParameters>]
+Unprotect-RMSFile [-File <String>] [-Folder <String>] [-InPlace] [-Recurse] [-OutputFolder <String>]
+ [-SupressUI] [-LogFile <String>] [-ProcessContainers] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -40,7 +40,6 @@ When you run this cmdlet, you have the following options:
 - All files in the specified folder remains protected and an unprotected version of each file is created in another location.
 
 You can run this command concurrently when you specify a different path for the *LogFile* parameter for each command that runs in parallel. If you do not specify a different log file path and the previous command has not finished, the new command will fail.
-
 
 ## EXAMPLES
 
@@ -106,7 +105,7 @@ Specifies the path and file to unprotect. For the path, you can specify a drive 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -125,7 +124,25 @@ For the path, you can specify a drive letter or UNC.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -InPlace
+The file or the files in the specified folder are unprotected in the current location, replacing the original protected file or files. This parameter is ignored if the OutputFolder parameter is specified.
+
+If neither *InPlace* nor *OutputFolder* is specified, the new file is created in the current directory with "-Copy" appended to the file name, using the same naming convention that File Explorer uses when a file is copied and pasted into the same folder. For example, if a file with Document.docx is protected, the unprotected version is named Document-Copy.docx. If a file named Document-Copy.docx already exists, Document-Copy(2).docx is created, and so on.
+
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: (All)
+Aliases: 
 
 Required: False
 Position: Named
@@ -149,7 +166,7 @@ The default log file location is %localappdata%\RMSProtection\Logging.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -166,7 +183,7 @@ For the path, you can use a drive letter or UNC.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -181,7 +198,7 @@ This parameter is not currently implemented.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -196,7 +213,7 @@ Indicates that this operation unprotects all files in all subfolders.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -211,7 +228,7 @@ This parameter is not implemented; there is no UI for this cmdlet.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
