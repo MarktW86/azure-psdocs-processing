@@ -1,13 +1,13 @@
 ---
 external help file: AIP.dll-Help.xml
+ms.assetid: 3A19FD31-4FAF-4B6F-B470-5054FCF05F9C
 online version: https://go.microsoft.com/fwlink/?linkid=841550
 schema: 2.0.0
-ms.assetid: 3A19FD31-4FAF-4B6F-B470-5054FCF05F9C
-updated_at: 04/20/2017 18:04 PM
-ms.date: 04/20/2017
+updated_at: 06/09/2017 20:06 PM
+ms.date: 06/09/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AzureInformationProtection/vlatest/Unprotect-RMSFile.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AzureInformationProtection/vlatest/Unprotect-RMSFile.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/ac82c149bc94d83b9068e89295b83de5a319517f
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/306d483978c36d370cd8c99434e0db0a507ab916
 ms.topic: reference
 author: cabailey
 ms.author: PowerShellHelpPub
@@ -24,8 +24,8 @@ Unprotects a file that is currently protected by RMS.
 ## SYNTAX
 
 ```
-Unprotect-RMSFile [-File <String>] [-Folder <String>] [-Recurse] [-OutputFolder <String>] [-SupressUI]
- [-LogFile <String>] [-ProcessContainers] [<CommonParameters>]
+Unprotect-RMSFile [-File <String>] [-Folder <String>] [-InPlace] [-Recurse] [-OutputFolder <String>]
+ [-SupressUI] [-LogFile <String>] [-ProcessContainers] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -109,7 +109,7 @@ Specifies the path and file to unprotect. For the path, you can specify a drive 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -128,7 +128,24 @@ For the path, you can specify a drive letter or UNC.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -InPlace
+The file or the files in the specified folder are unprotected in the current location, replacing the original protected file or files. This parameter is ignored if the *OutputFolder* parameter is specified.
+
+If neither *InPlace* nor *OutputFolder* is specified, the new file is created in the current directory with "-Copy" appended to the file name, using the same naming convention that File Explorer uses when a file is copied and pasted into the same folder. For example, if a file with Document.docx is protected, the unprotected version is named Document-Copy.docx. If a file named Document-Copy.docx already exists, Document-Copy(2).docx is created, and so on.
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: (All)
+Aliases: 
 
 Required: False
 Position: Named
@@ -155,7 +172,7 @@ The default log file location is %localappdata%\RMSProtection\Logging.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -172,7 +189,7 @@ For the path, you can use a drive letter or UNC.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -187,7 +204,7 @@ This parameter is not currently implemented.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -202,7 +219,7 @@ Indicates that this operation unprotects all files in all subfolders.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -217,7 +234,7 @@ This parameter is not implemented; there is no UI for this cmdlet.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
