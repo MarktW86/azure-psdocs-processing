@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: B45868D5-5EA6-48AC-860E-55674D7613DF
 updated_at: 10/24/2016 23:10 PM
 ms.date: 10/24/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v2.1.0/Export-AzureRmRedisCache.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v2.1.0/Export-AzureRmRedisCache.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/4.1.0/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v2.1.0/Export-AzureRmRedisCache.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/4.1.0/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v2.1.0/Export-AzureRmRedisCache.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4377291ee360e58e2c1c5d644155daf6a0279055
 ms.topic: reference
 ---

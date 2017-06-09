@@ -7,24 +7,24 @@ Locale: en-US
 ms.assetid: 9097353C-6C98-48DB-B87F-DD63ECF3C462
 updated_at: 03/11/2017 02:03 AM
 ms.date: 03/11/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.TrafficManager/v2.7.0/AzureRM.TrafficManager.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.TrafficManager/v2.7.0/AzureRM.TrafficManager.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/4.1.0/azureps-cmdlets-docs/ResourceManager/AzureRM.TrafficManager/v2.7.0/AzureRM.TrafficManager.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/4.1.0/azureps-cmdlets-docs/ResourceManager/AzureRM.TrafficManager/v2.7.0/AzureRM.TrafficManager.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04f63f6e685743ace2c57eb157574e34e8610b1c
 ms.topic: conceptual
-Add-AzureRmTrafficManagerEndpointConfig: Traffic Manager
-Disable-AzureRmTrafficManagerEndpoint: Traffic Manager
-Disable-AzureRmTrafficManagerProfile: Traffic Manager
-Enable-AzureRmTrafficManagerEndpoint: Traffic Manager
-Enable-AzureRmTrafficManagerProfile: Traffic Manager
-Get-AzureRmTrafficManagerEndpoint: Traffic Manager
-Get-AzureRmTrafficManagerProfile: Traffic Manager
-New-AzureRmTrafficManagerEndpoint: Traffic Manager
-New-AzureRmTrafficManagerProfile: Traffic Manager
-Remove-AzureRmTrafficManagerEndpoint: Traffic Manager
-Remove-AzureRmTrafficManagerEndpointConfig: Traffic Manager
-Remove-AzureRmTrafficManagerProfile: Traffic Manager
-Set-AzureRmTrafficManagerEndpoint: Traffic Manager
-Set-AzureRmTrafficManagerProfile: Traffic Manager
+Add-AzureRmTrafficManagerEndpointConfig: AzureRM.TrafficManager
+Disable-AzureRmTrafficManagerEndpoint: AzureRM.TrafficManager
+Disable-AzureRmTrafficManagerProfile: AzureRM.TrafficManager
+Enable-AzureRmTrafficManagerEndpoint: AzureRM.TrafficManager
+Enable-AzureRmTrafficManagerProfile: AzureRM.TrafficManager
+Get-AzureRmTrafficManagerEndpoint: AzureRM.TrafficManager
+Get-AzureRmTrafficManagerProfile: AzureRM.TrafficManager
+New-AzureRmTrafficManagerEndpoint: AzureRM.TrafficManager
+New-AzureRmTrafficManagerProfile: AzureRM.TrafficManager
+Remove-AzureRmTrafficManagerEndpoint: AzureRM.TrafficManager
+Remove-AzureRmTrafficManagerEndpointConfig: AzureRM.TrafficManager
+Remove-AzureRmTrafficManagerProfile: AzureRM.TrafficManager
+Set-AzureRmTrafficManagerEndpoint: AzureRM.TrafficManager
+Set-AzureRmTrafficManagerProfile: AzureRM.TrafficManager
 _isModulePage: true
 ---
 

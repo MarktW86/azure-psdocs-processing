@@ -7,98 +7,98 @@ Locale: en-US
 ms.assetid: B24D0651-01BA-4DD6-9816-EC960880A605
 updated_at: 03/11/2017 02:03 AM
 ms.date: 03/11/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.5.0/AzureRM.ApiManagement.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.5.0/AzureRM.ApiManagement.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/4.1.0/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.5.0/AzureRM.ApiManagement.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/4.1.0/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v3.5.0/AzureRM.ApiManagement.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04f63f6e685743ace2c57eb157574e34e8610b1c
 ms.topic: conceptual
-Add-AzureRmApiManagementApiToProduct: API Management
-Add-AzureRmApiManagementProductToGroup: API Management
-Add-AzureRmApiManagementRegion: API Management
-Add-AzureRmApiManagementUserToGroup: API Management
-Backup-AzureRmApiManagement: API Management
-Export-AzureRmApiManagementApi: API Management
-Get-AzureRmApiManagement: API Management
-Get-AzureRmApiManagementApi: API Management
-Get-AzureRmApiManagementAuthorizationServer: API Management
-Get-AzureRmApiManagementBackend: API Management
-Get-AzureRmApiManagementCertificate: API Management
-Get-AzureRmApiManagementGroup: API Management
-Get-AzureRmApiManagementIdentityProvider: API Management
-Get-AzureRmApiManagementLogger: API Management
-Get-AzureRmApiManagementOpenIdConnectProvider: API Management
-Get-AzureRmApiManagementOperation: API Management
-Get-AzureRmApiManagementPolicy: API Management
-Get-AzureRmApiManagementProduct: API Management
-Get-AzureRmApiManagementProperty: API Management
-Get-AzureRmApiManagementSsoToken: API Management
-Get-AzureRmApiManagementSubscription: API Management
-Get-AzureRmApiManagementTenantAccess: API Management
-Get-AzureRmApiManagementTenantGitAccess: API Management
-Get-AzureRmApiManagementTenantSyncState: API Management
-Get-AzureRmApiManagementUser: API Management
-Get-AzureRmApiManagementUserSsoUrl: API Management
-Import-AzureRmApiManagementApi: API Management
-Import-AzureRmApiManagementHostnameCertificate: API Management
-New-AzureRmApiManagement: API Management
-New-AzureRmApiManagementApi: API Management
-New-AzureRmApiManagementAuthorizationServer: API Management
-New-AzureRmApiManagementBackend: API Management
-New-AzureRmApiManagementBackendCredential: API Management
-New-AzureRmApiManagementBackendProxy: API Management
-New-AzureRmApiManagementCertificate: API Management
-New-AzureRmApiManagementContext: API Management
-New-AzureRmApiManagementGroup: API Management
-New-AzureRmApiManagementHostnameConfiguration: API Management
-New-AzureRmApiManagementIdentityProvider: API Management
-New-AzureRmApiManagementLogger: API Management
-New-AzureRmApiManagementOpenIdConnectProvider: API Management
-New-AzureRmApiManagementOperation: API Management
-New-AzureRmApiManagementProduct: API Management
-New-AzureRmApiManagementProperty: API Management
-New-AzureRmApiManagementRegion: API Management
-New-AzureRmApiManagementSubscription: API Management
-New-AzureRmApiManagementUser: API Management
-New-AzureRmApiManagementVirtualNetwork: API Management
-Publish-AzureRmApiManagementTenantGitConfiguration: API Management
-Remove-AzureRmApiManagement: API Management
-Remove-AzureRmApiManagementApi: API Management
-Remove-AzureRmApiManagementApiFromProduct: API Management
-Remove-AzureRmApiManagementAuthorizationServer: API Management
-Remove-AzureRmApiManagementBackend: API Management
-Remove-AzureRmApiManagementCertificate: API Management
-Remove-AzureRmApiManagementGroup: API Management
-Remove-AzureRmApiManagementIdentityProvider: API Management
-Remove-AzureRmApiManagementLogger: API Management
-Remove-AzureRmApiManagementOpenIdConnectProvider: API Management
-Remove-AzureRmApiManagementOperation: API Management
-Remove-AzureRmApiManagementPolicy: API Management
-Remove-AzureRmApiManagementProduct: API Management
-Remove-AzureRmApiManagementProductFromGroup: API Management
-Remove-AzureRmApiManagementProperty: API Management
-Remove-AzureRmApiManagementRegion: API Management
-Remove-AzureRmApiManagementSubscription: API Management
-Remove-AzureRmApiManagementUser: API Management
-Remove-AzureRmApiManagementUserFromGroup: API Management
-Restore-AzureRmApiManagement: API Management
-Save-AzureRmApiManagementTenantGitConfiguration: API Management
-Set-AzureRmApiManagementApi: API Management
-Set-AzureRmApiManagementAuthorizationServer: API Management
-Set-AzureRmApiManagementBackend: API Management
-Set-AzureRmApiManagementCertificate: API Management
-Set-AzureRmApiManagementGroup: API Management
-Set-AzureRmApiManagementHostnames: API Management
-Set-AzureRmApiManagementIdentityProvider: API Management
-Set-AzureRmApiManagementLogger: API Management
-Set-AzureRmApiManagementOpenIdConnectProvider: API Management
-Set-AzureRmApiManagementOperation: API Management
-Set-AzureRmApiManagementPolicy: API Management
-Set-AzureRmApiManagementProduct: API Management
-Set-AzureRmApiManagementProperty: API Management
-Set-AzureRmApiManagementSubscription: API Management
-Set-AzureRmApiManagementTenantAccess: API Management
-Set-AzureRmApiManagementUser: API Management
-Update-AzureRmApiManagementDeployment: API Management
-Update-AzureRmApiManagementRegion: API Management
+Add-AzureRmApiManagementApiToProduct: AzureRM.ApiManagement
+Add-AzureRmApiManagementProductToGroup: AzureRM.ApiManagement
+Add-AzureRmApiManagementRegion: AzureRM.ApiManagement
+Add-AzureRmApiManagementUserToGroup: AzureRM.ApiManagement
+Backup-AzureRmApiManagement: AzureRM.ApiManagement
+Export-AzureRmApiManagementApi: AzureRM.ApiManagement
+Get-AzureRmApiManagement: AzureRM.ApiManagement
+Get-AzureRmApiManagementApi: AzureRM.ApiManagement
+Get-AzureRmApiManagementAuthorizationServer: AzureRM.ApiManagement
+Get-AzureRmApiManagementBackend: AzureRM.ApiManagement
+Get-AzureRmApiManagementCertificate: AzureRM.ApiManagement
+Get-AzureRmApiManagementGroup: AzureRM.ApiManagement
+Get-AzureRmApiManagementIdentityProvider: AzureRM.ApiManagement
+Get-AzureRmApiManagementLogger: AzureRM.ApiManagement
+Get-AzureRmApiManagementOpenIdConnectProvider: AzureRM.ApiManagement
+Get-AzureRmApiManagementOperation: AzureRM.ApiManagement
+Get-AzureRmApiManagementPolicy: AzureRM.ApiManagement
+Get-AzureRmApiManagementProduct: AzureRM.ApiManagement
+Get-AzureRmApiManagementProperty: AzureRM.ApiManagement
+Get-AzureRmApiManagementSsoToken: AzureRM.ApiManagement
+Get-AzureRmApiManagementSubscription: AzureRM.ApiManagement
+Get-AzureRmApiManagementTenantAccess: AzureRM.ApiManagement
+Get-AzureRmApiManagementTenantGitAccess: AzureRM.ApiManagement
+Get-AzureRmApiManagementTenantSyncState: AzureRM.ApiManagement
+Get-AzureRmApiManagementUser: AzureRM.ApiManagement
+Get-AzureRmApiManagementUserSsoUrl: AzureRM.ApiManagement
+Import-AzureRmApiManagementApi: AzureRM.ApiManagement
+Import-AzureRmApiManagementHostnameCertificate: AzureRM.ApiManagement
+New-AzureRmApiManagement: AzureRM.ApiManagement
+New-AzureRmApiManagementApi: AzureRM.ApiManagement
+New-AzureRmApiManagementAuthorizationServer: AzureRM.ApiManagement
+New-AzureRmApiManagementBackend: AzureRM.ApiManagement
+New-AzureRmApiManagementBackendCredential: AzureRM.ApiManagement
+New-AzureRmApiManagementBackendProxy: AzureRM.ApiManagement
+New-AzureRmApiManagementCertificate: AzureRM.ApiManagement
+New-AzureRmApiManagementContext: AzureRM.ApiManagement
+New-AzureRmApiManagementGroup: AzureRM.ApiManagement
+New-AzureRmApiManagementHostnameConfiguration: AzureRM.ApiManagement
+New-AzureRmApiManagementIdentityProvider: AzureRM.ApiManagement
+New-AzureRmApiManagementLogger: AzureRM.ApiManagement
+New-AzureRmApiManagementOpenIdConnectProvider: AzureRM.ApiManagement
+New-AzureRmApiManagementOperation: AzureRM.ApiManagement
+New-AzureRmApiManagementProduct: AzureRM.ApiManagement
+New-AzureRmApiManagementProperty: AzureRM.ApiManagement
+New-AzureRmApiManagementRegion: AzureRM.ApiManagement
+New-AzureRmApiManagementSubscription: AzureRM.ApiManagement
+New-AzureRmApiManagementUser: AzureRM.ApiManagement
+New-AzureRmApiManagementVirtualNetwork: AzureRM.ApiManagement
+Publish-AzureRmApiManagementTenantGitConfiguration: AzureRM.ApiManagement
+Remove-AzureRmApiManagement: AzureRM.ApiManagement
+Remove-AzureRmApiManagementApi: AzureRM.ApiManagement
+Remove-AzureRmApiManagementApiFromProduct: AzureRM.ApiManagement
+Remove-AzureRmApiManagementAuthorizationServer: AzureRM.ApiManagement
+Remove-AzureRmApiManagementBackend: AzureRM.ApiManagement
+Remove-AzureRmApiManagementCertificate: AzureRM.ApiManagement
+Remove-AzureRmApiManagementGroup: AzureRM.ApiManagement
+Remove-AzureRmApiManagementIdentityProvider: AzureRM.ApiManagement
+Remove-AzureRmApiManagementLogger: AzureRM.ApiManagement
+Remove-AzureRmApiManagementOpenIdConnectProvider: AzureRM.ApiManagement
+Remove-AzureRmApiManagementOperation: AzureRM.ApiManagement
+Remove-AzureRmApiManagementPolicy: AzureRM.ApiManagement
+Remove-AzureRmApiManagementProduct: AzureRM.ApiManagement
+Remove-AzureRmApiManagementProductFromGroup: AzureRM.ApiManagement
+Remove-AzureRmApiManagementProperty: AzureRM.ApiManagement
+Remove-AzureRmApiManagementRegion: AzureRM.ApiManagement
+Remove-AzureRmApiManagementSubscription: AzureRM.ApiManagement
+Remove-AzureRmApiManagementUser: AzureRM.ApiManagement
+Remove-AzureRmApiManagementUserFromGroup: AzureRM.ApiManagement
+Restore-AzureRmApiManagement: AzureRM.ApiManagement
+Save-AzureRmApiManagementTenantGitConfiguration: AzureRM.ApiManagement
+Set-AzureRmApiManagementApi: AzureRM.ApiManagement
+Set-AzureRmApiManagementAuthorizationServer: AzureRM.ApiManagement
+Set-AzureRmApiManagementBackend: AzureRM.ApiManagement
+Set-AzureRmApiManagementCertificate: AzureRM.ApiManagement
+Set-AzureRmApiManagementGroup: AzureRM.ApiManagement
+Set-AzureRmApiManagementHostnames: AzureRM.ApiManagement
+Set-AzureRmApiManagementIdentityProvider: AzureRM.ApiManagement
+Set-AzureRmApiManagementLogger: AzureRM.ApiManagement
+Set-AzureRmApiManagementOpenIdConnectProvider: AzureRM.ApiManagement
+Set-AzureRmApiManagementOperation: AzureRM.ApiManagement
+Set-AzureRmApiManagementPolicy: AzureRM.ApiManagement
+Set-AzureRmApiManagementProduct: AzureRM.ApiManagement
+Set-AzureRmApiManagementProperty: AzureRM.ApiManagement
+Set-AzureRmApiManagementSubscription: AzureRM.ApiManagement
+Set-AzureRmApiManagementTenantAccess: AzureRM.ApiManagement
+Set-AzureRmApiManagementUser: AzureRM.ApiManagement
+Update-AzureRmApiManagementDeployment: AzureRM.ApiManagement
+Update-AzureRmApiManagementRegion: AzureRM.ApiManagement
 _isModulePage: true
 ---
 

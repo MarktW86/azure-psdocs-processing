@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: 17C0253C-C7B6-4C78-92CE-77277E156396
 updated_at: 03/27/2017 18:03 PM
 ms.date: 03/27/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/Azure.Storage/v1.1.6/New-AzureStorageShare.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/Azure.Storage/v1.1.6/New-AzureStorageShare.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/4.1.0/azureps-cmdlets-docs/ResourceManager/Azure.Storage/v1.1.6/New-AzureStorageShare.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/4.1.0/azureps-cmdlets-docs/ResourceManager/Azure.Storage/v1.1.6/New-AzureStorageShare.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/9b79c0a37330eb2c43d3e7d31b5ab53f0da9554c
 ms.topic: reference
 ---

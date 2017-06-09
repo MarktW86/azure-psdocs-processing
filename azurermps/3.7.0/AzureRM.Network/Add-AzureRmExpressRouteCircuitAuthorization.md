@@ -5,8 +5,8 @@ online version:
 schema: 2.0.0
 updated_at: 03/15/2017 17:03 PM
 ms.date: 03/15/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.6.0/Add-AzureRmExpressRouteCircuitAuthorization.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.6.0/Add-AzureRmExpressRouteCircuitAuthorization.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/4.1.0/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.6.0/Add-AzureRmExpressRouteCircuitAuthorization.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/4.1.0/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.6.0/Add-AzureRmExpressRouteCircuitAuthorization.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/06976a299e2ad2ded0ed834a5c35cc50a58f585b
 ms.topic: reference
 ---

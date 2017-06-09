@@ -5,19 +5,19 @@ Locale: en-US
 ms.assetid: A3CF7E4B-9FE5-4BD3-8609-2312B81A2FDF
 updated_at: 03/11/2017 02:03 AM
 ms.date: 03/11/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Media/v0.4.0/AzureRM.Media.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Media/v0.4.0/AzureRM.Media.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/4.1.0/azureps-cmdlets-docs/ResourceManager/AzureRM.Media/v0.4.0/AzureRM.Media.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/4.1.0/azureps-cmdlets-docs/ResourceManager/AzureRM.Media/v0.4.0/AzureRM.Media.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04f63f6e685743ace2c57eb157574e34e8610b1c
 ms.topic: conceptual
-Get-AzureRmMediaService: Media Services
-Get-AzureRmMediaServiceKeys: Media Services
-Get-AzureRmMediaServiceNameAvailability: Media Services
-New-AzureRmMediaService: Media Services
-New-AzureRmMediaServiceStorageConfig: Media Services
-Remove-AzureRmMediaService: Media Services
-Set-AzureRmMediaService: Media Services
-Set-AzureRmMediaServiceKey: Media Services
-Sync-AzureRmMediaServiceStorageKeys: Media Services
+Get-AzureRmMediaService: AzureRM.Media
+Get-AzureRmMediaServiceKeys: AzureRM.Media
+Get-AzureRmMediaServiceNameAvailability: AzureRM.Media
+New-AzureRmMediaService: AzureRM.Media
+New-AzureRmMediaServiceStorageConfig: AzureRM.Media
+Remove-AzureRmMediaService: AzureRM.Media
+Set-AzureRmMediaService: AzureRM.Media
+Set-AzureRmMediaServiceKey: AzureRM.Media
+Sync-AzureRmMediaServiceStorageKeys: AzureRM.Media
 _isModulePage: true
 ---
 

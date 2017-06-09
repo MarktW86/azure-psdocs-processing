@@ -7,44 +7,44 @@ Locale: en-US
 ms.assetid: 9D720291-A837-43D5-8EC1-9DD7FF432B34
 updated_at: 03/11/2017 02:03 AM
 ms.date: 03/11/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.7.0/AzureRM.KeyVault.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.7.0/AzureRM.KeyVault.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/4.1.0/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.7.0/AzureRM.KeyVault.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/4.1.0/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v2.7.0/AzureRM.KeyVault.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04f63f6e685743ace2c57eb157574e34e8610b1c
 ms.topic: conceptual
-Add-AzureKeyVaultCertificate: Key Vault
-Add-AzureKeyVaultCertificateContact: Key Vault
-Add-AzureKeyVaultKey: Key Vault
-Backup-AzureKeyVaultKey: Key Vault
-Get-AzureKeyVaultCertificate: Key Vault
-Get-AzureKeyVaultCertificateContact: Key Vault
-Get-AzureKeyVaultCertificateIssuer: Key Vault
-Get-AzureKeyVaultCertificateOperation: Key Vault
-Get-AzureKeyVaultCertificatePolicy: Key Vault
-Get-AzureKeyVaultKey: Key Vault
-Get-AzureKeyVaultSecret: Key Vault
-Get-AzureRmKeyVault: Key Vault
-Import-AzureKeyVaultCertificate: Key Vault
-New-AzureKeyVaultCertificateAdministratorDetails: Key Vault
-New-AzureKeyVaultCertificateOrganizationDetails: Key Vault
-New-AzureKeyVaultCertificatePolicy: Key Vault
-New-AzureRmKeyVault: Key Vault
-Remove-AzureKeyVaultCertificate: Key Vault
-Remove-AzureKeyVaultCertificateContact: Key Vault
-Remove-AzureKeyVaultCertificateIssuer: Key Vault
-Remove-AzureKeyVaultCertificateOperation: Key Vault
-Remove-AzureKeyVaultKey: Key Vault
-Remove-AzureKeyVaultSecret: Key Vault
-Remove-AzureRmKeyVault: Key Vault
-Remove-AzureRmKeyVaultAccessPolicy: Key Vault
-Restore-AzureKeyVaultKey: Key Vault
-Set-AzureKeyVaultCertificateAttribute: Key Vault
-Set-AzureKeyVaultCertificateIssuer: Key Vault
-Set-AzureKeyVaultCertificatePolicy: Key Vault
-Set-AzureKeyVaultKeyAttribute: Key Vault
-Set-AzureKeyVaultSecret: Key Vault
-Set-AzureKeyVaultSecretAttribute: Key Vault
-Set-AzureRmKeyVaultAccessPolicy: Key Vault
-Stop-AzureKeyVaultCertificateOperation: Key Vault
+Add-AzureKeyVaultCertificate: AzureRM.KeyVault
+Add-AzureKeyVaultCertificateContact: AzureRM.KeyVault
+Add-AzureKeyVaultKey: AzureRM.KeyVault
+Backup-AzureKeyVaultKey: AzureRM.KeyVault
+Get-AzureKeyVaultCertificate: AzureRM.KeyVault
+Get-AzureKeyVaultCertificateContact: AzureRM.KeyVault
+Get-AzureKeyVaultCertificateIssuer: AzureRM.KeyVault
+Get-AzureKeyVaultCertificateOperation: AzureRM.KeyVault
+Get-AzureKeyVaultCertificatePolicy: AzureRM.KeyVault
+Get-AzureKeyVaultKey: AzureRM.KeyVault
+Get-AzureKeyVaultSecret: AzureRM.KeyVault
+Get-AzureRmKeyVault: AzureRM.KeyVault
+Import-AzureKeyVaultCertificate: AzureRM.KeyVault
+New-AzureKeyVaultCertificateAdministratorDetails: AzureRM.KeyVault
+New-AzureKeyVaultCertificateOrganizationDetails: AzureRM.KeyVault
+New-AzureKeyVaultCertificatePolicy: AzureRM.KeyVault
+New-AzureRmKeyVault: AzureRM.KeyVault
+Remove-AzureKeyVaultCertificate: AzureRM.KeyVault
+Remove-AzureKeyVaultCertificateContact: AzureRM.KeyVault
+Remove-AzureKeyVaultCertificateIssuer: AzureRM.KeyVault
+Remove-AzureKeyVaultCertificateOperation: AzureRM.KeyVault
+Remove-AzureKeyVaultKey: AzureRM.KeyVault
+Remove-AzureKeyVaultSecret: AzureRM.KeyVault
+Remove-AzureRmKeyVault: AzureRM.KeyVault
+Remove-AzureRmKeyVaultAccessPolicy: AzureRM.KeyVault
+Restore-AzureKeyVaultKey: AzureRM.KeyVault
+Set-AzureKeyVaultCertificateAttribute: AzureRM.KeyVault
+Set-AzureKeyVaultCertificateIssuer: AzureRM.KeyVault
+Set-AzureKeyVaultCertificatePolicy: AzureRM.KeyVault
+Set-AzureKeyVaultKeyAttribute: AzureRM.KeyVault
+Set-AzureKeyVaultSecret: AzureRM.KeyVault
+Set-AzureKeyVaultSecretAttribute: AzureRM.KeyVault
+Set-AzureRmKeyVaultAccessPolicy: AzureRM.KeyVault
+Stop-AzureKeyVaultCertificateOperation: AzureRM.KeyVault
 _isModulePage: true
 ---
 

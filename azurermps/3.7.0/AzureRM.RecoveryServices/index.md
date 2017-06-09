@@ -5,17 +5,17 @@ Locale: en-US
 ms.assetid: DC5E0ECC-BFFA-4030-8BCB-BD180CAD77B8
 updated_at: 03/11/2017 02:03 AM
 ms.date: 03/11/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices/v2.7.0/AzureRM.RecoveryServices.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices/v2.7.0/AzureRM.RecoveryServices.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/4.1.0/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices/v2.7.0/AzureRM.RecoveryServices.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/4.1.0/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices/v2.7.0/AzureRM.RecoveryServices.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04f63f6e685743ace2c57eb157574e34e8610b1c
 ms.topic: conceptual
-Get-AzureRmRecoveryServicesBackupProperties: Recovery
-Get-AzureRmRecoveryServicesVault: Recovery
-Get-AzureRmRecoveryServicesVaultSettingsFile: Recovery
-New-AzureRmRecoveryServicesVault: Recovery
-Remove-AzureRmRecoveryServicesVault: Recovery
-Set-AzureRmRecoveryServicesBackupProperties: Recovery
-Set-AzureRmRecoveryServicesVaultContext: Recovery
+Get-AzureRmRecoveryServicesBackupProperties: AzureRM.RecoveryServices
+Get-AzureRmRecoveryServicesVault: AzureRM.RecoveryServices
+Get-AzureRmRecoveryServicesVaultSettingsFile: AzureRM.RecoveryServices
+New-AzureRmRecoveryServicesVault: AzureRM.RecoveryServices
+Remove-AzureRmRecoveryServicesVault: AzureRM.RecoveryServices
+Set-AzureRmRecoveryServicesBackupProperties: AzureRM.RecoveryServices
+Set-AzureRmRecoveryServicesVaultContext: AzureRM.RecoveryServices
 _isModulePage: true
 ---
 

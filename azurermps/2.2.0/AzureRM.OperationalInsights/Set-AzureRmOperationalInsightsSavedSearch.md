@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: 840F7DFB-3BF4-46C7-9D67-F9CD90CCD0F3
 updated_at: 11/11/2016 23:11 PM
 ms.date: 11/11/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.OperationalInsights/v2.1.0/Set-AzureRmOperationalInsightsSavedSearch.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.OperationalInsights/v2.1.0/Set-AzureRmOperationalInsightsSavedSearch.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/4.1.0/azureps-cmdlets-docs/ResourceManager/AzureRM.OperationalInsights/v2.1.0/Set-AzureRmOperationalInsightsSavedSearch.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/4.1.0/azureps-cmdlets-docs/ResourceManager/AzureRM.OperationalInsights/v2.1.0/Set-AzureRmOperationalInsightsSavedSearch.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf
 ms.topic: reference
 ---

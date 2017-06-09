@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: D3AD790C-C75F-4243-B128-7C778422AC64
 updated_at: 03/27/2017 18:03 PM
 ms.date: 03/27/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/Azure.Storage/v1.1.6/Get-AzureStorageShareStoredAccessPolicy.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/Azure.Storage/v1.1.6/Get-AzureStorageShareStoredAccessPolicy.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/4.1.0/azureps-cmdlets-docs/ResourceManager/Azure.Storage/v1.1.6/Get-AzureStorageShareStoredAccessPolicy.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/4.1.0/azureps-cmdlets-docs/ResourceManager/Azure.Storage/v1.1.6/Get-AzureStorageShareStoredAccessPolicy.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/9b79c0a37330eb2c43d3e7d31b5ab53f0da9554c
 ms.topic: reference
 ---

@@ -2,27 +2,29 @@
 Module Name: AzureRM.IotHub
 Module Guid: 51a3a993-fe39-4f8f-a437-2cb751584af5
 Locale: en-US
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.IoTHub/v1.3.0/AzureRM.IotHub.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.IoTHub/v1.3.0/AzureRM.IotHub.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/
+updated_at: 03/11/2017 02:03 AM
+ms.date: 03/11/2017
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/4.1.0/azureps-cmdlets-docs/ResourceManager/AzureRM.IotHub/v1.3.0/AzureRM.IotHub.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/4.1.0/azureps-cmdlets-docs/ResourceManager/AzureRM.IotHub/v1.3.0/AzureRM.IotHub.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04f63f6e685743ace2c57eb157574e34e8610b1c
 ms.topic: conceptual
-Add-AzureRmIotHubEventHubConsumerGroup: IoT
-Add-AzureRmIotHubKey: IoT
-Get-AzureRmIotHub: IoT
-Get-AzureRmIotHubConnectionString: IoT
-Get-AzureRmIotHubEventHubConsumerGroup: IoT
-Get-AzureRmIotHubJob: IoT
-Get-AzureRmIotHubKey: IoT
-Get-AzureRmIotHubQuotaMetric: IoT
-Get-AzureRmIotHubRegistryStatistic: IoT
-Get-AzureRmIotHubValidSku: IoT
-New-AzureRmIotHub: IoT
-New-AzureRmIotHubExportDevices: IoT
-New-AzureRmIotHubImportDevices: IoT
-Remove-AzureRmIotHub: IoT
-Remove-AzureRmIotHubEventHubConsumerGroup: IoT
-Remove-AzureRmIotHubKey: IoT
-Set-AzureRmIotHub: IoT
+Add-AzureRmIotHubEventHubConsumerGroup: AzureRM.IotHub
+Add-AzureRmIotHubKey: AzureRM.IotHub
+Get-AzureRmIotHub: AzureRM.IotHub
+Get-AzureRmIotHubConnectionString: AzureRM.IotHub
+Get-AzureRmIotHubEventHubConsumerGroup: AzureRM.IotHub
+Get-AzureRmIotHubJob: AzureRM.IotHub
+Get-AzureRmIotHubKey: AzureRM.IotHub
+Get-AzureRmIotHubQuotaMetric: AzureRM.IotHub
+Get-AzureRmIotHubRegistryStatistic: AzureRM.IotHub
+Get-AzureRmIotHubValidSku: AzureRM.IotHub
+New-AzureRmIotHub: AzureRM.IotHub
+New-AzureRmIotHubExportDevices: AzureRM.IotHub
+New-AzureRmIotHubImportDevices: AzureRM.IotHub
+Remove-AzureRmIotHub: AzureRM.IotHub
+Remove-AzureRmIotHubEventHubConsumerGroup: AzureRM.IotHub
+Remove-AzureRmIotHubKey: AzureRM.IotHub
+Set-AzureRmIotHub: AzureRM.IotHub
 _isModulePage: true
 ---
 

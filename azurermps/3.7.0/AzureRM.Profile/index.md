@@ -4,23 +4,23 @@ Module Guid: 342714fc-4009-4863-8afb-a9067e3db04b
 Locale: en-US
 updated_at: 03/11/2017 02:03 AM
 ms.date: 03/11/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Profile/v2.7.0/AzureRM.Profile.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Profile/v2.7.0/AzureRM.Profile.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/4.1.0/azureps-cmdlets-docs/ResourceManager/AzureRM.Profile/v2.7.0/AzureRM.Profile.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/4.1.0/azureps-cmdlets-docs/ResourceManager/AzureRM.Profile/v2.7.0/AzureRM.Profile.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04f63f6e685743ace2c57eb157574e34e8610b1c
 ms.topic: conceptual
-Add-AzureRmAccount: Profile
-Add-AzureRmEnvironment: Profile
-Disable-AzureRmDataCollection: Profile
-Enable-AzureRmDataCollection: Profile
-Get-AzureRmContext: Profile
-Get-AzureRmEnvironment: Profile
-Get-AzureRmSubscription: Profile
-Get-AzureRmTenant: Profile
-Remove-AzureRmEnvironment: Profile
-Save-AzureRmProfile: Profile
-Select-AzureRmProfile: Profile
-Set-AzureRmContext: Profile
-Set-AzureRmEnvironment: Profile
+Add-AzureRmAccount: AzureRM.Profile
+Add-AzureRmEnvironment: AzureRM.Profile
+Disable-AzureRmDataCollection: AzureRM.Profile
+Enable-AzureRmDataCollection: AzureRM.Profile
+Get-AzureRmContext: AzureRM.Profile
+Get-AzureRmEnvironment: AzureRM.Profile
+Get-AzureRmSubscription: AzureRM.Profile
+Get-AzureRmTenant: AzureRM.Profile
+Remove-AzureRmEnvironment: AzureRM.Profile
+Save-AzureRmProfile: AzureRM.Profile
+Select-AzureRmProfile: AzureRM.Profile
+Set-AzureRmContext: AzureRM.Profile
+Set-AzureRmEnvironment: AzureRM.Profile
 _isModulePage: true
 ---
 

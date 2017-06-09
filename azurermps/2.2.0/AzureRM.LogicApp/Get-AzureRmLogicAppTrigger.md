@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: 38D8BC3D-8D47-481E-86E0-2AE4120E2871
 updated_at: 11/11/2016 23:11 PM
 ms.date: 11/11/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/v2.1.0/Get-AzureRmLogicAppTrigger.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/v2.1.0/Get-AzureRmLogicAppTrigger.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/4.1.0/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/v2.1.0/Get-AzureRmLogicAppTrigger.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/4.1.0/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/v2.1.0/Get-AzureRmLogicAppTrigger.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf
 ms.topic: reference
 ---

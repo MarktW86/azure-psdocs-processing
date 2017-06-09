@@ -4,8 +4,8 @@ Module Guid: 90dfd814-abce-4e1f-99b6-fe16760c079a
 Locale: en-US
 updated_at: 03/23/2017 23:03 PM
 ms.date: 03/23/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v1.0.4.3/AzureRM.DataLakeStore.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v1.0.4.3/AzureRM.DataLakeStore.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/4.1.0/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v1.0.4.3/AzureRM.DataLakeStore.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/4.1.0/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v1.0.4.3/AzureRM.DataLakeStore.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/280872fa529e03be2466fa2252957a2060a9dfe4
 ms.topic: conceptual
 Add-AzureRmDataLakeStoreItemContent: Data Lake Store

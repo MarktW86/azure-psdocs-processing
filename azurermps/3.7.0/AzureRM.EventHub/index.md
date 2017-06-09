@@ -6,34 +6,34 @@ Help Version: 4.0.0.0
 Locale: en-US
 updated_at: 03/11/2017 02:03 AM
 ms.date: 03/11/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.EventHub/v0.1.0/AzureRM.EventHub.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.EventHub/v0.1.0/AzureRM.EventHub.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/4.1.0/azureps-cmdlets-docs/ResourceManager/AzureRM.EventHub/v0.1.0/AzureRM.EventHub.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/4.1.0/azureps-cmdlets-docs/ResourceManager/AzureRM.EventHub/v0.1.0/AzureRM.EventHub.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04f63f6e685743ace2c57eb157574e34e8610b1c
 ms.topic: conceptual
-Get-AzureRmEventHub: Event Hub
-Get-AzureRmEventHubAuthorizationRule: Event Hub
-Get-AzureRmEventHubConsumerGroup: Event Hub
-Get-AzureRmEventHubKey: Event Hub
-Get-AzureRmEventHubNamespace: Event Hub
-Get-AzureRmEventHubNamespaceAuthorizationRule: Event Hub
-Get-AzureRmEventHubNamespaceKey: Event Hub
-New-AzureRmEventHub: Event Hub
-New-AzureRmEventHubAuthorizationRule: Event Hub
-New-AzureRmEventHubConsumerGroup: Event Hub
-New-AzureRmEventHubKey: Event Hub
-New-AzureRmEventHubNamespace: Event Hub
-New-AzureRmEventHubNamespaceAuthorizationRule: Event Hub
-New-AzureRmEventHubNamespaceKey: Event Hub
-Remove-AzureRmEventHub: Event Hub
-Remove-AzureRmEventHubAuthorizationRule: Event Hub
-Remove-AzureRmEventHubConsumerGroup: Event Hub
-Remove-AzureRmEventHubNamespace: Event Hub
-Remove-AzureRmEventHubNamespaceAuthorizationRule: Event Hub
-Set-AzureRmEventHub: Event Hub
-Set-AzureRmEventHubAuthorizationRule: Event Hub
-Set-AzureRmEventHubConsumerGroup: Event Hub
-Set-AzureRmEventHubNamespace: Event Hub
-Set-AzureRmEventHubNamespaceAuthorizationRule: Event Hub
+Get-AzureRmEventHub: AzureRM.EventHub
+Get-AzureRmEventHubAuthorizationRule: AzureRM.EventHub
+Get-AzureRmEventHubConsumerGroup: AzureRM.EventHub
+Get-AzureRmEventHubKey: AzureRM.EventHub
+Get-AzureRmEventHubNamespace: AzureRM.EventHub
+Get-AzureRmEventHubNamespaceAuthorizationRule: AzureRM.EventHub
+Get-AzureRmEventHubNamespaceKey: AzureRM.EventHub
+New-AzureRmEventHub: AzureRM.EventHub
+New-AzureRmEventHubAuthorizationRule: AzureRM.EventHub
+New-AzureRmEventHubConsumerGroup: AzureRM.EventHub
+New-AzureRmEventHubKey: AzureRM.EventHub
+New-AzureRmEventHubNamespace: AzureRM.EventHub
+New-AzureRmEventHubNamespaceAuthorizationRule: AzureRM.EventHub
+New-AzureRmEventHubNamespaceKey: AzureRM.EventHub
+Remove-AzureRmEventHub: AzureRM.EventHub
+Remove-AzureRmEventHubAuthorizationRule: AzureRM.EventHub
+Remove-AzureRmEventHubConsumerGroup: AzureRM.EventHub
+Remove-AzureRmEventHubNamespace: AzureRM.EventHub
+Remove-AzureRmEventHubNamespaceAuthorizationRule: AzureRM.EventHub
+Set-AzureRmEventHub: AzureRM.EventHub
+Set-AzureRmEventHubAuthorizationRule: AzureRM.EventHub
+Set-AzureRmEventHubConsumerGroup: AzureRM.EventHub
+Set-AzureRmEventHubNamespace: AzureRM.EventHub
+Set-AzureRmEventHubNamespaceAuthorizationRule: AzureRM.EventHub
 _isModulePage: true
 ---
 

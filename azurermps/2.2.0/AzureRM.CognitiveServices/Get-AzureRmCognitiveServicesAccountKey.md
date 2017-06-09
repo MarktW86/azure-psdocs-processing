@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: BED775D5-68F3-4701-896C-77AFC740A9D8
 updated_at: 11/11/2016 23:11 PM
 ms.date: 11/11/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.CognitiveServices/v0.3.0/Get-AzureRmCognitiveServicesAccountKey.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.CognitiveServices/v0.3.0/Get-AzureRmCognitiveServicesAccountKey.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/4.1.0/azureps-cmdlets-docs/ResourceManager/AzureRM.CognitiveServices/v0.3.0/Get-AzureRmCognitiveServicesAccountKey.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/4.1.0/azureps-cmdlets-docs/ResourceManager/AzureRM.CognitiveServices/v0.3.0/Get-AzureRmCognitiveServicesAccountKey.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf
 ms.topic: reference
 ---

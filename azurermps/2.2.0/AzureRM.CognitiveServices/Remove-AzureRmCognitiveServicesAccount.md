@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: FC80505A-97C4-4E96-A06F-4B1156413F3D
 updated_at: 11/22/2016 20:11 PM
 ms.date: 11/22/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.CognitiveServices/v0.3.0/Remove-AzureRmCognitiveServicesAccount.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.CognitiveServices/v0.3.0/Remove-AzureRmCognitiveServicesAccount.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/4.1.0/azureps-cmdlets-docs/ResourceManager/AzureRM.CognitiveServices/v0.3.0/Remove-AzureRmCognitiveServicesAccount.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/4.1.0/azureps-cmdlets-docs/ResourceManager/AzureRM.CognitiveServices/v0.3.0/Remove-AzureRmCognitiveServicesAccount.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0cedc8f73bc96cf5ac4c69144e17b3de601fd3cc
 ms.topic: reference
 ---

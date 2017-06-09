@@ -5,8 +5,8 @@ online version:
 schema: 2.0.0
 updated_at: 06/02/2017 22:06 PM
 ms.date: 06/02/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/New-AzureRmPolicyAssignment.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/New-AzureRmPolicyAssignment.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/4.1.0/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/New-AzureRmPolicyAssignment.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/4.1.0/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/New-AzureRmPolicyAssignment.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/49a7ec6a84ad9d7a83c056dc132b156fde15f234
 ms.topic: reference
 ---

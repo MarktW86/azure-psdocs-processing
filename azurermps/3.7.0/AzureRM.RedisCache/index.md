@@ -5,25 +5,25 @@ Locale: en-US
 ms.assetid: B1787ECF-25C0-4C55-A685-A816B76EB080
 updated_at: 03/11/2017 02:03 AM
 ms.date: 03/11/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v2.7.0/AzureRM.RedisCache.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v2.7.0/AzureRM.RedisCache.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/4.1.0/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v2.7.0/AzureRM.RedisCache.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/4.1.0/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v2.7.0/AzureRM.RedisCache.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04f63f6e685743ace2c57eb157574e34e8610b1c
 ms.topic: conceptual
-Export-AzureRmRedisCache: Redis Cache
-Get-AzureRmRedisCache: Redis Cache
-Get-AzureRmRedisCacheKey: Redis Cache
-Get-AzureRmRedisCachePatchSchedule: Redis Cache
-Import-AzureRmRedisCache: Redis Cache
-New-AzureRmRedisCache: Redis Cache
-New-AzureRmRedisCacheKey: Redis Cache
-New-AzureRmRedisCachePatchSchedule: Redis Cache
-New-AzureRmRedisCacheScheduleEntry: Redis Cache
-Remove-AzureRmRedisCache: Redis Cache
-Remove-AzureRmRedisCacheDiagnostics: Redis Cache
-Remove-AzureRmRedisCachePatchSchedule: Redis Cache
-Reset-AzureRmRedisCache: Redis Cache
-Set-AzureRmRedisCache: Redis Cache
-Set-AzureRmRedisCacheDiagnostics: Redis Cache
+Export-AzureRmRedisCache: AzureRM.RedisCache
+Get-AzureRmRedisCache: AzureRM.RedisCache
+Get-AzureRmRedisCacheKey: AzureRM.RedisCache
+Get-AzureRmRedisCachePatchSchedule: AzureRM.RedisCache
+Import-AzureRmRedisCache: AzureRM.RedisCache
+New-AzureRmRedisCache: AzureRM.RedisCache
+New-AzureRmRedisCacheKey: AzureRM.RedisCache
+New-AzureRmRedisCachePatchSchedule: AzureRM.RedisCache
+New-AzureRmRedisCacheScheduleEntry: AzureRM.RedisCache
+Remove-AzureRmRedisCache: AzureRM.RedisCache
+Remove-AzureRmRedisCacheDiagnostics: AzureRM.RedisCache
+Remove-AzureRmRedisCachePatchSchedule: AzureRM.RedisCache
+Reset-AzureRmRedisCache: AzureRM.RedisCache
+Set-AzureRmRedisCache: AzureRM.RedisCache
+Set-AzureRmRedisCacheDiagnostics: AzureRM.RedisCache
 _isModulePage: true
 ---
 

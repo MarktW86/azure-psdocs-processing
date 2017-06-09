@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: 0B7AAC82-0C16-486D-A141-A94DC9AB2A8B
 updated_at: 11/11/2016 23:11 PM
 ms.date: 11/11/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Cdn/v2.1.0/Get-AzureRmCdnOrigin.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Cdn/v2.1.0/Get-AzureRmCdnOrigin.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/4.1.0/azureps-cmdlets-docs/ResourceManager/AzureRM.Cdn/v2.1.0/Get-AzureRmCdnOrigin.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/4.1.0/azureps-cmdlets-docs/ResourceManager/AzureRM.Cdn/v2.1.0/Get-AzureRmCdnOrigin.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf
 ms.topic: reference
 ---

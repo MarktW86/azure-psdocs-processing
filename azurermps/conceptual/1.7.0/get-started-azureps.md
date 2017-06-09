@@ -10,8 +10,8 @@ ms.service: azure-resource-manager
 ms.devlang: powershell
 ms.topic: get-started-article
 ms.date: 03/30/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/docs-conceptual/get-started-azureps.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/docs-conceptual/get-started-azureps.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/4.1.0/azureps-cmdlets-docs/ResourceManager/docs-conceptual/get-started-azureps.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/4.1.0/azureps-cmdlets-docs/ResourceManager/docs-conceptual/get-started-azureps.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f2d0b05796448ad1bb3d0ec2210b33b7604b5435
 ---
 # Getting started with Azure PowerShell

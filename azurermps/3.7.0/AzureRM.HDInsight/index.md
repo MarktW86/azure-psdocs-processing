@@ -5,45 +5,45 @@ Locale: en-US
 ms.assetid: 10737010-0103-46DE-B381-07A505F6B1EF
 updated_at: 03/11/2017 02:03 AM
 ms.date: 03/11/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v2.7.0/AzureRM.HDInsight.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v2.7.0/AzureRM.HDInsight.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/4.1.0/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v2.7.0/AzureRM.HDInsight.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/4.1.0/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v2.7.0/AzureRM.HDInsight.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04f63f6e685743ace2c57eb157574e34e8610b1c
 ms.topic: conceptual
-Add-AzureRmHDInsightClusterIdentity: HD Insights
-Add-AzureRmHDInsightComponentVersion: HD Insights
-Add-AzureRmHDInsightConfigValues: HD Insights
-Add-AzureRmHDInsightMetastore: HD Insights
-Add-AzureRmHDInsightScriptAction: HD Insights
-Add-AzureRmHDInsightSecurityProfile: HD Insights
-Add-AzureRmHDInsightStorage: HD Insights
-Get-AzureRmHDInsightCluster: HD Insights
-Get-AzureRmHDInsightJob: HD Insights
-Get-AzureRmHDInsightJobOutput: HD Insights
-Get-AzureRmHDInsightPersistedScriptAction: HD Insights
-Get-AzureRmHDInsightProperties: HD Insights
-Get-AzureRmHDInsightScriptActionHistory: HD Insights
-Grant-AzureRmHDInsightHttpServicesAccess: HD Insights
-Grant-AzureRmHDInsightRdpServicesAccess: HD Insights
-Invoke-AzureRmHDInsightHiveJob: HD Insights
-New-AzureRmHDInsightCluster: HD Insights
-New-AzureRmHDInsightClusterConfig: HD Insights
-New-AzureRmHDInsightHiveJobDefinition: HD Insights
-New-AzureRmHDInsightMapReduceJobDefinition: HD Insights
-New-AzureRmHDInsightPigJobDefinition: HD Insights
-New-AzureRmHDInsightSqoopJobDefinition: HD Insights
-New-AzureRmHDInsightStreamingMapReduceJobDefinition: HD Insights
-Remove-AzureRmHDInsightCluster: HD Insights
-Remove-AzureRmHDInsightPersistedScriptAction: HD Insights
-Revoke-AzureRmHDInsightHttpServicesAccess: HD Insights
-Revoke-AzureRmHDInsightRdpServicesAccess: HD Insights
-Set-AzureRmHDInsightClusterSize: HD Insights
-Set-AzureRmHDInsightDefaultStorage: HD Insights
-Set-AzureRmHDInsightPersistedScriptAction: HD Insights
-Start-AzureRmHDInsightJob: HD Insights
-Stop-AzureRmHDInsightJob: HD Insights
-Submit-AzureRmHDInsightScriptAction: HD Insights
-Use-AzureRmHDInsightCluster: HD Insights
-Wait-AzureRmHDInsightJob: HD Insights
+Add-AzureRmHDInsightClusterIdentity: AzureRM.HDInsight
+Add-AzureRmHDInsightComponentVersion: AzureRM.HDInsight
+Add-AzureRmHDInsightConfigValues: AzureRM.HDInsight
+Add-AzureRmHDInsightMetastore: AzureRM.HDInsight
+Add-AzureRmHDInsightScriptAction: AzureRM.HDInsight
+Add-AzureRmHDInsightSecurityProfile: AzureRM.HDInsight
+Add-AzureRmHDInsightStorage: AzureRM.HDInsight
+Get-AzureRmHDInsightCluster: AzureRM.HDInsight
+Get-AzureRmHDInsightJob: AzureRM.HDInsight
+Get-AzureRmHDInsightJobOutput: AzureRM.HDInsight
+Get-AzureRmHDInsightPersistedScriptAction: AzureRM.HDInsight
+Get-AzureRmHDInsightProperties: AzureRM.HDInsight
+Get-AzureRmHDInsightScriptActionHistory: AzureRM.HDInsight
+Grant-AzureRmHDInsightHttpServicesAccess: AzureRM.HDInsight
+Grant-AzureRmHDInsightRdpServicesAccess: AzureRM.HDInsight
+Invoke-AzureRmHDInsightHiveJob: AzureRM.HDInsight
+New-AzureRmHDInsightCluster: AzureRM.HDInsight
+New-AzureRmHDInsightClusterConfig: AzureRM.HDInsight
+New-AzureRmHDInsightHiveJobDefinition: AzureRM.HDInsight
+New-AzureRmHDInsightMapReduceJobDefinition: AzureRM.HDInsight
+New-AzureRmHDInsightPigJobDefinition: AzureRM.HDInsight
+New-AzureRmHDInsightSqoopJobDefinition: AzureRM.HDInsight
+New-AzureRmHDInsightStreamingMapReduceJobDefinition: AzureRM.HDInsight
+Remove-AzureRmHDInsightCluster: AzureRM.HDInsight
+Remove-AzureRmHDInsightPersistedScriptAction: AzureRM.HDInsight
+Revoke-AzureRmHDInsightHttpServicesAccess: AzureRM.HDInsight
+Revoke-AzureRmHDInsightRdpServicesAccess: AzureRM.HDInsight
+Set-AzureRmHDInsightClusterSize: AzureRM.HDInsight
+Set-AzureRmHDInsightDefaultStorage: AzureRM.HDInsight
+Set-AzureRmHDInsightPersistedScriptAction: AzureRM.HDInsight
+Start-AzureRmHDInsightJob: AzureRM.HDInsight
+Stop-AzureRmHDInsightJob: AzureRM.HDInsight
+Submit-AzureRmHDInsightScriptAction: AzureRM.HDInsight
+Use-AzureRmHDInsightCluster: AzureRM.HDInsight
+Wait-AzureRmHDInsightJob: AzureRM.HDInsight
 _isModulePage: true
 ---
 

@@ -5,8 +5,8 @@ schema: 2.0.0
 ms.assetid: DE1F68A4-507E-4E4D-B9F7-4AC675D4D3B0
 updated_at: 11/11/2016 23:11 PM
 ms.date: 11/11/2016
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Cdn/v2.1.0/Get-AzureRmCdnCustomDomain.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Cdn/v2.1.0/Get-AzureRmCdnCustomDomain.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/4.1.0/azureps-cmdlets-docs/ResourceManager/AzureRM.Cdn/v2.1.0/Get-AzureRmCdnCustomDomain.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/4.1.0/azureps-cmdlets-docs/ResourceManager/AzureRM.Cdn/v2.1.0/Get-AzureRmCdnCustomDomain.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf
 ms.topic: reference
 ---

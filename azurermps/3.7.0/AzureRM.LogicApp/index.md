@@ -5,53 +5,53 @@ Locale: en-US
 ms.assetid: 41DB973E-CAE3-409D-8B02-367AEF6180FA
 updated_at: 03/11/2017 02:03 AM
 ms.date: 03/11/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/v2.7.0/AzureRM.LogicApp.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/v2.7.0/AzureRM.LogicApp.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/4.1.0/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/v2.7.0/AzureRM.LogicApp.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/4.1.0/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/v2.7.0/AzureRM.LogicApp.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04f63f6e685743ace2c57eb157574e34e8610b1c
 ms.topic: conceptual
-Get-AzureRmIntegrationAccount: Logic Apps
-Get-AzureRmIntegrationAccountAgreement: Logic Apps
-Get-AzureRmIntegrationAccountCallbackUrl: Logic Apps
-Get-AzureRmIntegrationAccountCertificate: Logic Apps
-Get-AzureRmIntegrationAccountGeneratedIcn: Logic Apps
-Get-AzureRmIntegrationAccountMap: Logic Apps
-Get-AzureRmIntegrationAccountPartner: Logic Apps
-Get-AzureRmIntegrationAccountReceivedIcn: Logic Apps
-Get-AzureRmIntegrationAccountSchema: Logic Apps
-Get-AzureRmLogicApp: Logic Apps
-Get-AzureRmLogicAppRunAction: Logic Apps
-Get-AzureRmLogicAppRunHistory: Logic Apps
-Get-AzureRmLogicAppTrigger: Logic Apps
-Get-AzureRmLogicAppTriggerCallbackUrl: Logic Apps
-Get-AzureRmLogicAppTriggerHistory: Logic Apps
-Get-AzureRmLogicAppUpgradedDefinition: Logic Apps
-New-AzureRmIntegrationAccount: Logic Apps
-New-AzureRmIntegrationAccountAgreement: Logic Apps
-New-AzureRmIntegrationAccountCertificate: Logic Apps
-New-AzureRmIntegrationAccountMap: Logic Apps
-New-AzureRmIntegrationAccountPartner: Logic Apps
-New-AzureRmIntegrationAccountSchema: Logic Apps
-New-AzureRmLogicApp: Logic Apps
-Remove-AzureRmIntegrationAccount: Logic Apps
-Remove-AzureRmIntegrationAccountAgreement: Logic Apps
-Remove-AzureRmIntegrationAccountCertificate: Logic Apps
-Remove-AzureRmIntegrationAccountMap: Logic Apps
-Remove-AzureRmIntegrationAccountPartner: Logic Apps
-Remove-AzureRmIntegrationAccountReceivedIcn: Logic Apps
-Remove-AzureRmIntegrationAccountSchema: Logic Apps
-Remove-AzureRmLogicApp: Logic Apps
-Set-AzureRmIntegrationAccount: Logic Apps
-Set-AzureRmIntegrationAccountAgreement: Logic Apps
-Set-AzureRmIntegrationAccountCertificate: Logic Apps
-Set-AzureRmIntegrationAccountGeneratedIcn: Logic Apps
-Set-AzureRmIntegrationAccountMap: Logic Apps
-Set-AzureRmIntegrationAccountPartner: Logic Apps
-Set-AzureRmIntegrationAccountReceivedIcn: Logic Apps
-Set-AzureRmIntegrationAccountSchema: Logic Apps
-Set-AzureRmLogicApp: Logic Apps
-Start-AzureRmLogicApp: Logic Apps
-Stop-AzureRmLogicAppRun: Logic Apps
-Test-AzureRmLogicApp: Logic Apps
+Get-AzureRmIntegrationAccount: AzureRM.LogicApp
+Get-AzureRmIntegrationAccountAgreement: AzureRM.LogicApp
+Get-AzureRmIntegrationAccountCallbackUrl: AzureRM.LogicApp
+Get-AzureRmIntegrationAccountCertificate: AzureRM.LogicApp
+Get-AzureRmIntegrationAccountGeneratedIcn: AzureRM.LogicApp
+Get-AzureRmIntegrationAccountMap: AzureRM.LogicApp
+Get-AzureRmIntegrationAccountPartner: AzureRM.LogicApp
+Get-AzureRmIntegrationAccountReceivedIcn: AzureRM.LogicApp
+Get-AzureRmIntegrationAccountSchema: AzureRM.LogicApp
+Get-AzureRmLogicApp: AzureRM.LogicApp
+Get-AzureRmLogicAppRunAction: AzureRM.LogicApp
+Get-AzureRmLogicAppRunHistory: AzureRM.LogicApp
+Get-AzureRmLogicAppTrigger: AzureRM.LogicApp
+Get-AzureRmLogicAppTriggerCallbackUrl: AzureRM.LogicApp
+Get-AzureRmLogicAppTriggerHistory: AzureRM.LogicApp
+Get-AzureRmLogicAppUpgradedDefinition: AzureRM.LogicApp
+New-AzureRmIntegrationAccount: AzureRM.LogicApp
+New-AzureRmIntegrationAccountAgreement: AzureRM.LogicApp
+New-AzureRmIntegrationAccountCertificate: AzureRM.LogicApp
+New-AzureRmIntegrationAccountMap: AzureRM.LogicApp
+New-AzureRmIntegrationAccountPartner: AzureRM.LogicApp
+New-AzureRmIntegrationAccountSchema: AzureRM.LogicApp
+New-AzureRmLogicApp: AzureRM.LogicApp
+Remove-AzureRmIntegrationAccount: AzureRM.LogicApp
+Remove-AzureRmIntegrationAccountAgreement: AzureRM.LogicApp
+Remove-AzureRmIntegrationAccountCertificate: AzureRM.LogicApp
+Remove-AzureRmIntegrationAccountMap: AzureRM.LogicApp
+Remove-AzureRmIntegrationAccountPartner: AzureRM.LogicApp
+Remove-AzureRmIntegrationAccountReceivedIcn: AzureRM.LogicApp
+Remove-AzureRmIntegrationAccountSchema: AzureRM.LogicApp
+Remove-AzureRmLogicApp: AzureRM.LogicApp
+Set-AzureRmIntegrationAccount: AzureRM.LogicApp
+Set-AzureRmIntegrationAccountAgreement: AzureRM.LogicApp
+Set-AzureRmIntegrationAccountCertificate: AzureRM.LogicApp
+Set-AzureRmIntegrationAccountGeneratedIcn: AzureRM.LogicApp
+Set-AzureRmIntegrationAccountMap: AzureRM.LogicApp
+Set-AzureRmIntegrationAccountPartner: AzureRM.LogicApp
+Set-AzureRmIntegrationAccountReceivedIcn: AzureRM.LogicApp
+Set-AzureRmIntegrationAccountSchema: AzureRM.LogicApp
+Set-AzureRmLogicApp: AzureRM.LogicApp
+Start-AzureRmLogicApp: AzureRM.LogicApp
+Stop-AzureRmLogicAppRun: AzureRM.LogicApp
+Test-AzureRmLogicApp: AzureRM.LogicApp
 _isModulePage: true
 ---
 

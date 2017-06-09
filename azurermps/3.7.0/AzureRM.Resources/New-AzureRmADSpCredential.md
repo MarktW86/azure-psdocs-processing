@@ -5,8 +5,8 @@ online version:
 schema: 2.0.0
 updated_at: 04/03/2017 14:04 PM
 ms.date: 04/03/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/New-AzureRmADSpCredential.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/New-AzureRmADSpCredential.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/4.1.0/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/New-AzureRmADSpCredential.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/4.1.0/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/New-AzureRmADSpCredential.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/234f3a31ede46045e7977cdbbd673be5cd2e864f
 ms.topic: reference
 ---
