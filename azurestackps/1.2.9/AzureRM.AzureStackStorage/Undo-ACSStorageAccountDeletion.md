@@ -4,8 +4,8 @@ online version:
 schema: 2.0.0
 updated_at: 06/09/2017 19:06 PM
 ms.date: 06/09/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Undo-ACSStorageAccountDeletion.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Undo-ACSStorageAccountDeletion.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/4.1.0/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Undo-ACSStorageAccountDeletion.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/4.1.0/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Undo-ACSStorageAccountDeletion.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/385b9040f00246e85717a489d0c8cbee01980f4c
 ms.topic: reference
 ---
