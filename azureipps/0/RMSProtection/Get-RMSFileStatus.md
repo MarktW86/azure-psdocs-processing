@@ -1,13 +1,13 @@
 ---
-external help file: RMSProtection.dll-Help.xml
+external help file: AIP.dll-Help.xml
+ms.assetid: 074F42BF-D30C-45C4-88F9-E445A7DFEA41
 online version: http://go.microsoft.com/fwlink/?LinkID=623199
 schema: 2.0.0
-ms.assetid: 074F42BF-D30C-45C4-88F9-E445A7DFEA41
-updated_at: 01/16/2017 20:01 PM
-ms.date: 01/16/2017
+updated_at: 06/09/2017 18:06 PM
+ms.date: 06/09/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/RMSProtection/vlatest/Get-RMSFileStatus.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/RMSProtection/vlatest/Get-RMSFileStatus.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/f1352338bfee6b58a131e5d9723b53e5719e2276
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/ee574d305ab8e521d80d62d46402d81f5ba4377c
 ms.topic: reference
 author: cabailey
 ms.author: PowerShellHelpPub
@@ -73,7 +73,7 @@ Specifies the fully qualified path to the file to verify whether it is protected
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
