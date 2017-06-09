@@ -4,8 +4,8 @@ online version:
 schema: 2.0.0
 updated_at: 03/27/2017 18:03 PM
 ms.date: 03/27/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/AzureRM.Profile/v2.7.0/Select-AzureRmProfile.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/AzureRM.Profile/v2.7.0/Select-AzureRmProfile.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/4.1.0/azureps-cmdlets-docs/ServiceManagement/AzureRM.Profile/v2.7.0/Select-AzureRmProfile.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/4.1.0/azureps-cmdlets-docs/ServiceManagement/AzureRM.Profile/v2.7.0/Select-AzureRmProfile.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4481ba5d382a258a76528a60b3c1580b75fdff10
 ms.topic: reference
 ---

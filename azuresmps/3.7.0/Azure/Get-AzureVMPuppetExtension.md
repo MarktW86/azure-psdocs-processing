@@ -5,8 +5,8 @@ online version:
 schema: 2.0.0
 updated_at: 03/29/2017 02:03 AM
 ms.date: 03/29/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure/v3.7.0/Get-AzureVMPuppetExtension.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure/v3.7.0/Get-AzureVMPuppetExtension.md
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/4.1.0/azureps-cmdlets-docs/ServiceManagement/Azure/v3.7.0/Get-AzureVMPuppetExtension.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/4.1.0/azureps-cmdlets-docs/ServiceManagement/Azure/v3.7.0/Get-AzureVMPuppetExtension.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/828e5b8648af6bdf3119ffe0cd409647f00de183
 ms.topic: reference
 ---
