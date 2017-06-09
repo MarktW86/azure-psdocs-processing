@@ -1,13 +1,13 @@
 ---
-external help file: AIP.dll-Help.xml
+external help file: RMSProtection.dll-Help.xml
 ms.assetid: 015252D1-EF22-4060-84E5-619C8C66CEDF
-online version: http://go.microsoft.com/fwlink/?LinkID=623204
+online version: https://go.microsoft.com/fwlink/?LinkID=623204
 schema: 2.0.0
-updated_at: 06/09/2017 18:06 PM
+updated_at: 06/09/2017 20:06 PM
 ms.date: 06/09/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/RMSProtection/vlatest/Get-RMSServerAuthentication.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/RMSProtection/vlatest/Get-RMSServerAuthentication.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/ee574d305ab8e521d80d62d46402d81f5ba4377c
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/1519896174dcd6594f03d307b0dfa42a745696b5
 ms.topic: reference
 author: cabailey
 ms.author: PowerShellHelpPub
