@@ -1,13 +1,13 @@
 ---
-external help file: RMSProtection.dll-Help.xml
+external help file: AIP.dll-Help.xml
+ms.assetid: B46B757C-DF4D-4BCE-9732-527A86498619
 online version: http://go.microsoft.com/fwlink/?LinkID=623208
 schema: 2.0.0
-ms.assetid: B46B757C-DF4D-4BCE-9732-527A86498619
-updated_at: 01/13/2017 23:01 PM
-ms.date: 01/13/2017
+updated_at: 06/09/2017 18:06 PM
+ms.date: 06/09/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/RMSProtection/vlatest/Set-RMSServerAuthentication.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/RMSProtection/vlatest/Set-RMSServerAuthentication.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/73fede5be8d73e5de67a785007346f27b5795709
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/ee574d305ab8e521d80d62d46402d81f5ba4377c
 ms.topic: reference
 author: cabailey
 ms.author: PowerShellHelpPub
@@ -50,7 +50,7 @@ Specifies the AppPrincipalId value of the service principal.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -65,7 +65,7 @@ Specifies the BposTenantId value (the tenant ID) to which the service principal 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -80,7 +80,7 @@ Specifies the symmetric key value for the service principal.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
