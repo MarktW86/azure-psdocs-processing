@@ -3,11 +3,11 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 ms.assetid: CB0C4658-FF1F-46D4-AD62-8C2FA7E72BCA
 online version:
 schema: 2.0.0
-updated_at: 04/25/2017 20:04 PM
-ms.date: 04/25/2017
+updated_at: 06/08/2017 23:06 PM
+ms.date: 06/08/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2preview/Remove-AzureADContactManager.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2preview/Remove-AzureADContactManager.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/c5cc449ee6e2b805fc85a9e05130b06b10899f67
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/d94ba33448f349aa80c9176a555a8174e377d8be
 ms.topic: reference
 ---
 
@@ -34,7 +34,7 @@ PS C:\> $Contact = Get-AzureADContact -Top 1
 PS C:\> Remove-AzureADContactManager -ObjectId $Contact.ObjectId
 ```
 
-The first command gets a contact by using the [Get-AzureADContact](./Get-AzureADContact) cmdlet, and then stores it in the $Contact variable.
+The first command gets a contact by using the [Get-AzureADContact](./Get-AzureADContact.md) cmdlet, and then stores it in the $Contact variable.
 
 The second command removes the manager from the contact in $Contact.
 

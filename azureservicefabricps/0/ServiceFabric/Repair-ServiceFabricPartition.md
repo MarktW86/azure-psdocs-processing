@@ -3,18 +3,17 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: E64F672A-23EB-408C-82E8-8BD8B2C5A7A2
 online version:
 schema: 2.0.0
-updated_at: 05/19/2017 20:05 PM
-ms.date: 05/19/2017
+updated_at: 06/08/2017 17:06 PM
+ms.date: 06/08/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Repair-ServiceFabricPartition.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Repair-ServiceFabricPartition.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/8d4c81aabdfff50fd2bedea27942bd6899fa7bd1
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/22ccbdbe6f5398c7882b9dcbcefafd417548cbdb
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: vipulm
 open_to_public_contributors: false
-ms.service: service-fabric
 ---
 
 # Repair-ServiceFabricPartition
@@ -49,7 +48,7 @@ Repair-ServiceFabricPartition [-System] [-Force] [-TimeoutSec <Int32>] [-WhatIf]
 
 ## DESCRIPTION
 The **Repair-ServiceFabricPartition** cmdlet brings a stateful persisted partition forcefully out of quorum loss.
-If a majority of the replicas of a stateful persisted partition go down, the partition goes into a state of quorum loss.
+If a majority of the replicas of a stateful persisted partition goes down, the partition goes into a state of quorum loss.
 While in this state, write operations are not allowed for that partition and the partition cannot be reconfigured.
 The expectation at this point is for the replicas to come back up so that the partition can resume making progress.
 However, if replicas cannot come back up, you can run this cmdlet to bring the partition out of quorum loss.

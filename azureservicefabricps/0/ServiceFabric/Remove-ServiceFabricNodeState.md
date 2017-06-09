@@ -3,18 +3,17 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: B9E95A72-E760-4407-8DF1-94BF0E35A28F
 online version:
 schema: 2.0.0
-updated_at: 05/19/2017 20:05 PM
-ms.date: 05/19/2017
+updated_at: 06/08/2017 17:06 PM
+ms.date: 06/08/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Remove-ServiceFabricNodeState.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Remove-ServiceFabricNodeState.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/8d4c81aabdfff50fd2bedea27942bd6899fa7bd1
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/22ccbdbe6f5398c7882b9dcbcefafd417548cbdb
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: vipulm
 open_to_public_contributors: false
-ms.service: service-fabric
 ---
 
 # Remove-ServiceFabricNodeState
@@ -32,7 +31,7 @@ Remove-ServiceFabricNodeState [-NodeName] <String> [-Force] [-TimeoutSec <Int32>
 ## DESCRIPTION
 The **Remove-ServiceFabricNodeState** cmdlet notifies Service Fabric that for a particular node in a cluster which is down, that any services or state on that node are lost and unrecoverable, and because of that, it has been removed. For instance, this can happen if a hard disk crashes. This command is also useful for downscaling without automatic node removal.
 
-For stateful services, Service Fabric will wait for state and services on a down node to be recovered. In some cases, the administrator knows that a node (and its state) has been permanently lost. In these cases this operation should be called in order to get Service Fabric to stop waiting for that node to recover.
+For stateful services, Service Fabric will wait for state and services on a down node to be recovered. In some cases, the administrator knows that a node (and its state) has been permanently lost. In these cases, this operation should be called in order to get Service Fabric to stop waiting for that node to recover.
 Do not run this cmdlet if the node is expected to come back up with its state intact.
 
 The process to remove a node consists of deactivating the node, removing node configurations, and then, finally, removing the node state. In the case of a crash, the first two steps have already happened.

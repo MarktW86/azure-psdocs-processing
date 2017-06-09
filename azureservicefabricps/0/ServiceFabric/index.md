@@ -4,18 +4,17 @@ Module Guid: ServiceFabric_d2c42633-5254-4a82-a31
 Download Help Link: http://go.microsoft.com/fwlink/?LinkID=521412
 Help Version: 2.0.14.0
 Locale: en-US
-updated_at: 05/19/2017 20:05 PM
-ms.date: 05/19/2017
+updated_at: 06/08/2017 17:06 PM
+ms.date: 06/08/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/ServiceFabric.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/ServiceFabric.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/8d4c81aabdfff50fd2bedea27942bd6899fa7bd1
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/22ccbdbe6f5398c7882b9dcbcefafd417548cbdb
 ms.topic: conceptual
 author: oanapl
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: vipulm
 open_to_public_contributors: false
-ms.service: service-fabric
 Add-ServiceFabricNode: ServiceFabric
 Approve-ServiceFabricRepairTask: ServiceFabric
 Complete-ServiceFabricRepairTask: ServiceFabric
@@ -44,7 +43,6 @@ Get-ServiceFabricClusterUpgrade: ServiceFabric
 Get-ServiceFabricDeployedApplication: ServiceFabric
 Get-ServiceFabricDeployedApplicationHealth: ServiceFabric
 Get-ServiceFabricDeployedCodePackage: ServiceFabric
-Get-ServiceFabricDeployedReplica: ServiceFabric
 Get-ServiceFabricDeployedReplicaDetail: ServiceFabric
 Get-ServiceFabricDeployedServicePackage: ServiceFabric
 Get-ServiceFabricDeployedServicePackageHealth: ServiceFabric
@@ -99,7 +97,6 @@ New-ServiceFabricPackageDebugParameter: ServiceFabric
 New-ServiceFabricPackageSharingPolicy: ServiceFabric
 New-ServiceFabricService: ServiceFabric
 New-ServiceFabricServiceFromTemplate: ServiceFabric
-New-ServiceFabricServiceGroup: ServiceFabric
 New-ServiceFabricServiceGroupFromTemplate: ServiceFabric
 Register-ServiceFabricApplicationType: ServiceFabric
 Register-ServiceFabricClusterPackage: ServiceFabric
@@ -172,7 +169,7 @@ _isModulePage: true
 This topic displays help topics for the Azure Service Fabric Cmdlets. Service Fabric is a distributed systems platform that makes it easy to package, deploy, and manage scalable and reliable microservices and addresses the significant challenges in developing and managing cloud applications. By using Service Fabric, developers and administrators can avoid solving complex infrastructure problems and focus instead on implementing mission-critical, demanding workloads knowing that they are scalable, reliable, and manageable. Service Fabric represents the next-generation middleware platform for building and managing these enterprise-class, Tier-1 cloud-scale applications. With Azure Service Fabric, you can do the following: Simplify microservice-based application development and lifecycle management Deliver low-latency performance and efficiency at massive scale * Proven platform used by Azure and other Microsoft services
 * Run in Azure, on-premises, or in other clouds
 
-The Service Fabric PowerShell module is installed with the Service Fabric SDK, runtime, and tools .
+The Service Fabric PowerShell module is installed with the Service Fabric SDK, runtime, and tools.
 
 ## ServiceFabric Cmdlets
 ### [Add-ServiceFabricNode](Add-ServiceFabricNode.md)

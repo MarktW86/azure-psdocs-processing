@@ -3,18 +3,17 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: F4B3017C-09C6-4423-ADC0-9F49F3F8AFB7
 online version:
 schema: 2.0.0
-updated_at: 05/19/2017 20:05 PM
-ms.date: 05/19/2017
+updated_at: 06/08/2017 17:06 PM
+ms.date: 06/08/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricDeployedServicePackageHealth.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricDeployedServicePackageHealth.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/8d4c81aabdfff50fd2bedea27942bd6899fa7bd1
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/22ccbdbe6f5398c7882b9dcbcefafd417548cbdb
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: vipulm
 open_to_public_contributors: false
-ms.service: service-fabric
 ---
 
 # Get-ServiceFabricDeployedServicePackageHealth
@@ -97,7 +96,7 @@ Accept wildcard characters: False
 ```
 
 ### -EventsFilter
-Specifies the filter for the collection of **HealthEvent**s reported on the service package based on health state.
+Specifies the filter for the collection of **HealthEvent** objects reported on the service package based on health state.
 The value can be obtained from members or bitwise operations on members of **HealthStateFilter**.
 Only events that match the filter are returned.
 All events are used to evaluate the service package aggregated health state.
