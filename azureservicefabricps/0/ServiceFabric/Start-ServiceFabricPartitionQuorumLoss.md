@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 199F858A-4F1C-44C4-9723-D651FE5FAF44
 online version:
 schema: 2.0.0
-updated_at: 05/19/2017 20:05 PM
-ms.date: 05/19/2017
+updated_at: 06/09/2017 18:06 PM
+ms.date: 06/09/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricPartitionQuorumLoss.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricPartitionQuorumLoss.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/8d4c81aabdfff50fd2bedea27942bd6899fa7bd1
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/2788b764383ad1661e9922ec687ddd4e4c19a3ad
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -67,7 +67,7 @@ To run this cmdlet, **FaultAnalysisService** must be enabled.
 > Run this cmdlet to perform a quorum loss fault operation only for partitions for stateful services.
 >
 
-You can check the progress of the fault operation by using the [Get-ServiceFabricPartitionQuorumLossProgress](./Get-ServiceFabricPartitionQuorumLossProgress) cmdlet.
+You can check the progress of the fault operation by using the [Get-ServiceFabricPartitionQuorumLossProgress](./Get-ServiceFabricPartitionQuorumLossProgress.md) cmdlet.
 
 ## EXAMPLES
 

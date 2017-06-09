@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: F83D7B99-CFDC-4A95-A2C7-3CD33925FBAA
 online version:
 schema: 2.0.0
-updated_at: 05/19/2017 20:05 PM
-ms.date: 05/19/2017
+updated_at: 06/09/2017 18:06 PM
+ms.date: 06/09/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricPartitionDataLoss.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricPartitionDataLoss.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/8d4c81aabdfff50fd2bedea27942bd6899fa7bd1
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/e2ece0717e7d7faa62eaac2aad69d1d655257453
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -60,7 +60,7 @@ To run this cmdlet, **FaultAnalysisService** must be enabled.
 Run this cmdlet to perform a data loss fault only for partitions for stateful services.
 Do not use this cmdlet to perform a data loss for system services.
 
-You can check the progress of the data loss fault operation using the [Get-ServiceFabricPartitionDataLossProgress](./Get-ServiceFabricPartitionDataLossProgress) cmdlet.
+You can check the progress of the data loss fault operation using the [Get-ServiceFabricPartitionDataLossProgress](./Get-ServiceFabricPartitionDataLossProgress.md) cmdlet.
 
 After you invoke **Start-ServiceFabricPartitionDataLoss**, you cannot reverse it.
 
