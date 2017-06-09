@@ -43,6 +43,7 @@ Get-ServiceFabricClusterUpgrade: ServiceFabric
 Get-ServiceFabricDeployedApplication: ServiceFabric
 Get-ServiceFabricDeployedApplicationHealth: ServiceFabric
 Get-ServiceFabricDeployedCodePackage: ServiceFabric
+Get-ServiceFabricDeployedReplica: ServiceFabric
 Get-ServiceFabricDeployedReplicaDetail: ServiceFabric
 Get-ServiceFabricDeployedServicePackage: ServiceFabric
 Get-ServiceFabricDeployedServicePackageHealth: ServiceFabric

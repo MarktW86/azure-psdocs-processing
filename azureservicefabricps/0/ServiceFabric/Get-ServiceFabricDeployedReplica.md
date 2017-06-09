@@ -1,7 +1,19 @@
+---
 external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: DFC277E2-C2C5-451D-9029-0D9054A53E82
-online version: 
+online version:
 schema: 2.0.0
+updated_at: 06/09/2017 18:06 PM
+ms.date: 06/09/2017
+content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricDeployedReplica.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Get-ServiceFabricDeployedReplica.md
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/296a75d5bc3b7ffbe0f5039b4b0ae03cd6afaf62
+ms.topic: reference
+author: oanapl
+ms.author: PowerShellHelpPub
+keywords: powershell, cmdlet
+manager: vipulm
+open_to_public_contributors: false
 ---
 
 # Get-ServiceFabricDeployedReplica
