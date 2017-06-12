@@ -3,11 +3,11 @@ external help file: Microsoft.ServiceFabric.Powershell.dll-Help.xml
 ms.assetid: 9C765157-6B48-4AC8-A4D5-C26C098CFC17
 online version:
 schema: 2.0.0
-updated_at: 06/09/2017 18:06 PM
-ms.date: 06/09/2017
+updated_at: 06/12/2017 19:06 PM
+ms.date: 06/12/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricApplicationUpgrade.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/master/Service-Fabric-cmdlets/ServiceFabric/vlatest/Start-ServiceFabricApplicationUpgrade.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/9b6a0450118bc60eaac4dee0e3f4c91b4884f03c
+gitcommit: https://github.com/Azure/azure-docs-powershell-servicefabric/blob/3f775a39197c5ba611a94c9d43c21cd43981da60
 ms.topic: reference
 author: oanapl
 ms.author: PowerShellHelpPub
@@ -57,7 +57,7 @@ Before using this cmdlet you need to copy the updated application package to the
 Use the [Copy-ServiceFabricApplicationPackage](./Copy-ServiceFabricApplicationPackage.md) to copy the application package to image store.
 Use the [Register-ServiceFabricApplicationType](./Register-ServiceFabricApplicationType.md) cmdlet to register the updated application type.
 
-This cmdlet starts the upgrade on the cluster. To check the status of the upgrade, run [Get-ServiceFabricApplicationUpgrade](./Get-ServiceFabricApplicationPackage.md) cmdlet.
+This cmdlet starts the upgrade on the cluster. 
 
 For more information on Service Fabric application upgrades, see the [conceptual documentation](https://docs.microsoft.com/azure/service-fabric/service-fabric-application-upgrade-tutorial-powershell) (https://docs.microsoft.com/azure/service-fabric/service-fabric-application-upgrade-tutorial-powershell).
 
