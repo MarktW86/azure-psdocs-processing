@@ -2,11 +2,11 @@
 external help file: Microsoft.AzureStack.AzureConsistentStorage.Commands.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 06/09/2017 19:06 PM
-ms.date: 06/09/2017
+updated_at: 06/12/2017 19:06 PM
+ms.date: 06/12/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Get-ACSShare.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Get-ACSShare.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f907e6ce8c575a1f11b18facf368827064469583
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/5c9748f39d4aa442568c9f7541b2ed62d5bc11ab
 ms.topic: reference
 ---
 
@@ -40,7 +40,7 @@ PS C:\> Get-ACSShare -ResourceGroupName $ResourceGroup -FarmName $Farm.Name -Sha
 
 The first command stores the value named System in the variable named $ResourceGroup.
 
-The second command uses the [Get-ACSFarm](,/Get-ACSFarm.md) cmdlet to get the farm that is contained in the resource group specified in the $ResourceGroup variable. 
+The second command uses the [Get-ACSFarm](./Get-ACSFarm.md) cmdlet to get the farm that is contained in the resource group specified in the $ResourceGroup variable. 
 The command stores the result in the variable named $Farm.
 
 The third command uses the **Get-ACSShare** cmdlet to get the SMB shares in the share named Share002.
