@@ -3,11 +3,11 @@ external help file: Microsoft.RightsManagementServices.Online.Admin.PowerShell.d
 online version: http://go.microsoft.com/fwlink/?LinkId=400594
 schema: 2.0.0
 ms.assetid: 5B7E7380-C8F4-4113-84D9-B9825F9F2240
-updated_at: 06/02/2017 21:06 PM
-ms.date: 06/02/2017
+updated_at: 06/12/2017 18:06 PM
+ms.date: 06/12/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Add-AadrmSuperUser.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/master/Azure%20Information%20Protection/AADRM/vlatest/Add-AadrmSuperUser.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/efa552018c5b101386d55fb319b08967bcbe460b
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/c32b3ba12a725c51899b240393497af7566ad448
 ms.topic: reference
 author: cabailey
 ms.author: PowerShellHelpPub
@@ -78,7 +78,7 @@ Accept wildcard characters: False
 ```
 
 ### -ServicePrincipalId
-Specifies the **AppPrincipalId** of the service principal in your organization to grant this account super user privileges. Use the **Get-MsolServicePrincipal** cmdlet to get an existing service principal, or the [New-MsolServicePrincipalCredential](./New-MsolServicePrincipalCredential.md) cmdlet to create a new service principal.
+Specifies the **AppPrincipalId** of the service principal in your organization to grant this account super user privileges. Use the **Get-MsolServicePrincipal** cmdlet to get an existing service principal, or the [New-MsolServicePrincipalCredential](https://docs.microsoft.com/en-us/powershell/module/msonline/new-msolserviceprincipalcredential?view=azureadps-1.0) cmdlet to create a new service principal.
 
 The service principal ID is converted to a pseudo-email address and added to the super user list for the organization. For example, `Add-AadrmSuperUser -ServicePrincipalId "3C367900-44D1-4865-9379-9A3227042C25"` adds 3C367900-44D1-4865-9379-9A3227042C25@\<rms tenant ID\>.rms.na.aadrm.com to the super user list.
 
