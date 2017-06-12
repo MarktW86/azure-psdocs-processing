@@ -3,11 +3,11 @@ external help file: Microsoft.Azure.Commands.Sql.dll-Help.xml
 ms.assetid: 52740669-7E10-4AB0-A4E2-03961F80BB4B
 online version:
 schema: 2.0.0
-updated_at: 05/11/2017 01:05 AM
-ms.date: 05/11/2017
+updated_at: 06/12/2017 20:06 PM
+ms.date: 06/12/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/New-AzureRmSqlDatabaseCopy.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v1.0.12/New-AzureRmSqlDatabaseCopy.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/05e3e6af398c016caa52517268d3cee57da15cc4
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/cc55ab806a3f2c14a8555c2da61c6d1051ca868d
 ms.topic: reference
 ---
 
@@ -28,7 +28,7 @@ New-AzureRmSqlDatabaseCopy [-DatabaseName] <String> [-ServiceObjectiveName <Stri
 
 ## DESCRIPTION
 The **New-AzureRmSqlDatabaseCopy** cmdlet creates a copy of an ssSDS that uses the snapshot of the data at the current time.
-Use this cmdlet instead of the [Start-AzureSqlDatabaseCopy](./Start-AzureSqlDatabaseCopy.md) cmdlet to create a one-time database copy.
+Use this cmdlet instead of the Start-AzureRmSqlDatabaseCopy cmdlet to create a one-time database copy.
 
 This cmdlet returns the **Database** object of the copy.
 
