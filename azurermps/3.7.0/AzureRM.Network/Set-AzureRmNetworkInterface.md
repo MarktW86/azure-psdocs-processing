@@ -9,7 +9,6 @@ content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.6.0/Set-AzureRmNetworkInterface.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/b739d1f70fe914c4a7e0bac010e8dc44a028c563
 ms.topic: reference
-ms.service: virtual-network
 ---
 
 # Set-AzureRmNetworkInterface

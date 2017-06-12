@@ -9,7 +9,6 @@ content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/azureps-cmdlets-docs/ResourceManager/AzureRM.CognitiveServices/v0.3.0/AzureRM.CognitiveServices.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf
 ms.topic: conceptual
-ms.service: cognitiveServices
 Get-AzureRmCognitiveServicesAccount: Cognitive Services
 Get-AzureRmCognitiveServicesAccountKey: Cognitive Services
 Get-AzureRmCognitiveServicesAccountSkus: Cognitive Services

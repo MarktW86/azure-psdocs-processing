@@ -9,7 +9,6 @@ gitcommit: https://github.com/Azure/azure-powershell/blob/94e42834e29c78cafba9e3
 updated_at: 04/28/2017 07:04 AM
 ms.date: 04/28/2017
 ms.topic: conceptual
-ms.service: server-management
 Get-AzureRmServerManagementGateway: Server Management
 Get-AzureRmServerManagementNode: Server Management
 Get-AzureRmServerManagementSession: Server Management

@@ -9,7 +9,6 @@ content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/azureps-cmdlets-docs/ResourceManager/AzureRM.TrafficManager/v2.1.0/New-AzureRmTrafficManagerProfile.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f59f3ef60bc592383812213e69fd77ba950759ed
 ms.topic: reference
-ms.service: traffic-manager
 ---
 
 # New-AzureRmTrafficManagerProfile

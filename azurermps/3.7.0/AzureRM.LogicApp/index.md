@@ -9,7 +9,6 @@ content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/azureps-cmdlets-docs/ResourceManager/AzureRM.LogicApp/v2.7.0/AzureRM.LogicApp.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04f63f6e685743ace2c57eb157574e34e8610b1c
 ms.topic: conceptual
-ms.service: app-service-logic
 Get-AzureRmIntegrationAccount: Logic Apps
 Get-AzureRmIntegrationAccountAgreement: Logic Apps
 Get-AzureRmIntegrationAccountCallbackUrl: Logic Apps

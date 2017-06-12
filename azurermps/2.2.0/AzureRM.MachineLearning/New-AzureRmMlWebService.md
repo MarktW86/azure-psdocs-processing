@@ -9,7 +9,6 @@ content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/azureps-cmdlets-docs/ResourceManager/AzureRM.MachineLearning/v0.10.0/New-AzureRmMlWebService.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/a12921dba711de0138694054b209f1315a674436
 ms.topic: reference
-ms.service: machine-learning
 ---
 
 # New-AzureRmMlWebService

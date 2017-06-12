@@ -3,13 +3,12 @@ external help file: Microsoft.Azure.Commands.ApiManagement.dll-Help.xml
 online version:
 schema: 2.0.0
 ms.assetid: 1DC4898B-D858-4F58-B2D5-50063777FE60
-updated_at: 01/14/2017 00:01 AM
-ms.date: 01/14/2017
+updated_at: 06/12/2017 19:06 PM
+ms.date: 06/12/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v2.1.0/Remove-AzureRmApiManagementRegion.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v2.1.0/Remove-AzureRmApiManagementRegion.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/da8eb594c0f0a447468b6e82a18c708dac6b5b28
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/de5ade1801d13dbb77cc4094145044b73104c457
 ms.topic: reference
-ms.service: api-Management
 ---
 
 # Remove-AzureRmApiManagementRegion
@@ -27,7 +26,7 @@ Remove-AzureRmApiManagementRegion -ApiManagement <PsApiManagement> -Location <St
 ## DESCRIPTION
 The **Remove-AzureRmApiManagementRegion** cmdlet removes instance of type **Microsoft.Azure.Commands.ApiManagement.Models.PsApiManagementRegion** from a collection of **AdditionalRegions** of provided the instance of type **Microsoft.Azure.Commands.ApiManagement.Models.PsApiManagement**.
 This cmdlet does not modify deployment by itself but updates the instance of **PsApiManagement** in-memory.
-To update a deployment of an API Management, pass the modified **PsApiManagementInstance** to [Update-AzureRmApiManagement](./Update-AzureRmApiManagement.md).
+To update a deployment of an API Management, pass the modified **PsApiManagementInstance** to [Update-AzureRmApiManagementRegion](./Update-AzureRmApiManagementRegion.md).
 
 ## EXAMPLES
 

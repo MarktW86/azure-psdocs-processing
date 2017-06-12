@@ -8,7 +8,6 @@ content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/azureps-cmdlets-docs/ResourceManager/AzureRM.MachineLearning/v0.9.2.1/AzureRM.MachineLearning.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0589fbf53d27e39e0cf445261d29c64fb0859d62
 ms.topic: conceptual
-ms.service: machine-learning
 Export-AzureRmMlWebService: Machine Learning
 Get-AzureRmMlWebService: Machine Learning
 Get-AzureRmMlWebServiceKeys: Machine Learning

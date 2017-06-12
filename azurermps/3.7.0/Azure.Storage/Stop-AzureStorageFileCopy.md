@@ -9,7 +9,6 @@ content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/azureps-cmdlets-docs/ResourceManager/Azure.Storage/v2.7.0/Stop-AzureStorageFileCopy.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/828e5b8648af6bdf3119ffe0cd409647f00de183
 ms.topic: reference
-ms.service: storage
 ---
 
 # Stop-AzureStorageFileCopy

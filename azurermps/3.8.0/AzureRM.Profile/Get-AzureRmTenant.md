@@ -8,7 +8,6 @@ gitcommit: https://github.com/Azure/azure-powershell/blob/2725c6d5158e7e9b3820c9
 updated_at: 04/28/2017 07:04 AM
 ms.date: 04/28/2017
 ms.topic: reference
-ms.service: subscription
 ---
 
 # Get-AzureRmTenant

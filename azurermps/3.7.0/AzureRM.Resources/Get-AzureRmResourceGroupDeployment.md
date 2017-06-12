@@ -9,7 +9,6 @@ content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Get-AzureRmResourceGroupDeployment.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/116c392b402644ece43a44066e86de3edc4d8330
 ms.topic: reference
-ms.service: azure-resource-manager
 ---
 
 # Get-AzureRmResourceGroupDeployment

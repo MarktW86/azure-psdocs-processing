@@ -9,7 +9,6 @@ gitcommit: https://github.com/Azure/azure-powershell/blob/89262bc4144696c69376c3
 updated_at: 05/10/2017 20:05 PM
 ms.date: 05/10/2017
 ms.topic: reference
-ms.service: storage
 ---
 
 # New-AzureStorageContainerStoredAccessPolicy

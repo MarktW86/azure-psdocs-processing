@@ -9,7 +9,6 @@ content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/New-AzureRmADSpCredential.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/234f3a31ede46045e7977cdbbd673be5cd2e864f
 ms.topic: reference
-ms.service: azure-resource-manager
 ---
 
 # New-AzureRmADSpCredential

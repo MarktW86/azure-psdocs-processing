@@ -9,7 +9,6 @@ gitcommit: https://github.com/Azure/azure-powershell/blob/b52f0d63e7962572172f1e
 updated_at: 04/28/2017 07:04 AM
 ms.date: 04/28/2017
 ms.topic: reference
-ms.service: Websites
 ---
 
 # Edit-AzureRmWebAppBackupConfiguration

@@ -9,7 +9,6 @@ gitcommit: https://github.com/Azure/azure-powershell/blob/ed09f4327a679ffc5b1990
 updated_at: 04/28/2017 07:04 AM
 ms.date: 04/28/2017
 ms.topic: reference
-ms.service: big-compute
 ---
 
 # Update-AzureRmVM

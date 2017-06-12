@@ -8,7 +8,6 @@ gitcommit: https://github.com/Azure/azure-powershell/blob/9c92f0b478aeb988dd13a8
 updated_at: 04/28/2017 07:04 AM
 ms.date: 04/28/2017
 ms.topic: reference
-ms.service: billing
 ---
 
 # Get-AzureRmBillingInvoice

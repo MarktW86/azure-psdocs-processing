@@ -9,7 +9,6 @@ content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/Remove-AzureRmADUser.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/e668a416cbf384e95e38cd702d8ade05f16dd7a3
 ms.topic: reference
-ms.service: azure-resource-manager
 ---
 
 # Remove-AzureRmADUser

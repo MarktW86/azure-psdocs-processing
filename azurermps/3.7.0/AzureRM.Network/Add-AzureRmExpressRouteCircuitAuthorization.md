@@ -9,7 +9,6 @@ content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v3.6.0/Add-AzureRmExpressRouteCircuitAuthorization.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/06976a299e2ad2ded0ed834a5c35cc50a58f585b
 ms.topic: reference
-ms.service: virtual-network
 ---
 
 # Add-AzureRmExpressRouteCircuitAuthorization

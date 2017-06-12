@@ -8,7 +8,6 @@ content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v1.1.4/AzureRM.Websites.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0589fbf53d27e39e0cf445261d29c64fb0859d62
 ms.topic: conceptual
-ms.service: Websites
 Edit-AzureRmWebAppBackupConfiguration: App Service
 Get-AzureRmAppServicePlan: App Service
 Get-AzureRmAppServicePlanMetrics: App Service

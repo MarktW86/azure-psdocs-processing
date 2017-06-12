@@ -8,7 +8,6 @@ content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/azureps-cmdlets-docs/ResourceManager/AzureRM.RedisCache/v1.1.10/AzureRM.RedisCache.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0589fbf53d27e39e0cf445261d29c64fb0859d62
 ms.topic: conceptual
-ms.service: redis-cache
 Export-AzureRmRedisCache: Redis Cache
 Get-AzureRmRedisCache: Redis Cache
 Get-AzureRmRedisCacheKey: Redis Cache

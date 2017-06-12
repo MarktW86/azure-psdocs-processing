@@ -9,7 +9,6 @@ content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v2.1.0/Start-AzureRMAutomationRunbook.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/9b17b340bf6f86e171391e04bd9e832a6b8ef49c
 ms.topic: reference
-ms.service: automation
 ---
 
 # Start-AzureRmAutomationRunbook

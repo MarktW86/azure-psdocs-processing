@@ -8,7 +8,6 @@ gitcommit: https://github.com/Azure/azure-powershell/blob/0b4ecb51495cc4a808ac05
 updated_at: 05/12/2017 03:05 AM
 ms.date: 05/12/2017
 ms.topic: reference
-ms.service: backup
 ---
 
 # Get-AzureRmRecoveryServicesBackupProperty

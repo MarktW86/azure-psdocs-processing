@@ -8,7 +8,6 @@ gitcommit: https://github.com/Azure/azure-powershell/blob/c7f39003a0e9914b1fdc76
 updated_at: 04/28/2017 07:04 AM
 ms.date: 04/28/2017
 ms.topic: reference
-ms.service: sql-database
 ---
 
 # New-AzureRmSqlDatabaseFailoverGroup

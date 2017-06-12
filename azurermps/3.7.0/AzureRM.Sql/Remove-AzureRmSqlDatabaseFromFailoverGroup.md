@@ -8,7 +8,6 @@ content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.7.0/Remove-AzureRmSqlDatabaseFromFailoverGroup.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/1ba0f2a16ca624e1627db4f1214edb1a790c238a
 ms.topic: reference
-ms.service: sql-database
 ---
 
 # Remove-AzureRmSqlDatabaseFromFailoverGroup

@@ -10,7 +10,6 @@ content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/azureps-cmdlets-docs/ResourceManager/Azure.Storage/v2.1.0/Azure.Storage.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/9b79c0a37330eb2c43d3e7d31b5ab53f0da9554c
 ms.topic: conceptual
-ms.service: storage
 Get-AzureStorageBlob: Storage
 Get-AzureStorageBlobContent: Storage
 Get-AzureStorageBlobCopyState: Storage

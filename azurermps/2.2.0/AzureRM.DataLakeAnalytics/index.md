@@ -11,7 +11,6 @@ content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeAnalytics/v2.1.0/AzureRM.DataLakeAnalytics.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/79eeb985ea480979357fb4695832a0c3d29a48bf
 ms.topic: conceptual
-ms.service: data-lake-analytics
 Add-AzureRmDataLakeAnalyticsDataSource: Data Lake Analytics
 Get-AzureRmDataLakeAnalyticsAccount: Data Lake Analytics
 Get-AzureRmDataLakeAnalyticsCatalogItem: Data Lake Analytics

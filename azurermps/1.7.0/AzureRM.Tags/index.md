@@ -8,7 +8,6 @@ content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/azureps-cmdlets-docs/ResourceManager/AzureRM.Tags/v1.0.12/AzureRM.Tags.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/0589fbf53d27e39e0cf445261d29c64fb0859d62
 ms.topic: conceptual
-ms.service: azure-resource-manager
 Get-AzureRmTag: Tags
 New-AzureRmTag: Tags
 Remove-AzureRmTag: Tags

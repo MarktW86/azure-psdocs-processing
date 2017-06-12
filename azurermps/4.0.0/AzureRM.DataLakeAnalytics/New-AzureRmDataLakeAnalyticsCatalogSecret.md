@@ -9,7 +9,6 @@ gitcommit: https://github.com/Azure/azure-powershell/blob/945e7b9cce0fa0730b0544
 updated_at: 05/12/2017 03:05 AM
 ms.date: 05/12/2017
 ms.topic: reference
-ms.service: data-lake-analytics
 ---
 
 # New-AzureRmDataLakeAnalyticsCatalogSecret

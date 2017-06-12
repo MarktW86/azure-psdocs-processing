@@ -8,7 +8,6 @@ content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v2.7.0/Add-AzureRmSqlDatabaseToFailoverGroup.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/d661156ea7c515a4c8b6df33e68d65d50d6e9950
 ms.topic: reference
-ms.service: sql-database
 ---
 
 # Add-AzureRmSqlDatabaseToFailoverGroup

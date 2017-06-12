@@ -8,7 +8,6 @@ gitcommit: https://github.com/Azure/azure-powershell/blob/dbbac5b71c9946c33dcc70
 updated_at: 05/10/2017 19:05 PM
 ms.date: 05/10/2017
 ms.topic: reference
-ms.service: billing
 ---
 
 # Get-AzureRmBillingPeriod

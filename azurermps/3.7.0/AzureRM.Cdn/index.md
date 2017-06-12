@@ -9,7 +9,6 @@ content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/azureps-cmdlets-docs/ResourceManager/AzureRM.Cdn/v2.7.0/AzureRM.Cdn.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04f63f6e685743ace2c57eb157574e34e8610b1c
 ms.topic: conceptual
-ms.service: cdn
 Get-AzureRmCdnCustomDomain: CDN
 Get-AzureRmCdnEndpoint: CDN
 Get-AzureRmCdnEndpointNameAvailability: CDN

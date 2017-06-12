@@ -9,7 +9,6 @@ content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Disable-AzureRmVMDiskEncryption.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/a7a3e6856d7b571ad10c5878d6bca56a3956442f
 ms.topic: reference
-ms.service: big-compute
 ---
 
 # Disable-AzureRmVMDiskEncryption

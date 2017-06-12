@@ -9,7 +9,6 @@ content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v1.3.4/Set-AzureRmVMBginfoExtension.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f7900661742fb361471ea2cb42574cb8d734fea4
 ms.topic: reference
-ms.service: big-compute
 ---
 
 # Set-AzureRmVMBginfoExtension
