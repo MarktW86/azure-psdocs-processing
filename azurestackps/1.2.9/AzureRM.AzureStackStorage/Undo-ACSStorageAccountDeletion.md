@@ -2,11 +2,11 @@
 external help file: Microsoft.AzureStack.AzureConsistentStorage.Commands.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 06/09/2017 19:06 PM
-ms.date: 06/09/2017
+updated_at: 06/12/2017 19:06 PM
+ms.date: 06/12/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Undo-ACSStorageAccountDeletion.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Undo-ACSStorageAccountDeletion.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/385b9040f00246e85717a489d0c8cbee01980f4c
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/a24b34455cfe969f86d79cebe616405769ec4bf3
 ms.topic: reference
 ---
 
@@ -43,7 +43,7 @@ PS C:\> Undo-ACSStorageAccountDeletion -ResourceGroupName $ResourceGroup -FarmNa
 
 The first command stores the value named System in the variable named $ResourceGroup.
 
-The second command uses the [Get-ACSFarm](,/Get-ACSFarm.md) cmdlet to get the farm that is contained in the resource group specified in the $ResourceGroup variable. 
+The second command uses the [Get-ACSFarm](./Get-ACSFarm.md) cmdlet to get the farm that is contained in the resource group specified in the $ResourceGroup variable. 
 The command stores the result in the variable named $Farm.
 
 The third command uses the **Undo-ACSStorageAccountDeletion** cmdlet to restore the storage account for the specified in the *AccountID* parameter.
