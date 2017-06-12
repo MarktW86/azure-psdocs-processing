@@ -16,6 +16,7 @@ ms.author: PowerShellHelpPub
 keywords: powershell, cmdlet
 manager: cabailey
 open_to_public_contributors: false
+Clear-AIPAuthentication: AzureInformationProtection
 Clear-RMSAuthentication: AzureInformationProtection
 Get-AIPFileStatus: AzureInformationProtection
 Get-RMSFileStatus: AzureInformationProtection
@@ -24,6 +25,7 @@ Get-RMSServerAuthentication: AzureInformationProtection
 Get-RMSTemplate: AzureInformationProtection
 New-RMSProtectionLicense: AzureInformationProtection
 Protect-RMSFile: AzureInformationProtection
+Set-AIPAuthentication: AzureInformationProtection
 Set-AIPFileClassification: AzureInformationProtection
 Set-AIPFileLabel: AzureInformationProtection
 Set-RMSServerAuthentication: AzureInformationProtection

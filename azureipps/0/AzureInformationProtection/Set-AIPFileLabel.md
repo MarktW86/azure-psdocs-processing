@@ -3,11 +3,11 @@ external help file: AIP.dll-Help.xml
 ms.assetid: 566E595C-D574-4DED-AE38-CBCD75694B45
 online version: https://go.microsoft.com/fwlink/?linkid=838766
 schema: 2.0.0
-updated_at: 06/09/2017 20:06 PM
-ms.date: 06/09/2017
+updated_at: 06/11/2017 09:06 AM
+ms.date: 06/11/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/release-ipclient/Azure%20Information%20Protection/AzureInformationProtection/vlatest/Set-AIPFileLabel.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-aip/blob/release-ipclient/Azure%20Information%20Protection/AzureInformationProtection/vlatest/Set-AIPFileLabel.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/306d483978c36d370cd8c99434e0db0a507ab916
+gitcommit: https://github.com/Azure/azure-docs-powershell-aip/blob/43a2eac57c1cf1690958c9436523a941ea3b027f
 ms.topic: reference
 author: cabailey
 ms.author: PowerShellHelpPub
@@ -25,12 +25,14 @@ Sets or removes an Azure Information Protection label for a file, and sets the p
 
 ### Set
 ```
-Set-AIPFileLabel [-LabelId] <Guid> [-JustificationMessage <String>] [-Path] <String[]> [<CommonParameters>]
+Set-AIPFileLabel [-LabelId] <Guid> [-JustificationMessage <String>] [-Owner <String>] [-PreserveFileDetails]
+ [-Path] <String[]> [<CommonParameters>]
 ```
 
 ### Clear
 ```
-Set-AIPFileLabel [-JustificationMessage <String>] [-RemoveLabel] [-Path] <String[]> [<CommonParameters>]
+Set-AIPFileLabel [-JustificationMessage <String>] [-RemoveLabel] [-Owner <String>] [-PreserveFileDetails]
+ [-Path] <String[]> [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -143,9 +145,9 @@ Accept wildcard characters: False
 ```
 
 ### -Path
-Specifies a local or network path to the file or files to which you want to apply labels. Wildcards are not supported.
+Specifies a local, network path, or Sharepoint url to the files for which you want to get the label and protection information. Wildcards are not supported.
 
-Examples include C:\Folder\, C:\Folder\Filename, \\\Server\Folder.
+Examples include C:\Folder\, C:\Folder\Filename, \\\Server\Folder, 'http://sharepoint.contoso.com/Shared Documents/Folder', http://sharepoint.contoso.com/Shared%20Documents/Folder/FileName.
 
 ```yaml
 Type: String[]
@@ -168,6 +170,35 @@ Parameter Sets: Clear
 Aliases: 
 
 Required: True
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -Owner
+On the label: the email address used in the Owner custom property. On the protection: the encryption uses the -OwnerEmail. This is the person who will get full control for the item and will be considered to be the encryption owner.```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -PreserveFileDetails
+When setting a label on a local or network file, will not change the file Last Modified date to now, but will leave it unchanged.
+When setting a label on a sharepoint file, will not change neither the file Modified date, nor the file Modified By
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
 Position: Named
 Default value: None
 Accept pipeline input: False
