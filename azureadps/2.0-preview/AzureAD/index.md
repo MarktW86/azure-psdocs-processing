@@ -3,11 +3,11 @@ Module Name: AzureADPreview
 Module Guid: b433e830-b479-4f7f-9c80-9cc6c28e1b51
 Locale: en-US
 ms.assetid: 7D9D9507-ADE5-45BD-97F8-0CCCDA3D3B58
-updated_at: 05/18/2017 02:05 AM
-ms.date: 05/18/2017
+updated_at: 06/12/2017 20:06 PM
+ms.date: 06/12/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2preview/AzureActiveDirectory.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2preview/AzureActiveDirectory.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/971a13f6e9d405113b3a4cbd3e96018e9bac893a
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/ebad98e46f4e7fed5285672a5d128a118b56b644
 ms.topic: conceptual
 Add-AzureADAdministrativeUnitMember: Administrative Units
 Add-AzureADApplicationOwner: Applications
@@ -40,6 +40,7 @@ Get-AzureADContactManager: Contacts
 Get-AzureADContactMembership: Contacts
 Get-AzureADContactThumbnailPhoto: Contacts
 Get-AzureADContract: Contracts
+Get-AzureADCurrentSessionInfo: Connect to your directory
 Get-AzureADDeletedApplication: Applications
 Get-AzureADDevice: Devices
 Get-AzureADDeviceConfiguration: Devices
@@ -68,6 +69,7 @@ Get-AzureADObjectSetting: Object Settings
 Get-AzureADPolicy: Policies
 Get-AzureADPolicyAppliedObject: Policies
 Get-AzureADScopedRoleMembership: Administrative Units
+Get-AzureADServiceAppRoleAssignedTo: Service Principals
 Get-AzureADServiceAppRoleAssignment: Service Principals
 Get-AzureADServicePrincipal: Service Principals
 Get-AzureADServicePrincipalCreatedObject: Service Principals
@@ -113,6 +115,7 @@ New-AzureADServicePrincipal: Service Principals
 New-AzureADServicePrincipalKeyCredential: Service Principals
 New-AzureADServicePrincipalPasswordCredential: Service Principals
 New-AzureADTrustedCertificateAuthority: Certificate Authorities
+New-AzureADUser: Users
 New-AzureADUserAppRoleAssignment: Users
 Remove-AzureADAdministrativeUnit: Administrative Units
 Remove-AzureADAdministrativeUnitMember: Administrative Units
@@ -121,6 +124,7 @@ Remove-AzureADApplicationExtensionProperty: Applications
 Remove-AzureADApplicationKeyCredential: Applications
 Remove-AzureADApplicationOwner: Applications
 Remove-AzureADApplicationPasswordCredential: Applications
+Remove-AzureADApplicationPolicy: Others
 Remove-AzureADContact: Contacts
 Remove-AzureADContactManager: Contacts
 Remove-AzureADDevice: Devices
@@ -144,6 +148,7 @@ Remove-AzureADServicePrincipal: Service Principals
 Remove-AzureADServicePrincipalKeyCredential: Service Principals
 Remove-AzureADServicePrincipalOwner: Service Principals
 Remove-AzureADServicePrincipalPasswordCredential: Service Principals
+Remove-AzureADServicePrincipalPolicy: Others
 Remove-AzureADTrustedCertificateAuthority: Certificate Authorities
 Remove-AzureADUser: Users
 Remove-AzureADUserAppRoleAssignment: Users
@@ -158,16 +163,19 @@ Select-AzureADGroupIdsGroupIsMemberOf: Groups
 Select-AzureADGroupIdsServicePrincipalIsMemberOf: Service Principals
 Select-AzureADGroupIdsUserIsMemberOf: Users
 Set-AzureADAdministrativeUnit: Administrative Units
+Set-AzureADApplication: Applications
 Set-AzureADApplicationLogo: Applications
 Set-AzureADDevice: Devices
 Set-AzureADDirectorySetting: Directory Settings
 Set-AzureADDomain: Domains
 Set-AzureADGroup: Groups
+Set-AzureADMSGroup: Groups
 Set-AzureADObjectSetting: Object Settings
 Set-AzureADPolicy: Policies
 Set-AzureADServicePrincipal: Service Principals
 Set-AzureADTenantDetail: Directory
 Set-AzureADTrustedCertificateAuthority: Certificate Authorities
+Set-AzureADUser: Users
 Set-AzureADUserExtension: Users
 Set-AzureADUserLicense: Users
 Set-AzureADUserManager: Users
@@ -193,7 +201,7 @@ Windows Server 2012 R2
 Windows Server 2008 R2 SP1
 
 PowerShellGet also requires .NET Framework 4.5 or above. You can install .NET Framework 4.5 or above from [here](https://www.microsoft.com/en-us/download/details.aspx?id=30653). For more information, please refer to [this link](https://msdn.microsoft.com/powershell/gallery/readme)
-For more detailed info on installation of the AzureAD cmdlets please see: [Azure Active Directory PowerShell version 2](https://docs.microsoft.com/en-us/powershell/azuread/).
+For more detailed info on installation of the AzureAD cmdlets please see: [Azure Active Directory PowerShell version 2](https://docs.microsoft.com/en-us/powershell/azuread/).
 
 ## Azure Active Directory V2 PowerShell Public Preview module cmdlets
 
@@ -241,6 +249,9 @@ Connects with an authenticated account to use Active Directory cmdlet requests.
 ### [Disconnect-AzureAD](Disconnect-AzureAD.md)
 Disconnects the current session from an Azure Active Directory tenant.
 
+### [Get-AzureADCurrentSessionInfo](Get-AzureADCurrentSessionInfo.md)
+Returns information about the current PowerShell session.
+
 ### [Enable-AzureADDirectoryRole](Enable-AzureADDirectoryRole.md)
 Activates an existing directory role in Azure Active Directory.
 
@@ -251,7 +262,7 @@ Gets an administrative unit.
 Gets a member of an administrative unit.
 
 ### [Get-AzureADApplication](Get-AzureADApplication.md)
-Gets an application.
+Gets an application.Get-AzureADCurrentSessionInfo
 
 ### [Get-AzureADApplicationExtensionProperty](Get-AzureADApplicationExtensionProperty.md)
 Gets application extension properties.

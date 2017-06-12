@@ -3,11 +3,11 @@ external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 ms.assetid: 235D5FBC-E726-4F95-8BBD-454E8180576A
 online version:
 schema: 2.0.0
-updated_at: 04/20/2017 04:04 AM
-ms.date: 04/20/2017
+updated_at: 06/12/2017 20:06 PM
+ms.date: 06/12/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADApplication.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/v2/New-AzureADApplication.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/785cafde2210485948fad58dd6f2d5df74b18bde
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/15123dbbba69fd36647fc6945691a631250753d1
 ms.topic: reference
 ---
 
@@ -163,7 +163,7 @@ Accept wildcard characters: False
 ### -IdentifierUris
 User-defined URI(s) that uniquely identify a Web application within its Azure AD tenant, or within a verified custom domain (see "Domains" tab in the Azure classic portal) if the application is multi-tenant. 
 
-The first element is populated from the Web application's "APP ID URIâ€ field if updated via the Azure classic portal (or respective Azure AD PowerShell cmdlet parameter). Additional URIs can be added via the application manifest; see Understanding the Azure AD Application Manifest for details. This collection is also used to populate the Web application's servicePrincipalNames collection. 
+The first element is populated from the Web application's "APP ID URI" field if updated via the Azure classic portal (or respective Azure AD PowerShell cmdlet parameter). Additional URIs can be added via the application manifest; see Understanding the Azure AD Application Manifest for details. This collection is also used to populate the Web application's servicePrincipalNames collection. 
 
 ```yaml
 Type: System.Collections.Generic.List`1[System.String]
