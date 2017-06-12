@@ -9,27 +9,27 @@ content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azur
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.NotificationHubs/v2.7.0/AzureRM.NotificationHubs.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04f63f6e685743ace2c57eb157574e34e8610b1c
 ms.topic: conceptual
-Get-AzureRmNotificationHub: Notification Hubs
-Get-AzureRmNotificationHubAuthorizationRules: Notification Hubs
-Get-AzureRmNotificationHubListKeys: Notification Hubs
-Get-AzureRmNotificationHubPNSCredentials: Notification Hubs
-Get-AzureRmNotificationHubsNamespace: Notification Hubs
-Get-AzureRmNotificationHubsNamespaceAuthorizationRules: Notification Hubs
-Get-AzureRmNotificationHubsNamespaceListKeys: Notification Hubs
-New-AzureRmNotificationHub: Notification Hubs
-New-AzureRmNotificationHubAuthorizationRules: Notification Hubs
-New-AzureRmNotificationHubKey: Notification Hubs
-New-AzureRmNotificationHubsNamespace: Notification Hubs
-New-AzureRmNotificationHubsNamespaceAuthorizationRules: Notification Hubs
-New-AzureRmNotificationHubsNamespaceKey: Notification Hubs
-Remove-AzureRmNotificationHub: Notification Hubs
-Remove-AzureRmNotificationHubAuthorizationRules: Notification Hubs
-Remove-AzureRmNotificationHubsNamespace: Notification Hubs
-Remove-AzureRmNotificationHubsNamespaceAuthorizationRules: Notification Hubs
-Set-AzureRmNotificationHub: Notification Hubs
-Set-AzureRmNotificationHubAuthorizationRules: Notification Hubs
-Set-AzureRmNotificationHubsNamespace: Notification Hubs
-Set-AzureRmNotificationHubsNamespaceAuthorizationRules: Notification Hubs
+Get-AzureRmNotificationHub: AzureRM.NotificationHubs
+Get-AzureRmNotificationHubAuthorizationRules: AzureRM.NotificationHubs
+Get-AzureRmNotificationHubListKeys: AzureRM.NotificationHubs
+Get-AzureRmNotificationHubPNSCredentials: AzureRM.NotificationHubs
+Get-AzureRmNotificationHubsNamespace: AzureRM.NotificationHubs
+Get-AzureRmNotificationHubsNamespaceAuthorizationRules: AzureRM.NotificationHubs
+Get-AzureRmNotificationHubsNamespaceListKeys: AzureRM.NotificationHubs
+New-AzureRmNotificationHub: AzureRM.NotificationHubs
+New-AzureRmNotificationHubAuthorizationRules: AzureRM.NotificationHubs
+New-AzureRmNotificationHubKey: AzureRM.NotificationHubs
+New-AzureRmNotificationHubsNamespace: AzureRM.NotificationHubs
+New-AzureRmNotificationHubsNamespaceAuthorizationRules: AzureRM.NotificationHubs
+New-AzureRmNotificationHubsNamespaceKey: AzureRM.NotificationHubs
+Remove-AzureRmNotificationHub: AzureRM.NotificationHubs
+Remove-AzureRmNotificationHubAuthorizationRules: AzureRM.NotificationHubs
+Remove-AzureRmNotificationHubsNamespace: AzureRM.NotificationHubs
+Remove-AzureRmNotificationHubsNamespaceAuthorizationRules: AzureRM.NotificationHubs
+Set-AzureRmNotificationHub: AzureRM.NotificationHubs
+Set-AzureRmNotificationHubAuthorizationRules: AzureRM.NotificationHubs
+Set-AzureRmNotificationHubsNamespace: AzureRM.NotificationHubs
+Set-AzureRmNotificationHubsNamespaceAuthorizationRules: AzureRM.NotificationHubs
 _isModulePage: true
 ---
 

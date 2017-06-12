@@ -10,40 +10,40 @@ content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azur
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeStore/v3.5.0/AzureRM.DataLakeStore.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04f63f6e685743ace2c57eb157574e34e8610b1c
 ms.topic: conceptual
-Add-AzureRmDataLakeStoreFirewallRule: Data Lake
-Add-AzureRmDataLakeStoreItemContent: Data Lake
-Add-AzureRmDataLakeStoreTrustedIdProvider: Data Lake
-Export-AzureRmDataLakeStoreItem: Data Lake
-Get-AzureRmDataLakeStoreAccount: Data Lake
-Get-AzureRmDataLakeStoreChildItem: Data Lake
-Get-AzureRmDataLakeStoreFirewallRule: Data Lake
-Get-AzureRmDataLakeStoreItem: Data Lake
-Get-AzureRmDataLakeStoreItemAclEntry: Data Lake
-Get-AzureRmDataLakeStoreItemContent: Data Lake
-Get-AzureRmDataLakeStoreItemOwner: Data Lake
-Get-AzureRmDataLakeStoreItemPermission: Data Lake
-Get-AzureRmDataLakeStoreTrustedIdProvider: Data Lake
-Import-AzureRmDataLakeStoreItem: Data Lake
-Join-AzureRmDataLakeStoreItem: Data Lake
-Move-AzureRmDataLakeStoreItem: Data Lake
-New-AzureRmDataLakeStoreAccount: Data Lake
-New-AzureRmDataLakeStoreItem: Data Lake
-Remove-AzureRmDataLakeStoreAccount: Data Lake
-Remove-AzureRmDataLakeStoreFirewallRule: Data Lake
-Remove-AzureRmDataLakeStoreItem: Data Lake
-Remove-AzureRmDataLakeStoreItemAcl: Data Lake
-Remove-AzureRmDataLakeStoreItemAclEntry: Data Lake
-Remove-AzureRmDataLakeStoreTrustedIdProvider: Data Lake
-Set-AzureRmDataLakeStoreAccount: Data Lake
-Set-AzureRmDataLakeStoreFirewallRule: Data Lake
-Set-AzureRmDataLakeStoreItemAcl: Data Lake
-Set-AzureRmDataLakeStoreItemAclEntry: Data Lake
-Set-AzureRmDataLakeStoreItemExpiry: Data Lake
-Set-AzureRmDataLakeStoreItemOwner: Data Lake
-Set-AzureRmDataLakeStoreItemPermission: Data Lake
-Set-AzureRmDataLakeStoreTrustedIdProvider: Data Lake
-Test-AzureRmDataLakeStoreAccount: Data Lake
-Test-AzureRmDataLakeStoreItem: Data Lake
+Add-AzureRmDataLakeStoreFirewallRule: AzureRM.DataLakeStore
+Add-AzureRmDataLakeStoreItemContent: AzureRM.DataLakeStore
+Add-AzureRmDataLakeStoreTrustedIdProvider: AzureRM.DataLakeStore
+Export-AzureRmDataLakeStoreItem: AzureRM.DataLakeStore
+Get-AzureRmDataLakeStoreAccount: AzureRM.DataLakeStore
+Get-AzureRmDataLakeStoreChildItem: AzureRM.DataLakeStore
+Get-AzureRmDataLakeStoreFirewallRule: AzureRM.DataLakeStore
+Get-AzureRmDataLakeStoreItem: AzureRM.DataLakeStore
+Get-AzureRmDataLakeStoreItemAclEntry: AzureRM.DataLakeStore
+Get-AzureRmDataLakeStoreItemContent: AzureRM.DataLakeStore
+Get-AzureRmDataLakeStoreItemOwner: AzureRM.DataLakeStore
+Get-AzureRmDataLakeStoreItemPermission: AzureRM.DataLakeStore
+Get-AzureRmDataLakeStoreTrustedIdProvider: AzureRM.DataLakeStore
+Import-AzureRmDataLakeStoreItem: AzureRM.DataLakeStore
+Join-AzureRmDataLakeStoreItem: AzureRM.DataLakeStore
+Move-AzureRmDataLakeStoreItem: AzureRM.DataLakeStore
+New-AzureRmDataLakeStoreAccount: AzureRM.DataLakeStore
+New-AzureRmDataLakeStoreItem: AzureRM.DataLakeStore
+Remove-AzureRmDataLakeStoreAccount: AzureRM.DataLakeStore
+Remove-AzureRmDataLakeStoreFirewallRule: AzureRM.DataLakeStore
+Remove-AzureRmDataLakeStoreItem: AzureRM.DataLakeStore
+Remove-AzureRmDataLakeStoreItemAcl: AzureRM.DataLakeStore
+Remove-AzureRmDataLakeStoreItemAclEntry: AzureRM.DataLakeStore
+Remove-AzureRmDataLakeStoreTrustedIdProvider: AzureRM.DataLakeStore
+Set-AzureRmDataLakeStoreAccount: AzureRM.DataLakeStore
+Set-AzureRmDataLakeStoreFirewallRule: AzureRM.DataLakeStore
+Set-AzureRmDataLakeStoreItemAcl: AzureRM.DataLakeStore
+Set-AzureRmDataLakeStoreItemAclEntry: AzureRM.DataLakeStore
+Set-AzureRmDataLakeStoreItemExpiry: AzureRM.DataLakeStore
+Set-AzureRmDataLakeStoreItemOwner: AzureRM.DataLakeStore
+Set-AzureRmDataLakeStoreItemPermission: AzureRM.DataLakeStore
+Set-AzureRmDataLakeStoreTrustedIdProvider: AzureRM.DataLakeStore
+Test-AzureRmDataLakeStoreAccount: AzureRM.DataLakeStore
+Test-AzureRmDataLakeStoreItem: AzureRM.DataLakeStore
 _isModulePage: true
 ---
 

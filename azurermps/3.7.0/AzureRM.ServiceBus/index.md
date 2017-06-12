@@ -10,40 +10,40 @@ content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azur
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ServiceBus/v0.1.0/AzureRM.ServiceBus.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04f63f6e685743ace2c57eb157574e34e8610b1c
 ms.topic: conceptual
-Get-AzureRmServiceBusNamespace: Service Bus
-Get-AzureRmServiceBusNamespaceAuthorizationRule: Service Bus
-Get-AzureRmServiceBusNamespaceKey: Service Bus
-Get-AzureRmServiceBusQueue: Service Bus
-Get-AzureRmServiceBusQueueAuthorizationRule: Service Bus
-Get-AzureRmServiceBusQueueKey: Service Bus
-Get-AzureRmServiceBusSubscription: Service Bus
-Get-AzureRmServiceBusTopic: Service Bus
-Get-AzureRmServiceBusTopicAuthorizationRule: Service Bus
-Get-AzureRmServiceBusTopicKey: Service Bus
-New-AzureRmServiceBusNamespace: Service Bus
-New-AzureRmServiceBusNamespaceAuthorizationRule: Service Bus
-New-AzureRmServiceBusNamespaceKey: Service Bus
-New-AzureRmServiceBusQueue: Service Bus
-New-AzureRmServiceBusQueueAuthorizationRule: Service Bus
-New-AzureRmServiceBusQueueKey: Service Bus
-New-AzureRmServiceBusSubscription: Service Bus
-New-AzureRmServiceBusTopic: Service Bus
-New-AzureRmServiceBusTopicAuthorizationRule: Service Bus
-New-AzureRmServiceBusTopicKey: Service Bus
-Remove-AzureRmServiceBusNamespace: Service Bus
-Remove-AzureRmServiceBusNamespaceAuthorizationRule: Service Bus
-Remove-AzureRmServiceBusQueue: Service Bus
-Remove-AzureRmServiceBusQueueAuthorizationRule: Service Bus
-Remove-AzureRmServiceBusSubscription: Service Bus
-Remove-AzureRmServiceBusTopic: Service Bus
-Remove-AzureRmServiceBusTopicAuthorizationRule: Service Bus
-Set-AzureRmServiceBusNamespace: Service Bus
-Set-AzureRmServiceBusNamespaceAuthorizationRule: Service Bus
-Set-AzureRmServiceBusQueue: Service Bus
-Set-AzureRmServiceBusQueueAuthorizationRule: Service Bus
-Set-AzureRmServiceBusSubscription: Service Bus
-Set-AzureRmServiceBusTopic: Service Bus
-Set-AzureRmServiceBusTopicAuthorizationRule: Service Bus
+Get-AzureRmServiceBusNamespace: AzureRM.ServiceBus
+Get-AzureRmServiceBusNamespaceAuthorizationRule: AzureRM.ServiceBus
+Get-AzureRmServiceBusNamespaceKey: AzureRM.ServiceBus
+Get-AzureRmServiceBusQueue: AzureRM.ServiceBus
+Get-AzureRmServiceBusQueueAuthorizationRule: AzureRM.ServiceBus
+Get-AzureRmServiceBusQueueKey: AzureRM.ServiceBus
+Get-AzureRmServiceBusSubscription: AzureRM.ServiceBus
+Get-AzureRmServiceBusTopic: AzureRM.ServiceBus
+Get-AzureRmServiceBusTopicAuthorizationRule: AzureRM.ServiceBus
+Get-AzureRmServiceBusTopicKey: AzureRM.ServiceBus
+New-AzureRmServiceBusNamespace: AzureRM.ServiceBus
+New-AzureRmServiceBusNamespaceAuthorizationRule: AzureRM.ServiceBus
+New-AzureRmServiceBusNamespaceKey: AzureRM.ServiceBus
+New-AzureRmServiceBusQueue: AzureRM.ServiceBus
+New-AzureRmServiceBusQueueAuthorizationRule: AzureRM.ServiceBus
+New-AzureRmServiceBusQueueKey: AzureRM.ServiceBus
+New-AzureRmServiceBusSubscription: AzureRM.ServiceBus
+New-AzureRmServiceBusTopic: AzureRM.ServiceBus
+New-AzureRmServiceBusTopicAuthorizationRule: AzureRM.ServiceBus
+New-AzureRmServiceBusTopicKey: AzureRM.ServiceBus
+Remove-AzureRmServiceBusNamespace: AzureRM.ServiceBus
+Remove-AzureRmServiceBusNamespaceAuthorizationRule: AzureRM.ServiceBus
+Remove-AzureRmServiceBusQueue: AzureRM.ServiceBus
+Remove-AzureRmServiceBusQueueAuthorizationRule: AzureRM.ServiceBus
+Remove-AzureRmServiceBusSubscription: AzureRM.ServiceBus
+Remove-AzureRmServiceBusTopic: AzureRM.ServiceBus
+Remove-AzureRmServiceBusTopicAuthorizationRule: AzureRM.ServiceBus
+Set-AzureRmServiceBusNamespace: AzureRM.ServiceBus
+Set-AzureRmServiceBusNamespaceAuthorizationRule: AzureRM.ServiceBus
+Set-AzureRmServiceBusQueue: AzureRM.ServiceBus
+Set-AzureRmServiceBusQueueAuthorizationRule: AzureRM.ServiceBus
+Set-AzureRmServiceBusSubscription: AzureRM.ServiceBus
+Set-AzureRmServiceBusTopic: AzureRM.ServiceBus
+Set-AzureRmServiceBusTopicAuthorizationRule: AzureRM.ServiceBus
 _isModulePage: true
 ---
 

@@ -9,17 +9,17 @@ content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azur
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Dns/v2.7.0/AzureRM.DNS.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04f63f6e685743ace2c57eb157574e34e8610b1c
 ms.topic: conceptual
-Add-AzureRmDnsRecordConfig: DNS
-Get-AzureRmDnsRecordSet: DNS
-Get-AzureRmDnsZone: DNS
-New-AzureRmDnsRecordConfig: DNS
-New-AzureRmDnsRecordSet: DNS
-New-AzureRmDnsZone: DNS
-Remove-AzureRmDnsRecordConfig: DNS
-Remove-AzureRmDnsRecordSet: DNS
-Remove-AzureRmDnsZone: DNS
-Set-AzureRmDnsRecordSet: DNS
-Set-AzureRmDnsZone: DNS
+Add-AzureRmDnsRecordConfig: AzureRM.Dns
+Get-AzureRmDnsRecordSet: AzureRM.Dns
+Get-AzureRmDnsZone: AzureRM.Dns
+New-AzureRmDnsRecordConfig: AzureRM.Dns
+New-AzureRmDnsRecordSet: AzureRM.Dns
+New-AzureRmDnsZone: AzureRM.Dns
+Remove-AzureRmDnsRecordConfig: AzureRM.Dns
+Remove-AzureRmDnsRecordSet: AzureRM.Dns
+Remove-AzureRmDnsZone: AzureRM.Dns
+Set-AzureRmDnsRecordSet: AzureRM.Dns
+Set-AzureRmDnsZone: AzureRM.Dns
 _isModulePage: true
 ---
 

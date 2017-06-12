@@ -9,72 +9,72 @@ content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azur
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Resources/v3.7.0/AzureRM.Resources.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/26f9c2e427e255459b9a3cbc5605a773bb3666e1
 ms.topic: conceptual
-Export-AzureRmResourceGroup: Resources
-Find-AzureRmResource: Resources
-Find-AzureRmResourceGroup: Resources
-Get-AzureRmADAppCredential: Active Directory
-Get-AzureRmADApplication: Active Directory
-Get-AzureRmADGroup: Active Directory
-Get-AzureRmADGroupMember: Active Directory
-Get-AzureRmADServicePrincipal: Active Directory
-Get-AzureRmADSpCredential: Active Directory
-Get-AzureRmADUser: Active Directory
-Get-AzureRmLocation: Resources
-Get-AzureRmPolicyAssignment: Policies
-Get-AzureRmPolicyDefinition: Policies
-Get-AzureRmProviderFeature: Resources
-Get-AzureRmProviderOperation: Resources
-Get-AzureRmResource: Resources
-Get-AzureRmResourceGroup: Resources
-Get-AzureRmResourceGroupDeployment: Resources
-Get-AzureRmResourceGroupDeploymentOperation: Resources
-Get-AzureRmResourceLock: Resources
-Get-AzureRmResourceProvider: Resources
-Get-AzureRmRoleAssignment: Resources
-Get-AzureRmRoleDefinition: Resources
-Invoke-AzureRmResourceAction: Resources
-Move-AzureRmResource: Resources
-New-AzureRmADAppCredential: Active Directory
-New-AzureRmADApplication: Active Directory
-New-AzureRmADServicePrincipal: Active Directory
-New-AzureRmADSpCredential: Active Directory
-New-AzureRmADUser: Active Directory
-New-AzureRmPolicyAssignment: Policies
-New-AzureRmPolicyDefinition: Policies
-New-AzureRmResource: Resources
-New-AzureRmResourceGroup: Resources
-New-AzureRmResourceGroupDeployment: Resources
-New-AzureRmResourceLock: Resources
-New-AzureRmRoleAssignment: Resources
-New-AzureRmRoleDefinition: Resources
-Register-AzureRmProviderFeature: Resources
-Register-AzureRmResourceProvider: Resources
-Remove-AzureRmADAppCredential: Active Directory
-Remove-AzureRmADApplication: Active Directory
-Remove-AzureRmADServicePrincipal: Active Directory
-Remove-AzureRmADSpCredential: Active Directory
-Remove-AzureRmADUser: Active Directory
-Remove-AzureRmPolicyAssignment: Policies
-Remove-AzureRmPolicyDefinition: Policies
-Remove-AzureRmResource: Resources
-Remove-AzureRmResourceGroup: Resources
-Remove-AzureRmResourceGroupDeployment: Resources
-Remove-AzureRmResourceLock: Resources
-Remove-AzureRmRoleAssignment: Resources
-Remove-AzureRmRoleDefinition: Resources
-Save-AzureRmResourceGroupDeploymentTemplate: Resources
-Set-AzureRmADApplication: Active Directory
-Set-AzureRmADServicePrincipal: Active Directory
-Set-AzureRmADUser: Active Directory
-Set-AzureRmPolicyAssignment: Policies
-Set-AzureRmPolicyDefinition: Policies
-Set-AzureRmResource: Resources
-Set-AzureRmResourceGroup: Resources
-Set-AzureRmResourceLock: Resources
-Set-AzureRmRoleDefinition: Resources
-Stop-AzureRmResourceGroupDeployment: Resources
-Test-AzureRmResourceGroupDeployment: Resources
-Unregister-AzureRmResourceProvider: Resources
+Export-AzureRmResourceGroup: AzureRM.Resources
+Find-AzureRmResource: AzureRM.Resources
+Find-AzureRmResourceGroup: AzureRM.Resources
+Get-AzureRmADAppCredential: AzureRM.Resources
+Get-AzureRmADApplication: AzureRM.Resources
+Get-AzureRmADGroup: AzureRM.Resources
+Get-AzureRmADGroupMember: AzureRM.Resources
+Get-AzureRmADServicePrincipal: AzureRM.Resources
+Get-AzureRmADSpCredential: AzureRM.Resources
+Get-AzureRmADUser: AzureRM.Resources
+Get-AzureRmLocation: AzureRM.Resources
+Get-AzureRmPolicyAssignment: AzureRM.Resources
+Get-AzureRmPolicyDefinition: AzureRM.Resources
+Get-AzureRmProviderFeature: AzureRM.Resources
+Get-AzureRmProviderOperation: AzureRM.Resources
+Get-AzureRmResource: AzureRM.Resources
+Get-AzureRmResourceGroup: AzureRM.Resources
+Get-AzureRmResourceGroupDeployment: AzureRM.Resources
+Get-AzureRmResourceGroupDeploymentOperation: AzureRM.Resources
+Get-AzureRmResourceLock: AzureRM.Resources
+Get-AzureRmResourceProvider: AzureRM.Resources
+Get-AzureRmRoleAssignment: AzureRM.Resources
+Get-AzureRmRoleDefinition: AzureRM.Resources
+Invoke-AzureRmResourceAction: AzureRM.Resources
+Move-AzureRmResource: AzureRM.Resources
+New-AzureRmADAppCredential: AzureRM.Resources
+New-AzureRmADApplication: AzureRM.Resources
+New-AzureRmADServicePrincipal: AzureRM.Resources
+New-AzureRmADSpCredential: AzureRM.Resources
+New-AzureRmADUser: AzureRM.Resources
+New-AzureRmPolicyAssignment: AzureRM.Resources
+New-AzureRmPolicyDefinition: AzureRM.Resources
+New-AzureRmResource: AzureRM.Resources
+New-AzureRmResourceGroup: AzureRM.Resources
+New-AzureRmResourceGroupDeployment: AzureRM.Resources
+New-AzureRmResourceLock: AzureRM.Resources
+New-AzureRmRoleAssignment: AzureRM.Resources
+New-AzureRmRoleDefinition: AzureRM.Resources
+Register-AzureRmProviderFeature: AzureRM.Resources
+Register-AzureRmResourceProvider: AzureRM.Resources
+Remove-AzureRmADAppCredential: AzureRM.Resources
+Remove-AzureRmADApplication: AzureRM.Resources
+Remove-AzureRmADServicePrincipal: AzureRM.Resources
+Remove-AzureRmADSpCredential: AzureRM.Resources
+Remove-AzureRmADUser: AzureRM.Resources
+Remove-AzureRmPolicyAssignment: AzureRM.Resources
+Remove-AzureRmPolicyDefinition: AzureRM.Resources
+Remove-AzureRmResource: AzureRM.Resources
+Remove-AzureRmResourceGroup: AzureRM.Resources
+Remove-AzureRmResourceGroupDeployment: AzureRM.Resources
+Remove-AzureRmResourceLock: AzureRM.Resources
+Remove-AzureRmRoleAssignment: AzureRM.Resources
+Remove-AzureRmRoleDefinition: AzureRM.Resources
+Save-AzureRmResourceGroupDeploymentTemplate: AzureRM.Resources
+Set-AzureRmADApplication: AzureRM.Resources
+Set-AzureRmADServicePrincipal: AzureRM.Resources
+Set-AzureRmADUser: AzureRM.Resources
+Set-AzureRmPolicyAssignment: AzureRM.Resources
+Set-AzureRmPolicyDefinition: AzureRM.Resources
+Set-AzureRmResource: AzureRM.Resources
+Set-AzureRmResourceGroup: AzureRM.Resources
+Set-AzureRmResourceLock: AzureRM.Resources
+Set-AzureRmRoleDefinition: AzureRM.Resources
+Stop-AzureRmResourceGroupDeployment: AzureRM.Resources
+Test-AzureRmResourceGroupDeployment: AzureRM.Resources
+Unregister-AzureRmResourceProvider: AzureRM.Resources
 _isModulePage: true
 ---
 

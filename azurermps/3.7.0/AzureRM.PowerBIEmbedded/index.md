@@ -9,12 +9,12 @@ content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azur
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.PowerBIEmbedded/v2.7.0/AzureRM.PowerBIEmbedded.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04f63f6e685743ace2c57eb157574e34e8610b1c
 ms.topic: conceptual
-Get-AzureRmPowerBIWorkspace: Power BI
-Get-AzureRmPowerBIWorkspaceCollection: Power BI
-Get-AzureRmPowerBIWorkspaceCollectionAccessKeys: Power BI
-New-AzureRmPowerBIWorkspaceCollection: Power BI
-Remove-AzureRmPowerBIWorkspaceCollection: Power BI
-Reset-AzureRmPowerBIWorkspaceCollectionAccessKeys: Power BI
+Get-AzureRmPowerBIWorkspace: AzureRM.PowerBIEmbedded
+Get-AzureRmPowerBIWorkspaceCollection: AzureRM.PowerBIEmbedded
+Get-AzureRmPowerBIWorkspaceCollectionAccessKeys: AzureRM.PowerBIEmbedded
+New-AzureRmPowerBIWorkspaceCollection: AzureRM.PowerBIEmbedded
+Remove-AzureRmPowerBIWorkspaceCollection: AzureRM.PowerBIEmbedded
+Reset-AzureRmPowerBIWorkspaceCollectionAccessKeys: AzureRM.PowerBIEmbedded
 _isModulePage: true
 ---
 

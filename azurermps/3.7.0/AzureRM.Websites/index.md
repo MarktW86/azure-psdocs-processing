@@ -9,46 +9,46 @@ content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azur
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Websites/v2.7.0/AzureRM.Websites.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04f63f6e685743ace2c57eb157574e34e8610b1c
 ms.topic: conceptual
-Edit-AzureRmWebAppBackupConfiguration: App Service
-Get-AzureRmAppServicePlan: App Service
-Get-AzureRmAppServicePlanMetrics: App Service
-Get-AzureRmWebApp: App Service
-Get-AzureRmWebAppBackup: App Service
-Get-AzureRmWebAppBackupConfiguration: App Service
-Get-AzureRmWebAppBackupList: App Service
-Get-AzureRmWebAppCertificate: App Service
-Get-AzureRmWebAppMetrics: App Service
-Get-AzureRmWebAppPublishingProfile: App Service
-Get-AzureRmWebAppSlot: App Service
-Get-AzureRmWebAppSlotConfigName: App Service
-Get-AzureRmWebAppSlotMetrics: App Service
-Get-AzureRmWebAppSlotPublishingProfile: App Service
-Get-AzureRmWebAppSSLBinding: App Service
-New-AzureRmAppServicePlan: App Service
-New-AzureRmWebApp: App Service
-New-AzureRmWebAppBackup: App Service
-New-AzureRmWebAppDatabaseBackupSetting: App Service
-New-AzureRmWebAppSlot: App Service
-New-AzureRmWebAppSSLBinding: App Service
-Remove-AzureRmAppServicePlan: App Service
-Remove-AzureRmWebApp: App Service
-Remove-AzureRmWebAppBackup: App Service
-Remove-AzureRmWebAppSlot: App Service
-Remove-AzureRmWebAppSSLBinding: App Service
-Reset-AzureRmWebAppPublishingProfile: App Service
-Reset-AzureRmWebAppSlotPublishingProfile: App Service
-Restart-AzureRmWebApp: App Service
-Restart-AzureRmWebAppSlot: App Service
-Restore-AzureRmWebAppBackup: App Service
-Set-AzureRmAppServicePlan: App Service
-Set-AzureRmWebApp: App Service
-Set-AzureRmWebAppSlot: App Service
-Set-AzureRmWebAppSlotConfigName: App Service
-Start-AzureRmWebApp: App Service
-Start-AzureRmWebAppSlot: App Service
-Stop-AzureRmWebApp: App Service
-Stop-AzureRmWebAppSlot: App Service
-Switch-AzureRmWebAppSlot: App Service
+Edit-AzureRmWebAppBackupConfiguration: AzureRM.Websites
+Get-AzureRmAppServicePlan: AzureRM.Websites
+Get-AzureRmAppServicePlanMetrics: AzureRM.Websites
+Get-AzureRmWebApp: AzureRM.Websites
+Get-AzureRmWebAppBackup: AzureRM.Websites
+Get-AzureRmWebAppBackupConfiguration: AzureRM.Websites
+Get-AzureRmWebAppBackupList: AzureRM.Websites
+Get-AzureRmWebAppCertificate: AzureRM.Websites
+Get-AzureRmWebAppMetrics: AzureRM.Websites
+Get-AzureRmWebAppPublishingProfile: AzureRM.Websites
+Get-AzureRmWebAppSlot: AzureRM.Websites
+Get-AzureRmWebAppSlotConfigName: AzureRM.Websites
+Get-AzureRmWebAppSlotMetrics: AzureRM.Websites
+Get-AzureRmWebAppSlotPublishingProfile: AzureRM.Websites
+Get-AzureRmWebAppSSLBinding: AzureRM.Websites
+New-AzureRmAppServicePlan: AzureRM.Websites
+New-AzureRmWebApp: AzureRM.Websites
+New-AzureRmWebAppBackup: AzureRM.Websites
+New-AzureRmWebAppDatabaseBackupSetting: AzureRM.Websites
+New-AzureRmWebAppSlot: AzureRM.Websites
+New-AzureRmWebAppSSLBinding: AzureRM.Websites
+Remove-AzureRmAppServicePlan: AzureRM.Websites
+Remove-AzureRmWebApp: AzureRM.Websites
+Remove-AzureRmWebAppBackup: AzureRM.Websites
+Remove-AzureRmWebAppSlot: AzureRM.Websites
+Remove-AzureRmWebAppSSLBinding: AzureRM.Websites
+Reset-AzureRmWebAppPublishingProfile: AzureRM.Websites
+Reset-AzureRmWebAppSlotPublishingProfile: AzureRM.Websites
+Restart-AzureRmWebApp: AzureRM.Websites
+Restart-AzureRmWebAppSlot: AzureRM.Websites
+Restore-AzureRmWebAppBackup: AzureRM.Websites
+Set-AzureRmAppServicePlan: AzureRM.Websites
+Set-AzureRmWebApp: AzureRM.Websites
+Set-AzureRmWebAppSlot: AzureRM.Websites
+Set-AzureRmWebAppSlotConfigName: AzureRM.Websites
+Start-AzureRmWebApp: AzureRM.Websites
+Start-AzureRmWebAppSlot: AzureRM.Websites
+Stop-AzureRmWebApp: AzureRM.Websites
+Stop-AzureRmWebAppSlot: AzureRM.Websites
+Switch-AzureRmWebAppSlot: AzureRM.Websites
 _isModulePage: true
 ---
 

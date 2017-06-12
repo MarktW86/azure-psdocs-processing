@@ -11,9 +11,9 @@ content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azur
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Tags/v2.7.0/AzureRM.Tags.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04f63f6e685743ace2c57eb157574e34e8610b1c
 ms.topic: conceptual
-Get-AzureRmTag: Tags
-New-AzureRmTag: Tags
-Remove-AzureRmTag: Tags
+Get-AzureRmTag: AzureRM.Tags
+New-AzureRmTag: AzureRM.Tags
+Remove-AzureRmTag: AzureRM.Tags
 _isModulePage: true
 ---
 
