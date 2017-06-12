@@ -2,11 +2,11 @@
 external help file: Microsoft.Open.AzureAD16.Graph.PowerShell.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 04/25/2017 20:04 PM
-ms.date: 04/25/2017
+updated_at: 06/12/2017 20:06 PM
+ms.date: 06/12/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/rodejo5-10/Azure%20AD%20Cmdlets/AzureAD/v2preview/Get-AzureADDomainVerificationDnsRecord.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/rodejo5-10/Azure%20AD%20Cmdlets/AzureAD/v2preview/Get-AzureADDomainVerificationDnsRecord.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/c5cc449ee6e2b805fc85a9e05130b06b10899f67
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/15123dbbba69fd36647fc6945691a631250753d1
 ms.topic: reference
 ---
 
@@ -23,7 +23,7 @@ Get-AzureADDomainVerificationDnsRecord -Name <String> [<CommonParameters>]
 
 ## DESCRIPTION
 Gets the domain's verification records from the verificationDnsRecords navigation property. 
-You canâ€™t use the domain with your Azure AD tenant until you have successfully verified that you own the domain. To verify the ownership of the domain, you need to first retrieve a set of domain verification records which you need to add to the zone file of the domain.
+You can't use the domain with your Azure AD tenant until you have successfully verified that you own the domain. To verify the ownership of the domain, you need to first retrieve a set of domain verification records which you need to add to the zone file of the domain.
 
 ## EXAMPLES
 

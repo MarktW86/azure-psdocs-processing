@@ -163,6 +163,8 @@
           href: AzureAD/Connect-AzureAD.md
         - name: Disconnect-AzureAD
           href: AzureAD/Disconnect-AzureAD.md
+        - name: Get-AzureADCurrentSessionInfo
+          href: AzureAD/Get-AzureADCurrentSessionInfo.md
     - name: Contacts
       href: 'AzureAD/index.md#contacts'
       items:
@@ -351,8 +353,6 @@
     - name: Others
       href: 'AzureAD/index.md#others'
       items:
-        - name: Get-AzureADCurrentSessionInfo
-          href: AzureAD/Get-AzureADCurrentSessionInfo.md
         - name: Remove-AzureADApplicationPolicy
           href: AzureAD/Remove-AzureADApplicationPolicy.md
         - name: Remove-AzureADServicePrincipalPolicy

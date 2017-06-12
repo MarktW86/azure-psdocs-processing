@@ -3,11 +3,11 @@ Module Name: AzureAD
 Module Guid: b433e830-b479-4f7f-9c80-9cc6c28e1b51
 Locale: en-US
 ms.assetid: 7D9D9507-ADE5-45BD-97F8-0CCCDA3D3B58
-updated_at: 04/27/2017 06:04 AM
-ms.date: 04/27/2017
+updated_at: 06/12/2017 20:06 PM
+ms.date: 06/12/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/rodejo5-10/Azure%20AD%20Cmdlets/AzureAD/v2/AzureActiveDirectory.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell-azuread/blob/rodejo5-10/Azure%20AD%20Cmdlets/AzureAD/v2/AzureActiveDirectory.md
-gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/dd8ff5f2d0e9fd57c2aa12560723abd36e4a472f
+gitcommit: https://github.com/Azure/azure-docs-powershell-azuread/blob/15123dbbba69fd36647fc6945691a631250753d1
 ms.topic: conceptual
 Add-AzureADApplicationOwner: Applications
 Add-AzureADDeviceRegisteredOwner: Devices
@@ -158,7 +158,7 @@ Windows Server 2012 R2
 Windows Server 2008 R2 SP1
 
 PowerShellGet also requires .NET Framework 4.5 or above. You can install .NET Framework 4.5 or above from [here](https://www.microsoft.com/en-us/download/details.aspx?id=30653). For more information, please refer to [this link](https://msdn.microsoft.com/powershell/gallery/readme)
-For more detailed info on installation of the AzureAD cmdlets please see: [Azure Active Directory PowerShell version 2](https://docs.microsoft.com/en-us/powershell/azuread/).
+For more detailed info on installation of the AzureAD cmdlets please see: [Azure Active Directory PowerShell version 2](https://docs.microsoft.com/en-us/powershell/azuread/).
 
 These are the cmdlets in the Azure Active Directory v2 PowerShell module.
 
