@@ -11,7 +11,6 @@ content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/azureps-cmdlets-docs/ServiceManagement/Azure/v4.0.0/Azure.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/3b96c1e0b28fc56dfbf6de55728d5478e0d02def
 ms.topic: conceptual
-ms.service: azure-asm
 Add-AzureAccount: Azure
 Add-AzureApplicationGatewaySslCertificate: Application Gateway
 Add-AzureCertificate: Azure

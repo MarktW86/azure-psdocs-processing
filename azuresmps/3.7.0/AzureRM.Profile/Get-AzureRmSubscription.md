@@ -8,7 +8,6 @@ content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/azureps-cmdlets-docs/ServiceManagement/AzureRM.Profile/v2.7.0/Get-AzureRmSubscription.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4481ba5d382a258a76528a60b3c1580b75fdff10
 ms.topic: reference
-ms.service: subscription
 ---
 
 # Get-AzureRmSubscription
