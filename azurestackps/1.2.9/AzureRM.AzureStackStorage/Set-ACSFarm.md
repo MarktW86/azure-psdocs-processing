@@ -2,13 +2,12 @@
 external help file: Microsoft.AzureStack.AzureConsistentStorage.Commands.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 05/03/2017 00:05 AM
-ms.date: 05/03/2017
+updated_at: 06/12/2017 19:06 PM
+ms.date: 06/12/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Set-ACSFarm.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Set-ACSFarm.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/1b1f65c3c0d4679af027f9576236919af044769d
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4c8806727d54fa41950a635e7cdf9d06e9a42009
 ms.topic: reference
-ms.service: azure-stack
 ---
 
 # Set-ACSFarm
@@ -62,7 +61,7 @@ Set-ACSFarm -ResourceGroupName $ResourceGroup -FarmName $Farm.Name -SettingPolli
 
 The first command stores the value named System in the variable named $ResourceGroup.
 
-The second command uses the [Get-ACSFarm](,/Get-ACSFarm,md) cmdlet to get the farm that is contained in the resource group specified in the $ResourceGroup variable. 
+The second command uses the [Get-ACSFarm](./Get-ACSFarm.md) cmdlet to get the farm that is contained in the resource group specified in the $ResourceGroup variable. 
 The command stores the result in the variable named $Farm.
 
 The third command uses the **Set-ACSFarm** cmdlet to modify the Farm stored in the $Farm variable.

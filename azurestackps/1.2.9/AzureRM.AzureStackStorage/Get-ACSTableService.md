@@ -2,13 +2,12 @@
 external help file: Microsoft.AzureStack.AzureConsistentStorage.Commands.dll-Help.xml
 online version:
 schema: 2.0.0
-updated_at: 05/03/2017 00:05 AM
-ms.date: 05/03/2017
+updated_at: 06/12/2017 19:06 PM
+ms.date: 06/12/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Get-ACSTableService.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/anne052617/azureps-cmdlets-docs/AzureStack/AzureRM.AzureStackStorage/v0.10.6/Get-ACSTableService.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/1b1f65c3c0d4679af027f9576236919af044769d
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/90ca18c006207b91525e43348a70941378a2a667
 ms.topic: reference
-ms.service: azure-stack
 ---
 
 # Get-ACSTableService
@@ -41,7 +40,7 @@ Get-ACSTableService -ResourceGroupName $ResourceGroup -FarmName $Farm.Name
 
 The first command stores the value named System in the variable named $ResourceGroup.
 
-The second command uses the [Get-ACSFarm](,/Get-ACSFarm,md) cmdlet to get the farm that is contained in the resource group specified in the $ResourceGroup variable. 
+The second command uses the [Get-ACSFarm](./Get-ACSFarm.md) cmdlet to get the farm that is contained in the resource group specified in the $ResourceGroup variable. 
 The command stores the result in the variable named $Farm.
 
 The third command uses the **Get-ACSTableService** cmdlet to get the Table service that is contained in the farm specified in the $Farm variable.
