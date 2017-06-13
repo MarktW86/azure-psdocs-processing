@@ -11,9 +11,9 @@ ms.devlang: powershell
 ms.topic: conceptual
 ms.workload:
 ms.date: 05/18/2017
-content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/docs-conceptual/release-notes-azureps.md
-original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/docs-conceptual/release-notes-azureps.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/1886ae4675a95d2bdeb222cb28c9c5c7645fb848
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/docs-conceptual/4.1.0/release-notes-azureps.md
+original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/docs-conceptual/4.1.0/release-notes-azureps.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/ad5688e8f860f29bd9750a0ab1ba7b05d6ce0e37
 ---
 
 # Release notes
