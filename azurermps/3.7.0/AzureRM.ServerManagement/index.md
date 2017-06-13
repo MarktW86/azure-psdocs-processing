@@ -9,19 +9,19 @@ content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azur
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ServerManagement/v2.7.0/AzureRM.ServerManagement.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04f63f6e685743ace2c57eb157574e34e8610b1c
 ms.topic: conceptual
-Get-AzureRmServerManagementGateway: Server Management
-Get-AzureRmServerManagementNode: Server Management
-Get-AzureRmServerManagementSession: Server Management
-Install-AzureRmServerManagementGatewayProfile: Server Management
-Invoke-AzureRmServerManagementPowerShellCommand: Server Management
-New-AzureRmServerManagementGateway: Server Management
-New-AzureRmServerManagementNode: Server Management
-New-AzureRmServerManagementSession: Server Management
-Remove-AzureRmServerManagementGateway: Server Management
-Remove-AzureRmServerManagementNode: Server Management
-Remove-AzureRmServerManagementSession: Server Management
-Reset-AzureRmServerManagementGatewayProfile: Server Management
-Save-AzureRmServerManagementGatewayProfile: Server Management
+Get-AzureRmServerManagementGateway: AzureRM.ServerManagement
+Get-AzureRmServerManagementNode: AzureRM.ServerManagement
+Get-AzureRmServerManagementSession: AzureRM.ServerManagement
+Install-AzureRmServerManagementGatewayProfile: AzureRM.ServerManagement
+Invoke-AzureRmServerManagementPowerShellCommand: AzureRM.ServerManagement
+New-AzureRmServerManagementGateway: AzureRM.ServerManagement
+New-AzureRmServerManagementNode: AzureRM.ServerManagement
+New-AzureRmServerManagementSession: AzureRM.ServerManagement
+Remove-AzureRmServerManagementGateway: AzureRM.ServerManagement
+Remove-AzureRmServerManagementNode: AzureRM.ServerManagement
+Remove-AzureRmServerManagementSession: AzureRM.ServerManagement
+Reset-AzureRmServerManagementGatewayProfile: AzureRM.ServerManagement
+Save-AzureRmServerManagementGatewayProfile: AzureRM.ServerManagement
 _isModulePage: true
 ---
 

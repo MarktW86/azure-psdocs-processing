@@ -6,13 +6,13 @@ author: sdwheeler
 ms.author: sewhee
 manager: carmonm
 ms.product: azure
-ms.service: azure-resource-manager
+ms.service: azure-powershell
 ms.devlang: powershell
 ms.topic: conceptual
 ms.date: 03/30/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/docs-conceptual/formatting-output.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/docs-conceptual/formatting-output.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/379641e1d19b18dec54244dce5910aa3f4d6d991
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/1f41477e4a16cc160aadf6db9b52aec9b2e06705
 ---
 
 # Formatting query results
@@ -41,7 +41,7 @@ MYWESTEURG        MyUnbuntu1610 westeurope Standard_DS1_v2   Linux myunbuntu1610
 MYWESTEURG          MyWin2016VM westeurope Standard_DS1_v2 Windows   mywin2016vm880         Succeeded
 ```
 
-If you would like to limit the columns returned you can use the `Format-Table` cmdlet. In the following example we get the same list of virtual machines but restrict the output to just the name of the VM, the resource group, and the location of the VM.  The `-Autosize` parameter sizes the columns according to the size of the data. 
+If you would like to limit the columns returned you can use the `Format-Table` cmdlet. In the following example we get the same list of virtual machines but restrict the output to just the name of the VM, the resource group, and the location of the VM.  The `-Autosize` parameter sizes the columns according to the size of the data.
 
 ```powershell
 Get-AzureRmVM | Format-Table Name,ResourceGroupName,Location -AutoSize
@@ -74,7 +74,7 @@ ResourceGroupName : MYWESTEURG
 
 ## Converting to other data types
 
-PowerShell also offers multiple output format you can use to meet your needs.  In the following example we use the `Select-Object` cmdlet to get attributes of the virtual machines in our subscription and and convert the output to CSV format for easy import into a database or spreadsheet.  
+PowerShell also offers multiple output format you can use to meet your needs.  In the following example we use the `Select-Object` cmdlet to get attributes of the virtual machines in our subscription and and convert the output to CSV format for easy import into a database or spreadsheet.
 
 ```powershell
 Get-AzureRmVM | Select-Object ResourceGroupName,Id,VmId,Name,Location,ProvisioningState | ConvertTo-Csv -NoTypeInformation

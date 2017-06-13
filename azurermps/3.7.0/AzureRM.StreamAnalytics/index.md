@@ -9,27 +9,27 @@ content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azur
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.StreamAnalytics/v2.7.0/AzureRM.StreamAnalytics.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04f63f6e685743ace2c57eb157574e34e8610b1c
 ms.topic: conceptual
-Get-AzureRmStreamAnalyticsDefaultFunctionDefinition: Stream Analytics
-Get-AzureRmStreamAnalyticsFunction: Stream Analytics
-Get-AzureRmStreamAnalyticsInput: Stream Analytics
-Get-AzureRmStreamAnalyticsJob: Stream Analytics
-Get-AzureRmStreamAnalyticsOutput: Stream Analytics
-Get-AzureRmStreamAnalyticsQuota: Stream Analytics
-Get-AzureRmStreamAnalyticsTransformation: Stream Analytics
-New-AzureRmStreamAnalyticsFunction: Stream Analytics
-New-AzureRmStreamAnalyticsInput: Stream Analytics
-New-AzureRmStreamAnalyticsJob: Stream Analytics
-New-AzureRmStreamAnalyticsOutput: Stream Analytics
-New-AzureRmStreamAnalyticsTransformation: Stream Analytics
-Remove-AzureRmStreamAnalyticsFunction: Stream Analytics
-Remove-AzureRmStreamAnalyticsInput: Stream Analytics
-Remove-AzureRmStreamAnalyticsJob: Stream Analytics
-Remove-AzureRmStreamAnalyticsOutput: Stream Analytics
-Start-AzureRmStreamAnalyticsJob: Stream Analytics
-Stop-AzureRmStreamAnalyticsJob: Stream Analytics
-Test-AzureRmStreamAnalyticsFunction: Stream Analytics
-Test-AzureRmStreamAnalyticsInput: Stream Analytics
-Test-AzureRmStreamAnalyticsOutput: Stream Analytics
+Get-AzureRmStreamAnalyticsDefaultFunctionDefinition: AzureRM.StreamAnalytics
+Get-AzureRmStreamAnalyticsFunction: AzureRM.StreamAnalytics
+Get-AzureRmStreamAnalyticsInput: AzureRM.StreamAnalytics
+Get-AzureRmStreamAnalyticsJob: AzureRM.StreamAnalytics
+Get-AzureRmStreamAnalyticsOutput: AzureRM.StreamAnalytics
+Get-AzureRmStreamAnalyticsQuota: AzureRM.StreamAnalytics
+Get-AzureRmStreamAnalyticsTransformation: AzureRM.StreamAnalytics
+New-AzureRmStreamAnalyticsFunction: AzureRM.StreamAnalytics
+New-AzureRmStreamAnalyticsInput: AzureRM.StreamAnalytics
+New-AzureRmStreamAnalyticsJob: AzureRM.StreamAnalytics
+New-AzureRmStreamAnalyticsOutput: AzureRM.StreamAnalytics
+New-AzureRmStreamAnalyticsTransformation: AzureRM.StreamAnalytics
+Remove-AzureRmStreamAnalyticsFunction: AzureRM.StreamAnalytics
+Remove-AzureRmStreamAnalyticsInput: AzureRM.StreamAnalytics
+Remove-AzureRmStreamAnalyticsJob: AzureRM.StreamAnalytics
+Remove-AzureRmStreamAnalyticsOutput: AzureRM.StreamAnalytics
+Start-AzureRmStreamAnalyticsJob: AzureRM.StreamAnalytics
+Stop-AzureRmStreamAnalyticsJob: AzureRM.StreamAnalytics
+Test-AzureRmStreamAnalyticsFunction: AzureRM.StreamAnalytics
+Test-AzureRmStreamAnalyticsInput: AzureRM.StreamAnalytics
+Test-AzureRmStreamAnalyticsOutput: AzureRM.StreamAnalytics
 _isModulePage: true
 ---
 

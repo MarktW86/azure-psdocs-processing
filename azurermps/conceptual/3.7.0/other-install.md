@@ -6,13 +6,13 @@ author: sdwheeler
 ms.author: sewhee
 manager: carmonm
 ms.product: azure
-ms.service: azure-resource-manager
+ms.service: azure-powershell
 ms.devlang: powershell
 ms.topic: conceptual
 ms.date: 05/15/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/docs-conceptual/other-install.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/docs-conceptual/other-install.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4eeb8dd94134977ba5c8e00ed61e2b1a029bef1d
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/1f41477e4a16cc160aadf6db9b52aec9b2e06705
 ---
 
 # Other installation methods

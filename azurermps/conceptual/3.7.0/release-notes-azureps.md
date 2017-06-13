@@ -5,7 +5,7 @@ services: azure
 author: sdwheeler
 ms.author: sewhee
 manager: carmonm
-ms.service: azure-resource-manager
+ms.service: azure-powershell
 ms.product: azure
 ms.devlang: powershell
 ms.topic: conceptual
@@ -13,7 +13,7 @@ ms.workload:
 ms.date: 05/18/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/docs-conceptual/release-notes-azureps.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/docs-conceptual/release-notes-azureps.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/1886ae4675a95d2bdeb222cb28c9c5c7645fb848
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/1f41477e4a16cc160aadf6db9b52aec9b2e06705
 ---
 
 # Release notes

@@ -9,158 +9,158 @@ content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azur
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v2.8.0/AzureRM.Compute.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04f63f6e685743ace2c57eb157574e34e8610b1c
 ms.topic: conceptual
-Add-AzureRmContainerServiceAgentPoolProfile: Container Service
-Add-AzureRmImageDataDisk: VM Images
-Add-AzureRMVhd: VM VHDs
-Add-AzureRmVMAdditionalUnattendContent: Virtual Machines
-Add-AzureRmVMDataDisk: VM Disks
-Add-AzureRmVMNetworkInterface: Virtual Machines
-Add-AzureRmVMSecret: Virtual Machines
-Add-AzureRmVmssAdditionalUnattendContent: VM Scale Sets
-Add-AzureRmVmssDataDisk: VM Scale Sets
-Add-AzureRmVmssDiagnosticsExtension: VM Scale Sets
-Add-AzureRmVmssExtension: VM Scale Sets
-Add-AzureRmVMSshPublicKey: Virtual Machines
-Add-AzureRmVmssNetworkInterfaceConfiguration: VM Scale Sets
-Add-AzureRmVmssSecret: VM Scale Sets
-Add-AzureRmVmssSshPublicKey: VM Scale Sets
-Add-AzureRmVmssWinRMListener: VM Scale Sets
-ConvertTo-AzureRmVMManagedDisk: VM Disks
-Disable-AzureRmVMDiskEncryption: VM Disks
-Get-AzureRmAvailabilitySet: Virtual Machines
-Get-AzureRmContainerService: Container Service
-Get-AzureRmDisk: VM Disks
-Get-AzureRmImage: VM Images
-Get-AzureRmRemoteDesktopFile: Virtual Machines
-Get-AzureRmSnapshot: VM Snapshots
-Get-AzureRmVM: Virtual Machines
-Get-AzureRmVMAccessExtension: VM Extensions
-Get-AzureRmVMADDomainExtension: VM Extensions
-Get-AzureRmVMAEMExtension: VM Extensions
-Get-AzureRmVMBootDiagnosticsData: Virtual Machines
-Get-AzureRmVMChefExtension: VM Extensions
-Get-AzureRmVMCustomScriptExtension: VM Extensions
-Get-AzureRMVMDiagnosticsExtension: VM Extensions
-Get-AzureRmVMDiskEncryptionStatus: VM Disks
-Get-AzureRmVMDscExtension: VM Extensions
-Get-AzureRmVMDscExtensionStatus: VM Extensions
-Get-AzureRmVMExtension: VM Extensions
-Get-AzureRmVMExtensionImage: VM Images
-Get-AzureRmVMExtensionImageType: VM Images
-Get-AzureRmVMImage: VM Images
-Get-AzureRmVMImageOffer: VM Images
-Get-AzureRmVMImagePublisher: VM Images
-Get-AzureRmVMImageSku: VM Images
-Get-AzureRmVMSize: Virtual Machines
-Get-AzureRMVMSqlServerExtension: VM Extensions
-Get-AzureRmVmss: VM Scale Sets
-Get-AzureRmVmssSku: VM Scale Sets
-Get-AzureRmVmssVM: VM Scale Sets
-Get-AzureRmVMUsage: Virtual Machines
-Grant-AzureRmDiskAccess: VM Disks
-Grant-AzureRmSnapshotAccess: VM Snapshots
-New-AzureRmAvailabilitySet: Virtual Machines
-New-AzureRmContainerService: Container Service
-New-AzureRmContainerServiceConfig: Container Service
-New-AzureRmDisk: VM Disks
-New-AzureRmDiskConfig: VM Disks
-New-AzureRmDiskUpdateConfig: VM Disks
-New-AzureRmImage: VM Images
-New-AzureRmImageConfig: VM Images
-New-AzureRmSnapshot: VM Snapshots
-New-AzureRmSnapshotConfig: VM Snapshots
-New-AzureRmSnapshotUpdateConfig: VM Snapshots
-New-AzureRmVM: Virtual Machines
-New-AzureRmVMConfig: Virtual Machines
-New-AzureRmVmss: VM Scale Sets
-New-AzureRmVmssConfig: VM Scale Sets
-New-AzureRmVmssIpConfig: VM Scale Sets
-New-AzureRmVmssVaultCertificateConfig: VM Scale Sets
-New-AzureVMSqlServerAutoBackupConfig: Virtual Machines
-New-AzureVMSqlServerAutoPatchingConfig: Virtual Machines
-New-AzureVMSqlServerKeyVaultCredentialConfig: Virtual Machines
-Publish-AzureRmVMDscConfiguration: Virtual Machines
-Remove-AzureRmAvailabilitySet: Virtual Machines
-Remove-AzureRmContainerService: Container Service
-Remove-AzureRmContainerServiceAgentPoolProfile: Container Service
-Remove-AzureRmDisk: VM Disks
-Remove-AzureRmImage: VM Images
-Remove-AzureRmImageDataDisk: VM Images
-Remove-AzureRmSnapshot: VM Snapshots
-Remove-AzureRmVM: Virtual Machines
-Remove-AzureRmVMAccessExtension: VM Extensions
-Remove-AzureRmVMAEMExtension: VM Extensions
-Remove-AzureRmVMBackup: Virtual Machines
-Remove-AzureRmVMChefExtension: VM Extensions
-Remove-AzureRmVMCustomScriptExtension: VM Extensions
-Remove-AzureRmVMDataDisk: VM Disks
-Remove-AzureRmVMDiagnosticsExtension: VM Extensions
-Remove-AzureRmVMDiskEncryptionExtension: VM Disks
-Remove-AzureRmVMDscExtension: VM Extensions
-Remove-AzureRmVMExtension: VM Extensions
-Remove-AzureRmVMNetworkInterface: Virtual Machines
-Remove-AzureRmVMSecret: Virtual Machines
-Remove-AzureRMVMSqlServerExtension: VM Extensions
-Remove-AzureRmVmss: VM Scale Sets
-Remove-AzureRmVmssDataDisk: VM Scale Sets
-Remove-AzureRmVmssDiagnosticsExtension: VM Scale Sets
-Remove-AzureRmVmssExtension: VM Scale Sets
-Remove-AzureRmVmssNetworkInterfaceConfiguration: VM Scale Sets
-Restart-AzureRmVM: Virtual Machines
-Restart-AzureRmVmss: VM Scale Sets
-Revoke-AzureRmDiskAccess: VM Disks
-Revoke-AzureRmSnapshotAccess: VM Snapshots
-Save-AzureRmVhd: VM VHDs
-Save-AzureRmVMImage: VM Images
-Set-AzureRmDiskDiskEncryptionKey: VM Disks
-Set-AzureRmDiskImageReference: VM Images
-Set-AzureRmDiskKeyEncryptionKey: VM Disks
-Set-AzureRmDiskUpdateDiskEncryptionKey: VM Disks
-Set-AzureRmDiskUpdateImageReference: VM Images
-Set-AzureRmDiskUpdateKeyEncryptionKey: VM Disks
-Set-AzureRmImageOsDisk: VM Images
-Set-AzureRmSnapshotDiskEncryptionKey: VM Snapshots
-Set-AzureRmSnapshotImageReference: VM Snapshots
-Set-AzureRmSnapshotKeyEncryptionKey: VM Snapshots
-Set-AzureRmSnapshotUpdateDiskEncryptionKey: VM Snapshots
-Set-AzureRmSnapshotUpdateImageReference: VM Snapshots
-Set-AzureRmSnapshotUpdateKeyEncryptionKey: VM Snapshots
-Set-AzureRmVM: Virtual Machines
-Set-AzureRmVMAccessExtension: VM Extensions
-Set-AzureRmVMADDomainExtension: VM Extensions
-Set-AzureRmVMAEMExtension: VM Extensions
-Set-AzureRmVMBackupExtension: VM Extensions
-Set-AzureRmVMBginfoExtension: VM Extensions
-Set-AzureRmVMBootDiagnostics: Virtual Machines
-Set-AzureRmVMChefExtension: VM Extensions
-Set-AzureRmVMCustomScriptExtension: VM Extensions
-Set-AzureRMVMDataDisk: VM Disks
-Set-AzureRMVMDiagnosticsExtension: VM Extensions
-Set-AzureRmVMDiskEncryptionExtension: VM Disks
-Set-AzureRmVMDscExtension: VM Extensions
-Set-AzureRmVMExtension: VM Extensions
-Set-AzureRmVMOperatingSystem: Virtual Machines
-Set-AzureRmVMOSDisk: VM Disks
-Set-AzureRmVMPlan: Virtual Machines
-Set-AzureRmVMSourceImage: VM Images
-Set-AzureRMVMSqlServerExtension: VM Extensions
-Set-AzureRmVmss: VM Scale Sets
-Set-AzureRmVmssOsProfile: VM Scale Sets
-Set-AzureRmVmssStorageProfile: VM Scale Sets
-Set-AzureRmVmssVM: VM Scale Sets
-Start-AzureRmVM: Virtual Machines
-Start-AzureRmVmss: VM Scale Sets
-Stop-AzureRmVM: Virtual Machines
-Stop-AzureRmVmss: VM Scale Sets
-Test-AzureRmVMAEMExtension: VM Extensions
-Update-AzureRmAvailabilitySet: Virtual Machines
-Update-AzureRmContainerService: Container Service
-Update-AzureRmDisk: VM Disks
-Update-AzureRmImage: VM Images
-Update-AzureRmSnapshot: VM Snapshots
-Update-AzureRmVM: Virtual Machines
-Update-AzureRmVmss: VM Scale Sets
-Update-AzureRmVmssInstance: VM Scale Sets
+Add-AzureRmContainerServiceAgentPoolProfile: AzureRM.Compute
+Add-AzureRmImageDataDisk: AzureRM.Compute
+Add-AzureRMVhd: AzureRM.Compute
+Add-AzureRmVMAdditionalUnattendContent: AzureRM.Compute
+Add-AzureRmVMDataDisk: AzureRM.Compute
+Add-AzureRmVMNetworkInterface: AzureRM.Compute
+Add-AzureRmVMSecret: AzureRM.Compute
+Add-AzureRmVmssAdditionalUnattendContent: AzureRM.Compute
+Add-AzureRmVmssDataDisk: AzureRM.Compute
+Add-AzureRmVmssDiagnosticsExtension: AzureRM.Compute
+Add-AzureRmVmssExtension: AzureRM.Compute
+Add-AzureRmVMSshPublicKey: AzureRM.Compute
+Add-AzureRmVmssNetworkInterfaceConfiguration: AzureRM.Compute
+Add-AzureRmVmssSecret: AzureRM.Compute
+Add-AzureRmVmssSshPublicKey: AzureRM.Compute
+Add-AzureRmVmssWinRMListener: AzureRM.Compute
+ConvertTo-AzureRmVMManagedDisk: AzureRM.Compute
+Disable-AzureRmVMDiskEncryption: AzureRM.Compute
+Get-AzureRmAvailabilitySet: AzureRM.Compute
+Get-AzureRmContainerService: AzureRM.Compute
+Get-AzureRmDisk: AzureRM.Compute
+Get-AzureRmImage: AzureRM.Compute
+Get-AzureRmRemoteDesktopFile: AzureRM.Compute
+Get-AzureRmSnapshot: AzureRM.Compute
+Get-AzureRmVM: AzureRM.Compute
+Get-AzureRmVMAccessExtension: AzureRM.Compute
+Get-AzureRmVMADDomainExtension: AzureRM.Compute
+Get-AzureRmVMAEMExtension: AzureRM.Compute
+Get-AzureRmVMBootDiagnosticsData: AzureRM.Compute
+Get-AzureRmVMChefExtension: AzureRM.Compute
+Get-AzureRmVMCustomScriptExtension: AzureRM.Compute
+Get-AzureRMVMDiagnosticsExtension: AzureRM.Compute
+Get-AzureRmVMDiskEncryptionStatus: AzureRM.Compute
+Get-AzureRmVMDscExtension: AzureRM.Compute
+Get-AzureRmVMDscExtensionStatus: AzureRM.Compute
+Get-AzureRmVMExtension: AzureRM.Compute
+Get-AzureRmVMExtensionImage: AzureRM.Compute
+Get-AzureRmVMExtensionImageType: AzureRM.Compute
+Get-AzureRmVMImage: AzureRM.Compute
+Get-AzureRmVMImageOffer: AzureRM.Compute
+Get-AzureRmVMImagePublisher: AzureRM.Compute
+Get-AzureRmVMImageSku: AzureRM.Compute
+Get-AzureRmVMSize: AzureRM.Compute
+Get-AzureRMVMSqlServerExtension: AzureRM.Compute
+Get-AzureRmVmss: AzureRM.Compute
+Get-AzureRmVmssSku: AzureRM.Compute
+Get-AzureRmVmssVM: AzureRM.Compute
+Get-AzureRmVMUsage: AzureRM.Compute
+Grant-AzureRmDiskAccess: AzureRM.Compute
+Grant-AzureRmSnapshotAccess: AzureRM.Compute
+New-AzureRmAvailabilitySet: AzureRM.Compute
+New-AzureRmContainerService: AzureRM.Compute
+New-AzureRmContainerServiceConfig: AzureRM.Compute
+New-AzureRmDisk: AzureRM.Compute
+New-AzureRmDiskConfig: AzureRM.Compute
+New-AzureRmDiskUpdateConfig: AzureRM.Compute
+New-AzureRmImage: AzureRM.Compute
+New-AzureRmImageConfig: AzureRM.Compute
+New-AzureRmSnapshot: AzureRM.Compute
+New-AzureRmSnapshotConfig: AzureRM.Compute
+New-AzureRmSnapshotUpdateConfig: AzureRM.Compute
+New-AzureRmVM: AzureRM.Compute
+New-AzureRmVMConfig: AzureRM.Compute
+New-AzureRmVmss: AzureRM.Compute
+New-AzureRmVmssConfig: AzureRM.Compute
+New-AzureRmVmssIpConfig: AzureRM.Compute
+New-AzureRmVmssVaultCertificateConfig: AzureRM.Compute
+New-AzureVMSqlServerAutoBackupConfig: AzureRM.Compute
+New-AzureVMSqlServerAutoPatchingConfig: AzureRM.Compute
+New-AzureVMSqlServerKeyVaultCredentialConfig: AzureRM.Compute
+Publish-AzureRmVMDscConfiguration: AzureRM.Compute
+Remove-AzureRmAvailabilitySet: AzureRM.Compute
+Remove-AzureRmContainerService: AzureRM.Compute
+Remove-AzureRmContainerServiceAgentPoolProfile: AzureRM.Compute
+Remove-AzureRmDisk: AzureRM.Compute
+Remove-AzureRmImage: AzureRM.Compute
+Remove-AzureRmImageDataDisk: AzureRM.Compute
+Remove-AzureRmSnapshot: AzureRM.Compute
+Remove-AzureRmVM: AzureRM.Compute
+Remove-AzureRmVMAccessExtension: AzureRM.Compute
+Remove-AzureRmVMAEMExtension: AzureRM.Compute
+Remove-AzureRmVMBackup: AzureRM.Compute
+Remove-AzureRmVMChefExtension: AzureRM.Compute
+Remove-AzureRmVMCustomScriptExtension: AzureRM.Compute
+Remove-AzureRmVMDataDisk: AzureRM.Compute
+Remove-AzureRmVMDiagnosticsExtension: AzureRM.Compute
+Remove-AzureRmVMDiskEncryptionExtension: AzureRM.Compute
+Remove-AzureRmVMDscExtension: AzureRM.Compute
+Remove-AzureRmVMExtension: AzureRM.Compute
+Remove-AzureRmVMNetworkInterface: AzureRM.Compute
+Remove-AzureRmVMSecret: AzureRM.Compute
+Remove-AzureRMVMSqlServerExtension: AzureRM.Compute
+Remove-AzureRmVmss: AzureRM.Compute
+Remove-AzureRmVmssDataDisk: AzureRM.Compute
+Remove-AzureRmVmssDiagnosticsExtension: AzureRM.Compute
+Remove-AzureRmVmssExtension: AzureRM.Compute
+Remove-AzureRmVmssNetworkInterfaceConfiguration: AzureRM.Compute
+Restart-AzureRmVM: AzureRM.Compute
+Restart-AzureRmVmss: AzureRM.Compute
+Revoke-AzureRmDiskAccess: AzureRM.Compute
+Revoke-AzureRmSnapshotAccess: AzureRM.Compute
+Save-AzureRmVhd: AzureRM.Compute
+Save-AzureRmVMImage: AzureRM.Compute
+Set-AzureRmDiskDiskEncryptionKey: AzureRM.Compute
+Set-AzureRmDiskImageReference: AzureRM.Compute
+Set-AzureRmDiskKeyEncryptionKey: AzureRM.Compute
+Set-AzureRmDiskUpdateDiskEncryptionKey: AzureRM.Compute
+Set-AzureRmDiskUpdateImageReference: AzureRM.Compute
+Set-AzureRmDiskUpdateKeyEncryptionKey: AzureRM.Compute
+Set-AzureRmImageOsDisk: AzureRM.Compute
+Set-AzureRmSnapshotDiskEncryptionKey: AzureRM.Compute
+Set-AzureRmSnapshotImageReference: AzureRM.Compute
+Set-AzureRmSnapshotKeyEncryptionKey: AzureRM.Compute
+Set-AzureRmSnapshotUpdateDiskEncryptionKey: AzureRM.Compute
+Set-AzureRmSnapshotUpdateImageReference: AzureRM.Compute
+Set-AzureRmSnapshotUpdateKeyEncryptionKey: AzureRM.Compute
+Set-AzureRmVM: AzureRM.Compute
+Set-AzureRmVMAccessExtension: AzureRM.Compute
+Set-AzureRmVMADDomainExtension: AzureRM.Compute
+Set-AzureRmVMAEMExtension: AzureRM.Compute
+Set-AzureRmVMBackupExtension: AzureRM.Compute
+Set-AzureRmVMBginfoExtension: AzureRM.Compute
+Set-AzureRmVMBootDiagnostics: AzureRM.Compute
+Set-AzureRmVMChefExtension: AzureRM.Compute
+Set-AzureRmVMCustomScriptExtension: AzureRM.Compute
+Set-AzureRMVMDataDisk: AzureRM.Compute
+Set-AzureRMVMDiagnosticsExtension: AzureRM.Compute
+Set-AzureRmVMDiskEncryptionExtension: AzureRM.Compute
+Set-AzureRmVMDscExtension: AzureRM.Compute
+Set-AzureRmVMExtension: AzureRM.Compute
+Set-AzureRmVMOperatingSystem: AzureRM.Compute
+Set-AzureRmVMOSDisk: AzureRM.Compute
+Set-AzureRmVMPlan: AzureRM.Compute
+Set-AzureRmVMSourceImage: AzureRM.Compute
+Set-AzureRMVMSqlServerExtension: AzureRM.Compute
+Set-AzureRmVmss: AzureRM.Compute
+Set-AzureRmVmssOsProfile: AzureRM.Compute
+Set-AzureRmVmssStorageProfile: AzureRM.Compute
+Set-AzureRmVmssVM: AzureRM.Compute
+Start-AzureRmVM: AzureRM.Compute
+Start-AzureRmVmss: AzureRM.Compute
+Stop-AzureRmVM: AzureRM.Compute
+Stop-AzureRmVmss: AzureRM.Compute
+Test-AzureRmVMAEMExtension: AzureRM.Compute
+Update-AzureRmAvailabilitySet: AzureRM.Compute
+Update-AzureRmContainerService: AzureRM.Compute
+Update-AzureRmDisk: AzureRM.Compute
+Update-AzureRmImage: AzureRM.Compute
+Update-AzureRmSnapshot: AzureRM.Compute
+Update-AzureRmVM: AzureRM.Compute
+Update-AzureRmVmss: AzureRM.Compute
+Update-AzureRmVmssInstance: AzureRM.Compute
 _isModulePage: true
 ---
 

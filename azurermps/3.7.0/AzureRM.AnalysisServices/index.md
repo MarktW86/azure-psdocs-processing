@@ -10,13 +10,13 @@ content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azur
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.AnalysisServices/v0.1.0/AzureRM.AnalysisServices.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04f63f6e685743ace2c57eb157574e34e8610b1c
 ms.topic: conceptual
-Get-AzureRmAnalysisServicesServer: Analysis Services
-New-AzureRmAnalysisServicesServer: Analysis Services
-Remove-AzureRmAnalysisServicesServer: Analysis Services
-Resume-AzureRmAnalysisServicesServer: Analysis Services
-Set-AzureRmAnalysisServicesServer: Analysis Services
-Suspend-AzureRmAnalysisServicesServer: Analysis Services
-Test-AzureRmAnalysisServicesServer: Analysis Services
+Get-AzureRmAnalysisServicesServer: AzureRM.AnalysisServices
+New-AzureRmAnalysisServicesServer: AzureRM.AnalysisServices
+Remove-AzureRmAnalysisServicesServer: AzureRM.AnalysisServices
+Resume-AzureRmAnalysisServicesServer: AzureRM.AnalysisServices
+Set-AzureRmAnalysisServicesServer: AzureRM.AnalysisServices
+Suspend-AzureRmAnalysisServicesServer: AzureRM.AnalysisServices
+Test-AzureRmAnalysisServicesServer: AzureRM.AnalysisServices
 _isModulePage: true
 ---
 

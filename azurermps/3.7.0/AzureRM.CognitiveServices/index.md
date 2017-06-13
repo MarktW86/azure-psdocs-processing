@@ -9,13 +9,13 @@ content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azur
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.CognitiveServices/v0.5.0/AzureRM.CognitiveServices.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04f63f6e685743ace2c57eb157574e34e8610b1c
 ms.topic: conceptual
-Get-AzureRmCognitiveServicesAccount: Cognitive Services
-Get-AzureRmCognitiveServicesAccountKey: Cognitive Services
-Get-AzureRmCognitiveServicesAccountSkus: Cognitive Services
-New-AzureRmCognitiveServicesAccount: Cognitive Services
-New-AzureRmCognitiveServicesAccountKey: Cognitive Services
-Remove-AzureRmCognitiveServicesAccount: Cognitive Services
-Set-AzureRmCognitiveServicesAccount: Cognitive Services
+Get-AzureRmCognitiveServicesAccount: AzureRM.CognitiveServices
+Get-AzureRmCognitiveServicesAccountKey: AzureRM.CognitiveServices
+Get-AzureRmCognitiveServicesAccountSkus: AzureRM.CognitiveServices
+New-AzureRmCognitiveServicesAccount: AzureRM.CognitiveServices
+New-AzureRmCognitiveServicesAccountKey: AzureRM.CognitiveServices
+Remove-AzureRmCognitiveServicesAccount: AzureRM.CognitiveServices
+Set-AzureRmCognitiveServicesAccount: AzureRM.CognitiveServices
 _isModulePage: true
 ---
 

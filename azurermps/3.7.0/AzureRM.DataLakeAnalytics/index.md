@@ -10,31 +10,31 @@ content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azur
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.DataLakeAnalytics/v2.7.0/AzureRM.DataLakeAnalytics.md
 gitcommit: https://github.com/Azure/azure-docs-powershell/blob/04f63f6e685743ace2c57eb157574e34e8610b1c
 ms.topic: conceptual
-Add-AzureRmDataLakeAnalyticsDataSource: Data Lake
-Add-AzureRmDataLakeAnalyticsFirewallRule: Data Lake
-Get-AzureRmDataLakeAnalyticsAccount: Data Lake
-Get-AzureRmDataLakeAnalyticsCatalogItem: Data Lake
-Get-AzureRmDataLakeAnalyticsDataSource: Data Lake
-Get-AzureRmDataLakeAnalyticsFirewallRule: Data Lake
-Get-AzureRmDataLakeAnalyticsJob: Data Lake
-New-AzureRmDataLakeAnalyticsAccount: Data Lake
-New-AzureRmDataLakeAnalyticsCatalogCredential: Data Lake
-New-AzureRmDataLakeAnalyticsCatalogSecret: Data Lake
-Remove-AzureRmDataLakeAnalyticsAccount: Data Lake
-Remove-AzureRmDataLakeAnalyticsCatalogCredential: Data Lake
-Remove-AzureRmDataLakeAnalyticsCatalogSecret: Data Lake
-Remove-AzureRmDataLakeAnalyticsDataSource: Data Lake
-Remove-AzureRmDataLakeAnalyticsFirewallRule: Data Lake
-Set-AzureRmDataLakeAnalyticsAccount: Data Lake
-Set-AzureRmDataLakeAnalyticsCatalogCredential: Data Lake
-Set-AzureRmDataLakeAnalyticsCatalogSecret: Data Lake
-Set-AzureRmDataLakeAnalyticsDataSource: Data Lake
-Set-AzureRmDataLakeAnalyticsFirewallRule: Data Lake
-Stop-AzureRmDataLakeAnalyticsJob: Data Lake
-Submit-AzureRmDataLakeAnalyticsJob: Data Lake
-Test-AzureRmDataLakeAnalyticsAccount: Data Lake
-Test-AzureRmDataLakeAnalyticsCatalogItem: Data Lake
-Wait-AzureRmDataLakeAnalyticsJob: Data Lake
+Add-AzureRmDataLakeAnalyticsDataSource: AzureRM.DataLakeAnalytics
+Add-AzureRmDataLakeAnalyticsFirewallRule: AzureRM.DataLakeAnalytics
+Get-AzureRmDataLakeAnalyticsAccount: AzureRM.DataLakeAnalytics
+Get-AzureRmDataLakeAnalyticsCatalogItem: AzureRM.DataLakeAnalytics
+Get-AzureRmDataLakeAnalyticsDataSource: AzureRM.DataLakeAnalytics
+Get-AzureRmDataLakeAnalyticsFirewallRule: AzureRM.DataLakeAnalytics
+Get-AzureRmDataLakeAnalyticsJob: AzureRM.DataLakeAnalytics
+New-AzureRmDataLakeAnalyticsAccount: AzureRM.DataLakeAnalytics
+New-AzureRmDataLakeAnalyticsCatalogCredential: AzureRM.DataLakeAnalytics
+New-AzureRmDataLakeAnalyticsCatalogSecret: AzureRM.DataLakeAnalytics
+Remove-AzureRmDataLakeAnalyticsAccount: AzureRM.DataLakeAnalytics
+Remove-AzureRmDataLakeAnalyticsCatalogCredential: AzureRM.DataLakeAnalytics
+Remove-AzureRmDataLakeAnalyticsCatalogSecret: AzureRM.DataLakeAnalytics
+Remove-AzureRmDataLakeAnalyticsDataSource: AzureRM.DataLakeAnalytics
+Remove-AzureRmDataLakeAnalyticsFirewallRule: AzureRM.DataLakeAnalytics
+Set-AzureRmDataLakeAnalyticsAccount: AzureRM.DataLakeAnalytics
+Set-AzureRmDataLakeAnalyticsCatalogCredential: AzureRM.DataLakeAnalytics
+Set-AzureRmDataLakeAnalyticsCatalogSecret: AzureRM.DataLakeAnalytics
+Set-AzureRmDataLakeAnalyticsDataSource: AzureRM.DataLakeAnalytics
+Set-AzureRmDataLakeAnalyticsFirewallRule: AzureRM.DataLakeAnalytics
+Stop-AzureRmDataLakeAnalyticsJob: AzureRM.DataLakeAnalytics
+Submit-AzureRmDataLakeAnalyticsJob: AzureRM.DataLakeAnalytics
+Test-AzureRmDataLakeAnalyticsAccount: AzureRM.DataLakeAnalytics
+Test-AzureRmDataLakeAnalyticsCatalogItem: AzureRM.DataLakeAnalytics
+Wait-AzureRmDataLakeAnalyticsJob: AzureRM.DataLakeAnalytics
 _isModulePage: true
 ---
 

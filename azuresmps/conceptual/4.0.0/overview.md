@@ -4,14 +4,14 @@ description: An overview of Azure PowerShell with links to installation and conf
 author: sdwheeler
 manager: carmonm
 ms.product: azure
-ms.service: powershell
+ms.service: azure-powershell
 ms.devlang: powershell
-ms.topic: reference
+ms.topic: conceptual
 ms.author: sewhee
 ms.manager: carmonm
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/docs-conceptual/overview.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/docs-conceptual/overview.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/538c30ca93f595f021fb665eedd873027e224d2a
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/1f41477e4a16cc160aadf6db9b52aec9b2e06705
 ---
 
 # Overview of the Azure PowerShell Service Management module
