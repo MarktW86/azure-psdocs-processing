@@ -6,13 +6,13 @@ author: sdwheeler
 ms.author: sewhee
 manager: carmonm
 ms.product: azure
-ms.service: azure-resource-manager
+ms.service: azure-powershell
 ms.devlang: powershell
 ms.topic: get-started-article
 ms.date: 03/30/2017
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/docs-conceptual/get-started-azureps.md
 original_content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/docs-conceptual/get-started-azureps.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/f2d0b05796448ad1bb3d0ec2210b33b7604b5435
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/1f41477e4a16cc160aadf6db9b52aec9b2e06705
 ---
 # Getting started with Azure PowerShell
 
@@ -34,7 +34,7 @@ The first step is to make sure you have the latest version of the Azure PowerShe
 
 Sign on interactively:
 
-1. Type `Login-AzureRmAccount`.  You will get dialog box asking for your Azure credentials. Option '-EnvironmentName' can let you login in Azure China or Azure Germany. 
+1. Type `Login-AzureRmAccount`.  You will get dialog box asking for your Azure credentials. Option '-EnvironmentName' can let you login in Azure China or Azure Germany.
    e.g. Login-AzureRmAccount -EnvironmentName AzureChinaCloud
 
 2. Type the email address and password associated with your account. Azure authenticates and saves
