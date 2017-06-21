@@ -1,29 +1,8 @@
 {
   "need_generate_pdf": false,
   "need_generate_intellisense": false,
-  "package_version" : "latest",
-  "docsets_to_publish": [
-    {
-      "docset_name": "azure-powershell",
-      "build_source_folder": ".",
-      "build_output_subfolder": "azure-powershell",
-      "locale": "en-us",
-      "monikers": [],
-      "open_to_public_contributors": true,
-      "type_mapping": {
-        "Conceptual": "Content",
-        "ManagedReference": "Content",
-        "RestApi": "Content",
-        "AzurePSModulePage": "Content"
-      },
-      "build_entry_point": "docs",
-      "template_folder": "_themes",
-      "version": 0,
-      "customized_template_paths": [
-        "_dependentPackages/azurecli.plugins/azurecli"
-      ]
-    }
-  ],
+  "package_version": "latest",
+  "docsets_to_publish": [],
   "notification_subscribers": [],
   "branches_to_filter": [],
   "skip_source_output_uploading": false,
@@ -36,6 +15,7 @@
       "branch_mapping": {}
     }
   ],
+  "need_generate_pdf_url_template": false,
   "dependent_packages": [
     {
       "path_to_root": "_dependentPackages/azurecli.plugins",
@@ -43,6 +23,5 @@
       "version": "latest",
       "nuget_feed": "https://www.myget.org/F/op/api/v2"
     }
-  ],
-  "need_generate_pdf_url_template": false
-} 
+  ]
+}
